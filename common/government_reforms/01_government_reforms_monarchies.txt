@@ -48,6 +48,9 @@ autocracy_reform = {
 	modifiers = {
 		unjustified_demands = -0.1
 	}
+	custom_attributes = {
+		enables_royal_council = yes
+	}
 	ai = {
 		factor = 0.5 #generic
 	}
@@ -477,10 +480,10 @@ english_monarchy = {
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
 		has_parliament = yes
+	}
 
-		custom_attributes = {
-			blocked_call_diet = yes
-		}
+	custom_attributes = {
+		blocked_call_diet = yes
 	}
 }
 
@@ -1125,6 +1128,7 @@ nayankara_reform = {
 			religion = buddhism
 			religion = vajrayana
 			religion = mahayana
+
 		}
 		OR = {
 			culture_group = dravidian

@@ -14,7 +14,9 @@ theocracy_mechanic = {
 	different_religion_group_acceptance = -50
 	religion = yes
 	heir = yes
-	can_customise_heir = no	# This is new I think?
+#	can_customise_heir = no	# This is new I think?
+# If something is no longer present in the other files just disable it rather than delete.
+# You never know if it's gonna come in handy.
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
 
@@ -252,6 +254,7 @@ pious_merchants_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		global_trade_power = 0.05
+		trade_deals_slots = 0.01
 		maratha_muslim_influence_modifier = 0.1
 		rajput_muslim_influence_modifier = 0.1
 		burghers_influence_modifier = 0.1
@@ -570,11 +573,9 @@ theocratic_democracy_reform = {
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
 		has_parliament = yes
-		custom_attributes = {
-			blocked_call_diet = yes
-		}
-	# custom_attributes = { # This moved into the conditional argument.
-		# blocked_call_diet = yes
+	}
+	custom_attributes = {
+		blocked_call_diet = yes
 	}
 	ai = {
 		factor = 1
@@ -634,13 +635,10 @@ regionally_elected_commanders = {
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
 		has_parliament = yes
-		custom_attributes = {
-			blocked_call_diet = yes
-		}
 	}
-	# custom_attributes = {
-		# blocked_call_diet = yes
-	# }
+	custom_attributes = {
+		blocked_call_diet = yes
+	}
 	ai = {
 		factor = 1
 		modifier = {
@@ -694,7 +692,7 @@ monastic_elections_reform = {
 		allow = { has_dlc = "Res Publica" }
 		heir = no
 		election_on_death = yes
-		# Vanilla has some more things, like a 4 year term. Adding it since vanilla is great.
+		# Vanilla has some more things, like a 4 year term. Adding it since vanilla is obviously the greatest mod of all.
 		duration = 4
 		has_term_election = yes
 		# End of vanilla additionsn for this reform.
@@ -733,7 +731,7 @@ commander_king_reform = {
 			has_reform = monastic_order_reform
 			tag = KOJ
 		}
-		full_idea_group = theocracy_gov_ideas
+		full_idea_group = aristocracy_ideas
 	}
 	modifiers = {
 		devotion = 0.1

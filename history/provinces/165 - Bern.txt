@@ -1,6 +1,4 @@
 #165 - Bern
-#Region - Germany
-#Area - Romandie
 
 owner = SWI
 controller = SWI 
@@ -15,6 +13,7 @@ base_manpower = 4
 is_city = yes
 fort_15th = yes
 add_core = SWI
+extra_cost = 8
 center_of_trade = 2
 
 

@@ -5756,7 +5756,7 @@ frloc_tags_noart_sg_fem_cons_de_en_11a = {
 		# Africa / Afrique
 		tag = MBA tag = MDI tag = MLI tag = SFA tag = SOF tag = ZAN
 		# East African Additions / Ajouts en Afrique orientale
-		tag = ABB tag = DAM tag = HAR tag = HOB tag = JIM tag = PTE
+		tag = ABB tag = DMN tag = HAR tag = HOB tag = JIM tag = PTE
 		# Kongo, Great Lakes & Central Africa / Congo, Grands Lacs et Afrique centrale
 		tag = KIK tag = SYO tag = LDU
 		# African Additions / Ajouts en Afrique

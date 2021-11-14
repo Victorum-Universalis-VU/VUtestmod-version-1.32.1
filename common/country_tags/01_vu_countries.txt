@@ -231,7 +231,7 @@ AHE = "countries/Austria_Hungary.txt"
 LES = "countries/Lesbos.txt"
 
 #BT - Holy Orders
-DAM = "countries/Damietta.txt"
+DMN = "countries/Damietta.txt"
 KNT = "countries/KnightsTemplar.txt"
 LTE = "countries/LatinEmpire.txt"
 
@@ -362,7 +362,7 @@ SGM = "countries/San_Gimignano.txt"
 #BT - Low Countries
 BEL = "countries/Belgium.txt"
 GRN = "countries/Groningen.txt"
-ZND = "countries/Zenden.txt"
+ZDN = "countries/Zenden.txt"
 
 #VU low countries
 LBG = "countries/Limburg.txt"
@@ -458,7 +458,6 @@ WNS = "countries/Ouarsenis.txt"
 ZAB = "countries/Zab.txt"
 
 #VU additions - by San Felipe
-ZUL = "countries/Zulu.txt"
 #Angola
 KSM = "countries/Kisama.txt"
 MBW = "countries/Mbwila.txt"
