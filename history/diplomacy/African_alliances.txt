@@ -226,7 +226,7 @@ vassal = {
 #Damot
 vassal = {
 	first = ETH
-	second = DAM
+	second = DMN
 	start_date = 1444.1.1
 	end_date = 1670.1.1
 }

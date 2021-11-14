@@ -8377,6 +8377,7 @@
 		custom_attributes = {
 			enables_marcher_lords = yes #25% vassal force limit and manpower
 			enables_expansion_of_noble_privileges = yes
+		}
 		ai = {
 			factor = 1
 		}

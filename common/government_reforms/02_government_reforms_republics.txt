@@ -106,15 +106,13 @@ protectorate_parliament_reform = {
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
 		has_parliament = yes
-		custom_attributes = {
-			blocked_call_diet = yes
-		}
 	}
 	has_term_election = no
 	custom_attributes = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		blocked_call_diet = yes
 	}
 }
 
@@ -185,6 +183,16 @@ merchants_reform = {
 	modifiers = {
 		max_absolutism = -50
 		merchants = 1
+		trade_deals_slots = 0.03
+		total_liberalism_modifier = 0.20
+	}
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -248,7 +256,8 @@ merchants_reform = {
 		
 		modifier = {
 			factor = 0
-			total_development = 100  #num_of_cities = 11 - probably means that ai will pick this if dev >= 100
+			#total_development = 100 - probably means that ai will pick this if dev >= 100
+			num_of_cities = 11
 		}
 		
 		modifier = {
@@ -277,7 +286,16 @@ venice_merchants_reform = {
 		max_absolutism = -50
 		merchants = 1
 		yearly_corruption = -0.1
-		trade_deals_slots = 0.03    #Added in VU
+		trade_deals_slots = 0.03
+		total_liberalism_modifier = 0.20
+	}
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -286,6 +304,7 @@ venice_merchants_reform = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = VEN
+			have_had_reform = venice_merchants_reform
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = venice_merchants_reform
@@ -342,8 +361,8 @@ pirate_republic_reform = {
 		max_absolutism = -50
 		naval_forcelimit_modifier = 0.5
 		capture_ship_chance = 0.33
-		state_governing_cost = 0.75 # vanilla changed this? I will keep it in for now. Old argument disabled.
-#		governing_cost = 0.75
+#		state_governing_cost = 0.75 # This was probably an old entry from GE.
+		governing_cost = 0.75
 		may_perform_slave_raid_on_same_religion = yes
 	}
 	trigger = {
@@ -409,7 +428,7 @@ noble_elite_reform = {
 		# NOT = { has_reform = self_governing_colony_government }
 	# }
 	modifiers = {
-		army_tradition = 0.10
+		army_tradition = 0.25 #0.10
 		max_absolutism = -20
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
@@ -645,6 +664,7 @@ peasants_republic = {
 		production_efficiency = 0.1
 		land_morale = 0.05
 		max_absolutism = -50
+		total_liberalism_modifier = 0.20
 	}
 	effect = {
 		hidden_effect = {
@@ -661,6 +681,12 @@ peasants_republic = {
 				}
 			}
 		}
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -684,10 +710,19 @@ kongsi_federation = {
 		primary_culture = hakka
 		technology_group = chinese
 	}
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
 	modifiers = {
 		production_efficiency = 0.1
 		republican_tradition = 0.5
 		max_absolutism = -50
+		total_liberalism_modifier = 0.20
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -750,8 +785,16 @@ trading_city = {
 		max_absolutism = -20
 		global_trade_power = 0.1
 		max_absolutism = -20
+		total_liberalism_modifier = 0.10
 	}
-
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
 	custom_attributes = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
@@ -802,6 +845,15 @@ ambrosian_republic = {
 		land_morale = 0.05
 		governing_capacity = 100 # Vanilla: 50
 		max_absolutism = -30
+		total_liberalism_modifier = 0.10
+	}
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -833,6 +885,15 @@ veche_republic = {
 		governing_capacity = 100 # Vanilla: 50
 		max_absolutism = -50
 		trade_deals_slots = 0.02    #Added in VU
+		total_liberalism_modifier = 0.20
+	}
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -924,7 +985,7 @@ veche_republic = {
 	}
 	duration = 4
 }
-}
+
 # Notepad++ compare does not like this part of the file. I can only hope for the best.
 improved_veche_republic = {
 	icon = "merchant"
@@ -1072,21 +1133,30 @@ american_republic = {
 		war_exhaustion = -0.04
 		stability_cost_modifier = -0.1
 		max_absolutism = -20
+		total_liberalism_modifier = 0.30
+	}
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	}
 
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-#		blocked_call_diet = yes # Old block diet function disabled, moved to new.
+		blocked_call_diet = yes
 	}
 	conditional = {
 		allow = {
 			has_dlc = "Common Sense"
 		}
 		has_parliament = yes
-		custom_attributes = {
-			blocked_call_diet = yes
-		}
+		# custom_attributes = {
+			# blocked_call_diet = yes
+		# }
 	}
 	duration = 4
 }
@@ -1117,23 +1187,31 @@ federal_republic = {
 		diplomatic_reputation = 1
 		global_spy_defence = 0.1
 		max_absolutism = -30
+		total_liberalism_modifier = 0.30
 	}
-
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-#		blocked_call_diet = yes
+		blocked_call_diet = yes
 	}
 	conditional = {
 		allow = {
 			has_dlc = "Common Sense"
 		}
 		has_parliament = yes
-		custom_attributes = {
-			blocked_call_diet = yes
+		# custom_attributes = {
+			# blocked_call_diet = yes
+		# }
 		}
-	}
 	duration = 4
+	}
 }
 
 colonial_government = {
@@ -1289,9 +1367,15 @@ dutch_republic = {
 		governing_capacity = 100 #Vanilla: 50
 		max_absolutism = -30
 		trade_deals_slots = 0.02    #Added in VU
+		total_liberalism_modifier = 0.20
 	}
-
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
 	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 		if = {
 			# Monarchs seize power
 			limit = { government = monarchy }
@@ -1345,13 +1429,13 @@ cossacks_reform = {
 	government_abilities = {
 		cossacks_mechanic
 	}
-
-	conditional = {
-		allow = { has_dlc = "Origins" }
-		custom_attributes = {
-			has_itinerant_capital = yes
-		}
-	}
+	# The following argument has been disabled.
+	# conditional = {
+		# allow = { has_dlc = "Origins" }
+		# custom_attributes = {
+			# has_itinerant_capital = yes
+		# }
+	# }
 	valid_for_new_country = yes
 
 	nation_designer_trigger = {
@@ -1366,13 +1450,21 @@ cossacks_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 60
-
+	effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
+	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
+	}
 	modifiers = {
 		cavalry_power = 0.2
 		cavalry_cost = -0.2
 		cav_to_inf_ratio = 0.2
-		governing_capacity = 100    #Was 50 in GE/Vanilla
+		governing_capacity = 50
 		max_absolutism = -40
+		total_liberalism_modifier = 0.20
 	}
 	duration = 4
 }
@@ -1389,6 +1481,18 @@ republican_authoritarianism_reform = {
 		OR = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Populist_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Populist_Influence
+			value = -1
 		}
 	}
 	modifiers = {
@@ -1442,8 +1546,10 @@ republicanism_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = {
-			has_reform = pirate_republic_reform
-			culture_group = latin
+			OR = {
+				has_reform = pirate_republic_reform
+				culture_group = latin
+			}
 		}
 		OR = {
 			is_revolutionary = no
@@ -1591,8 +1697,12 @@ frequent_elections_reform = {
 			which = Populist_Influence
 			value = 1
 		}
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 	}
 	removed_effect = {
+		GE_remove_liberalism = yes
+		GE_set_liberalism = yes
 		change_variable = {
 			which = Populist_Influence
 			value = -1
@@ -1600,6 +1710,7 @@ frequent_elections_reform = {
 	}
 	modifiers = {
 		max_absolutism = -10
+		total_liberalism_modifier = 0.10
 		election_cycle = -1
 	}
 	ai = {

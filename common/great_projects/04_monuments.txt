@@ -4671,14 +4671,21 @@ gobekli_tepe = {
 	can_use_modifiers_trigger = {	
 		OR = {
 			AND = {
-				culture_group = levantine
+				culture_group = turko_semitic
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
 				}
 			}
 			AND = {
-				culture_group = Iranian
+				culture_group = iranian
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			AND = {
+				culture_group = turkish_g
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -8009,7 +8016,7 @@ mount_nemrut = {
 	can_use_modifiers_trigger = {	
             OR = {
 				AND = { 
-				culture_group = zoroastrian
+				culture_group = caucasian
 		         OR = {
 				has_owner_culture = yes
 				has_owner_accepted_culture = yes

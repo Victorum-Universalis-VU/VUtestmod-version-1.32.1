@@ -143,7 +143,7 @@ spriteTypes = {
 	spriteType = {
 		name = "gfx_select_building_large_bg3"
 		texturefile = "gfx/interface/select_building_large_bg3.dds"
-	}	
+	}																	 
 	
 	spriteType = {
 		name = "GFX_select_building_small_bg"
@@ -456,6 +456,13 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
+
+	spriteType = {
+		name = "GFX_provinceview_bg_state"
+		texturefile = "gfx/interface/provinceview_bg_state.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
 	
 	spriteType = {
 		name = "GFX_provinceview_bg_foreign_large_state"
@@ -512,6 +519,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_cawa_slot"
+		texturefile = "gfx/interface/cawa_slot.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_patriarchy_slot"
 		texturefile = "gfx/interface/patriarchy_slot.dds"
 	}	
@@ -541,6 +553,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_amount_of_banners"
 		texturefile = "gfx/interface/ideas_EU4/amount_of_banners.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_amount_of_cawa"
+		texturefile = "gfx/interface/ideas_EU4/amount_of_cawa.dds"
 	}	
 	
 	spriteType = {
@@ -1329,7 +1346,7 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_settlement_growth_button"
+		name = "GFX_settlement_g_button"
 		#texturefile = "gfx/interface/settlement_growth_button.dds"
 		texturefile = "gfx/interface/development_button_tax.dds"
 	}
@@ -1416,4 +1433,5 @@ spriteTypes = {
 		name = "GFX_autonomy_increased"
 		texturefile = "gfx/interface/ideas_EU4/autonomy_increased.dds"
 	}
+
 }
