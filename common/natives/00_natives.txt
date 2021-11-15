@@ -51,7 +51,6 @@ natives_american_inuit = {
 		### END colonial_canada ###
 		
 		5591 # Jan Mayen
-		2025 # South Georgia
 		
 	}
 }

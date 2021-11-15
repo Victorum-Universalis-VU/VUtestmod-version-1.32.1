@@ -2,7 +2,7 @@
 
 owner = KOR
 controller = KOR
-culture = jeju
+culture = korean
 religion = mahayana
 capital = "Jeju"
 trade_goods = fruit # famous worldwide for its mandarins

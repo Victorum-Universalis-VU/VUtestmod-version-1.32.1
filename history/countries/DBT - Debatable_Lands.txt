@@ -8,6 +8,11 @@ capital = 5865 # Debatable Land
 government_rank = 1
 national_focus = MIL
 
+add_country_modifier = {
+    name = "anarchic_riever_modifier"
+    duration = -1
+}
+
 1494.1.1 = {
 	monarch = {
 		name = "Johnnie "
