@@ -338,7 +338,6 @@ country_event = {
 					area = naples_area
 					area = apulia_area
 					area = calabria_area
-					#area = western_sicily_area    #Empty Area
 					province_id = 120
 				}
 			}
@@ -371,7 +370,6 @@ country_event = {
 						area = naples_area
 						area = apulia_area
 						area = calabria_area
-						#area = western_sicily_area      #Empty Area
 						province_id = 120
 					}
 					OR = {
@@ -398,7 +396,6 @@ country_event = {
 						area = naples_area
 						area = apulia_area
 						area = calabria_area
-						#area = western_sicily_area      #Empty Area
 						province_id = 120
 					}
 				}
@@ -426,7 +423,6 @@ country_event = {
 						area = naples_area
 						area = apulia_area
 						area = calabria_area
-						#area = western_sicily_area      #Empty Area
 						province_id = 120
 					}
 				}

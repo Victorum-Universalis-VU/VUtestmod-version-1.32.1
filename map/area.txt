@@ -214,10 +214,6 @@ bahama_channel_area = {
 	1505 1525 6085 6088
 }
 
-denmark_strait_area = {
-	1474 1475 1480 5482
-}
-
 gulf_of_guinea_sea_area = {
 	1464 1465 1466 7302 7303 7304 7377 7385 7386
 }
@@ -287,7 +283,7 @@ western_atlantic_area = {
 }
 
 denmark_strait_area = {
-	1477 1481 5483 
+	1474 1475 1477 1480 1481 5482 5483 
 }
 
 davis_strait_area = {
@@ -1827,7 +1823,7 @@ indian_ocean_islands_area = { #5
 }
 
 papua_area = { #5
-	1236 1237 2719 2720 2721 2722 5090 5099 5132 5133 5136 5148 5153 5159 5160 5166 5169 5179 5183 5199
+	1236 1237 2719 2720 2721 2722 5090 5099 5132 5133 5136 5148 5149 5153 5159 5160 5166 5169 5179 5183 5199
 }
 
 vogelkop_area = { #4
@@ -4640,7 +4636,6 @@ unused_area = {
 #eastern_ireland_area = {}
 #western_ireland_area = {}
 #seine_area = {}
-#brabant_area = {}
 #north_karelia = {}
 #coromandel_area = {}
 #carnatic_area = {}
@@ -4794,8 +4789,6 @@ unused_area = {
 #west_mindanao_area = {}
 #west_micronesia_area = {}
 #eastern_polynesia_area = {}
-#ostra_svealand_area = {}
-#algiers_area = {}
 #west_mindanao_area = {}
 #tuamotus_area = {}
 #east_aures_area = {}

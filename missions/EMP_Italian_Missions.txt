@@ -56,7 +56,6 @@ emp_ita_development_branch = {
 				area = abruzzo_area
 				area = naples_area
 				area = sicily_area
-				#area = western_sicily_area
 				area = calabria_area
 				area = apulia_area
 			}
@@ -70,7 +69,6 @@ emp_ita_development_branch = {
 						area = abruzzo_area
 						area = naples_area
 						area = sicily_area
-						#area = western_sicily_area
 						area = calabria_area
 						area = apulia_area
 					}
@@ -88,7 +86,6 @@ emp_ita_development_branch = {
 							area = abruzzo_area
 							area = naples_area
 							area = sicily_area
-							#area = western_sicily_area
 							area = calabria_area
 							area = apulia_area
 						}

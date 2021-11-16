@@ -242,7 +242,6 @@ conquer_the_caucasus_akk_provinces = {
 		area = shirvan_area
 		area = imereti_area
 		area = samtskhe_area
-		area = kartli_kakheti_area
 		#BT additions:
 		province_id = 2204
 		province_id = 3253
@@ -366,17 +365,12 @@ subjugate_bohemia_provinces = {
 	}
 }
 recover_silesia_provinces = {
-	OR = {
-		area = silesia_area
-		#BT additions
-		area = lower_silesia_area
-		area = middle_silesia_area
-	}
+	area = silesia_area
 }
 partition_poland_provinces = {
 	OR = {
 		area = red_ruthenia_area
-		area = central_galicia_area
+		#area = central_galicia_area
 		province_id = 7274 #Bukovina
 		province_id = 3156 #Suceava
 		province_id = 7272 #Zalishchyky
@@ -460,11 +454,7 @@ connect_the_prussian_lands_provinces = { #This is me saying "Fuck it" and adding
 	}
 }
 pru_conquer_silesia_provinces = {
-	OR = {
-		area = silesia_area
-		#BT additions
-		area = lower_silesia_area
-	}
+	area = silesia_area
 	NOT = {
 		province_id = 3142 #Because Brandenburg never conquered it.
 	}
@@ -498,9 +488,9 @@ conquer_southern_greece_provinces = {
 	OR = {
 		area = morea_area
 		area = western_aegean_area
-		area = euboea_area
+		#area = euboea_area
 		area = aetolia_area
-		area = northern_peloponnesus_area
+		#area = northern_peloponnesus_area
 		area = northern_greece_area
 		province_id = 164
 	}
@@ -638,7 +628,6 @@ conquer_egypt_provinces = {
 		area = said_area
 		area = vostani_area
 		area = al_wahat_area
-		area = gulf_of_arabia_area
 		#BT moved to Tripolitania
 		#area = cyrenaica_area
 		#BT additions
@@ -676,7 +665,7 @@ conquer_tunisia_provinces = {
 	OR = {
 		#BT adjusted to encompass historical regions of Tunisia under Suleiman
 		area = tunisia_area
-		area = east_aures_area
+		#area = east_aures_area
 		area = djerba_area
 	}
 	NOT = {
@@ -686,11 +675,11 @@ conquer_tunisia_provinces = {
 }
 subjugate_algiers_provinces = {
 	OR = {
-		area = west_aures_area
-		area = constantine_area
+		#area = west_aures_area
+		#area = constantine_area
 		area = kabylia_area
 		area = barbary_coast_area
-		area = algiers_area
+		#area = algiers_area
 		area = hautes_plaines_area
 		area = ouled_nail_area #Hopefully this is Sarahan Atlas
 	}
@@ -754,14 +743,14 @@ vassalize_lithuania_provinces = {
 		area = volhynia_area
 		area = podolia_volhynia_area
 		area = white_ruthenia_area
-		area = central_galicia_area
+		#area = central_galicia_area
 		area = eastern_volhynia_area
 		area = western_podolia_area
 		area = cherkasy_area
-		area = mazur_area
+		#area = mazur_area
 		area = vitebsk_area
 		area = polotsk_area
-		area = novogrudok_area
+		#area = novogrudok_area
 		area = yotvingia_area
 		area = trakai_area
 		area = east_dniepr_area
@@ -770,11 +759,7 @@ vassalize_lithuania_provinces = {
 	}
 }
 conquer_silesia_provinces = {
-	OR = {
-		area = silesia_area
-		#BT additions
-		area = lower_silesia_area
-	}
+	area = silesia_area
 }
 
 #Sweden
@@ -868,9 +853,9 @@ swe_subjugate_lithuania_provinces = {
 		#Technically it should give claims to whatever was Lithuania at the time, which was modern-day Belarus + parts of Russia + random pieces in modern-day Ukraine and Poland. But eh.
 		area = pripyat_area
 		area = polotsk_area
-		area = novogrudok_area
+		#area = novogrudok_area
 		area = vitebsk_area
-		area = mazur_area
+		#area = mazur_area
 		area = minsk_area
 		area = white_ruthenia_area
 		area = podlasie_area
@@ -1282,7 +1267,7 @@ rus_third_rome_mission_provinces = {
 		area = bulgaria_area
 		area = thrace_area
 		area = northern_thrace_area
-		area = western_thrace_area
+		#area = western_thrace_area
 		area = upper_thrace_area
 		area = danubian_plain_area
 		area = silistria_area
@@ -1512,7 +1497,7 @@ hun_ottoman_borders_four_provinces = {
 	OR = {
 		area = thrace_area
 		area = upper_thrace_area
-		area = western_thrace_area
+		#area = western_thrace_area
 		area = northern_thrace_area
 	}
 }
