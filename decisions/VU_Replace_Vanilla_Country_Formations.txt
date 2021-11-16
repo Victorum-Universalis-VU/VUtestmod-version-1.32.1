@@ -36,8 +36,6 @@ country_decisions = {
 						capital_scope = { area = ouled_nail_area }
 						capital_scope = { area = kabylia_area }
 						capital_scope = { area = north_saharan_area }
-						capital_scope = { area = west_aures_area }
-						capital_scope = { area = constantine_area }
 						capital_scope = { area = barbary_coast_area }
 					}
 				}
@@ -48,8 +46,6 @@ country_decisions = {
 					area = ouled_nail_area
 					area = kabylia_area
 					area = north_saharan_area
-					area = west_aures_area
-					area = constantine_area
 					area = barbary_coast_area
 				}
 			}
@@ -60,8 +56,6 @@ country_decisions = {
 				area = ouled_nail_area
 				area = kabylia_area
 				area = north_saharan_area
-				area = west_aures_area
-				area = constantine_area
 				area = barbary_coast_area
 			}
 			OR = {
@@ -82,8 +76,6 @@ country_decisions = {
 					area = ouled_nail_area
 					area = kabylia_area
 					area = north_saharan_area
-					area = west_aures_area
-					area = constantine_area
 					area = barbary_coast_area
 				}
 				value = 19			#At least 2/3 of Algeria's 28 provinces
@@ -124,20 +116,6 @@ country_decisions = {
 				add_permanent_claim = ALG
 			}
 			kabylia_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ALG
-			}
-			west_aures_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ALG
-			}
-			constantine_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
@@ -1983,7 +1961,6 @@ country_decisions = {
 							bt_trigger_sicily_areas = yes
 							area = corsica_sardinia_area
 							area = sardinia_area
-							area = cagliari_area
 						}
 						NOT = { is_claim = ROOT }
 						NOT = { is_core = ROOT }
@@ -2194,7 +2171,6 @@ country_decisions = {
 							area = marrekesh_area
 							area = sus_area
 							area = tafilalt_area
-							area = tagmudant_area
 						}
 					}
 				}
@@ -2208,7 +2184,6 @@ country_decisions = {
 				area = marrekesh_area
 				area = sus_area
 				area = tafilalt_area
-				area = tagmudant_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -2232,7 +2207,6 @@ country_decisions = {
 					area = marrekesh_area
 					area = sus_area
 					area = tafilalt_area
-					area = tagmudant_area
 				}
 				value = 19			#At least 2/3 of Morocco's 28 provinces
 			}
@@ -2287,13 +2261,6 @@ country_decisions = {
 				add_permanent_claim = MOR
 			}
 			western_morocco_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = MOR
-			}
-			tagmudant_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
@@ -3540,9 +3507,9 @@ country_decisions = {
 							num_of_owned_provinces_with = {
 								value = 6
 								OR = {
-									area = south_saxony_area
+									area = saxony_area
 									area = thuringia_area
-									area = northern_saxony_area
+									area = altmark_area
 								}
 								is_core = root
 							}
@@ -3554,9 +3521,9 @@ country_decisions = {
 						}
 					}
 					OR = {
-						area = south_saxony_area
+						area = saxony_area
 						area = thuringia_area
-						area = northern_saxony_area
+						area = altmark_area
 					}
 				}
 			}
@@ -3578,9 +3545,9 @@ country_decisions = {
 			num_of_owned_provinces_with = {
 				value = 6
 				OR = {
-					area = south_saxony_area
+					area = saxony_area
 					area = thuringia_area
-					area = northern_saxony_area
+					area = altmark_area
 				}
 				is_core = root
 			}
@@ -3588,7 +3555,7 @@ country_decisions = {
 		effect = {
 			change_tag = SAX
 			restore_country_name_effect = yes
-			south_saxony_area = {
+			saxony_area = {
 				limit = {
 					NOT = { owned_by = root }
 					NOT = { is_permanent_claim = root }
@@ -3602,7 +3569,7 @@ country_decisions = {
 				}
 				add_permanent_claim = root
 			}
-			northern_saxony_area = {
+			altmark_area = {
 				limit = {
 					NOT = { owned_by = root }
 					NOT = { is_permanent_claim = root }
@@ -4306,8 +4273,6 @@ country_decisions = {
 					OR = {
 						area = tunisia_area
 						area = djerba_area
-						area = djerid_area
-						area = east_aures_area
 					}
 				}
 			}
@@ -4316,8 +4281,6 @@ country_decisions = {
 			OR = {
 				area = tunisia_area
 				area = djerba_area
-				area = djerid_area
-				area = east_aures_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -4335,8 +4298,6 @@ country_decisions = {
 				OR = {
 					area = tunisia_area
 					area = djerba_area
-					area = djerid_area
-					area = east_aures_area
 				}
 				value = 10			#At least 2/3 of Tunisia's 15 provinces
 			}
@@ -4362,20 +4323,6 @@ country_decisions = {
 				add_permanent_claim = OTN
 			}
 			djerba_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = OTN
-			}
-			djerid_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = OTN
-			}
-			east_aures_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }

@@ -5389,13 +5389,6 @@ country_event = {
 					hidden = yes
 				}
 			}
-			western_sicily_area = {
-				add_province_modifier = {
-					name = Kingdom_Of_Sicily
-					duration = -1
-					hidden = yes
-				}
-			}
 		}
 	}
 	

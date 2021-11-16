@@ -1892,7 +1892,7 @@
  upper_hungary_area:0 "Upper Hungary"
  eastern_alfold_area:0 "East Alföld"
  bohemian_forest_area:0 "Bohemian Forest"
- middle_silesia_area:0 "Middle Silesia"
+ #middle_silesia_area:0 "Middle Silesia"
  lusatia_area:0 "Lusatia"
 
  #Cultures for BT13.0
