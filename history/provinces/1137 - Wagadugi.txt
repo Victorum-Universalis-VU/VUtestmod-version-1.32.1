@@ -1,8 +1,9 @@
 #1137 - Wagadugi
 
 #Senior of the Mossi Kingdoms centered here
-owner = MSI
-controller = MSI
+owner = WGD
+controller = WGD
+add_core = WGD
 add_core = MSI
 is_city = yes
 culture = mossi #mossi

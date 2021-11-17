@@ -1184,7 +1184,7 @@ estate_nobles_elite_guards = {
 	loyalty = 0.00
 	influence = 0.05
 	can_select = {
-		has_nobles_privilege_space = yes
+		has_noble_privilege_space = yes
 	}
 	is_valid = {
 		has_government_attribute = enables_elite_regiments
