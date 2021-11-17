@@ -1,7 +1,8 @@
 # No previous file for Tenkodogo
 
-owner = MSI
-controller = MSI
+owner = WGD
+controller = WGD
+add_core = WGD
 add_core = MSI
 is_city = yes
 culture = mossi 
