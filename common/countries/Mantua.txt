@@ -89,17 +89,27 @@ leader_names = {
 }
 
 ship_names = { 
-	"Alberto Pitentino" "Andrea Mantegna" "Anselmo de Lucca"
+	"Alberto Pitentino" 
+	"Andrea Mantegna" 
+	"Anselmo de Lucca"
 	"Barbara di Brandeburgo"
-	"Castelletto Borgo" "Corradi da Gonzaga"
-	Donatello
-	"Fiume Mincio" Formigosa
-	"Gianfrancesco Gonzaga" Ghibellini Guelphi
-	"Luca Fancelli" "Ludovico Gonzaga" "Luigi Gonzaga"
+	"Castelletto Borgo" 
+	"Corradi da Gonzaga"
+	"Donatello"
+	"Fiume Mincio" 
+	"Formigosa"
+	"Gianfrancesco Gonzaga" 
+	"Ghibellini" 
+	"Guelphi"
+	"Luca Fancelli" 
+	"Ludovico Gonzaga" 
+	"Luigi Gonzaga"
 	"Matilde Canossa"
 	"Pinamonte Bonacolsi"
 	"Rinaldo Bonacolsi"
-	"San Lorenzo" "San Sebastiano" Sant'Andrea
+	"San Lorenzo" 
+	"San Sebastiano" 
+	"Sant'Andrea"
 }
 
 army_names = {

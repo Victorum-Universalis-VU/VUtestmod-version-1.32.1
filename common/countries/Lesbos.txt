@@ -93,7 +93,24 @@ leader_names = {
 }
 
 ship_names = {
-	Lesbos Lemnos Mytilene Kastros Myrina Samothrace Thasos
+	"Lesbos"
+	"Lemnos" 
+	"Mytilene" 
+	"Kastros" 
+	"Myrina" 
+	"Samothrace" 
+	"Thasos"
+	"Agios Thomas" 	
+	"Athena"
+	"Felves" 
+	"Laouses" 
+	"Makronisi"
+	"Patroklou "
+	"Petalioi"
+	"Salamina"
+	"Styra"
+	"Ypsili"
+	"Basileus"
 }
 
 army_names = {

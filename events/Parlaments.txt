@@ -431,6 +431,7 @@ province_event = {
 		NOT = { has_province_modifier = rotten_borough }
 		OR = {
 			has_building = weapons
+			has_building = steam_engine_factory
 			has_building = barracks
 			has_building = regimental_camp
 			has_building = training_fields
@@ -1045,6 +1046,7 @@ province_event = {
 		has_seat_in_parliament = yes
 		OR = {
 			has_building = weapons
+			has_building = steam_engine_factory
 			has_building = barracks
 			has_building = regimental_camp
 			has_building = training_fields

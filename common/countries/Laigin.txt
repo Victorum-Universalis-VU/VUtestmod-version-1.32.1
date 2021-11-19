@@ -93,9 +93,20 @@ monarch_names = {
 }
 
 ship_names = {
-	Arklow
-	Carlow
-	Kilkenny
-	Laigin
-	Wexford Wicklow
+	"Arklow"
+	"Carlow"
+	"Kilkenny"
+	"Laigin"
+	"Wexford" 
+	"Wicklow"
+	"Clare"
+	"Cork"
+	"Deas Mhuman" 
+	"Kerry" 
+	"Lar Mumhan" 
+	"Limerick"
+	"Tipperary" 
+	"Tuad Mhuman"
+	"Urh Mumhan"  
+	"Waterford"
 }

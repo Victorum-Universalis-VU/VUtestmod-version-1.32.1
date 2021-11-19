@@ -1425,7 +1425,7 @@ country_decisions = {
 			NOT = { exists = PLC }
 			adm_tech = 20
 			OR = {
-				tag = MZA
+				tag = MAZ
 				AND = {
 					dominant_culture = polish
 					accepted_culture = polish

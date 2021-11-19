@@ -64,6 +64,7 @@ country_decisions = {
 					area = te_ika_a_maui_area
 					area = heretaunga_area
 					area = te_waipounamu_area
+					area = tokerau_area
 				}
 				is_city = yes
 			}
@@ -105,6 +106,12 @@ country_decisions = {
 				add_permanent_claim = NZL
 			}
 			te_waipounamu_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NZL
+			}
+			tokerau_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -179,6 +186,7 @@ country_decisions = {
 					area = te_ika_a_maui_area
 					area = heretaunga_area
 					area = te_waipounamu_area
+					area = tokerau_area
 				}
 				is_city = yes
 			}
@@ -212,6 +220,12 @@ country_decisions = {
 				add_permanent_claim = AOT
 			}
 			te_waipounamu_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AOT
+			}
+			tokerau_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

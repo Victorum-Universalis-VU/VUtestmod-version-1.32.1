@@ -610,6 +610,7 @@ has_manufactory_trigger = { #Province Scope
 		OR = {
 			has_building = wharf
 			has_building = weapons
+			has_building = steam_engine_factory
 			has_building = textile
 			has_building = tradecompany
 			has_building = farm_estate
@@ -645,6 +646,20 @@ has_manufactory_no_custom_tooltip_trigger = { #Province Scope
 			}
 		}
 		has_building = weapons
+	}
+	else_if = {
+		limit = {
+			OR = {
+				trade_goods = coal
+				trade_goods = copper
+				trade_goods = iron
+				trade_goods = lead
+				trade_goods = mercury
+				trade_goods = tin
+				trade_goods = zinc
+			}
+		}
+		has_building = steam_engine_factory
 	}
 	else_if = {
 		limit = {
@@ -709,6 +724,7 @@ has_manufactory_no_custom_tooltip_trigger = { #Province Scope
 has_no_manufactory_trigger = { #Province Scope
 	NOT = { has_building = wharf }
 	NOT = { has_building = weapons }
+	NOT = { has_building = steam_engine_factory }
 	NOT = { has_building = textile }
 	NOT = { has_building = tradecompany }
 	NOT = { has_building = farm_estate }
@@ -1433,7 +1449,7 @@ is_volcanic_area = { #polynesia and indonesia
 		area = batak_area
 		area = minangkabau_area
 		area = south_sumatra_area #lampung
-		area = banten_area
+		#area = banten_area
 		area = east_java_area
 		area = central_java_area
 		area = west_java_area

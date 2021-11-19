@@ -298,6 +298,124 @@ manufactory = {
 	}
 }
 
+steam_engine_factory = {
+	manufactory = {
+	    coal
+		copper
+		iron
+		lead
+		mercury
+		tin
+		zinc
+	}
+	modifier = {
+		trade_goods_size = 2.0
+		trade_goods_size_modifier = 1.0
+		land_forcelimit = 1.0
+	}
+	onmap = yes
+
+	keep_trigger = {
+		OR = {
+		    trade_goods = coal
+			trade_goods = copper
+			trade_goods = iron
+			trade_goods = lead
+			trade_goods = mercury
+			trade_goods = tin
+			trade_goods = zinc
+		}
+	}
+
+	ai_will_do = {
+		factor = 12			#BT Addon changed from 1. Changing all base factors to price divided by 100. AI apparently doesn't factor the modifier, just the raw size increase, so also increasing weight beyond that by 20 percent for manufacturies with other bonuses, and 60 for non-factored bonuses.
+		#BT Addon New factors, range 2 percent to about 425 percent
+		modifier = {
+			factor = 0.9
+			FROM = { technology_group = eastern }
+		}	#Minor penalty for eastern tech
+		modifier = {
+			factor = 0.6
+			FROM = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+			}
+		}	#Lesser penalty for non european medium-high tech groups.
+		modifier = {
+			factor = 0.4
+			FROM = {
+				OR = {
+					technology_group = indian
+					technology_group = east_african
+					technology_group = chinese
+					technology_group = sub_saharan
+					technology_group = central_african
+					technology_group = nomad_group
+				}
+			}
+		}	#Penalty for medium-low tech groups
+		modifier = {
+			factor = 0.2
+			FROM = {
+				OR = {
+					technology_group = mesoamerican
+					technology_group = andean
+					technology_group = north_american
+					technology_group = south_american
+					#Any other future new world cultures should be added here
+				}
+			}
+		}	#Much like the university, some technology groups simply did not have the infrastructure, history, or circumstance to evolve and develop in this way.
+		modifier = {
+			factor = 1.5
+			FROM = { is_great_power = yes }
+		}	#Great powers get a sustantial bonus, putting Muslims on par with Europeans, other Old World techs on par with Muslims, and rocketing European powers even higher.
+		modifier = {
+			factor = 0.1
+			FROM = {
+				AND = {
+					NOT = { technology_group = western }
+					NOT = { total_development = 100 }
+				}
+			}
+		}	#Small non western AI countries shouldn't be grasping like this, institutions can spread to them from bigger neighbours. Further penalty even beyond the tech group penalty above.
+		modifier = {
+			factor = 1.3
+			owner = { ruler_has_personality = entrepreneur_personality }
+		}
+		modifier = {
+			factor = 1.3
+			owner = { ruler_has_personality = industrious_personality }
+		}
+		modifier = {
+			factor = 1.3
+			owner = { full_idea_group = economic_ideas }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { army_size_percentage = 0.9 }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { army_tradition = 50 }
+		}
+		modifier = {
+			factor = 1.1
+			base_production = 4
+		}
+		modifier = {
+			factor = 1.2
+			base_production = 8
+		}
+		modifier = {
+			factor = 1.4
+			base_production = 12
+		}
+	}
+}
+
 oil_well = {
 
 	manufactory = {

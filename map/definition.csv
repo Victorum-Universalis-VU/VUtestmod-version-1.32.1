@@ -6036,7 +6036,7 @@ province;red;green;blue;x;x
 6035;2;122;190;Nantucket_Sound
 6036;75;67;219;Lower_St_Lawrence_River
 6037;59;94;142;Upper_St_Lawrence_River
-6038;29;172;238;Passamaquoddy_Bay
+6038;52;58;157;Passamaquoddy_Bay
 6039;132;116;7;Gloucester_va 
 6040;232;173;6;Outer_Banks_nc 
 6041;51;172;254;Lake_Winnipesaukee
@@ -6067,7 +6067,7 @@ province;red;green;blue;x;x
 6066;61;64;194;Laguna_de_Chila
 6067;39;84;236;Lagun_de_La_Tortuga
 6068;169;199;214;Green_Bay
-6069;52;58;157;Passamaquoddy_Bay
+6069;25;231;249;Lake_Mattamuskeet
 6070;30;32;253;Northumberland_Strait
 6071;9;123;175;Georgian_Bay
 6072;152;164;183;Tebourba
@@ -6148,7 +6148,7 @@ province;red;green;blue;x;x
 6147;232;167;145;Arrajan
 6148;41;86;224;Valdivia_River
 6149;110;189;238;Andira_River
-6150;43;198;217;Central_Parana_River
+6150;63;80;133;Lower_Central_Parana_River
 6151;27;28;162;Upper_Central_Parana_River
 6152;51;50;158;Upper_Central_Tapajos_River
 6153;87;132;232;Upper_Japura_River
@@ -7320,7 +7320,7 @@ province;red;green;blue;x;x
 7319;198;224;115;Dachau
 7320;179;54;85;Henneberg
 7321;100;113;241;Uruguay_River
-7322;5;130;254;Lower_Central_Parana_River
+7322;5;130;254;Upper_Lower_Parana_River
 7323;98;232;233;Amazon_Delta
 7324;10;108;251;Lower_Amazon_River
 7325;41;124;232;Xingu_River

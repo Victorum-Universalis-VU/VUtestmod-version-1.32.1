@@ -10,6 +10,11 @@ anarchic_riever_modifier = {
     picture = "border_reiver_icon"
 }
 
+first_locomotives_industry = {
+	local_development_cost = -0.70
+	trade_goods_size_modifier = 1.0
+}
+
 ###########################
 #Estuaries - VU additions by San Felipe
 ###########################

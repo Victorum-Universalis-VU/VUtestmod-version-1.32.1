@@ -84,7 +84,27 @@ leader_names = {
 }
 
 ship_names = {
-	Brig Goms Leuk Raron Sierre Sion Visp
+	"Brig"
+	"Goms"
+	"Leuk"
+	"Raron"
+	"Sierre"
+	"Sion"
+	"Visp"
+	"Uri"
+	"Schwyz"
+	"Unterwalden"
+	"Glarus"
+	"Zug"
+	"Lucerne"
+	"Zürich"
+	"Berne"
+	"Dufour"
+	"Rhein"
+	"Rhöne"
+	"Inn"
+	"Ticino"
+	"Wilhelm Tell"
 }
 
 army_names = {

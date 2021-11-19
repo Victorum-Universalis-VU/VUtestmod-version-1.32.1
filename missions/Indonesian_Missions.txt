@@ -185,7 +185,6 @@ indonesians_4 = {
 								area = kutai_area
 								area = brunei_area
 								area = kalimantan_area
-								area = kalimantan_area
 								area = sabah_area
 							}
 						}
@@ -193,7 +192,6 @@ indonesians_4 = {
 					OR = {
 						area = kutai_area
 						area = brunei_area
-						area = kalimantan_area
 						area = kalimantan_area
 						area = sabah_area
 					}
@@ -228,8 +226,6 @@ indonesians_4 = {
 								area = central_java_area
 								area = west_java_area
 								area = lesser_sunda_islands_area
-								area = central_java_area
-								area = west_java_area
 							}
 						}
 					}
@@ -238,8 +234,6 @@ indonesians_4 = {
 						area = central_java_area
 						area = west_java_area
 						area = lesser_sunda_islands_area
-						area = central_java_area
-						area = west_java_area
 					}
 				}
 				AND = { # malay peninsula
@@ -271,16 +265,15 @@ indonesians_4 = {
 								area = molluca_area
 								area = sulawesi_area
 								area = south_sulawesi_area
-								area = south_sulawesi_area
 								area = spice_islands_area
 							}
 						}
 					}
 					OR = {
-						area = malaya_area
-						area = indonesian_islands_area
-						area = kedah_area
-						area = malacca_area
+						area = molluca_area
+						area = sulawesi_area
+						area = south_sulawesi_area
+						area = spice_islands_area
 					}
 				}
 				AND = { # philippines
@@ -317,8 +310,8 @@ indonesians_4 = {
 								area = kutai_area
 								area = brunei_area
 								area = kalimantan_area
-								area = kalimantan_area
 								area = sabah_area
+								area = lesser_sunda_islands_area
 							}
 						}
 					}
@@ -338,7 +331,7 @@ indonesians_4 = {
 						type = all
 						religion = ROOT
 					}
-					kalimantan_area = {
+					lesser_sunda_islands_area = {
 						type = all
 						OR = {
 							religion = ROOT
@@ -354,20 +347,10 @@ indonesians_4 = {
 								area = central_java_area
 								area = west_java_area
 								area = lesser_sunda_islands_area
-								area = central_java_area
-								area = west_java_area
 							}
 						}
 					}
 					east_java_area = {
-						type = all
-						religion = ROOT
-					}
-					central_java_area = {
-						type = all
-						religion = ROOT
-					}
-					west_java_area = {
 						type = all
 						religion = ROOT
 					}
@@ -479,7 +462,6 @@ indonesians_4 = {
 								area = molluca_area
 								area = sulawesi_area
 								area = south_sulawesi_area
-								area = south_sulawesi_area
 								area = spice_islands_area
 							}
 						}
@@ -492,13 +474,6 @@ indonesians_4 = {
 						}
 					}
 					sulawesi_area = {
-						type = all
-						OR = {
-							religion = ROOT
-							is_empty = yes
-						}
-					}
-					south_sulawesi_area = {
 						type = all
 						OR = {
 							religion = ROOT

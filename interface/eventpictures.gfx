@@ -97,6 +97,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "easterngfx_STEAM_ENGINE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_poland/STEAM_ENGINE_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
 		name = "easterngfx_MILITARY_CAMP_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_poland/HUSSARS_eventPicture.dds"
 		alwaystransparent = yes
@@ -121,8 +127,20 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "altaic_STEAM_ENGINE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_poland/STEAM_ENGINE_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
 		name = "tartar_LAND_MILITARY_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_poland/MONGOL_BANNERS_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "tartar_STEAM_ENGINE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_poland/STEAM_ENGINE_eventPicture.dds"
 		alwaystransparent = yes
 	}
 	
@@ -424,6 +442,12 @@ spriteTypes = {
 	spriteType = {
 		name = "LAND_MILITARY_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/LAND_MILITARY_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STEAM_ENGINE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/STEAM_ENGINE_eventPicture.dds"
 		alwaystransparent = yes
 	}
 

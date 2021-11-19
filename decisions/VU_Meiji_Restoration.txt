@@ -5,7 +5,7 @@ country_decisions = {
 		potential = {
 			tag = JAP
 			NOT = { has_country_flag = kaikokuflag }
-			current_age = age_of_nationalism
+			current_age = age_of_change
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -57,7 +57,7 @@ country_decisions = {
 			tag = JAP
 			NOT = { has_reform = celestial_empire }
 			NOT = { has_reform = restoration_reform }
-			current_age = age_of_nationalism
+			current_age = age_of_change
 			has_country_flag = kaikokuflag
 		}
 		allow = {

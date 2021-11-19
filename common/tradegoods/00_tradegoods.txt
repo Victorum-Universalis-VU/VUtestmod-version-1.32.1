@@ -1046,6 +1046,8 @@ copper = {
 			NOT = { area = minas_gerais_area }
 			NOT = { area = diamantina_area }
 			NOT = { area = mato_grosso_area }
+			NOT = { area = chesapeake_area }
+			NOT = { area = upper_american_georgia_area }
 			NOT = { area = ofaie_area }
 			NOT = { region = west_siberia_region }
 			NOT = { region = east_siberia_region }
@@ -1392,6 +1394,8 @@ iron = {
 		modifier = {
 			factor = 0
 			normal_or_historical_nations = yes
+			NOT = { area = chesapeake_area }
+			NOT = { area = upper_american_georgia_area }
 			NOT = { region = west_siberia_region }
 			NOT = { region = east_siberia_region }
 			NOT = { region = central_africa_region }

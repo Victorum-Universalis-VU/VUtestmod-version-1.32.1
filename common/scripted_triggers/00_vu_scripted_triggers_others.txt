@@ -754,7 +754,7 @@ vassalize_lithuania_provinces = {
 		area = yotvingia_area
 		area = trakai_area
 		area = east_dniepr_area
-		area = chernigov_area
+		#area = chernigov_area
 		area = podlasie_area
 	}
 }
@@ -4143,7 +4143,7 @@ has_urban_goods = {
 		trade_goods = silver
 		trade_goods = munitions
 		trade_goods = woodworking
-		trade_goods = leather
+		trade_goods = tanned_leather
 		trade_goods = jewellery
 		trade_goods = steam_engine
 		trade_goods = optics
@@ -4191,7 +4191,7 @@ has_plantage_goods = {
 		trade_goods = saffron
 		trade_goods = opium
 		trade_goods = rum
-		trade_goods = clove
+		trade_goods = cloves
 		trade_goods = exotic_animals
 		trade_goods = vanilla
 	}

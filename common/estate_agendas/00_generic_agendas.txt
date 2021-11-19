@@ -757,6 +757,7 @@ estate_nobles_build_army_building_in_y = {
 			else_if = {
 				limit = {
 					has_building = regimental_camp
+					ROOT = { mil_tech = 18 }
 				}
 				ROOT = {
 					set_variable = {
@@ -4215,6 +4216,7 @@ estate_burghers_build_production_building_in_y = {
 					has_building = mills
 					has_building = plantations
 					has_building = furnace
+					has_building = steam_engine_factory
 				}
 				NOT = { has_building = counting_house }
 				OR = {
@@ -4301,6 +4303,7 @@ estate_burghers_build_production_building_in_y = {
 					has_building = mills
 					has_building = plantations
 					has_building = furnace
+					has_building = steam_engine_factory
 				}
 				NOT = { has_building = counting_house }
 				OR = {
@@ -5119,6 +5122,7 @@ estate_vaisyas_build_production_building_in_y = {
 					has_building = mills
 					has_building = plantations
 					has_building = furnace
+					has_building = steam_engine_factory
 				}
 				NOT = { has_building = counting_house }
 				OR = {
@@ -5205,6 +5209,7 @@ estate_vaisyas_build_production_building_in_y = {
 					has_building = mills
 					has_building = plantations
 					has_building = furnace
+					has_building = steam_engine_factory
 				}
 				NOT = { has_building = counting_house }
 				OR = {
@@ -6022,6 +6027,7 @@ estate_jains_build_production_building_in_y = {
 					has_building = mills
 					has_building = plantations
 					has_building = furnace
+					has_building = steam_engine_factory
 				}
 				NOT = { has_building = counting_house }
 				OR = {
@@ -6108,6 +6114,7 @@ estate_jains_build_production_building_in_y = {
 					has_building = mills
 					has_building = plantations
 					has_building = furnace
+					has_building = steam_engine_factory
 				}
 				NOT = { has_building = counting_house }
 				OR = {
@@ -6314,6 +6321,20 @@ estate_nobles_build_manufactory_in_y = {
 					else_if = {
 						limit = {
 							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
+					}
+					else_if = {
+						limit = {
+							OR = {
 								trade_goods = wool
 								trade_goods = cloth
 								trade_goods = silk
@@ -6504,6 +6525,20 @@ estate_rajput_build_manufactory_in_y = {
 					else_if = {
 						limit = {
 							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
+					}
+					else_if = {
+						limit = {
+							OR = {
 								trade_goods = wool
 								trade_goods = cloth
 								trade_goods = silk
@@ -6690,6 +6725,20 @@ estate_maratha_build_manufactory_in_y = {
 							}
 						}
 						has_building = weapons
+					}
+					else_if = {
+						limit = {
+							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
 					}
 					else_if = {
 						limit = {
@@ -6885,6 +6934,20 @@ estate_burghers_build_manufactory_in_y = {
 					else_if = {
 						limit = {
 							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
+					}
+					else_if = {
+						limit = {
+							OR = {
 								trade_goods = wool
 								trade_goods = cloth
 								trade_goods = silk
@@ -7075,6 +7138,20 @@ estate_vaisyas_build_manufactory_in_y = {
 					else_if = {
 						limit = {
 							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
+					}
+					else_if = {
+						limit = {
+							OR = {
 								trade_goods = wool
 								trade_goods = cloth
 								trade_goods = silk
@@ -7261,6 +7338,20 @@ estate_jains_build_manufactory_in_y = {
 							}
 						}
 						has_building = weapons
+					}
+					else_if = {
+						limit = {
+							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
 					}
 					else_if = {
 						limit = {
@@ -7459,6 +7550,20 @@ estate_church_build_manufactory_in_y = {
 					else_if = {
 						limit = {
 							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
+					}
+					else_if = {
+						limit = {
+							OR = {
 								trade_goods = wool
 								trade_goods = cloth
 								trade_goods = silk
@@ -7649,6 +7754,20 @@ estate_brahmins_build_manufactory_in_y = {
 							}
 						}
 						has_building = weapons
+					}
+					else_if = {
+						limit = {
+							OR = {
+								trade_goods = coal
+								trade_goods = copper
+								trade_goods = iron
+								trade_goods = lead
+								trade_goods = mercury
+								trade_goods = tin
+								trade_goods = zinc
+							}
+						}
+						has_building = steam_engine_factory
 					}
 					else_if = {
 						limit = {

@@ -8725,7 +8725,7 @@ de_domkerk = {
 		country_modifiers = {
 			global_missionary_strength = 0.01
 			religious_unity = 0.05
-			clergy_loyalty_modifier = 0.10
+			church_power_modifier = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -8757,7 +8757,7 @@ de_domkerk = {
 		country_modifiers = {
 			global_missionary_strength = 0.01
 			religious_unity = 0.05
-			clergy_loyalty_modifier = 0.10
+			church_power_modifier = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -8789,7 +8789,7 @@ de_domkerk = {
 		country_modifiers = {
 			global_missionary_strength = 0.01
 			religious_unity = 0.05
-			clergy_loyalty_modifier = 0.10
+			church_power_modifier = 0.10
 		}
 
 		#what effects happen when this tier is achieved

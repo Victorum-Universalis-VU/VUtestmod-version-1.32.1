@@ -10,6 +10,9 @@
  northern_europe_superregion:0 "Northern Europe"
  
 #Areas
+ siberian_lakes_area:0 "Siberian Lakes"
+ siberian_lakes_area_name:0 "Siberian Lakes"
+ siberian_lakes_area_adj:0 "Siberian Lakes"
  al_wahat_area:0 "Western Desert"
  al_wahat_area_name:0 "Western Desert"
  al_wahat_area_adj:0 "Western Desert"

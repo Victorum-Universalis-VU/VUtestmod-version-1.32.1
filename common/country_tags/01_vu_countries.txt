@@ -36,7 +36,7 @@
 #I've taken the liberty to re-organise and sort out the mess that was left here before.
 
 #New 1.3.4 notes from Mellstrom
-#RED
+RED = "countries/SussyPirates.txt"
 
 ##########
 # Europe #
@@ -664,7 +664,6 @@ YZG = "countries/Laurentian.txt"
 YZH = "countries/Missisauga.txt"
 YZI = "countries/NeutralConfederacy.txt"
 ZIA = "countries/Zia.txt"
-RED = "countries/SussyPirates.txt"
 
 ##################
 # BT - Caribbean #
@@ -684,7 +683,6 @@ RED = "countries/SussyPirates.txt"
 #YZU = "countries/Shebaye.txt"
 #YZV = "countries/Waikeri.txt"
 #YZY = "countries/Guanahatabey.txt"
-#RED = "countries/SussyPirates.txt"
 
 #VU - Additions
 CIB = "countries/Ciboney.txt"

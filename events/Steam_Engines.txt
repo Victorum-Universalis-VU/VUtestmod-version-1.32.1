@@ -1,0 +1,53 @@
+######################################
+# Steam Engine Events                #
+#                            		 #
+# Written by San Felipe		         #
+######################################
+
+namespace = steam_engine_events
+
+#Sack of x
+#First Locomotices
+province_event = {
+	id = steam_engine_events.1
+	title = steam_engine_events.1.t
+	desc = steam_engine_events.1.d
+	picture = STEAM_ENGINE_eventPicture
+	goto = root
+
+	trigger = {
+		has_dlc = "Rule Britannia"
+		has_building = steam_engine_factory
+		NOT = { has_province_modifier = first_locomotives_industry }
+		owner = {
+			army_professionalism = 0.8
+		}
+	}
+	
+	is_mtth_scaled_to_size = 1
+	
+	mean_time_to_happen = {
+		months = 600
+		modifier = {
+			factor = 0.9
+			owner = {
+				army_professionalism = 0.8
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				army_professionalism = 1.0
+			}
+		}
+	}
+
+	option = {
+		name = steam_engine_events.1.a #
+		add_province_modifier = {
+			name = "first_locomotives_industry"
+			duration = 3650
+		}
+	}
+}
+	

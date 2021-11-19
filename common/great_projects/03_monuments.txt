@@ -22,7 +22,7 @@ notre_dame_de_reims = { #Notre-Dame de Reims
     type = monument
 
     build_trigger = {
-        religious_group = christian
+        religion_group = christian
 	    culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -37,7 +37,7 @@ notre_dame_de_reims = { #Notre-Dame de Reims
     }
 
     can_use_modifiers_trigger = {
-        religious_group = christian
+        religion_group = christian
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -47,7 +47,7 @@ notre_dame_de_reims = { #Notre-Dame de Reims
 
     can_upgrade_trigger = {
         is_year = 1444
-		religious_group = christian
+		religion_group = christian
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -188,7 +188,7 @@ abbaye_basilique_saint_denys = { #Abbaye-basilique de Saint-Denys
     type = monument
 
     build_trigger = {
-        religious_group = christian
+        religion_group = christian
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -203,7 +203,7 @@ abbaye_basilique_saint_denys = { #Abbaye-basilique de Saint-Denys
     }
 
     can_use_modifiers_trigger = {
-        religious_group = christian
+        religion_group = christian
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -212,7 +212,7 @@ abbaye_basilique_saint_denys = { #Abbaye-basilique de Saint-Denys
     }
 
     can_upgrade_trigger = {
-		religious_group = christian
+		religion_group = christian
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -347,7 +347,7 @@ abbaye_mont_saint_michel = { #Abbaye du Mont-Saint-Michel
     type = monument
 
     build_trigger = {
-        religious_group = christian
+        religion_group = christian
 		culture_group = french
 		OR = {
 			
@@ -363,7 +363,7 @@ abbaye_mont_saint_michel = { #Abbaye du Mont-Saint-Michel
     }
 
     can_use_modifiers_trigger = {
-       	religious_group = christian
+       	religion_group = christian
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -373,7 +373,7 @@ abbaye_mont_saint_michel = { #Abbaye du Mont-Saint-Michel
 
     can_upgrade_trigger = {
         is_year = 1523
-		religious_group = christian
+		religion_group = christian
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -982,7 +982,7 @@ port_de_toulon = { #Port de Toulon
 			admiral_cost = -0.2
 			navy_tradition = 0.5
 			global_ship_repair = 0.2
-			navy_morale = 0.03
+			naval_morale = 0.03
 		}
 
 		#what effects happen when this tier is achieved

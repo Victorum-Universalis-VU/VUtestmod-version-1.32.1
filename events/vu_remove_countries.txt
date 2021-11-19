@@ -1,7 +1,7 @@
 country_event = {
 	id = destroy_countries_vu
-	title = "destroy_country_title"
-	desc = "destroy_country_desc"
+	title = destroy_country.t
+	desc = destroy_country.d
 	picture ="CITY_DEVELOPMENT_eventPicture"
 
 	is_triggered_only = yes
@@ -16,7 +16,7 @@ country_event = {
 	}
 
 	option = {
-		name = removed_country_name
-		title = "destroy_country_title"
+		name = removed_country_name.a
+		title = destroy_country.t
 	}
 }

@@ -83,8 +83,16 @@ leader_names = {
 }
 
 ship_names = {
-	"Emperor Lothar" "Lotharingen"
-	"Rene II Lothringen"
-	Warding Skirmjan
-	Bera Scoc Sekjan
+	"l'Armançon" "l'Arroux"
+	"le Bourgogne" "le Bruges"
+	"le Cambrai" "le Castrum Divionense" "le Childebert" "le Childebert II" "le Chilpéric" "le Cîteaux" "le Clotaire" "le Cluny" "la Comtesse" "le Côte-d'Or" 
+	"le Dijon" "le Duc-de-Bourgogne" "la Duchesse"
+	"le Gibica" "le Giselher" "le Godégisel" "le Gondéric" "le Gondebaud" "le Gondemar" "le Gondemar II" "le Gunther" "le Gontran"
+	"le Jean-sans-Peur"
+	"la Marie-de-Bourgogne"
+	"le Philippe-le-Bon" "le Philippe-le-Hardi"
+	"le Richard-de-Bourgogne"
+	"la Saône" "le Sigismond"
+	"le Théodebert" "le Theudéric II"
+	"le Vézelay"
 }

@@ -915,8 +915,8 @@
  northern_saxony_area:2 "Altmark"
  lower_saxony_area:2 "Hannover"
  north_brabant_area:2 "Guelders"
- upper_swabia_area:2 "Upper Swabia"
- lower_swabia_area:2 "Lower Swabia"
+ #upper_swabia_area:2 "Upper Swabia"
+ #lower_swabia_area:2 "Lower Swabia"
  lower_rhineland_area:2 "South Rhine"
  #Rename Cultures in BT13.0
  schlesian:2 "High Silesian"
