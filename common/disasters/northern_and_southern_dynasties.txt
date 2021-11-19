@@ -27,7 +27,6 @@ northern_and_southern_dynasties = {
 					area = sukothai_area
 					area = south_laos_area
 					area = khorat_area
-					area = khorat_area
 					superregion = china_superregion
 					region = burma_region
 				}

@@ -56,7 +56,11 @@
  desc_bt_birkarls:0 "The Sami People held a notable autonomous position in the medieval and early renaissance period. They were taxed by whatever nation that currently claimed ownership of their lands, but were otherwise left alone. In Sweden, a particular organisation known as the Birkarls arose and was responsible for the taxation of the Sami people, to the point of complete monopoly. It is notable that this was not a de jure position that they held, but rather a de facto one, signifying the autonomous rule of the monarch at the time, who in fact resided in Denmark. Nevertheless, they provided the monarch with valuable Sami furs that benefitted the nation. The status quo was kept until the Centralization reforms of Gustav Vasa, who figured that removing the middle hand that were the Birkarls would greatly increase the size of the Swedish treasury."
  bt_minorities_expelled:0 "Minorities Expelled"
  desc_bt_minorities_expelled:0 "The recent expulsion of the minorities in the area have resulted in a local cultural shift, meaning we have to devote less resources towards assimilating the few that are left."
- #New TCOP Additions
+ 
+ first_locomotives_industry:0 "First Locomotives Industry"
+ desc_first_locomotives_industry:0 "With the advent of the industrial revolution that has ushered in the building of gigantic manufacturies, as well as the and criss-crossing of our nation with miles, upon miles of iron and steel tracks, not forgetting the introduction of the assembly line, leading to a huge increases in the production of goods. It is now high-time that we use these railway tracks by introducing a better form of transportation, one that will not only revolutionise our industries and the way we travel but also allow our state to transport resources, goods, men and materials over long distances at break-neck speeds, thought of as impossible in the past. This new form of locomotion we shall call, the "Steam Engine"."
+ 
+ #New VU Additions
  flemish:0 "Flemish"
  frisian:0 "Frisian"
  north_frisian:0 "North Frisian"

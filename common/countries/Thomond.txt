@@ -80,10 +80,22 @@ monarch_names = {
 }
 
 ship_names = {
-	Clare
-	"Lar Mumhan" Limerick
-	Tipperary "Tuad Mhuman"
+	"Clare"
+	"Lar Mumhan" 
+	"Limerick"
+	"Tipperary" 
+	"Tuad Mhuman"
+	"Urh Mumhan"
+	"Clare"
+	"Cork"
+	"Deas Mhuman" 
+	"Kerry" 
+	"Lar Mumhan" 
+	"Limerick"
+	"Tipperary" 
+	"Tuad Mhuman"
 	"Urh Mumhan"  
+	"Waterford"
 }  
 
 leader_names = {

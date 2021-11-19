@@ -83,8 +83,10 @@ leader_names = {
 }
 
 ship_names = {
-	"Emperor Lothar" "Lotharingen"
-	"Rene II Lothringen" Metz
-	Warding Skirmjan
-	Bera Scoc Sekjan
+	"Ade" "Alfuns" "Alis" "Anstett" "Beri" "Chrischan" "Chrisorst" "Elje" "Frider" "Gaber" "Gabert" "Gamill" "Gari" "Gasti" "Gilg" "Güschti" "Hainri" 
+	"Hangi" "Hannickel" "Hard" "Hippolyt" "Hopper" "Jeri" "Jokeb" "Kärel" "Kola" "Kuenz" "Lari" "Legerd" "Leies" Lippes "Loidani" "Lonel" "Lorang" 
+	"Lüwi" "Lux" "Luzias" "Marx" "Mattes" "Mattheus" "Meïs" "Melchert" "Nikles" "Noe" "Schàangi" "Scharel" "Schosef" "Sepp" "Urbe" "Välte" "Vit" 
+	"Adalie" "Aget" "Angenes" "Annalis" "Annemei" "Annlis" "Appell" "Efi" "Evel" "Gret" "Gretelis" "Grita" "Hangerjettle" "Lenor" "Lestin"
+	"Lickel" "Lisabeth" "Lisett" "Loni" "Lowis" "Madlen" "Madlene" "Madlong" "Mareile" "Mareilis" "Margret" "Margrit" "Mei" "Meiev" "Meilene"
+	"Migele" "Niggel" "Odili" "Orande" "Shosanna" "Karlin"
 }

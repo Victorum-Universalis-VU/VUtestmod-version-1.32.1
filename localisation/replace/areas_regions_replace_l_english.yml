@@ -8,6 +8,9 @@
  corsica_sardinia_area:1 "Corsica"
  corsica_sardinia_area_name:0 "Corsica"
  corsica_sardinia_area_adj:0 "Corsican"
+ skeleton_coast_area:0 "Skeleton Coast"
+ skeleton_coast_area_name:0 "Skeleton Coast"
+ skeleton_coast_area_adj:0 "Skeletonian Coast"
  #NEW VU Additions by San Felipe
  #SEA AREAS
  gulf_of_siam_area:0 "Gulf of Siam"

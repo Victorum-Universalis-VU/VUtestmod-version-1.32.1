@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 250  250  250 } 
+color = { 93  128  6 } 
 
 historical_idea_groups = {
 	religious_ideas
@@ -33,14 +33,54 @@ historical_units = {
 
 monarch_names = {
 	"Eorl #0" = 1
-	
+	"Éomer #0" = -1
 	"Éowyn #0" = -1
+	"Brego #0" = -1
+	"Calenardhon #0" = -1
+	"Cirion #0" = -1
+	"Aldor #0" = -1
+	"Fréa #0" = -1
+	"Fréawine #0" = -1
+	"Goldwine #0" = -1
+	"Déor #0" = -1
+	"Gram #0" = -1
+	"Helm #0" = -1
 }
 
 leader_names = {
-	Eorl
+	"Eorl"
+	"Éomer"
+	"Éowyn"
+	"Brego"
+	"Calenardhon"
+	"Cirion"
+	"Aldor"
+	"Fréa"
+	"Fréawine"
+	"Goldwine"
+	"Déor"
+	"Gram"
+	"Helm"
 }
 
 ship_names = {
-	Aldburg Edoras
+	"Aldburg" 
+	"Edoras"
+	"Eorl"
+	"Éomer"
+	"Éowyn"
+	"Brego"
+	"Calenardhon"
+	"Cirion"
+	"Aldor"
+	"Fréa"
+	"Fréawine"
+	"Goldwine"
+	"Déor"
+	"Gram"
+	"Helm"
+	"Rohirrim"
+	"Rohirric"
+	"Théoden"
+	"Simbelmynë"
 }

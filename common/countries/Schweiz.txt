@@ -91,9 +91,20 @@ leader_names = {
 }
 
 ship_names = {
-	Uri Schwyz Unterwalden Glarus Zug
-	Lucerne Zürich Berne "Wilhelm Tell"
-	Dufour Rhein Rhöne Inn Ticino
+	"Uri"
+	"Schwyz"
+	"Unterwalden"
+	"Glarus"
+	"Zug"
+	"Lucerne"
+	"Zürich"
+	"Berne"
+	"Dufour"
+	"Rhein"
+	"Rhöne"
+	"Inn"
+	"Ticino"
+	"Wilhelm Tell"
 }
 
 army_names = {

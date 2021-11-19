@@ -9317,7 +9317,7 @@ sankin_kotai_palaces = {
 			war_taxes_cost_modifier = -2
 			prestige_from_land = 0.2
 			general_cost = -0.2
-			military_tactics = 0.2
+			army_tradition = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -9353,7 +9353,7 @@ sankin_kotai_palaces = {
 			war_taxes_cost_modifier = -3
 			prestige_from_land = 0.3
 			general_cost = -0.3
-			military_tactics = 0.3
+			army_tradition = 0.3
 			free_leader_pool = 3
 		}
 

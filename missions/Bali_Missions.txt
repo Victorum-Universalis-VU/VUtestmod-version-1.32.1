@@ -114,7 +114,7 @@ bli_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			central_java_area = {
+			west_java_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -136,7 +136,7 @@ bli_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = east_java_area
-				area = central_java_area
+				area = west_java_area
 				area = central_java_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -146,7 +146,7 @@ bli_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			central_java_area = {
+			west_java_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

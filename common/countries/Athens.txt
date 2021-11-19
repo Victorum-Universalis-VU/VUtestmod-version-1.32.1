@@ -98,11 +98,15 @@ leader_names = {
 }
 
 ship_names = {
-	"Agios Thomas" 	Athena
-	Felves 
-	Laouses 
-	Makronisi
-	Patroklou Petalioi
-	Salamina Styra
-	Ypsili
+	"Agios Thomas" 	
+	"Athena"
+	"Felves" 
+	"Laouses" 
+	"Makronisi"
+	"Patroklou "
+	"Petalioi"
+	"Salamina"
+	"Styra"
+	"Ypsili"
+	"Basileus"
 }

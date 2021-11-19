@@ -86,8 +86,35 @@ leader_names = {
 }
 
 ship_names = {
-	Basel Rheinfelden Mutenz Pratteln Augst
-	Liestal Oberwil Therwil Rhein
+	"Basel"
+	"Rheinfelden"
+	"Mutenz"
+	"Pratteln"
+	"Augst"
+	"Liestal"
+	"Oberwil"
+	"Therwil"
+	"Brig"
+	"Goms"
+	"Leuk"
+	"Raron"
+	"Sierre"
+	"Sion"
+	"Visp"
+	"Uri"
+	"Schwyz"
+	"Unterwalden"
+	"Glarus"
+	"Zug"
+	"Lucerne"
+	"Zürich"
+	"Berne"
+	"Dufour"
+	"Rhein"
+	"Rhöne"
+	"Inn"
+	"Ticino"
+	"Wilhelm Tell"
 }
 
 army_names = {

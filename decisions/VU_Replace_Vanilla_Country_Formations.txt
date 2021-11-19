@@ -634,21 +634,7 @@ country_decisions = {
 				}
 				inherit = ING
 			}
-			lower_bavaria_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = root
-			}
-			upper_bavaria_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = root
-			}
-			east_bavaria_area = {
+			bavaria_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
@@ -1353,7 +1339,14 @@ country_decisions = {
 				}
 				add_permanent_claim = root
 			}
-			upper_franconia_area = {
+			bavaria_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			thuringia_area = {
 				limit = {
 					NOT = { owned_by = root }
 					NOT = { is_permanent_claim = root }
@@ -4051,21 +4044,14 @@ country_decisions = {
 		effect = {
 			change_tag = SWA
 			restore_country_name_effect = yes
-			lower_swabia_area = {
+			wurttemburg_area = {
 				limit = {
 					NOT = { owned_by = root }
 					NOT = { is_permanent_claim = root }
 				}
 				add_permanent_claim = root
 			}
-			upper_swabia_area = {
-				limit = {
-					NOT = { owned_by = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			upper_rhineland_area = {
+			baden_area = {
 				limit = {
 					NOT = { owned_by = root }
 					NOT = { is_permanent_claim = root }

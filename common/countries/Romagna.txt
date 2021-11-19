@@ -90,7 +90,33 @@ leader_names = {
 }
 
 ship_names = {
-	Cesena Faenza Forlì Imola Ravenna Rimini
+	"Cesena"
+	"Faenza"
+	"Forlì"
+	"Imola"
+	"Ravenna"
+	"Rimini"
+	"Alberto Pitentino" 
+	"Andrea Mantegna" 
+	"Anselmo de Lucca"
+	"Barbara di Brandeburgo"
+	"Castelletto Borgo" 
+	"Corradi da Gonzaga"
+	"Donatello"
+	"Fiume Mincio" 
+	"Formigosa"
+	"Gianfrancesco Gonzaga" 
+	"Ghibellini" 
+	"Guelphi"
+	"Luca Fancelli" 
+	"Ludovico Gonzaga" 
+	"Luigi Gonzaga"
+	"Matilde Canossa"
+	"Pinamonte Bonacolsi"
+	"Rinaldo Bonacolsi"
+	"San Lorenzo" 
+	"San Sebastiano" 
+	"Sant'Andrea"
 }
 
 army_names = {

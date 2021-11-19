@@ -6,11 +6,11 @@
 
 western_mediterrenean_area = {
     color = { 70 169 186 }
-	1293 1294 1295 1296 1297 1298 1300 1301 1302 1303 1304 1305 7313 8316 8317 8337 8745  8744  8743  8742  8741 
+	1293 1294 1295 1296 1297 1298 1300 1301 1302 1303 1304 1305 7313 8316 8317 8337
 }
 
 siberian_lakes_area = {
-    color = { 70 169 186 }
+    color = { 254 56 20 }
 	6331 6332 6333 6334 6335 6336 6337 6338 6339 6340 6341 6342 6343 6344 6345 6346 6347 6348 6349 6350 6351 6352
 }
 
@@ -565,7 +565,7 @@ corsica_sardinia_area = { #3
 }
 
 sicily_area = { #4
-	124 125 126 2982 4737 4736 7001 7002
+	124 125 126 2982 4736 4737 7001 7002
 }
 
 naples_area = { #3
@@ -638,7 +638,7 @@ east_midlands_area = { #8
 }
 
 cornwall_area = {
-    233 234 239 4374 4130 4373 7416 7420 7425 7441 8122 8170
+    233 234 239 4130 4373 4374 7416 7420 7425 7441 8122 8170
 }
 
 east_anglia_area = { #3
@@ -4789,7 +4789,6 @@ unused_area = {
 #west_mindanao_area = {}
 #west_micronesia_area = {}
 #eastern_polynesia_area = {}
-#west_mindanao_area = {}
 #tuamotus_area = {}
 #east_aures_area = {}
 #western_sicily_area = {}
