@@ -333,22 +333,6 @@ country_event = {
 			factor = 20
 		}
 		custom_tooltip = flavor_ara7_naples_goes_free
-		tooltip = {
-			if = {
-				limit = {
-					sicily_area = {
-						owned_by = NAP
-					}
-				}
-				sicily_area = {
-					limit = {
-						owned_by = NAP
-					}
-					add_core = ROOT
-					cede_province = ROOT
-				}
-			}
-		}
 		hidden_effect = {
 			NAP = {
 				country_event = { id = flavor_ara.8 }
@@ -386,24 +370,9 @@ country_event = {
 			mil = 4
 			adm = 2
 			claim = 50
-			fixed = yes
 		}
 		PAP = {
 			country_event = { id = flavor_ara.9 days = 1 }
-		}
-		if = {
-			limit = {
-				sicily_area = {
-					owned_by = NAP
-				}
-			}
-			sicily_area = {
-				limit = {
-					owned_by = NAP
-				}
-				add_core = ARA
-				cede_province = ARA
-			}
 		}
 		break_union = ARA
 	}
@@ -417,27 +386,12 @@ country_event = {
 			mil = 4
 			adm = 2
 			claim = 50
-			fixed = yes
 		}
 		break_union = ARA
 		add_legitimacy = -20
 		add_treasury = -100
 		PAP = {
 			country_event = { id = flavor_ara.10 days = 1 }
-		}
-		if = {
-			limit = {
-				sicily_area = {
-					owned_by = ROOT
-				}
-			}
-			sicily_area = {
-				limit = {
-					owned_by = ROOT
-				}
-				add_core = ARA
-				cede_province = ARA
-			}
 		}
 		set_country_flag = naples_submits_to_the_pope
 	}

@@ -1,10 +1,8 @@
-prepend = "gfx/models/animation"
-
-
 animation = {
 	name = "char_archer_attack_animation"
 	file = "char_archer_attack.anim"
 }
+
 animation = {
 	name = "char_archer_moving_animation"
 	file = "char_archer_moving.anim"

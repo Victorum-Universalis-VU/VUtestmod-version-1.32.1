@@ -5,7 +5,7 @@ province_event = {
     id = CotCreation.1
     title = CotCreation.EVTNAME1 #Needs localization!
     desc = CotCreation.EVTDESC1 #Needs localization!
-    picture = "CITY_DEVELOPMENT_eventPicture"
+    picture = CITY_DEVELOPMENT_eventPicture
     fire_only_once = true
 
     trigger = {

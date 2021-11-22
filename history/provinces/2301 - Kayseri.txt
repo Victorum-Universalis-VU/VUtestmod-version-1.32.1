@@ -3,7 +3,6 @@
 owner = TUR
 controller = TUR
 add_core = TUR
-add_core = CAP
 add_core = ERE
 culture = cappadocian
 religion = orthodox

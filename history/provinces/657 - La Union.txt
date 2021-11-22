@@ -14,7 +14,7 @@ base_manpower = 4
 is_city = yes
 
 discovered_by = chinese
-discovered_by = japanese_g
+discovered_by = japanese
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
 

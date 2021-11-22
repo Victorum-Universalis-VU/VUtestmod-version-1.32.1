@@ -40,7 +40,7 @@ europe_superregion = {
     british_isles_region
 	france_region
 	iberia_region
-	ireland_area
+	ireland_region
 	italy_region
 	low_countries_region
 	north_german_region

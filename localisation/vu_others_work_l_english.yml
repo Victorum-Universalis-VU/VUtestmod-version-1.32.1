@@ -1915,7 +1915,62 @@
  desc_waterford_harbour_modifier:0 "One of the largest harbours in the British Isles, Waterford Harbour has played a key role in Irish history. The City was founded by the Vikings who settled and use the harbour as a base for their piracy. Now, the Rivers Nore, Suir and Barrow flow into the harbour, making it key in the defense of Ormond."
  wealth_of_carbery_modifier:0 "Wealth of Carbery"
  desc_wealth_of_carbery_modifier:0 "A wealthy and diverse Barony, Carbery was ruled by the MacCarthy Reagh, close family to the MacCarthy Mor Kings of Desmond. Despite its small size, Carbery was one of the wealthiest principalities in Ireland, and its rulers were reported to have the highest income of all the Gaelic Lords. Its wealth came not from its rocky lands, but from its numerous excellent harbours, and its fertile lands near the city of Cork."
+ kitakami_estuary_modifier:0 "Kitakami Estuary"
+ desc_kitakami_estuary_modifier:0 "Controlling the important river estuary of the Kitakami strengthens our hold of the trade in the region."
  
+ #VU_modifiers for 1.32*
+ heathen_tolerance_modifier:0 "Heathen Tolerance"
+ desc_heathen_tolerance_modifier:0 "Toleration of heathens is not only beneficial to the state in a religious manner but also socially, politically and scientifically since we will provide those cast out with refuge, and a safe haven."
+
+ GE_baltic_sea_trade_1_modifier:0 "Limited Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_1_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in a limited capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ GE_baltic_sea_trade_2_modifier:0 "Moderate Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_2_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in a moderate capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ GE_baltic_sea_trade_3_modifier:0 "Considerable Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_3_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in a considerable capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ GE_baltic_sea_trade_4_modifier:0 "Extensive Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_4_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in an extensive capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ kingdom_of_god_modifier:0 "Kingdom of Heaven"
+ desc_kingdom_of_god_modifier:0 "Jesus Christ may no longer walk upon us in the physical form, but his servant the Pope who is "Dux Civitatis" does and like all the reigning monarchs of Europe, needs a throne and a kingdom with which to govern. I say, let us create for him an earthly state, one of conscienceness; A Kingdom of Heaven."
+
+ enlightened_modifier:0 "Enlightenment"
+ desc_enlightened_modifier:0 "Success! For true enlightenment has now reached this place."
+ 
+ GE_rural_trade_deal_imports_6:0 "Rural Trade Imports"
+ desc_GE_rural_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our rural areas."
+
+ GE_urban_trade_deal_imports_6:0 "Urban Trade Imports"
+ desc_GE_urban_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our urban areas."
+
+ GE_mining_trade_deal_imports_6:0 "Mineral Trade Imports"
+ desc_GE_mining_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our mining areas."
+
+ GE_plantation_trade_deal_imports_6:0 "Cash Crop Imports"
+ desc_GE_plantation_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our plantation areas."
+ 
+ GE_nations_of_the_republic:0 "Nations of the Republic"
+ desc_GE_nations_of_the_republic_modifier:0 "Tis a wonder to see more and more nations adopt the ideals of the Republic."
+ 
+ GE_Siberian_Tribe:0 "Siberian Tribes"
+ desc_GE_Siberian_Tribe_modifier:0 "Ready yourselves men, for the next moves of these savages will forever determine the fate of all tribes in Siberia."
+
+ GE_Kreditwork:0 "Kreditwork"
+ desc_GE_Kreditwork_modifier:0 "With access to Kreditwork strong, our economy will surely benefit."
+
+ GE_immigrant_settlements:0 "Immigrant Settlements"
+ desc_GE_immigrant_settlements_modifier:0 "Let us welcome these new immigrants to our country by providing them areas where they can settle, raise a family and contribute to our states."
+
+ navalbase_modifier_1:0 "Navalbase"
+ desc_navalbase_modifier_1_modifier:0 "An important and safe port of call for military vessels, as well as providing a local base of operations for projecting naval dominance over an area or region."
+
+ cerro_rico_modifier:0 "Cerro Rico"
+ desc_cerro_rico_modifier_modifier:0 "Known locally as Sumaq Urqu meaning "Beautiful Mountain" in Quechua and Cerro Rico meaning "Rich Mountain" is vast cone-shaped mountain believed by many to be made of silver ore."
+
+
  #################################################################################
  #################################################################################
  #################################################################################

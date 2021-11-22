@@ -48,7 +48,7 @@ discovered_by = indian
 	controller = QNG
 	add_core = QNG
 }
-1898.5.29 = { Leased to France for 99 years
+1898.5.29 = { #Leased to France for 99 years
 	owner = FRA
 	controller = FRA
 	add_core = FRA

@@ -1642,7 +1642,8 @@ guiTypes = {
 						maxHeight = 10
 						text = "GAMESETUP_SHOW_UNSAFE"
 						orientation = "UPPER_LEFT"
-						format = left
+						fixedsize = yes
+						vertical_alignment = centre
 					}
 
 					checkboxType = {
@@ -2860,6 +2861,13 @@ guiTypes = {
 			position = { x=180 y =0}
 		}
 
+		iconType =
+		{
+			name ="is_primary_local"
+			spriteType = "GFX_coop_player"
+			position = { x= 20 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
 		instantTextBoxType = {
 			name = "save_progress"
 			position = { x = 20 y =15 }
@@ -3016,6 +3024,13 @@ guiTypes = {
 			truncate = yes
 		}
 
+		iconType =
+		{
+			name ="is_primary_local"
+			spriteType = "GFX_coop_player"
+			position = { x= 20 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
 		instantTextBoxType = {
 			name = "save_progress"
 			position = { x = 20 y =15 }

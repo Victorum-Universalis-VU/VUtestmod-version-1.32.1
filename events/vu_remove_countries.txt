@@ -1,5 +1,7 @@
+namespace = destroy_countries_vu
+
 country_event = {
-	id = destroy_countries_vu
+	id = destroy_countries_vu.1
 	title = destroy_country.t
 	desc = destroy_country.d
 	picture ="CITY_DEVELOPMENT_eventPicture"

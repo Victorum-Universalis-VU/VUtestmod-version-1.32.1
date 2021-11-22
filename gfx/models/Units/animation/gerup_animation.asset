@@ -1,5 +1,3 @@
-prepend = "gfx/models/animation"
-
 animation = {
 	name = "gerup_archer_attack_animation"
 	file = "gerup_archer_attack.anim"

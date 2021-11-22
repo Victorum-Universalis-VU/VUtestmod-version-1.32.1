@@ -484,6 +484,7 @@ CAA = "countries/Cappadocia.txt"
 CIK = "countries/Canik.txt"
 CIL = "countries/Cilicia.txt"
 FDI = "countries/Fadhli.txt"
+HAH = countries/The_Hashshashin.txt
 LHJ = "countries/Lahej.txt"
 MRU = "countries/Mrudah.txt"
 MUS = "countries/Muscat.txt"

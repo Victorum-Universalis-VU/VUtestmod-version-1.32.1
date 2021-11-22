@@ -607,7 +607,7 @@ ire_conquest_2 = {
 		provinces_to_highlight = {
 			OR = {
 				region = british_isles_region
-				region = ireland_area #Added by C1CK
+				region = ireland_region #Added by C1CK
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -618,7 +618,7 @@ ire_conquest_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			ireland_area = { #Added by C1CK
+			ireland_region = { #Added by C1CK
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

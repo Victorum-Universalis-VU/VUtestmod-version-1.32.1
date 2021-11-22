@@ -7,9 +7,9 @@ entity = {
 
 	state = { name = "idle" 		animation = "idle" }
 	state = { name = "walk" 		animation = "walk"  animation_speed = 2.2}
-        state = { name = "attack"        animation = "attack_1" looping = no chance = 1.5 next_state = "attack"  animation_speed = 1.4 }
-        state = { name = "attack"        animation = "attack_2" looping = no chance = 3 next_state = "attack"  animation_speed = 1.4 }
-        state = { name = "attack"        animation = "attack_3" looping = no chance = 2 next_state = "attack"  animation_speed = 1.4 }
+    state = { name = "attack"       animation = "attack_1" looping = no chance = 1.5 next_state = "attack"  animation_speed = 1.4 }
+    state = { name = "attack"       animation = "attack_2" looping = no chance = 3 next_state = "attack"  animation_speed = 1.4 }
+    state = { name = "attack"       animation = "attack_3" looping = no chance = 2 next_state = "attack"  animation_speed = 1.4 }
 	state = { name = "retreat"		animation = "retreat"  animation_speed = 2.5 }
 	#state = { name = "death"		animation = "death" }
 	#state = { name = "extra_state_1"		animation = "extra_state_1" }

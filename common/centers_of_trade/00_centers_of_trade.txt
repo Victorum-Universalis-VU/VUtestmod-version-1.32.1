@@ -3,12 +3,13 @@ natural_harbor = { #Safe Haven
 	cost = 750
     type = coastal
     province_modifiers = {
-		province_trade_power_value = 1 #Token trade value
-		local_build_cost = -0.1 #Help with that infrastructure construction
-    }
+		province_trade_power_value = 5 #Token trade value
+	}
 }
-staple_port = { #Pier
+
+staple_port = { #Pier			
     level = 2
+	development = 20
 	cost = 1500
     type = coastal
     province_modifiers = {
@@ -44,18 +45,20 @@ regional_port = { #Warf
 }
 world_port = { #Port
     level = 5
+	development = 50
     cost = 12000
     type = coastal
     province_modifiers = {
-        province_trade_power_value = 30
-		local_development_cost = -0.2 
-		local_institution_spread = 0.3
-		naval_forcelimit = 10
+        province_trade_power_value = 25
+        local_institution_spread = 0.3
     }
     state_modifiers = {
         local_development_cost = -0.1
-		local_institution_spread = 0.15
+        local_sailors_modifier = 1
         allowed_num_of_buildings = 1
+    }
+	global_modifiers = {
+        navy_tradition_decay = -0.002
     }
 }
 
@@ -64,14 +67,14 @@ local_sale = { #Local Sale
 	cost = 600
     type = inland
     province_modifiers = {
-		province_trade_power_value = 1 #Token trade value
-		local_build_cost = -0.1 #Help with that infrastructure construction
+		province_trade_power_value = 5 #Token trade value
     }
 }
 
 emporium = { #Farmers market
     level = 2
 	cost = 1200
+	development = 20
     type = inland
     province_modifiers = {
         province_trade_power_value = 5
@@ -104,15 +107,15 @@ regional_market = { #Regional Bazaar
 world_trade_center = { #Grand Emporium
     level = 5
     cost = 9600
+	development = 50
     type = inland
     province_modifiers = {
-        province_trade_power_value = 30
-		local_development_cost = -0.2 
+        province_trade_power_value = 25
 		local_institution_spread = 0.3
     }
     state_modifiers = {
         local_development_cost = -0.1
-		local_institution_spread = 0.15
+		local_manpower_modifier = 0.33
         allowed_num_of_buildings = 1
     }
 }

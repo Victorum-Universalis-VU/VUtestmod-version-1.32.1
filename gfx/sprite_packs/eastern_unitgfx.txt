@@ -307,10 +307,7 @@ Cyprus_units = {
 Gazikumukh_units = {
 
 	country_trigger = {
-		OR = {
-			tag = GAZ
-			tag = DAG				
-		}
+		tag = GAZ
 	}
 	
 	sprite_infantry = {
