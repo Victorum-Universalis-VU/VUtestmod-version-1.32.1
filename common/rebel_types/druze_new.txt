@@ -228,11 +228,11 @@ druze_new_rebels = {
 				NOT = { religion = druze_new }
 				NOT = { dominant_religion = druze_new }
 				NOT = { tag = PAP }
-				NOT = { has_country_modifier = heathen_tolerance }
+				NOT = { has_country_modifier = heathen_tolerance_modifier }
 				religion_group = { NOT = muslim }
 			}
 			add_country_modifier = {
-				name = "heathen_tolerance"
+				name = "heathen_tolerance_modifier"
 				duration = 3650
 			}
 			add_stability = -1

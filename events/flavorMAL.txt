@@ -10,7 +10,6 @@ normal_or_historical_nations = yes
 # Malian Authority Under Threat
 country_event = {
 	id = flavor_mal.1
-	id = flavor_mal.1
 	title = flavor_mal.1.t
 	desc = flavor_mal.1.d
 	picture = LIBERUM_VETO_eventPicture
@@ -662,7 +661,7 @@ country_event = {
 			define_ruler = {
 				name = "Sama Koli"
 				dynasty = "Jeenung"
-				claim = 100
+			}
 		}
 	}
 }

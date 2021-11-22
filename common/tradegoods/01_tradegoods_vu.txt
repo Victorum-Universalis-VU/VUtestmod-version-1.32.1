@@ -2771,7 +2771,7 @@ vodka = { #Limited to Russia and Eastern Europe
 		modifier = {
 			factor = 0.5
 			OR = {
-				has_terrain = mountains
+				has_terrain = mountain
 				has_terrain = marsh
 			}
 		}
@@ -3615,7 +3615,7 @@ diamonds = {
 #           NOT = { region = british_isles_region }
 #           NOT = { region = france_region }
 #           NOT = { region = iberia_region }
-#           NOT = { region = ireland_area }
+#           NOT = { region = ireland_region }
 #           NOT = { region = italy_region }
 #           NOT = { region = low_countries_region }
 #           NOT = { region = north_german_region }
@@ -3682,7 +3682,7 @@ diamonds = {
 #           NOT = { region = british_isles_region }
 #           NOT = { region = france_region }
 #           NOT = { region = iberia_region }
-#           NOT = { region = ireland_area }
+#           NOT = { region = ireland_region }
 #           NOT = { region = italy_region }
 #           NOT = { region = low_countries_region }
 #           NOT = { region = north_german_region }

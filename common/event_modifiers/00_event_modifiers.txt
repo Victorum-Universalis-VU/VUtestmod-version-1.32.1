@@ -2,6 +2,8 @@
 #######################################
 # VU Additions - by San Felipe 1.31.3 #
 #######################################
+# Country Modifiers #
+#####################
 anarchic_riever_modifier = {
     may_perform_slave_raid = yes
     may_perform_slave_raid_on_same_religion = yes
@@ -15,11 +17,110 @@ first_locomotives_industry = {
 	trade_goods_size_modifier = 1.0
 }
 
-###########################
-#Estuaries - VU additions by San Felipe
-###########################
-#English Estuaries
-###########################
+heathen_tolerance_modifier = {
+	tolerance_heathen = 1
+	global_heathen_missionary_strength = 0.03
+}
+
+GE_baltic_sea_trade_1_modifier = {
+	trade_power_in_fleet_modifier = 0.5
+	trade_steering = 0.15
+}
+
+GE_baltic_sea_trade_2_modifier = {
+	trade_power_in_fleet_modifier = 0.75
+	trade_steering = 0.2
+}
+
+GE_baltic_sea_trade_3_modifier = {
+	trade_power_in_fleet_modifier = 1
+	trade_steering = 0.25
+}
+
+GE_baltic_sea_trade_4_modifier = {
+	trade_power_in_fleet_modifier = 2
+	trade_steering = 0.3
+}
+
+kingdom_of_god_modifier = {
+	global_missionary_strength = 0.03
+	global_heretic_missionary_strength = 0.03
+	global_heathen_missionary_strength = 0.03
+}
+
+belgian_revolt_modifier = {
+	local_unrest = 10
+	local_years_of_nationalism = 15
+}
+
+#####################
+# Province Modifier #
+#####################
+
+GE_rural_trade_deal_imports_6 = {
+	trade_value = 1
+}
+
+GE_urban_trade_deal_imports_6 = {
+	trade_value_modifier = 0.1
+}
+
+GE_mining_trade_deal_imports_6 = {
+	trade_goods_size = 0.5
+}
+
+GE_plantation_trade_deal_imports_6 = {
+	province_trade_power_value = 0.5
+}
+
+enlightened_modifier = {
+	local_culture_conversion_cost = -0.25
+}
+
+GE_nations_of_the_republic = {
+	local_autonomy = 0.05
+}
+
+GE_Siberian_Tribe = {
+	local_warscore_cost_modifier = 0.1
+}
+
+GE_Cultural_Inspiration_5 = {
+	institution_growth = 1
+}
+
+GE_Kreditwork = {
+	local_tax_modifier = 0.1
+}
+
+GE_immigrant_settlements = {
+	local_years_of_nationalism = -5
+}
+
+navalbase_modifier_1 = {
+	local_ship_repair = 0.2
+	ship_recruit_speed = -0.25
+	hostile_fleet_attrition = 5
+}
+
+cerro_rico_modifier = {
+	local_tax_modifier = 0.1
+	local_prosperity_growth = -0.1
+}
+
+
+
+##########################################
+# Estuaries - VU additions by San Felipe #
+##########################################
+#English Estuaries #
+####################
+
+kitakami_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
+
 mersey_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"

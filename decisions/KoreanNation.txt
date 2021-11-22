@@ -5,7 +5,7 @@ country_decisions = {
 	korean_nation = {
 		major = yes
 		potential = {
-			btc_potential_trigger = yes
+			#btc_potential_trigger = yes
 			NOT = { has_country_flag = formed_korea_flag }
 			NOT = { tag = JAP }
 			NOT = { tag = MNG }

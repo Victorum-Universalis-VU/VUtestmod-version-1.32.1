@@ -15,7 +15,7 @@ discovered_by = north_american
 
 1524.1.1 = { discovered_by = FRA } # Giovanni da Verrazzano
 1609.1.1 = { discovered_by = ENG } # Henry Hudson
-1615.1.1 = { discovered_by = NED } Dutch explorer Adriaen Block is credited as the first European to determine that both Manhattan and Long Island are islands. He also used "t Lange Eylandt" to reference the island.
+1615.1.1 = { discovered_by = NED } # Dutch explorer Adriaen Block is credited as the first European to determine that both Manhattan and Long Island are islands. He also used "t Lange Eylandt" to reference the island.
 1640.1.1 = {
 	owner = ENG
 	controller = ENG

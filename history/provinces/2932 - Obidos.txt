@@ -1,4 +1,4 @@
-# - Waddai
+#2932 - Waddai
 
 culture = bilala 
 religion = shamanism #Fetishism

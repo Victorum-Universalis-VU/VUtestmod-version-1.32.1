@@ -28,14 +28,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		owns = 266
 		is_year = 1446
 		NOT = { is_year = 1500 }
@@ -72,7 +65,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			remove_heir = yes
+			remove_heir = {}
 		}
 		change_religion = hussite
 		define_ruler = {
@@ -84,7 +77,6 @@ country_event = {
 			religion = hussite
 			culture = czech
 			age = 25
-			fixed = yes
 		}
 		if = {
 			limit = {
@@ -96,7 +88,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = zealot_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = zealot } }
 		}
 		add_reform_desire = 0.03
 	}
@@ -118,7 +110,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			remove_heir = yes
+			remove_heir = {}
 		}
 		define_ruler = {
 			name = "Jirí"
@@ -127,7 +119,6 @@ country_event = {
 			dip = 4
 			mil = 3
 			religion = hussite
-			fixed = yes
 		}
 		if = {
 			limit = {
@@ -199,14 +190,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		OR = {
 			AND = {
 				religion = catholic
@@ -359,14 +343,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		is_year = 1465
 		owns = 265
 		owns = 2970
@@ -444,14 +421,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		owns = 266
 		is_year = 1493
 	}
@@ -476,14 +446,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		is_year = 1500
 		NOT = { is_year = 1550 }
 		NOT = { ADM = 3 }
@@ -523,14 +486,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		is_year = 1599
 		owns = 266
 	}
@@ -557,18 +513,7 @@ country_event = {
 country_event = {
 	id = flavor_boh.7
 	title = flavor_boh.7.t
-	desc = {
-		trigger = {
-			religion = hussite
-		}
-		desc = flavor_boh.7.d
-	}
-	desc = {
-		trigger = {
-			NOT = { religion = hussite }
-		}
-		desc = flavor_boh.7.d2
-	}
+	desc = flavor_boh.7.d
 	picture = {	
 		trigger = {
 			has_dlc = "Emperor"
@@ -654,7 +599,7 @@ country_event = {
 				religion = hussite 
 			}
 		}
-		name = "flavor_boh.7.c"
+		name = "flavor_boh.7.b"
 		every_owned_province = {
 			limit = {
 				religion = hussite
@@ -675,14 +620,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		is_emperor = no
 		religion = catholic
 		any_owned_province = {
@@ -866,14 +804,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			tag = BOH
-			AND = {
-				tag = GMV
-				primary_culture = czech
-				NOT = { exists = BOH }
-			}
-		}
+		tag = BOH
 		is_subject = no
 		NOT = { is_year = 1450 }
 	}

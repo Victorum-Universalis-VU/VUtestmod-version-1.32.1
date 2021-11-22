@@ -228,11 +228,11 @@ finnish_pagan_reformed_rebels = {
 				NOT = { religion = finnish_pagan_reformed }
 				NOT = { dominant_religion = finnish_pagan_reformed }
 				NOT = { tag = PAP }
-				NOT = { has_country_modifier = heathen_tolerance }
+				NOT = { has_country_modifier = heathen_tolerance_modifier }
 				religion_group = { NOT = finnic_group }
 			}
 			add_country_modifier = {
-				name = "heathen_tolerance"
+				name = "heathen_tolerance_modifier"
 				duration = 3650
 			}
 			add_stability = -1

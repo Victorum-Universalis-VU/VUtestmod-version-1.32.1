@@ -975,7 +975,7 @@ country_event = {
 		num_of_ports = 1
 		NOT =  { has_country_modifier = monetary_benefits }
 		NOT =  { has_country_modifier = colonial_enthusiasm }
-		num_of_colonies = 1
+		colony = 1
 	}
 
 	mean_time_to_happen = {
@@ -2579,7 +2579,9 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	trigger = {}
+	trigger = {
+		NOT = { has_country_flag = no_more_comet_sighted_event }
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -2696,6 +2698,45 @@ country_event = {
 		trigger = {
 			NOT = { religion_group = pagan }
 		}		
+		if = {
+			limit = { NOT = { stability = -2 } }
+			add_adm_power = -100
+		}		
+		if = {
+			limit = { stability = -2 }
+			add_stability = -1
+		}
+	}		
+	option = {
+		name = "EVTOPTI5060"		# What a great start into the new year
+		trigger = {
+			NOT = { is_year = 1445 }
+		}
+		if = {
+			limit = { NOT = { stability = -2 } }
+			add_adm_power = -100
+		}		
+		if = {
+			limit = { stability = -2 }
+			add_stability = -1
+		}
+	}	
+	option = {
+		name = "EVTOPTJ5060"		# That's now Victoria's problem, not mine
+		trigger = {
+			is_year = 1810
+		}
+		if = {
+			limit = { NOT = { stability = -2 } }
+			add_adm_power = -100
+		}		
+		if = {
+			limit = { stability = -2 }
+			add_stability = -1
+		}
+	}	
+	option = {
+		name = "EVTOPTK5060"		# That's it. I'm dead
 		if = {
 			limit = { NOT = { stability = -2 } }
 			add_adm_power = -100
@@ -9587,7 +9628,7 @@ country_event = {
 		add_prestige = -5
 		add_legitimacy = -5
 		add_horde_unity = -5
-		create_general = { tradition = -50 }
+		create_general = { tradition = 0 }
 	}
 	option = {
 		name = "EVTOPTB875"
@@ -9934,7 +9975,7 @@ country_event = {
 	trigger = {
 		num_of_ports = 5
 		num_of_heavy_ship = 1
-		num_of_colonies = 1
+		colony = 1
 		any_rival_country = {
 			has_country_modifier = hire_privateers
 		}
@@ -12830,7 +12871,14 @@ country_event = {
 				NOT = { continent = new_world }
 			}
 			is_former_colonial_nation = yes
-			is_subject_of_type = colony
+			OR = {
+				is_subject_of_type = colony
+				is_subject_of_type = crown_colony
+				is_subject_of_type = private_enterprise
+				is_subject_of_type = self_governing_colony
+				is_subject_of_type = self_governing_dominion_vu
+				is_subject_of_type = self_governing_super_dominion_vu
+			}
 		}
 	}
 

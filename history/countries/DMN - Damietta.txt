@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = admiralty_reform
 mercantilism = 25
-primary_culture = norman
+primary_culture = normand
 religion = catholic
 add_accepted_culture = al_misr_arabic
 technology_group = western

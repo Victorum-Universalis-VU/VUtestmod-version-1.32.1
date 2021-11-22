@@ -3315,7 +3315,7 @@ irish_clann_legacy = {
 	nation_designer_cost = -10
 	nation_designer_trigger = {
 		culture_group = gaelic
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 	}
 	monarchy = yes
 	fixed_rank = 1
@@ -3338,7 +3338,7 @@ norman_lordship_legacy = {
 	nation_designer_cost = -10
 	nation_designer_trigger = {
 		NOT = { culture_group = gaelic }
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 	}
 	monarchy = yes
 	fixed_rank = 1
@@ -3361,7 +3361,7 @@ provincial_kingdom_legacy = {
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		culture_group = gaelic
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 		num_of_cities = 5
 	}
 	monarchy = yes
@@ -3385,7 +3385,7 @@ norman_duchy_legacy = {
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		NOT = { culture_group = gaelic }
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 		num_of_cities = 5
 	}
 	monarchy = yes

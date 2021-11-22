@@ -25,7 +25,7 @@ discovered_by = chinese
 	culture = castillian
 	religion = catholic
 	is_city = yes
-	trade_goods = Gold #Bagiuo or "Santo Nino" Gold Mines
+	trade_goods = gold #Bagiuo or "Santo Nino" Gold Mines
 }
 1624.1.1 = { #Captain Alonso Martin Quirante leads a large expedition to the area and rebuilds Fort Santiago
 	owner = SPA
@@ -35,7 +35,7 @@ discovered_by = chinese
 	culture = castillian
 	religion = catholic
 	is_city = yes
-	trade_goods = Gold #Bagiuo or "Santo Nino" Gold Mines
+	trade_goods = gold #Bagiuo or "Santo Nino" Gold Mines
 }
 1846.1.1 = { #Col. Guillermo Galvey establishes the province of La Montañosa or La Montaña
 	owner = SPA

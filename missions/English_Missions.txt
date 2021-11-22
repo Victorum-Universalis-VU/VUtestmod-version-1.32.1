@@ -59,7 +59,7 @@ eng_slot_1 = {
 		}
 
 		effect = {
-			ireland_area = {
+			ireland_region = {
 				add_province_modifier = {
 					name = "eng_irish_revolts"
 					duration = -1
