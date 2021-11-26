@@ -14,7 +14,7 @@ country_decisions = {
 #         every_core_country = {
 #              # prevents the player from deleting himself
 #             limit = {ai = yes}
-#             country_event = { id = destroy_countries_vu }
+#             country_event = { id = vu_remove_country }
 #         }
 #       }
 #     }
@@ -28,7 +28,7 @@ country_decisions = {
 #
 #	   effect = {
 #			TAG_to_remove = {
-#			   country_event = { id = destroy_countries_vu }
+#			   country_event = { id = vu_remove_country }
 #			}
 #		}
 #	}
@@ -46,7 +46,7 @@ country_decisions = {
 			north_america_superregion = {
         every_core_country = {
             limit = {ai = yes}
-				    country_event = { id = destroy_countries_vu }
+				    country_event = { id = vu_remove_country }
         }
 			}
 		}
@@ -65,7 +65,7 @@ country_decisions = {
       south_america_superregion = {
         every_core_country = {
             limit = {ai = yes}
-            country_event = { id = destroy_countries_vu }
+            country_event = { id = vu_remove_country }
         }
       }
     }
@@ -84,7 +84,7 @@ country_decisions = {
       central_america_superregion = {
         every_core_country = {
             limit = {ai = yes}
-            country_event = { id = destroy_countries_vu }
+            country_event = { id = vu_remove_country }
         }
       }
     }
@@ -278,7 +278,7 @@ country_decisions = {
 						#tag = KAA #Also starting expanding on the islands around 1500... good enough for now
 					}
 				}
-				country_event = { id = destroy_countries_vu }
+				country_event = { id = vu_remove_country }
 			}
 		}
 	}

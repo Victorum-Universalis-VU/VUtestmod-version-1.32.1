@@ -1805,6 +1805,13 @@ janissary_regiment = {
 	drill_gain_modifier = 1.0
 }
 
+cawa_regiment = {
+	shock_damage_received = -0.15
+	land_attrition = -0.25
+	reinforce_cost_modifier = 0.25
+	reinforce_speed = -0.25
+}
+
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1

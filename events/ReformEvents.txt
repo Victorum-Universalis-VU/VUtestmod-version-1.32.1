@@ -551,7 +551,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 30
+		days = 1
 	}
 	
 	immediate = {
@@ -708,7 +708,6 @@ country_event = {
 			adm = 2
 			dip = 2
 			mil = 2
-			fixed = yes
 			regency = yes
 		}
 		ai_chance = { factor = 25 }
@@ -730,7 +729,6 @@ country_event = {
 		define_ruler = {
 			culture = ROOT
 			religion = ROOT
-			hidden = yes
 			age = 35
 			claim = 75
 		}
@@ -5386,13 +5384,6 @@ country_event = {
 					hidden = yes
 				}
 			}
-			western_sicily_area = {
-				add_province_modifier = {
-					name = Kingdom_Of_Sicily
-					duration = -1
-					hidden = yes
-				}
-			}
 		}
 	}
 	
@@ -5624,7 +5615,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		days = 30
+		days = 1
 	}
 	
 	immediate = {
@@ -9482,13 +9473,13 @@ country_event = {
 				any_owned_province = {
 					OR = {
 						AND = {
-							center_of_trade = 1
+							province_has_center_of_trade_of_level = 1
 							fort_level = 2
 							NOT = { has_province_modifier = GE_Caravanserai }
 						}
 						AND = {
 							NOT = { 
-								center_of_trade = 1
+								province_has_center_of_trade_of_level = 1
 								fort_level = 2 
 							}
 							has_province_modifier = GE_Caravanserai
@@ -18034,8 +18025,8 @@ country_event = {
 				limit = {
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.09
+							which = max_absolutism
+							value = -0.09
 						}
 					}
 				}
@@ -18043,13 +18034,13 @@ country_event = {
 			if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.10
+						which = max_absolutism
+						value = -0.10
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.20
+							which = max_absolutism
+							value = -0.20
 						}
 					}
 				}
@@ -18061,13 +18052,13 @@ country_event = {
 			if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.20
+						which = max_absolutism
+						value = -0.20
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.30
+							which = max_absolutism
+							value = -0.30
 						}
 					}
 				}
@@ -18079,13 +18070,13 @@ country_event = {
 			if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.30
+						which = max_absolutism
+						value = -0.30
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.40
+							which = max_absolutism
+							value = -0.40
 						}
 					}
 				}
@@ -18097,13 +18088,13 @@ country_event = {
 			if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.40
+						which = max_absolutism
+						value = -0.40
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.50
+							which = max_absolutism
+							value = -0.50
 						}
 					}
 				}
@@ -18115,13 +18106,13 @@ country_event = {
 			else_if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.50
+						which = max_absolutism
+						value = -0.50
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.60
+							which = max_absolutism
+							value = -0.60
 						}
 					}
 				}
@@ -18133,13 +18124,13 @@ country_event = {
 			else_if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.60
+						which = max_absolutism
+						value = -0.60
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.70
+							which = max_absolutism
+							value = -0.70
 						}
 					}
 				}
@@ -18151,13 +18142,13 @@ country_event = {
 			else_if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.70
+						which = max_absolutism
+						value = -0.70
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.80
+							which = max_absolutism
+							value = -0.80
 						}
 					}
 				}
@@ -18169,13 +18160,13 @@ country_event = {
 			else_if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.80
+						which = max_absolutism
+						value = -0.80
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 0.90
+							which = max_absolutism
+							value = -0.90
 						}
 					}
 				}
@@ -18187,13 +18178,13 @@ country_event = {
 			else_if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 0.90
+						which = max_absolutism
+						value = -0.90
 					}
 					NOT = {
 						has_global_modifier_value = {
-							which = total_liberalism_modifier
-							value = 1
+							which = max_absolutism
+							value = -1
 						}
 					}
 				}
@@ -18205,8 +18196,8 @@ country_event = {
 			else_if = {
 				limit = {
 					has_global_modifier_value = {
-						which = total_liberalism_modifier
-						value = 1
+						which = max_absolutism
+						value = -1
 					}
 				}
 				add_country_modifier = {

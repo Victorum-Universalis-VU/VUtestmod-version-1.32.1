@@ -227,6 +227,9 @@ GRP = "countries/Germany.txt"
 AUE = "countries/Austrian_Empire.txt"
 AHE = "countries/Austria_Hungary.txt"
 
+#ME additions by
+ZCV = "countries/Zapadoslavia.txt"
+
 #BT - Greece & Aegean Islands
 LES = "countries/Lesbos.txt"
 
@@ -315,7 +318,7 @@ IVR = "countries/Ivrea.txt"
 LCN = "countries/Lucania.txt"
 LEC = "countries/Lecce.txt"
 LGD = "countries/Logudoro.txt"
-LVN = "countries/LombardyVenetia.txt"
+LVN = "countries/Lombardy-Venetia.txt"
 LOM = "countries/Lombardy.txt"
 MNC = "countries/Monaco.txt"
 MNO = "countries/Masserano.txt"

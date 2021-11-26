@@ -564,19 +564,19 @@ GE_mining_trade_deal_exports_5 = {
 }
 
 GE_plantation_trade_deal_exports_1 = {
-	plantage_goods_produced_modifier = 0.10
+	trade_steering = 0.1
 }
 GE_plantation_trade_deal_exports_2 = {
-	plantage_goods_produced_modifier = 0.20
+	trade_steering = 0.2
 }
 GE_plantation_trade_deal_exports_3 = {
-	plantage_goods_produced_modifier = 0.30
+	trade_steering = 0.3
 }
 GE_plantation_trade_deal_exports_4 = {
-	plantage_goods_produced_modifier = 0.40
+	trade_steering = 0.4
 }
 GE_plantation_trade_deal_exports_5 = {
-	plantage_goods_produced_modifier = 0.50
+	trade_steering = 0.5
 }
 
 GE_rural_trade_deal_imports_1 = {

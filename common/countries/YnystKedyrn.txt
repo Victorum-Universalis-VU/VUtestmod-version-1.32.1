@@ -81,43 +81,64 @@ monarch_names = {
 }
 
 leader_names = { 
-	Arthur Audley
-	Boscawen
-	Carew Chynoweth Clemow Collett Connor Cornish Curnow
-	Davy Drake Drew
-	Endean
-	Flamank Furze
-	Gwynn
-	Hale
-	Innes
-	Jago James Jenner Jolley Joseph
-	Keverne
-	Lanyon Locke Lyon
-	Menhenick 
-	Oates
-	Pascoe Penberthy Pendennis Penhaligon Pentreath Pethick Polwin
-	Quintrell
-	Roscarrock Rosewarne
-	"St Aubyn" Sweet
-	Trehearne Trelawny Trescothick Trevelyan Trevithick Tyrell
-	Warren Weekes
+	"Arthur"
+	"Audley"
+	"Boscawen"
+	"Carew"
+	"Chynoweth"
+	"Clemow"
+	"Collett"
+	"Connor"
+	"Cornish"
+	"Curnow"
+	"Davy"
+	"Drake"
+	"Drew"
+	"Endean"
+	"Flamank"
+	"Furze"
+	"Gwynn"
+	"Hale"
+	"Innes"
+	"Jago"
+	"James"
+	"Jenner"
+	"Jolley"
+	"Joseph"
+	"Keverne"
+	"Lanyon"
+	"Locke"
+	"Lyon"
+	"Menhenick"
+	"Oates"
+	"Pascoe"
+	"Penberthy"
+	"Pendennis"
+	"Penhaligon"
+	"Pentreath"
+	"Pethick"
+	"Polwin"
+	"Quintrell"
+	"Roscarrock"
+	"Rosewarne"
+	"St Aubyn" 
+	"Sweet"
+	"Trehearne"
+	"Trelawny"
+	"Trescothick"
+	"Trevelyan"
+	"Trevithick"
+	"Tyrell"
+	"Warren"
+	"Weekes"
 }
 
 ship_names = {
-        Arthur
-        Bodmin Bolster Brutus
-        Chough Corineus Cormoran Cornishman
-        Dumnonia
-        Excalibur
-        Falmouth
-        Galahad Gawain Guinevere
-        "Hal-an-Tow" Helston
-        Kernow "King Mark"
-        Lancelot Launceston Lizard Lostwithiel Lyonesse
-        Marazion Mousehole
-        Pendragon Penzance Porthleven
-        Restormel
-        Scillonian "St Ives" "St Michael" "St Petroc" "St Pirin" Stannary
-        Tamar Tintagel Trelawny Truro
-        Whitsand
+    "Arthur" "Bodmin" "Bolster"	"Brutus" "Chough" "Corineus" "Cormoran" "Cornishman" "Dumnonia" "Excalibur" "Falmouth" "Galahad" "Gawain" "Guinevere" 
+	"Hal-an-Tow" "Helston" "Kernow" "King Mark" "Lancelot" "Launceston" "Lizard" "Lostwithiel" "Lyonesse" "Marazion" "Mousehole" "Pendragon" "Penzance" 
+	"Porthleven" "Restormel" "Scillonian" "St Ives" "St Michael" "St Petroc" "St Pirin" "Stannary" "Tamar" "Tintagel" "Trelawny" "Truro" "Whitsand"
+}
+
+army_names = {
+	"Byddin o $PROVINCE$" 
 }

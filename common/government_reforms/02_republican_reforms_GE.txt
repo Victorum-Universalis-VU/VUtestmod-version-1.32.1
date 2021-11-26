@@ -316,21 +316,15 @@ mixed_republic_reform = {
 			which = Plutocrat_Influence
 			value = 1
 		}
-		#New liberalism thing they added.
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
 	}
 	removed_effect = {
 		change_variable = {
 			which = Plutocrat_Influence
 			value = -1
 		}
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
 	}
 	modifiers = {
 		reform_progress_growth = 0.15
-		total_liberalism_modifier = 0.10
 		#stability_cost_modifier = -0.15 #Old modifier.
 	}
 	ai = {
@@ -1268,18 +1262,9 @@ supreme_court_reform = {
 	potential = {
 		always = yes
 	}
-	effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
-	removed_effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
 	modifiers = {
 		country_admin_power = 1
 		max_absolutism = -10
-		total_liberalism_modifier = 0.10
 		advisor_pool = 1
 	}
 	ai = {
@@ -1316,19 +1301,10 @@ confederation_of_states_reform = {
 			has_reform = confederation_of_states_reform
 		}
 	}
-	effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
-	removed_effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
 	modifiers = {
 		diplomatic_upkeep = 1
 		improve_relation_modifier = 0.15
 		max_absolutism = -10
-		total_liberalism_modifier = 0.10
 	}
 	ai = {
 		factor = 100
@@ -1398,14 +1374,6 @@ empowered_sovereign_trade_companies_reform = {
 			value = 3
 		}
 	}
-	effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
-	removed_effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
 	modifiers = {
 		max_absolutism = -5
 		trade_company_investment_cost = -0.10
@@ -1460,19 +1428,10 @@ empowered_senate_reform = {
 			value = 3
 		}
 	}
-	effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
-	removed_effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
 	modifiers = {
 		max_absolutism = -10
 		free_dip_policy = 1
 		yearly_corruption = -0.10
-		total_liberalism_modifier = 0.10
 	}
 	ai = {
 		factor = 1
@@ -1502,16 +1461,8 @@ liberal_principle_reform = {
 	potential = {
 		always = yes
 	}
-	effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
-	removed_effect = {
-		GE_remove_liberalism = yes
-		GE_set_liberalism = yes
-	}
 	modifiers = {
-		total_liberalism_modifier = 0.20
+	    max_absolutism = -20
 	}
 	custom_attributes = {
 		enables_capitalism = yes #+25% goods produced and -100% tax income if you have over 75% liberalism

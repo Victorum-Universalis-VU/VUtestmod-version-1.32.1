@@ -225,10 +225,12 @@ country_event = {
 	mean_time_to_happen = {
 		months = 48
 	}
+	
 	immediate = {
 		hidden_effect = {
 			set_country_flag = eth_had_centralization_event
 		}
+	}
 	
 	option = { 
 		name = flavor_eth.6.a
@@ -1089,6 +1091,7 @@ country_event = {
 				NOT = { is_core = JIM }
 			}
 			add_core = JIM
+		}
 	}
 }
 

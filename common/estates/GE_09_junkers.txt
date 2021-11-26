@@ -78,7 +78,6 @@ estate_junkers =
 		estate_nobles_monopoly_of_metals
 		estate_nobles_monopoly_of_livestock
 		estate_nobles_monopoly_of_gems
-		estate_maratha_monopoly_of_diamonds
 		estate_nobles_statutory_rights
 	}
 

@@ -128,8 +128,6 @@ country_event = {
 				adm = 3
 				dip = 4
 				mil = 6
-				add_ruler_personality = navigator_personality
-				add_ruler_personality = righteous_personality
 			}
 			
 			define_ruler_to_general = {
@@ -202,8 +200,6 @@ country_event = {
 				adm = 3
 				dip = 4
 				mil = 6
-				add_ruler_personality = navigator_personality
-				add_ruler_personality = righteous_personality
 			}
 			
 			define_ruler_to_general = {

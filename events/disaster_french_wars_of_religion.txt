@@ -1696,10 +1696,13 @@ province_event = {
 	
 	immediate = {
 		hidden_effect = {
-			capital_scope = {
-				save_event_target_as = capital
+			owner = { 
+				capital_scope = {
+					save_event_target_as = capital
+				}
+				set_country_flag = FRA_had_event_3196
 			}
-			owner = { set_country_flag = FRA_had_event_3196 }
+													
 		}
 	}
 	
@@ -2010,7 +2013,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = { allow_new_heir = no }
 		}
 		kill_ruler = yes
 		if = {

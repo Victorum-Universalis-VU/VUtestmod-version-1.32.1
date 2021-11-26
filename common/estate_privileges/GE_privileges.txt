@@ -534,7 +534,7 @@ estate_nobles_noble_officer_privilege = {
 					territory = 50
 				}
 			}
-			create_general = { tradition = 120 }
+			create_general = { tradition = 100 }
 		}
 		else_if = {
 			limit = {

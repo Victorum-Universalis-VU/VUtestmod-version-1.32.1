@@ -234,7 +234,7 @@ orthodox_influence_1 = {
 		faction_in_power = GE_orthodox
 	}
 
-	GE_orthodox_influence = 0.10
+	#GE_orthodox_influence = 0.10
 }
 
 orthodox_influence_2 = {
@@ -249,7 +249,7 @@ orthodox_influence_2 = {
 		}
 	}
 
-	GE_orthodox_influence = 0.10
+	#GE_orthodox_influence = 0.10
 }
 
 orthodox_influence_3 = {
@@ -262,7 +262,7 @@ orthodox_influence_3 = {
 		religious_unity = 1
 	}
 
-	GE_orthodox_influence = 0.10
+	#GE_orthodox_influence = 0.10
 }
 
 orthodox_influence_4 = {
@@ -280,7 +280,7 @@ orthodox_influence_4 = {
 		}
 	}
 
-	GE_orthodox_influence = -0.25
+	#GE_orthodox_influence = -0.25
 }
 
 orthodox_influence_5 = {
@@ -295,7 +295,7 @@ orthodox_influence_5 = {
 		}
 	}
 
-	GE_orthodox_influence = 0.05
+	#GE_orthodox_influence = 0.05
 }
 
 orthodox_influence_5 = {
@@ -310,7 +310,7 @@ orthodox_influence_5 = {
 		}
 	}
 
-	GE_orthodox_influence = 0.05
+	#GE_orthodox_influence = 0.05
 }
 
 coptic_influence_1 = {
@@ -323,7 +323,7 @@ coptic_influence_1 = {
 		faction_in_power = GE_coptic
 	}
 
-	GE_coptic_influence = 0.10
+	#GE_coptic_influence = 0.10
 }
 
 coptic_influence_2 = {
@@ -338,7 +338,7 @@ coptic_influence_2 = {
 		}
 	}
 
-	GE_coptic_influence = 0.10
+	#GE_coptic_influence = 0.10
 }
 
 coptic_influence_3 = {
@@ -351,7 +351,7 @@ coptic_influence_3 = {
 		religious_unity = 1
 	}
 
-	GE_coptic_influence = 0.10
+	#GE_coptic_influence = 0.10
 }
 
 coptic_influence_4 = {
@@ -369,7 +369,7 @@ coptic_influence_4 = {
 		}
 	}
 
-	GE_coptic_influence = -0.25
+	#GE_coptic_influence = -0.25
 }
 
 coptic_influence_5 = {
@@ -384,7 +384,7 @@ coptic_influence_5 = {
 		}
 	}
 
-	GE_coptic_influence = 0.05
+	#GE_coptic_influence = 0.05
 }
 
 coptic_influence_6 = {
@@ -399,7 +399,7 @@ coptic_influence_6 = {
 		}
 	}
 
-	GE_coptic_influence = 0.05
+	#GE_coptic_influence = 0.05
 }
 
 sunni_influence_1 = {
@@ -412,7 +412,7 @@ sunni_influence_1 = {
 		faction_in_power = GE_sunni
 	}
 
-	GE_sunni_influence = 0.10
+	#GE_sunni_influence = 0.10
 }
 
 sunni_influence_2 = {
@@ -427,7 +427,7 @@ sunni_influence_2 = {
 		}
 	}
 
-	GE_sunni_influence = 0.10
+	#GE_sunni_influence = 0.10
 }
 
 sunni_influence_3 = {
@@ -440,7 +440,7 @@ sunni_influence_3 = {
 		religious_unity = 1
 	}
 
-	GE_sunni_influence = 0.10
+	#GE_sunni_influence = 0.10
 }
 
 sunni_influence_4 = {
@@ -458,7 +458,7 @@ sunni_influence_4 = {
 		}
 	}
 
-	GE_sunni_influence = -0.25
+	#GE_sunni_influence = -0.25
 }
 
 sunni_influence_5 = {
@@ -473,7 +473,7 @@ sunni_influence_5 = {
 		}
 	}
 
-	GE_sunni_influence = 0.05
+	#GE_sunni_influence = 0.05
 }
 
 sunni_influence_6 = {
@@ -488,7 +488,7 @@ sunni_influence_6 = {
 		}
 	}
 
-	GE_sunni_influence = 0.05
+	#GE_sunni_influence = 0.05
 }
 bangyesurok_1 = {
 	potential = {
