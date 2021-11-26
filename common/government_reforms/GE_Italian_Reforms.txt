@@ -33,7 +33,6 @@ genoan_republic_reform = {
 		max_absolutism = -50
 		global_trade_goods_size_modifier = 0.10
 		merchants = 1
-		trade_deals_slots = 0.03
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 50
@@ -97,7 +96,6 @@ florentine_republic = {
 		trade_efficiency = 0.1
 		build_cost = -0.10
 		max_absolutism = -30
-		trade_deals_slots = 0.02
 	}
 	boost_income = yes
 	duration = 4
@@ -195,44 +193,44 @@ kingdom_of_sardinia_reform = {
 }
 
 #This is not in GE anymore or in one of the other files.
-# lombardy_venetia_reform = {
-	# icon = "signoria_reform"
-	# allow_normal_conversion = yes
-	# valid_for_nation_designer = no
-	# potential = {
-		# OR = {
-			# OR = {
-				# has_country_flag = lvn_without_fe
-				# tag = LVN
-			# }
-			# has_reform = lombardy_venetia_reform
-		# }
-	# }
-	# trigger = {
-		# OR = {
-			# OR = {
-				# custom_trigger_tooltip = {
-					# tooltip = GE_FORMED_LVN_WITHOUT_FE
-					# has_country_flag = lvn_without_fe
-				# }
-				# tag = LVN
-			# }
-			# has_reform = lombardy_venetia_reform
-		# }
-	# }
-	# custom_attributes = {
-		# enables_nepotism = yes
-	# }
-	# modifiers = {
-		# max_absolutism = -30
-		# republican_tradition = 0.5
-		# army_tradition = 0.15
-		# navy_tradition = 0.15
-	# }
-	# ai = {
-		# factor = 100
-	# }
-# }
+lombardy_venetia_reform = {
+	icon = "signoria_reform"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = no
+	potential = {
+		OR = {
+			OR = {
+				has_country_flag = lvn_without_fe
+				tag = LVN
+			}
+			has_reform = lombardy_venetia_reform
+		}
+	}
+	trigger = {
+		OR = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = GE_FORMED_LVN_WITHOUT_FE
+					has_country_flag = lvn_without_fe
+				}
+				tag = LVN
+			}
+			has_reform = lombardy_venetia_reform
+		}
+	}
+	custom_attributes = {
+		enables_nepotism = yes
+	}
+	modifiers = {
+		max_absolutism = -30
+		republican_tradition = 0.5
+		army_tradition = 0.15
+		navy_tradition = 0.15
+	}
+	ai = {
+		factor = 100
+	}
+}
 
 #Tier 2
 angevin_nobles_reform = {
@@ -675,50 +673,50 @@ mantua_knightly_orders_reform = {
 	}
 }
 
-# This doesn't exist in GE anymore. Disabled for now.
-# teulie_reform_republic_reform = {
-	# icon = "soldiers"
-	# allow_normal_conversion = yes
-	# potential = {
-		# OR = {
-			# custom_trigger_tooltip = {
-				# tooltip = GE_FORMED_LVN_WITHOUT_FE
-				# has_country_flag = lvn_without_fe
-			# }
-			# OR = {
-				# tag = LVN
-				# AND = {
-					# was_tag = LVN
-					# tag = ITA
-				# }
-			# }
-		# }
-	# }
-	# trigger = {
-		# OR = {
-			# custom_trigger_tooltip = {
-				# tooltip = GE_FORMED_LVN_WITHOUT_FE
-				# has_country_flag = lvn_without_fe
-			# }
-			# OR = {
-				# tag = LVN
-				# AND = {
-					# was_tag = LVN
-				# }
-			# }
-		# }
-	# }
-	# modifiers = {
-		# infantry_cost = -0.10
-		# galley_cost = -0.10
-	# }
-	# custom_attributes = {
-		# enables_teulie = yes #+1 land leader manuver and 1 naval leader fire when over 75 RT
-	# }
-	# ai = {
-		# factor = 1
-	# }
-# }
+#This doesn't exist in GE anymore. Disabled for now.
+teulie_reform_republic_reform = {
+	icon = "soldiers"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = GE_FORMED_LVN_WITHOUT_FE
+				has_country_flag = lvn_without_fe
+			}
+			OR = {
+				tag = LVN
+				AND = {
+					was_tag = LVN
+					tag = ITA
+				}
+			}
+		}
+	}
+	trigger = {
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = GE_FORMED_LVN_WITHOUT_FE
+				has_country_flag = lvn_without_fe
+			}
+			OR = {
+				tag = LVN
+				AND = {
+					was_tag = LVN
+				}
+			}
+		}
+	}
+	modifiers = {
+		infantry_cost = -0.10
+		galley_cost = -0.10
+	}
+	custom_attributes = {
+		enables_teulie = yes #+1 land leader manuver and 1 naval leader fire when over 75 RT
+	}
+	ai = {
+		factor = 1
+	}
+}
 
 #Tier 5
 neapolitan_renaissance_reform = {

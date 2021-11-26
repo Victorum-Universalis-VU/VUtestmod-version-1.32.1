@@ -7,7 +7,7 @@
 # Imperialism
 #######################################
 imperialism = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		core_creation = -0.1
@@ -367,7 +367,7 @@ imperialism = {
 # Nationalism
 #######################################
 nationalism_institution = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		land_morale = 0.1

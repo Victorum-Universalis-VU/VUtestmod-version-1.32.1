@@ -307,7 +307,7 @@ mnd_plb_1 = {
 }
 
 
-mnd_plb_1 = {
+mnd_plb_2 = {
 	slot = 2
 	generic = no
 	ai = yes

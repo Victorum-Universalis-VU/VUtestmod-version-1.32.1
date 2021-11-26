@@ -7315,10 +7315,7 @@ frloc_superregions_art_sg_fem_vow_d_del_en_05 = {
 
 frloc_superregions_art_pl_fem_des_des_dansles_06 = {
 	# Ex.: LES Indes orientales / venir DES Indes orientales / la conquête DES Indes orientales / arriver DANS LES Indes orientales / grandES
-	OR = {
-		superregion = east_indies_superregion
-		superregion = andes_superregion
-	}
+	superregion = east_indies_superregion
 }
 
 

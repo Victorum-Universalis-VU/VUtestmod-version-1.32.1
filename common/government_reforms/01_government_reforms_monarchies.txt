@@ -83,7 +83,7 @@ plutocratic_reform = {
 		nobles_influence_modifier = -0.05
 		burghers_influence_modifier = 0.05
 		vaisyas_influence_modifier = 0.05
-		trade_deals_slots = 0.01
+		center_of_trade_upgrade_cost = -0.1
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -1412,7 +1412,7 @@ enforce_trader_privileges_reform = {
 	modifiers = {
 		trade_range_modifier = 0.3
 		trade_efficiency = 0.05
-		trade_deals_slots = 0.01   #Added in VU
+		trade_company_investment_cost = -0.1
 	}
 	ai = {
 		factor = 2
@@ -1452,7 +1452,7 @@ bengali_reform = {
 	modifiers = {
 		merchants = 1
 		trade_efficiency = 0.1
-		trade_deals_slots = 0.01
+		caravan_power = 0.2
 	}
 	ai = {
 		factor = 5

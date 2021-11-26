@@ -145,3 +145,7 @@ ship_names = {
 	"Truro"
     "Whitsand"
 }
+
+army_names = {
+	"Byddin o $PROVINCE$" 
+}

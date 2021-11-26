@@ -352,7 +352,7 @@ christian = {
 		allowed_conversion = {
 				waldensian
 				lollard
-				bogomilist
+				bogomilist_new
 				iconoclast
 				nestorian
 		}
@@ -694,7 +694,7 @@ christian = {
 		icon = 4
 		allowed_conversion = {
 				coptic
-				bogomilist
+				bogomilist_new
 				iconoclast
 				nestorian
 		}
@@ -720,7 +720,7 @@ christian = {
 		
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 		
-		has_patriarchs = yes		# Uses patriarch authority
+		uses_judaism_power = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
 		
 		orthodox_icons = {
@@ -901,7 +901,7 @@ christian = {
 			fraticelli
 			waldensian
 			lollard
-			bogomilist
+			bogomilist_new
 			iconoclast
 			jewish
 			manichaean
@@ -1312,7 +1312,7 @@ christian = {
 
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
 
-		has_patriarchs = yes		# Uses patriarch authority
+		uses_judaism_power = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
 	}	
 
@@ -1321,7 +1321,7 @@ christian = {
 		color = { 188 161 53 }
 		icon = 31
 		allowed_conversion = {
-				bogomilist
+				bogomilist_new
 				iconoclast
 				manichaean
 				buddhism
@@ -1393,7 +1393,6 @@ christian = {
 			orthodox
 			hussite 
 			catholic
-			slavic_pagan_reformed
 		}
 		country = {
 			local_missionary_strength = 0.005
@@ -1437,7 +1436,7 @@ christian = {
 				coptic
 		}
 		country = {
-			administrative_efficiency = 0.15
+			administrative_efficiency = 0.1
 			core_creation = -0.15
 		}
 		country_as_secondary = {
@@ -2017,7 +2016,7 @@ muslim = {
 				kharijite
 				sufism
 				alevi
-				druze
+				druze_new
 				manichaean
 				buddhism
 				sikhism
@@ -2053,7 +2052,7 @@ muslim = {
 				zoroastrian
 				mazdaki
 				sufism
-				druze
+				druze_new
 				manichaean
 				buddhism
 				sikhism
@@ -2121,7 +2120,7 @@ muslim = {
 				kharijite
 				sufism
 				alevi
-				druze
+				druze_new
 				yazidi
 				manichaean
 				buddhism
@@ -2220,7 +2219,7 @@ muslim = {
 				zikri
 				kharijite
 				alevi
-				druze
+				druze_new
 				yazidi
 		}
 
@@ -2263,7 +2262,7 @@ muslim = {
 				iconoclast
 				nestorian
 				zoroastrian
-				druze
+				druze_new
 				sufism
 				yazidi
 				manichaean
@@ -3785,7 +3784,7 @@ pagan = {
 
 
 # Slavic Religion
-	slavic_pagan = {}	#removed due to new version of slavic existing
+	#slavic_pagan = {}	#removed due to new version of slavic existing
 
 
 	druidic = {
@@ -3794,9 +3793,6 @@ pagan = {
 		allowed_conversion = {
 				norse_pagan_reformed
 				tengri_pagan_reformed
-				romuva
-				suomenusko
-				slavic_pagan
 				hellenic_pagan_reformed
 		}
 		province = {
@@ -4263,7 +4259,7 @@ jewish_group = {
 		}
 		
 		#uses_piety = yes		#this overlaps patriarchates, so disabling
-		has_patriarchs = yes
+		uses_judaism_power = yes
 		aspects_name = JEWISH_ASPECTS
 			
 		aspects = {
