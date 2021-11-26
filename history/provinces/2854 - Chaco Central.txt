@@ -5,7 +5,7 @@ culture = chacoan
 
 
 discovered_by = south_american
-discovered_by = CCQ
+1444.1.1 = { discovered_by = CCQ } 
 
 religion = animism
 capital = "Chaco Central"
