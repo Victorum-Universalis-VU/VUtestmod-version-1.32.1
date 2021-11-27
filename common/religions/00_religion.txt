@@ -697,6 +697,7 @@ christian = {
 				bogomilist_new
 				iconoclast
 				nestorian
+				miaphysite
 		}
 		country = {
 			stability_cost_modifier = -0.1
@@ -720,7 +721,7 @@ christian = {
 		
 		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
 		
-		uses_judaism_power = yes		# Uses patriarch authority
+		has_patriarchs = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
 		
 		orthodox_icons = {
@@ -848,6 +849,7 @@ christian = {
 				nestorian
 				jewish
 				zoroastrian
+				miaphysite
 		}
 		
 		country = {
