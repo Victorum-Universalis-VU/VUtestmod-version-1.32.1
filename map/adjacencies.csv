@@ -432,4 +432,18 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2472;2456;sea;1794;-1;-1;-1;-1;Ouargla-Touggourt
 2472;4567;sea;1794;-1;-1;-1;-1;Ouargla-Ghadames
 6146;413;sea;4170;-1;-1;-1;-1;Arak-Khorramabad
+6922;605;sea;7397;-1;-1;-1;-1;Ben tre-Pray Nokor
+6922;6915;sea;7397;-1;-1;-1;-1;Ben tre-Mo Cay
+6915;2376;sea;7397;-1;-1;-1;-1;Mo Cay-Pek Russey
+8624;6917;sea;7397;-1;-1;-1;-1;Mort Chrouk-Long Xuyen
+8624;6919;sea;7397;-1;-1;-1;-1;Mort Chrouk-Cao Lanh
+604;2380;sea;7397;-1;-1;-1;-1;Oudong-Chaktomuk
+604;6914;sea;5227;-1;-1;-1;-1;Oudong-Roka Ar
+6914;8683;sea;7283;-1;-1;-1;-1;Roka Ar-Shrey Santhor
+4828;1823;sea;7283;-1;-1;-1;-1;Preah Vihear-Stung Treng
+8587;8588;sea;7396;-1;-1;-1;-1;Ubon-Salavan
+8728;611;sea;7396;-1;-1;-1;-1;That Phanom-Sikhottabong
+613;8658;sea;5201;-1;-1;-1;-1;Dong Kinh-Thai Nguyen
+8597;2372;sea;5200;-1;-1;-1;-1;Son Nam-Hai Phong
+
 -1;-1;;-1;-1;-1;-1;-1;-1;

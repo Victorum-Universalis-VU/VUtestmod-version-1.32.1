@@ -440,7 +440,6 @@ egypt_region = {
 
 maghreb_region = {
 	areas = {
-	    east_sahara_area
 		tunisia_area
 		djerba_area
 		kabylia_area
@@ -766,6 +765,7 @@ libya_region = {
 		nafusa_mountains_area
 		southeast_sahara_area
 		tripolitania_area
+		east_sahara_area
 	}
 	monsoon = {
 		00.06.01
