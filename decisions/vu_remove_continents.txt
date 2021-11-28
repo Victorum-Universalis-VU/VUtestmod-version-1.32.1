@@ -14,7 +14,7 @@ country_decisions = {
 #         every_core_country = {
 #              # prevents the player from deleting himself
 #             limit = {ai = yes}
-#             country_event = { id = vu_remove_country }
+#             country_event = { id = vu_remove_country.1 }
 #         }
 #       }
 #     }
@@ -28,26 +28,26 @@ country_decisions = {
 #
 #	   effect = {
 #			TAG_to_remove = {
-#			   country_event = { id = vu_remove_country }
+#			   country_event = { id = vu_remove_country.1 }
 #			}
 #		}
 #	}
 
-  remove_north_america = {
-    major = yes
+	remove_north_america = {
+		major = yes
 		potential = {
-		  ai = no
-      NOT = {is_year = 1445}
-      NOT = { has_global_flag = removed_north_america }
+			ai = no
+			NOT = { is_year = 1445}
+			NOT = { has_global_flag = removed_north_america }
 		}
 
-    effect = {
-      set_global_flag = removed_north_america
+		effect = {
+			set_global_flag = removed_north_america
 			north_america_superregion = {
-        every_core_country = {
-            limit = {ai = yes}
-				    country_event = { id = vu_remove_country }
-        }
+				every_core_country = {
+					limit = { ai = yes}
+					country_event = { id = vu_remove_country.1 }
+        			}
 			}
 		}
 	}
@@ -56,7 +56,7 @@ country_decisions = {
     major = yes
     potential = {
       ai = no
-      NOT = {is_year = 1445}
+      NOT = { is_year = 1445}
       NOT = { has_global_flag = removed_south_america }
     }
 
@@ -64,8 +64,8 @@ country_decisions = {
       set_global_flag = removed_south_america
       south_america_superregion = {
         every_core_country = {
-            limit = {ai = yes}
-            country_event = { id = vu_remove_country }
+            limit = { ai = yes}
+            country_event = { id = vu_remove_country.1 }
         }
       }
     }
@@ -75,7 +75,7 @@ country_decisions = {
     major = yes
     potential = {
       ai = no
-      NOT = {is_year = 1445}
+      NOT = { is_year = 1445}
       NOT = { has_global_flag = removed_central_america }
     }
 
@@ -83,8 +83,8 @@ country_decisions = {
       set_global_flag = removed_central_america
       central_america_superregion = {
         every_core_country = {
-            limit = {ai = yes}
-            country_event = { id = vu_remove_country }
+            limit = { ai = yes}
+            country_event = { id = vu_remove_country.1 }
         }
       }
     }
@@ -278,7 +278,7 @@ country_decisions = {
 						#tag = KAA #Also starting expanding on the islands around 1500... good enough for now
 					}
 				}
-				country_event = { id = vu_remove_country }
+				country_event = { id = vu_remove_country.1 }
 			}
 		}
 	}
