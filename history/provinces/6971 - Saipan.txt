@@ -1,7 +1,7 @@
 #6971 - Saipan
 #VU Discovery Bug Fix
 
-culture = papuan
+culture = polynesian
 religion = animism
 capital = "Garapan"
 trade_goods = unknown
