@@ -209,8 +209,11 @@ java_sea_superregion = { #New VU
 	java_sea_region
 }
 
-chinese_coast_superregion = { #New VU
+east_chinese_coast_superregion = { #New VU
 	chinese_coast_region
+}
+
+south_chinese_coast_superregion = { #New VU
 	south_china_sea_region
 }
 
