@@ -1,6 +1,6 @@
 #Freetown
 
-culture = dyola
+culture = temne
 religion = shamanism #Fetishism
 capital = "Freetown"
 trade_goods = unknown

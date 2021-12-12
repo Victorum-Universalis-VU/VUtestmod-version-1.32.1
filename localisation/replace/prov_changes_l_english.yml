@@ -193,6 +193,8 @@
  PROV909:0 "Numakaki"
  PROV910:0 "Tsétsêhéstâhese"            #Ojibwe name Onigamiinsing (Duluth)
  PROV953:0 "Moyaons"
+ PROV959:0 "Onondaga"
+ PROV960:0 "Cayuga"
  PROV971:0 "Penawapskewi"
  PROV972:0 "Mowichat"
  PROV973:0 "S'ólh Téméxw"
@@ -395,6 +397,7 @@
  PROV2143:0 "Huainan"
  PROV2154:0 "Ketangalan"
  PROV2241:0 "Kindia"
+ PROV2251:0 "Bagoe"
  PROV2288:0 "Kanem"
  PROV2292:0 "Djougou"
  PROV2296:0 "Dardanelles"
@@ -852,6 +855,8 @@
  PROV8483:0 "Simmern"
  PROV8484:0 "Bopard"
  PROV8493:0 "Düren"
+ 
+ PROV_ADJ2251:0 "Bagoe"
 
 
 

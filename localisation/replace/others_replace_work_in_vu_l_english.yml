@@ -362,6 +362,10 @@
  ###########################
  #Cultures
  ###########################
+ aztek:0 "Mexica"
+ central_american:0 "Nahua"
+ iroquois:0 "Mohawk"
+ mesquakie:0 "Meskwaki"
  bornean:0 "Dayak"
  sumatran:0 "Minang"
  acehnese:0 "Acehnese"

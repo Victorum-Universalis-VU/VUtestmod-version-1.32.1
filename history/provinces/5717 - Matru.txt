@@ -1,6 +1,6 @@
 #5717 - Matru
 
-culture = dyola
+culture = temne
 religion = shamanism #Fetishism
 capital = "Mattru Jong"
 trade_goods = unknown

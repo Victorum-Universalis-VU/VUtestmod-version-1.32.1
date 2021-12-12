@@ -1,6 +1,6 @@
 #5716 - Conakry
 
-culture = senegambian 
+culture = susu 
 religion = shamanism #Fetishism
 capital = "Conakry"
 trade_goods = slaves

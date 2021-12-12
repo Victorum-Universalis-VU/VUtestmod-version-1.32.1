@@ -1,6 +1,6 @@
 # No previous file for Karou
 
-culture = dyola
+culture = mende
 religion = shamanism #Fetishism
 capital = "Karou"
 trade_goods = unknown

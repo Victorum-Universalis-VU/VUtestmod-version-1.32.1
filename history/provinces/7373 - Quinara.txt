@@ -2,7 +2,7 @@
 
 owner = MAL
 controller = MAL
-culture = senegambian
+culture = balante
 is_city = yes
 base_manpower = 4
 religion = shamanism #Fetishism

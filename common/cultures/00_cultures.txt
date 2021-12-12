@@ -4810,6 +4810,32 @@ central_algonquian = {
 			Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans Kiiwedin Kamenna
 		}
 	}
+	kickapoo = {
+		dynasty_names = {
+			Missisage Saulteaux Bungee Saginaw Achiligouan Amicoures Amikwa Auwause Bawating Chequamegon Keweenaw Kitchigami
+			Macomille Malanas Marameg Mackinac Mundua Nikikouek Noquet Mouusagai Ouasouarini Aousanik Outchibou Outchougai
+			Ouxeiacomingo
+		}
+		male_names = {
+			Nemekas Puckanese Macquettequet Shimnanaquette Pakenosega Kekenutchega Chimokemow Kekenutchegun
+			Muskobenense Waubonoosa Wausaquanai Minequet Otauson Tussegua Mixabee Kitchewawashen Neebeenaquin
+			Anueemaycounbeeme Onewequa Nayokeeman Peshquescum Muckcumcinau Kitcheenoting Waubeekeenew
+			Sheemaugua Kauguest Kitsheematush Aneuwayba Walkcaykeejugo Autowaynabee Nawgonisee owenisham
+			Mooksonga Noukonwabe Shingwalk Wawaubequak Meewayson Wepecumgegut Markkenwuwbe Fonegawne Nemetetowwa
+			Kishkaukou Peenaysee Ogemaunkeketo Reaume Nowkeshuc Mixmunitou Wassau Keneobe Moksauba Mutchwetau
+			Okumanpinase Meckseonne Paupemiskobe Kogkakeshik Wauwassack Misheneanonquet Okemans Nimeke
+			Puckwash Waseneso Montons Kennewobe Shawshauwenaubais Okooyousinse Ondottowaugane Amickoneena
+			Kitcheonundeeyo Saugassauway Okeemanpeenaysee Minggeeseetay Waubishcan Peaypaymanshee Ocanauck
+			Paymeenoting Naynooautienishkoan Kaujagonaygee Mayneeseno Kakagouryan Kitchmokooman Singgok
+			Saguhosh Saybo Obwole Aguagonabe Sigonak Kokoosh Pemaw Kawotoktame Sabo Kewageone Metewa Kawgeshequm
+			Keyacum Atowagesek Mawmawkens Mamawsecuta Penaysewaykesek Kewaytinam Sepewan Shashebak Shaconk
+			Paymusawtom Endus Aushetayawnekusa Wawapenishik Omikou Pashkobwis Pashkeekou Mayto Wauweeyatam
+			Nuwagon Mesnakrea Maytwayaushing Ogeebouinse Maneleugobwawaa
+		}
+		female_names = {
+			Aazhawiggizhigokwe Ayasha Keezheekoni Mitena Waawaaskwane Zaagaasage Wiingashk Miigwaans Kiiwedin Kamenna
+		}
+	}
 	cree = {
 		primary = WCR
 		dynasty_names = {
@@ -5159,8 +5185,163 @@ iroquoian = {
 			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
 		}
 	}
+	oneida = {
+		dynasty_names = {
+			Awegen Ahaouet
+			Canajoharie Canastigaone Canienga Caughnawaga Cahunghage Canowaroghere
+			Deseroken Dayoitgao Deonundagae Deyodeshot Deyohnegano Deyonongdadagana
+			Gweugwehono Gandasetaigon Ganogeh Gayagaanhe Gewauga Goiogouen Gadoquat Gannentaha
+			Hostayuntwa
+			Kawauka Kente Kanagaro Kowogoconnughariegugharie Kanadaseagea Kanatakowa
+			Neodakheat Nowadaga Nundawaono
+			Onekagoncka Onoalagona Oquaga Osquake Onayotekaono Oriska Ossewingo 
+			Skannayutenate Saratoga Schaunactada Schoharie
+			Teatontaloga Tewanondadon Tionnontoguen Tegasoke Teseroken Tetosweken 
+			Yoroonwago
+		}
+		male_names = {
+			Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton 
+			Tayagonendagighti Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti 
+			Kayenthoghke Cageaga Sawedowa Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho 
+			Kiandogewa Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa Sicahowa Tewanias 
+			Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee Aupaumut Neeshonshuk 
+			Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh Kussauwatau 
+			Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen Kaukondanaiya 
+			Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth Tauhoondos 
+			Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga Tuggehshotta 
+			Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau 
+			Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau 
+			Thaoowaunias Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha
+			Kendarindgon Nondiyauka Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+		}
+		female_names = {
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
+		}
+	}
+	cayugan = {
+		dynasty_names = {
+			Awegen Ahaouet
+			Canajoharie Canastigaone Canienga Caughnawaga Cahunghage Canowaroghere
+			Deseroken Dayoitgao Deonundagae Deyodeshot Deyohnegano Deyonongdadagana
+			Gweugwehono Gandasetaigon Ganogeh Gayagaanhe Gewauga Goiogouen Gadoquat Gannentaha
+			Hostayuntwa
+			Kawauka Kente Kanagaro Kowogoconnughariegugharie Kanadaseagea Kanatakowa
+			Neodakheat Nowadaga Nundawaono
+			Onekagoncka Onoalagona Oquaga Osquake Onayotekaono Oriska Ossewingo 
+			Skannayutenate Saratoga Schaunactada Schoharie
+			Teatontaloga Tewanondadon Tionnontoguen Tegasoke Teseroken Tetosweken 
+			Yoroonwago
+		}
+		male_names = {
+			Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton 
+			Tayagonendagighti Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti 
+			Kayenthoghke Cageaga Sawedowa Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho 
+			Kiandogewa Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa Sicahowa Tewanias 
+			Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee Aupaumut Neeshonshuk 
+			Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh Kussauwatau 
+			Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen Kaukondanaiya 
+			Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth Tauhoondos 
+			Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga Tuggehshotta 
+			Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau 
+			Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau 
+			Thaoowaunias Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha
+			Kendarindgon Nondiyauka Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+		}
+		female_names = {
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
+		}
+	}
+	onondaga = {
+		dynasty_names = {
+			Awegen Ahaouet
+			Canajoharie Canastigaone Canienga Caughnawaga Cahunghage Canowaroghere
+			Deseroken Dayoitgao Deonundagae Deyodeshot Deyohnegano Deyonongdadagana
+			Gweugwehono Gandasetaigon Ganogeh Gayagaanhe Gewauga Goiogouen Gadoquat Gannentaha
+			Hostayuntwa
+			Kawauka Kente Kanagaro Kowogoconnughariegugharie Kanadaseagea Kanatakowa
+			Neodakheat Nowadaga Nundawaono
+			Onekagoncka Onoalagona Oquaga Osquake Onayotekaono Oriska Ossewingo 
+			Skannayutenate Saratoga Schaunactada Schoharie
+			Teatontaloga Tewanondadon Tionnontoguen Tegasoke Teseroken Tetosweken 
+			Yoroonwago
+		}
+		male_names = {
+			Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton 
+			Tayagonendagighti Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti 
+			Kayenthoghke Cageaga Sawedowa Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho 
+			Kiandogewa Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa Sicahowa Tewanias 
+			Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee Aupaumut Neeshonshuk 
+			Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh Kussauwatau 
+			Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen Kaukondanaiya 
+			Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth Tauhoondos 
+			Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga Tuggehshotta 
+			Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau 
+			Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau 
+			Thaoowaunias Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha
+			Kendarindgon Nondiyauka Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+		}
+		female_names = {
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
+		}
+	}
+	seneca = {
+		dynasty_names = {
+			Awegen Ahaouet
+			Canajoharie Canastigaone Canienga Caughnawaga Cahunghage Canowaroghere
+			Deseroken Dayoitgao Deonundagae Deyodeshot Deyohnegano Deyonongdadagana
+			Gweugwehono Gandasetaigon Ganogeh Gayagaanhe Gewauga Goiogouen Gadoquat Gannentaha
+			Hostayuntwa
+			Kawauka Kente Kanagaro Kowogoconnughariegugharie Kanadaseagea Kanatakowa
+			Neodakheat Nowadaga Nundawaono
+			Onekagoncka Onoalagona Oquaga Osquake Onayotekaono Oriska Ossewingo 
+			Skannayutenate Saratoga Schaunactada Schoharie
+			Teatontaloga Tewanondadon Tionnontoguen Tegasoke Teseroken Tetosweken 
+			Yoroonwago
+		}
+		male_names = {
+			Theyanoguin Teiorhenhsere Thayendanega Oronhyatekha Onogwendahonji Touighnatogon Oheadanghton 
+			Tayagonendagighti Tehonwaenghrigagi Otyadonenghti Dagaheari Oraghoaenendagen Onnonghsawenghti 
+			Kayenthoghke Cageaga Sawedowa Kiondushowa Oncahye Soaheas Otachsaka Tekahias Onecnsetee Kiatulaho 
+			Kiandogewa Owenewa Gyantwaia Gyasota Kannasseee Achiout Anachout Chishekoa Sessewa Sicahowa Tewanias 
+			Snoachshowa Hickonquash Ononyeahnee Konneatorteeooh Tokenhyouau Oneshauee Aupaumut Neeshonshuk 
+			Sohhonteoquent Ooduhtsait Konoohqung Tossonggaulolus Skenendoa Oneatorleeooh Kussauwatau 
+			Kohnyeaugaong Shaguiesa Teeroos Sooshaoowau Sonhyoowauna Onaahhah Hotoshahen Kaukondanaiya 
+			Kosshishtowau Oojaugenta Toheonggo Ootaguasso Joonondauwanonch Kiyauhaonh Ootaujeaugenth Tauhoondos 
+			Twaukewasha Sequidonguquee Kodjeote Kenjauaugus Soononhquaukau Twenniyana Jishkaaga Tuggehshotta 
+			Tehongyagauna Tehongyoowush Konneyoowesot Tioohquaottakauna Taoundaudeesh Honayawus Soggooyawauthau 
+			Konyootiayoo Sauhtakaongyees Ounnashattakau Kaungyanehquee Sooayoowau Kaujeagaonh Soonoohshoowau 
+			Thaoowaunias Soonongjoowau Kiantwhauka Kaunehshonggoo Kenneronkwa Telenemut Katarioniecha
+			Kendarindgon Nondiyauka Kanatsoyh Eootenyootauook Aqueia Tarondawagon
+		}
+		female_names = {
+			Tyonajanegen Alliquippa Konwatsitiaienni Genessee Satékon Tekakwitha 
+		}
+	}
 	tionontate = {
 		primary = TIO
+		dynasty_names = {
+			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon
+			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
+			Cahiague Carhagouha Carmaron Contarea Conchake Chequamegon
+			Ekiodatsaan Endarahy Iahenhouton
+			Junqueindundeh Junundat
+			Karenhassa Kakouagoga Kandouche Kehesetoa Khioetoa
+			Oeniro Onentisati Ossossane Oukhahitoua
+			Scanonaerat Sunyendeand Skenchioe
+			Teanaustayae Teandewiata Tonache Teadeouita Teanhatenaron Tondakhra Tiedonderoga Touaguainchain Tarhetown Teotoguiaton
+		}
+		male_names = {
+			Ahatsistari Adario Dunquat Tarhe Teyandatontec Cheyawe Doueyenteat Terhataw Datasay Maudoronk
+			Teyyaghtwa Haroenyou Tehaawtorens Awmeyeeray Stayetah Shateyyaronyah Daughshuttayah Shaawrunthe
+			Thateyyanayoh Tahunehawttee Shawrunthie Tschauendah Rontondu Tuayaurontoyou Dauatout Horonu
+			Hawdoro Skotous Quouqua Skahomat Teoudetosso Miere
+		}
+		female_names = {
+			Taima Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
+		}
+	}
+	wenro = {
+		primary = WEN
 		dynasty_names = {
 			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon
 			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
@@ -5204,8 +5385,116 @@ iroquoian = {
 			Salali Tsistunagiska Tsula Tayanita Yona
 		}
 	}
+	tuscarora = {
+		primary = TSC
+		dynasty_names = {
+			Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Adahy Atagulkalu
+		}
+		male_names = {
+			Sequoyah Attakullaculla Guwisguwi Moytoy Yonaguska Tsiyu Gansini Agi It Boudinot Lach'n Koatohee
+			Scholauetta Tuskegatahu Ooskwha Kolakusta Newota Konatota Tuckasee Toostaka Untoola Unsuokanail
+			Chonosta Chescoonwho Chesetoa Chesecotetona Sketaloska Chokasatahe Onanoota Ookoseta Umatooetha
+			Necatee Amokontakona Kowetatahee Keukuck Tulatiska Wooaluka Tatliusta Skeleak Akonoluchta Cheanoka
+			Ostaiah Oortlokecteh Chockonnistaller Noothoietah Kunnateelah Utturah Weelee Oolassoteh Tlorene
+			Jonnurteekee Oonatakoteekee Kanowsurhee Yonah Oolah Tunksalenee Oorkullaukee Kumamah Chattakuteehee
+			Kettegiskie Tauuotihee Chuquilataque Salleekookoolah Tallotuskee Chellokee Tuskeegatee Neekaanneah
+			Kulsateehee Keetakeuskah Akooh Sawanooekee Yonahequah Keenahkunnah Kaweesoolaskee Teekalohenah
+			Chochuchee Kostayeak Ookouseteeh Kanitta Nemetuah Wyuka Tulco
+		}
+		female_names = {
+			Asmita Nanyehi Cuhtahlatah Sequoya Adsila Amadahy Awenasa Awinita Ayita Galilahi Leotie Usdi Galilani Hialeah
+			Immookalee Tayanita Sequoia Ahyoka Ama Galilani Ghigau Hiawassee Immokalee Inola Knasgowa Nanye-hi Ninovan
+			Salali Tsistunagiska Tsula Tayanita Yona
+		}
+	}
+	nottoway = {
+		dynasty_names = {
+			Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Adahy Atagulkalu
+		}
+		male_names = {
+			Sequoyah Attakullaculla Guwisguwi Moytoy Yonaguska Tsiyu Gansini Agi It Boudinot Lach'n Koatohee
+			Scholauetta Tuskegatahu Ooskwha Kolakusta Newota Konatota Tuckasee Toostaka Untoola Unsuokanail
+			Chonosta Chescoonwho Chesetoa Chesecotetona Sketaloska Chokasatahe Onanoota Ookoseta Umatooetha
+			Necatee Amokontakona Kowetatahee Keukuck Tulatiska Wooaluka Tatliusta Skeleak Akonoluchta Cheanoka
+			Ostaiah Oortlokecteh Chockonnistaller Noothoietah Kunnateelah Utturah Weelee Oolassoteh Tlorene
+			Jonnurteekee Oonatakoteekee Kanowsurhee Yonah Oolah Tunksalenee Oorkullaukee Kumamah Chattakuteehee
+			Kettegiskie Tauuotihee Chuquilataque Salleekookoolah Tallotuskee Chellokee Tuskeegatee Neekaanneah
+			Kulsateehee Keetakeuskah Akooh Sawanooekee Yonahequah Keenahkunnah Kaweesoolaskee Teekalohenah
+			Chochuchee Kostayeak Ookouseteeh Kanitta Nemetuah Wyuka Tulco
+		}
+		female_names = {
+			Asmita Nanyehi Cuhtahlatah Sequoya Adsila Amadahy Awenasa Awinita Ayita Galilahi Leotie Usdi Galilani Hialeah
+			Immookalee Tayanita Sequoia Ahyoka Ama Galilani Ghigau Hiawassee Immokalee Inola Knasgowa Nanye-hi Ninovan
+			Salali Tsistunagiska Tsula Tayanita Yona
+		}
+	}
+	meherrin = {
+		dynasty_names = {
+			Mohe Diwali Waya Tsiyi Onacona Atagulkalu Degataga Cheasequah Adahy Atagulkalu
+		}
+		male_names = {
+			Sequoyah Attakullaculla Guwisguwi Moytoy Yonaguska Tsiyu Gansini Agi It Boudinot Lach'n Koatohee
+			Scholauetta Tuskegatahu Ooskwha Kolakusta Newota Konatota Tuckasee Toostaka Untoola Unsuokanail
+			Chonosta Chescoonwho Chesetoa Chesecotetona Sketaloska Chokasatahe Onanoota Ookoseta Umatooetha
+			Necatee Amokontakona Kowetatahee Keukuck Tulatiska Wooaluka Tatliusta Skeleak Akonoluchta Cheanoka
+			Ostaiah Oortlokecteh Chockonnistaller Noothoietah Kunnateelah Utturah Weelee Oolassoteh Tlorene
+			Jonnurteekee Oonatakoteekee Kanowsurhee Yonah Oolah Tunksalenee Oorkullaukee Kumamah Chattakuteehee
+			Kettegiskie Tauuotihee Chuquilataque Salleekookoolah Tallotuskee Chellokee Tuskeegatee Neekaanneah
+			Kulsateehee Keetakeuskah Akooh Sawanooekee Yonahequah Keenahkunnah Kaweesoolaskee Teekalohenah
+			Chochuchee Kostayeak Ookouseteeh Kanitta Nemetuah Wyuka Tulco
+		}
+		female_names = {
+			Asmita Nanyehi Cuhtahlatah Sequoya Adsila Amadahy Awenasa Awinita Ayita Galilahi Leotie Usdi Galilani Hialeah
+			Immookalee Tayanita Sequoia Ahyoka Ama Galilani Ghigau Hiawassee Immokalee Inola Knasgowa Nanye-hi Ninovan
+			Salali Tsistunagiska Tsula Tayanita Yona
+		}
+	}
 	huron = {
 		primary = HUR
+		dynasty_names = {
+			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon
+			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
+			Cahiague Carhagouha Carmaron Contarea Conchake Chequamegon
+			Ekiodatsaan Endarahy Iahenhouton
+			Junqueindundeh Junundat
+			Karenhassa Kakouagoga Kandouche Kehesetoa Khioetoa
+			Oeniro Onentisati Ossossane Oukhahitoua
+			Scanonaerat Sunyendeand Skenchioe
+			Teanaustayae Teandewiata Tonache Teadeouita Teanhatenaron Tondakhra Tiedonderoga Touaguainchain Tarhetown Teotoguiaton
+		}
+		male_names = {
+			Ahatsistari Adario Dunquat Tarhe Teyandatontec Cheyawe Doueyenteat Terhataw Datasay Maudoronk
+			Teyyaghtwa Haroenyou Tehaawtorens Awmeyeeray Stayetah Shateyyaronyah Daughshuttayah Shaawrunthe
+			Thateyyanayoh Tahunehawttee Shawrunthie Tschauendah Rontondu Tuayaurontoyou Dauatout Horonu
+			Hawdoro Skotous Quouqua Skahomat Teoudetosso Miere
+		}
+		female_names = {
+			Taima Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
+		}
+	}
+	ottawa = {
+		dynasty_names = {
+			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon
+			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
+			Cahiague Carhagouha Carmaron Contarea Conchake Chequamegon
+			Ekiodatsaan Endarahy Iahenhouton
+			Junqueindundeh Junundat
+			Karenhassa Kakouagoga Kandouche Kehesetoa Khioetoa
+			Oeniro Onentisati Ossossane Oukhahitoua
+			Scanonaerat Sunyendeand Skenchioe
+			Teanaustayae Teandewiata Tonache Teadeouita Teanhatenaron Tondakhra Tiedonderoga Touaguainchain Tarhetown Teotoguiaton
+		}
+		male_names = {
+			Ahatsistari Adario Dunquat Tarhe Teyandatontec Cheyawe Doueyenteat Terhataw Datasay Maudoronk
+			Teyyaghtwa Haroenyou Tehaawtorens Awmeyeeray Stayetah Shateyyaronyah Daughshuttayah Shaawrunthe
+			Thateyyanayoh Tahunehawttee Shawrunthie Tschauendah Rontondu Tuayaurontoyou Dauatout Horonu
+			Hawdoro Skotous Quouqua Skahomat Teoudetosso Miere
+		}
+		female_names = {
+			Taima Chekaqua Kataka Mecaitch Neshota Chagasort Pecama Namachewana Nanochaatasa Taimah Catchemackeseo
+		}
+	}
+	petun = {
 		dynasty_names = {
 			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon
 			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
@@ -8765,6 +9054,22 @@ mande = {
 			Munia Nadia Naila Nur Rafiqa Rahat
 		}
 	}
+	mende = {
+		primary = MAL
+		dynasty_names = {
+			Keita Sama
+		}
+		male_names = {
+			"Mule" "Mamadu" "Al-Hajj" "'Ali Zalil" "Muhammad" "Da'ud" "Bakari" "'Abd al-Rahman" "Bakr" "Al-Mukhtar"
+			"Mahmud" "Majan" "Birahim" "'Ali" "Amada Sire" "Nguia" "Bubu" "Ilo" "Kanta" "Al-Mansur" "'Ammar" "Sa'ud 'Arjud"
+			"Haddu" "Sa'id" "Dhu al-Nun" "'Abd Allah" "Nasr" "Yahya" "Sanibar" "Hammadi" "'Abbas" "Benkano"
+			"Zenka" "Mami" "Ba-Bakribin" "'Abd al-Qadir" "Yusuf" "Santa'a" "Al-Fa' Ibrahim" "Sandaki"
+		}
+		female_names = {
+			"Amna" "Ghadir" "Latifa" "Maha" "Ranya" Ibtisam Isra Karima Kera Khadija Layla Malika Mariam Maria Munya
+			Munia Nadia Naila Nur Rafiqa Rahat
+		}
+	}
 	songhai = {
 		primary = SON
 		dynasty_names = {
@@ -8798,9 +9103,22 @@ mande = {
 		}
 	}
 	bambara = {
-		primary = SOF
+	    primary = SOF
 		dynasty_names = {
 			Coulibaly Diarra Massassi
+		}
+		male_names = {
+			"Agyen Kokobo" "Ofusu Kwabi" "Oduro" "Ado" "Otumfo Asare" "Yanza" "Ansa Saseraku" "Akotia" "Abuako Dako"
+			"Afera Kuma" "Manukure" "Akwamno Panyini" "Dako Booman" "Mnumunumfi" "Werempe Ampem" "Boa Amponsem"
+			"Ntim Gyakari" "Boado Ahafo Berempon" "Kyei Akobeng" "Amoako Atta Panyin" "Gyan Badu" "Amoako Atta Kuma"
+			"Amoako Atta Yiadom" "Owusu Bori" "Kwadwo Tibu" "Kwakye Fram" "Kwesi Kyei" "Nkwantabisa"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike Chibuzo 
+			Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso 
+			Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya 
+			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
+			Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
 	}
 	bozo = {
@@ -8822,6 +9140,114 @@ mande = {
 	}
 	dyola = {
 		primary = KNG
+		dynasty_names = {
+			Gorogo Wattara
+		}
+		male_names = {
+			"Agyen Kokobo" "Ofusu Kwabi" "Oduro" "Ado" "Otumfo Asare" "Yanza" "Ansa Saseraku" "Akotia" "Abuako Dako"
+			"Afera Kuma" "Manukure" "Akwamno Panyini" "Dako Booman" "Mnumunumfi" "Werempe Ampem" "Boa Amponsem"
+			"Ntim Gyakari" "Boado Ahafo Berempon" "Kyei Akobeng" "Amoako Atta Panyin" "Gyan Badu" "Amoako Atta Kuma"
+			"Amoako Atta Yiadom" "Owusu Bori" "Kwadwo Tibu" "Kwakye Fram" "Kwesi Kyei" "Nkwantabisa"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike Chibuzo 
+			Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso 
+			Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya 
+			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
+			Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	temne = {
+		dynasty_names = {
+			Gorogo Wattara
+		}
+		male_names = {
+			"Agyen Kokobo" "Ofusu Kwabi" "Oduro" "Ado" "Otumfo Asare" "Yanza" "Ansa Saseraku" "Akotia" "Abuako Dako"
+			"Afera Kuma" "Manukure" "Akwamno Panyini" "Dako Booman" "Mnumunumfi" "Werempe Ampem" "Boa Amponsem"
+			"Ntim Gyakari" "Boado Ahafo Berempon" "Kyei Akobeng" "Amoako Atta Panyin" "Gyan Badu" "Amoako Atta Kuma"
+			"Amoako Atta Yiadom" "Owusu Bori" "Kwadwo Tibu" "Kwakye Fram" "Kwesi Kyei" "Nkwantabisa"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike Chibuzo 
+			Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso 
+			Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya 
+			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
+			Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	balante = {
+		dynasty_names = {
+			Gorogo Wattara
+		}
+		male_names = {
+			"Agyen Kokobo" "Ofusu Kwabi" "Oduro" "Ado" "Otumfo Asare" "Yanza" "Ansa Saseraku" "Akotia" "Abuako Dako"
+			"Afera Kuma" "Manukure" "Akwamno Panyini" "Dako Booman" "Mnumunumfi" "Werempe Ampem" "Boa Amponsem"
+			"Ntim Gyakari" "Boado Ahafo Berempon" "Kyei Akobeng" "Amoako Atta Panyin" "Gyan Badu" "Amoako Atta Kuma"
+			"Amoako Atta Yiadom" "Owusu Bori" "Kwadwo Tibu" "Kwakye Fram" "Kwesi Kyei" "Nkwantabisa"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike Chibuzo 
+			Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso 
+			Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya 
+			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
+			Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	susu = {
+		dynasty_names = {
+			Gorogo Wattara
+		}
+		male_names = {
+			"Agyen Kokobo" "Ofusu Kwabi" "Oduro" "Ado" "Otumfo Asare" "Yanza" "Ansa Saseraku" "Akotia" "Abuako Dako"
+			"Afera Kuma" "Manukure" "Akwamno Panyini" "Dako Booman" "Mnumunumfi" "Werempe Ampem" "Boa Amponsem"
+			"Ntim Gyakari" "Boado Ahafo Berempon" "Kyei Akobeng" "Amoako Atta Panyin" "Gyan Badu" "Amoako Atta Kuma"
+			"Amoako Atta Yiadom" "Owusu Bori" "Kwadwo Tibu" "Kwakye Fram" "Kwesi Kyei" "Nkwantabisa"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike Chibuzo 
+			Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso 
+			Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya 
+			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
+			Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	malinke = {
+		dynasty_names = {
+			Gorogo Wattara
+		}
+		male_names = {
+			"Agyen Kokobo" "Ofusu Kwabi" "Oduro" "Ado" "Otumfo Asare" "Yanza" "Ansa Saseraku" "Akotia" "Abuako Dako"
+			"Afera Kuma" "Manukure" "Akwamno Panyini" "Dako Booman" "Mnumunumfi" "Werempe Ampem" "Boa Amponsem"
+			"Ntim Gyakari" "Boado Ahafo Berempon" "Kyei Akobeng" "Amoako Atta Panyin" "Gyan Badu" "Amoako Atta Kuma"
+			"Amoako Atta Yiadom" "Owusu Bori" "Kwadwo Tibu" "Kwakye Fram" "Kwesi Kyei" "Nkwantabisa"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike Chibuzo 
+			Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso 
+			Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya 
+			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
+			Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	dan = {
+		dynasty_names = {
+			Gorogo Wattara
+		}
+		male_names = {
+			"Agyen Kokobo" "Ofusu Kwabi" "Oduro" "Ado" "Otumfo Asare" "Yanza" "Ansa Saseraku" "Akotia" "Abuako Dako"
+			"Afera Kuma" "Manukure" "Akwamno Panyini" "Dako Booman" "Mnumunumfi" "Werempe Ampem" "Boa Amponsem"
+			"Ntim Gyakari" "Boado Ahafo Berempon" "Kyei Akobeng" "Amoako Atta Panyin" "Gyan Badu" "Amoako Atta Kuma"
+			"Amoako Atta Yiadom" "Owusu Bori" "Kwadwo Tibu" "Kwakye Fram" "Kwesi Kyei" "Nkwantabisa"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike Chibuzo 
+			Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso 
+			Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya 
+			Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi 
+			Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	loma_kpelle = {
 		dynasty_names = {
 			Gorogo Wattara
 		}
@@ -9016,6 +9442,67 @@ sahelian = {
 			Kenja Kenithia Kenura Kiama Kiania Kianira Kiira Kirima Muney Muraty Oyana Therania Tia
 		}
 	}
+	kissi = {
+		dynasty_names = {
+			Fodio Denyanke Lih Wan Alfa Garm Ule Kumba Lamu
+			Tabakali Bohi Dundu Jeegi Musa Njai
+			Kan Talla "Lamin Bal" Wan Ly An
+		}
+		male_names = {
+			Tengella Koli Laba Jam Gelaajo Yero Njal Jaje Gata Samba Bokar Bubakar Sire Bubu Konko Sule Makhan Abdul
+			Kader Moktar Hamat Yusuf Ali Mamadu Biran
+		}
+		female_names = {
+			"Tabara" "Gaisiri" "Bello" "Diallo" "Nyako" Endana Gethera Hinya Ikeno Inira Inithia Itanya Jamba Kakena
+			Kenja Kenithia Kenura Kiama Kiania Kianira Kiira Kirima Muney Muraty Oyana Therania Tia
+		}
+	}
+	gola = {
+		dynasty_names = {
+			Fodio Denyanke Lih Wan Alfa Garm Ule Kumba Lamu
+			Tabakali Bohi Dundu Jeegi Musa Njai
+			Kan Talla "Lamin Bal" Wan Ly An
+		}
+		male_names = {
+			Tengella Koli Laba Jam Gelaajo Yero Njal Jaje Gata Samba Bokar Bubakar Sire Bubu Konko Sule Makhan Abdul
+			Kader Moktar Hamat Yusuf Ali Mamadu Biran
+		}
+		female_names = {
+			"Tabara" "Gaisiri" "Bello" "Diallo" "Nyako" Endana Gethera Hinya Ikeno Inira Inithia Itanya Jamba Kakena
+			Kenja Kenithia Kenura Kiama Kiania Kianira Kiira Kirima Muney Muraty Oyana Therania Tia
+		}
+	}
+	wolof = {
+		primary = JOL
+		dynasty_names = {
+			Fodio Denyanke Lih Wan Alfa Garm Ule Kumba Lamu
+			Tabakali Bohi Dundu Jeegi Musa Njai
+			Kan Talla "Lamin Bal" Wan Ly An
+		}
+		male_names = {
+			Tengella Koli Laba Jam Gelaajo Yero Njal Jaje Gata Samba Bokar Bubakar Sire Bubu Konko Sule Makhan Abdul
+			Kader Moktar Hamat Yusuf Ali Mamadu Biran
+		}
+		female_names = {
+			"Tabara" "Gaisiri" "Bello" "Diallo" "Nyako" Endana Gethera Hinya Ikeno Inira Inithia Itanya Jamba Kakena
+			Kenja Kenithia Kenura Kiama Kiania Kianira Kiira Kirima Muney Muraty Oyana Therania Tia
+		}
+	}
+	serer = {
+		dynasty_names = {
+			Fodio Denyanke Lih Wan Alfa Garm Ule Kumba Lamu
+			Tabakali Bohi Dundu Jeegi Musa Njai
+			Kan Talla "Lamin Bal" Wan Ly An
+		}
+		male_names = {
+			Tengella Koli Laba Jam Gelaajo Yero Njal Jaje Gata Samba Bokar Bubakar Sire Bubu Konko Sule Makhan Abdul
+			Kader Moktar Hamat Yusuf Ali Mamadu Biran
+		}
+		female_names = {
+			"Tabara" "Gaisiri" "Bello" "Diallo" "Nyako" Endana Gethera Hinya Ikeno Inira Inithia Itanya Jamba Kakena
+			Kenja Kenithia Kenura Kiama Kiania Kianira Kiira Kirima Muney Muraty Oyana Therania Tia
+		}
+	}
 }
 
 west_african = {
@@ -9041,8 +9528,257 @@ west_african = {
 			Titilayo Yejide Yewande
 		}
 	}
+	adja = {
+		dynasty_names = {
+			Ajahutonon Ahosu Assogba Ahyi
+			Tometin Koukou Sessegnon
+			Séka Sinzogan
+		}
+		male_names = {
+			Agaja Doaklin Gangnihessou Dakodonou Houebadja Akaba Tegbessou Kpengla Agonglo Adandozan Ghezo Glele 
+			Behanzin Agoli-agbo Aidododo Togni-ahoussou Agolli-Agbo Houédogni Kokpon Te-Agdanlin Dosu Agbo Sassa Huffon 
+			Adoma Tomo
+		}
+		female_names = {
+			Hangbe Sehdong Hongbe Nawi Afyavi Ahwlikponuwa Asiba Ayàbà Abagbe Abegi Abeje Oluremi Winona Isi Abeni 
+			Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo 
+			Alaba Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu 
+			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
+			Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi 
+			Simisola Temitope Titilayo Yejide Yewande
+		}
+	}
+	aizo = {
+		dynasty_names = {
+			Ajahutonon Ahosu Assogba Ahyi
+			Tometin Koukou Sessegnon
+			Séka Sinzogan
+		}
+		male_names = {
+			Agaja Doaklin Gangnihessou Dakodonou Houebadja Akaba Tegbessou Kpengla Agonglo Adandozan Ghezo Glele 
+			Behanzin Agoli-agbo Aidododo Togni-ahoussou Agolli-Agbo Houédogni Kokpon Te-Agdanlin Dosu Agbo Sassa Huffon 
+			Adoma Tomo
+		}
+		female_names = {
+			Hangbe Sehdong Hongbe Nawi Afyavi Ahwlikponuwa Asiba Ayàbà Abagbe Abegi Abeje Oluremi Winona Isi Abeni 
+			Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo 
+			Alaba Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu 
+			Ife Ige Kayin Mojisola Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo 
+			Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi 
+			Simisola Temitope Titilayo Yejide Yewande
+		}
+	}
 	aka = {
 		primary = ASH
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	adangme = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	anyi = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	baule = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	bete = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	brong = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	bassa = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	ewe = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	fanti = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	kru = {
+		dynasty_names = {
+			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+			Addy Afrifa Sadami Sabah Sribor Moyoyo
+		}
+		male_names = {
+			"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale"
+			"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie"
+			"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua"
+			"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim"
+			"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten"
+			"Obiri Yeboa" "Opoku" "Antwi"
+		}
+		female_names = {
+			Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+			Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+			Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	ngere = {
 		dynasty_names = {
 			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
 			Addy Afrifa Sadami Sabah Sribor Moyoyo
@@ -9105,6 +9841,25 @@ west_african = {
 			Simisola Temitope Titilayo Yejide Yewande
 		}
 	}
+	grunshi = {
+		dynasty_names = {
+			"Tenga Niama" "Moogo" "Naaba"
+			Addy Afrifa Sadami Sabah Zakari
+			Offei Donkor Akoto
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi 
+			Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika  
+			Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere 
+			Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru 
+			Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
 	mossi = {
 		primary = MSI
 		dynasty_names = {
@@ -9127,6 +9882,108 @@ west_african = {
 	}
 	dagomba = {
 		primary = DGB
+		dynasty_names = {
+			Naa Dagomba Mamprusi
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze 
+			Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu 
+			Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba 
+			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
+			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	bargu = {
+		dynasty_names = {
+			Naa Dagomba Mamprusi
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze 
+			Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu 
+			Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba 
+			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
+			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	gurma = {
+		dynasty_names = {
+			Naa Dagomba Mamprusi
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze 
+			Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu 
+			Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba 
+			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
+			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	kabre = {
+		dynasty_names = {
+			Naa Dagomba Mamprusi
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze 
+			Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu 
+			Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba 
+			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
+			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	ouatchi = {
+		dynasty_names = {
+			Naa Dagomba Mamprusi
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze 
+			Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu 
+			Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba 
+			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
+			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	senufo = {
+		dynasty_names = {
+			Naa Dagomba Mamprusi
+		}
+		male_names = {
+			Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Sanum Wobgo Mazi
+			Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Saaga Kaongo Tuguri Korogo Ragongo Wobgo
+			Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+		}
+		female_names = {
+			Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze 
+			Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu 
+			Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba 
+			Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka 
+			Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+		}
+	}
+	somba = {
 		dynasty_names = {
 			Naa Dagomba Mamprusi
 		}

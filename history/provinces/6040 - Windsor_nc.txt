@@ -1,6 +1,6 @@
 #6040 - Windsor
 
-culture = powhatan
+culture = meherrin
 religion = totemism
 capital = "Tandequemuc"
 trade_goods = unknown

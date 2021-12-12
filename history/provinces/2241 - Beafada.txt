@@ -1,6 +1,6 @@
 #2241 - Kinda
 
-culture = senegambian 
+culture = susu 
 religion = shamanism #Fetishism
 capital = "Kinda"
 trade_goods = slaves

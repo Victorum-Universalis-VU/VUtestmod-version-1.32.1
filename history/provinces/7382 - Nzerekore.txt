@@ -2,7 +2,7 @@
 
 owner = MAL
 controller = MAL
-culture = fulani
+culture = loma_kpelle
 is_city = yes
 base_manpower = 6
 religion = shamanism #Fetishism

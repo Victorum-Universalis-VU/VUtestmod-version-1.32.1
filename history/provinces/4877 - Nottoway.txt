@@ -1,7 +1,6 @@
-# No previous file for Nottoway
+#4877 - Nottoway
 
-
-culture = iroquois
+culture = nottoway
 religion = totemism
 capital = "Nottoway"
 trade_goods = unknown

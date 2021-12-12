@@ -1,3 +1,4 @@
+ 
 #3011 became 4118 in BT3.0 and then 375 in BT9.0
 #4118 - Desmond
 #Region - Ireland
@@ -15,12 +16,6 @@ base_manpower = 3
 trade_goods = cloth #Was copper
 capital = "Corcaigh"
 is_city = yes
-
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
-
 
 extra_cost = 7
 center_of_trade = 1

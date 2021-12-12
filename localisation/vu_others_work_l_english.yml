@@ -59,8 +59,8 @@
  #TYC_ADJ:0 "Tyrconnell"
  ANR:0 "Antrim"
  ANR_ADJ:0 "Antrim"
- LAG:0 "Laigin"
- LAG_ADJ:0 "Laigin"
+ LGN:0 "Laigin"
+ LGN_ADJ:0 "Laigin"
  #URM:0 "Ormond"         #Defunct, added in 1.25 to vanilla
  #URM_ADJ:0 "Ormond"
  #DSM:0 "Deas Mhumain"         #Defunct, added in 1.25 to vanilla
@@ -199,6 +199,50 @@
  SHE_ADJ:0 "Sheki"
  HOY:0 "Hoya"
  HOY_ADJ:0 "Hoyan"
+ 
+ ##############################
+ #VU - Cultures by San Felipe #
+ ##############################
+ kickapoo:0 "Kickapoo"
+ seneca:0 "Seneca"
+ onondaga:0 "Onondaga"
+ cayugan:0 "Cayuga"
+ oneida:0 "Oneida"
+ tuscarora:0 "Tuscarora"
+ nottoway:0 "Nottoway"
+ meherrin:0 "Meherrin"
+ ottawa:0 "Ottawa"
+ petun:0 "Petun"
+ wenro:0 "Wenro"
+ wolof:0 "Wolof"
+ serer:0 "Serer"
+ temne:0 "Temne"
+ susu:0 "Susu"
+ loma_kpelle:0 "Loma-Kpelle"
+ dan:0 "Dan"
+ balante:0 "Balante"
+ kissi:0 "Kissi"
+ gola:0 "Gola"
+ mende:0 "Mende"
+ anyi:0 "Anyi"
+ baule:0 "Baule"
+ bete:0 "Bete"
+ brong:0 "Brong"
+ ngere:0 "Ngere"
+ ouatchi:0 "Ouatchi"
+ kabre:0 "Kabre"
+ adja:0 "Adja"
+ aizo:0 "Aizo"
+ somba:0 "Somba"
+ bargu:0 "Bargu"
+ gurma:0 "Gurma"
+ grunshi:0 "Grunshi"
+ senufo:0 "Senufo"
+ bassa:0 "Bassa"
+ kru:0 "Kru"
+ ewe:0 "Ewe"
+ adangme:0 "Adangme"
+ fanti:0 "Fanti"
 
  ##############################
  #btp_cultures_l_english
@@ -1260,10 +1304,10 @@
  COLONIAL_BUGANDA_Buganda:0 "Buganda"
  COLONIAL_BUGANDA_Buganda_ADJ:0 "Bugandan"
  #
- colonial_rawanda:0 "Colonial Rawanda"
- short_colonial_rawanda:0 "Rawanda"
- COLONIAL_RAWANDA_Rawanda:0 "Rawanda"
- COLONIAL_RAWANDA_Rawanda_ADJ:0 "Rawandan"
+ colonial_rawanda:0 "Colonial Ruanda-Urundi"
+ short_colonial_rawanda:0 "Ruanda-Urundi"
+ COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
+ COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
  #
  colonial_somalia:0 "Colonial Somalia"
  short_colonial_somalia:0 "Somalia"
@@ -1500,9 +1544,9 @@
  # EU4 Vanilla Trade Companies NOT USED #
  ########################################
  #
- #trade_company_korea:0 "Korean Charter"
- #TRADE_COMPANY_KOREA_Root_Culture_GetName:0 "[Root.Culture.GetName] Korean Company"
- #TRADE_COMPANY_KOREA_Asia_Trade_Company:0 "Korean Trade Company"
+ trade_company_korea:0 "Korean Charter"
+ TRADE_COMPANY_KOREA_Root_Culture_GetName:0 "[Root.Culture.GetName] Korean Company"
+ TRADE_COMPANY_KOREA_Asia_Trade_Company:0 "Korean Trade Company"
  #trade_company_dongola_trade:0 "Sudan Charter"
  #TRADE_COMPANY_DONGOLA_Root_Culture_GetName:0 "[Root.Culture.GetName] Sudanese Company"
  #TRADE_COMPANY_DONGOLA_Africa_Trade_Company:0 "Sudanese Trade Company"

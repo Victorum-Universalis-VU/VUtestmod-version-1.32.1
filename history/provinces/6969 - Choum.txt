@@ -1,6 +1,6 @@
 #6969 - Choum
 
-culture = soninke
+culture = tuareg
 religion = sunni
 capital = "Choum"
 trade_goods = unknown

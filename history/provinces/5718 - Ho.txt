@@ -1,6 +1,6 @@
 #5718 - Ho
 
-culture = aka
+culture = ewe
 religion = shamanism #Fetishism
 capital = "Ho"
 trade_goods = unknown

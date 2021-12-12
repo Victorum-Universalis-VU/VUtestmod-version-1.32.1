@@ -1,6 +1,6 @@
-#Bonthe
+#7381 - Bonthe
 
-culture = dyola
+culture = temne
 religion = shamanism #Fetishism
 capital = "Bonthe"
 trade_goods = unknown

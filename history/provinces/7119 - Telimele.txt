@@ -1,6 +1,6 @@
 #7119 - Telimele
 
-culture = senegambian 
+culture = susu 
 religion = shamanism #Fetishism
 capital = "Telimele"
 trade_goods = slaves
