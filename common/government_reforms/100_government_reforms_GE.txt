@@ -66,11 +66,11 @@
 		allow_normal_conversion = yes
 		potential = {
 			is_part_of_hre = yes
-			NOT = { total_development = 200 }
+			NOT = { total_development = 250 }
 		}
 		trigger = {
 			is_part_of_hre = yes
-			NOT = { total_development = 100 }
+			NOT = { total_development = 175 }
 		}
 		valid_for_nation_designer = yes
 		nation_designer_cost = 10

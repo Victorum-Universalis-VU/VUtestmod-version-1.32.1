@@ -142,7 +142,7 @@ arid = {
 	8738 8739
 	
 	#VU Africa additions
-	5335 6566
+	5335 5548 6566
 }
 
 #Generally using this for areas around or above the tree line, with at least sporadic permafrost, average winter temperatures of at least -20C, and yearly mean temperature of at least sub zero
