@@ -1,7 +1,6 @@
-# No previous file for Welhikhane
+#4875 - Welhikhane
 
-
-culture = iroquois
+culture = seneca
 religion = totemism
 capital = "Welhikane"
 trade_goods = unknown

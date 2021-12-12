@@ -2,7 +2,7 @@
 
 owner = JOL
 controller = JOL
-culture = senegambian
+culture = fulani
 is_city = yes
 base_manpower = 4
 religion = shamanism #Fetishism

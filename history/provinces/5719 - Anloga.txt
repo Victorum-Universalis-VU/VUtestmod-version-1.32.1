@@ -1,6 +1,6 @@
 #5719 - Anloga
 
-culture = aka
+culture = ewe
 religion = shamanism #Fetishism
 capital = "Anloga"
 trade_goods = unknown

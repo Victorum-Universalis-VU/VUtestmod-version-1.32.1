@@ -667,6 +667,10 @@
  mbangala:0 "Imbangala"
  mbundu:0 "Ambundu"
  chokwe:0 "Tchokwe"
+ dyola:0 "Diola"
+ mali:0 "Malinke"
+ aka:1 "Ashanti"
+ bozo:0 "Bobo"
  #NEW Farsen Entries by San Felipe
  bakongo:0 "Bakongo"
  mucubal:0 "Mucubal"
@@ -1042,7 +1046,7 @@
  #MODIFIERS - Added in TCOP and by San Felipe
  eng_royal_navy:0 "Royal Navy"
  desc_eng_royal_navy:0 "Let it be known that we have built a strong navy."
- tanzania_and_rawanda:0 "Tanzania and Rwanda"
+ tanzania_and_rawanda:0 "Tanzania and Ruanda-Urundi"
  desc_tanzania_and_rawanda:0 "Let it be known that we have completed the conquest of Tanzania and Rawanda."
  nubia_and_the_sudan:0 "Nubia and the Sudan"
  desc_nubia_and_the_sudan:0 "Let it be known that we have completed the conquest of Nubia and the Sudan."
@@ -1907,6 +1911,7 @@
  building_fort_siege_4:0 "Siege Weaponry: Modern Howitzer"
  building_trenches:0 "Trenches"
  building_oil_well:0 "Oil Well"
+ building_steam_engine_factory:0 "Steam Engine Factory"
  TRANSPORTATION:0 "Transport"
 
  #NEW UNITS - Added in TCOP by San Felipe

@@ -1,6 +1,6 @@
 #Grand Bassa
 
-culture = dyola
+culture = bassa
 religion = shamanism #Fetishism
 capital = "Buchanan"
 trade_goods = unknown

@@ -1,11 +1,11 @@
-# No previous file for Tenkodogo
+#2267 - Tenkodogo
 
 owner = WGD
 controller = WGD
 add_core = WGD
 add_core = MSI
 is_city = yes
-culture = mossi 
+culture = dagomba 
 religion = shamanism #Fetishism
 capital = "Tenkodogo"
 trade_goods = livestock

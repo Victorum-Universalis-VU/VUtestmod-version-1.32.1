@@ -1,6 +1,6 @@
 #6967 - Zouérat
 
-culture = soninke
+culture = tuareg
 religion = sunni
 capital = "Zouérat"
 trade_goods = unknown

@@ -1,6 +1,7 @@
 government = tribal
 add_government_reform = tribal_confederacy
-primary_culture = senegambian
+primary_culture = wolof
+add_accepted_culture = fulani
 religion = sunni
 technology_group = sub_saharan
 unlock_cult = yemoja_cult

@@ -1,6 +1,6 @@
 #5715 - Boke
 
-culture = senegambian 
+culture = fulani 
 religion = shamanism #Fetishism
 capital = "Boké "
 trade_goods = slaves

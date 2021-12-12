@@ -1,6 +1,6 @@
 #Grand Gedeh
 
-culture = dyola
+culture = kru
 religion = shamanism #Fetishism
 capital = "Zwedru"
 trade_goods = unknown

@@ -1,4 +1,4 @@
-# No previous file for Dagbon
+#2256 - Dagbon
 
 owner = DGB
 controller = DGB

@@ -1,7 +1,6 @@
+#2258 - Cape Coast
 
-#Represents forts in western Ghana, from Axim to Elmina, mostly Elmina
-
-culture = aka
+culture = fanti
 religion = shamanism #Fetishism
 capital = "Axim"
 trade_goods = unknown

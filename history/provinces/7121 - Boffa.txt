@@ -1,6 +1,6 @@
 #7121 - Boffa
 
-culture = senegambian 
+culture = susu 
 religion = shamanism #Fetishism
 capital = "Boffa"
 trade_goods = slaves

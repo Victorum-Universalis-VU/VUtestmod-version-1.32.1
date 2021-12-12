@@ -108,6 +108,7 @@ objectTypes = {
 		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
 	}
 	
+	
 	pdxmesh = {
 		name = "eastern_generic_02_type1"
 		file = "gfx/models/Units/eastern_generic_02_type1.mesh"			
@@ -229,7 +230,7 @@ objectTypes = {
 		
 		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
 	}	
-
+		
 	pdxmesh = {
 		name = "eastern_generic_03_type1"
 		file = "gfx/models/Units/eastern_generic_03_type1.mesh"			
