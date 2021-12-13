@@ -637,7 +637,7 @@ principality = {
 	modifiers = {
 		global_unrest = -1
 		global_tax_modifier = 0.05
-		governing_capacity = 300 #No change in VU but was 100 GE
+		governing_capacity = 400 #No change in VU but was 100 GE
 	}
 
 	conditional = {
