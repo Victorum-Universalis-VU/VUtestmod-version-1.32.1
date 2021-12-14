@@ -13,6 +13,13 @@ SWE = {
     color3= { 62 122 189  }
 }
 
+# NorthSeaEmpire
+NRE = {
+    color1= { 255 255 255  }
+    color2= { 56 54 54 }
+    color3= { 168 167 167  }
+}
+
 # Aachen
 AAC = {
     color1= { 247 206 12  }
