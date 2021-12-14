@@ -425,6 +425,7 @@ SLW = "countries/Schleswig.txt"
 SGA = "countries/Sambia.txt"
 SMG = "countries/Samogitia.txt"
 STP = "countries/Stolp.txt"
+NRE = "countries/NorthSeaEmpire.txt"
 #SWR = "countries/Schwerin.txt"
 WRM = "countries/Warmia.txt"
 DNR = "countries/DenmarkNorway.txt"
@@ -474,6 +475,20 @@ VYE = "countries/Vye.txt"
 MUC = "countries/Mucubal.txt"
 MWI = "countries/Mwila.txt"
 MBU = "countries/Mbunda.txt"
+
+#Namibia
+HOA = "countries/Hoansi.txt"
+KHE = "countries/Khoekhoe.txt"
+KHI = "countries/Khomani.txt"
+KWE = "countries/Khwe.txt"
+KUN = "countries/!Kung.txt"
+GAN = "countries/Gana.txt"
+GUI = "countries/Gui.txt"
+NHO = "countries/Nharo.txt"
+SAN = "countries/San.txt"
+TSA = "countries/Tsua.txt"
+XOO = "countries/!Xoo.txt"
+
 #South Africa
 SLD = "countries/Stelland.txt"
 

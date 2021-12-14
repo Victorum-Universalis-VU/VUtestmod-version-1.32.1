@@ -1,5 +1,8 @@
-# No previous file for Beyond Typus province
+#5408 - Gaentsii
 
+owner = NHO
+controller = NHO
+add_core = NHO
 culture = tshu_khwe_culture
 religion = shamanism 
 capital = "Gaentsii" 
@@ -8,9 +11,3 @@ hre = no
 base_tax = 1 
 base_production = 1 
 base_manpower = 1 
-native_size = 5
-native_ferocity = 5
-native_hostileness = 3
-
-
-

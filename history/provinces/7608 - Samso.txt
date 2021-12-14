@@ -37,3 +37,13 @@ discovered_by = eastern
 1536.1.1 = { religion = protestant }
 1644.1.25 = { controller = SWE } # Torstenssons War- Captured by Lennart Torstensson
 1645.8.13 = { controller = DAN } # The Peace of Brömsebro
+1660.10.14 = {		#Personal union transformed into Denmark-Norway Dual Monarchy
+	owner = DNR
+	controller = DNR
+	add_core = DNR
+}
+1814.1.14 = {		#Treaty of Kiel, DNR dissolved
+	owner = DAN
+	controller = DAN
+	remove_core = DNR
+}

@@ -55,7 +55,11 @@
  AUE:0 "Austrian_Empire"
  AUE_ADJ:0 "Austrian"
  AHE:0 "Austria_Hungary"
- AHE_ADJ:0 "Austro-Hungarian" 
+ AHE_ADJ:0 "Austro-Hungarian"
+
+ #Addition by KyuQem#
+ NRE:0 "North Sea Empire"
+ NRE_ADJ:0 "North Sea"
  ########################
  # VU - New Governments #
  ########################
