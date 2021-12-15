@@ -130,9 +130,9 @@ objectTypes = {
 		animation = { id = "attack"	type = "gisp_SPA_archipelago_frigate_attack_animation" }
 	}
 	
-##########################
-###		Transport	   ###
-##########################
+#######################
+###		Transport		###
+#######################
 	pdxmesh = {
 		name = "gisp_SPA_transport_01_mesh"
 		file = "gfx\models\ships\gisp_SPA_cog.mesh"

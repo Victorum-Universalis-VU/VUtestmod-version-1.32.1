@@ -1,7 +1,9 @@
+namespace = vu_remove_country
+
 country_event = {
-	id = destroy_countries_vu
-	title = "destroy_country_title"
-	desc = "destroy_country_desc"
+	id = vu_remove_country.1
+	title = "vu_remove_country.t"
+	desc = "vu_remove_country.d"
 	picture ="CITY_DEVELOPMENT_eventPicture"
 
 	is_triggered_only = yes
@@ -16,7 +18,6 @@ country_event = {
 	}
 
 	option = {
-		name = removed_country_name
-		title = "destroy_country_title"
+		name = "removed_country_name.a"
 	}
 }

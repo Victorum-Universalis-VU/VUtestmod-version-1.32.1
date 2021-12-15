@@ -16,7 +16,7 @@
  #################################################################################
  #################################################################################
  #################################################################################
-#TCOP Additions
+#VU Additions
 #English Countries
  ARC:0 "Canterbury"
  ARC_ADJ:0 "Canterbrian"
@@ -401,7 +401,9 @@
  GZR_ADJ:0 "Gazarian"
  CDA:0 "Candia"
  CDA_ADJ:0 "Candian"
-
+ #English Countries
+ HAH:0 "Nizari Ismaili"
+ HAH_ADJ:0 "Nizarian"
  MTA:0 "Matera"
  MTA_ADJ:0 "Materan"
  LEC:0 "Lecce"
@@ -856,6 +858,50 @@
  MBB_ADJ: "Mbalundan"
  VYE: "Vye"
  VYE_ADJ: "Vyean"
+ 
+ #VU Namibia & Botswana additions by San Felipe
+ AMK: "Amkoe"
+ AMK_ADJ: "Amkoen"
+ HOA: "Hoansi"
+ HOA_ADJ: "Hoansin"
+ ILN: "Ilani"
+ ILN_ADJ: "Ilanin"
+ KHE: "Khoekhoe"
+ KHE_ADJ: "Khoekhoe"
+ KHI: "Nllng "
+ KHI_ADJ: "Nllngan"
+ KWE: "Khwe"
+ KWE_ADJ: "Khwen"
+ KUN: "!Kung"
+ KUN_ADJ: "!Kungan"
+ GAN: "Gllana"
+ GAN_ADJ: "Gllanan"
+ GUI: "Gui"
+ GUI_ADJ: "Guin"
+ NHO: "Nharo"
+ NHO_ADJ: "Nharon"
+ SAN: "San"
+ SAN_ADJ: "San"
+ TSA: "Shua-Tsoa"
+ TSA_ADJ: "Tsuan"
+ XOO: "Taa"
+ XOO_ADJ: "Taan"
+ 
+ #VU South American additions by San Felipe
+ DIA: "Diaguita"
+ DIA_ADJ: "Diaguitan"
+ HUA: "Huarpe"
+ HUA_ADJ: "Huarpen"
+ QUL: "Qulla"
+ QUL_ADJ: "Qullan"
+ RNQ: "Ranquel"
+ RNQ_ADJ: "Ranquelan"
+ TOB: "Toba"
+ TOB_ADJ: "Toban"
+ WCH: "Wichí"
+ WCH_ADJ: "Wichín"
+ YAG: "Yahgan"
+ YAG_ADJ: "Yahgan"
  
  #VU Sussy additions by Mellstrom
  RED: "Sussy Pirates"

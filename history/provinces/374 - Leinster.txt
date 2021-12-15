@@ -1,27 +1,23 @@
-#374 - Leinster
-#Region - Ireland
-#Area - Leinster
+ 
 
-owner = LAG
-controller = LAG
-add_core = LAG
+owner = LGN # changed from LAI
+controller = LGN # changed from LAI
+add_core = LGN # changed from LAI
 culture = irish
 religion = catholic
+capital = "Fearna Mór Maedhóg" # "Cill Mhantáin"
+is_city = yes
 hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 2
-trade_goods = beer
-#trade_goods = copper			#Avoca and Glendalough copper mines, I couldnt decide on trade good, but copper or woods seemed the best bet to me
-capital = "Fearna Mï¿½r Maedhï¿½g" #"Cill Mhantï¿½in"
-is_city = yes
-
+trade_goods = bt_trade_good_beer
+#trade_goods = copper # Avoca and Glendalough copper mines, I couldnt decide on trade good, but copper or woods seemed the best bet to me
 
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
 
 1541.6.18 = {
 	owner = ANI
@@ -34,34 +30,34 @@ discovered_by = eastern
 # Until 1801, Ireland continued to exist as a Kingdom in its own right, with its own Parliament; however, its government remained in English hands even after Grattan's constitution came into effect in the 1780s.
 
 1569.6.1 = {
-	revolt = {
+	revolt = { 
 		type = nationalist_rebels size = 1
 	}
-	controller = REB
+	controller = REB 
 }	#First Desmond Rebellion - Leinster aids Desmond
 
 1573.2.23 = {
 	revolt = {}
-	controller = ANI
+	controller = ANI 
 } # FitzMaurice finally submitted on 23 February 1573, having negotiated a pardon for his life. However, in 1574, he became landless, and in 1575 he sailed to France to seek help from the Catholic powers to start another rebellion. - Leinster aids Desmond
 
 1579.6.18 = {
-	revolt = {
+	revolt = { 
 		type = nationalist_rebels size = 0.5
 	}
-	controller = REB
+	controller = REB 
 }	#Second Desmond Rebellion - Leinster aids Desmond
 
 1581.5.1 = {
 	revolt = {}
-	controller = ANI
+	controller = ANI 
 } # By May 1581, most of the minor rebels and FitzGerald allies in Munster and Leinster had accepted Elizabeth I's offer of a general pardon. - Leinster aids Desmond
 
-1641.10.23 = {
-	revolt = {
+1641.10.23 = { 
+	revolt = { 
 		type = nationalist_rebels size = 0.5
-	}
-	controller = REB
+	} 
+	controller = REB 
 }	#Beginning of the 1641 rebellion
 
 1642.3.17 = {
@@ -69,12 +65,12 @@ discovered_by = eastern
 	owner = IRE
 	controller = IRE
 	add_core = IRE
-	remove_core = LAG
+	remove_core = LGN # changed from LAI
 	add_core = ENG
 } # Catholic Remonstrance signed, Beginning of Confederate Ireland. Still de jure under Charles I, it was effectively an independant polity for the duration of the revolt. How to handle this? personal union? revolt? might return and figure this out later.
 
-1650.8.10 = {
-	controller = ENG
+1650.8.10 = { 
+	controller = ENG 
 } # All surounding areas controlled by Cromwell at this point
 
 1652.4.21 = {
@@ -84,15 +80,15 @@ discovered_by = eastern
 }	#ANI reestablished
 
 1689.2.15 = {
-	revolt = {
+	revolt = { 
 		type = nationalist_rebels size = 0.5
-	}
-	controller = REB
+	} 
+	controller = REB 
 }	#William of Orange accends to the throne and Jacobites rise through the kingdoms
 
-1691.10.3 = {
+1691.10.3 = { 
 	revolt = {}
-	controller = ANI
+	controller = ANI 
 } # Treaty of Limerick ends the violence
 
 1707.5.12 = {
@@ -102,8 +98,8 @@ discovered_by = eastern
 1798.10.1 = {
 	revolt = {
 		type = nationalist_rebels size = 0.5
-	}
-	controller = REB
+	} 
+	controller = REB 
 }	#Irish Rebellion of 1798
 
 1798.9.24 = {

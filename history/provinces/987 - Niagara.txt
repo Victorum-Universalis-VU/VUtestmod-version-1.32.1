@@ -2,7 +2,7 @@
 
 owner = ATW
 controller = ATW
-culture = tionontate
+culture = wenro
 religion = totemism
 capital = "Niagara"
 trade_goods = fur

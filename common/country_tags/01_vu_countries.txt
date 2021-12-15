@@ -36,7 +36,7 @@
 #I've taken the liberty to re-organise and sort out the mess that was left here before.
 
 #New 1.3.4 notes from Mellstrom
-#RED
+RED = "countries/SussyPirates.txt"
 
 ##########
 # Europe #
@@ -227,11 +227,14 @@ GRP = "countries/Germany.txt"
 AUE = "countries/Austrian_Empire.txt"
 AHE = "countries/Austria_Hungary.txt"
 
+#ME additions by
+ZCV = "countries/Zapadoslavia.txt"
+
 #BT - Greece & Aegean Islands
 LES = "countries/Lesbos.txt"
 
 #BT - Holy Orders
-DAM = "countries/Damietta.txt"
+DMN = "countries/Damietta.txt"
 KNT = "countries/KnightsTemplar.txt"
 LTE = "countries/LatinEmpire.txt"
 
@@ -257,7 +260,7 @@ ANI = "countries/AngloIreland.txt"
 ANR = "countries/Antrim.txt"
 CEL = "countries/TirNaCeltigh.txt"
 GLW = "countries/Galway.txt"
-LAG = "countries/Laigin.txt"
+LGN = "countries/Laigin.txt"
 MYO = "countries/Mayo.txt"
 THO = "countries/Thomond.txt"
 
@@ -315,7 +318,7 @@ IVR = "countries/Ivrea.txt"
 LCN = "countries/Lucania.txt"
 LEC = "countries/Lecce.txt"
 LGD = "countries/Logudoro.txt"
-LVN = "countries/LombardyVenetia.txt"
+LVN = "countries/Lombardy-Venetia.txt"
 LOM = "countries/Lombardy.txt"
 MNC = "countries/Monaco.txt"
 MNO = "countries/Masserano.txt"
@@ -362,7 +365,7 @@ SGM = "countries/San_Gimignano.txt"
 #BT - Low Countries
 BEL = "countries/Belgium.txt"
 GRN = "countries/Groningen.txt"
-ZND = "countries/Zenden.txt"
+ZDN = "countries/Zenden.txt"
 
 #VU low countries
 LBG = "countries/Limburg.txt"
@@ -406,6 +409,7 @@ PRS = "countries/Pronsk.txt"
 SLT = "countries/Slutsk.txt"
 SPK = "countries/Serpukhov.txt"
 VLG = "countries/Vologda.txt"
+VOR = "countries/FurtherAustria.txt" #BT
 VTN = "countries/Vorotynsk.txt"
 VYA = "countries/Vyatka.txt"
 ZBT = "countries/Zubtsov.txt"
@@ -421,6 +425,7 @@ SLW = "countries/Schleswig.txt"
 SGA = "countries/Sambia.txt"
 SMG = "countries/Samogitia.txt"
 STP = "countries/Stolp.txt"
+NRE = "countries/NorthSeaEmpire.txt"
 #SWR = "countries/Schwerin.txt"
 WRM = "countries/Warmia.txt"
 DNR = "countries/DenmarkNorway.txt"
@@ -458,7 +463,6 @@ WNS = "countries/Ouarsenis.txt"
 ZAB = "countries/Zab.txt"
 
 #VU additions - by San Felipe
-ZUL = "countries/Zulu.txt"
 #Angola
 KSM = "countries/Kisama.txt"
 MBW = "countries/Mbwila.txt"
@@ -471,8 +475,33 @@ VYE = "countries/Vye.txt"
 MUC = "countries/Mucubal.txt"
 MWI = "countries/Mwila.txt"
 MBU = "countries/Mbunda.txt"
+
+#Namibia
+AMK = "countries/Amkoe.txt"
+HOA = "countries/Hoansi.txt"
+ILN = "countries/Ilani.txt"
+KHE = "countries/Khoekhoe.txt"
+KHI = "countries/Khomani.txt"
+KWE = "countries/Khwe.txt"
+KUN = "countries/!Kung.txt"
+GAN = "countries/Gana.txt"
+GUI = "countries/Gui.txt"
+NHO = "countries/Nharo.txt"
+SAN = "countries/San.txt"
+TSA = "countries/Tsua.txt"
+XOO = "countries/!Xoo.txt"
+
 #South Africa
 SLD = "countries/Stelland.txt"
+
+#South America
+DIA = "countries/Diaguita.txt"
+HUA = "countries/Huarpe.txt"
+RNQ = "countries/Ranquel.txt"
+QUL = "countries/Qulla.txt"
+TOB = "countries/Toba.txt"
+WCH = "countries/Wichi.txt"
+YAG = "countries/Yahgan.txt"
 
 ########
 # Asia #
@@ -485,6 +514,7 @@ CAA = "countries/Cappadocia.txt"
 CIK = "countries/Canik.txt"
 CIL = "countries/Cilicia.txt"
 FDI = "countries/Fadhli.txt"
+HAH = countries/The_Hashshashin.txt
 LHJ = "countries/Lahej.txt"
 MRU = "countries/Mrudah.txt"
 MUS = "countries/Muscat.txt"
@@ -665,7 +695,6 @@ YZG = "countries/Laurentian.txt"
 YZH = "countries/Missisauga.txt"
 YZI = "countries/NeutralConfederacy.txt"
 ZIA = "countries/Zia.txt"
-RED = "countries/SussyPirates.txt"
 
 ##################
 # BT - Caribbean #
@@ -685,7 +714,6 @@ RED = "countries/SussyPirates.txt"
 #YZU = "countries/Shebaye.txt"
 #YZV = "countries/Waikeri.txt"
 #YZY = "countries/Guanahatabey.txt"
-#RED = "countries/SussyPirates.txt"
 
 #VU - Additions
 CIB = "countries/Ciboney.txt"

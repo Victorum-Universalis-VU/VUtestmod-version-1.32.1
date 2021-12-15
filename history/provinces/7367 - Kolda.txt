@@ -1,6 +1,6 @@
-#Kolda
+#7367 - Kolda
 
-culture = fulani
+culture = mali
 religion = shamanism #Fetishism
 capital = "Kolda"
 trade_goods = unknown

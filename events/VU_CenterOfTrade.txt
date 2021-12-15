@@ -5,8 +5,8 @@ province_event = {
     id = CotCreation.1
     title = CotCreation.EVTNAME1 #Needs localization!
     desc = CotCreation.EVTDESC1 #Needs localization!
-    picture = "CITY_DEVELOPMENT_eventPicture"
-    fire_only_once = true
+    picture = CITY_DEVELOPMENT_eventPicture
+    fire_only_once = yes
 
     trigger = {
         province_id = 8057 #some random non-cot province owned by castile

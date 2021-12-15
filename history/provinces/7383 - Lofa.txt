@@ -1,6 +1,6 @@
 #Kono
 
-culture = dyola
+culture = loma_kpelle
 religion = shamanism #Fetishism
 capital = "Voinjama"
 trade_goods = unknown

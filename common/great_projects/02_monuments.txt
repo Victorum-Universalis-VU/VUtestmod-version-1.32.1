@@ -8725,7 +8725,7 @@ de_domkerk = {
 		country_modifiers = {
 			global_missionary_strength = 0.01
 			religious_unity = 0.05
-			clergy_loyalty_modifier = 0.10
+			church_power_modifier = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -8757,7 +8757,7 @@ de_domkerk = {
 		country_modifiers = {
 			global_missionary_strength = 0.01
 			religious_unity = 0.05
-			clergy_loyalty_modifier = 0.10
+			church_power_modifier = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -8789,7 +8789,7 @@ de_domkerk = {
 		country_modifiers = {
 			global_missionary_strength = 0.01
 			religious_unity = 0.05
-			clergy_loyalty_modifier = 0.10
+			church_power_modifier = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -10635,7 +10635,7 @@ basel_town_hall = {
     type = monument
 
     build_trigger = {
-        culture_group = alemannic
+        culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -10649,7 +10649,7 @@ basel_town_hall = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = alemannic
+	    culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -10658,7 +10658,7 @@ basel_town_hall = {
 
     can_upgrade_trigger = {
 	    is_year = 1522
-		culture_group = alemannic
+		culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11458,7 +11458,7 @@ chillon_castle = {
     type = monument
 
     build_trigger = {
-        culture_group = alemannic
+        culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11472,7 +11472,7 @@ chillon_castle = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = alemannic
+	    culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11480,7 +11480,7 @@ chillon_castle = {
     }
 
     can_upgrade_trigger = {
-		culture_group = alemannic
+		culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -13290,7 +13290,7 @@ zytglogge = {
     type = monument
 
     build_trigger = {
-        culture_group = alemannic
+        culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -13304,7 +13304,7 @@ zytglogge = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = alemannic
+	    culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -13312,7 +13312,7 @@ zytglogge = {
     }
 
     can_upgrade_trigger = {
-		culture_group = alemannic
+		culture_group = germanic
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes

@@ -3,7 +3,7 @@
 owner = SEN
 controller = SEN
 add_core = SEN
-culture = iroquois
+culture = seneca
 religion = totemism
 capital = "Seneca"
 trade_goods = fur

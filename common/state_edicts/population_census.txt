@@ -1,6 +1,6 @@
 edict_population_census = {
 	potential = {
-		current_age = age_of_enlightenment
+		current_age = age_of_revolutions
 	}
 	
 	allow = {
@@ -8,7 +8,7 @@ edict_population_census = {
 			tooltip = edict_population_census_tooltip
 			has_country_flag = allow_tax_edict
 		}
-		current_age = age_of_enlightenment
+		current_age = age_of_revolutions
 	}
 	
 	modifier = { 

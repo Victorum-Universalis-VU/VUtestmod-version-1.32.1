@@ -44,8 +44,8 @@ sun_1 = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 624
-				province_id = 4791
 				province_id = 630
+				province_id = 4791
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -61,12 +61,12 @@ sun_1 = {
 				development = 20
 				religion = ROOT
 			}
-			4791 = {
+			630 = {
 				owned_by = ROOT
 				development = 20
 				religion = ROOT
 			}
-			630 = {
+			4791 = {
 				owned_by = ROOT
 				development = 20
 				religion = ROOT
@@ -304,7 +304,7 @@ sun_2 = {
 					}
 					add_permanent_claim = ROOT
 				}
-				central_java_area = {
+				west_java_area = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }
@@ -322,21 +322,11 @@ sun_2 = {
 				area = east_java_area
 				area = central_java_area
 				area = west_java_area
-				area = central_java_area
-				area = west_java_area
 			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
 			east_java_area = {
-				type = all
-				owned_by = ROOT 
-			}
-			central_java_area = {
-				type = all
-				owned_by = ROOT 
-			}
-			west_java_area = {
 				type = all
 				owned_by = ROOT 
 			}

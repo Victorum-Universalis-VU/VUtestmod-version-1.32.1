@@ -88,7 +88,6 @@ country_event = {
 			define_ruler = {
 				name = "Benjamin"
 				dynasty = "Hornigold"
-				fixed = yes
 				adm = 3
 				dip = 3
 				mil = 5
@@ -130,7 +129,6 @@ country_event = {
 			define_ruler = {
 				name = "Benjamin"
 				dynasty = "Hornigold"
-				fixed = yes
 				adm = 3
 				dip = 3
 				mil = 5
@@ -250,7 +248,6 @@ country_event = {
 				adm = 4
 				dip = 2
 				mil = 3
-				fixed = yes
 			}
 			define_advisor = {
 				type = theologian
@@ -294,7 +291,6 @@ country_event = {
 				adm = 4
 				dip = 2
 				mil = 3
-				fixed = yes
 			}
 			define_advisor = {
 				type = theologian
@@ -409,7 +405,6 @@ country_event = {
 			define_ruler = {
 				name = "Murat" # Jan Janszoon
 				dynasty = "Reis"
-				fixed = yes
 				adm = 3
 				dip = 3
 				mil = 4
@@ -452,7 +447,6 @@ country_event = {
 			define_ruler = {
 				name = "Murat" # Jan Janszoon
 				dynasty = "Reis"
-				fixed = yes
 				adm = 3
 				dip = 3
 				mil = 4
@@ -550,7 +544,6 @@ country_event = {
 				dip = 4
 				mil = 5
 				female = yes
-				fixed = yes
 			}
 			if = {
 				limit = {
@@ -595,7 +588,6 @@ country_event = {
 				dip = 4
 				mil = 5
 				female = yes
-				fixed = yes
 			}
 			if = {
 				limit = {
@@ -719,7 +711,6 @@ country_event = {
 				adm = 2
 				dip = 2
 				mil = 5
-				fixed = yes
 			}
 			if = {
 				limit = {
@@ -760,7 +751,6 @@ country_event = {
 				adm = 2
 				dip = 2
 				mil = 5
-				fixed = yes
 			}
 			if = {
 				limit = {
@@ -878,7 +868,6 @@ country_event = {
 				adm = 3
 				dip = 5
 				mil = 4
-				fixed = yes
 			}
 			if = {
 				limit = {
@@ -919,7 +908,6 @@ country_event = {
 				adm = 3
 				dip = 5
 				mil = 4
-				fixed = yes
 			}
 			if = {
 				limit = {
@@ -1039,7 +1027,6 @@ country_event = {
 			adm = 2
 			dip = 2
 			mil = 5
-			fixed = yes
 		}
 		add_republican_tradition = 50
 		set_ruler_flag = historical_pirate
@@ -1142,7 +1129,6 @@ country_event = {
 			adm = 2
 			dip = 2
 			mil = 5
-			fixed = yes
 		}
 		add_republican_tradition = 50
 		set_ruler_flag = historical_pirate
@@ -1318,12 +1304,12 @@ country_event = {
 }
 
 
-# Give the Pirate nations their righful ideas
+# Give the Pirate nations their rightful ideas
 country_event = {
 	id = pirates.25
 	title = "pirates.25.t"
-	picture = SMUGGLERS_eventPicture
 	desc = "pirates.25.d"
+	picture = SMUGGLERS_eventPicture
 	
 	is_triggered_only = yes
 	hidden = yes

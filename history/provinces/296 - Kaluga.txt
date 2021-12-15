@@ -17,7 +17,7 @@ add_core = MOZ
 center_of_trade = 1
 discovered_by = eastern
 discovered_by = western
-discovered_by = GOL
+1444.1.1 = { discovered_by = GOL } 
 discovered_by = nomad_group
 discovered_by = ottoman
 

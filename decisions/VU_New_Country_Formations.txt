@@ -1425,7 +1425,7 @@ country_decisions = {
 			NOT = { exists = PLC }
 			adm_tech = 20
 			OR = {
-				tag = MZA
+				tag = MAZ
 				AND = {
 					dominant_culture = polish
 					accepted_culture = polish
@@ -1864,7 +1864,7 @@ country_decisions = {
 					province_id = 363 #Damietta
 				}
 			}
-			add_core = DAM
+			add_core = DMN
 		}
 		if = {
 			limit = {
@@ -1875,8 +1875,8 @@ country_decisions = {
 					was_never_end_game_tag_trigger = no
 				}
 			}
-			release = DAM
-			DAM = { change_primary_culture = ROOT }
+			release = DMN
+			DMN = { change_primary_culture = ROOT }
 		}
 		if = {
 			limit = {
@@ -1891,14 +1891,14 @@ country_decisions = {
 				}
 				set_in_empire = no
 			}
-			change_tag = DAM
+			change_tag = DMN
 			swap_ideas = yes
 		}
 		if = {
 			limit = { tag = KNI }
 			set_country_flag = knights_formed_damietta
 		}
-		DAM = {
+		DMN = {
 			set_capital = 363 #Damietta
 			change_religion = catholic
 			if = {

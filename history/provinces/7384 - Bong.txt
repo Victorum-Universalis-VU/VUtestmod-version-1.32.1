@@ -1,6 +1,6 @@
 #Kono
 
-culture = dyola
+culture = bassa
 religion = shamanism #Fetishism
 capital = "Gbarnga"
 trade_goods = unknown

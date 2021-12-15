@@ -432,7 +432,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			gulf_of_arabia_area = {
+			vostani_area = {
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = ROOT
@@ -480,7 +480,7 @@ country_event = {
 		custom_tooltip = coptic_flavor.11.a.tt
 
 		tooltip = {
-			gulf_of_arabia_area = {
+			vostani_area = {
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = FROM
@@ -523,7 +523,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			gulf_of_arabia_area = {
+			vostani_area = {
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = ROOT
@@ -571,7 +571,7 @@ country_event = {
 		custom_tooltip = coptic_flavor.11.a.tt
 
 		tooltip = {
-			gulf_of_arabia_area = {
+			vostani_area = {
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = FROM

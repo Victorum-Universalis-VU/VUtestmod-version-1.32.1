@@ -3,8 +3,8 @@ namespace = BeyondTypusCelticFlavour
 # Tanistry heir nomination, triggered by decisions, events, and monarch death.
 country_event = {
 	id = BeyondTypusCelticFlavour.1
-	title = "BeyondTypusCelticFlavour.EVTNAME1"
-	desc = "BeyondTypusCelticFlavour.EVTDESC1"
+	title = BeyondTypusCelticFlavour.EVTNAME1
+	desc = BeyondTypusCelticFlavour.EVTDESC1
 	picture = CONQUEST_eventPicture
 
 	is_triggered_only = yes
@@ -15,7 +15,7 @@ country_event = {
 	}
 
 	option = { # Kings brother or uncle
-		name = "BeyondTypusCelticFlavour.EVTOPTA1"
+		name = BeyondTypusCelticFlavour.EVTOPTA1
 		ai_chance = { factor = 75 }
 
 		hidden_effect = {
@@ -33,7 +33,7 @@ country_event = {
 		}
 	}
 	option = { # Kings best cousin - effectively gives Ireland a lucky nation bonus to ruler roll at the cost of legitimacy
-		name = "BeyondTypusCelticFlavour.EVTOPTB1"
+		name = BeyondTypusCelticFlavour.EVTOPTB1
 		trigger = { NOT = { has_country_flag = bt_girl_power } }
 		ai_chance = { factor = 20 }
 		hidden_effect = {
@@ -54,7 +54,7 @@ country_event = {
 		}
 	}
 	option = { # Kings best cousin - effectively gives Ireland a lucky nation bonus to ruler roll at the cost of legitimacy
-		name = "BeyondTypusCelticFlavour.EVTOPTC1"
+		name = BeyondTypusCelticFlavour.EVTOPTC1
 		trigger = { has_country_flag = bt_girl_power }
 		ai_chance = { factor = 20 }
 		hidden_effect = {
@@ -85,17 +85,17 @@ country_event = {
 		}
 	}
 	option = { # Refuse and wait for child
-		name = "BeyondTypusCelticFlavour.EVTOPTD1"
+		name = BeyondTypusCelticFlavour.EVTOPTD1
 		trigger = { has_heir = no }
 		ai_chance = { factor = 5 }
 		add_country_modifier = {
-			name = "bt_tanistry_waiting_on_heir"
+			name = bt_tanistry_waiting_on_heir
 			duration = 18250
 		}
 		hidden_effect = { set_country_flag = bt_tanistry_ignored }
 	}
 	option = { # Pick underaged male heir
-		name = "BeyondTypusCelticFlavour.EVTOPTE1"
+		name = BeyondTypusCelticFlavour.EVTOPTE1
 		trigger = {
 			has_heir = yes
 			has_female_heir = no
@@ -103,7 +103,7 @@ country_event = {
 		}
 		ai_chance = { factor = 5 }
 		add_country_modifier = {
-			name = "bt_tanistry_underaged_heir"
+			name = bt_tanistry_underaged_heir
 			duration = 5476
 		}
 		hidden_effect = { add_heir_claim = -30 }
@@ -111,7 +111,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Pick underaged female heir
-		name = "BeyondTypusCelticFlavour.EVTOPTF1"
+		name = BeyondTypusCelticFlavour.EVTOPTF1
 		trigger = {
 			has_heir = yes
 			has_female_heir = yes
@@ -119,13 +119,13 @@ country_event = {
 		}
 		ai_chance = { factor = 0 }
 		add_country_modifier = {
-			name = "bt_tanistry_underaged_heir"
+			name = bt_tanistry_underaged_heir
 			duration = 5476
 		}
 		if = {
 			limit = { NOT = { has_country_flag = bt_girl_power } }
 			add_country_modifier = {
-				name = "bt_tanistry_female_heir"
+				name = bt_tanistry_female_heir
 				duration = 18250
 			}
 			hidden_effect = { add_heir_claim = -90 }
@@ -138,7 +138,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Pick adult male heir
-		name = "BeyondTypusCelticFlavour.EVTOPTG1"
+		name = BeyondTypusCelticFlavour.EVTOPTG1
 		trigger = {
 			has_heir = yes
 			has_female_heir = no
@@ -154,7 +154,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Pick adult female heir
-		name = "BeyondTypusCelticFlavour.EVTOPTH1"
+		name = BeyondTypusCelticFlavour.EVTOPTH1
 		trigger = {
 			has_heir = yes
 			has_female_heir = yes
@@ -165,7 +165,7 @@ country_event = {
 		if = {
 			limit = { NOT = { has_country_flag = bt_girl_power } }
 			add_country_modifier = {
-				name = "bt_tanistry_female_heir"
+				name = bt_tanistry_female_heir
 				duration = 18250
 			}
 			hidden_effect = { add_heir_claim = -60 }
@@ -174,7 +174,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Abolish Tanistry
-		name = "BeyondTypusCelticFlavour.EVTOPTI1"
+		name = BeyondTypusCelticFlavour.EVTOPTI1
 		trigger = { has_country_flag = bt_tanistry_ignored }
 		ai_chance = { factor = 0 }
 		hidden_effect = {
@@ -189,7 +189,7 @@ country_event = {
 			set_country_flag = bt_abolition_of_tanistry_succession
 		}
 		add_country_modifier = {
-			name = "bt_abolished_tanistry"
+			name = bt_abolished_tanistry
 			duration = 3650
 		}
 		custom_tooltip = tooltip_bt_abolition_of_tanistry_succession
@@ -199,8 +199,8 @@ country_event = {
 # Got a male heir
 country_event = {
 	id = BeyondTypusCelticFlavour.2
-	title = "BeyondTypusCelticFlavour.EVTNAME2"
-	desc = "BeyondTypusCelticFlavour.EVTDESC2"
+	title = BeyondTypusCelticFlavour.EVTNAME2
+	desc = BeyondTypusCelticFlavour.EVTDESC2
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
@@ -214,7 +214,7 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 
 	option = { # Yay, an heir!
-		name = "BeyondTypusCelticFlavour.EVTOPTA2"
+		name = BeyondTypusCelticFlavour.EVTOPTA2
 		trigger = { heir_age = 15 }
 		remove_country_modifier = bt_tanistry_waiting_on_heir
 		if = {
@@ -225,11 +225,11 @@ country_event = {
 		hidden_effect = { add_heir_claim = 30 }
 	}
 	option = { # Well, he isn't of age, but we'll make it work.
-		name = "BeyondTypusCelticFlavour.EVTOPTB2"
+		name = BeyondTypusCelticFlavour.EVTOPTB2
 		trigger = { NOT = { heir_age = 15 } }
 		remove_country_modifier = bt_tanistry_waiting_on_heir
 		add_country_modifier = {
-			name = "bt_tanistry_underaged_heir"
+			name = bt_tanistry_underaged_heir
 			duration = 5476
 		}
 		hidden_effect = { add_heir_claim = -30 }
@@ -239,8 +239,8 @@ country_event = {
 # Got a female heir
 country_event = {
 	id = BeyondTypusCelticFlavour.3
-	title = "BeyondTypusCelticFlavour.EVTNAME3"
-	desc = "BeyondTypusCelticFlavour.EVTDESC3"
+	title = BeyondTypusCelticFlavour.EVTNAME3
+	desc = BeyondTypusCelticFlavour.EVTDESC3
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
@@ -254,32 +254,32 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 	
 	option = { # Drat! =p
-		name = "BeyondTypusCelticFlavour.EVTOPTA3"
+		name = BeyondTypusCelticFlavour.EVTOPTA3
 		trigger = { heir_age = 15 }
 		ai_chance = { factor = 20 }
 		remove_country_modifier = bt_tanistry_waiting_on_heir
 		if = {
 			limit = { NOT = { has_country_flag = bt_girl_power } }
 			add_country_modifier = {
-				name = "bt_tanistry_female_heir"
+				name = bt_tanistry_female_heir
 				duration = 18250
 			}
 			hidden_effect = { add_heir_claim = -60 }
 		}
 	}
 	option = { # uh oh....
-		name = "BeyondTypusCelticFlavour.EVTOPTB3"
+		name = BeyondTypusCelticFlavour.EVTOPTB3
 		trigger = { NOT = { heir_age = 15 } }
 		ai_chance = { factor = 20 }
 		remove_country_modifier = bt_tanistry_waiting_on_heir
 		add_country_modifier = {
-			name = "bt_tanistry_underaged_heir"
+			name = bt_tanistry_underaged_heir
 			duration = 5476
 		}
 		if = {
 			limit = { NOT = { has_country_flag = bt_girl_power } }
 			add_country_modifier = {
-				name = "bt_tanistry_female_heir"
+				name = bt_tanistry_female_heir
 				duration = 18250
 			}
 			hidden_effect = { add_heir_claim = -90 }
@@ -290,9 +290,9 @@ country_event = {
 		}
 	}
 	option = { # Nope... try again
-		name = "BeyondTypusCelticFlavour.EVTOPTC3"
+		name = BeyondTypusCelticFlavour.EVTOPTC3
 		ai_chance = { factor = 80 }
-		hidden_effect = { kill_heir = yes }
+		hidden_effect = { kill_heir = {} }
 		custom_tooltip = tooltip_bt_female_removed_from_succession
 		add_years_of_income = -0.4
 	}
@@ -301,8 +301,8 @@ country_event = {
 # Heir comes of age
 country_event = {
 	id = BeyondTypusCelticFlavour.4
-	title = "BeyondTypusCelticFlavour.EVTNAME4"
-	desc = "BeyondTypusCelticFlavour.EVTDESC4"
+	title = BeyondTypusCelticFlavour.EVTNAME4
+	desc = BeyondTypusCelticFlavour.EVTDESC4
 	picture = CONQUEST_eventPicture
 	
 	trigger = {
@@ -316,7 +316,7 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 
 	option = { # youpidou!
-		name = "BeyondTypusCelticFlavour.EVTOPTA4"
+		name = BeyondTypusCelticFlavour.EVTOPTA4
 		hidden_effect = { add_heir_claim = 30 }
 		remove_country_modifier = bt_tanistry_underaged_heir
 	}
@@ -325,14 +325,14 @@ country_event = {
 # Fantasy High Queen event
 country_event = {
 	id = BeyondTypusCelticFlavour.5
-	title = "BeyondTypusCelticFlavour.EVTNAME5"
-	desc = "BeyondTypusCelticFlavour.EVTDESC5"
+	title = BeyondTypusCelticFlavour.EVTNAME5
+	desc = BeyondTypusCelticFlavour.EVTDESC5
 	picture = CONQUEST_eventPicture
 
 	is_triggered_only = yes
 
 	option = { # Go with the man
-		name = "BeyondTypusCelticFlavour.EVTOPTA5"
+		name = BeyondTypusCelticFlavour.EVTOPTA5
 		ai_chance = { factor = 90 }
 		hidden_effect = {
 			bt_tanistry_heir_low_legitimacy = yes
@@ -343,7 +343,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_cousin_tanist
 	}
 	option = { # Go with the woman
-		name = "BeyondTypusCelticFlavour.EVTOPTB5"
+		name = BeyondTypusCelticFlavour.EVTOPTB5
 		ai_chance = { factor = 10 }
 		hidden_effect = {
 			bt_tanistry_heir_female = yes
@@ -358,8 +358,8 @@ country_event = {
 # High Queen comes to power
 country_event = {
 	id = BeyondTypusCelticFlavour.6
-	title = "BeyondTypusCelticFlavour.EVTNAME6"
-	desc = "BeyondTypusCelticFlavour.EVTDESC6"
+	title = BeyondTypusCelticFlavour.EVTNAME6
+	desc = BeyondTypusCelticFlavour.EVTDESC6
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes
@@ -372,13 +372,13 @@ country_event = {
 	}
 
 	option = { # Queen must prove herself
-		name = "BeyondTypusCelticFlavour.EVTOPTA6"
+		name = BeyondTypusCelticFlavour.EVTOPTA6
 		if = {
 			limit = { has_country_modifier = bt_tanistry_female_heir }
 			remove_country_modifier = bt_tanistry_female_heir
 		}
 		add_country_modifier = {
-			name = "bt_uncertainty_about_a_high_queen"
+			name = bt_uncertainty_about_a_high_queen
 			duration = 7300
 		}
 		hidden_effect = {
@@ -391,7 +391,7 @@ country_event = {
 	}
 
 	option = { # Precedent established, note this shouldn't ever occur, but leaving it as a code safety net
-		name = "BeyondTypusCelticFlavour.EVTOPTB6"
+		name = BeyondTypusCelticFlavour.EVTOPTB6
 		trigger = { has_country_flag = bt_girl_power }
 		if = {
 			limit = { has_country_modifier = bt_tanistry_female_heir }
@@ -403,8 +403,8 @@ country_event = {
 #High Queen proves herself after 20 years
 country_event = {
 	id = BeyondTypusCelticFlavour.7
-	title = "BeyondTypusCelticFlavour.EVTNAME7"
-	desc = "BeyondTypusCelticFlavour.EVTDESC7"
+	title = BeyondTypusCelticFlavour.EVTNAME7
+	desc = BeyondTypusCelticFlavour.EVTDESC7
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes
@@ -417,7 +417,7 @@ country_event = {
 	}
 
 	option = { # Queen proves herself
-		name = "BeyondTypusCelticFlavour.EVTOPTA7"
+		name = BeyondTypusCelticFlavour.EVTOPTA7
 		add_prestige = 10
 		hidden_effect = {
 			clr_country_flag = bt_tanistry_high_queen_reigning
@@ -433,8 +433,8 @@ country_event = {
 # Tanist dies, need a new one
 country_event = {
 	id = BeyondTypusCelticFlavour.8
-	title = "BeyondTypusCelticFlavour.EVTNAME8"
-	desc = "BeyondTypusCelticFlavour.EVTDESC8"
+	title = BeyondTypusCelticFlavour.EVTNAME8
+	desc = BeyondTypusCelticFlavour.EVTDESC8
 	picture = DEATH_OF_HEIR_eventPicture
 
 	is_triggered_only = yes
@@ -445,7 +445,7 @@ country_event = {
 	}
 
 	option = { # Kings brother or uncle
-		name = "BeyondTypusCelticFlavour.EVTOPTA1"
+		name = BeyondTypusCelticFlavour.EVTOPTA1
 		ai_chance = { factor = 75 }
 
 		hidden_effect = {
@@ -463,7 +463,7 @@ country_event = {
 		}
 	}
 	option = { # Kings best cousin - effectively gives Ireland a lucky nation bonus to ruler roll at the cost of legitimacy
-		name = "BeyondTypusCelticFlavour.EVTOPTB1"
+		name = BeyondTypusCelticFlavour.EVTOPTB1
 		trigger = { NOT = { has_country_flag = bt_girl_power } }
 		ai_chance = { factor = 20 }
 		hidden_effect = {
@@ -484,7 +484,7 @@ country_event = {
 		}
 	}
 	option = { # Kings best cousin - effectively gives Ireland a lucky nation bonus to ruler roll at the cost of legitimacy
-		name = "BeyondTypusCelticFlavour.EVTOPTC1"
+		name = BeyondTypusCelticFlavour.EVTOPTC1
 		trigger = { has_country_flag = bt_girl_power }
 		ai_chance = { factor = 20 }
 		hidden_effect = {
@@ -515,17 +515,17 @@ country_event = {
 		}
 	}
 	option = { # Refuse and wait for child
-		name = "BeyondTypusCelticFlavour.EVTOPTD1"
+		name = BeyondTypusCelticFlavour.EVTOPTD1
 		trigger = { has_heir = no }
 		ai_chance = { factor = 5 }
 		add_country_modifier = {
-			name = "bt_tanistry_waiting_on_heir"
+			name = bt_tanistry_waiting_on_heir
 			duration = 18250
 		}
 		hidden_effect = { set_country_flag = bt_tanistry_ignored }
 	}
 	option = { # Pick underaged male heir
-		name = "BeyondTypusCelticFlavour.EVTOPTE1"
+		name = BeyondTypusCelticFlavour.EVTOPTE1
 		trigger = {
 			has_heir = yes
 			has_female_heir = no
@@ -533,7 +533,7 @@ country_event = {
 		}
 		ai_chance = { factor = 5 }
 		add_country_modifier = {
-			name = "bt_tanistry_underaged_heir"
+			name = bt_tanistry_underaged_heir
 			duration = 5476
 		}
 		hidden_effect = { add_heir_claim = -30 }
@@ -541,7 +541,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Pick underaged female heir
-		name = "BeyondTypusCelticFlavour.EVTOPTF1"
+		name = BeyondTypusCelticFlavour.EVTOPTF1
 		trigger = {
 			has_heir = yes
 			has_female_heir = yes
@@ -549,13 +549,13 @@ country_event = {
 		}
 		ai_chance = { factor = 0 }
 		add_country_modifier = {
-			name = "bt_tanistry_underaged_heir"
+			name = bt_tanistry_underaged_heir
 			duration = 5476
 		}
 		if = {
 			limit = { NOT = { has_country_flag = bt_girl_power } }
 			add_country_modifier = {
-				name = "bt_tanistry_female_heir"
+				name = bt_tanistry_female_heir
 				duration = 18250
 			}
 			hidden_effect = { add_heir_claim = -90 }
@@ -568,7 +568,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Pick adult male heir
-		name = "BeyondTypusCelticFlavour.EVTOPTG1"
+		name = BeyondTypusCelticFlavour.EVTOPTG1
 		trigger = {
 			has_heir = yes
 			has_female_heir = no
@@ -584,7 +584,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Pick adult female heir
-		name = "BeyondTypusCelticFlavour.EVTOPTH1"
+		name = BeyondTypusCelticFlavour.EVTOPTH1
 		trigger = {
 			has_heir = yes
 			has_female_heir = yes
@@ -595,7 +595,7 @@ country_event = {
 		if = {
 			limit = { NOT = { has_country_flag = bt_girl_power } }
 			add_country_modifier = {
-				name = "bt_tanistry_female_heir"
+				name = bt_tanistry_female_heir
 				duration = 18250
 			}
 			hidden_effect = { add_heir_claim = -60 }
@@ -604,7 +604,7 @@ country_event = {
 		custom_tooltip = tooltip_bt_keep_current_tanist
 	}
 	option = { # Abolish Tanistry
-		name = "BeyondTypusCelticFlavour.EVTOPTI1"
+		name = BeyondTypusCelticFlavour.EVTOPTI1
 		trigger = { has_country_flag = bt_tanistry_ignored }
 		ai_chance = { factor = 0 }
 		hidden_effect = {
@@ -619,7 +619,7 @@ country_event = {
 			set_country_flag = bt_abolition_of_tanistry_succession
 		}
 		add_country_modifier = {
-			name = "bt_abolished_tanistry"
+			name = bt_abolished_tanistry
 			duration = 3650
 		}
 		custom_tooltip = tooltip_bt_abolition_of_tanistry_succession
@@ -653,8 +653,8 @@ country_event = {
 #Brittany's quirky inheritance situation, the Mad War, and Anna's political marriages
 #country_event = {
 #	id = BeyondTypusCelticFlavour.21
-#	title = "BeyondTypusCelticFlavour.EVTNAME21"
-#	desc = "BeyondTypusCelticFlavour.EVTDESC21"
+#	title = BeyondTypusCelticFlavour.EVTNAME21
+#	desc = BeyondTypusCelticFlavour.EVTDESC21
 #	picture = DEATH_OF_HEIR_eventPicture
 #	
 #	trigger = {
@@ -692,6 +692,6 @@ country_event = {
 #	mean_time_to_happen = { days = 1 }
 #
 #	option = { # Queen proves herself
-#		name = "BeyondTypusCelticFlavour.EVTOPTA21"
+#		name = BeyondTypusCelticFlavour.EVTOPTA21
 #	}
 #}

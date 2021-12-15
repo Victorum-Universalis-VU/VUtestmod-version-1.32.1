@@ -6,7 +6,7 @@ country_decisions = {
 		}
 		allow = {
 			OR = {
-				has_reform_level = 5
+				has_reform = weak_burghers_reform
 				AND = {
 					monthly_income = 40
 					land_forcelimit = 60
@@ -217,7 +217,7 @@ country_decisions = {
 			tag = PAP
 			custom_trigger_tooltip = {
 				tooltip = "kingdom_of_god_tooltip"
-				has_country_modifier = kingdom_of_god
+				has_country_modifier = kingdom_of_god_modifier
 			}
 			NOT = { has_reform = papal_curia_reform }
 		}
@@ -390,7 +390,7 @@ country_decisions = {
                 culture_group = burman
                 culture_group = southeastasian_group
 			}
-			NOT = { has_reform = solar_kingdom_reform }
+			has_reform = basic_reformed_mandala_reform
 		}
 		
 		allow = {
@@ -567,6 +567,23 @@ country_decisions = {
 				duration = 3650
 			}
 			add_absolutism = 20
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	GE_become_confederacy = {
+		major = yes
+		potential = {
+			has_reform = crown_of_aragon
+			always = no
+		}
+		allow = {
+			always = no
+		}
+		effect = {
+			change_government = confederacy
+			change_government_reform_progress = 10000
 		}
 		ai_will_do = {
 			factor = 0

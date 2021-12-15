@@ -83,7 +83,6 @@ scandinavia_region = {
 		#baltic_islands_area			#Cut in 1.20
 		vastra_gotaland_area
 		iceland_area
-		#ostra_svealand_area			#Unused in BT, entry moved to unknown regions at bottom on file
 		#BTADDITIONS
 		schleswig_area
 		west_karelia_area
@@ -180,7 +179,6 @@ south_german_region = {
 		switzerland_area
 		franconia_area
 		swabia_area
-		#upper_rhineland_area  #Area replaced by Baden
 		romandie_area
 		palatinate_area
 		hohenzollern_area
@@ -227,7 +225,6 @@ ural_region = {
 		kama_area
 		bashkiria_area
 		samara_area
-		#volga_area			#Removed for now
 		tambov_area			#moved from Russia region
 		#BTADDITIONS
 		vyatka_area
@@ -275,9 +272,6 @@ british_isles_region = {
 		east_midlands_area			#New in 1.25. Replacing mercia_area with it in BT
 		west_midlands_area			#New in 1.25.  Replacing lancashire_area with it in BT
 		scottish_marches_area			#New in 1.25.  Replacing western_lowlands_area with it in BT
-		#mercia_area			#cut in 1.25, using east_midlands_area as a replacement
-		#wessex_area
-		#home_counties_area			#cut in 1.25, using essex_area as a replacement
 		east_anglia_area
 		wales_area
 		lowlands_area
@@ -285,7 +279,6 @@ british_isles_region = {
 		kingdom_of_the_isles_area			#New in 1.25. Odd name for an area....
 		#BTADDITIONS
 		#southern_isles_area			#Cut to be replaced with kingdom_of_the_isles_area added in 1.25
-		#essex_area			#Cut to be replaced with home_counties_area in 1.25
 		#western_lowlands_area			#Cut to be replaced with scottish_marches_area in 1.25
 		cornwall_area
 		yorkshire_area		#also added by Paradox in 1.25, same id so no change needed.
@@ -300,7 +293,7 @@ british_isles_region = {
 	}
 }
 
-ireland_area = {
+ireland_region = {
 	areas = {
 		leinster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
 		ulster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
@@ -337,9 +330,6 @@ poland_region = {
 		central_poland_area
 		sandomierz_area			#added by Paradox in 1.27, same id so no change needed.
 		kuyavia_area			#Repurposing this into BT's old Kalisz area
-		#BTADDITIONS
-		#lower_silesia_area     #Replaced by single Silesian area
-		#middle_silesia_area    #Replaced by single Silesian area
 	}
 }
 
@@ -450,7 +440,6 @@ egypt_region = {
 
 maghreb_region = {
 	areas = {
-	    east_sahara_area
 		tunisia_area
 		djerba_area
 		kabylia_area
@@ -776,6 +765,7 @@ libya_region = {
 		nafusa_mountains_area
 		southeast_sahara_area
 		tripolitania_area
+		east_sahara_area
 	}
 	monsoon = {
 		00.06.01
@@ -1273,26 +1263,10 @@ north_china_region = {
 brazil_region = {
 
 	areas = {
-		rio_grande_do_sol_area
+		espirito_santo_area
 		minas_gerais_area
-		goias_area
-		mato_grosso_area
-		sao_paolo_area
 		rio_de_janeiro_area
-		bahia_area
-		pernambuco_area
-		sao_francisco_area
-		maranhao_area
-		grao_para_area
-		amazon_area
-		diamantina_area
-		pontal_area
-		ofaie_area
-		piaui_area
-		amapa_area
-		guapore_area
-		ceara_area
-		west_sao_paolo_area
+		sao_paolo_area
 	}
 	monsoon = {
 		00.12.01
@@ -1301,6 +1275,42 @@ brazil_region = {
 	monsoon = {
 		00.01.01
 		00.04.30
+	}
+}
+
+amazon_region = {
+	areas = {
+		amazon_area
+		grao_para_area
+	}
+}
+
+mato_grosso_region = {
+	areas = {
+		goias_area
+		mato_grosso_area
+	}
+}
+
+bahia_region = {
+	areas = {
+		alagoas_area
+		bahia_area
+		ceara_area
+		maranhao_area
+		paraiba_area
+		pernambuco_area
+		piaui_area
+		rio_grande_do_norte_area
+		sergipe_area
+	}
+}
+
+rio_grande_do_sul_region = {
+	areas = {
+		rio_grande_do_sol_area
+		santa_catarina_area
+		west_sao_paolo_area
 	}
 }
 
@@ -1537,13 +1547,11 @@ southeast_america_region =  {
 	    appalachia_area
 		chesapeake_area
 		great_valley_area
-		#piedmont_north_america_area
 		american_georgia_area
 		florida_area
 		carolinas_area
 		south_carolina_area
 		upper_american_georgia_area
-		#north_florida_area
 	}
 	monsoon = {
 		00.06.01
@@ -1558,10 +1566,8 @@ mississippi_region = {
 		upper_louisiana_area
 		alabama_area
 		kentucky_area
-		#south_appalachia_area
 		mississippi_area
 		choctaw_area
-		#mississippi_plain_area
 	}
 	monsoon = {
 		00.06.01
@@ -1575,12 +1581,10 @@ great_plains_region = {
 		high_plains_area
 		dakota_area
 		south_dakota_area
-		#badlands_area
 		#BTADDITIONS
 		#southern_rockies
 		lakota_area
 		#west_dakota_area
-		#upper_missouri_area
 		yellowstone_area
 		upper_platte_area
 		colorado_plateau_area
@@ -1593,29 +1597,17 @@ california_region = {
 		california_area
 		baja_california_area
 		arizona_area
-		#central_valley_area
 		#New in 1.28
-		#apacheria_area			#repurposing into BT's old mogollon_rim_area
-		#northern_california_area			#Note BT's old northern_california_area renamed to lost_coast_area to avoid conflict.
 		sonora_area
 		#BTADDITIONS
-		#sierra_nevada_area
 		mojave_area
 		utah_area
-		#great_basin_area
-		#sacramento_valley_area
-		#lake_cahuilla_area
-		#lower_colorado_river_area
-		#lost_coast_area
-		#siskiyou_area
 	}
 }
 
 cascadia_region = {
 	areas = {
 		oregon_area
-		#columbia_river_area
-		#snake_river_area
 		salish_sea_area
 		interior_plateau_area
 		hecate_strait_area
@@ -1693,9 +1685,6 @@ rio_grande_region = {
 		rio_grande_area
 		northeast_mexico_area
 		texas_area
-		#coastal_prarie_area
-		#pecos_area
-		#llano_estacado_area
 		chihuahua_area
 		new_mexico_area			#Formerly in Great Plains region
 		#BTADDITIONS
@@ -1728,7 +1717,6 @@ central_america_region = {
 carribeans_region = {
 	areas = {
 		cuba_area
-		#east_cuba_area       #see line above
 		hispaniola_area
 		greater_antilles_area
 		leeward_islands_area
@@ -1792,6 +1780,11 @@ mesopotamia_region = {
 		shahrizor_area
 		#BTADDITIONS
 		mardin_area
+		#Split from iraq_arabi_area and mosul_area
+		lower_mesopotamia_area
+		baghdad_area
+		kut_area
+		badra_area
 	}
 }
 
@@ -2171,170 +2164,178 @@ labrador_sea_region = {
 #Prevents crashes when testing new alpha drafts
 unused_region = {
 	areas = {
-		unused_area
-		south_saxony_area
-		northern_saxony_area
-		upper_bavaria_area
-		lower_bavaria_area
-		east_china_sea_islands_area
-		east_african_islands_area
-		arabian_sea_islands_area
-		baltic_islands_area
-		east_altishahr_area
-		wessex_area
-		home_counties_area
-		south_appalachia_area
-		mississippi_plain_area
-		piedmont_north_america_area
-		llano_estacado_area
-		pecos_area
-		coastal_prarie_area
-		west_dakota_area
-		badlands_area
-		upper_missouri_area
-		southern_rockies
-		apacheria_area
-		lower_colorado_river_area
-		northern_california_area
-		sacramento_valley_area
-		lake_cahuilla_area
-		sierra_nevada_area
-		central_valley_area
-		lost_coast_area
-		siskiyou_area
-		great_basin_area
-		southern_cascades_area
-		northern_cascades_area
-		columbia_river_area
-		columbia_plateau_area
-		olympic_peninsula_area
-		okanogan_area
-		blue_mountains_area
-		snake_river_area
-		palouse_area
-		upper_rio_grande_area
-		north_florida_area
-		amnok_area
-		north_korea_area
-		lower_swabia_area
-		upper_swabia_area
-		kartli_kakheti_area
-		#northern_england_area			#Removed in 1.25 but still used in BT for now
-		mercia_area
-		eastern_ireland_area
-		western_ireland_area
-		seine_area
+	    #unused_area
+	    #lower_silesia_area
+		#middle_silesia_area
+	    #east_cuba_area
+		#south_saxony_area
+		#northern_saxony_area
+		#upper_bavaria_area
+		#lower_bavaria_area
+		#east_bavaria_area
+		#east_china_sea_islands_area
+		#east_african_islands_area
+		#arabian_sea_islands_area
+		#baltic_islands_area
+		#east_altishahr_area
+		#wessex_area
+		#home_counties_area
+		#essex_area
+		#south_appalachia_area
+		#western_sicily_area
+		#mississippi_plain_area
+		#piedmont_north_america_area
+		#llano_estacado_area
+		#pecos_area
+		#coastal_prarie_area
+		#west_dakota_area
+		#badlands_area
+		#upper_missouri_area
+		#southern_rockies
+		#apacheria_area
+		#lower_colorado_river_area
+		#northern_california_area
+		#sacramento_valley_area
+		#lake_cahuilla_area
+		#sierra_nevada_area
+		#central_valley_area
+		#lost_coast_area
+		#siskiyou_area
+		#great_basin_area
+		#southern_cascades_area
+		#northern_cascades_area
+		#columbia_river_area
+		#columbia_plateau_area
+		#olympic_peninsula_area
+		#okanogan_area
+		#blue_mountains_area
+		#snake_river_area
+		#palouse_area
+		#upper_rio_grande_area
+		#north_florida_area
+		#amnok_area
+		#north_korea_area
+		#lower_swabia_area
+		#upper_swabia_area
+		#kartli_kakheti_area
+		#mercia_area
+		#eastern_ireland_area
+		#western_ireland_area
+		#seine_area
 		#brabant_area			#Removed in 1.25 but still used in BT for now
 		#luxemburg_liege_area			#Removed in 1.25 but still used in BT for now
-		western_lowlands_area
-		southern_isles_area
+		#western_lowlands_area
+		#southern_isles_area
 		#Temp unused for BT
 		#holland_area 				#Reused in 13.0
-		north_karelia
-		volga_area
+		#north_karelia
+		#volga_area
 		#Removed in 1.26
-		coromandel_area
-		carnatic_area
-		kerala_area
-		maharashtra_area
-		gujarat_area
-		central_doab_area
-		nepalese_area
-		basque_country
-		oran_area			#repurposing 1.28's new barbary_coast_area into a replacement for this old BT area
-		magadan_area			#removed in vanilla 1.29
+		#coromandel_area
+		#carnatic_area
+		#kerala_area
+		#maharashtra_area
+		#gujarat_area
+		#central_doab_area
+		#nepalese_area
+		#basque_country
+		#oran_area			#repurposing 1.28's new barbary_coast_area into a replacement for this old BT area
+		#magadan_area			#removed in vanilla 1.29
 		###########################
 		#Removed as part of 11.5's area overhaul
 		###########################
-		pomerelia_area			#vanilla cut in 1.27, but kept in BT until 11.5
-		ostra_svealand_area			#Vanilla area removed in BT
-		algiers_area			#Vanilla area removed in BT
-		gulf_of_arabia_area			#Vanilla area removed in BT
-		chernigov_area			#Vanilla area removed in BT
-		ceram_area			#Vanilla area removed in BT
-		west_mindanao_area			#Vanilla area removed in BT
-		west_micronesia_area			#Vanilla area removed in BT
-		eastern_polynesia_area			#Vanilla area removed in BT
-		east_greenland_area
-		northern_peloponnesus_area
-		euboea_area
-		western_thrace_area
-		western_macedonia_area
-		demone_area
-		noto_area
-		capitanata_area
-		lucania_area
-		cagliari_area
-		valle_latina_area
-		east_tuscany_area
-		lunigiana_area
-		south_marche_area
-		verona_area
-		maritime_alps_area
-		montferrat_area
-		djerid_area
-		tagmudant_area
-		east_aures_area
-		west_aures_area
-		constantine_area
-		kairouan_area
-		mstislavl_area
-		cherkasy_area
-		western_podolia_area
-		western_zaporizhia_area
-		eastern_severia
-		western_severia
-		northern_crimea_area
-		lublin_area
-		central_galicia_area
-		mazur_area
-		istria_area
-		rzhev_area
-		nizhny_novgorod_area
-		valdai_area
-		west_oka_area
-		northern_upper_oka_area
-		murom_area
-		mezen_area
-		nenets_area
-		vychegda_area
-		upper_don_area
-		makgadikgadi_area
-		lower_karoo_area
-		#New World areas removed
-		southern_lower_california_area
-		san_francisco_bay_area
-		central_valley_delta_area
-		klamath_area
-		eel_river_area
-		sonora_y_sinaloa_area			#Cut in 1.28 vanilla, but kept in BT as part of an upper-lower Sonora split until cut in 11.5
-		southern_colorado_plateau_area
-		painted_desert_area
-		upper_gila_area
-		upper_colorado_area
-		#mogollon_rim_area			#Repurposing 1.28's apacheria_area into this.
-		high_desert_area
-		stikine_area
-		sahtu_area
-		abitibi_area
-		upper_james_bay_area
-		kativik_area
-		rocky_mountain_foothills_area
-		east_prairies_area
-		willamette_valley_area
-		bitterroot_mountain_area
-		northern_rocky_mountains_area
-		upper_columbia_river_area
-		virgin_islands_area
-		inner_leeward_islands_area
-		trinidad_and_tobago_area
-		west_cuba_area
-		west_hispaniola_area
-		avalon_area
-		maritime_islands_area
-		lower_grand_river_area
-		upper_saint_john_river_area
-		bighorn_area
-		chatham_and_auckland_islands_area
+		#pomerelia_area			#vanilla cut in 1.27, but kept in BT until 11.5
+		#ostra_svealand_area			#Vanilla area removed in BT
+		#algiers_area			#Vanilla area removed in BT
+		#gulf_of_arabia_area			#Vanilla area removed in BT
+		#chernigov_area			#Vanilla area removed in BT
+		#ceram_area			#Vanilla area removed in BT
+		#west_mindanao_area			#Vanilla area removed in BT
+		#west_micronesia_area			#Vanilla area removed in BT
+		#eastern_polynesia_area			#Vanilla area removed in BT
+		#east_greenland_area
+		#northern_peloponnesus_area
+		#novogrudok_area
+		#euboea_area
+		#western_thrace_area
+		#western_macedonia_area
+		#demone_area
+		#noto_area
+		#capitanata_area
+		#lucania_area
+		#cagliari_area
+		#valle_latina_area
+		#east_tuscany_area
+		#lunigiana_area
+		#south_marche_area
+		#verona_area
+		#maritime_alps_area
+		#montferrat_area
+		#djerid_area
+		#tagmudant_area
+		#east_aures_area
+		#west_aures_area
+		#constantine_area
+		#kairouan_area
+		#mstislavl_area
+		#cherkasy_area
+		#western_podolia_area
+		#western_zaporizhia_area
+		#eastern_severia
+		#western_severia
+		#northern_crimea_area
+		#lublin_area
+		#central_galicia_area
+		#banten_area_area
+		#mazur_area
+		#istria_area
+		#rzhev_area
+		#nizhny_novgorod_area
+		#valdai_area
+		#west_oka_area
+		#northern_upper_oka_area
+		#murom_area
+		#mezen_area
+		#nenets_area
+		#vychegda_area
+		#upper_don_area
+		#makgadikgadi_area
+		#lower_karoo_area
+		##New World areas removed
+		#southern_lower_california_area
+		#san_francisco_bay_area
+		#central_valley_delta_area
+		#klamath_area
+		#eel_river_area
+		#sonora_y_sinaloa_area			#Cut in 1.28 vanilla, but kept in BT as part of an upper-lower Sonora split until cut in 11.5
+		#southern_colorado_plateau_area
+		#painted_desert_area
+		#upper_gila_area
+		#upper_colorado_area
+		#mogollon_rim_area
+		#high_desert_area
+		#stikine_area
+		#sahtu_area
+		#abitibi_area
+		#upper_james_bay_area
+		#kativik_area
+		#rocky_mountain_foothills_area
+		#east_prairies_area
+		#willamette_valley_area
+		#bitterroot_mountain_area
+		#northern_rocky_mountains_area
+		#upper_columbia_river_area
+		#virgin_islands_area
+		#inner_leeward_islands_area
+		#trinidad_and_tobago_area
+		#west_cuba_area
+		#west_hispaniola_area
+		#avalon_area
+		#maritime_islands_area
+		#lower_grand_river_area
+		#upper_saint_john_river_area
+		#bighorn_area
+		#chatham_and_auckland_islands_area
+		#upper_rhineland_area
 	}
 }

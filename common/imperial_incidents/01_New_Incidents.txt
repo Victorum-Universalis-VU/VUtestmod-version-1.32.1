@@ -48,3 +48,86 @@ incident_hussite_dominance ={
 		}
 	}
 }
+
+#VU addition by San Felipe
+incident_belgian_revolt = {
+	event = belgian_revolt.2
+	default_option = 1
+	
+	can_stop = {
+		OR = {
+			NOT = {
+				exists = BEL
+			}
+			BEL = {
+				is_at_war = no
+			}
+			emperor = {
+				war_with = BEL
+			}
+		}
+	}
+	
+	0 = { # back BEL
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_friendly
+				}
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_loyal
+				}
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_allied
+				}
+			}
+		}
+	}
+	1 = { # nonintervention
+		factor = 1
+		modifier = {
+			factor = 100
+			ai_attitude = {
+				who = BEL
+				attitude = attitude_neutral
+			}
+		}
+	}
+	2 = { # back overlord
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_rivalry
+				}
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_hostile
+				}
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_threatened
+				}
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_outraged
+				}
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_disloyal
+				}
+				ai_attitude = {
+					who = BEL
+					attitude = attitude_rebellious
+				}
+			}
+		}
+	}
+}

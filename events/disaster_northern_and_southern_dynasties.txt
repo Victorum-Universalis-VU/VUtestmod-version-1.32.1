@@ -64,7 +64,6 @@ country_event = {
 					area = sukothai_area
 					area = south_laos_area
 					area = khorat_area
-					area = khorat_area
 					superregion = china_superregion
 					region = burma_region
 				}
@@ -124,7 +123,6 @@ country_event = {
 							area = red_river_delta_area
 							area = sukothai_area
 							area = south_laos_area
-							area = khorat_area
 							area = khorat_area
 							superregion = china_superregion
 							region = burma_region

@@ -83,8 +83,16 @@ leader_names = {
 }
 
 ship_names = {
-	"Emperor Lothar" "Lotharingen"
-	"Rene II Lothringen"
-	Warding Skirmjan
-	Bera Scoc Sekjan
+	"l'Empereur Lothaire" 
+	"le Lorraine"
+	"le René II de Lorraine" 
+	"le Barrois" 
+	"le Metz"
+	"Toul" 
+	"le Verdun" 
+	"le Warding" 
+	"le Skirmjan"
+	"le Bera" 
+	"le Scoc" 
+	"le Sekjan"
 }

@@ -5,7 +5,7 @@
 owner = ENG
 controller = ENG
 add_core = ENG
-culture = norman
+culture = normand
 religion = catholic
 hre = no
 base_tax = 4  

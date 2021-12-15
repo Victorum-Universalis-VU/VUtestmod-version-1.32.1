@@ -1,6 +1,6 @@
-#Kono
+#7380 - Kono
 
-culture = dyola
+culture = mende
 religion = shamanism #Fetishism
 capital = "Koidu Town"
 trade_goods = unknown

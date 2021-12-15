@@ -91,6 +91,7 @@ guiTypes = {
 	}
 
 	windowType = {
+  
 		name = "provinceview"
 		backGround=""
 		#position = { x = 0 y = -583 }
@@ -108,24 +109,28 @@ guiTypes = {
 		Orientation = "LOWER_LEFT"
 
 		iconType = {
+   
 			name ="provinceview_bg"
 			spriteType = "GFX_provinceview_bg"
 			position = { x = -2 y = 12 }
 		}
 
 		iconType = {
+   
 			name ="provinceview_bg_large"
 			spriteType = "GFX_provinceview_bg_new"
 			position = { x = -2 y = -81}
 		}
 
 		iconType = {
+   
 			name ="provinceview_foreign_bg"
 			spriteType = "GFX_provinceview_foreign_bg"
 			position = { x = -2 y = 12 }
 		}
 
 		iconType = {
+   
 			name ="provinceview_foreign_bg_large"
 			spriteType = "GFX_provinceview_foreign_bg_new"
 			position = { x = -2 y = -81}
@@ -138,6 +143,7 @@ guiTypes = {
 
 
 		iconType = {
+   
 			name ="trade_icon"
 			spriteType = "GFX_diplomacy_traderights"
 			position = { x = 30 y = 471}
@@ -145,6 +151,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="military_icon"
 			spriteType = "GFX_icon_powers_military"
 			position = { x = 30 y = 373}
@@ -160,6 +167,7 @@ guiTypes = {
 		}
 
 		guiButtonType = {
+   
 			name ="institution_icon"
 			spriteType = "GFX_province_institutions_button"
 			position = { x = 440 y = 327 }
@@ -167,6 +175,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="province_terrain"
 			spriteType = "GFX_combat_terrain_hills"
 			position = { x = 58 y = -23 }
@@ -214,36 +223,42 @@ guiTypes = {
 			}
 
 			guiButtonType =	{
+	
 				name = "move_capital"
 				quadTextureSprite = "GFX_move_capital"
 				position = { x = 0 y = 0 }
 			}
 
 			guiButtonType =	{
+	
 				name = "move_trade_port"
 				quadTextureSprite = "GFX_move_trade_port"
 				position = { x = 37 y = 0 }
 			}
 
 			guiButtonType =	{
+	
 				name = "add_parliament"
 				quadTextureSprite = "GFX_add_parliament_icon"
 				position = { x = 73 y = 1 }
 			}
 
 			iconType = {
+	
 				name = "have_capital"
 				spriteType = "GFX_have_capital"
 				position = { x = 1 y = 1 }
 			}
 
 			iconType = {
+	
 				name = "have_trade_port"
 				spriteType = "GFX_have_trade_port"
 				position = { x = 37 y = 1 }
 			}
 
 			iconType = {
+	
 				name = "have_parliament"
 				spriteType = "GFX_have_parliament_icon"
 				position = { x = 73 y = 1 }
@@ -251,6 +266,7 @@ guiTypes = {
 
 
 			guiButtonType =	{
+	
 				name ="history"
 				quadTextureSprite = "GFX_button_history"
 				position = { x = -27 y = 128 }
@@ -315,18 +331,21 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name ="strait_indicator"
 				spriteType = "GFX_strait"
 				position = { x = -25 y = 96 }
 			}
 
 			iconType = {
+	
 				name = "river_indicator"
 				spriteType = "GFX_river_indicator_icon"
 				position = { x = -25 y = 62 }
 			}
 
 			iconType = {
+	
 				name = "river_indicator_2"
 				spriteType = "GFX_river_indicator_icon"
 				position = { x = -25 y = 96 }
@@ -358,6 +377,7 @@ guiTypes = {
 
 
 			iconType = {
+	
 				name ="tax_base_icon"
 				spriteType ="GFX_icon_tax_base"
 				position = { x = 52 y = 64 }
@@ -377,6 +397,7 @@ guiTypes = {
 			}
 
 			guiButtonType = {
+	
 				name ="tax_base_increase_button"
 				position = { x = 50 y = 60 }
 				quadTextureSprite ="GFX_development_button_tax"
@@ -388,7 +409,9 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
+
 			guiButtonType =	{
+	
 				name ="tax_base_exploit_button"
 				position = { x = 83 y = 78 }
 				quadTextureSprite ="GFX_exploit_button"
@@ -402,6 +425,7 @@ guiTypes = {
 
 
 			iconType = {
+	
 				name ="prod_base_icon"
 				spriteType ="GFX_production_icon"
 				position = { x = 134 y = 64 }
@@ -421,6 +445,7 @@ guiTypes = {
 			}
 
 			guiButtonType =	{
+	
 				name ="prod_base_increase_button"
 				position = { x = 128 y = 60 }
 				quadTextureSprite ="GFX_development_button_production"
@@ -433,6 +458,7 @@ guiTypes = {
 			}
 
 			guiButtonType =	{
+	
 				name ="prod_base_exploit_button"
 				position = { x = 161 y = 78 }
 				quadTextureSprite ="GFX_exploit_button"
@@ -444,6 +470,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			iconType = {
+	
 				name ="mp_base_icon"
 				spriteType ="GFX_text_icon_manpower"
 				position = { x = 210 y = 64 }
@@ -463,6 +490,7 @@ guiTypes = {
 			}
 
 			guiButtonType =	{
+	
 				name ="mp_base_increase_button"
 				position = { x = 206 y = 60 }
 				quadTextureSprite ="GFX_development_button_manpower"
@@ -475,6 +503,7 @@ guiTypes = {
 			}
 
 			guiButtonType = {
+	
 				name ="mp_base_exploit_button"
 				position = { x = 240 y = 78 }
 				quadTextureSprite ="GFX_exploit_button"
@@ -510,6 +539,18 @@ guiTypes = {
 				quadTextureSprite ="GFX_checkbox_settlement_growth"
 			}
 			
+			guiButtonType =	{
+				name ="settle_tribe_button"
+				position = { x = 449 y = 60 }
+				quadTextureSprite ="GFX_settle_tribe_button"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonText = ""
+				buttonFont = "vic_18"
+				Orientation = "UPPER_LEFT"
+			}
+
 			iconType = {
 				name ="improve_icon"
 				spriteType = "GFX_extra_development_icon"
@@ -530,6 +571,7 @@ guiTypes = {
 			}
 
 			guiButtonType =	{
+	
 				name ="raze_button"
 				position = { x = 450 y = 60 }
 				quadTextureSprite ="GFX_development_button_raze"
@@ -540,18 +582,18 @@ guiTypes = {
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
 			}
-			
-			guiButtonType =	{
-				name ="settle_tribe_button"
-				position = { x = 449 y = 60 }
-				quadTextureSprite ="GFX_settle_tribe_button"
-				tooltip = ""
-				tooltipText =""
-				delayedTooltipText = ""
-				buttonText = ""
-				buttonFont = "vic_18"
-				Orientation = "UPPER_LEFT"
-			}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -649,6 +691,7 @@ guiTypes = {
 				fixedsize = yes
 			}
 			iconType = {
+	
 				name ="province_religious_conversion_progress"
 				spriteType = "GFX_provinceView_religious_progressbar"
 				position = { x = 205 y = 247 }
@@ -667,12 +710,14 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name ="bad_religion_icon"
 				spriteType = "GFX_small_red_glow"
 				position = { x = 252 y = 235 }
 			}
 
 			guiButtonType =	{
+	
 				name ="religion_button"
 				spriteType = "GFX_province_religion_button"
 				position = { x = 257 y = 241 }
@@ -680,6 +725,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name ="religion_icon"
 				spriteType = "GFX_icon_religion_small"
 				position = { x = 262 y = 246 }
@@ -689,6 +735,7 @@ guiTypes = {
 
 			### HRE
 			iconType = {
+	
 				name ="hre_icon"
 				spriteType = "GFX_hre_indicators"
 				position = { x = 32 y = 328 }
@@ -698,6 +745,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name ="trade_company_icon"
 				spriteType = "GFX_tradecompany_indicators"
 				position = { x = 32 y = 328 }
@@ -811,6 +859,7 @@ guiTypes = {
 
 
 			guiButtonType = {
+	
 				name ="likely_rebel_shield"
 				position = { x = 104 y = 233 }
 				quadTextureSprite = "GFX_shield_small"
@@ -974,6 +1023,7 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="land_amount_icon"
 					spriteType= "GFX_icon_land"
 					position = { x = 72 y = 46 }
@@ -993,6 +1043,7 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="naval_amount_icon"
 					spriteType= "GFX_icon_naval"
 					position = { x = 156 y = 46 }
@@ -1018,18 +1069,21 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="unit_progress"
 					spriteType = "GFX_provinceView_progressbar"
 					position = { x = 104 y = 193 }
 				}
 
 				iconType = {
+	 
 					name ="unit_progress_frame"
 					spriteType = "GFX_provinceView_morale_frame_long"
 					position = { x = 96 y = 189 }
 				}
 
 				iconType = {
+	 
 					name ="unit_progress_icon"
 					spriteType = "GFX_unit_types_strip"
 					position = { x = 65 y = 180 }
@@ -1043,18 +1097,21 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="mutually_progress"
 					spriteType = "GFX_provinceView_progressbar2"
 					position = { x = -57 y = 193 }
 				}
 
 				iconType = {
+	 
 					name ="mutually_progress_frame"
 					spriteType = "GFX_provinceView_morale_frame_medium"
 					position = { x = -66 y = 189 }
 				}
 
 				guiButtonType =	{
+	 
 					name ="mutually_progress_icon"
 					quadTextureSprite = "GFX_mutually_progress_strip"
 					position = { x = -102 y = 170 }
@@ -1113,6 +1170,7 @@ guiTypes = {
 			}
 
 			guiButtonType =	{
+	
 				name ="transfer_occupation_button"
 				position = { x = 310 y = 245 }
 				quadTextureSprite ="GFX_transfer_occupation_button"
@@ -1124,6 +1182,7 @@ guiTypes = {
 			}
 
 			guiButtonType = {
+	
 				name ="occupied_by_shield"
 				position = { x = 370 y = 250 }
 				quadTextureSprite = "GFX_shield_small"
@@ -1270,24 +1329,63 @@ guiTypes = {
 				spriteType = "GFX_province_view_fort_nr_bg"
 				position = { x = 268 y = 454 }
 			}
-			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			iconType = {
-				name ="building_fort"
-				spriteType = "GFX_building_default"
-				position = { x = 240 y = 428 }
-				hint_tag = "hint_fortlevel"
+				name ="maintenance_icon"
+				spriteType = "GFX_maintenance_icon"
+				position = { x = 240 y = 404 }
 			}
 			
-			instantTextBoxType = {
-				name = "fort_number"
-				position = { x = 265 y = 452 }
-				textureFile = ""
-				font = "vic_18"
-				borderSize = { x = 4 y = 4 }
-				text = "1"
-				maxWidth = 20
-				maxHeight = 24
-				format = center
+			
+			
+			
+			
+			
+
+			guiButtonType = {
+				name = "fort_maintenance_checkbox"
+				position = { x = 267 y = 406 }
+				quadTextureSprite = "GFX_maintenance_checkbox"
+				shortcut = "h"
+			}
+			
+			iconType = {
+				name ="maintenance_lock_icon"
+				spriteType = "GFX_maintenance_lock_icon"
+				position = { x = 292 y = 404 }
+			}
+
+			guiButtonType = {
+				name = "fort_maintenance_lock_checkbox"
+				position = { x = 319 y = 406 }
+				quadTextureSprite = "GFX_maintenance_checkbox"
 			}
 			
 			iconType = {
@@ -1298,31 +1396,6 @@ guiTypes = {
 				scale = "0.8"
 			}
 
-			iconType = {
-				name ="maintenance_icon"
-				spriteType = "GFX_maintenance_icon"
-				position = { x = 240 y = 404 }
-			}
-			
-			iconType = {
-				name ="maintenance_lock_icon"
-				spriteType = "GFX_maintenance_lock_icon"
-				position = { x = 292 y = 404 }
-			}
-
-			guiButtonType = {
-				name = "fort_maintenance_checkbox"
-				position = { x = 267 y = 406 }
-				quadTextureSprite = "GFX_maintenance_checkbox"
-				shortcut = "h"
-			}
-			
-			guiButtonType = {
-				name = "fort_maintenance_lock_checkbox"
-				position = { x = 319 y = 406 }
-				quadTextureSprite = "GFX_maintenance_checkbox"
-			}
-			
 			instantTextBoxType = {
 				name = "defensiveness_value"
 				position = { x = 364 y = 408 }
@@ -1345,6 +1418,25 @@ guiTypes = {
 				maxWidth = 60
 				maxHeight = 24
 				format = centre
+			}
+
+			iconType = {
+				name ="building_fort"
+				spriteType = "GFX_building_default"
+				position = { x = 240 y = 428 }
+				hint_tag = "hint_fortlevel"
+			}
+			
+			instantTextBoxType = {
+				name = "fort_number"
+				position = { x = 265 y = 452 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = { x = 4 y = 4 }
+				text = "1"
+				maxWidth = 20
+				maxHeight = 24
+				format = center
 			}
 
 			guiButtonType = {
@@ -1383,6 +1475,11 @@ guiTypes = {
 			}
 
 			### TRADE
+
+
+
+
+
 			instantTextBoxType = {
 				name = "tradepower"
 				position = { x = 35 y = 510 }
@@ -1519,6 +1616,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name ="tradepost_allready_present"
 				spriteType = "GFX_terms_accepted_icon"
 				position = { x = 363 y = 517 }
@@ -1526,18 +1624,21 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name ="trade_pie"
 				spriteType = "GFX_trade_power_chart_small"
 				position = { x = 276 y = 509 }
 			}
 
 			iconType = {
+	
 				name ="trade_pie_overlay"
 				spriteType = "GFX_provinceView_chart_overlay"
 				position = { x = 247 y = 503 }
 			}
 
 			guiButtonType =	{
+	
 				name ="trade_shield"
 				quadTextureSprite = "GFX_shield_small"
 				position = { x = 310 y = 511 }
@@ -1557,6 +1658,7 @@ guiTypes = {
 				fullScreen = no
 
 				iconType = {
+	 
 					name ="background"
 					spriteType = "GFX_culture_change_bg"
 					position = { x = -14 y = -37 }
@@ -1722,6 +1824,7 @@ guiTypes = {
 				fullScreen = no
 
 				iconType = {
+	 
 					name ="background"
 					spriteType = "GFX_build_unit_bg"
 					position = { x = -14 y = -37 }
@@ -1881,6 +1984,7 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="government_type_icon"
 					spriteType = "GFX_government_type_icon"
 					position = { x = 138 y = 24 }
@@ -1900,6 +2004,7 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="foreign_attitude_icons_strip"
 					spriteType = "GFX_attitude_icons_strip"
 					position = { x = 87 y = 26 }
@@ -1907,6 +2012,7 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="miltech_icon"
 					spriteType = "GFX_icon_powers_military_tech"
 					position = { x = 175 y = 28 }
@@ -1945,18 +2051,21 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name = "integrate_icon"
 					spriteType = "GFX_integrate_icon"
 					position = { x = 56 y = 176 }
 				}
 
 				iconType = {
+	 
 					name = "annex_icon"
 					spriteType = "GFX_annex_icon"
 					position = { x = 56 y = 176 }
 				}
 
 				iconType = {
+	 
 					name ="integrate_annex_progress"
 					spriteType = "GFX_integrate_annex_progress"
 					position = { x = 96 y = 187 }
@@ -2055,6 +2164,7 @@ guiTypes = {
 				Orientation = "LOWER_LEFT"
 
 				guiButtonType =	{
+	 
 					name ="background"
 					spriteType = "GFX_transfer_occupation_bg"
 					position = { x = 0 y = 0 }
@@ -2115,6 +2225,7 @@ guiTypes = {
 
 
 				iconType = {
+	 
 					name ="background"
 					spriteType = "GFX_tradegood_info_bg"
 					position = { x = 4 y = -10 }
@@ -2236,6 +2347,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "loot_icon"
 				spriteType = "GFX_loot_icon"
 				position = { x = 22 y = 130 }
@@ -2243,6 +2355,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "loot_progress"
 				spriteType = "GFX_loot_progressbar"
 				position = { x = 54 y = 137 }
@@ -2250,6 +2363,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "loot_progress_frame"
 				spriteType = "GFX_loot_bar_frame"
 				position = { x = 53 y = 135 }
@@ -2257,11 +2371,13 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "devastation_icon"
 				spriteType = "GFX_devestation_icon"
 				position = { x = 24 y = 102 }
 				Orientation = "UPPER_LEFT"
 			}
+
 
 			instantTextBoxType = {
 				name = "devastation_value"
@@ -2298,6 +2414,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 			iconType = {
+	
 				name ="states_view_bg"
 				spriteType = "GFX_provinceview_bg_large_state"
 				position = { x = -2 y = -5 }
@@ -2305,6 +2422,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name ="edict_overlay"
 				spriteType = "GFX_edict_overlay"
 				position = { x = 20 y = 122 }
@@ -2323,48 +2441,57 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "supply_depots"
 				spriteType = "GFX_supply_depots_icon"
 				position = { x = 283 y = 8 }
 			}
 
+
 			iconType = {
+	
 				name = "is_state"
 				spriteType = "GFX_in_state_icon"
 				position = { x = 277 y = 9 }
 			}
 
 			iconType = {
+	
 				name = "is_territory"
 				spriteType = "GFX_in_territory_icon"
 				position = { x = 277 y = 9 }
 			}
 
 			guiButtonType = {
+	
 				name = "concentrate_development"
 				quadTextureSprite = "GFX_concentrate_development"
 				position = { x = 318 y = 9 }
 			}
 			
 			guiButtonType = {
+	
 				name = "centralize_state"
 				quadTextureSprite = "GFX_centralize_state_button"
 				position = { x = 348 y = 9 }
 			}
 			
 			guiButtonType = {
+	
 				name = "make_state"
 				quadTextureSprite = "GFX_make_state_button"
 				position = { x = 378 y = 9 }
 			}
 
 			guiButtonType =	{
+	
 				name = "abandon_state"
 				quadTextureSprite = "GFX_abandon_state_button"
 				position = { x = 378 y = 9 }
 			}
 
 			guiButtonType =	{
+	
 				name = "core_all"
 				quadTextureSprite = "GFX_core_all_button"
 				position = { x = 408 y = 9 }
@@ -2416,19 +2543,23 @@ guiTypes = {
 				format = right
 			}
 
+
 			iconType = {
+	
 				name ="prosperity_progress"
 				spriteType = "GFX_prosperity_progressbar"
 				position = { x = 327 y = 79 }
 			}
 
 			iconType = {
+	
 				name ="prosperity_progress_frame"
 				spriteType = "GFX_prosperity_gauge_frame"
 				position = { x = 320 y = 67 }
 			}
 
 			iconType = {
+	
 				name = "prosperity"
 				spriteType = "gfx_prosperity_strip"
 				position = { x = 442 y = 73 }
@@ -2464,6 +2595,7 @@ guiTypes = {
 				format = left
 			}
 
+
 			guiButtonType = {
 				name ="view_edicts_button"
 				quadTextureSprite = "button_type_1"
@@ -2473,6 +2605,7 @@ guiTypes = {
 				position = { x = 326 y = 157 }
 				shortcut = "d"
 			}
+
 
 			guiButtonType = {
 				name = "sort_state_core"
@@ -2554,6 +2687,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "manchu_banner"
 				spriteType = "GFX_amount_of_banners"
 				position = { x = 250 y = 416 }
@@ -2566,6 +2700,43 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22"
 				borderSize = { x = 2 y = 2 }
+				text = "x of y"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+			}
+
+
+		    # Cawa
+			iconType = {
+				name = "cawa_bg"
+				spriteType = "GFX_cawa_slot"
+				position = { x = 12 y = 419 }
+			}
+
+			guiButtonType = {
+				name ="raise_cawa_button"
+				quadTextureSprite = "button_type_4"
+				buttonFont = "vic_18"
+				buttonText = "CREATECAWA"
+
+				position = { x = 24 y = 427 }
+			}
+
+			iconType =
+			{
+				name = "cawa_icon"
+				spriteType = "GFX_amount_of_cawa"
+				position = { x = 250 y = 416 }
+				scale = 0.85
+			}
+
+			instantTextBoxType = {
+				name = "cawa_number"
+				position = { x = 302 y = 431 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 2 y = 2}
 				text = "x of y"
 				maxWidth = 100
 				maxHeight = 20
@@ -2590,6 +2761,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "consecrate_patriarch"
 				spriteType = "GFX_patriarch_icon"
 				position = { x = 234 y = 426 }
@@ -2612,6 +2784,7 @@ guiTypes = {
 			}
 
 			iconType = {
+	
 				name = "add_pasha"
 				spriteType = "GFX_pasha_icon"
 				position = { x = 234 y = 426 }
@@ -2679,6 +2852,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 				iconType = {
+	 
 					name ="great_projects_window_bg"
 					spriteType = "GFX_provinceview_great_projects_bg"
 					position = { x = -14 y = 0 }
@@ -2720,6 +2894,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 				iconType = {
+	 
 					name ="provinceview_building_bg"
 					spriteType = "GFX_provinceview_building_bg"
 					position = { x = -3 y = 0 }
@@ -2776,6 +2951,7 @@ guiTypes = {
 				}
 
 				guiButtonType =	{
+	 
 					name ="expand_infrastructure_button"
 					position = { x = 240 y = 5 }
 					quadTextureSprite ="GFX_exploit_button_expand_infrastructure"
@@ -2788,6 +2964,7 @@ guiTypes = {
 				}
                 
 				guiButtonType = {
+	 
 					name ="reduce_infrastructure_button"
 					position = { x = 280 y = 5 }
 					quadTextureSprite ="GFX_exploit_button_reduce_infrastructure"
@@ -2800,6 +2977,7 @@ guiTypes = {
 				}
                 
 				iconType = {
+	 
 					name ="naval_forcelimit_icon"
 					spriteType = "GFX_naval_forcelimit_icon"
 					position = { x = 33 y = 82 }
@@ -2819,6 +2997,7 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="land_forcelimit_icon"
 					spriteType = "GFX_land_forcelimit_icon"
 					position = { x = 130 y = 82 }
@@ -2838,6 +3017,26 @@ guiTypes = {
 				}
 				
 				iconType = {
+					name = "province_governing_cost_icon"
+					spriteType = "GFX_province_governing_cost"
+					position = { x = 224 y = 181  }
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "capacity_value"
+					position = { x = 253 y = 187 }
+					textureFile = ""
+					font = "vic_18"
+					borderSize = { x = 2 y = 2 }
+					text = "200"
+					maxWidth = 50
+					maxHeight = 20
+					format = right
+				}
+
+				iconType =
+				{
 					name = "center_of_revolution"
 					spriteType = "GFX_center_of_revolution"
 					position = { x = 28 y = 141 }
@@ -2893,18 +3092,21 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name = "revolution_spread"
 					spriteType = "GFX_revolution_spreading"
 					position = { x = 28 y = 141 }
 				}
 
 				iconType = {
+	 
 					name ="revolution_progress"
 					spriteType = "GFX_provinceView_revolution_progressbar"
 					position = { x = 99 y = 172 }
 				}
 
 				iconType = {
+	 
 					name ="revolution_progress_frame"
 					spriteType = "GFX_provinceView_morale_frame_medium"
 					position = { x = 90 y = 168 }
@@ -2924,27 +3126,27 @@ guiTypes = {
 	
 				
 				
-				iconType = {
-					name = "province_governing_cost_icon"
-					spriteType = "GFX_province_governing_cost"
-					position = { x = 224 y = 181  }
-					Orientation = "UPPER_LEFT"
-				}
+				iconType = 
+				{
 				
-				instantTextBoxType = {
-					name = "capacity_value"
-					position = { x = 253 y = 187 }
-					textureFile = ""
-					font = "vic_18"
-					borderSize = { x = 2 y = 2 }
-					text = "200"
-					maxWidth = 50
-					maxHeight = 20
-					format = right
-				}
-
-
-				iconType = {
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 					name ="build_allowed_icon"
 					spriteType = "GFX_technologyView_show_buildings"
 					position = { x = 32 y = 35 }
@@ -2965,6 +3167,7 @@ guiTypes = {
 
 
 				iconType = {
+	 
 					name ="build_cost_modifier_icon"
 					spriteType = "GFX_build_cost"
 					position = { x = 129 y = 39 }
@@ -2984,6 +3187,7 @@ guiTypes = {
 				}
 
 				iconType = {
+	 
 					name ="build_time_modifier_icon"
 					spriteType = "GFX_build_time"
 					position = { x = 224 y = 36 }
@@ -3016,11 +3220,13 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 				iconType = {
+	 
 					name ="background"
 					spriteType = "GFX_select_building_small_bg"
 					position = { x = 0 y = 0 }
 					Orientation = "UPPER_LEFT"
 				}
+
 
 				guiButtonType = {
 					name = "back_button"
@@ -3075,6 +3281,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 				iconType = {
+	 
 					name ="background"
 					spriteType = "gfx_select_building_large_bg3"
 					position = { x = 0 y = 0 }
@@ -3132,6 +3339,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 				iconType = {
+	 
 					name ="provinceview_native_building_bg_small"
 					spriteType = "GFX_select_building_small_bg2"
 					position = { x = 6 y = 0 }
@@ -3211,7 +3419,9 @@ guiTypes = {
 						format = left
 					}
 
+
 					iconType = {
+	  
 						name ="naval_forcelimit_icon"
 						spriteType = "GFX_naval_forcelimit_icon"
 						position = { x = 30 y = 33 }
@@ -3231,6 +3441,7 @@ guiTypes = {
 					}
 
 					iconType = {
+	  
 						name ="land_forcelimit_icon"
 						spriteType = "GFX_land_forcelimit_icon"
 						position = { x = 120 y = 33 }
@@ -3249,7 +3460,13 @@ guiTypes = {
 						format = center
 					}
 					
+	 
+	
+ 
+	
+	 
 					iconType = {
+	  
 						name ="governing_capacity_icon"
 						spriteType = "GFX_governing_capacity"
 						position = { x = 205 y = -12  }
@@ -3270,6 +3487,7 @@ guiTypes = {
 					}
 
 					iconType = {
+	  
 						name ="build_allowed_icon"
 						spriteType = "GFX_technologyView_show_buildings"
 						position = { x = 210 y = 32 }
@@ -3290,6 +3508,7 @@ guiTypes = {
 
 
 					iconType = {
+	  
 						name ="build_cost_modifier_icon"
 						spriteType = "GFX_build_cost"
 						position = { x = 300 y = 34 }
@@ -3309,6 +3528,7 @@ guiTypes = {
 					}
 					
 					iconType = {
+	  
 						name ="build_time_modifier_icon"
 						spriteType = "GFX_build_time"
 						position = { x = 300 y = -4 }
@@ -3327,6 +3547,7 @@ guiTypes = {
 						format = right
 					}
 				}
+
 			}
 
 			##### for larger resolutions ###
@@ -3344,6 +3565,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 
 				iconType = {
+	 
 					name ="provinceview_native_building_bg_large"
 					spriteType = "GFX_select_building_large_bg"
 					position = { x = 6 y = 0 }
@@ -3424,6 +3646,7 @@ guiTypes = {
 					}
 
 					iconType = {
+	  
 						name ="naval_forcelimit_icon"
 						spriteType = "GFX_naval_forcelimit_icon"
 						position = { x = 30 y = 634 }
@@ -3443,6 +3666,7 @@ guiTypes = {
 					}
 
 					iconType = {
+	  
 						name ="land_forcelimit_icon"
 						spriteType = "GFX_land_forcelimit_icon"
 						position = { x = 120 y = 634 }
@@ -3461,7 +3685,11 @@ guiTypes = {
 						format = center
 					}
 
+ 
+	
+	
 					iconType = {
+	  
 						name ="governing_capacity_icon"
 						spriteType = "GFX_governing_capacity"
 						position = { x = 212 y = 599 }
@@ -3481,6 +3709,7 @@ guiTypes = {
 					}
 	
 					iconType = {
+	  
 						name ="build_allowed_icon"
 						spriteType = "GFX_technologyView_show_buildings"
 						position = { x = 210 y = 634 }
@@ -3499,7 +3728,9 @@ guiTypes = {
 						format = center
 					}
 
+
 					iconType = {
+	  
 						name ="build_cost_modifier_icon"
 						spriteType = "GFX_build_cost"
 						position = { x = 300 y = 634 }
@@ -3519,6 +3750,7 @@ guiTypes = {
 					}
 
 					iconType = {
+	  
 						name ="build_time_modifier_icon"
 						spriteType = "GFX_build_time"
 						position = { x = 300 y = 596 }
@@ -3561,6 +3793,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 			iconType = {
+	
 				name ="provinceview_building_bg"
 				spriteType = "GFX_provinceview_institutions_bg"
 				position = { x = 15 y = 122 }
@@ -3635,6 +3868,7 @@ guiTypes = {
 			Orientation = "LOWER_LEFT"
 
 			guiButtonType = {
+	
 				name ="background"
 				spriteType = "GFX_province_view_history_bg"
 				position = { x = 0 y = 0 }
@@ -3666,6 +3900,8 @@ guiTypes = {
 				borderSize = { x = 0 y = 0 }
 			}
 		}
+
+
 	}
 
 	### PROVINCE MODIFIERS
@@ -3681,6 +3917,7 @@ guiTypes = {
 		fullScreen = no
 
 		iconType = {
+   
 			name ="prov_modifier_bg"
 			spriteType = "GFX_prov_modifier_bg"
 			position = { x = 0 y = 0 }
@@ -3688,6 +3925,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="icon"
 			spriteType = "GFX_idea_unknown"
 			position = { x = -2 y = 0 }
@@ -3709,6 +3947,7 @@ guiTypes = {
 		fullScreen = no
 
 		guiButtonType = {
+   
 			name ="CoreShieldButton"
 			position = { x = -2 y = 0 }
 			quadTextureSprite = "GFX_shield_small"
@@ -3733,6 +3972,7 @@ guiTypes = {
 		fullScreen = no
 
 		guiButtonType = {
+   
 			name ="CoreShieldButton"
 			position = { x = -2 y = 0 }
 			quadTextureSprite = "GFX_shield_small_territorial_core"
@@ -3757,6 +3997,7 @@ guiTypes = {
 		fullScreen = no
 
 		guiButtonType =	{
+   
 			name ="CoreShieldButton"
 			position = { x = 0 y = 0 }
 			quadTextureSprite = "GFX_shield_small_claim"
@@ -3781,6 +4022,7 @@ guiTypes = {
 		fullScreen = no
 
 		guiButtonType = {
+   
 			name ="CoreShieldButton"
 			position = { x = 0 y = 0 }
 			quadTextureSprite = "GFX_shield_small_permanent_claim"
@@ -3803,6 +4045,7 @@ guiTypes = {
 		horizontalBorder = ""
 
 		iconType = {
+   
 			name ="icon"
 			spriteType = "GFX_icon_powers_military"
 			position = { x = 0 y = 0 }
@@ -3829,6 +4072,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="icon_type"
 			spriteType = "GFX_unit_types_strip"
 			position = { x = 5 y = -4 }
@@ -3847,6 +4091,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			fixedsize = yes
 		}
+
 
 		instantTextBoxType = {
 			name = "unit_cost"
@@ -3873,6 +4118,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="fire_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x = 303 y = 5 }
@@ -3880,6 +4126,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="fire_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x = 303 y = 19 }
@@ -3887,6 +4134,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="shock_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x = 339 y = 5}
@@ -3894,6 +4142,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="shock_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x = 339 y = 19 }
@@ -3901,6 +4150,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="morale_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x = 375 y = 5 }
@@ -3908,11 +4158,14 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="morale_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x = 375 y = 19 }
 			Orientation = "UPPER_LEFT"
 		}
+
+
 	}
 
 	### BUILD MERC ENTRY
@@ -3927,6 +4180,8 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 
+
+
 		guiButtonType = {
 			name = "build_unit_banner"
 			position = { x = 0 y = 0 }
@@ -3934,6 +4189,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="icon_type"
 			spriteType = "GFX_unit_types_strip"
 			position = { x = 5 y = -4 }
@@ -3955,6 +4211,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+
 		instantTextBoxType = {
 			name = "unit_cost"
 			position = { x = 55 y = 19 }
@@ -3982,6 +4239,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="fire_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x = 303 y = 5 }
@@ -3989,6 +4247,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="fire_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x = 303 y = 19 }
@@ -3996,6 +4255,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="shock_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x = 339 y = 5}
@@ -4003,6 +4263,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="shock_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x = 339 y = 19 }
@@ -4010,6 +4271,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="morale_offensive"
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x = 375 y = 5 }
@@ -4017,6 +4279,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="morale_defensive"
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x = 375 y = 19 }
@@ -4036,6 +4299,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 
+
 		guiButtonType = {
 			name = "build_unit_banner"
 			position = { x = 0 y = 0 }
@@ -4043,6 +4307,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="icon_type"
 			spriteType = "GFX_unit_types_strip"
 			position = { x = 5 y = -4 }
@@ -4175,6 +4440,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="dip_icon"
 			spriteType = "GFX_icon_powers_diplomatic"
 			position = { x = 280 y = 2 }
@@ -4229,7 +4495,9 @@ guiTypes = {
 			quadTextureSprite = "GFX_build_unit_queue"
 		}
 
+
 		iconType = {
+   
 			name ="icon_type"
 			spriteType = "GFX_unit_types_strip"
 			position = { x = 10 y = -2 }
@@ -4263,6 +4531,7 @@ guiTypes = {
 			fixedsize = yes
 			alwaystransparent = yes
 		}
+
 	}
 
 	### QUEUE ENTRY MERC
@@ -4277,6 +4546,8 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 
+
+
 		guiButtonType =	{
 			name ="qband_regiment"
 			position = { x = 0 y = 0 }
@@ -4284,7 +4555,9 @@ guiTypes = {
 			quadTextureSprite = "GFX_build_unit_queue_merc"
 		}
 
+
 		iconType = {
+   
 			name ="icon_type"
 			spriteType = "GFX_unit_types_strip"
 			position = { x = 10 y = -5 }
@@ -4332,6 +4605,7 @@ guiTypes = {
 		fullScreen = no
 
 		iconType = {
+   
 			name ="tradeGoodsIcon"
 			spriteType = "GFX_resource_icon"
 			position = { x = 0 y = 0 }
@@ -4375,8 +4649,10 @@ guiTypes = {
 		position = { x = -32 y = 0 }
 	}
 
+
 	#### GREAT PROJECT ENTRY
 	windowType = {
+  
 		name = "great_project_entry"
 		backGround=""
 		position = { x = 0 y = 0 }
@@ -4388,6 +4664,7 @@ guiTypes = {
 		fullScreen = no
 		
 		iconType = {
+   
 			name ="great_project_pic"
 			spriteType = "GFX_great_project_place_holder"
 			position = { x = 0 y = 0 }
@@ -4407,6 +4684,7 @@ guiTypes = {
 		}
 
 		windowType = {
+   
 			name = "progress_bar_window"
 			backGround=""
 			position = { x = 155 y = 104 }
@@ -4419,18 +4697,21 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 			guiButtonType =	{
+	
 				name ="great_project_cancel"
 				quadTextureSprite = "GFX_alerticon_dismiss_always"
 				position = { x = 110 y = 5 }
 			}
 
 			iconType = {
+	
 				name ="great_project_progress"
 				spriteType = "GFX_provinceView_progressbar"
 				position = { x = 8 y = 13 }
 			}
 
 			iconType = {
+	
 				name ="great_project_progress_frame"
 				spriteType = "GFX_provinceView_morale_frame_long"
 				position = { x = 0 y = 9 }
@@ -4438,6 +4719,7 @@ guiTypes = {
 		}
 
 		guiButtonType = {
+   
 			name ="build_upgrade_button"
 			position = { x = 193 y = 7 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_build"
@@ -4450,6 +4732,7 @@ guiTypes = {
 		}
 
 		guiButtonType = {
+   
 			name ="use_money_to_boost_button"
 			position = { x = 193 y = 42 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_money"
@@ -4462,6 +4745,7 @@ guiTypes = {
 		}
 
 		guiButtonType = {
+   
 			name ="use_manpower_to_boost_button"
 			position = { x = 193 y = 77 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_manpower"
@@ -4474,6 +4758,7 @@ guiTypes = {
 		}
 
 		guiButtonType =	{
+   
 			name ="move_button"
 			position = { x = 9 y = 28 }
 			quadTextureSprite ="GFX_great_project_level_icon_move"
@@ -4487,6 +4772,7 @@ guiTypes = {
 
 		### TIER ICONS
 		windowType = {
+   
 			name = "tier_0_icon"
 			backGround=""
 			position = { x = 5 y = 104 }
@@ -4498,6 +4784,7 @@ guiTypes = {
 			fullScreen = no
 
 			iconType = {
+	
 				name ="bg"
 				spriteType = "GFX_great_project_level_icon_tier_0"
 				position = { x = 0 y = 0 }
@@ -4506,6 +4793,7 @@ guiTypes = {
 		}
 
 		windowType = {
+   
 			name = "tier_1_icon"
 			backGround=""
 			position = { x = 42 y = 104 }
@@ -4517,6 +4805,7 @@ guiTypes = {
 			fullScreen = no
 
 			iconType = {
+	
 				name ="bg"
 				spriteType = "GFX_great_project_level_icon_tier_1"
 				position = { x = 0 y = 0 }
@@ -4525,6 +4814,7 @@ guiTypes = {
 		}
 
 		windowType = {
+   
 			name = "tier_2_icon"
 			backGround=""
 			position = { x =82 y = 104 }
@@ -4536,6 +4826,7 @@ guiTypes = {
 			fullScreen = no
 
 			iconType = {
+	
 				name ="bg"
 				spriteType = "GFX_great_project_level_icon_tier_2"
 				position = { x = 0 y = 0 }
@@ -4544,6 +4835,7 @@ guiTypes = {
 		}
 
 		windowType = {
+   
 			name = "tier_3_icon"
 			backGround=""
 			position = { x = 122 y = 104 }
@@ -4555,6 +4847,7 @@ guiTypes = {
 			fullScreen = no
 
 			iconType = {
+	
 				name ="bg"
 				spriteType = "GFX_great_project_level_icon_tier_3"
 				position = { x = 0 y = 0 }
@@ -4580,7 +4873,10 @@ guiTypes = {
 		position = { x = 4 y = 0 }
 	}
 
+
+
 	windowType = {
+  
 		name = "possible_building_entry"
 		backGround=""
 		position = { x = 0 y = 0 }
@@ -4592,6 +4888,7 @@ guiTypes = {
 		fullScreen = no
 
 		guiButtonType =	{
+   
 			name ="building"
 			quadTextureSprite = "GFX_building_default"
 			position = { x = 0 y = 0 }
@@ -4631,10 +4928,14 @@ guiTypes = {
 			fixedsize = yes
 			alwaystransparent = yes
 		}
+
+
+
 	}
 
 	### BUILDING ENTRY
 	windowType = {
+  
 		name = "building_progress_entry"
 		backGround=""
 		position = { x = 0 y = 0 }
@@ -4646,12 +4947,14 @@ guiTypes = {
 		fullScreen = no
 
 		guiButtonType = {
+   
 			name ="building"
 			quadTextureSprite = "GFX_building_default"
 			position = { x = 10 y = 10 }
 		}
 
 		instantTextBoxType = {
+   
 			name = "required_development"
 			position = { x = 4 y = 8 }
 			font = "vic_18"
@@ -4663,18 +4966,21 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="building_status"
 			spriteType = "GFX_building_status_strip"
 			position = { x = 10 y = 10 }
 		}
 
 		iconType = {
+   
 			name ="building_progress"
 			spriteType = "GFX_building_progress"
 			position = { x = 10 y = 10 }
 		}
 
 		iconType = {
+   
 			name ="building_currentlybuilding"
 			spriteType = "GFX_building_currentlybuilding"
 			position = { x = 10 y = 10 }
@@ -4689,6 +4995,7 @@ guiTypes = {
 
 
 		guiButtonType = {
+   
 			name ="building_destroy"
 			quadTextureSprite = "GFX_building_destroy"
 			position = { x = 10 y = 10 }
@@ -4697,6 +5004,7 @@ guiTypes = {
 
 	### NATIVE BUILDING ENTRY
 	windowType = {
+  
 		name = "native_building_entry"
 		backGround=""
 		position = { x = 0 y = 0 }
@@ -4708,24 +5016,28 @@ guiTypes = {
 		fullScreen = no
 
 #		iconType = {
+	
 #			name ="native_building_divider"
 #			spriteType = "GFX_native_building_divider"
 #			position = { x = 10 y = 49 }
 #		}
 
 		iconType = {
+   
 			name ="building_status"
 			spriteType = "GFX_building_status_strip"
 			position = { x = 17 y = 39 }
 		}
 
 		iconType = {
+   
 			name ="building_progress"
 			spriteType = "GFX_building_progress"
 			position = { x = 18 y = 45 }
 		}
 
 		iconType = {
+   
 			name ="building_currentlybuilding"
 			spriteType = "GFX_building_currentlybuilding"
 			position = { x = 18 y = 22 }
@@ -4738,6 +5050,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
+   
 			name = "building_name"
 			position = { x = 70 y = 0 }
 			font = "vic_18"
@@ -4749,6 +5062,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
+   
 			name = "building_cost"
 			position = { x = 215 y = 0 }
 			font = "vic_18"
@@ -4760,6 +5074,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
+   
 			name = "building_effect"
 			position = { x = 70 y = 15 }
 			font = "vic_18"
@@ -4771,12 +5086,14 @@ guiTypes = {
 		}
 
 		guiButtonType = {
+   
 			name ="building"
 			quadTextureSprite = "GFX_building_default"
 			position = { x = 17 y = 2 }
 		}
 
 		guiButtonType =	{
+   
 			name ="building_destroy"
 			quadTextureSprite = "GFX_building_destroy"
 			position = { x = 19 y = 4 }
@@ -4794,6 +5111,7 @@ guiTypes = {
 		fullScreen = no
 
 		iconType = {
+   
 			name ="entry_banner"
 			spriteType = "GFX_banner_yellow_20"
 			position = { x = 10 y = -1 }
@@ -4815,6 +5133,7 @@ guiTypes = {
 		}
 		
 		guiButtonType =	{
+   
 			name ="country_selection_button"
 			quadTextureSprite= "GFX_shield_medium"
 			position = { x = -25 y = -13 }
@@ -5081,6 +5400,7 @@ guiTypes = {
 			position = { x = 287 y = 320 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
+
 	}
 
 	### CLIENT STATE FLAG CUSTOMIZATION
@@ -5456,6 +5776,8 @@ guiTypes = {
 			format = centre
 		}
 
+
+
 		instantTextBoxType = {
 			name = "Description"
 			position = { x = 64 y = 60 }
@@ -5672,6 +5994,10 @@ guiTypes = {
 			text = "2000¤"
 		}
 
+
+
+
+
 		iconType = {
 			name = "navy_banner"
 			position = { x = 4 y = 97 }
@@ -5832,6 +6158,10 @@ guiTypes = {
 			spriteType = "GFX_building_upgrade_icon"
 		}
 
+
+
+
+
 		iconType = {
 			name = "army_banner"
 			position = { x = 4 y = 194 }
@@ -5991,6 +6321,10 @@ guiTypes = {
 			position = { x = 312 y = 235 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
+
+
+
+
 
 		iconType = {
 			name = "defense_banner"
@@ -6195,6 +6529,9 @@ guiTypes = {
 			position = { x = 312 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
+  
+  
+
 
 		iconType = {
 			name = "manufactory_banner"
@@ -6458,6 +6795,7 @@ guiTypes = {
 	}
 
 	windowType = {
+  
 		name = "province_institution_entry"
 		backGround=""
 		position = { x = 0 y = 0 }
@@ -6468,19 +6806,23 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 
+
 		iconType = {
+   
 			name ="icon"
 			spriteType = "GFX_estates_icons"
 			position = { x = -2 y = 0 }
 		}
 
 		iconType = {
+   
 			name ="highlight"
 			spriteType = "GFX_highlight_frame"
 			position = { x = -2 y = 0 }
 		}
 
 		iconType = {
+   
 			name ="progress"
 			spriteType = "GFX_province_institution_progress"
 			position = { x = 59 y = 24 }
@@ -6488,6 +6830,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="power_progress_frame"
 			spriteType = "GFX_promote_investments_progress_frame"
 			position = { x = 45 y = 21 }
@@ -6530,7 +6873,10 @@ guiTypes = {
 		}
 	}
 
+
+
 	windowType = {
+  
 		name = "state_province_entry"
 		backGround=""
 		position = { x = 0 y = 0 }
@@ -6541,11 +6887,13 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 
+
 		iconType = {
 			name ="core_status"
 			spriteType = "GFX_core_icon"
 			position = { x = -1 y = 1 }
 		}
+
 
 		instantTextBoxType = {
 			name = "name"
@@ -6560,6 +6908,7 @@ guiTypes = {
 		}
 
 		guiButtonType =	{
+   
 			name ="owner"
 			position = { x = 147 y = 0 }
 			quadTextureSprite = "GFX_shield_small"
@@ -6571,6 +6920,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="trade_company_icon"
 			spriteType = "GFX_subject_trade_company_icon"
 			position = { x = 160 y = 15 }
@@ -6590,6 +6940,7 @@ guiTypes = {
 		}
 
 		iconType = {
+   
 			name ="religion"
 			spriteType = "GFX_icon_religion_small"
 			position = { x = 214 y = 0 }
@@ -6643,9 +6994,12 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
+
 	}
 
+
 	windowType = {
+  
 		name = "state_edict_entry"
 		backGround=""
 		position = { x = 0 y = 0 }
@@ -6681,6 +7035,7 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 		}
+
 	}
 
 ####State Window
@@ -6729,6 +7084,7 @@ guiTypes = {
 			position = { x = 888 y = -26 }
 			quadTextureSprite ="GFX_closebutton2"
 			clicksound = close_window
+	
 		}
 	}
 }

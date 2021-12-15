@@ -218,8 +218,9 @@ mnd_maj_2 = {
 		required_missions = { mnd_maj_stability mnd_maj_subjects mnd_maj_religion }
 		provinces_to_highlight = {
 			OR = {
+				area = east_java_area
 				area = central_java_area
-				area = central_java_area
+				area = west_java_area
 				province_id = 2691
 				province_id = 4794
 			}
@@ -228,11 +229,15 @@ mnd_maj_2 = {
 			}
 		}
 		trigger = {
-			central_java_area = {
+			east_java_area = {
 				type = all
 				owned_by = ROOT
 			}
 			central_java_area = {
+				type = all
+				owned_by = ROOT
+			}
+			west_java_area = {
 				type = all
 				owned_by = ROOT
 			}
@@ -318,7 +323,6 @@ mnd_maj_2 = {
 				area = brunei_area
 				area = kutai_area
 				area = kalimantan_area
-				area = kalimantan_area
 				area = sabah_area
 			}
 			NOT = {
@@ -339,7 +343,6 @@ mnd_maj_2 = {
 					OR = {
 						area = kutai_area
 						area = brunei_area
-						area = kalimantan_area
 						area = kalimantan_area
 						area = sabah_area
 					}

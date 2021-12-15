@@ -1,7 +1,7 @@
 #1235 - Guam
 #VU Discovery Bug Fix
 
-culture = papuan
+culture = polynesian
 religion = animism
 capital = "Guam"
 trade_goods = unknown

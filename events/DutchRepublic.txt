@@ -2130,7 +2130,7 @@ country_event = {
 		}
 		is_at_war = no
 		NOT = { exists = BEL }
-		current_age = age_of_imperialism
+		current_age = age_of_change
 		NOT = { 
 			OR = {
 				primary_culture = brabantian 

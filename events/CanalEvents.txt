@@ -28,7 +28,7 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
-			has_construction = second_suez_canal
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3
@@ -101,6 +101,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = second_suez_canal
 		}
 		modifier = {
@@ -167,6 +171,10 @@ province_event = {
 		modifier = {
 			factor = 3
 			has_construction = don_and_volga_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3
@@ -239,6 +247,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = second_suez_canal
 		}
 		modifier = {
@@ -305,6 +317,10 @@ province_event = {
 		modifier = {
 			factor = 3
 			has_construction = don_and_volga_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3
@@ -377,6 +393,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = second_suez_canal
 		}
 		modifier = {
@@ -443,6 +463,10 @@ province_event = {
 		modifier = {
 			factor = 3
 			has_construction = don_and_volga_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3
@@ -515,6 +539,10 @@ province_event = {
 		modifier = {
 			factor = 3
 			has_construction = don_and_volga_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3
@@ -591,6 +619,10 @@ province_event = {
 		modifier = {
 			factor = 3
 			has_construction = don_and_volga_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3
@@ -698,6 +730,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = second_suez_canal
 		}
 		modifier = {
@@ -787,6 +823,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = second_suez_canal
 		}
 		modifier = {
@@ -853,6 +893,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = second_suez_canal
 		}
 		modifier = {
@@ -911,6 +955,10 @@ province_event = {
 		modifier = {
 			factor = 3
 			has_construction = don_and_volga_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3
@@ -1093,6 +1141,10 @@ province_event = {
 		}
 		modifier = {
 			factor = 3
+			has_construction = suez_canal
+		}
+		modifier = {
+			factor = 3
 			has_construction = second_suez_canal
 		}
 		modifier = {
@@ -1163,6 +1215,10 @@ province_event = {
 		modifier = {
 			factor = 3
 			has_construction = don_and_volga_canal
+		}
+		modifier = {
+			factor = 3
+			has_construction = suez_canal
 		}
 		modifier = {
 			factor = 3

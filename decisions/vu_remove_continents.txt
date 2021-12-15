@@ -1,3 +1,4 @@
+#By Robert.K
 country_decisions = {
 
 #   Template to remove region/superregion/continent
@@ -14,7 +15,7 @@ country_decisions = {
 #         every_core_country = {
 #              # prevents the player from deleting himself
 #             limit = {ai = yes}
-#             country_event = { id = destroy_countries_vu }
+#             country_event = { id = vu_remove_country.1 }
 #         }
 #       }
 #     }
@@ -28,26 +29,26 @@ country_decisions = {
 #
 #	   effect = {
 #			TAG_to_remove = {
-#			   country_event = { id = destroy_countries_vu }
+#			   country_event = { id = vu_remove_country.1 }
 #			}
 #		}
 #	}
 
-  remove_north_america = {
-    major = yes
+	remove_north_america = {
+		major = yes
 		potential = {
-		  ai = no
-      NOT = {is_year = 1445}
-      NOT = { has_global_flag = removed_north_america }
+			ai = no
+			NOT = { is_year = 1445}
+			NOT = { has_global_flag = removed_north_america }
 		}
 
-    effect = {
-      set_global_flag = removed_north_america
+		effect = {
+			set_global_flag = removed_north_america
 			north_america_superregion = {
-        every_core_country = {
-            limit = {ai = yes}
-				    country_event = { id = destroy_countries_vu }
-        }
+				every_core_country = {
+					limit = { ai = yes}
+					country_event = { id = vu_remove_country.1 }
+        			}
 			}
 		}
 	}
@@ -56,7 +57,7 @@ country_decisions = {
     major = yes
     potential = {
       ai = no
-      NOT = {is_year = 1445}
+      NOT = { is_year = 1445}
       NOT = { has_global_flag = removed_south_america }
     }
 
@@ -64,8 +65,8 @@ country_decisions = {
       set_global_flag = removed_south_america
       south_america_superregion = {
         every_core_country = {
-            limit = {ai = yes}
-            country_event = { id = destroy_countries_vu }
+            limit = { ai = yes}
+            country_event = { id = vu_remove_country.1 }
         }
       }
     }
@@ -75,7 +76,7 @@ country_decisions = {
     major = yes
     potential = {
       ai = no
-      NOT = {is_year = 1445}
+      NOT = { is_year = 1445}
       NOT = { has_global_flag = removed_central_america }
     }
 
@@ -83,8 +84,8 @@ country_decisions = {
       set_global_flag = removed_central_america
       central_america_superregion = {
         every_core_country = {
-            limit = {ai = yes}
-            country_event = { id = destroy_countries_vu }
+            limit = { ai = yes}
+            country_event = { id = vu_remove_country.1 }
         }
       }
     }
@@ -276,9 +277,31 @@ country_decisions = {
 						#tag = MAU #There were still mostly tribes but apparently
 						#tag = OAH #they began devloping farming and social structures?
 						#tag = KAA #Also starting expanding on the islands around 1500... good enough for now
+						#Africa
+						tag = AMK
+						tag = KHE
+						tag = TSA
+						tag = GUI
+						tag = KHI
+						tag = XOO
+						tag = NHO
+						tag = GAN
+						tag = KWE
+						tag = KUN
+						tag = SAN
+						tag = HOA
+						tag = ILN
+						#S.America
+						tag = DIA
+						tag = HUA
+						tag = RNQ
+						tag = QUL
+						tag = TOB
+						tag = WCH
+						tag = YAG
 					}
 				}
-				country_event = { id = destroy_countries_vu }
+				country_event = { id = vu_remove_country.1 }
 			}
 		}
 	}

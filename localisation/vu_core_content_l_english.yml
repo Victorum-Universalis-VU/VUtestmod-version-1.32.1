@@ -166,15 +166,27 @@
  fezzan_arabic:0 "Fezzan"
  khoisan_group:0 "Khoisan"          #Disproven group, but ah well.
  san_culture:0 "San"
- kama_culture:0 "Nama"
- tshu_khwe_culture:0 "Tshu Khwe"
+ kama_culture:0 "Khoekhoe"
+ tshu_khwe_culture:0 "Khwe"
+ tshu_culture:0 "Tshu"
  kwadi_culture:0 "Kwadi"
- juu_culture:0 "Juu"
+ juu_culture:0 "Juu'Hoansi"
+ kung_culture:0 "!Kung"
+ gana_culture:0 "Gana"
+ nharo_culture:0 "Nharo"
+ xoo_culture:0 "!Xoo"
+ khomani_culture:0 "Khomani"
+ gui_culture:0 "Gui"
  tswana_culture:0 "Tswana"
  tsonga_culture:0 "Tsonga"
  ovambo_culture:0 "Ovambo"
  kavango_culture:0 "Kavango"
  afrikaner_culture:0 "Afrikaner"
+ qulla:0 "Qulla"
+ ranquel:0 "Ranquel"
+ toba:0 "Toba"
+ wichi:0 "Wichí"
+ yahgan:0 "Yahgan"
  corsican_culture:0 "Corsican"
  friulian_culture:0 "Friulian"
  ladin_culture:0 "Ladin"
@@ -1627,9 +1639,9 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
 
  #New World
  
- #Misc
- remove_primitive_nations_all_title:0 "Remove primitive nations"
- remove_primitive_nations_all_desc:0 "Removes all primitive nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
+ #Misc additions by Doc Robert
+ remove_primitive_nations_all_title:0 "Remove Primitive Nations"
+ remove_primitive_nations_all_desc:0 "Removes all Primitive Nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
  restore_vanilla_status_title:0 "Restore Vanilla Setup"
  restore_vanilla_status_desc:0 "Resets the map removing nearly all non-vanilla nations. Tags added by the mod will be carved up and integrated to vanilla countries. This drastically reduces amount of nations and units on the map, therefore this decision is meant for those wishing to reduce lag and improve game performance at the cost of accuracy and realism. MAKE SURE YOU ARE NOT PLAYING ONE OF THOSE NATIONS OR WILL TOO DISAPPEAR!"
 

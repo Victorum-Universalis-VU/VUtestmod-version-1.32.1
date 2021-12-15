@@ -18,8 +18,8 @@
  #################################################################################
  BEL:0 "Belgium"
  BEL_ADJ:0 "Belgian"
- DAM:0 "Damiettan"
- DAM_ADJ:0 "Damiettan"
+ DMN:0 "Damiettan"
+ DMN_ADJ:0 "Damiettan"
  #Iberia
  BSP:0 "Spain"
  BSP_ADJ:0 "Spanish"
@@ -55,7 +55,11 @@
  AUE:0 "Austrian_Empire"
  AUE_ADJ:0 "Austrian"
  AHE:0 "Austria_Hungary"
- AHE_ADJ:0 "Austro-Hungarian" 
+ AHE_ADJ:0 "Austro-Hungarian"
+
+ #Addition by KyuQem#
+ NRE:0 "North Sea Empire"
+ NRE_ADJ:0 "North Sea"
  ########################
  # VU - New Governments #
  ########################

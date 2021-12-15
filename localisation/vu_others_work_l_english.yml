@@ -59,8 +59,8 @@
  #TYC_ADJ:0 "Tyrconnell"
  ANR:0 "Antrim"
  ANR_ADJ:0 "Antrim"
- LAG:0 "Laigin"
- LAG_ADJ:0 "Laigin"
+ LGN:0 "Laigin"
+ LGN_ADJ:0 "Laigin"
  #URM:0 "Ormond"         #Defunct, added in 1.25 to vanilla
  #URM_ADJ:0 "Ormond"
  #DSM:0 "Deas Mhumain"         #Defunct, added in 1.25 to vanilla
@@ -105,8 +105,8 @@
  #ILE_ADJ:0 "Albannach"
  BSL:0 "Basel"
  BSL_ADJ:0 "Basler"
- ZND:0 "Sieben Zenden"
- ZND_ADJ:0 "Valaisian"
+ ZDN:0 "Sieben Zenden"
+ ZDN_ADJ:0 "Valaisian"
  MTZ:0 "Metz"
  MTZ_ADJ:0 "Messin"
  VDN:0 "Verdun"
@@ -199,6 +199,50 @@
  SHE_ADJ:0 "Sheki"
  HOY:0 "Hoya"
  HOY_ADJ:0 "Hoyan"
+ 
+ ##############################
+ #VU - Cultures by San Felipe #
+ ##############################
+ kickapoo:0 "Kickapoo"
+ seneca:0 "Seneca"
+ onondaga:0 "Onondaga"
+ cayugan:0 "Cayuga"
+ oneida:0 "Oneida"
+ tuscarora:0 "Tuscarora"
+ nottoway:0 "Nottoway"
+ meherrin:0 "Meherrin"
+ ottawa:0 "Ottawa"
+ petun:0 "Petun"
+ wenro:0 "Wenro"
+ wolof:0 "Wolof"
+ serer:0 "Serer"
+ temne:0 "Temne"
+ susu:0 "Susu"
+ loma_kpelle:0 "Loma-Kpelle"
+ dan:0 "Dan"
+ balante:0 "Balante"
+ kissi:0 "Kissi"
+ gola:0 "Gola"
+ mende:0 "Mende"
+ anyi:0 "Anyi"
+ baule:0 "Baule"
+ bete:0 "Bete"
+ brong:0 "Brong"
+ ngere:0 "Ngere"
+ ouatchi:0 "Ouatchi"
+ kabre:0 "Kabre"
+ adja:0 "Adja"
+ aizo:0 "Aizo"
+ somba:0 "Somba"
+ bargu:0 "Bargu"
+ gurma:0 "Gurma"
+ grunshi:0 "Grunshi"
+ senufo:0 "Senufo"
+ bassa:0 "Bassa"
+ kru:0 "Kru"
+ ewe:0 "Ewe"
+ adangme:0 "Adangme"
+ fanti:0 "Fanti"
 
  ##############################
  #btp_cultures_l_english
@@ -1260,10 +1304,10 @@
  COLONIAL_BUGANDA_Buganda:0 "Buganda"
  COLONIAL_BUGANDA_Buganda_ADJ:0 "Bugandan"
  #
- colonial_rawanda:0 "Colonial Rawanda"
- short_colonial_rawanda:0 "Rawanda"
- COLONIAL_RAWANDA_Rawanda:0 "Rawanda"
- COLONIAL_RAWANDA_Rawanda_ADJ:0 "Rawandan"
+ colonial_rawanda:0 "Colonial Ruanda-Urundi"
+ short_colonial_rawanda:0 "Ruanda-Urundi"
+ COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
+ COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
  #
  colonial_somalia:0 "Colonial Somalia"
  short_colonial_somalia:0 "Somalia"
@@ -1500,9 +1544,9 @@
  # EU4 Vanilla Trade Companies NOT USED #
  ########################################
  #
- #trade_company_korea:0 "Korean Charter"
- #TRADE_COMPANY_KOREA_Root_Culture_GetName:0 "[Root.Culture.GetName] Korean Company"
- #TRADE_COMPANY_KOREA_Asia_Trade_Company:0 "Korean Trade Company"
+ trade_company_korea:0 "Korean Charter"
+ TRADE_COMPANY_KOREA_Root_Culture_GetName:0 "[Root.Culture.GetName] Korean Company"
+ TRADE_COMPANY_KOREA_Asia_Trade_Company:0 "Korean Trade Company"
  #trade_company_dongola_trade:0 "Sudan Charter"
  #TRADE_COMPANY_DONGOLA_Root_Culture_GetName:0 "[Root.Culture.GetName] Sudanese Company"
  #TRADE_COMPANY_DONGOLA_Africa_Trade_Company:0 "Sudanese Trade Company"
@@ -1892,7 +1936,7 @@
  upper_hungary_area:0 "Upper Hungary"
  eastern_alfold_area:0 "East Alföld"
  bohemian_forest_area:0 "Bohemian Forest"
- middle_silesia_area:0 "Middle Silesia"
+ #middle_silesia_area:0 "Middle Silesia"
  lusatia_area:0 "Lusatia"
 
  #Cultures for BT13.0
@@ -1915,7 +1959,62 @@
  desc_waterford_harbour_modifier:0 "One of the largest harbours in the British Isles, Waterford Harbour has played a key role in Irish history. The City was founded by the Vikings who settled and use the harbour as a base for their piracy. Now, the Rivers Nore, Suir and Barrow flow into the harbour, making it key in the defense of Ormond."
  wealth_of_carbery_modifier:0 "Wealth of Carbery"
  desc_wealth_of_carbery_modifier:0 "A wealthy and diverse Barony, Carbery was ruled by the MacCarthy Reagh, close family to the MacCarthy Mor Kings of Desmond. Despite its small size, Carbery was one of the wealthiest principalities in Ireland, and its rulers were reported to have the highest income of all the Gaelic Lords. Its wealth came not from its rocky lands, but from its numerous excellent harbours, and its fertile lands near the city of Cork."
+ kitakami_estuary_modifier:0 "Kitakami Estuary"
+ desc_kitakami_estuary_modifier:0 "Controlling the important river estuary of the Kitakami strengthens our hold of the trade in the region."
  
+ #VU_modifiers for 1.32*
+ heathen_tolerance_modifier:0 "Heathen Tolerance"
+ desc_heathen_tolerance_modifier:0 "Toleration of heathens is not only beneficial to the state in a religious manner but also socially, politically and scientifically since we will provide those cast out with refuge, and a safe haven."
+
+ GE_baltic_sea_trade_1_modifier:0 "Limited Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_1_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in a limited capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ GE_baltic_sea_trade_2_modifier:0 "Moderate Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_2_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in a moderate capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ GE_baltic_sea_trade_3_modifier:0 "Considerable Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_3_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in a considerable capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ GE_baltic_sea_trade_4_modifier:0 "Extensive Baltic Sea Trade"
+ desc_GE_baltic_sea_trade_4_modifier:0 "Despite being damp and cold, the Baltic is an important and vital inland sea which connects the sea-faring nordic and rus nations to the Atlantic. Therefore, controlling it in an extensive capacity will go a long way to help boost our pressence and eventual dominance of the region."
+
+ kingdom_of_god_modifier:0 "Kingdom of Heaven"
+ desc_kingdom_of_god_modifier:0 "Jesus Christ may no longer walk upon us in the physical form, but his servant the Pope who is "Dux Civitatis" does and like all the reigning monarchs of Europe, needs a throne and a kingdom with which to govern. I say, let us create for him an earthly state, one of conscienceness; A Kingdom of Heaven."
+
+ enlightened_modifier:0 "Enlightenment"
+ desc_enlightened_modifier:0 "Success! For true enlightenment has now reached this place."
+ 
+ GE_rural_trade_deal_imports_6:0 "Rural Trade Imports"
+ desc_GE_rural_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our rural areas."
+
+ GE_urban_trade_deal_imports_6:0 "Urban Trade Imports"
+ desc_GE_urban_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our urban areas."
+
+ GE_mining_trade_deal_imports_6:0 "Mineral Trade Imports"
+ desc_GE_mining_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our mining areas."
+
+ GE_plantation_trade_deal_imports_6:0 "Cash Crop Imports"
+ desc_GE_plantation_trade_deal_imports_6_modifier:0 "Let us welcome increased trade imports from our plantation areas."
+ 
+ GE_nations_of_the_republic:0 "Nations of the Republic"
+ desc_GE_nations_of_the_republic_modifier:0 "Tis a wonder to see more and more nations adopt the ideals of the Republic."
+ 
+ GE_Siberian_Tribe:0 "Siberian Tribes"
+ desc_GE_Siberian_Tribe_modifier:0 "Ready yourselves men, for the next moves of these savages will forever determine the fate of all tribes in Siberia."
+
+ GE_Kreditwork:0 "Kreditwork"
+ desc_GE_Kreditwork_modifier:0 "With access to Kreditwork strong, our economy will surely benefit."
+
+ GE_immigrant_settlements:0 "Immigrant Settlements"
+ desc_GE_immigrant_settlements_modifier:0 "Let us welcome these new immigrants to our country by providing them areas where they can settle, raise a family and contribute to our states."
+
+ navalbase_modifier_1:0 "Navalbase"
+ desc_navalbase_modifier_1_modifier:0 "An important and safe port of call for military vessels, as well as providing a local base of operations for projecting naval dominance over an area or region."
+
+ cerro_rico_modifier:0 "Cerro Rico"
+ desc_cerro_rico_modifier_modifier:0 "Known locally as Sumaq Urqu meaning "Beautiful Mountain" in Quechua and Cerro Rico meaning "Rich Mountain" is vast cone-shaped mountain believed by many to be made of silver ore."
+
+
  #################################################################################
  #################################################################################
  #################################################################################
@@ -1956,6 +2055,10 @@
  
  PHI:0 "Philippines"
  PHI_ADJ:0 "Filipino"
+ colonial_guyanas:0 "Colonial Guyanas"
+ short_colonial_guyanas:0 "Guyanas"
+ COLONIAL_GUYANA_Guyanas:0 "Guyanas"
+ COLONIAL_GUYANA_Guyanas_ADJ:0 "Guyanese"              
 
  #################################################################################
  #################################################################################

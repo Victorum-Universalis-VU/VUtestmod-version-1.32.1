@@ -957,8 +957,8 @@ province;red;green;blue;x;x
 956;17;148;126;Lenape;x
 957;145;150;173;Delaware;x
 958;17;152;32;Seneca;x
-959;145;154;79;Cayuga;x
-960;18;156;126;Onondaga;x
+959;145;154;79;Onondaga;x
+960;18;156;126;Cayuga;x
 961;146;158;173;Oneida;x
 962;18;32;32;Unami;x
 963;146;34;79;Mahican;x
@@ -5123,7 +5123,7 @@ province;red;green;blue;x;x
 5122;250;49;49;Tuktut
 5123;250;54;54;Canadian Arctic
 5124;250;59;59;Eastern Canadian Arctic
-5125;250;64;64;Remote Uninhabited Islands
+5125;250;64;64;Prince_Edward_Island
 5126;250;69;69;Vatnajokull
 5127;250;74;74;Nulato Hills
 5128;250;79;79;Sivunga
@@ -5140,14 +5140,14 @@ province;red;green;blue;x;x
 5139;100;200;216;Nicosia
 5140;154;138;131;Pearl Islands
 5141;41;167;140;Guna Yala
-5142;200;100;166;BeyondTypus223
-5143;200;100;241;BeyondTypus224
-5144;200;100;41;BeyondTypus225
+5142;100;200;99;Xaislakala
+5143;116;96;76;Fox_mi
+5144;147;199;167;Muyinga
 5145;200;100;116;Famagusta
 5146;200;100;191;Nigde
 5147;200;100;66;Alanya
 5148;247;205;208;New_Ireland
-5149;200;100;216;Boluii
+5149;153;205;110;Mussau
 5150;100;200;15;Nevsehir
 5151;100;200;90;Bayburt
 5152;100;200;165;Amasia
@@ -5212,10 +5212,10 @@ province;red;green;blue;x;x
 5211;100;200;87;Tadla
 5212;100;200;162;Souss2
 5213;100;200;237;Taza
-5214;100;200;37;Mauretania5
-5215;100;200;112;Mauretania6
-5216;100;200;187;Mauretania7
-5217;100;200;62;Mauretania8
+5214;155;160;176;Merama
+5215;238;215;18;Kalenda
+5216;102;80;223;Huye
+5217;26;239;68;Dullah_Island
 5218;100;200;137;Tarifit
 5219;100;200;212;Alcazarquivir
 5220;200;100;12;Talsint
@@ -5336,8 +5336,8 @@ province;red;green;blue;x;x
 5335;86;151;99;Bourem Forassi
 5336;50;105;96;Yaguas
 5337;35;183;4;Reconquista
-5338;100;200;131;BeyondTypus419
-5339;100;200;206;BeyondTypus420
+5338;218;33;15;Gitega
+5339;140;137;237;Man
 5340;200;100;6;Chainoqua
 5341;200;100;81;Cochoqua
 5342;200;100;156;Gorachoqua
@@ -5427,29 +5427,29 @@ province;red;green;blue;x;x
 5426;200;100;177;Kwadi
 5427;200;100;52;Rundu
 5428;200;100;127;Hamcumqua
-5429;200;100;202;BeyondTypus510
-5430;100;200;1;BeyondTypus511
-5431;100;200;76;BeyondTypus512
-5432;100;200;151;BeyondTypus513
-5433;100;200;226;BeyondTypus514
-5434;100;200;26;BeyondTypus515
-5435;100;200;101;BeyondTypus516
-5436;100;200;176;BeyondTypus517
-5437;100;200;51;BeyondTypus518
-5438;100;200;126;BeyondTypus519
-5439;100;200;201;BeyondTypus520
-5440;200;100;1;BeyondTypus521
-5441;200;100;76;BeyondTypus522
-5442;200;100;151;BeyondTypus523
-5443;200;100;226;BeyondTypus524
-5444;200;100;26;BeyondTypus525
-5445;200;100;101;BeyondTypus526
-5446;200;100;176;BeyondTypus527
-5447;200;100;51;BeyondTypus528
-5448;200;100;126;BeyondTypus529
-5449;200;100;201;BeyondTypus530
-5450;250;89;89;BeyondTypus531
-5451;250;94;94;BeyondTypus532
+5429;74;39;239;Lake_Guiers      
+5430;171;135;146;Ndieben        
+5431;91;106;8;Tivaouane         
+5432;24;79;28;Toubakouta        
+5433;112;220;148;Waigeo
+5434;229;180;154;Matan_Island
+5435;54;165;69;Raja_Ampat_Island
+5436;101;216;65;Biak_Island
+5437;179;48;29;Serui_Island
+5438;251;159;6;Peleng_Island
+5439;144;96;197;Kabaena_Island
+5440;116;112;41;Muna_Island
+5441;176;237;131;Mangoli_Island
+5442;123;6;173;Sulabes_Island
+5443;181;193;49;Babar_Island
+5444;187;141;40;Gerwali_Island
+5445;201;19;70;Moa_Island
+5446;9;164;108;Alor_Island
+5447;248;121;243;Pantar_Island
+5448;232;21;57;Pulau_Lembata
+5449;106;213;123;Sangihe_Island
+5450;2;200;5;Sipura_Island
+5451;222;32;185;Selatan_Island
 5452;50;50;249;Kotzebue Sound
 5453;55;55;249;Central Beaufort Sea
 5454;60;60;249;East Beaufort Sea
@@ -5544,9 +5544,9 @@ province;red;green;blue;x;x
 5543;246;65;65;KuskokwimMountains
 5544;246;70;70;MassifdesEcrins
 5545;246;75;75;Catalan Pyrenees
-5546;246;80;80;BeyondTypus627Wasteland
-5547;246;85;85;BeyondTypus628Wasteland
-5548;246;90;90;BeyondTypus629Wasteland
+5546;231;171;8;Brong
+5547;32;80;168;Lake_Volta
+5548;180;54;22;Al-Jibab
 5549;246;95;95;BeyondTypus630Wasteland
 5550;246;100;100;BeyondTypus631Wasteland
 5551;245;50;50;BeyondTypus632Wasteland
@@ -6036,7 +6036,7 @@ province;red;green;blue;x;x
 6035;2;122;190;Nantucket_Sound
 6036;75;67;219;Lower_St_Lawrence_River
 6037;59;94;142;Upper_St_Lawrence_River
-6038;29;172;238;Passamaquoddy_Bay
+6038;52;58;157;Passamaquoddy_Bay
 6039;132;116;7;Gloucester_va 
 6040;232;173;6;Outer_Banks_nc 
 6041;51;172;254;Lake_Winnipesaukee
@@ -6067,7 +6067,7 @@ province;red;green;blue;x;x
 6066;61;64;194;Laguna_de_Chila
 6067;39;84;236;Lagun_de_La_Tortuga
 6068;169;199;214;Green_Bay
-6069;52;58;157;Passamaquoddy_Bay
+6069;25;231;249;Lake_Mattamuskeet
 6070;30;32;253;Northumberland_Strait
 6071;9;123;175;Georgian_Bay
 6072;152;164;183;Tebourba
@@ -6148,7 +6148,7 @@ province;red;green;blue;x;x
 6147;232;167;145;Arrajan
 6148;41;86;224;Valdivia_River
 6149;110;189;238;Andira_River
-6150;43;198;217;Central_Parana_River
+6150;63;80;133;Lower_Central_Parana_River
 6151;27;28;162;Upper_Central_Parana_River
 6152;51;50;158;Upper_Central_Tapajos_River
 6153;87;132;232;Upper_Japura_River
@@ -7245,7 +7245,7 @@ province;red;green;blue;x;x
 7244;150;150;50;Stepan
 7245;150;150;125;Dubrovytsia
 7246;150;150;200;Vozvyahel
-7247;150;150;75;CutProvinceZhytomyr
+7247;4;187;148;Ngere
 7248;150;150;150;Sosnytsia
 7249;150;150;225;Putyvl
 7250;150;200;25;Boryspil
@@ -7258,12 +7258,12 @@ province;red;green;blue;x;x
 7257;150;200;75;Samaraii
 7258;150;200;150;Chuhuiv
 7259;150;200;225;Korsun
-7260;200;50;25;CutProvinceBialystok
-7261;200;50;100;TempCutProvinceLomzia
+7260;153;151;17;Bete
+7261;224;158;187;Baule
 7262;200;50;175;DrohiczynBielsk
 7263;200;50;250;BialaPodlaskie
 7264;200;50;50;Nur
-7265;200;50;125;TempCutProvinceLukow
+7265;223;55;212;Anyi
 7266;200;50;200;Szczebrzeszyn
 7267;200;50;75;Sanok
 7268;200;50;150;Peremyl
@@ -7320,7 +7320,7 @@ province;red;green;blue;x;x
 7319;198;224;115;Dachau
 7320;179;54;85;Henneberg
 7321;100;113;241;Uruguay_River
-7322;5;130;254;Lower_Central_Parana_River
+7322;5;130;254;Upper_Lower_Parana_River
 7323;98;232;233;Amazon_Delta
 7324;10;108;251;Lower_Amazon_River
 7325;41;124;232;Xingu_River
@@ -7717,8 +7717,8 @@ province;red;green;blue;x;x
 7716;50;100;199;Valjevo
 7717;50;100;74;Uzice
 7718;50;100;149;Belgrade
-7719;50;100;224;CutProvincePrijepolje
-7720;50;150;24;CutProvinceBranicevo
+7719;230;148;100;Kissi
+7720;138;210;10;Gola
 7721;50;150;99;Trebinje
 7722;50;150;174;Hoca
 7723;50;150;249;Duvno
@@ -7740,7 +7740,7 @@ province;red;green;blue;x;x
 7739;50;200;224;Vukovar
 7740;100;50;24;Baksa
 7741;100;50;99;Becej
-7742;100;50;174;CutProvinceZrenjanin
+7742;50;201;57;Tambacounda
 7743;100;50;249;Resita
 7744;100;50;49;Lugoj
 7745;100;50;124;Orsova
@@ -8739,3 +8739,13 @@ province;red;green;blue;x;x
 8738;145;130;77;Jordan Desert;x
 8739;189;211;12;An Nafud;x
 8740;236;191;100;Kibili;x
+8741;91;66;226;Pageu;x
+8742;192;204;16;Araguacema;x
+8743;199;109;151;Jarina;x
+8744;44;204;110;Apiacas;x
+8745;251;37;53;Cururu;x
+8746;206;136;118;Tucuma;x
+8747;70;122;20;Jamari;x
+8748;201;126;5;Maracati;x
+8749;123;224;233;Jatuarana;x
+8750;172;208;242;Uatuma;x

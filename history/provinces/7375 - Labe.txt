@@ -1,8 +1,8 @@
-#Labe
+#7375 - Labe
 
 owner = MAL
 controller = MAL
-culture = fulani
+culture = mali
 is_city = yes
 base_manpower = 6
 religion = shamanism #Fetishism

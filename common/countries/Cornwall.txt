@@ -75,7 +75,6 @@ monarch_names = {
 	"Wella #0" = 0
 	"Yestin #0" = 0
 	"Ythel #0" = 0
-	
 	"Blejan #0" = -1
 	"Elowen #0" = -1
 	"Eseld #0" = -1
@@ -105,20 +104,48 @@ leader_names = {
 }
 
 ship_names = {
-        Arthur
-        Bodmin Bolster Brutus
-        Chough Corineus Cormoran Cornishman
-        Dumnonia
-        Excalibur
-        Falmouth
-        Galahad Gawain Guinevere
-        "Hal-an-Tow" Helston
-        Kernow "King Mark"
-        Lancelot Launceston Lizard Lostwithiel Lyonesse
-        Marazion Mousehole
-        Pendragon Penzance Porthleven
-        Restormel
-        Scillonian "St Ives" "St Michael" "St Petroc" "St Pirin" Stannary
-        Tamar Tintagel Trelawny Truro
-        Whitsand
+    "Arthur"
+    "Bodmin"
+	"Bolster"
+	"Brutus"
+    "Chough"
+	"Corineus"
+	"Cormoran"
+	"Cornishman"
+    "Dumnonia"
+    "Excalibur"
+    "Falmouth"
+    "Galahad"
+	"Gawain"
+	"Guinevere"
+    "Hal-an-Tow"
+	"Helston"
+    "Kernow"
+	"King Mark"
+    "Lancelot"
+	"Launceston"
+	"Lizard"
+	"Lostwithiel"
+	"Lyonesse"
+    "Marazion"
+	"Mousehole"
+    "Pendragon"
+	"Penzance"
+	"Porthleven"
+    "Restormel"
+    "Scillonian"
+	"St Ives"
+	"St Michael"
+	"St Petroc"
+	"St Pirin"
+	"Stannary"
+    "Tamar"
+	"Tintagel"
+	"Trelawny"
+	"Truro"
+    "Whitsand"
+}
+
+army_names = {
+	"Byddin o $PROVINCE$" 
 }

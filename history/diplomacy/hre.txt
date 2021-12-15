@@ -277,14 +277,14 @@ vassal = {
 
 vassal = {
 	first = SWI
-	second = ZND
+	second = ZDN
 	start_date = 1444.1.1
 	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = SWI
-	second = ZND
+	second = ZDN
 	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1529.3.12
 }

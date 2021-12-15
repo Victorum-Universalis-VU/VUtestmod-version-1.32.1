@@ -48,6 +48,9 @@ autocracy_reform = {
 	modifiers = {
 		unjustified_demands = -0.1
 	}
+	custom_attributes = {
+		enables_royal_council = yes
+	}
 	ai = {
 		factor = 0.5 #generic
 	}
@@ -80,7 +83,7 @@ plutocratic_reform = {
 		nobles_influence_modifier = -0.05
 		burghers_influence_modifier = 0.05
 		vaisyas_influence_modifier = 0.05
-		trade_deals_slots = 0.01
+		center_of_trade_upgrade_cost = -0.1
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -477,10 +480,10 @@ english_monarchy = {
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
 		has_parliament = yes
+	}
 
-		custom_attributes = {
-			blocked_call_diet = yes
-		}
+	custom_attributes = {
+		blocked_call_diet = yes
 	}
 }
 
@@ -634,7 +637,7 @@ principality = {
 	modifiers = {
 		global_unrest = -1
 		global_tax_modifier = 0.05
-		governing_capacity = 300 #No change in VU but was 100 GE
+		governing_capacity = 400 #No change in VU but was 100 GE
 	}
 
 	conditional = {
@@ -1125,6 +1128,7 @@ nayankara_reform = {
 			religion = buddhism
 			religion = vajrayana
 			religion = mahayana
+
 		}
 		OR = {
 			culture_group = dravidian
@@ -1408,7 +1412,7 @@ enforce_trader_privileges_reform = {
 	modifiers = {
 		trade_range_modifier = 0.3
 		trade_efficiency = 0.05
-		trade_deals_slots = 0.01   #Added in VU
+		trade_company_investment_cost = -0.1
 	}
 	ai = {
 		factor = 2
@@ -1448,7 +1452,7 @@ bengali_reform = {
 	modifiers = {
 		merchants = 1
 		trade_efficiency = 0.1
-		trade_deals_slots = 0.01
+		caravan_power = 0.2
 	}
 	ai = {
 		factor = 5
@@ -2475,7 +2479,7 @@ irish_clann_reform = { #T1
 	allow_normal_conversion = no
 	potential = {
 		culture_group = gaelic
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 		NOT = { government_rank = 2 }
 		NOT = { has_reform = provincial_kingdom_reform }
 	}
@@ -2501,7 +2505,7 @@ provincial_kingdom_reform = { #T2
 	fixed_rank = 1
 	potential = {
 		culture_group = gaelic
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 		NOT = { has_reform = tanistry_reform }
 	}
 	modifiers = {
@@ -2544,7 +2548,7 @@ norman_lordship_reform = { #T1
 	allow_normal_conversion = no
 	potential = {
 		NOT = { culture_group = gaelic }
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 		NOT = { has_reform = norman_duchy_reform }
 	}
 	lock_level_when_selected = yes
@@ -2553,7 +2557,7 @@ norman_lordship_reform = { #T1
 	nation_designer_cost = 20
 	nation_designer_trigger = {
 		NOT = { culture_group = gaelic }
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 	}
 	fixed_rank = 1
 	modifiers = {
@@ -2572,7 +2576,7 @@ norman_duchy_reform = { #T2
 	fixed_rank = 1
 	potential = {
 		NOT = { culture_group = gaelic }
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 		NOT = { has_reform = anglo_irish_monarchy_reform }
 	}
 	modifiers = {
@@ -2587,7 +2591,7 @@ anglo_irish_monarchy_reform = { #T3
 	icon = "british_queen"
 	allow_normal_conversion = no
 	potential = {
-		capital_scope = { region = ireland_area }
+		capital_scope = { region = ireland_region }
 		has_reform = anglo_irish_monarchy_reform
 	}
 	lock_level_when_selected = yes

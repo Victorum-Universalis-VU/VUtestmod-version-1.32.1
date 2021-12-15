@@ -3,7 +3,7 @@
 culture = ilocano
 religion = animism
 capital = "Ivata"
-trade_goods = sea_turtles
+trade_goods = sea_turtle
 hre = no
 base_tax = 4  
 base_production = 4

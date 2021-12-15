@@ -1,7 +1,8 @@
 government = native
 add_government_reform = native_clan_council_reform
 government_rank = 1
-primary_culture = anishinabe
+primary_culture = ottawa
+add_accepted_culture = anishinabe
 religion = totemism
 technology_group = north_american
 capital = 991

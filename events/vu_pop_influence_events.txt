@@ -1,4 +1,4 @@
-﻿﻿#Events changing the availability of slaves and the influence different demographics have over a country
+#Events changing the availability of slaves and the influence different demographics have over a country
 #Mostly set country flags which then have an effect on buildings
 #Made originally for Victorum Universalis by Lord_Bowser
 ###################################################################################################################################################################################################
@@ -322,9 +322,10 @@ country_event = {
 			modifier = {
 				is_year = 1800
 				factor = 2
-			}
-			has_province_modifier = {
-				enlightenment = 100
+				any_owned_province = {
+                    has_province_modifier = enlightened_modifier
+                    enlightenment = 100
+                }
 			}
 		}
 		add_prestige = 15
@@ -343,11 +344,9 @@ country_event = {
 					}
 				}
 			}
-			immediate = {
-				change_variable = {
-					which = vu_pop_influence_industry_province_counter
-					value = 1
-				}
+			change_variable = {
+				which = vu_pop_influence_industry_province_counter
+				value = 1
 			}
 			random_owned_province = {
 				limit = {
@@ -402,16 +401,11 @@ country_event = {
 		ai_chance = {
 			factor = 10
 			modifier = {
-				factor = 2
-				has_province_modifier = {
-					enlightenment = 100
-				}
-			}
-			modifier = {
 				factor = 5
-				has_province_modifier = {
-					enlightenment = 100
-				}
+				any_owned_province = {
+                    has_province_modifier = enlightened_modifier
+                    enlightenment = 100
+                }
 			}
 			modifier = {
 				factor = 2
@@ -600,9 +594,10 @@ country_event = {
 			modifier = {
 				is_year = 1800
 				factor = 2
-			}
-			has_province_modifier = {
-				enlightenment = 100
+				any_owned_province = {
+                    has_province_modifier = enlightened_modifier
+                    enlightenment = 100
+                }
 			}
 		}
 		add_prestige = 15
@@ -621,11 +616,9 @@ country_event = {
 					}
 				}
 			}
-			immediate = {
-				change_variable = {
-					which = vu_pop_influence_industry_province_counter
-					value = 1
-				}
+			change_variable = {
+				which = vu_pop_influence_industry_province_counter
+				value = 1
 			}
 			random_owned_province = {
 				limit = {
@@ -751,12 +744,13 @@ country_event = {
 			}
 		}
 		trigger = {
-			OR = {
-				has_province_modifier = {
-					enlightenment = 100
-				}
-				has_global_flag = abolitionism_happened
-			}
+		    OR = {
+                any_owned_province = {
+                    has_province_modifier = enlightened_modifier
+                    enlightenment = 100
+                }
+                has_global_flag = abolitionism_happened
+            }
 		}
 		add_stability = 1
 		add_prestige = 20

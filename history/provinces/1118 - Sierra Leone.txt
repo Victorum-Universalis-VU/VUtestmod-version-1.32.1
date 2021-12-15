@@ -1,6 +1,6 @@
 #1118 - Sierra Leone
 
-culture = dyola
+culture = temne
 religion = shamanism #Fetishism
 capital = "Sherbro"
 trade_goods = unknown

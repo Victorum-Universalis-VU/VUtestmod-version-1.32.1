@@ -737,7 +737,7 @@ guiTypes = {
 					{
 						name ="continue_game_shield"
 						spriteType = "standarddialogshield"
-						position = { x= -34 y = -26 }
+						position = { x= -40 y = -17 }
 					}
 
 					instantTextBoxType = {
@@ -745,8 +745,8 @@ guiTypes = {
 						position = { x = 50 y = 7 }
 						font = "vic_22"
 						format = left
-						maxWidth = 260
-						maxHeight = 45
+						maxWidth = 400
+						maxHeight = 100
 						fixedsize = yes
 						alwaystransparent = yes
 					}
@@ -1642,7 +1642,8 @@ guiTypes = {
 						maxHeight = 10
 						text = "GAMESETUP_SHOW_UNSAFE"
 						orientation = "UPPER_LEFT"
-						format = left
+						fixedsize = yes
+						vertical_alignment = centre
 					}
 
 					checkboxType = {
@@ -2860,6 +2861,13 @@ guiTypes = {
 			position = { x=180 y =0}
 		}
 
+		iconType =
+		{
+			name ="is_primary_local"
+			spriteType = "GFX_coop_player"
+			position = { x= 20 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
 		instantTextBoxType = {
 			name = "save_progress"
 			position = { x = 20 y =15 }
@@ -3016,6 +3024,13 @@ guiTypes = {
 			truncate = yes
 		}
 
+		iconType =
+		{
+			name ="is_primary_local"
+			spriteType = "GFX_coop_player"
+			position = { x= 20 y = 15 }
+			Orientation = "UPPER_LEFT"
+		}
 		instantTextBoxType = {
 			name = "save_progress"
 			position = { x = 20 y =15 }

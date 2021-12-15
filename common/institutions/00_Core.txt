@@ -46,12 +46,13 @@
 #######################################
 
 feudalism = {
-	penalty = 0.5
+	#penalty = 0.5
 	bonus = {
+		diplomatic_upkeep = 1																											 
 		free_leader_pool = 1
 	}
 
-	trade_company_efficiency = 0.2
+	#trade_company_efficiency = 0.2 # BT removed
 
 
 	history = {
@@ -77,40 +78,45 @@ feudalism = {
 					}
 				}
 			}
-			culture = persian
-			culture = azerbaijani
-			culture = kurdish
-			culture = armenian
-			culture = mazandarani
-			culture = turkish
-			culture = omani_culture
-			culture = yemeni_culture
-			culture = swahili
-			area = ningguta_area
-			area = jilin_area
-			culture_group = byzantine
-			culture_group = dravidian
-			culture_group = east_asian
-			culture_group = east_slavic
-			culture_group = eastern_aryan
-			culture_group = japanese_g
-			culture_group = korean_g
-			culture_group = scandinavian
-			culture_group = west_slavic
-			culture_group = western_aryan
-			province_id = 383
-			province_id = 412
-			province_id = 2327
-			province_id = 2329
-			province_id = 2331
-			province_id = 2999
+		    AND = {
+				owner = { is_playing_custom_nation = no }
+				OR = {
+			        culture = persian
+			        culture = azerbaijani
+			        culture = kurdish
+			        culture = armenian
+			        culture = mazandarani
+			        culture = turkish
+			        culture = omani_culture
+			        culture = yemeni_culture
+			        culture = swahili
+			        area = ningguta_area
+			        area = jilin_area
+			        culture_group = byzantine
+			        culture_group = dravidian
+			        culture_group = east_asian
+			        culture_group = east_slavic
+			        culture_group = eastern_aryan
+			        culture_group = japanese_g
+			        culture_group = korean_g
+			        culture_group = scandinavian
+			        culture_group = west_slavic
+			        culture_group = western_aryan
+			        province_id = 383
+			        province_id = 412
+			        province_id = 2327
+			        province_id = 2329
+			        province_id = 2331
+			        province_id = 2999
+				}
+			}
 			AND = {
 				region = horn_of_africa_region
 				owner = { NOT = { has_reform = tribal_federation } }
 			}
 			AND = {
 				culture = al_misr_arabic
-				#NOT = { area = libyan_desert_area }
+				#NOT = { area = libyan_desert_area }  # BT; al_wahat_area
 				NOT = { area = cyrenaica_area }
 			}
 			AND = {
@@ -639,6 +645,10 @@ feudalism = {
 						estate = estate_nobles
 						loyalty = 40
 					}
+					estate_territory = {
+						estate = estate_nobles
+						territory = 30
+					}
 				}
 			}
 		}
@@ -664,7 +674,7 @@ feudalism = {
 			}
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.05
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
@@ -703,13 +713,13 @@ feudalism = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = {
-					has_institution = feudalism
-				}
+
+				owner = { has_institution = feudalism }
+                is_in_capital_area = no
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_feudalism_embraced
-				is_owned_by_trade_company = no
+				
 				owner = { has_institution = feudalism }
 				is_in_capital_area = no
 			}
@@ -772,14 +782,14 @@ feudalism = {
 #######################################
 
 renaissance = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		technology_cost = -0.05			#BTAddOn changed from development cost, which is now moved to manufacturing, because I say so =p I like the early tech boost to Europe here and also think tech fits better historically/logically than dev, which should be more an industrialisation thing.
 		build_cost = -0.05
 	}
 
-	trade_company_efficiency = 0.4
+	#trade_company_efficiency = 0.4 # BT removed
 
 
 	historical_start_date = 1450.1.1
@@ -823,7 +833,7 @@ renaissance = {
 				is_year = 1465
 				OR = {
 					region = scandinavia_region
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 					region = baltic_region
 					region = poland_region
 				}
@@ -876,12 +886,6 @@ renaissance = {
 					owner = { technology_group = chinese }
 				}
 			}	#BTMiscAddonChange - Slows spread slightly for later start dates
-
-			AND = {
-				is_year = 1600
-				continent = asia
-				owner = { NOT = { government = tribal }	}
-			}
 
 			AND = {
 				is_year = 1600
@@ -1753,14 +1757,14 @@ renaissance = {
 # Colonising is good.. mkay.-.
 #######################################
 new_world_i = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		trade_steering = 0.1		#BTAddOn changed from provincial trade power bonus (0.1), For no real reason in particular, other than I didn't really like the former boost and fewer variables to provincial trade power helps me theorise AI triggers better.
 		global_colonial_growth = 10			#BTAddOn new, just a fun little bonus because the UI can fit 2 bonuses per institution... also with all the new provinces we can use some more colonial growth
 	}
 
-	trade_company_efficiency = 0.6
+	#trade_company_efficiency = 0.6 # BT removed
 
 
 	historical_start_date = 1500.1.1
@@ -1768,7 +1772,6 @@ new_world_i = {
 
 	history = {
 	    OR = {
-
 			AND = {
 				is_year = 1500
 				OR = {
@@ -1839,7 +1842,7 @@ new_world_i = {
 			AND = {
 				is_year = 1525
 				OR = {
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 					region = poland_region
 					region = ruthenia_region
 					region = carpathia_region
@@ -1862,9 +1865,9 @@ new_world_i = {
 				OR = {
 					AND = {
 						continent = europe
-						owner = {
-							NOT = { technology_group = nomad_group }
-						}
+
+						NOT = { technology_group = nomad_group }
+
 					}
 					owner = { technology_group = ottoman }
 				}
@@ -2516,11 +2519,9 @@ new_world_i = {
 				has_port = yes
 				province_trade_power = 10
 				owner = {
-				num_of_colonies = 1
-				any_subject_country = {
-					is_colonial_nation = yes
+				    colony = 1
 					#BTAddOn removed a bunch of uneccessary detail here, the one line above accomplishes it all.
-					}
+
 				}
 			}
 		}
@@ -2589,7 +2590,6 @@ new_world_i = {
 						north_america = { has_discovered = PREV }
 						south_america = { has_discovered = PREV }
 						new_world = { has_discovered = PREV }
-						has_idea = quest_for_the_new_world
 					}
 				}
 				province_trade_power = 10
@@ -2737,14 +2737,14 @@ new_world_i = {
 # Printing Press
 #######################################
 printing_press = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		stability_cost_modifier = -0.05			#BTAddOn notes - This is a bit of a strange choice for an institution, and very hard to pick bonuses for... Much of the results of this actually destabalised Europe, at least in the short term, so I don't actually like this bonus, but I can't think of a better one, much less two
 		global_missionary_strength = 0.01			#BTAddOn new - Had a hard time choosing a suitable second bonus here... going with missionary strength to follow the whole religious theme. Note base missionary power is reduced in static modifiers, so this just brings it back to vanilla levels.
 	}
 
-	trade_company_efficiency = 0.8
+	#trade_company_efficiency = 0.8 # BT removed
 
 	historical_start_date = 1550.1.1
 	historical_start_province = 1876 #Frankfurt
@@ -2818,7 +2818,7 @@ printing_press = {
 					region = british_isles_region
 					region = iberia_region
 					region = scandinavia_region
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 					region = baltic_region
 					region = poland_region
 				}
@@ -2839,7 +2839,7 @@ printing_press = {
 					region = british_isles_region
 					region = iberia_region
 					region = scandinavia_region
-					region = ireland_area
+					region = ireland_region
 					region = baltic_region
 					region = poland_region
 					region = carpathia_region
@@ -3425,6 +3425,10 @@ printing_press = {
 						estate = estate_church
 						loyalty = 40
 					}
+					estate_territory = {
+						estate = estate_church
+						territory = 30
+					}
 				}
 			}
 		}			#BTAddOn Note. I don't get it... why does clergy estate boost printing. Something to do with printing the Bible, maybe. Seems a bit thin... and Christian specific as well, maybe even Protestant specific. Anyhow, leaving it until I figure out what it is about, plus it still requires normal spread, so no harm
@@ -3638,7 +3642,7 @@ printing_press = {
 # Global Trade
 #######################################
 global_trade = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		merchants = 1
@@ -3705,7 +3709,7 @@ global_trade = {
 					region = south_german_region
 					region = scandinavia_region
 					region = italy_region
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 				}	#BTMiscAddonChange - Slows spread slightly for later start dates
 			}
 			AND = {
@@ -4441,7 +4445,7 @@ global_trade = {
 		##########################################################################################################################################################################################################################################################
 		#BTAddOn Note - removing trade power factors for global trade spread entirely. They are messy, complicated, don't encourage proper spread, and are redundant as most major factors in tp (CoT/buildings) also spread global trade themselves, estuaries lose out, but oh well. Leaving this here in case I reconsider.
 		##########################################################################################################################################################################################################################################################
-		#modifier = {
+
 		#	factor = 0.01 #Not scaled			#BTAddOn changed from 0.4. It is scaled now.
 		#	scale = yes
 		#	force_potential = yes	# Hide the this modifier when potential is false
@@ -4573,6 +4577,10 @@ global_trade = {
 					estate_loyalty = {
 						estate = estate_burghers
 						loyalty = 40
+					}
+					estate_territory = {
+						estate = estate_burghers
+						territory = 30
 					}
 				}
 			}
@@ -4723,14 +4731,14 @@ global_trade = {
 # Manufactories
 #######################################
 manufactories = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		development_cost = -0.05			#BTAddOn new - actually moved from the renaissance. I like it better here, at the dawn of the industrial age, rather than way back when people were trying to return to Classical thought, which I think is better represented by a tech cost reduction.
 		global_trade_goods_size_modifier = 0.1
 	}
 
-	trade_company_efficiency = 1.25
+	#trade_company_efficiency = 0.2 # BT; 1.25
 
 	historical_start_date = 1650.1.1
 	historical_start_province = 236 #London			#BTAddOn changed. Switching Enlightenment to Paris and Manufacturing to London, instead of the inverse like in vanilla
@@ -4970,6 +4978,7 @@ manufactories = {
 				has_building = plantations
 				has_building = tradecompany
 				has_building = mills
+				has_building = steam_engine_factory
 			}
 		}
 		hidden_trigger = {
@@ -5480,6 +5489,7 @@ manufactories = {
 					has_building = plantations
 					has_building = tradecompany
 					has_building = mills
+					has_building = steam_engine_factory
 				}
 				printing_press = 100
 				NOT = { global_trade = 100 }
@@ -5502,6 +5512,7 @@ manufactories = {
 					has_building = plantations
 					has_building = tradecompany
 					has_building = mills
+					has_building = steam_engine_factory
 				}
 				global_trade = 100
 				owner = { has_institution = global_trade }
@@ -5704,7 +5715,7 @@ manufactories = {
 # Enlightenment
 #######################################
 enlightenment = {
-	penalty = 0.5
+	#penalty = 0.5
 
 	bonus = {
 		num_accepted_cultures = 2			#BTAddOn change from culture conversion cost -25 percent. The Enlightenment wasn't about more effective methods of assimilation, it was about bringing enlightenment to the world (okay, maybe a little bit about assimilation, but not enough for a bonus here). Plus, cheaper culture conversion was wiping out too many small cultures too quickly.
@@ -5777,11 +5788,11 @@ enlightenment = {
 		OR = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_bt_add_new_instituiton_details_k
-				owner = { advisor = natural_scientist }
+				owner = { has_advisor = natural_scientist }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_bt_add_new_instituiton_details_l
-				owner = { advisor = philosopher }
+				owner = { has_advisor = philosopher }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_bt_add_new_instituiton_details_m
@@ -6646,7 +6657,7 @@ enlightenment = {
 # Industrialisation
 #######################################
 industrialization = { #Unmodified, pending Draiocht rebalance.
-	penalty = 0.5
+	#penalty = 0.5
 
 	trade_company_efficiency = 2.0
 
@@ -6714,6 +6725,7 @@ industrialization = { #Unmodified, pending Draiocht rebalance.
 			OR = {
 				has_building = weapons
 				has_building = textile
+				has_building = steam_engine_factory
 			}
 			owner = {
 				OR = {
@@ -6941,6 +6953,28 @@ industrialization = { #Unmodified, pending Draiocht rebalance.
 			scale = yes
 			potential = {
 				OR = {
+					trade_goods = coal
+					trade_goods = copper
+					trade_goods = iron
+					trade_goods = lead
+					trade_goods = mercury
+					trade_goods = tin
+					trade_goods = zinc
+				}
+				industrialization_origin = {
+					same_continent = PREV
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_steam_engine_factory_on_institution_continent_industrialization
+				has_building = steam_engine_factory
+			}
+		}
+		modifier = {
+			factor = 0.3
+			scale = yes
+			potential = {
+				OR = {
 					trade_goods = wool
 					trade_goods = cloth
 					trade_goods = silk
@@ -7066,6 +7100,28 @@ industrialization = { #Unmodified, pending Draiocht rebalance.
 			custom_trigger_tooltip = {
 				tooltip = tooltip_weapons_not_institution_continent_industrialization
 				has_building = weapons
+				industrialization_origin = {
+					NOT = { same_continent = PREV }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.15
+			scale = yes
+			potential = {
+				OR = {
+					trade_goods = coal
+					trade_goods = copper
+					trade_goods = iron
+					trade_goods = lead
+					trade_goods = mercury
+					trade_goods = tin
+					trade_goods = zinc
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_steam_engine_factory_not_institution_continent_industrialization
+				has_building = steam_engine_factory
 				industrialization_origin = {
 					NOT = { same_continent = PREV }
 				}

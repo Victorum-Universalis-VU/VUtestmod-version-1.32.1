@@ -40,7 +40,7 @@ europe_superregion = {
     british_isles_region
 	france_region
 	iberia_region
-	ireland_area
+	ireland_region
 	italy_region
 	low_countries_region
 	north_german_region
@@ -102,7 +102,11 @@ southern_africa_superregion = { #New in vanilla, deprecated in BT because I don'
 }
 
 south_america_superregion = {
+	amazon_region
 	brazil_region
+	mato_grosso_region
+	bahia_region
+	rio_grande_do_sul_region
 	la_plata_region
 	colombia_region
 	peru_region
@@ -209,8 +213,11 @@ java_sea_superregion = { #New VU
 	java_sea_region
 }
 
-chinese_coast_superregion = { #New VU
+east_chinese_coast_superregion = { #New VU
 	chinese_coast_region
+}
+
+south_chinese_coast_superregion = { #New VU
 	south_china_sea_region
 }
 

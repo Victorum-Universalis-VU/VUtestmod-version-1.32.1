@@ -94,9 +94,19 @@ leader_names = {
 }
 
 ship_names = {
-	Ballycastle
-	Burke
-	Castlebar
-	Mayo
-	Westport
+	"Ballycastle"
+	"Burke"
+	"Castlebar"
+	"Mayo"
+	"Westport"
+	"Clare"
+	"Cork"
+	"Deas Mhuman" 
+	"Kerry" 
+	"Lar Mumhan" 
+	"Limerick"
+	"Tipperary" 
+	"Tuad Mhuman"
+	"Urh Mumhan"  
+	"Waterford"
 }

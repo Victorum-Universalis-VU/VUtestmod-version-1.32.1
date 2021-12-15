@@ -69,3 +69,15 @@ sco_chooses_freedom = {
 	years = 25
 	yearly_decay = 1
 }
+
+great_britain_helped_belgians = {
+	opinion = 50
+	years = 25
+	yearly_decay = 1
+}
+
+great_britain_sided_against_belgians = {
+	opinion = 50
+	years = 25
+	yearly_decay = 1
+}
