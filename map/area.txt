@@ -46,7 +46,7 @@ norwegian_sea_area = {
 
 white_sea_area = {
     color = { 222 192 224 }
-	1263 1264 1652 5484 5485 5486 8371 8372 8373 8374 8375 8376 8387 8388 8389 8390 8391
+	1263 1264 1652 1888 5484 5485 5486 8371 8372 8373 8374 8375 8376 8387 8388 8389 8390 8391
 }
 
 red_sea_area = {
@@ -305,7 +305,7 @@ sargasso_sea_area = { #Mid-Atlantic Ridge
 #Listed by themselves in order to be easier to remove if needed.
 
 #central_asian_lakes_area = {
-#	1327 1653 1654 1888 3287 3288 3289 8377 8378
+#	1327 1653 1654 3287 3288 3289 8377 8378
 #}
 
 #chinese_lakes_area = {

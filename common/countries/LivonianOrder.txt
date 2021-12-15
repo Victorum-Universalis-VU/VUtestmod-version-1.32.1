@@ -2,7 +2,11 @@
 
 graphical_culture = westerngfx
 
-color = { 43  69  147 }
+#New Colour
+color = { 79  85  131 }
+
+#Old colour
+#color = { 43  69  147 }
 
 revolutionary_colors = { 5  9  0 } #Livonian Governate
 
