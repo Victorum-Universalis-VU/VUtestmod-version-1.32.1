@@ -4326,6 +4326,21 @@ andean_group = {
 			Axomamma Cavillaca Kantuta Nina Ana Maiara
 		}
 	}
+	qulla = {
+	    primary = QUL
+	    dynasty_names = {
+			Caca Capayan Hualfin Paccioca Pular Quilme Aconquijas Anguinahao Tocpo Omaguaca
+		}
+		male_names = {
+			Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
+			Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
+			Pelantaro
+		}
+		female_names = {
+			Suyai Yaima Collipal Curipan Cuyen Calfuray Cayfutray Ilchahueque Ipi Kuyen Lefitray Leflay Llanquipan 
+			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
+		}
+	}
 	chimuan = {
 		primary = CHM
 		dynasty_names = {
@@ -4492,15 +4507,61 @@ mataco = {	#Matacoan
 		female_names = {
 			Kantuta Nina Ana Maiara
 		}
-		dynasty_names = {
-			Atlatl
+	}
+	toba = {
+	    primary = TOB
+		male_names = {
+			Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
+			Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
+			Pelantaro
 		}
+		female_names = {
+			Suyai Yaima Collipal Curipan Cuyen Calfuray Cayfutray Ilchahueque Ipi Kuyen Lefitray Leflay Llanquipan 
+			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
+		}
+	}
+	wichi = {
+	    primary = WCH
+		male_names = {
+			Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
+			Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
+			Pelantaro
+		}
+		female_names = {
+			Suyai Yaima Collipal Curipan Cuyen Calfuray Cayfutray Ilchahueque Ipi Kuyen Lefitray Leflay Llanquipan 
+			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
+		}
+	}
+	dynasty_names = {
+		Atlatl Pichiñán Colipí Abajino Araucanía Choll-Choll Lonko Picunche Promaucae Toqui Nguluche Huilliche Lafquenche
 	}
 }
 
 araucanian = {
 	graphical_culture = northamericagfx
-
+	
+	het = {
+		male_names = {
+			Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
+			Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
+			Pelantaro
+		}
+		female_names = {
+			Suyai Yaima Collipal Curipan Cuyen Calfuray Cayfutray Ilchahueque Ipi Kuyen Lefitray Leflay Llanquipan 
+			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
+		}
+	}
+	huarpe = {
+		male_names = {
+			Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
+			Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
+			Pelantaro
+		}
+		female_names = {
+			Suyai Yaima Collipal Curipan Cuyen Calfuray Cayfutray Ilchahueque Ipi Kuyen Lefitray Leflay Llanquipan 
+			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
+		}
+	}
 	mapuche = {
 		primary = MPC
 		male_names = {
@@ -4524,7 +4585,7 @@ araucanian = {
 			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
 		}
 	}
-	het = {
+	ranquel = {
 		male_names = {
 			Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
 			Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
@@ -4535,7 +4596,7 @@ araucanian = {
 			Llanquiray Manque Millaray Peyeche Piro Pitrel Quetroman Quimey Quintruy Quintuqueo Rayen Saqui Somoche
 		}
 	}
-	huarpe = {
+	yahgan = {
 		male_names = {
 			Ancamilla Nampai Coñoepán Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
 			Aillavilu Catrileo Ñanco Melín Caupolicán Illangulién Pinolevi Purrán Mañil Quilapán 
@@ -4547,7 +4608,7 @@ araucanian = {
 		}
 	}
 	dynasty_names = {
-		Pichiñán Colipí Abajino Araucanía Choll-Choll  Lonko Picunche Promaucae Toqui Nguluche Huilliche Lafquenche
+		Pichiñán Colipí Abajino Araucanía Choll-Choll Lonko Picunche Promaucae Toqui Nguluche Huilliche Lafquenche
 	}
 }
 
@@ -12107,19 +12168,46 @@ khoisan_group = {			#Disproven group, but ah well. It is a grand mess, and this 
 		#primary = XXX
 	}
 	san_culture = {
-		#primary = XXX
+		#primary = SAN
 	}
-	kama_culture = {
-		#primary = XXX
+	kama_culture = { #Khoekhoe
+		#primary = KHE
 	}
-	tshu_khwe_culture = {
-		#primary = XXX
+	tshu_khwe_culture = { #Khwe
+		#primary = KWE
+	}
+	tshu_culture = { #Tshu
+		#primary = TSA
 	}
 	kwadi_culture = {
 		#primary = XXX
 	}
-	juu_culture = {
-		#primary = XXX
+	juu_culture = { #Juu'Hoansi
+		#primary = HOA
+	}
+	gana_culture = { #Gana
+		#primary = GAN
+	}
+	nharo_culture = { #Nharo
+		#primary = NHO
+	}
+	xoo_culture = { #!Xoo
+		#primary = XOO
+	}
+	khomani_culture = { #Khomani
+		#primary = KHI
+	}
+	gui_culture = { #Gui
+		#primary = GUI
+	}
+	kung_culture = { #!Kung
+		#primary = KUN
+	}
+	amkoe_culture = { #Amkoe
+		#primary = AMK
+	}
+	ilani_culture = { #Ilani
+		#primary = ILN
 	}
 	dynasty_names = {
 		Herero Namaqua

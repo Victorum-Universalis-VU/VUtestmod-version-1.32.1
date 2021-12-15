@@ -1,6 +1,6 @@
 #6655 - Damara
 
-culture = kwadi_culture
+culture = kama_culture
 religion = shamanism 
 capital = "Damara" 
 trade_goods = unknown

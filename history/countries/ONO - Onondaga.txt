@@ -9,7 +9,7 @@ primary_culture = onondaga
 add_accepted_culture = iroquois
 religion = totemism
 technology_group = north_american
-capital = 959
+capital = 960
 
 federation = { 
 	name = "iroquois_federation_name" 

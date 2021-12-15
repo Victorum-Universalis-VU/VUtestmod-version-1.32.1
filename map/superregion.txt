@@ -102,7 +102,11 @@ southern_africa_superregion = { #New in vanilla, deprecated in BT because I don'
 }
 
 south_america_superregion = {
+	amazon_region
 	brazil_region
+	mato_grosso_region
+	bahia_region
+	rio_grande_do_sul_region
 	la_plata_region
 	colombia_region
 	peru_region

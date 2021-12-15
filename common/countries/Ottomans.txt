@@ -2,7 +2,10 @@
 
 graphical_culture = muslimgfx
 
-color = { 128  0  0 }
+#New Green Colour
+color = { 133  187  101 }
+#Old Red Colour
+#color = { 128  0  0 }
 
 revolutionary_colors = { 5  9  5 } #Ottoman Civil Ensign
 

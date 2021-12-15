@@ -1263,26 +1263,10 @@ north_china_region = {
 brazil_region = {
 
 	areas = {
-		rio_grande_do_sol_area
+		espirito_santo_area
 		minas_gerais_area
-		goias_area
-		mato_grosso_area
-		sao_paolo_area
 		rio_de_janeiro_area
-		bahia_area
-		pernambuco_area
-		sao_francisco_area
-		maranhao_area
-		grao_para_area
-		amazon_area
-		diamantina_area
-		pontal_area
-		ofaie_area
-		piaui_area
-		amapa_area
-		guapore_area
-		ceara_area
-		west_sao_paolo_area
+		sao_paolo_area
 	}
 	monsoon = {
 		00.12.01
@@ -1291,6 +1275,42 @@ brazil_region = {
 	monsoon = {
 		00.01.01
 		00.04.30
+	}
+}
+
+amazon_region = {
+	areas = {
+		amazon_area
+		grao_para_area
+	}
+}
+
+mato_grosso_region = {
+	areas = {
+		goias_area
+		mato_grosso_area
+	}
+}
+
+bahia_region = {
+	areas = {
+		alagoas_area
+		bahia_area
+		ceara_area
+		maranhao_area
+		paraiba_area
+		pernambuco_area
+		piaui_area
+		rio_grande_do_norte_area
+		sergipe_area
+	}
+}
+
+rio_grande_do_sul_region = {
+	areas = {
+		rio_grande_do_sol_area
+		santa_catarina_area
+		west_sao_paolo_area
 	}
 }
 

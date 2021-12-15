@@ -160,7 +160,9 @@
  PROV665:0 "Kongmoon" #Formerly Shiuhing
  PROV695:0 "Tientsin" #Formerly Shiuhing
  PROV738:0 "Siraya"
+ PROV748:0 "Mairi" #Formerly Belém
  PROV756:0 "Kirimurê"          #Credit to Arga
+ PROV761:0 "Caparaó" #Formerly Espirito Santo 
  PROV763:0 "Goanã-pará"          #Credit to Arga
  PROV766:0 "Piratininga"          #Credit to Arga
  PROV767:0 "Lyck"
@@ -193,8 +195,8 @@
  PROV909:0 "Numakaki"
  PROV910:0 "Tsétsêhéstâhese"            #Ojibwe name Onigamiinsing (Duluth)
  PROV953:0 "Moyaons"
- PROV959:0 "Onondaga"
- PROV960:0 "Cayuga"
+ PROV959:0 "Cayuga"
+ PROV960:0 "Onondaga"
  PROV971:0 "Penawapskewi"
  PROV972:0 "Mowichat"
  PROV973:0 "S'ólh Téméxw"
@@ -580,7 +582,9 @@
  PROV2864:0 "Kakamas"
  PROV2880:0 "Griquatown"          #ERROR - Griquatown, naming being problematic.
  PROV2887:0 "Meiembipe"         #Credit to Arga   Carijó name, which is a subdivision of Tupi not represented ingame living here
+ PROV2889:0 "Cantá" #Formerly Rio Branco
  PROV2930:0 "Tupaiús"         #Credit to Arga
+ PROV2933:0 "Anauá" #Formerly Barcelos
  PROV2934:0 "Manaós"         #Credit to Arga   name of tribe chiefdom
  PROV2994:0 "Wolgast"
  #PROV2954:0 "Djerba"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla

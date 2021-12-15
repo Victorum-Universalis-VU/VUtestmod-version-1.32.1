@@ -1,6 +1,6 @@
-# No previous file for Beyond Typus province
+#5409 - Kgalagadi
 
-culture = san_culture
+culture = khomani_culture
 religion = shamanism 
 capital = "Kgalagadi" 
 trade_goods = unknown

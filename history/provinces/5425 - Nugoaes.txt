@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+#5425 - Nugoaes
 
 culture = kama_culture
 religion = shamanism 

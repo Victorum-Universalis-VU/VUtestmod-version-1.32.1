@@ -3194,3 +3194,39 @@ colonial_jamaica = {
 		name = "COLONIAL_JAMAICA_Jamaica"
 	}
 }
+# Guyanas
+colonial_guyanas = {
+	color = { 0 160 192 }
+
+	# Random New World
+	tax_income = 3
+	native_size = 12
+	native_ferocity = 1
+	native_hostileness = 2
+	
+	trade_goods = {
+		fur = 3
+		cocoa = 7
+		gold = 3
+		grain = 4
+		naval_supplies = 1
+	}
+
+	culture = {
+		guajiro = 15
+		inca = 6
+	}
+	
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		743 744 745 746 2931 2937
+	}
+	
+	# Generic
+	names = {
+		name = "COLONIAL_GUYANAS_Guyanas"
+	}
+}
