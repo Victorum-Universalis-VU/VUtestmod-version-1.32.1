@@ -1484,6 +1484,11 @@
  COLONIAL_JAMAICA_Jamaica:0 "Jamaica"
  COLONIAL_JAMAICA_Jamaica_ADJ:0 "Jamaican"
  #
+ colonial_great_lakes:0 "Colonial Great Lakes"
+ short_colonial_great_lakes:0 "Great Lakes"
+ COLONIAL_GREAT_LAKES_Great_Lakes:0 "Great Lakes"
+ COLONIAL_GREAT_LAKES_Great_Lakes_ADJ:0 "Great Lakean
+ #
  #TRADE COMPANIES
  trade_company_porto_trade:0 "Commissariat of Portugal"
  TRADE_COMPANY_PORTO_Root_Culture_GetName:0 "[Root.Culture.GetName] Portuguese Commissariat"

@@ -1,5 +1,4 @@
-# No previous file for Pepikokia
-
+#4922 - Pepikokia
 
 culture = miami
 religion = totemism
