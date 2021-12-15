@@ -4906,6 +4906,10 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_le_havre"
         texturefile = "gfx/interface/le_havre.dds"
     }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_potosi"
+        texturefile = "gfx/interface/potosi.dds"
+    }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_amiens"
         texturefile = "gfx/interface/amiens.dds"

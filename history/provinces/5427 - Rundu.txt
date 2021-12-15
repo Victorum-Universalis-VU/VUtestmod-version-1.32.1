@@ -1,6 +1,6 @@
-# No previous file for Beyond Typus province
+#5427 - Rundu
 
-culture = juu_culture
+culture = kung_culture
 religion = shamanism 
 capital = "Rundu" 
 trade_goods = unknown

@@ -1,6 +1,6 @@
-# No previous file for Beyond Typus province
+#5387 - Naminus
 
-culture = san_culture
+culture = kama_culture
 religion = shamanism 
 capital = "'Nami'Nüs" 
 trade_goods = unknown

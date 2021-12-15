@@ -9,7 +9,7 @@ technology_group = central_african
 unlock_cult = mwari_cult
 unlock_cult = central_african_ancestor_cult
 unlock_cult = cwezi_cult
-capital = 2880
+capital = 5420
 
 1444.11.11 = {
 	monarch = {

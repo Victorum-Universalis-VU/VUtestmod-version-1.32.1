@@ -16359,7 +16359,7 @@ suntemple_of_konarak = {
 
 statue_of_liberty = {
 	# province it starts in
-	start = 2639
+	start = 965
 	
 	# date built in real life 
 	date = 1444.01.01 

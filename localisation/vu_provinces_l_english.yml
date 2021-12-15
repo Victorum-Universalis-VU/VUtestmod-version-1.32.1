@@ -3323,40 +3323,40 @@
  PROV6090:0 "Humaita"
  PROV6091:0 "Tapauá"
  PROV6092:0 "Beruri"
- PROV6093:0 "Cuianã ou Cuiu-anã"
- PROV6094:0 "São Sebastião"
+ PROV6093:0 "Cuianã"
+ PROV6094:0 "Mamiá" #Formerly São Sebastião
  PROV6095:0 "Tefé"
- PROV6096:0 "Fonte Boa"
+ PROV6096:0 "Tamaniquá" #Formerly Fonte Boa
  PROV6097:0 "Amaturá"
- PROV6098:0 "Belém do Solimões"
- PROV6099:0 "Santo Antônio do Içá"
+ PROV6098:0 "Tabatinga" #Formerly Belém do Solimões
+ PROV6099:0 "Maquapanim" #Formerly Santo Antônio do Içá
  PROV6100:0 "Japurá"
  PROV6101:0 "Maraã"
- PROV6102:0 "Vila Bittencourt"
+ PROV6102:0 "Caquetá" #Formerly Vila Bittencourt
  PROV6103:0 "Codajás"
  PROV6104:0 "Anori"
  PROV6105:0 "Iranduba"
- PROV6106:0 "Novo Airão"
- PROV6107:0 "Barcelos"
+ PROV6106:0 "Airum" #Formerly Novo Airão
+ PROV6107:0 "Mariuá" #Formerly Barcelos
  PROV6108:0 "Rio Negro"
- PROV6109:0 "São Gabriel da Cachoeira"
- PROV6110:0 "Santa Isabel do Rio Negro"
- PROV6111:0 "Itaquera"
+ PROV6109:0 "Uaupés" #Formerly São Gabriel da Cachoeira
+ PROV6110:0 "Tapuruquara" #Formerly Santa Isabel do Rio Negro
+ PROV6111:0 "Ataúba" #Formerly Itaquera
  PROV6112:0 "Manicoré"
  PROV6113:0 "Aripuanã"
- PROV6114:0 "Borba"
+ PROV6114:0 "Urucurituba" #Formerly Borba
  PROV6115:0 "Autazes"
- PROV6116:0 "Santarém"
- PROV6117:0 "Óbidos"
- PROV6118:0 "Parintins"
- PROV6119:0 "Altamira"
- PROV6120:0 "Sen. José Porfírio"
- PROV6121:0 "Maraba"
- PROV6122:0 "Marabá"
- PROV6123:0 "Pimental"
+ PROV6116:0 "Tiningu" #Formerly Santarém
+ PROV6117:0 "Curuá" #Formerly Óbidos
+ PROV6118:0 "Badajós" #Formerly Parintins
+ PROV6119:0 "Irateua" #Formerly Altamira
+ PROV6120:0 "Veiros" #Formerly Sen. José Porfírio
+ PROV6121:0 "Marabá" #Formerly Maraba
+ PROV6122:0 "Itaituba" #Formerly Marabá
+ PROV6123:0 "Apuí" #Formerly Pimental
  PROV6124:0 "Jacareacanga"
- PROV6125:0 "Trairão"
- PROV6126:0 "Garimpo Juruena"
+ PROV6125:0 "Crepori" #Formerly Trairão
+ PROV6126:0 "Juruena" #Formerly Garimpo Juruena
  #2nd Buffer from 5920 to 6659, the reserved IDs for addons and spinoffs from 6660 to 6999
  #PROV7000:0 "Trapani"
  #1st Tier of TCOP Added provinces (Chinese Grand Canal Network)
@@ -6272,6 +6272,26 @@
  PROV_ADJ8739:0 "An-Nafud"
  PROV8740:0 "Kibili"
  PROV_ADJ8740:0 "Kibili"
+ PROV8741:0 "Pagéu"
+ PROV_ADJ8741:0 "Pagéu"
+ PROV8742:0 "Araguacema"
+ PROV_ADJ8742:0 "Araguacema"
+ PROV8743:0 "Jarina"
+ PROV_ADJ8743:0 "Jarina"
+ PROV8744:0 "Apiacás"
+ PROV_ADJ8744:0 "Apiacás"
+ PROV8745:0 "Cururu"
+ PROV_ADJ8745:0 "Cururu"
+ PROV8746:0 "Tucumã"
+ PROV_ADJ8746:0 "Tucumã"
+ PROV8747:0 "Jamari"
+ PROV_ADJ8747:0 "Jamari"
+ PROV8748:0 "Maracati"
+ PROV_ADJ8748:0 "Maracati"
+ PROV8749:0 "Jatuarana"
+ PROV_ADJ8749:0 "Jatuarana"
+ PROV8750:0 "Uatumã"
+ PROV_ADJ8750:0 "Uatumã"
 
  # Beyond Typus province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Draiocht
  PROV_ADJ4846:0 "Woolna"

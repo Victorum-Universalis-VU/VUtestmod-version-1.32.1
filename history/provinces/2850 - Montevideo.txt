@@ -1,5 +1,8 @@
-# - Montevideo
+#2850 - Montevideo
 
+owner = CUA
+controller = CUA
+add_core = CUA
 culture = charruan
 discovered_by = south_american
 religion = animism

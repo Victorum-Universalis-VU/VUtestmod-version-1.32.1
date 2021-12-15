@@ -2055,6 +2055,10 @@
  
  PHI:0 "Philippines"
  PHI_ADJ:0 "Filipino"
+ colonial_guyanas:0 "Colonial Guyanas"
+ short_colonial_guyanas:0 "Guyanas"
+ COLONIAL_GUYANA_Guyanas:0 "Guyanas"
+ COLONIAL_GUYANA_Guyanas_ADJ:0 "Guyanese"              
 
  #################################################################################
  #################################################################################

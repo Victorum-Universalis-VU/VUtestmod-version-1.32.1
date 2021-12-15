@@ -1,6 +1,9 @@
 #777 - Corrientes
 
-culture = guarani
+owner = TOB
+controller = TOB
+add_core = TOB
+culture = toba
 discovered_by = south_american
 religion = animism
 capital = "Corrientes"

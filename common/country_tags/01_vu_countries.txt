@@ -477,7 +477,9 @@ MWI = "countries/Mwila.txt"
 MBU = "countries/Mbunda.txt"
 
 #Namibia
+AMK = "countries/Amkoe.txt"
 HOA = "countries/Hoansi.txt"
+ILN = "countries/Ilani.txt"
 KHE = "countries/Khoekhoe.txt"
 KHI = "countries/Khomani.txt"
 KWE = "countries/Khwe.txt"
@@ -491,6 +493,15 @@ XOO = "countries/!Xoo.txt"
 
 #South Africa
 SLD = "countries/Stelland.txt"
+
+#South America
+DIA = "countries/Diaguita.txt"
+HUA = "countries/Huarpe.txt"
+RNQ = "countries/Ranquel.txt"
+QUL = "countries/Qulla.txt"
+TOB = "countries/Toba.txt"
+WCH = "countries/Wichi.txt"
+YAG = "countries/Yahgan.txt"
 
 ########
 # Asia #

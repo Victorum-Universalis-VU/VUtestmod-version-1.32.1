@@ -1,6 +1,6 @@
 #6658 - Kung
 
-culture = kwadi_culture
+culture = kung_culture
 religion = shamanism 
 capital = "!Kung" 
 trade_goods = unknown

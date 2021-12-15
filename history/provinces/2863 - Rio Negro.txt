@@ -1,9 +1,12 @@
-# - Rio Negro
+#2863 - Rio Negro
 
-culture = het
+owner = RNQ
+controller = RNQ
+add_core = RNQ
+culture = ranquel
 discovered_by = south_american
 religion = animism
-capital = "Rio Negro"
+capital = "Ranquel"
 trade_goods = unknown
 hre = no
 base_tax = 1  

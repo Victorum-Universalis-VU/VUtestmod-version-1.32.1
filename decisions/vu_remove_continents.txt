@@ -1,3 +1,4 @@
+#By Robert.K
 country_decisions = {
 
 #   Template to remove region/superregion/continent
@@ -276,6 +277,28 @@ country_decisions = {
 						#tag = MAU #There were still mostly tribes but apparently
 						#tag = OAH #they began devloping farming and social structures?
 						#tag = KAA #Also starting expanding on the islands around 1500... good enough for now
+						#Africa
+						tag = AMK
+						tag = KHE
+						tag = TSA
+						tag = GUI
+						tag = KHI
+						tag = XOO
+						tag = NHO
+						tag = GAN
+						tag = KWE
+						tag = KUN
+						tag = SAN
+						tag = HOA
+						tag = ILN
+						#S.America
+						tag = DIA
+						tag = HUA
+						tag = RNQ
+						tag = QUL
+						tag = TOB
+						tag = WCH
+						tag = YAG
 					}
 				}
 				country_event = { id = vu_remove_country.1 }

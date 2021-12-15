@@ -1,14 +1,11 @@
-# - Chaco Central
+#2854 - Chaco Central
 
-culture = chacoan
-
-
-
-discovered_by = south_american
-1444.1.1 = { discovered_by = CCQ } 
-
+owner = WCH
+controller = WCH
+add_core = WCH
+culture = wichi
 religion = animism
-capital = "Chaco Central"
+capital = "Wichi"
 trade_goods = unknown
 hre = no
 base_tax = 1  
@@ -18,7 +15,8 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 1
 
-
+discovered_by = south_american
+1444.1.1 = { discovered_by = CCQ } 
 
 
 1552.1.1 = { discovered_by = SPA }
@@ -29,6 +27,7 @@ native_hostileness = 1
 	controller = SPA
 	add_core = SPA
 	is_city = yes
+	capital = "Ciudad de Chaco"
 	trade_goods = wool
 	culture = castillian
 	religion = catholic
