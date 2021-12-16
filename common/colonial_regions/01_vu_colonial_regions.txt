@@ -240,9 +240,17 @@ colonial_hudson_bay = {
 	culture = {
 		cree = 10
 		inuit = 10
+		chipewyan = 10
+		ojicree = 5
+		crow_culture = 5
 		nakota = 2
-		cheyenne = 2
 		chipewyan = 2
+		plains_cree = 2
+		arapaho = 2
+		cheyenne = 2
+		anishinabe = 1
+		dakota = 1
+		bungi = 1
 	}
 
 	religion = {
@@ -350,7 +358,7 @@ colonial_newfoundland = {
 
 	culture = {
 		beothuk = 10
-		mikmaq = 1
+		innu = 5
 	}
 
 	religion = {
@@ -487,7 +495,8 @@ colonial_acadia = {
 
 	culture = {
 		mikmaq = 10
-		abenaki = 1
+		maliseet = 5
+		abenaki = 2
 	}
 
 	religion = {
@@ -1673,44 +1682,6 @@ colonial_malaysia = {
 #	}
 #}
 
-#Colonial Florida
-colonial_florida = {
-	color = { 238 162 196 }
-
-	# Random New World
-	tax_income = 2
-	native_size = 8
-	native_ferocity = 2
-	native_hostileness = 5
-	
-	trade_goods = {
-		fur = 10
-		fish = 5
-		naval_supplies = 5
-		grain = 2
-		tobacco = 2
-		cotton = 2
-		sugar = 2
-	}
-	
-	culture = {
-		creek = 28
-	}
-	
-	religion = {
-		shamanism = 28
-	}
-	
-	provinces = {
-		923 926 927 928 2533 2534 2535 2536 4625 4626 5994 5995 5996 5997 5998 5999 6000 6001 6002 6003 6004 6005 6006 
-	}
-	
-	# Specific
-	names = {
-		name = "COLONIAL_FLORIDA_Florida"
-	}
-}
-
 #Colonial Great_Lakes
 colonial_great_lakes = {
 	color = { 69 157 208 }
@@ -1752,13 +1723,93 @@ colonial_great_lakes = {
 	}
 	
 	provinces = {
-		893 910 911 912 913 914 915 916 917 918 919 920 921 922 924 925 934 935 939 940 941 942 943 944 945 946 947 948 951 2517 2518 2519 2520 2521 
-		2522 2523 2524 2525 2526 2527 2528 2529 2530 2531 2532 2551 4883 4884 4887 4888 4889 4898 4899 4903 4904 4907 4913 4921 4922 5143 5621
+		893 910 911 912 913 914 915 916 917 919 920 921 922 924 925 942 943 944 945 946 947 948 951 954 958 2517 2518 2519 2520 2521 2522 
+		2523 2524 2525 2528 2529 2530 2531 2551 2555 4872 4875 4883 4884 4889 4898 4899 4903 4904 4907 4922 5143 5621
 	}
 	
 	# Specific
 	names = {
 		name = "COLONIAL_GREAT_LAKES_Great_Lakes"
+	}
+}
+
+#Colonial Florida
+colonial_florida = {
+	color = { 238 162 196 }
+
+	# Random New World
+	tax_income = 2
+	native_size = 8
+	native_ferocity = 2
+	native_hostileness = 5
+	
+	trade_goods = {
+		fur = 10
+		fish = 5
+		naval_supplies = 5
+		grain = 2
+		tobacco = 2
+		cotton = 2
+		sugar = 2
+	}
+	
+	culture = {
+	    seminole = 10
+		creek = 5
+		choctaw = 2
+	}
+	
+	religion = {
+		shamanism = 28
+	}
+	
+	provinces = {
+		893 921 922 923 926 927 928 2530 2533 2534 2535 2536 4625 4626 4884 5994 5995 5996 5997 5998 5999 6000 6001 6002 6003 6004 6005 6006 
+	}
+	
+	# Specific
+	names = {
+		name = "COLONIAL_FLORIDA_Florida"
+	}
+}
+
+#Colonial Mississippi
+colonial_mississippi = {
+	color = { 245 226 231 }
+
+	# Random New World
+	tax_income = 2
+	native_size = 8
+	native_ferocity = 2
+	native_hostileness = 5
+	
+	trade_goods = {
+		cotton = 10
+		tobacco = 5
+		grain = 5
+		fish = 2
+	}
+	
+	culture = {
+		choctaw = 10
+		shawnee = 8
+		chickasaw = 5
+		creek = 5
+		natchez = 2
+		yuchi = 2
+	}
+	
+	religion = {
+		totemism = 10
+	}
+	
+	provinces = {
+		918 919 920 924 925 934 935 939 940 941 2526 2527 2528 2529 2531 2532 4883 4887 4888 4913 4921
+	}
+	
+	# Specific
+	names = {
+		name = "COLONIAL_MISSISSIPPI_Mississippi"
 	}
 }
 

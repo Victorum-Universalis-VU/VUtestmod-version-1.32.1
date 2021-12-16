@@ -116,11 +116,15 @@ colonial_canada = {
 	}
 
 	culture = {
+	    laurentian = 10
 		huron = 10
 		cree = 10
 		anishinabe = 5
+		algonquin = 5
 		mikmaq = 5
-		abenaki = 2
+		petun = 1
+		tionontate = 1
+		ottawa = 1
 	}
 	
 	religion = {
@@ -333,19 +337,24 @@ colonial_eastern_america = {
 	}
 	
 	culture = {
-		creek = 5
-		choctaw = 2
-		chickasaw = 2
-		cherokee = 5
-		shawnee = 5
-		dakota = 2
-		iroquois = 3
-		powhatan = 2
-		delaware = 4
+		powhatan = 10
+		delaware = 10
 		susquehannock = 5
+		abenaki = 5
+		pequot = 5
+		catawba = 5
+		massachusset = 5
+		creek = 5
+		yamasee = 2
+		tuscarora = 2
+		meherrin = 2
+		nottoway = 2
+		cherokee = 2
+		onondaga = 2
+		cayugan = 2
+		oneida = 2
+		iroquois = 2
 		mahican = 2
-		pequot = 2
-		abenaki = 4
 	}
 	
 	religion = {
@@ -353,9 +362,9 @@ colonial_eastern_america = {
 	}
 	
 	provinces = {
-		929 931 932 933 936 937 938 949 950 952 953 954 955 956 957 958 962 963 965 966 967 968 970 971 930 959 960 961 964 969 2010 2011 
-		2013 2023 2537 2538 2539 2540 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 2552 2553 2554 2555 2556 2557 2558 2559 2560 2561 2562 2563 
-		2564 2565 2566 2567 2639 5052 4871 4872 4873 4874 4875 4876 4877 4878 4879 4880 4881 4882 4912   
+		929 931 932 933 936 937 938 949 950 952 953 955 956 957 962 963 965 966 967 968 970 971 930 959 960 961 964 969 2010 2011 
+		2013 2023 2537 2538 2539 2540 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 2552 2553 2554 2556 2557 2558 2559 2560 2561 2562 2563 
+		2564 2565 2566 2567 2639 5052 4871 4873 4874 4876 4877 4878 4879 4880 4881 4882 4912   
 		
 		#VU Additions - America 
 		5711 5712 5713 5714 5920 5921 5922 5923 5935 5936 5937 5938 5939 5940 5951 5952 5953 5954 5955 5956 5957 5958 5959 5960 5969 5970 5971 5972 

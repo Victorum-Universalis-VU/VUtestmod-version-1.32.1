@@ -42,7 +42,7 @@ set_estate_privilege = estate_church_papal_emissary
 	queen = {	
 		name = "Caterina"
 		dynasty = "Rangoni"
-		birth_date = 1415.1.1		#Unknown birthdate, though she married Anonio in 1434.
+		birth_date = 1415.1.1		#Unknown birthdate, though she married Antonio in 1434.
 		death_date = 1467.5.26		#Died from poisoning, so she must've been quite young since it was not natural causes.
 		female = yes
 		adm = 3			#Seemingly pious?
@@ -58,3 +58,90 @@ set_estate_privilege = estate_church_papal_emissary
 1648.1.1 = {
 	remove_country_modifier = bt_ghibelline_nation
 }
+1466.8.5 = {
+	monarch = {
+		name = "Pino III"
+		dynasty = "Ordelaffi"
+		birth_date = 1436.3.11 
+		death_date = 1480.2.10
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1480.1.1 = {
+	monarch = {
+		name = "Girolamo"
+		dynasty = "Riario"
+		birth_date = 1443.2.8 
+		death_date = 1488.4.14
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1473.1.1 = {
+	queen = {
+		country_of_origin = MLO
+		name = "Caterina"
+		dynasty = "Sforza"
+		birth_date = 1463.1.1 		#Exact date of her birth is unknown.
+		death_date = 1509.5.28
+		female = yes
+		adm = 5			
+		dip = 4			
+		mil = 5
+	}
+}
+
+1479.9.1 = {
+	heir = {
+		name = "Ottaviano"
+		monarch_name = "Ottaviano I"
+		dynasty = "Riario-Sforza"
+		birth_date = 1479.9.1		
+		death_date = 1523.10.6		
+		claim = 95
+		adm = 2			
+		dip = 2      
+		mil = 5        
+	}
+}
+
+1488.4.30 = {
+	monarch = {
+		name = "Caterina"
+		monarch_name = "Caterina"
+		dynasty = "Sforza"
+		birth_date = 1463.1.1 		#Exact date of her birth is unknown.	
+		death_date = 1509.5.28		
+		adm = 5		
+		dip = 4      
+		mil = 5		
+	}
+}
+
+1500.1.1 = {
+	monarch = {
+		name = "Ottaviano"
+		dynasty = "Riario-Sforza"
+		birth_date = 1479.9.1
+		death_date = 1523.10.6
+		adm = 2
+		dip = 2
+		mil = 5
+	}
+}
+
+1501.5.1 = {
+	monarch = {
+		name = "Cesare I"
+		dynasty = "Borgia"
+		adm = 4
+		dip = 3
+		mil = 5
+		leader = {	name = "Cesare Borgia"	type = general	fire = 4	shock = 4	manuever = 5	siege = 2 } #Stats to reflect his military leadership.
+	}
+}
+
+#1504.4.5 - Annexed by Papal States

@@ -695,19 +695,31 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = GBR }
+			NOT = { exists = WLC }
+			NOT = { exists = WMC }
+			NOT = { exists = DBT }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			owns_core_province = 236			#London
 			owns_core_province = 241			#Glamorgan
 			owns_core_province = 248			#Lothian
+			owns_core_province = 250			#Perth
+			owns_core_province = 252			#Inverness
+			owns_core_province = 4365			#Ile of Mann
+			OR = {
+				owns_core_province = 253		#Outer Hebrides
+				owns_core_province = 369		#Orkney
+				owns_core_province = 4364		#Inner Hebrides
+				NOT = { exists = SCO }
+			}
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				region = british_isles_region
-				value = 63	#At least 3/4 of Britain's 84 provinces ##OUTDATED##(Note England has 26 in 1444 with 7 more under subjects, so this is rather easy)##END OUTDATED##
+				value = 85	#England starts with 72 provinces
 			}
-			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
-			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+			total_development = 800			#Had to raise it from 250 to 800 since England starts with 851 in 1444. Normal requirement for rank 2 is 500 dev
+			prestige = 40				#was 25
 		}
 		effect = {
 			hidden_effect = {
@@ -817,13 +829,18 @@ country_decisions = {
 			owns_or_vassal_of = 236		# London
 			owns_or_vassal_of = 242		# Gwynedd
 			owns_or_vassal_of = 250		# Fife
+			owns_or_vassal_of = 4365	# Island of Mann
+			owns_or_vassal_of = 4368	# Durham
+			owns_or_vassal_of = 5865	# Disputed Lands
+			owns_or_vassal_of = 237		# Oxford
+			owns_or_vassal_of = 248		# Edinburgh
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = british_isles_region
 				is_core = owner
-				value = 76			#At least 90 percent of Britain's 84 provinces
+				value = 90			#in 1444 this value is 85
 			}
-			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
-			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+			total_development = 1000	#Had to raise it from 250 as England starts with 851 in 1444
+			prestige = 50			#was 25, normal requirement for rank 2 is 50 prestige
 		}
 		effect = {
 			every_subject_country = {

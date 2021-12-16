@@ -26,7 +26,7 @@ discovered_by = eastern
 
 #Province history completed by - Nikicaga
 1495.1.1 = { hre = no }
-1502.6.1 = {
+1502.1.1 = {
 	owner = RMG
 	controller = RMG
 	add_core = RMG
