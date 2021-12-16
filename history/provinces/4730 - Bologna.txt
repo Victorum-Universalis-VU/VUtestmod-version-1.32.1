@@ -30,7 +30,13 @@ discovered_by = eastern
 
 #Second Shattering not used
 
-1507.1.1 = { 
+} 
+1506.1.1 = {
+	owner = BLG
+	controller = BLG
+	add_core = BLG
+} #back to Bentivoglio
+1506.1.1 = { 
 	owner = PAP 
 	controller = PAP
 	add_core = PAP 

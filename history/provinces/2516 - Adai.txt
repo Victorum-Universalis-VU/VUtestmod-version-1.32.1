@@ -1,4 +1,4 @@
-# No previous file for Adai
+#2516 - Adai
 
 culture = caddo
 religion = totemism

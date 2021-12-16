@@ -21,7 +21,7 @@ set_estate_privilege = estate_church_papal_emissary
 }
 1444.11.11 = {
 	monarch = {
-		name = "Consiglio di Anziani" #Elders Council in Italian. Was technically six elders, but this'll work.
+		name = "Consiglio degli Anziani" #Elders Council in Italian. Was technically six elders, but this'll work.
 		adm = 3
 		dip = 3
 		mil = 3
