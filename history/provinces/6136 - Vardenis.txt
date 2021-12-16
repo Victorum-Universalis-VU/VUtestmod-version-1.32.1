@@ -3,7 +3,7 @@
 owner = TIM
 controller = TIM
 culture = armenian
-religion = coptic	#Mix of miaphysite, shia and misc Eastern Churches, going with broad "coptic" term.
+religion = miaphysite	#Mix of miaphysite, shia and misc Eastern Churches, going with miaphysite
 capital = "Vardenis"
 trade_goods = grain	#There is prominent gold mine near the town but It's modern establishment. There's also a plenty of farms there.
 hre = no

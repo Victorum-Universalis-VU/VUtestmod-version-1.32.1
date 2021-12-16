@@ -4,7 +4,7 @@ owner = CHG
 controller = CHG
 add_core = CHG
 culture = kirgiz
-religion = sunni
+religion = nestorian	#Nestorian churches and communities were result of eraly christian missions along silk road. Maps show concentration of nestorian believers here that we still present until 1600's
 capital = "Kochkor"
 trade_goods = saffron
 hre = no
@@ -23,7 +23,7 @@ discovered_by = muslim
 	add_core = KAS
 }
 1622.1.1 = { discovered_by = RUS }
-
+1650.1.1 = { religion = sunni } #Nestorian churches fade to obscurity
 1682.1.1 = {
 	owner = ZUN
 	controller = ZUN

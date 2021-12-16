@@ -1320,16 +1320,16 @@ christian = {
 
 
 	nestorian = {
-		color = { 188 161 53 }
-		icon = 31
+		color = { 155 83 124 }
+		icon = 37
 		allowed_conversion = {
 				bogomilist_new
-				iconoclast
-				manichaean
 				buddhism
 				vajrayana
 				mahayana
 				taoism
+				miaphysite
+				coptic
 		}
 
 		country = {
@@ -1337,13 +1337,14 @@ christian = {
 			land_attrition = -0.10
 			war_exhaustion_cost = -0.1
 			tolerance_own = 1
+			tolerance_heathen = 1
 			adm_tech_cost_modifier = -0.1
 		}
 		
 		country_as_secondary = {
-			tolerance_own = 1
-			adm_tech_cost_modifier = -0.1
-			war_exhaustion_cost = -0.2
+			tolerance_heathen = 2
+			adm_tech_cost_modifier = -0.05
+			num_accepted_cultures = 1
 		}
 		
 		province = {
@@ -1352,26 +1353,30 @@ christian = {
 		
 		misguided_heretic = yes		# Other christians hate them less
 		
+		can_have_secondary_religion = yes	#Not very accurate for nestorian doctrine, but has to do for now
+		
 		on_convert = {
 			change_religion = nestorian
 			add_prestige = -100
 			add_country_modifier = {
-			name = "conversion_zeal"
-			duration = 3650
+				name = "conversion_zeal"
+				duration = 3650
 			}
 		}
 
-		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
+		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS OLD_BELIEVER MOLOKAN }
+		
+		holy_sites = { 379 410 535 739 2313 } #Jerusalem, Baghdad, Kochin, Kashgar, Antioch
 
 		blessings = {
-			legitimize_government
-			encourage_warriors_of_the_faith
-			send_monks_to_establish_monasteries
-			promote_territorial_rights
-			will_of_the_martyrs
+			vu_nestorian_accepteance
+			vu_nestorian_holy_wars
+			vu_nestorian_monasteries
+			vu_nestorian_king_glory
+			vu_isolated_nestorian_christianity
 		}
 		
-		#harmonized_modifier = harmonized_nestorian
+		harmonized_modifier = harmonized_christian
 		
 	}
 	
@@ -1436,6 +1441,7 @@ christian = {
 		icon = 34
 		allowed_conversion = {
 				coptic
+				nestorian
 		}
 		country = {
 			administrative_efficiency = 0.1
