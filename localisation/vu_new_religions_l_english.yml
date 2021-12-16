@@ -113,6 +113,17 @@
  pick_nestorian_blessing:0 "Pick Nestorian Blessing"
  
  
+ lollardy_religion_desc: "Lollardy, also known as Lollardism or the Lollard movement, is a Proto-Protestant Christian religious movement that existed from the mid-14th century until the reformation of English Church. It was initially led by John Wycliffe, a Roman Catholic theologian who was dismissed from the University of Oxford in 1381 for criticism of the Roman Catholic Church. The Lollards' demands were primarily for reform of Western Christianity. They formulated their beliefs in the Twelve Conclusions of the Lollards. In 1444 Lollardy is still present on the British Isles, even after years of repressions."
+ lollardy: "Lollard"
+ lollardy_rebels_title: "Religious"
+ lollardy_rebels_name: "$RELIGION$ Zealots"
+ lollardy_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ lollardy_rebels_army: "$RELIGION$ Army"
+ lollardy_rebels_demand: "Convert $COUNTRYNAME$"
+ lollardy_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ lollardy_center_of_reformation: "Lollard Center of Reformation"
+ 
+ 
  druze_new_religion_desc: "The Druze religion originated in the Ismaili sect of Shi'a Islam, but has many features of gnosticism, neoplatonism in addition to the Abrahamic religions. Druze followers do not call themselves muslims despite being highly influenced by it. By 1444, Druze religion remains strong in the Highlands of Syria and Lebanon."
  druze_new: "Druze"
  druze_new_rebels_title: "Religious"
@@ -123,6 +134,10 @@
  druze_new_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  
  
+ vu_lollardy_rebels_demand:0 "Supremacy of Lollardy"
+ vu_lollardy_rebels_demand_desc:0 "State's religion has been opressing Lollard community for too long. It is time for reactionary uprising."
+ vu_nestorian_rebels_demand:0 "Supremacy of Nestorian faith"
+ vu_nestorian_rebels_demand_desc:0 "State's religion has been opressing Nestorian community for too long. It is time for reactionary uprising."
  vu_druze_new_rebels_demand:0 "Supremacy of Druze faith"
  vu_druze_new_rebels_demand_desc:0 "State's religion has been opressing Druze community for too long. It is time for reactionary uprising."
  vu_miaphysite_rebels_demand:0 "Supremacy of Miaphysite faith"
