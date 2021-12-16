@@ -1,11 +1,11 @@
-#4395 - Hisn Kayfa
+#4295 - Hisn Kayfa
 
 owner = HSN
 controller = HSN
 add_core = HSN
 capital = "Hesn Kayfa"			#Syriac version
 culture = aramaic
-religion = coptic			#Actually not coptic in reality. Should be a mix of Nestorian and other Oriental Orthodoxy but it's not added yet. Coptic here and in neighboring provinces is meant to be treated as misc Eastern Orthodoxy
+religion = nestorian			#A mix of Nestorian and other Oriental Orthodoxy
 trade_goods = cloth			#No particular reason, but rich-ish area
 hre = no
 base_tax = 6

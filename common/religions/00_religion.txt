@@ -315,10 +315,15 @@ christian = {
 		color = { 255 17 123 }
 		icon = 28
 		allow_female_defenders_of_the_faith = yes
+		allowed_conversion = {
+				lollardy
+				protestant
+				reformed
+		}
 
 		allowed_center_conversion = {
 			catholic
-			lollard
+			lollardy
 		}
 		country = {
 			development_cost = -0.1
@@ -350,13 +355,10 @@ christian = {
 		icon = 22
 		
 		allowed_conversion = {
-				waldensian
-				lollard
+				lollardy
 				bogomilist_new
-				iconoclast
 				nestorian
 		}
-
 
 		allowed_center_conversion = {
 			catholic
@@ -427,14 +429,11 @@ christian = {
 			reformed
 			catholic
 			hussite
-			cathar
-			fraticelli
-			waldensian
-			lollard
+			lollardy
 		}
 		allowed_center_conversion = {
 			catholic
-			cathar
+			lollardy
 		}
 		country = {
 			global_tax_modifier = 0.1
@@ -570,15 +569,12 @@ christian = {
 			protestant
 			catholic
 			hussite
-			cathar
-			fraticelli
-			waldensian
-			lollard
+			lollardy
 		}
 		allowed_center_conversion = {
 			catholic
-			waldensian
-			cathar
+			lollardy
+			hussite
 		}
 		country = {
 			tolerance_heretic = 2
@@ -902,7 +898,7 @@ christian = {
 			protestant
 			fraticelli
 			waldensian
-			lollard
+			lollardy
 			bogomilist_new
 			iconoclast
 			jewish
@@ -960,7 +956,7 @@ christian = {
 			hussite
 			cathar
 			waldensian
-			lollard
+			lollardy
 			jewish
 		}
 		country = {
@@ -1174,7 +1170,7 @@ christian = {
 				hussite
 				cathar
 				fraticelli
-				lollard
+				lollardy
 		}
 
 		country = {
@@ -1224,54 +1220,7 @@ christian = {
 	}
 
 # Lollard Religion
-	lollard = {
-		color = { 0.2 0.4 0.7 }
-		icon = 43
-		allowed_conversion = {
-				protestant
-				reformed
-				hussite
-				anglican
-				druidic
-		}
-
-		country = {
-			tolerance_own = 1
-			land_forcelimit_modifier = 0.1
-			adm_tech_cost_modifier = -0.10 #FULL - Radical ideas
-				legitimacy = 0.50
-				republican_tradition = 0.25
-				horde_unity = 0.25
-				devotion = 1
-				land_morale = 0.10
-		}
-
-		country_as_secondary = {
-			land_forcelimit_modifier = 0.2
-			idea_cost = -0.1
-			tolerance_own = -1
-			global_missionary_strength = -0.01
-		}
-		fervor = yes
-
-		on_convert = {
-			change_religion = lollard
-			add_prestige = -100
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-
-		heretic = {
-			LOLLARD
-		}
-
-		misguided_heretic = yes
-	}
+	#lollard = { }			#Old lollard removed as more satisfactory version exists below
 
 
 # Bogomilist Religion
@@ -1318,18 +1267,18 @@ christian = {
 		misguided_heretic = yes		# Other christians hate them less
 	}	
 
-
+	#Reworked Nestorian religion
 	nestorian = {
-		color = { 188 161 53 }
-		icon = 31
+		color = { 155 83 124 }
+		icon = 37
 		allowed_conversion = {
 				bogomilist_new
-				iconoclast
-				manichaean
 				buddhism
 				vajrayana
 				mahayana
 				taoism
+				miaphysite
+				coptic
 		}
 
 		country = {
@@ -1337,13 +1286,14 @@ christian = {
 			land_attrition = -0.10
 			war_exhaustion_cost = -0.1
 			tolerance_own = 1
+			tolerance_heathen = 1
 			adm_tech_cost_modifier = -0.1
 		}
 		
 		country_as_secondary = {
-			tolerance_own = 1
-			adm_tech_cost_modifier = -0.1
-			war_exhaustion_cost = -0.2
+			tolerance_heathen = 2
+			adm_tech_cost_modifier = -0.05
+			num_accepted_cultures = 1
 		}
 		
 		province = {
@@ -1352,26 +1302,30 @@ christian = {
 		
 		misguided_heretic = yes		# Other christians hate them less
 		
+		can_have_secondary_religion = yes	#Not very accurate for nestorian doctrine, but has to do for now
+		
 		on_convert = {
 			change_religion = nestorian
 			add_prestige = -100
 			add_country_modifier = {
-			name = "conversion_zeal"
-			duration = 3650
+				name = "conversion_zeal"
+				duration = 3650
 			}
 		}
 
-		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
+		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS OLD_BELIEVER MOLOKAN }
+		
+		holy_sites = { 379 410 535 739 2313 } #Jerusalem, Baghdad, Kochin, Kashgar, Antioch
 
 		blessings = {
-			legitimize_government
-			encourage_warriors_of_the_faith
-			send_monks_to_establish_monasteries
-			promote_territorial_rights
-			will_of_the_martyrs
+			vu_nestorian_accepteance
+			vu_nestorian_holy_wars
+			vu_nestorian_monasteries
+			vu_nestorian_king_glory
+			vu_isolated_nestorian_christianity
 		}
 		
-		#harmonized_modifier = harmonized_nestorian
+		harmonized_modifier = harmonized_christian
 		
 	}
 	
@@ -1436,6 +1390,7 @@ christian = {
 		icon = 34
 		allowed_conversion = {
 				coptic
+				nestorian
 		}
 		country = {
 			administrative_efficiency = 0.1
@@ -1471,6 +1426,89 @@ christian = {
 		misguided_heretic = yes
 	}
 	
+	#Lollard religion
+	lollardy = {
+		color = { 116 150 184 }
+		icon = 36
+		allowed_conversion = {
+			catholic
+			hussite
+			anglican
+		}
+		allowed_center_conversion = {
+			catholic
+			protestant 
+			reformed 
+			anglican 
+		}
+		country = {
+			improve_relation_modifier = 0.2
+			development_cost = -0.1
+			tolerance_own = 1
+			land_forcelimit_modifier = 0.05
+			adm_tech_cost_modifier = -0.025
+			legitimacy = 0.50
+			republican_tradition = 0.25
+			horde_unity = 0.25
+			devotion = 1
+		}
+		country_as_secondary = {
+			land_forcelimit_modifier = 0.1
+			idea_cost = -0.05
+			tolerance_own = -1
+			global_missionary_strength = -0.005
+			development_cost = -0.1
+		}
+		
+		on_convert = {
+			change_religion = lollardy
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
+			
+			if = {
+				limit = {
+					has_country_flag = reformation_money
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = lollardy
+								is_reformation_center = yes
+							}
+							amount = 1
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							can_have_center_of_reformation_trigger = {
+								RELIGION = lollardy
+							}
+						}
+						change_religion = lollardy
+						add_reform_center = lollardy
+					}
+				}
+				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+			}
+		}
+		
+		fervor = yes
+		hre_heretic_religion = yes
+		
+		heretic = { ANABAPTIST PENTECOSTAL PURITAN CONGREGATIONALIST }
+	}
 	
 	harmonized_modifier = harmonized_christian
 	
