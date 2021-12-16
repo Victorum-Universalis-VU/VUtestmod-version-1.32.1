@@ -9,17 +9,6 @@ capital = 114 # Romagna
 fixed_capital = 114 # Cannot move capital away from this province & no power cost to move to it
 
 
-1431.1.1 = {
-	monarch = {
-		name = "Ostasio III"
-		dynasty = "da Polenta"
-		birth_date = 1426.1.1
-		adm = 4
-		dip = 5
-		mil = 3
-	}
-}
-
 1501.5.1 = {
 	monarch = {
 		name = "Cesare I"
@@ -28,6 +17,7 @@ fixed_capital = 114 # Cannot move capital away from this province & no power cos
 		dip = 4
 		adm = 3
 		mil = 5
+        leader = {	name = "Cesare Borgia"	type = general	fire = 4	shock = 4	manuever = 5	siege = 2 } #Stats to reflect his military leadership.
 	}
 }
 

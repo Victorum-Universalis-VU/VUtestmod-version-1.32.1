@@ -1489,6 +1489,11 @@
  COLONIAL_GREAT_LAKES_Great_Lakes:0 "Great Lakes"
  COLONIAL_GREAT_LAKES_Great_Lakes_ADJ:0 "Great Lakean
  #
+ colonial_mississippi:0 "Colonial Mississippi"
+ short_colonial_mississippi:0 "Mississippi"
+ COLONIAL_MISSISSIPPI_Mississippi:0 "Mississippi"
+ COLONIAL_MISSISSIPPI_Mississippi_ADJ:0 "Mississippian
+ #
  #TRADE COMPANIES
  trade_company_porto_trade:0 "Commissariat of Portugal"
  TRADE_COMPANY_PORTO_Root_Culture_GetName:0 "[Root.Culture.GetName] Portuguese Commissariat"

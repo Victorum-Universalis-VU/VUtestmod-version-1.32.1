@@ -1,4 +1,4 @@
-# No previous file for Piscatang
+#2588 - Piscatang
 
 culture = anishinabe
 religion = totemism

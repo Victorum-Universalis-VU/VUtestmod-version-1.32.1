@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+#5060 - Mamhlawbagak
 
 culture = laurentian					# 
 religion = totemism 
