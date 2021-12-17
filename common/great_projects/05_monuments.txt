@@ -1947,7 +1947,9 @@ lighthouse_of_alexandria = {
 
 	#can we build it?
 	build_trigger = {
-		adm_tech = 10
+		FROM = {
+			adm_tech = 10
+		}
 		AND = {
 			OR = {
 				has_owner_culture = yes
@@ -1976,7 +1978,9 @@ lighthouse_of_alexandria = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		adm_tech = 10
+		FROM = {
+			adm_tech = 10
+		}
 		AND = {
 			OR = {
 				has_owner_culture = yes
@@ -1997,7 +2001,9 @@ lighthouse_of_alexandria = {
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		adm_tech = 10
+		FROM = {
+			adm_tech = 10
+		}
 		AND = {
 			OR = {
 				has_owner_culture = yes
@@ -2543,7 +2549,9 @@ city_of_carthage = {		#Specifically the Cothon of Carthage and the great port
 	type = monument
 
 	build_trigger = {
-		adm_tech = 10
+		FROM = {
+			adm_tech = 10
+		}
 		AND = {
 			OR = {
 				has_owner_culture = yes
@@ -2572,7 +2580,9 @@ city_of_carthage = {		#Specifically the Cothon of Carthage and the great port
 	}
 
 	can_use_modifiers_trigger = {
-		adm_tech = 10
+		FROM = {
+			adm_tech = 10
+		}
 		AND = {
 			OR = {
 				has_owner_culture = yes
@@ -2593,7 +2603,9 @@ city_of_carthage = {		#Specifically the Cothon of Carthage and the great port
 	}
 
 	can_upgrade_trigger = {
-		adm_tech = 10
+		FROM = {
+			adm_tech = 10
+		}
 		AND = {
 			OR = {
 				has_owner_culture = yes

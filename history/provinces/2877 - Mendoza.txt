@@ -1,8 +1,8 @@
 #2877 - Mendoza
 
-owner = HUA
-controller = HUA
-add_core = HUA
+owner = HUP
+controller = HUP
+add_core = HUP
 culture = huarpe
 discovered_by = south_american
 religion = animism
