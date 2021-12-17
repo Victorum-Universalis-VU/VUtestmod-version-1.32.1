@@ -9290,7 +9290,7 @@ mande = {
 			Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
 	}
-	dan = {
+	dan_culture = {
 		dynasty_names = {
 			Gorogo Wattara
 		}
