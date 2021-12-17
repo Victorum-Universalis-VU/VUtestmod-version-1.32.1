@@ -1428,7 +1428,7 @@ christian = {
 	
 	#Lollard religion
 	lollardy = {
-		color = { 116 150 184 }
+		color = { 33 115 216 }
 		icon = 36
 		allowed_conversion = {
 			catholic
