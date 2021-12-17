@@ -87,7 +87,7 @@ WCO = "countries/WestConnacht.txt"
 WEX = "countries/Wexford.txt"
 WMC = "countries/WelshMarches.txt"
 WTF = "countries/Waterford.txt"
-YYK = "countries/YnysyKedyrn.txt"
+YYK = "countries/YnystKedyrn.txt"
 
 #VU - Britannia
 ARC	= "countries/ArchbishopricofCanterbury.txt"
