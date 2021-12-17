@@ -815,7 +815,7 @@ lead = {
 			NOT = { area = upper_ontario_area }
 			NOT = { area = laurentian_area }
 			NOT = { area = inner_ontario_area }
-			NOT = { area = ofaie_area }
+			NOT = { area = mato_grosso_area }
 			is_random_new_world = no
 		}
 		modifier = {
@@ -1024,7 +1024,6 @@ tin = {
 			is_random_new_world = no
 			NOT = { province_id = 990 } #St Maurice ironworks
 			NOT = { area = minas_gerais_area }
-			NOT = { area = diamantina_area }
 			NOT = { area = mato_grosso_area }
 			NOT = { area = great_valley_area }
 			NOT = { area = susquehanna_area }
@@ -1034,7 +1033,7 @@ tin = {
 			NOT = { area = upper_ontario_area }
 			NOT = { area = laurentian_area }
 			NOT = { area = inner_ontario_area }
-			NOT = { area = ofaie_area }
+			NOT = { area = mato_grosso_area }
 			NOT = { region = west_siberia_region }
 			NOT = { region = east_siberia_region }
 			NOT = { region = central_africa_region }
@@ -1062,9 +1061,7 @@ tin = {
 			factor = 1.5
 			OR = {
 				area = minas_gerais_area
-				area = diamantina_area
 				area = mato_grosso_area
-				area = ofaie_area
 				area = great_valley_area
 				area = susquehanna_area
 				area = hudson_valley_area
@@ -1474,7 +1471,8 @@ silver = {
 			NOT = { area = goias_area }
 			NOT = { area = mato_grosso_area }
 			NOT = { area = minas_gerais_area }
-			NOT = { area = guapore_area }
+			NOT = { area = rio_grande_do_sol_area }
+			NOT = { area = santa_catarina_area }
 			NOT = { area = grao_para_area }
 			NOT = { area = ucayali_area }
 			NOT = { area = amazon_area }
@@ -2848,20 +2846,19 @@ diamonds = {
 			NOT = { continent = oceania }
 			NOT = { continent = north_america }	#I think this is a bug/oversight on Paradox's part? There were plenty of gems in the new world and below they have a NA bonus
 			NOT = { area = minas_gerais_area }
-			NOT = { area = diamantina_area }
 			NOT = { area = amazon_area }
 			NOT = { area = bogota_area }
 			NOT = { area = popayan_area }
 			NOT = { area = venezuela_area }
 			NOT = { area = guyana_area }
 			NOT = { area = upper_guyana_area }
-			NOT = { area = guapore_area }
-			NOT = { area = amapa_area }
+			NOT = { area = rio_grande_do_sol_area }
+			NOT = { area = santa_catarina_area }
 			NOT = { area = grao_para_area }
 			NOT = { area = goias_area }
 			NOT = { area = mato_grosso_area }
-			NOT = { area = pontal_area }
-			NOT = { area = guapore_area }
+			NOT = { area = sao_paolo_area }
+			NOT = { area = west_sao_paolo_area }
 		}
 		modifier = {
 			factor = 0
@@ -2940,7 +2937,7 @@ diamonds = {
 			OR = {
 				continent = africa			#Diamonds in Africa
 				region = northwest_territories_region			#Gems quite common in the north, especially diamonds. Offsetting penalties above
-				area = diamantina_area
+				area = minas_gerais_area
 				area = bogota_area
 			}
 		}
