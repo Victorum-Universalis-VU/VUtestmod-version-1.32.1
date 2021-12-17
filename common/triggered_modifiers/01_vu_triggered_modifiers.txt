@@ -138,22 +138,19 @@ bt_iberian_crowns = {
 ###########################################
 bt_hanseatic_domination = {
 	potential = {
-		home_trade_node = { province_id = 45 }
 		government = republic
 		is_in_trade_league = yes
-		OR = {
-			tag = HSA
-			HSA = { NOT = { is_trade_league_leader = yes } }
-		}
+		any_core_province = { has_port = yes }
 	}
 	trigger = {
 		custom_trigger_tooltip = {
 			tooltip = bt_trade_capital_in_luebeck_node_tooltip
-			home_trade_node = { province_id = 45 }
+			OR = {
+				tag = HSA
+				is_in_trade_league_with = HSA
+			}
 		}
 		has_government_attribute = is_merchant_republic
-		is_trade_league_leader = yes
-		is_subject = no
 	}
 	placed_merchant_power = 18
 	global_foreign_trade_power = 0.25
@@ -165,12 +162,6 @@ bt_hanseatic_domination = {
 ###########################################
 bt_maritime_republic_bonus = {
 	potential = {
-		home_trade_node = {
-			OR = {
-				province_id = 1308
-				province_id = 1298
-			}
-		}
 		culture_group = latin
 		government = republic
 		any_core_province = { has_port = yes }
@@ -179,16 +170,27 @@ bt_maritime_republic_bonus = {
 		OR = {
 			custom_trigger_tooltip = {
 				tooltip = bt_trade_capital_in_venice_node_tooltip
-				home_trade_node = { province_id = 1308 }
+				OR = {
+					tag = VEN
+					AND = {
+						is_trade_league_leader = yes
+						is_in_trade_league_with = VEN
+					}
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = bt_trade_capital_in_genoa_node_tooltip
-				home_trade_node = { province_id = 1298 }
+				OR = {
+					tag = GEN
+					AND = {
+						is_trade_league_leader = yes
+						is_in_trade_league_with = GEN
+					}
+				}
 			}
 		}
 		has_government_attribute = is_merchant_republic
 		is_subject = no
-		any_core_province = { has_port = yes }
 	}
 	trade_steering = 0.25
 	global_ship_trade_power = 0.10

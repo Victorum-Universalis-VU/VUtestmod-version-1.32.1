@@ -293,7 +293,7 @@ country_decisions = {
 						tag = ILN
 						#S.America
 						tag = DIA
-						tag = HUA
+						tag = HUP
 						tag = RNQ
 						tag = QUL
 						tag = TOB

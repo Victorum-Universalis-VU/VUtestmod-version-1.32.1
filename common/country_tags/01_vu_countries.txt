@@ -87,7 +87,7 @@ WCO = "countries/WestConnacht.txt"
 WEX = "countries/Wexford.txt"
 WMC = "countries/WelshMarches.txt"
 WTF = "countries/Waterford.txt"
-YYK = "countries/YnysyKedyrn.txt"
+YYK = "countries/YnystKedyrn.txt"
 
 #VU - Britannia
 ARC	= "countries/ArchbishopricofCanterbury.txt"
@@ -496,7 +496,7 @@ SLD = "countries/Stelland.txt"
 
 #South America
 DIA = "countries/Diaguita.txt"
-HUA = "countries/Huarpe.txt"
+HUP = "countries/Huarpe.txt"
 RNQ = "countries/Ranquel.txt"
 QUL = "countries/Qulla.txt"
 TOB = "countries/Toba.txt"

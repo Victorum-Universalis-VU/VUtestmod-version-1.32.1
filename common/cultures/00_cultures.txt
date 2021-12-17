@@ -9290,7 +9290,7 @@ mande = {
 			Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
 	}
-	dan = {
+	dan_culture = {
 		dynasty_names = {
 			Gorogo Wattara
 		}
@@ -9839,6 +9839,7 @@ west_african = {
 			Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
 			Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
 		}
+	}
 	ngere = {
 		dynasty_names = {
 			Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
