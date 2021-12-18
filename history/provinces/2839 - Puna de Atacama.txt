@@ -1,12 +1,6 @@
-# - Puna de Atacama
+#2839 - Puna de Atacama
 
 culture = diaguita
-
-
-
-discovered_by = south_american
-discovered_by = andean
-
 religion = animism
 capital = "Catarpe"
 trade_goods = unknown
@@ -17,6 +11,9 @@ base_manpower = 2
 native_size = 5
 native_ferocity = 2
 native_hostileness = 1
+
+discovered_by = south_american
+discovered_by = andean
 
 1485.1.1 = {
 	owner = INC

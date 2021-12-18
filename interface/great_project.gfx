@@ -985,6 +985,16 @@ spriteType = {
 		name = "GFX_great_project_international_settlements"	
 		texturefile = "gfx//interface//great_projects//great_project_international_settlements.dds"
 	}
+	
+spriteType = {
+		name = "GFX_great_project_porcelain_tower_nanjing"	
+		texturefile = "gfx//interface//great_projects//great_project_porcelain_tower_nanjing.dds"
+	}
+	
+spriteType = {
+		name = "GFX_great_project_qhapaq_nam"	
+		texturefile = "gfx//interface//great_projects//great_project_qhapaq_nam.dds"
+	}
 
 spriteType = {
 		name = "GFX_great_project_intramuros"	

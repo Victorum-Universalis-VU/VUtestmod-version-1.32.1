@@ -1,4 +1,4 @@
-# No previous file for Guaymi
+#4595 - Guaymi
 
 culture = muisca
 1444.1.1 = { discovered_by = MCA } 

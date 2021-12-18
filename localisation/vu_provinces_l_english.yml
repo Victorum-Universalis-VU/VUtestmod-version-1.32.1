@@ -1203,6 +1203,7 @@
  PROV_ADJ5917:0 "Negeqliq"
  PROV_ADJ5918:0 "Iqugmiut"
  PROV_ADJ5919:0 "Nunam Iqua"
+ PROV_ADJ7000:0 "Rio Branco"
  PROV_ADJ7001:0 "Caltanissetta"
  PROV_ADJ7002:0 "Catania"
  PROV_ADJ7003:0 "Catanzaro"
@@ -3358,7 +3359,6 @@
  PROV6125:0 "Crepori" #Formerly Trairão
  PROV6126:0 "Juruena" #Formerly Garimpo Juruena
  #2nd Buffer from 5920 to 6659, the reserved IDs for addons and spinoffs from 6660 to 6999
- #PROV7000:0 "Trapani"
  #1st Tier of TCOP Added provinces (Chinese Grand Canal Network)
  #Province names template - 10 lines only
  #PROV :0 "0"
@@ -4337,6 +4337,7 @@
  PROV6998:0 "Northern Territory"
  PROV6999:0 "Western Territory"
  #End of 1st Tier TCOP Added provinces (Chinese Grand Canal Network)
+ PROV7000:0 "Rio_Branco"
  PROV7001:0 "Caltanissetta"
  PROV7002:0 "Catania"
  PROV7003:0 "Catanzaro"
@@ -5694,7 +5695,7 @@
  PROV8351:0 "Esk Estuary"
  PROV8352:0 "IJmeer"
  PROV8353:0 "Illyrian Coast"
- PROV8354:0 "Central Danube River"
+ PROV8354:0 "Upper Lower Danube River"
  PROV8355:0 "Upper Danube River"
  PROV8356:0 "Upper Rhine River"
  PROV8357:0 "Lower Rhine River"
