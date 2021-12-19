@@ -1282,6 +1282,7 @@ amazon_region = {
 	areas = {
 		amazon_area
 		grao_para_area
+		acre_area
 	}
 }
 
@@ -1292,7 +1293,7 @@ mato_grosso_region = {
 	}
 }
 
-bahia_region = {
+maranhao_region = {
 	areas = {
 		alagoas_area
 		bahia_area

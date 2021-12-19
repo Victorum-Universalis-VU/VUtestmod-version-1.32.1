@@ -696,6 +696,11 @@ YZH = "countries/Missisauga.txt"
 YZI = "countries/NeutralConfederacy.txt"
 ZIA = "countries/Zia.txt"
 
+#VU additions
+CSA = "countries/Confederates.txt"
+PHI = "countries/Philippines.txt"
+LBA = "countries/Liberia.txt"
+
 ##################
 # BT - Caribbean #
 ##################
