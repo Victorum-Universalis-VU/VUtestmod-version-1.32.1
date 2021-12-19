@@ -1,8 +1,8 @@
 #2864 - Senqu
 
-owner = KHI
-controller = KHI
-add_core = KHI
+owner = KHN
+controller = KHN
+add_core = KHN
 culture = khomani_culture
 religion = shamanism 
 capital = "Senqu" 

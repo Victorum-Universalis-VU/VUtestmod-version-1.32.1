@@ -32,7 +32,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2975;3199;sea;8357;-1;-1;-1;-1;Kleve-Essen
 1760;7536;sea;8329;-1;-1;-1;-1;Koblenz-Nastatten
 8471;74;sea;8356;-1;-1;-1;-1;Kaiserslautern-Baden
-1767;8188;sea;8355;-1;-1;-1;-1;Szlavonia-Zombor
+1767;8188;sea;3010;-1;-1;-1;-1;Szlavonia-Zombor
 4706;1756;sea;8344;-1;-1;-1;-1;Tulcea-Basarabia
 7451;7452;sea;7296;-1;-1;-1;-1;Afula-Irbid
 361;5264;sea;8339;-1;-1;-1;-1;Qahira-Giza
@@ -51,10 +51,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3085;7894;sea;8317;-1;-1;-1;-1;Nimes-Arles
 7438;7442;sea;1272;-1;-1;-1;-1;Isles of White-Portsmouth
 7438;234;sea;1272;-1;-1;-1;-1;Isles of White-Hampshire
-3243;2411;sea;1272;-1;-1;-1;-1;Nikitin-Mansur
-3242;7256;sea;8361;-1;-1;-1;-1;Buhogard-Kremenchuk
+3243;2411;sea;3016;-1;-1;-1;-1;Nikitin-Mansur
+3242;7256;sea;3017;-1;-1;-1;-1;Buhogard-Kremenchuk
 303;2418;sea;8366;-1;-1;-1;-1;Saratov-Ukek
-8362;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
+3020;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1365;1347;canal;2390;-1;-1;-1;-1;kra_canal
 7954;6951;sea;8326;-1;-1;-1;-1;Helder-Hoorn
 97;6951;sea;8352;-1;-1;-1;-1;Amsterdam-Hoorn
@@ -73,11 +73,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 113;7076;sea;7309;-1;-1;-1;-1;Ferrara - Chioggia
 8454;3040;sea;1298;-1;-1;-1;-1;Elba - Piombino
 75;72;sea;8356;-1;-1;-1;-1;Strassbourg - Friebourg
-6974;153;sea;8355;-1;-1;-1;-1;Buda - Pest
-4239;1954;sea;8354;-1;-1;-1;-1;Belgrade - Pancevo
+6974;153;sea;3011;-1;-1;-1;-1;Buda - Pest
+4239;1954;sea;3010;-1;-1;-1;-1;Belgrade - Pancevo
 2746;7748;sea;8354;-1;-1;-1;-1;Vidin - Calafat
-7754;150;sea;8344;-1;-1;-1;-1;Turnu - Nigbolu
-159;4531;sea;8344;-1;-1;-1;-1;Silistre - Giurgiu
+7754;150;sea;8354;-1;-1;-1;-1;Turnu - Nigbolu
+159;4531;sea;3004;-1;-1;-1;-1;Silistre - Giurgiu
 4180;5703;sea;1390;-1;-1;-1;-1;Hyuga - Osumi Islands
 5703;5701;sea;1390;-1;-1;-1;-1;Osumi Islands - Amami
 5701;1015;sea;1392;-1;-1;-1;-1;Amami - Okinawa
@@ -124,7 +124,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2954;353;sea;1305;-1;-1;-1;-1;Djerba-Tataouine
 431;2999;sea;1334;-1;-1;-1;-1;Mogostan-Hormuz
 2999;5249;sea;1334;-1;-1;-1;-1;Hormuz-Khasab
-7194;7195;sea;1322;-1;-1;-1;-1;Kinburn-Ochakiv
+7194;7195;sea;8360;-1;-1;-1;-1;Kinburn-Ochakiv
 35;7857;sea;1926;-1;-1;-1;-1;Hiiumaa-Ösel
 3231;35;sea;1256;-1;-1;-1;-1;Haapsalu-Ösel
 4363;4364;sea;1283;-1;-1;-1;-1;Argyll-Inner Hebrides
@@ -132,7 +132,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3137;4364;sea;1283;-1;-1;-1;-1;Ross-Inner Hebrides
 747;2890;sea;1529;-1;-1;-1;-1;Amapa-Marajo
 782;2869;sea;1539;-1;-1;-1;-1;Tierra Del Fuego-Florida Blanca
-782;783;sea;1539;-1;-1;-1;-1;Tierra Del Fuego-Kawesqar
 778;2851;sea;1536;-1;-1;-1;-1;Rio de la Plata-Colonia
 4993;4995;sea;5462;-1;-1;-1;-1;Naujaat-Shugliaq
 4974;5019;sea;1495;-1;-1;-1;-1;Grand Bank-Saint Pierre
@@ -194,7 +193,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7614;13;sea;5494;-1;-1;-1;-1;Langeland-Schleswig
 7611;7610;sea;1258;-1;-1;-1;-1;Mon-Sydsjaeland
 3;3121;sea;1255;-1;-1;-1;-1;Smaland-Kalmar
-227;3108;sea;1292;-1;-1;-1;-1;Lisboa-Setubal
+227;3108;sea;7306;-1;-1;-1;-1;Lisboa-Setubal
+8061;8096;sea;7307;-1;-1;-1;-1;Alcantara-Covilha
 7193;7200;sea;1322;-1;-1;-1;-1;Ichki-KyzylYar
 4700;5131;sea;1319;-1;-1;-1;-1;Lesbos-Ayvalik
 741;502;sea;1522;-1;-1;-1;-1;Cumana-Trinidad
@@ -359,7 +359,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5578;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
 491;2808;sea;1519;-1;-1;-1;-1;Curacao-Coro
 2807;830;sea;1519;-1;-1;-1;-1;Altagracia-Maracaibo
-134;7672;sea;8355;-1;-1;-1;-1;Wein-Donaustadt
+134;7672;sea;3012;-1;-1;-1;-1;Wein-Donaustadt
+133;4761;sea;3013;-1;-1;-1;-1;Linz-Traungau
+7591;4711;sea;8355;-1;-1;-1;-1;Altenmuhr-Donauworth
 6560;1233;sea;5301;-1;-1;-1;-1;Said-Kharga
 1233;6563;sea;5301;-1;-1;-1;-1;Kharga-Esna
 6643;6604;sea;5301;-1;-1;-1;-1;Cara-Ezbet

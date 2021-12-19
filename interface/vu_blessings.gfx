@@ -45,5 +45,25 @@ spriteTypes = {
 		texturefile = "gfx//interface//holy_sites//edessa.dds"
 		loadType = "INGAME"
 	}
+	
+	### Extra Nestorian holy sites ###
+	
+	spriteType = {
+		name = "GFX_holy_site_410"
+		texturefile = "gfx//interface//holy_sites//baghdad.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_holy_site_535"
+		texturefile = "gfx//interface//holy_sites//kochin.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_holy_site_739"
+		texturefile = "gfx//interface//holy_sites//kashgar.dds"
+		loadType = "INGAME"
+	}
 
 }

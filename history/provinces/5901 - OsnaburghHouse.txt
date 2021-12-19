@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+#5901 - OsnaburghHouse 
 
 culture = ojicree
 religion = totemism 

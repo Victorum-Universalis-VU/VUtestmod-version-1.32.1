@@ -211,4 +211,12 @@ country_event = { # Religion we shall bear
 		5591 = { change_religion = sunni }
 		add_prestige = 100
 	}
+	
+	option = { # Convert to nestorian
+		name = vu_bear.3.j
+		highlight = yes
+		change_religion = nestorian
+		5591 = { change_religion = nestorian }
+		add_prestige = 100
+	}
 }

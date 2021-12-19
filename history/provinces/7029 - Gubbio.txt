@@ -33,7 +33,7 @@ discovered_by = eastern
 
 #Second Shattering not used
 
-1502.6.1 = {
+1502.1.1 = {
 	owner = RMG
 	controller = RMG
 	add_core = RMG

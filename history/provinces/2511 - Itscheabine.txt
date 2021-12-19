@@ -1,4 +1,4 @@
-# No previous file for Itscheabine
+# 2511 - Itscheabine
 
 is_city = no
 culture = crow_culture

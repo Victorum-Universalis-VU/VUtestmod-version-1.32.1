@@ -1,5 +1,4 @@
-# No previous file for Mosopelea
-
+#4907 - Mosopelea
 
 culture = osage
 religion = totemism

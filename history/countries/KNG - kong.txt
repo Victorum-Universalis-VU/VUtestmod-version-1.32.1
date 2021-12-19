@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = mali
-add_accepted_culture = dan
+add_accepted_culture = dan_culture
 religion = sunni
 technology_group = sub_saharan
 unlock_cult = yemoja_cult

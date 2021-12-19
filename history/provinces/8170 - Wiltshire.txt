@@ -10,7 +10,7 @@ controller = ENG
 
 #Demographics
 culture = english
-religion = catholic
+religion = lollardy
 
 #Development and Trade
 base_tax = 3

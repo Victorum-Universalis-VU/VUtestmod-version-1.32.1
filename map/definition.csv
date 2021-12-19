@@ -3002,27 +3002,27 @@ province;red;green;blue;x;x
 3001;232;5;5;Skopje;x
 3002;134;198;192;Sarajevo;x
 3003;188;110;220;Euboea;x
-3004;200;80;80;Tyrconnell;x
+3004;52;185;243;Tyrconnell;x
 3005;240;200;80;Oriel;x
 3006;250;170;200;Antrim;x
-3007;170;75;165;Offaly;x
+3007;20;53;254;Offaly;x
 3008;120;120;200;Galloway;x
 3009;170;200;50;Ossory;x
-3010;220;220;100;Ormond;x
-3011;20;180;50;BTPRemoved2for116;x
-3012;150;30;30;Thomond;x
-3013;70;70;200;BTPRemoved3for116;x
+3010;30;30;201;Ormond;x
+3011;62;122;240;Upper_Central_Danube_River;x
+3012;1;90;238;Thomond;x
+3013;50;72;160;Central_Upper_Danube_River;x
 3014;0;170;240;Mayo;x
 3015;10;20;232;Lough Neagh;x
-3016;180;200;30;Mann;x
-3017;20;150;250;BTPRemoved4for116;x
-3018;160;90;160;Argyll;x
+3016;53;0;252;Mann;x
+3017;55;46;221;Central_Dnieper_River;x
+3018;25;105;247;Argyll;x
 3019;70;70;250;Strathclyde;x
-3020;100;50;20;Dumfries;x
-3021;240;120;40;Selkirk;x
-3022;150;50;150;Durham;x
-3023;200;120;50;Leeds;x
-3024;175;65;145;Cheshire;x
+3020;26;177;202;Dumfries;x
+3021;75;123;175;Selkirk;x
+3022;22;187;212;Durham;x
+3023;184;176;147;Leeds;x
+3024;108;117;156;Cheshire;x
 3025;240;230;180;Warwickshire;x
 3026;180;130;100;Leicestershire;x
 3027;140;20;20;Cambridgeshire;x
@@ -6998,7 +6998,7 @@ province;red;green;blue;x;x
 6997;83;140;239;Nansi_Lake
 6998;77;153;3;Northern Territory
 6999;215;148;114;Western Territory
-7000;100;100;8;Trapani
+7000;49;227;186;Rio_Branco
 7001;100;100;83;Caltanissetta
 7002;100;100;158;Catania
 7003;100;100;238;Catanzaro
@@ -8352,7 +8352,7 @@ province;red;green;blue;x;x
 8351;253;22;85;Esk_Estuary
 8352;7;101;126;IJmeer
 8353;19;212;163;Illyrian_Coast
-8354;81;156;106;Central_Danube_River
+8354;81;156;106;Upper_Lower_Danube_River
 8355;7;113;221;Upper_Danube_River
 8356;35;103;245;Upper_Rhine_River
 8357;253;39;254;Lower_Rhine_River

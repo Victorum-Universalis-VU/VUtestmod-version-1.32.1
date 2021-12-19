@@ -1,7 +1,8 @@
-# No previous file for Moran
+#4589 - Moran
 
 owner = CTM
 controller = CTM
+add_core = CTM
 culture = putun
 religion = mesoamerican_religion
 capital = "Moran"
@@ -11,9 +12,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = CTM
-
-
 
 discovered_by = mesoamerican
 
@@ -21,7 +19,8 @@ discovered_by = mesoamerican
 	owner = ITZ
 	controller = ITZ
 	add_core = ITZ 
-	} #Estimated: Itza trade empire. 
+} #Estimated: Itza trade empire. 
+
 1522.1.1 = { discovered_by = SPA }
 
 1697.3.14 = { unrest = 5 } # Spanish attack
