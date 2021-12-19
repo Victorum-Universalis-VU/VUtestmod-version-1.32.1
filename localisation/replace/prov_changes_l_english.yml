@@ -162,8 +162,9 @@
  PROV738:0 "Siraya"
  PROV748:0 "Mairi" #Formerly Belém
  PROV756:0 "Kirimurê"          #Credit to Arga
- PROV761:0 "Caparaó" #Formerly Espirito Santo 
- PROV763:0 "Goanã-pará"          #Credit to Arga
+ PROV761:0 "Caparaó" #Formerly Espirito Santo
+ PROV762:0 "Goitacás"
+ PROV763:0 "Niterói" #Formerly Goanã-pará #Credit to Arga
  PROV766:0 "Piratininga"          #Credit to Arga
  PROV767:0 "Lyck"
  PROV770:0 "Kreva"

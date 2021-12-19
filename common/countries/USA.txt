@@ -7,7 +7,7 @@ random_nation_chance = 0
 
 historical_score = 200
 
-color = { 20  133  237 }
+color = { 69  157  208 }
 revolutionary_colors = { 8 1 8 }
 
 historical_idea_groups = {
@@ -53,7 +53,6 @@ monarch_names = {
 	"Cyrus #0" = 10
 	"David #0" = 10
 	"Elias #0" = 10
-	"Frederick Augustus #0" = 10
 	"Nathaniel #0" = 10
 	"Peyton #0" = 10
 	"Richard #0" = 10
@@ -61,27 +60,26 @@ monarch_names = {
 	"Angus #0" = 0
 	"August #0" = 0
 	"Benjamin #0" = 0
-	"Calvin #0" = 0
+	"Calvin #0" = 5
 	"Darren #0" = 0
 	"Elbridge #0" = 0
-	"Eric #0" = 0
+	"Eric #0" = 5
 	"Francis #0" = 0
 	"Frederick #0" = 0
-	"Isaac #0" = 0
+	"Isaac #0" = 5
 	"Jonathan #0" = 0
-	"Joseph #0" = 0
+	"Joseph #0" = 10
 	"Kyran #0" = 0
 	"Luke #0" = 0
 	"Milton #0" = 0
-	"Patrick #0" = 0
-	"Paul #0" = 0
+	"Patrick #0" = 10
+	"Paul #0" = 10
 	"Philip #0" = 0
 	"Randolf #0" = 0
-	"Silvester #0" = 0
 	"Timothy #0" = 0
 	"Wilbur #0" = 0
-	"William #0" = 0
-	"Alexander #0" = 0
+	"William #0" = 15
+	"Alexander #0" = 15
     "Stephen #0" = 0
 	
     "Deborah #0" = -1
@@ -90,22 +88,22 @@ monarch_names = {
 }
 
 leader_names = {
-	Adams 
-	Burr
-	Clinton
-	Jay Jefferson 
-	Harrison
-	King
-	Langdon
-	Madison Monroe 
-	Pickney
-	Rutledge
-	Starbuck Steed Stryder Sutcliffe Swaggert Stover 
+	Adams Chapman Smith Baker Roberts
+	Burr Johnson Miller Hall Mitchell Carter
+	Clinton Williams Young Campbell
+	Jay Jefferson Brown Allen Evans
+	Harrison Roosevelt Harris Parker
+	King Nelson Jones Walker Turner
+	Langdon Davis Taylor Wright
+	Madison Monroe Knight Scott
+	Pickney Wilson Martin Hill Edwards
+	Rutledge Anderson Clark Stewards
+	Starbuck Steed Stryder Sutcliffe Stover 
 	Stetson Kempton Kendrick Lane Lindon Lyle Merrick 
-	Atworth Arnott Ashton Boyd Caddock Drummond Arkeith
+	Atworth Arnott Ashton Boyd Caddock Drummond
 	Kennedy Trevin Vaughan Dylan Dalton Dellwin Sheldon
-	Spencer Thorley Thompson Unwin Walden Ward Winston
-	Douglas Floyd Richardson
+	Spencer Thorley Thompson Walden Ward Winston
+	Douglas Floyd Richardson Green
 }
 
 ship_names = {

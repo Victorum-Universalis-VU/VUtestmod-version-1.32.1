@@ -806,6 +806,16 @@ buddha_statues = {
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -840,6 +850,16 @@ buddha_statues = {
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -862,8 +882,17 @@ buddha_statues = {
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
 			}
-		}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1034,46 +1063,91 @@ parthenon = {
 
 	#can we build it?
 	build_trigger = {
-		culture = greek
-		AND = {
-			OR = {
+		OR = {
+			AND = {
 				religion_group = pagan
-				has_owner_culture = yes
-				has_owner_accepted_culture = yes
+				has_owner_religion = yes
 			}
-		}
+			AND = {
+				culture = greek
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			AND = {
+				culture = athenian
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+		}	
 	}
 
 	#what to do when it's built
 	on_built = {
-		show_ambient_object = parthenon
+		if = {
+			limit = { 
+				has_global_flag = parthenon_now_mosque 
+			}
+			show_ambient_object = parthenon_minaret
+		}
+		else = {
+			show_ambient_object = parthenon
+		}
 	}
-
+	
 	#what to do when it's destroyed
 	on_destroyed = {
+		hide_ambient_object = parthenon_minaret
 		hide_ambient_object = parthenon
 	}
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		culture = greek
-		AND = {
-			OR = {
+		OR = {
+			AND = {
 				religion_group = pagan
-				has_owner_culture = yes
-				has_owner_accepted_culture = yes
+				has_owner_religion = yes
+			}
+			AND = {
+				culture = greek
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			AND = {
+				culture = athenian
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
 			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		culture = greek
-		AND = {
-			OR = {
+		OR = {
+			AND = {
 				religion_group = pagan
-				has_owner_culture = yes
-				has_owner_accepted_culture = yes
+				has_owner_religion = yes
+			}
+			AND = {
+				culture = greek
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			AND = {
+				culture = athenian
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
 			}
 		}
 	}
@@ -1246,8 +1320,9 @@ forbidden_city = {
 
 	#can we build it?
 	build_trigger = {
-		religion = confucianism
-		has_owner_religion = yes
+		owner = {
+			has_reform = celestial_empire
+		}
 	}
 
 	#what to do when it's built
@@ -1262,14 +1337,16 @@ forbidden_city = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		religion = confucianism
-		has_owner_religion = yes
+		owner = {
+			has_reform = celestial_empire
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		religion = confucianism
-		has_owner_religion = yes
+		owner = {
+			has_reform = celestial_empire
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1456,6 +1533,19 @@ angkor_wat = {
 			AND= {
 				religion_group = dharmic
 				has_owner_religion = yes
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -1488,6 +1578,19 @@ angkor_wat = {
 			AND= {
 				religion_group = dharmic
 				has_owner_religion = yes
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -1510,6 +1613,19 @@ angkor_wat = {
 			AND= {
 				religion_group = dharmic
 				has_owner_religion = yes
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -1701,12 +1817,20 @@ petra = {
 	#can we build it?
 	build_trigger = {
 		OR = {
-			religion = sunni
-			religion_group = christian
-		}
-		OR = {
-			culture = al_suryah_arabic
-			culture = bedouin_arabic
+			AND = {
+				culture = al_suryah_arabic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			AND = {
+				culture = bedouin_arabic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
 		}
 	}
 
@@ -1723,24 +1847,41 @@ petra = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		OR = {
-			religion = sunni
-			religion_group = christian
-		}
-		OR = {
-			culture = al_suryah_arabic
-			culture = bedouin_arabic
+			AND = {
+				culture = al_suryah_arabic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			AND = {
+				culture = bedouin_arabic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 		OR = {
-			religion = sunni
-			religion_group = christian
-		}
-		OR = {
-			culture = al_suryah_arabic
-			culture = bedouin_arabic
+			AND = {
+				culture = al_suryah_arabic
+   
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			AND = {
+				culture = bedouin_arabic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
 		}
 	}
 
@@ -1913,6 +2054,7 @@ cologne_cathedral = {
 	#can we build it?
 	build_trigger = {
 		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -1928,12 +2070,14 @@ cologne_cathedral = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 	    is_year = 1840
 		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2123,6 +2267,10 @@ kremlin = {
 	#can we build it?
 	build_trigger = {
 		culture_group = east_slavic
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#what to do when it's built
@@ -2138,12 +2286,20 @@ kremlin = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		culture_group = east_slavic
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 	    is_year = 1849
 		culture_group = east_slavic
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2314,7 +2470,7 @@ machu_picchu = {
 
 	#can we build it?
 	build_trigger = {
-		culture = inca
+		culture_group = andean_group
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -2333,7 +2489,7 @@ machu_picchu = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		culture = inca
+		culture_group = andean_group
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -2342,7 +2498,7 @@ machu_picchu = {
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		culture = inca
+		culture_group = andean_group
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -2949,6 +3105,10 @@ moai = {
 	#can we build it?
 	build_trigger = {
 		culture = polynesian
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#what to do when it's built
@@ -2964,11 +3124,19 @@ moai = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		culture = polynesian
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 		culture = polynesian
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3982,13 +4150,23 @@ shwedagon_pagoda = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -4014,13 +4192,23 @@ shwedagon_pagoda = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -4041,9 +4229,19 @@ shwedagon_pagoda = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -5477,13 +5675,23 @@ bagan_temples = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -5509,13 +5717,23 @@ bagan_temples = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -5532,13 +5750,23 @@ bagan_temples = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -6305,13 +6533,23 @@ jokhang_temple = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -6337,15 +6575,25 @@ jokhang_temple = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
 			}
-		}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
+		} 
 	}
 
 	#can our country upgrade it?
@@ -6359,15 +6607,25 @@ jokhang_temple = {
 				religion = vajrayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
-			AND= {
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
 			}
-		}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
+		} 
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -6553,12 +6811,25 @@ borobudur_temple = {
 			}
 			AND = {
 				culture = javanese
-				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
 				}
 			}
-		}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
+		}		
 	}
 
 	#what to do when it's built
@@ -6593,6 +6864,20 @@ borobudur_temple = {
 					has_owner_accepted_culture = yes
 				}
 			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
 		}
 	}
 
@@ -6617,6 +6902,20 @@ borobudur_temple = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
 				}
+			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -9200,7 +9499,11 @@ sankin_kotai_palaces = {
 	#can we build it?
 	build_trigger = {
 	    is_year = 1582
-		#anyone
+		culture_group = japanese_g
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#what to do when it's built
@@ -9215,12 +9518,20 @@ sankin_kotai_palaces = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		#anyone
+		culture_group = japanese_g
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		#anyone
+		culture_group = japanese_g
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -11032,6 +11343,20 @@ imperial_city_hue = {
 			owner = {
 				religion = confucianism
 			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
 		}
 	}
 
@@ -11063,6 +11388,20 @@ imperial_city_hue = {
 			owner = {
 				religion = confucianism
 			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
 		}
 	}
 
@@ -11083,6 +11422,20 @@ imperial_city_hue = {
 			}
 			owner = {
 				religion = confucianism
+			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
 			}
 		}
 	}
@@ -11227,6 +11580,7 @@ imperial_city_hue = {
 	}
 }
 
+###NEW MONUMENTS###
 baiturrahman_grand_mosque = {
 	start = 617 #Kutaraja
 	date = 1444.01.01	#1612.01.01
@@ -11291,6 +11645,7 @@ baiturrahman_grand_mosque = {
 		area_modifier = {
 		}
 		country_modifiers = {
+			global_missionary_strength = 0.005
 			church_loyalty_modifier = 0.05
 		}
 		on_upgraded = {
