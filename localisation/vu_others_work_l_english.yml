@@ -1514,15 +1514,15 @@
  COLONIAL_CHILE_Chile:0 "Chile"
  COLONIAL_CHILE_Chile_ADJ:0 "Chilean"
  #
- colonial_paraguay:0 "Colonial Paraguay"
- short_colonial_paraguay:0 "Paraguay"
- COLONIAL_PARAGUAY_Paraguay:0 "Paraguay"
- COLONIAL_PARAGUAY_Paraguay_ADJ:0 "Paraguayan"
+ #colonial_paraguay:0 "Colonial Paraguay"
+ #short_colonial_paraguay:0 "Paraguay"
+ #COLONIAL_PARAGUAY_Paraguay:0 "Paraguay"
+ #COLONIAL_PARAGUAY_Paraguay_ADJ:0 "Paraguayan"
  #
- colonial_uruguay:0 "Colonial Uruguay"
- short_colonial_uruguay:0 "Uruguay"
- COLONIAL_URUGUAY_Uruguay:0 "Uruguay"
- COLONIAL_URUGUAY_Uruguay_ADJ:0 "Uruguayan"
+ #colonial_uruguay:0 "Colonial Uruguay"
+ #short_colonial_uruguay:0 "Uruguay"
+ #COLONIAL_URUGUAY_Uruguay:0 "Uruguay"
+ #COLONIAL_URUGUAY_Uruguay_ADJ:0 "Uruguayan"
  #
  colonial_patagonia:0 "Colonial Patagonia"
  short_colonial_patagonia:0 "Patagonia"
