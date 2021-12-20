@@ -1299,25 +1299,25 @@
  COLONIAL_KENYA_Kenya:0 "Kenya"
  COLONIAL_KENYA_Kenya_ADJ:0 "Kenyan"
  #
- colonial_buganda:0 "Colonial Buganda"
- short_colonial_buganda:0 "Buganda"
- COLONIAL_BUGANDA_Buganda:0 "Buganda"
- COLONIAL_BUGANDA_Buganda_ADJ:0 "Bugandan"
+ colonial_buganda:0 "Colonial African Lakes"
+ short_colonial_buganda:0 "African Great Lakes"
+ COLONIAL_BUGANDA_Buganda:0 "African Great Lakes"
+ COLONIAL_BUGANDA_Buganda_ADJ:0 "African Great Lakes"
  #
- colonial_rawanda:0 "Colonial Ruanda-Urundi"
- short_colonial_rawanda:0 "Ruanda-Urundi"
- COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
- COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
+ #colonial_rawanda:0 "Colonial Ruanda-Urundi"   #Merged with Tanganyika
+ #short_colonial_rawanda:0 "Ruanda-Urundi"
+ #COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
+ #COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
  #
  colonial_somalia:0 "Colonial Somalia"
  short_colonial_somalia:0 "Somalia"
  COLONIAL_SOMALIA_Somalia:0 "Somalia"
  COLONIAL_SOMALIA_Somalia_ADJ:0 "Somalian"
  #
- colonial_eritrea:0 "Colonial Eritrea"
- short_colonial_eritrea:0 "Eritrea"
- COLONIAL_ERITREA_Eritrea:0 "Eritrea"
- COLONIAL_ERITREA_Eritrea_ADJ:0 "Eritrean"
+ #colonial_eritrea:0 "Colonial Eritrea"         #Merged with Ethiopia
+ #short_colonial_eritrea:0 "Eritrea"
+ #COLONIAL_ERITREA_Eritrea:0 "Eritrea"
+ #COLONIAL_ERITREA_Eritrea_ADJ:0 "Eritrean"
  #
  colonial_ethiopia:0 "Colonial Ethiopia"
  short_colonial_ethiopia:0 "Ethiopia"
