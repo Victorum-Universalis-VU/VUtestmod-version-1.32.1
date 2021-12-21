@@ -11,6 +11,7 @@ monarchy = {
 				misl_confederacy_reform
 				rajput_kingdom
 				#Specific:
+				american_monarchy
 				grand_duchy_reform
 				daimyo
 				indep_daimyo
@@ -618,7 +619,11 @@ monarchy = {
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other
-
+	exclusive_reforms = { #MUTUALLY EXLCUSIVE WITH AMERICAN MONARCHY
+		american_monarchy
+		parliamentary_reform
+		states_general_reform
+	}
 	#Flavor
 	exclusive_reforms = {
 		iqta
@@ -725,7 +730,7 @@ republic = {
 	legacy_government = {
 		bureaucratic_despotism
 		revolutionary_republic
-		#constitutional_republic
+		constitutional_republic
 		republican_dictatorship
 		administrative_republic
 		noble_republic
@@ -768,6 +773,7 @@ republic = {
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
 			reforms = {
+			    reinforced_republic
 				oligarchy_reform
 				merchants_reform
 				venice_merchants_reform
@@ -862,6 +868,8 @@ republic = {
 				consolidation_of_power_reform
 				consolidate_power_in_doge_reform
 				consolidate_power_in_cities_reform
+				permanent_marathas_council_reform
+				governmental_purbias_register_reform
 				lottery_reform
 				council_of_the_indies_reform
 				legislative_assembly_reform
@@ -1064,6 +1072,10 @@ republic = {
 		merchants_reform
 		veche_republic
 		federal_republic
+		lottery_reform
+		reinforced_republic
+		nepotism_reform	
+		colonial_government
 		free_city
 		trading_city
 		american_republic
@@ -1575,7 +1587,7 @@ pre_dharma_mapping = {
 	}
 	trading_city = {
 		government = republic
-		legacy_government = imperial_city_legacy
+		legacy_government = imperial_city
 	}
 	ambrosian_republic = {
 		government = republic

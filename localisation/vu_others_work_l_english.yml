@@ -1299,25 +1299,25 @@
  COLONIAL_KENYA_Kenya:0 "Kenya"
  COLONIAL_KENYA_Kenya_ADJ:0 "Kenyan"
  #
- colonial_buganda:0 "Colonial Buganda"
- short_colonial_buganda:0 "Buganda"
- COLONIAL_BUGANDA_Buganda:0 "Buganda"
- COLONIAL_BUGANDA_Buganda_ADJ:0 "Bugandan"
+ colonial_buganda:0 "Colonial African Lakes"
+ short_colonial_buganda:0 "African Great Lakes"
+ COLONIAL_BUGANDA_Buganda:0 "African Great Lakes"
+ COLONIAL_BUGANDA_Buganda_ADJ:0 "African Great Lakes"
  #
- colonial_rawanda:0 "Colonial Ruanda-Urundi"
- short_colonial_rawanda:0 "Ruanda-Urundi"
- COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
- COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
+ #colonial_rawanda:0 "Colonial Ruanda-Urundi"   #Merged with Tanganyika
+ #short_colonial_rawanda:0 "Ruanda-Urundi"
+ #COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
+ #COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
  #
  colonial_somalia:0 "Colonial Somalia"
  short_colonial_somalia:0 "Somalia"
  COLONIAL_SOMALIA_Somalia:0 "Somalia"
  COLONIAL_SOMALIA_Somalia_ADJ:0 "Somalian"
  #
- colonial_eritrea:0 "Colonial Eritrea"
- short_colonial_eritrea:0 "Eritrea"
- COLONIAL_ERITREA_Eritrea:0 "Eritrea"
- COLONIAL_ERITREA_Eritrea_ADJ:0 "Eritrean"
+ #colonial_eritrea:0 "Colonial Eritrea"         #Merged with Ethiopia
+ #short_colonial_eritrea:0 "Eritrea"
+ #COLONIAL_ERITREA_Eritrea:0 "Eritrea"
+ #COLONIAL_ERITREA_Eritrea_ADJ:0 "Eritrean"
  #
  colonial_ethiopia:0 "Colonial Ethiopia"
  short_colonial_ethiopia:0 "Ethiopia"
@@ -1514,15 +1514,15 @@
  COLONIAL_CHILE_Chile:0 "Chile"
  COLONIAL_CHILE_Chile_ADJ:0 "Chilean"
  #
- colonial_paraguay:0 "Colonial Paraguay"
- short_colonial_paraguay:0 "Paraguay"
- COLONIAL_PARAGUAY_Paraguay:0 "Paraguay"
- COLONIAL_PARAGUAY_Paraguay_ADJ:0 "Paraguayan"
+ #colonial_paraguay:0 "Colonial Paraguay"
+ #short_colonial_paraguay:0 "Paraguay"
+ #COLONIAL_PARAGUAY_Paraguay:0 "Paraguay"
+ #COLONIAL_PARAGUAY_Paraguay_ADJ:0 "Paraguayan"
  #
- colonial_uruguay:0 "Colonial Uruguay"
- short_colonial_uruguay:0 "Uruguay"
- COLONIAL_URUGUAY_Uruguay:0 "Uruguay"
- COLONIAL_URUGUAY_Uruguay_ADJ:0 "Uruguayan"
+ #colonial_uruguay:0 "Colonial Uruguay"
+ #short_colonial_uruguay:0 "Uruguay"
+ #COLONIAL_URUGUAY_Uruguay:0 "Uruguay"
+ #COLONIAL_URUGUAY_Uruguay_ADJ:0 "Uruguayan"
  #
  colonial_patagonia:0 "Colonial Patagonia"
  short_colonial_patagonia:0 "Patagonia"
@@ -2120,10 +2120,21 @@
  
  PHI:0 "Philippines"
  PHI_ADJ:0 "Filipino"
+ 
  colonial_guyanas:0 "Colonial Guyanas"
  short_colonial_guyanas:0 "Guyanas"
  COLONIAL_GUYANA_Guyanas:0 "Guyanas"
- COLONIAL_GUYANA_Guyanas_ADJ:0 "Guyanese"              
+ COLONIAL_GUYANA_Guyanas_ADJ:0 "Guyanese"
+ 
+ colonial_maranhao:0 "Colonial Maranhão"
+ short_colonial_maranhao:0 "Maranhão"
+ COLONIAL_MARANHAO_Maranhao:0 "Maranhão"
+ COLONIAL_MARANHAO_Maranhao_ADJ:0 "Maranhense"
+ 
+ colonial_mato_grosso:0 "Colonial Mato Grosso"
+ short_colonial_mato_grosso:0 "Mato Grosso"
+ COLONIAL_MATO_GROSSO_Mato_grosso:0 "Mato Grosso"
+ COLONIAL_MATO_GROSSO_Mato_grosso_ADJ:0 "Mato Grossense"
 
  #################################################################################
  #################################################################################
