@@ -1962,7 +1962,7 @@ colonial_tanganyika = {
 	}
 
 	provinces = {
-		1273 1649 1798 1196 1197 1198 1199 1200 1201 1448 4041 4042 4043 4055 4056 4057 4058 4059 4061 4063 4069 4071 4072 4073 4076 4077 5338
+		1273 1649 1798 1196 1197 1198 1199 1200 1201 1448 4041 4042 4043 4055 4056 4057 4058 4059 4061 4063 4067 4069 4070 4071 4072 4073 4076 4077 5144 5214 5215 5216 5338
 	}
 	
 	# Generic
@@ -2006,7 +2006,7 @@ colonial_kenya = {
 	}
 }
 
-# Buganda
+# Buganda / African Great Lakes
 colonial_buganda = {
 	color = { 245 171 121 }
 
@@ -2031,7 +2031,7 @@ colonial_buganda = {
 	}
 
 	provinces = {
-		4062 4064 4065 4066 4074 4075 
+		4062 4064 4065 4066 4074 4075
 	}
 	
 	# Generic
@@ -2041,38 +2041,38 @@ colonial_buganda = {
 }
 
 # Rawanda
-colonial_rawanda = {
-	color = { 123 161 130 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-
-	trade_goods = {
-		grain = 10
-		fruit = 10
-	}
-
-	culture = {
-		rwandan = 10
-		ganda = 4
-	}
-
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		4067 4070 5144 5214 5215 5216
-	}
-	
-	# Generic
-	names = {
-		name = "COLONIAL_RAWANDA_Rawanda"
-	}
-}
+#colonial_rawanda = {	#Merged with Uganda into African Great Lakes
+#	color = { 123 161 130 }
+#
+#	# Random New World
+#	tax_income = 0
+#	native_size = 10
+#	native_ferocity = 1
+#	native_hostileness = 3
+#
+#	trade_goods = {
+#		grain = 10
+#		fruit = 10
+#	}
+#
+#	culture = {
+#		rwandan = 10
+#		ganda = 4
+#	}
+#
+#	religion = {
+#		shamanism = 10
+#	}
+#
+#	provinces = {
+#		4067 4070 5144 5214 5215 5216
+#	}
+#	
+#	# Generic
+#	names = {
+#		name = "COLONIAL_RAWANDA_Rawanda"
+#	}
+#}
 
 # Somalia
 colonial_somalia = {
@@ -2108,38 +2108,37 @@ colonial_somalia = {
 }
 
 # Eritrea
-colonial_eritrea = {
-	color = { 91 95 95 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-
-	trade_goods = {
-		grain = 10
-		fish = 10
-	}
-
-	culture = {
-		tigray = 10
-		afar = 2
-	}
-
-	religion = {
-		coptic = 10
-	}
-
-	provinces = {
-		1215 1230 2765 2766 2787 5288 5297 5298 
-	}
-	
-	# Generic
-	names = {
-		name = "COLONIAL_ERITREA_Eritrea"
-	}
-}
+#colonial_eritrea = {	#Merged with Ehtiopia as it was for the most of History
+#	color = { 91 95 95 }
+#
+#	# Random New World
+#	tax_income = 0
+#	native_size = 10
+#	native_ferocity = 1
+#	native_hostileness = 3
+#
+#	trade_goods = {
+#		grain = 10
+#		fish = 10
+#	}
+#	culture = {
+#		tigray = 10
+#		afar = 2
+#	}
+#
+#	religion = {
+#		coptic = 10
+#	}
+#
+#	provinces = {
+#		1215 1230 2765 2766 2787 5288 5297 5298 
+#	}
+#	
+#	# Generic
+#	names = {
+#		name = "COLONIAL_ERITREA_Eritrea"
+#	}
+#}
 
 # Ethiopia
 colonial_ethiopia = {
@@ -2168,8 +2167,8 @@ colonial_ethiopia = {
 	}
 
 	provinces = {
-		1099 1207 1208 1210 1211 1213 1214 1218 1223 1224 1227 1799 2756 2757 2758 2759 2760 2761 2762 2763 2764 2767 
-		2768 2769 2770 2771 2772 2773 2778 2779 2791 4158
+		1099 1207 1208 1210 1211 1213 1214 1215 1218 1223 1224 1227 1230 1799 2756 2757 2758 2759 2760 2761 2762 2763 2764 2765 2766 2767 2787
+		2768 2769 2770 2771 2772 2773 2778 2779 2791 4158 5288 5297 5298 
 	}
 	
 	# Generic
@@ -3421,7 +3420,7 @@ colonial_bolivia = {
 	}
 
 	provinces = {
-		793 795 796 797 800 801 802 803 2831 2832 2834 2835 2838 2882 2940 2941 2942 2946
+		795 797 800 801 802 803 2831 2832 2834 2835 2838 2839 2840 2841 2882 2940 2941 2942 2946 7000
 	}
 	
 	# Generic
@@ -3460,7 +3459,7 @@ colonial_chile = {
 	}
 
 	provinces = {
-		783 784 787 792 2839 2840 2841 2862 2873 2874
+		783 784 787 792 2862 2873 2874
 	}
 	
 	# Generic
