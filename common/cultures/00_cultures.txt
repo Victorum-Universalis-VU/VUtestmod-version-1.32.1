@@ -1424,23 +1424,12 @@ british	= {
 	english = {
 		primary = ENG
 		dynasty_names = {
-<<<<<<< HEAD
-			Plantagenet Lancaster York Tudor Dudley Mowbray Beaufort Neville Percy Howard Seymour Holland Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford Grey Mortimer "le Despenser" "de Camoys" Oglethorpe Hyde Turberville Butler Montagu Beauchamp Raleigh Stratford
-		}
-		male_names = {
-			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald Benjamin Christopher Daniel David Ernest Francis Geoffrey Guy Horatio Hugh Isaac Jeremy Jonathan Joseph Lawrence Matthew Nehemiah Oliver Samuel Sydney
-
-			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David Edmund Edward Eric Erik Eustace Fulk Folke Geoffrey George Gerald Gilbert Godfrey Gregory Guy Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Marcus Martin Matthew Maurice Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest Francis Horatio Isaac Jeremy Jonathan Joseph Lawrence Nehemiah Oliver Samuel Sydney
-		}
-		female_names = {
-			Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Elisabeth Joan Joanna Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
-		}
-=======
 			Plantagenet Lancaster York Tudor Dudley Mowbray Beaufort Neville Percy Howard Seymour Holland 
 			Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford Grey Mortimer "le Despenser" "de Camoys" 
 			"Oglethorpe" Hyde 
 			# CKII
 			"Turberville" "Butler" "Montagu" "Beauchamp" "Raleigh" "Stratford"
+		}
 		male_names = {
 			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund 
 			George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald 
@@ -1452,11 +1441,12 @@ british	= {
 			Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen 
 			Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest 
 			Francis Horatio Isaac Jeremy Jonathan Joseph Lawrence Nehemiah Oliver Samuel Sydney
+		}
 		female_names = {
 			Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia 
 			Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Elisabeth Joan Joanna	
 			Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
->>>>>>> 27a07a33bd4fcad01965acd998cb3fe092055473
+		}
 	}
 	american = {
 		primary = USA
@@ -2653,7 +2643,7 @@ south_slavic = {
 			Vedrana Visnja Vjekoslava Zlata Zvonimira Valerija Katalin
 		}
 		dynasty_names = {
-		Trpimirovic Mihaljevic Subic Hrvatinic Kosaca Vukcic Vukasin Dukasin Babonic Frankopan Kacic Draskovic Bebek Svetoslavic "Krešimirovic" Domagojevic "Feštetic" Gorjanski Svacic Kobilic Lackovic "Šubic" Berislavic Nepilic Jalacic Zrinski Garaj Eltz Kaboga Crnkovic Cerva Rubido Kosovic Kresimirovic Kotromanic Brankovic Lazarevic Ibrahimovic
+		Trpimirovic Mihaljevic Subic Hrvatinic Kosaca Vukcic Vukasin Dukasin Babonic Frankopan Kacic Draskovic Bebek Svetoslavic "Kre?imirovic" Domagojevic "Fe?tetic" Gorjanski Svacic Kobilic Lackovic "?ubic" Berislavic Nepilic Jalacic Zrinski Garaj Eltz Kaboga Crnkovic Cerva Rubido Kosovic Kresimirovic Kotromanic Brankovic Lazarevic Ibrahimovic
 		}
 	}
 	serbian = {
@@ -2673,7 +2663,7 @@ south_slavic = {
 			Adriana Anna Borislava Cededa Doroteja Dorothy Ekaterina Catherine Helena Helen Jadviga 
 			Jovana Kera Ladika Maria Maria Mihaela Nada Petra Viola Yolanda Jadranka Mare
 			Antonija Capeka Dragana Dubravka Emilija Emily Gordana Jagoda Jelena Jelka Lucija Lucia 
-			Catherine Marija Maria Marijana Mirjana Mirna Mojca Natalija NataŠa
+			Catherine Marija Maria Marijana Mirjana Mirna Mojca Natalija Nata?a
 			Rijeka Silvija Snjezana Sofija Sophia Suzana Susana Svjetlana Suronja Tatjana Tihana 
 			Vedrana Visnja Vjekoslava Zlata Zvonimira Valerija Katalin
 		}
@@ -2749,13 +2739,13 @@ west_slavic = {
 	czech = {
 		primary = BOH
 		dynasty_names = {
-			"Jankovský z Vlašimi" Chotek Lichnowsky Lobkowicz Nostitz Kutscha 
+			"Jankovský z Vla?imi" Chotek Lichnowsky Lobkowicz Nostitz Kutscha 
 			Kounic Vítkovec Zerotín Czernín "von Harrach" Kinsky Rosenberg
 			Waldstein Jeszenszky
 		}
 		male_names = {
 			Václav Jirí Karel Premysl Premysl Zikmund Frantisek Jindrich Josef Frantisek Josef Bocek Jirí 
-			Vladislav Vladimír Petr Petr Viktorín Jan Václav Josef Václav Karel Josef Matyáš Ferdinand 
+			Vladislav Vladimír Petr Petr Viktorín Jan Václav Josef Václav Karel Josef Matyá? Ferdinand 
 			Vratislav Boleslav Vilém Viktor Jaromír Jaroslav Ludvík Otakar
 		}
 		female_names = {
@@ -2835,8 +2825,8 @@ west_slavic = {
 			Maria Anna Alzbeta Ludmila Eva Jaroslava Jarmila Amalia Margareta Hana			 
 		}
 		dynasty_names = {
-			Stibor Bel Kollar Podmanický Hatnanský Pongrac Bosniak Veseléni Zichy Turzo Andráši
-			Zapolský Palfi Cáki Balaša Báthory
+			Stibor Bel Kollar Podmanický Hatnanský Pongrac Bosniak Veseléni Zichy Turzo Andrá?i
+			Zapolský Palfi Cáki Bala?a Báthory
 		}
 	}
 	sorbian = {
@@ -2881,7 +2871,7 @@ west_slavic = {
 		Poniatowski Radziwill Zamoyski Potocki Lubomirski 
 		Premyslovci Podebrad 
 		# CKII
-		"Jankovský z Vlašimi" Chotek Lichnowsky
+		"Jankovský z Vla?imi" Chotek Lichnowsky
 		Kounic Vítkovec Zerotín Czernín "von Harrach"
 	}
 	male_names = {
@@ -3238,10 +3228,10 @@ baltic	= {
 			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
 		}
 		female_names = {
-			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Aušra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
-			Edita Egle Elena Elžbieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
+			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Au?ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
+			Edita Egle Elena El?bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
 			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
-			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Rože Ruta Sandra Saule 
+			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Ro?e Ruta Sandra Saule 
 			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
 		}
 		dynasty_names = {
@@ -3307,10 +3297,10 @@ baltic	= {
 			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
 		}
 		female_names = {
-			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Aušra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
-			Edita Egle Elena Elžbieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
+			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Au?ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
+			Edita Egle Elena El?bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
 			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
-			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Rože Ruta Sandra Saule 
+			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Ro?e Ruta Sandra Saule 
 			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
 		}
 	}
@@ -4198,46 +4188,46 @@ iranian	= {
 			Khalid Nawaub Salim Abdolla Mahmoud Ibrahim Abdurrahman Kulos Isa Mir Saifeddin Saidi Budak
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
 			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir 
-			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
-			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Ekber Akbar Elî Ali 
-			Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir Esfendiyar Esfandiar 
-			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Cehan?ah Jahanshah Cem?îd Jamshid Cevid Javeed Danû? Danush Darab Daryû? Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Ef?er Afshar Ehmed Ahmad Ehsan Ekber Akbar Elî Ali 
+			Enû?irwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erde?îr Ardeshir Esfendiyar Esfandiar 
+			Eskander Alexander E?ot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
 			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid Ferîdun Feridun Ferux Farroukh 
 			Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun Firdews Ferdows Ghobad Gholam Godarz 
-			Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat Hesen Hasan Hisên Hussein Hormoz Hosen 
+			Go?tasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat Hesen Hasan Hisên Hussein Hormoz Hosen 
 			Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz Kamran Keyghobad Keyxusrew Keykhosrau Kâvus 
-			Kavoos Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
-			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud Mihemed Muhammad Mîrza 
+			Kavoos Kûru?ê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menû?ihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud Mihemed Muhammad Mîrza 
 			Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid Nesir Nazir Nesr Nasr 
-			Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz Revend 
+			Nezam No?îrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pê?eng Pashang Pîroz Peroz Revend 
 			Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb Vahhab 
-			Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar Xašayar 
-			Khashayar Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar 
-			Yezîd Yazid Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia Šadî Shadhi Šahab Shahab Šahbaz 
-			Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar Shahryar Šahrux Shahrokh Šahruz 
-			Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan Šîrkûh Shirkuh
+			Vahid Vahusdan Wahustan Vali Var?asp Varshasb Vî?tap Vishtasb Xarmandar Kharmandar Xa?ayar 
+			Khashayar Xur?îd Khurshid Xusrew Khosrau Xu?yar Hooshyar Xwedadad Khodadad Xwedayar Khudayar 
+			Yezîd Yazid Yousef Zahak Zakaria Zand Zerde?t Zartosht Zia ?adî Shadhi ?ahab Shahab ?ahbaz 
+			Shahbaz ?ahen?ah Shahanshah ?ahin Shahin ?ahram Shahram ?ahryar Shahryar ?ahrux Shahrokh ?ahruz 
+			Shahruz ?apur Shapur ?arvin Sharwin ?awur Shavur ?ayan Shayan ?îrkûh Shirkuh
 		}
 		female_names = {
-			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
-			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis 
-			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
-			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn A?tî 
+			Badil Bahar Balnex?în Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis 
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bex?în Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binef? Binev? Biyan Bi?koj Bi?kurîn Bohar Bênaz Bêrîcan Bêrîvan 
 			Burandoxt Pourandokht Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber 
-			Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan 
-			Dîristan Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan 
-			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz 
+			Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxo? Dilxwe? Diyarî Doman Dêrsim Dîlan 
+			Dîristan Esmercan Esmerxan Estêre Evîn Ewrîn Ey?an Ezcan Felek Fener Fera?în Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar Golbahar Gul?en Gulnar Gulnaz Golnaz 
 			Gêlas Helez Heliz Helvîn Hemayîl Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn 
-			Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan 
+			Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza Ma?a Mebest Mehrîban Mehrîcan Mehrîvan 
 			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
-			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
-			Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan 
-			Nîštîman Perjîn Pervîn Perwane Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan 
-			Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng Rana Rengîn Rewša Rewšen 
-			Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken 
+			Mîran Narîman Narîncan Navbihar Nawxo? Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nex?în Ne?mîl Ne?mîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nî?an 
+			Nî?tîman Perjîn Pervîn Perwane Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perî?an 
+			Pex?an Peyman Pirjîn Pir?eng Pir?ing Pore Por?eng Pêlîn Pîroz Pî?eng Rana Rengîn Rew?a Rew?en 
+			Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûge? Rûken 
 			Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn Xêlîcan Xonçe 
-			Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
-			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî 
-			Šîwen Atiya
+			Ghoncheh Zernî?an Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			?ana ?anaz ?ayan ?ehrîban ?elal ?emam ?engê ?epal ?epirze ?ermîn ?evba ?evîn ?êlaz ?îlan ?înî 
+			?îwen Atiya
 		}
 	}
 	khorasani = {
@@ -4266,55 +4256,55 @@ iranian	= {
 			Shahzad Hasan Chakar Mir
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
 			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
-			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
-			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan
-			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Cehan?ah Jahanshah Cem?îd Jamshid Cevid Javeed Danû? Danush Darab Daryû? Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Ef?er Afshar Ehmed Ahmad Ehsan
+			Ekber Akbar Elî Ali Enû?irwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erde?îr Ardeshir 
 			Esfendiyar Esfandiar
-			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Eskander Alexander E?ot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
 			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
 			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
-			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Firdews Ferdows Ghobad Gholam Godarz Go?tasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
 			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
 			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
-			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
-			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Kûru?ê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menû?ihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
 			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
 			Nesir Nazir
-			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Nesr Nasr Nezam No?îrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pê?eng Pashang Pîroz Peroz 
 			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
-			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
-			Xašayar Khashayar 
-			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
-			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
-			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
-			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
-			Šîrkûh Shirkuh
+			Vahhab Vahid Vahusdan Wahustan Vali Var?asp Varshasb Vî?tap Vishtasb Xarmandar Kharmandar 
+			Xa?ayar Khashayar 
+			Xur?îd Khurshid Xusrew Khosrau Xu?yar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerde?t Zartosht Zia
+			?adî Shadhi ?ahab Shahab ?ahbaz Shahbaz ?ahen?ah Shahanshah ?ahin Shahin ?ahram Shahram ?ahryar 
+			Shahryar ?ahrux Shahrokh ?ahruz Shahruz ?apur Shapur ?arvin Sharwin ?awur Shavur ?ayan Shayan 
+			?îrkûh Shirkuh
 		}
 		female_names = {
-			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
-			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
-			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
-			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn A?tî 
+			Badil Bahar Balnex?în Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bex?în Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binef? Binev? Biyan Bi?koj Bi?kurîn Bohar Bênaz Bêrîcan Bêrîvan 
 			Burandoxt Pourandokht
 			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
-			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxo? Dilxwe? Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
 			Esmerxan Khonza Ashraf Khanam Nur Khair Bibi
-			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
-			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Estêre Evîn Ewrîn Ey?an Ezcan Felek Fener Fera?în Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gul?en Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
 			Hemayîl 
 			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
-			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Lêlav Lêvken Lîlyan Lîza Ma?a Mebest Mehrîban Mehrîcan Mehrîvan
 			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
-			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
-			Nermîn Nesrîn Newbohar Nexšîn
-			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
-			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
-			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
-			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
-			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
-			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
-			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
-			Šêlaz Šîlan Šînî Šîwen
+			Mîran Narîman Narîncan Navbihar Nawxo? Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nex?în
+			Ne?mîl Ne?mîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nî?an Nî?tîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perî?an Pex?an Peyman Pirjîn Pir?eng 
+			Pir?ing Pore Por?eng Pêlîn Pîroz Pî?eng 
+			Rana Rengîn Rew?a Rew?en Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûge? Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernî?an Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê ?ana ?anaz ?ayan ?ehrîban ?elal ?emam ?engê ?epal ?epirze ?ermîn ?evba ?evîn 
+			?êlaz ?îlan ?înî ?îwen
 		}
 	}
 	afghani= {
@@ -4322,55 +4312,55 @@ iranian	= {
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
 			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
-			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
-			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
-			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Cehan?ah Jahanshah Cem?îd Jamshid Cevid Javeed Danû? Danush Darab Daryû? Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Ef?er Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enû?irwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erde?îr Ardeshir 
 			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
-			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Eskander Alexander E?ot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
 			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
 			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
-			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Firdews Ferdows Ghobad Gholam Godarz Go?tasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
 			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
 			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
-			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
-			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Kûru?ê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menû?ihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
 			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
 			Nesir Nazir Mahmud Ayub
-			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Nesr Nasr Nezam No?îrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pê?eng Pashang Pîroz Peroz 
 			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
-			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
-			Xašayar Khashayar 
-			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
-			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
-			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
-			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
-			Šîrkûh Shirkuh
+			Vahhab Vahid Vahusdan Wahustan Vali Var?asp Varshasb Vî?tap Vishtasb Xarmandar Kharmandar 
+			Xa?ayar Khashayar 
+			Xur?îd Khurshid Xusrew Khosrau Xu?yar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerde?t Zartosht Zia
+			?adî Shadhi ?ahab Shahab ?ahbaz Shahbaz ?ahen?ah Shahanshah ?ahin Shahin ?ahram Shahram ?ahryar 
+			Shahryar ?ahrux Shahrokh ?ahruz Shahruz ?apur Shapur ?arvin Sharwin ?awur Shavur ?ayan Shayan 
+			?îrkûh Shirkuh
 		}
 		female_names = {
-			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
-			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
-			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
-			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn A?tî 
+			Badil Bahar Balnex?în Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bex?în Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binef? Binev? Biyan Bi?koj Bi?kurîn Bohar Bênaz Bêrîcan Bêrîvan 
 			Burandoxt Pourandokht
 			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
-			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxo? Dilxwe? Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
 			Esmerxan Nawal
-			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
-			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Estêre Evîn Ewrîn Ey?an Ezcan Felek Fener Fera?în Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gul?en Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
 			Hemayîl 
 			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
-			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Lêlav Lêvken Lîlyan Lîza Ma?a Mebest Mehrîban Mehrîcan Mehrîvan
 			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
-			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
-			Nermîn Nesrîn Newbohar Nexšîn
-			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
-			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
-			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
-			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
-			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
-			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
-			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
-			Šêlaz Šîlan Šînî Šîwen
+			Mîran Narîman Narîncan Navbihar Nawxo? Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nex?în
+			Ne?mîl Ne?mîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nî?an Nî?tîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perî?an Pex?an Peyman Pirjîn Pir?eng 
+			Pir?ing Pore Por?eng Pêlîn Pîroz Pî?eng 
+			Rana Rengîn Rew?a Rew?en Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûge? Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernî?an Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê ?ana ?anaz ?ayan ?ehrîban ?elal ?emam ?engê ?epal ?epirze ?ermîn ?evba ?evîn 
+			?êlaz ?îlan ?înî ?îwen
 		}
 	}
 	kurdish = {
@@ -4384,46 +4374,46 @@ iranian	= {
 			Khalid Nawaub Salim Abdolla Mahmoud Ibrahim Abdurrahman Kulos Isa Mir Saifeddin Saidi Budak
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
 			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir 
-			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
-			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Ekber Akbar Elî Ali 
-			Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir Esfendiyar Esfandiar 
-			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Cehan?ah Jahanshah Cem?îd Jamshid Cevid Javeed Danû? Danush Darab Daryû? Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Ef?er Afshar Ehmed Ahmad Ehsan Ekber Akbar Elî Ali 
+			Enû?irwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erde?îr Ardeshir Esfendiyar Esfandiar 
+			Eskander Alexander E?ot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
 			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid Ferîdun Feridun Ferux Farroukh 
 			Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun Firdews Ferdows Ghobad Gholam Godarz 
-			Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat Hesen Hasan Hisên Hussein Hormoz Hosen 
+			Go?tasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat Hesen Hasan Hisên Hussein Hormoz Hosen 
 			Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz Kamran Keyghobad Keyxusrew Keykhosrau Kâvus 
-			Kavoos Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
-			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud Mihemed Muhammad Mîrza 
+			Kavoos Kûru?ê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menû?ihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud Mihemed Muhammad Mîrza 
 			Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid Nesir Nazir Nesr Nasr 
-			Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz Revend 
+			Nezam No?îrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pê?eng Pashang Pîroz Peroz Revend 
 			Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb Vahhab 
-			Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar Xašayar 
-			Khashayar Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar 
-			Yezîd Yazid Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia Šadî Shadhi Šahab Shahab Šahbaz 
-			Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar Shahryar Šahrux Shahrokh Šahruz 
-			Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan Šîrkûh Shirkuh
+			Vahid Vahusdan Wahustan Vali Var?asp Varshasb Vî?tap Vishtasb Xarmandar Kharmandar Xa?ayar 
+			Khashayar Xur?îd Khurshid Xusrew Khosrau Xu?yar Hooshyar Xwedadad Khodadad Xwedayar Khudayar 
+			Yezîd Yazid Yousef Zahak Zakaria Zand Zerde?t Zartosht Zia ?adî Shadhi ?ahab Shahab ?ahbaz 
+			Shahbaz ?ahen?ah Shahanshah ?ahin Shahin ?ahram Shahram ?ahryar Shahryar ?ahrux Shahrokh ?ahruz 
+			Shahruz ?apur Shapur ?arvin Sharwin ?awur Shavur ?ayan Shayan ?îrkûh Shirkuh
 		}
 		female_names = {
-			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
-			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis 
-			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
-			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn A?tî 
+			Badil Bahar Balnex?în Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis 
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bex?în Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binef? Binev? Biyan Bi?koj Bi?kurîn Bohar Bênaz Bêrîcan Bêrîvan 
 			Burandoxt Pourandokht Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber 
-			Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan 
-			Dîristan Esmercan Esmerxan Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan 
-			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz 
+			Dilcan Dildar Dilgerm Dilistan Dilkanî Dilnaz Dilvîn Dilxo? Dilxwe? Diyarî Doman Dêrsim Dîlan 
+			Dîristan Esmercan Esmerxan Estêre Evîn Ewrîn Ey?an Ezcan Felek Fener Fera?în Firmêsk Fîdan 
+			Gazî Gelavêj Gerdengaz Gozel Gozê Grîvan Guhtem Gulbehar Golbahar Gul?en Gulnar Gulnaz Golnaz 
 			Gêlas Helez Heliz Helvîn Hemayîl Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn 
-			Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan 
+			Lolav Lorkê Lorî Lorîcan Lorîn Lêlav Lêvken Lîlyan Lîza Ma?a Mebest Mehrîban Mehrîcan Mehrîvan 
 			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
-			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
-			Nermîn Nesrîn Newbohar Nexšîn Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan 
-			Nîštîman Perjîn Pervîn Perwane Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan 
-			Pexšan Peyman Pirjîn Piršeng Piršing Pore Poršeng Pêlîn Pîroz Pîšeng Rana Rengîn Rewša Rewšen 
-			Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûgeš Rûken 
+			Mîran Narîman Narîncan Navbihar Nawxo? Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nex?în Ne?mîl Ne?mîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nî?an 
+			Nî?tîman Perjîn Pervîn Perwane Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perî?an 
+			Pex?an Peyman Pirjîn Pir?eng Pir?ing Pore Por?eng Pêlîn Pîroz Pî?eng Rana Rengîn Rew?a Rew?en 
+			Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken Rûciwan Rûge? Rûken 
 			Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn Xêlîcan Xonçe 
-			Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
-			Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn Šêlaz Šîlan Šînî 
-			Šîwen Atiya
+			Ghoncheh Zernî?an Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
+			?ana ?anaz ?ayan ?ehrîban ?elal ?emam ?engê ?epal ?epirze ?ermîn ?evba ?evîn ?êlaz ?îlan ?înî 
+			?îwen Atiya
 		}
 	}
 	mazandarani = {
@@ -11422,7 +11412,7 @@ cushitic = {
 			Krisanthos Chrystanthos Kuriakos Kyriakos Kurillos Cyril Lazaros Lazarus Leon Leo Leontios 
 			Leontius Makarios Makarius Mariana Mariankouda Marianos Marianus Marios Marius Markos Marcus 
 			Marturophoros
-			Mašanñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
+			Ma?anñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
 			Michaêlkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
 			Paulos Paul Petros Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson 
 			Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomôn Solomon Sotinkouda Stephanos 
@@ -11436,7 +11426,7 @@ cushitic = {
 			Entaeiri Eôneille Ephannê Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
 			Genseoua Hellene Helen Hemene Iannia Joan Iêsousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
 			Keudonia Kurake Kyriake Maraña Maria Maria Mariam Maria Mariane Marianou Michaêliko Michaela 
-			Ñašša Ñeššadena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
+			Ña??a Ñe??adena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
 			Patricia Pelagia Gulzar Maram
 			Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
 			Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
@@ -11488,7 +11478,7 @@ sudanese = {
 		Krisanthos Chrystanthos Kuriakos Kyriakos Kurillos Cyril Lazaros Lazarus Leon Leo Leontios 
 		Leontius Makarios Makarius Mariana Mariankouda Marianos Marianus Marios Marius Markos Marcus 
 		Marturophoros
-		Mašanñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
+		Ma?anñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
 		Michaêlkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
 		Paulos Paul Petros Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson 
 		Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomôn Solomon Sotinkouda Stephanos 
@@ -11502,7 +11492,7 @@ sudanese = {
 		Entaeiri Eôneille Ephannê Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
 		Genseoua Hellene Helen Hemene Iannia Joan Iêsousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
 		Keudonia Kurake Kyriake Maraña Maria Maria Mariam Maria Mariane Marianou Michaêliko Michaela 
-		Ñašša Ñeššadena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
+		Ña??a Ñe??adena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
 		Patricia Pelagia Gulzar Maram
 		Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
 		Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
@@ -12745,7 +12735,7 @@ turkish_g = {
 			Ali Davut Hasan Hüseyin Ishak Kamer Kasim Korkut Emin Iskender Halil Sait Hamit Ertugrul Izzettin 
 			Nizamettin Sinan Ferhat Salih Ismail Cüneyt Bahadir Hizir Harun Cemal Inal Celalettin Ilyas 
 			Dursun Ramazan Recep Abdulrahman Hayrettin
-			Çagri Çaka Afsin Ahmet Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz 
+			Çagri Çaka Afsin Ahmet Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz 
 			Aydin Aydogan Aydogdu Aytekin Böru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars 
 			Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak Cuneyd Dundar Danismend Davud David 
 			Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan Hasan Hizir Ibrahim Ilgazi 
@@ -12849,7 +12839,7 @@ saharan_group = {
 			Krisanthos Chrystanthos Kuriakos Kyriakos Kurillos Cyril Lazaros Lazarus Leon Leo Leontios 
 			Leontius Makarios Makarius Mariana Mariankouda Marianos Marianus Marios Marius Markos Marcus 
 			Marturophoros
-			Mašanñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
+			Ma?anñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
 			Michaêlkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
 			Paulos Paul Petros Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson 
 			Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomôn Solomon Sotinkouda Stephanos 
@@ -12863,7 +12853,7 @@ saharan_group = {
 			Entaeiri Eôneille Ephannê Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
 			Genseoua Hellene Helen Hemene Iannia Joan Iêsousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
 			Keudonia Kurake Kyriake Maraña Maria Maria Mariam Maria Mariane Marianou Michaêliko Michaela 
-			Ñašša Ñeššadena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
+			Ña??a Ñe??adena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
 			Patricia Pelagia Gulzar Maram
 			Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
 			Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka

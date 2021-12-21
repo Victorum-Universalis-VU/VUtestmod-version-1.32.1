@@ -484,7 +484,7 @@ stonehenge = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 		    local_manpower_modifier = 0.30
-			local_warscore_cost_modifier = 0.3
+			#local_warscore_cost_modifier = 0.3 #This modifier does not exist
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -672,10 +672,6 @@ tower_of_london = {
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
 	}
 
 	tier_2 = {
@@ -707,10 +703,6 @@ tower_of_london = {
 			shock_damage_received = -0.1
 			own_coast_naval_combat_bonus = 1.0
 			global_naval_barrage_cost = -0.1
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
 		}
 
 		#what effects happen when this tier is achieved
@@ -749,10 +741,6 @@ tower_of_london = {
 			prestige_from_naval = 0.1
 			own_coast_naval_combat_bonus = 1.0
 			global_naval_barrage_cost = -0.1
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
 		}
 
 		#what effects happen when this tier is achieved
@@ -893,6 +881,7 @@ buddha_statues = {
 					has_unlocked_cult = buddhism_cult	
 				}				
 			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1434,7 +1423,7 @@ forbidden_city = {
 
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
-            local_warscore_cost_modifier = 0.2
+            #local_warscore_cost_modifier = 0.2 #This modifier does not exist
         }
 
         #what modifiers are added to the country when we have this project here on this tier
@@ -1470,7 +1459,7 @@ forbidden_city = {
         #what modifiers are added to the provinces in the map area when we have this project here on this tier
         area_modifier = {
             promote_culture_cost = -0.3
-            local_warscore_cost_modifier = 0.3
+            #local_warscore_cost_modifier = 0.3 #This modifier does not exist
         }
 
         #what modifiers are added to the country when we have this project here on this tier
@@ -1533,19 +1522,20 @@ angkor_wat = {
 			AND= {
 				religion_group = dharmic
 				has_owner_religion = yes
+			}
 			AND = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
 					has_personal_deity = buddha	
-				}						
+				}
 			}
 			AND = {
 				religion = shamanism
 				has_owner_religion = yes
 				owner = {
 					has_unlocked_cult = buddhism_cult	
-				}				
+				}
 			}
 		}
 	}
@@ -1578,6 +1568,7 @@ angkor_wat = {
 			AND= {
 				religion_group = dharmic
 				has_owner_religion = yes
+			}
 			AND = {
 				religion = hinduism
 				has_owner_religion = yes
@@ -1613,6 +1604,7 @@ angkor_wat = {
 			AND= {
 				religion_group = dharmic
 				has_owner_religion = yes
+			}
 			AND = {
 				religion = hinduism
 				has_owner_religion = yes
@@ -1756,7 +1748,7 @@ angkor_wat = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-		    allowed_num_of_buildings = 3
+			allowed_num_of_buildings = 3
 			local_religious_conversion_resistance = 0.3
 		}
 
@@ -6593,7 +6585,7 @@ jokhang_temple = {
 					has_unlocked_cult = buddhism_cult	
 				}				
 			}
-		} 
+		}
 	}
 
 	#can our country upgrade it?
@@ -6811,6 +6803,7 @@ borobudur_temple = {
 			}
 			AND = {
 				culture = javanese
+				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
 				}
@@ -6829,7 +6822,7 @@ borobudur_temple = {
 					has_unlocked_cult = buddhism_cult	
 				}				
 			}
-		}		
+		}
 	}
 
 	#what to do when it's built
@@ -6868,15 +6861,15 @@ borobudur_temple = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
-					has_personal_deity = buddha	
-				}						
+					has_personal_deity = buddha
+				}
 			}
 			AND = {
 				religion = shamanism
 				has_owner_religion = yes
 				owner = {
-					has_unlocked_cult = buddhism_cult	
-				}				
+					has_unlocked_cult = buddhism_cult
+				}
 			}
 		}
 	}
@@ -6907,15 +6900,15 @@ borobudur_temple = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
-					has_personal_deity = buddha	
-				}						
+					has_personal_deity = buddha
+				}
 			}
 			AND = {
 				religion = shamanism
 				has_owner_religion = yes
 				owner = {
-					has_unlocked_cult = buddhism_cult	
-				}				
+					has_unlocked_cult = buddhism_cult
+				}
 			}
 		}
 	}
@@ -7035,9 +7028,9 @@ borobudur_temple = {
 		#what modifiers are added to the province when we have this project here on this tier
 		#Modifiers for Culture Buildings (jokhang_temple)
 
-        #what modifiers are added to the province when we have this project here on this tier
+		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-		    local_warscore_cost_modifier = 0.3
+			#local_warscore_cost_modifier = 0.3 #This modifier does not exist
 			local_sailors = 3000
 		}
 
@@ -8650,7 +8643,7 @@ inukshuk = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_warscore_cost_modifier = 0.3
+			#local_warscore_cost_modifier = 0.3 #This modifier does not exist
 			local_religious_conversion_resistance = 0.3
 		}
 
@@ -12193,11 +12186,11 @@ cartagena_de_indias = {
 		}
 		province_modifiers = {
 			local_defensiveness = 0.1
+			blockade_force_required = 0.5
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			blockade_force_required = 0.5
 		}
 		on_upgraded = {
 		}
@@ -12212,12 +12205,12 @@ cartagena_de_indias = {
 		}
 		province_modifiers = {
 			local_hostile_attrition = 0.5
+			blockade_force_required = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.15
 		}
 		country_modifiers = {
-			blockade_force_required = 1
 		}
 		on_upgraded = {
 		}
@@ -12232,12 +12225,12 @@ cartagena_de_indias = {
 		}
 		province_modifiers = {
 			local_hostile_attrition = 1
+			blockade_force_required = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.25
 		}
 		country_modifiers = {
-			blockade_force_required = 1
 			hostile_attrition = 5
 		}
 		on_upgraded = {
@@ -12985,12 +12978,12 @@ fuerte_del_morro = {
 			factor = 5000
 		}
 		province_modifiers = {
+			blockade_force_required = 0.5
 		}
 		area_modifier = {
 			local_defensiveness = 0.15
 		}
 		country_modifiers = {
-			blockade_force_required = 0.5
 			naval_forcelimit_modifier = 0.15
 			overlord_naval_forcelimit = 0.15
 		}
@@ -13006,12 +12999,12 @@ fuerte_del_morro = {
 			factor = 7500
 		}
 		province_modifiers = {
+			blockade_force_required = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.25
 		}
 		country_modifiers = {
-			blockade_force_required = 1
 			naval_forcelimit_modifier = 0.2
 			overlord_naval_forcelimit = 0.2
 		}
@@ -13817,6 +13810,8 @@ kashi_vishwanath = {
 	}
 
 	can_use_modifiers_trigger = {
+		religion_group = dharmic
+		has_owner_religion = yes
 	}
 
 	can_upgrade_trigger = {
@@ -13825,8 +13820,6 @@ kashi_vishwanath = {
 	}
 
 	keep_trigger = {
-		religion_group = dharmic
-		has_owner_religion = yes
 	}
 
 	tier_0 = {
@@ -14301,12 +14294,12 @@ malta_forts = {
 			factor = 1250
 		}
 		province_modifiers = {
+			hostile_disembark_speed = 0.25
 			local_defensiveness = 0.1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			hostile_disembark_speed = 0.5
 		}
 		on_upgraded = {
 		}
@@ -14320,13 +14313,13 @@ malta_forts = {
 			factor = 2500
 		}
 		province_modifiers = {
+			hostile_disembark_speed = 0.5
 			local_defensiveness = 0.25
 			local_hostile_attrition = 0.5
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			hostile_disembark_speed = 1
 			warscore_cost_vs_other_religion = -0.05
 		}
 		on_upgraded = {
@@ -14341,13 +14334,13 @@ malta_forts = {
 			factor = 5000
 		}
 		province_modifiers = {
+			hostile_disembark_speed = 0.75
 			local_defensiveness = 0.5
 			local_hostile_attrition = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			hostile_disembark_speed = 2
 			warscore_cost_vs_other_religion = -0.05
 		}
 		on_upgraded = {
@@ -15986,12 +15979,12 @@ tortuga_island = {
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
+			blockade_force_required = 0.5
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			privateer_efficiency = 0.2
-			blockade_force_required = 0.5
 		}
 		on_upgraded = {
 		}
@@ -16006,12 +15999,12 @@ tortuga_island = {
 		}
 		province_modifiers = {
 			local_defensiveness = 0.25
+			blockade_force_required = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			privateer_efficiency = 0.33
-			blockade_force_required = 1
 			power_projection_from_insults = 0.5
 		}
 		on_upgraded = {
@@ -16027,12 +16020,12 @@ tortuga_island = {
 		}
 		province_modifiers = {
 			local_defensiveness = 0.5
+			blockade_force_required = 1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
 			privateer_efficiency = 0.4
-			blockade_force_required = 1
 			power_projection_from_insults = 1
 		}
 		on_upgraded = {
@@ -16496,6 +16489,6 @@ zacatecas_mine_city = {
 	}
 }
 
- ####################################
+####################################
 # PDX - End Of VANILLA MONUMENTS     #
- ####################################
+####################################
