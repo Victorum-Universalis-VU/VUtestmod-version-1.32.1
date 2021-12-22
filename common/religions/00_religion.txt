@@ -1426,6 +1426,37 @@ christian = {
 		misguided_heretic = yes
 	}
 	
+	mormon = {
+		color = { 223 148 255 }
+		icon = 30
+		center_of_religion = 2490
+		allowed_conversion = {
+		}
+		country = {
+			missionary_maintenance_cost = -0.33
+			dip_tech_cost_modifier = -0.1
+		}		
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			advisor_pool = 1
+		}
+		will_get_center = {
+			any_owned_province = { province_id = 236 } # the ID from the event
+		}
+		allowed_center_conversion = {
+			protestant catholic hussite anglican orthodox totemism reformed 
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		crusade_name = HOLY_WAR
+	}
+	
 	#Lollard religion
 	lollardy = {
 		color = { 33 115 216 }

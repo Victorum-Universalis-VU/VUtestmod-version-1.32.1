@@ -403,6 +403,11 @@ spriteTypes = {
     }
 	
 	spriteType = {
+        name = "mission_rb_cotton_harvesting"
+        texturefile = "gfx//interface//missions//dlc_missions//rb//mission_rb_cotton_harvesting.dds"
+    }
+	
+	spriteType = {
 		name = "mission_rb_trinity_college_dublin"
 		texturefile = "gfx//interface//missions//dlc_missions//rb//mission_rb_trinity_college_dublin.dds"
 	}
