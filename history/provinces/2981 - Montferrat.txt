@@ -34,16 +34,18 @@ discovered_by = ottoman
 	add_core = SPA
 }
 1536.1.1 = { #Granted to Federico II Gonzaga
-	owner = MAN
-	controller = MAN
-	add_core = MAN
+	owner = MFA
+	controller = MFA
+	add_core = MFA
 	remove_core = SPA
+}
+1648.1.1 = { hre = no }	#Peace of Westphalia, the 'Kingdom of Italy' definitively leaves the Holy Roman Empire
 }
 1708.6.30 = {
 	owner = SAV
 	controller = SAV
 	add_core = SAV
-	remove_core = MAN
+	remove_core = MFA
 }
 1713.4.12 = {
 	owner = SIC

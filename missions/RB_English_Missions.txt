@@ -646,7 +646,7 @@ eng_rb_slot_2 = {
 	}
 	
 	lotf_gb_reorganize_colonies = {
-		icon = mission_assemble_an_army
+		icon = mission_reorganize_colonies
 		required_missions = { 
 			lotf_gb_invest_northern_colonies
 			lotf_gb_invest_southern_colonies

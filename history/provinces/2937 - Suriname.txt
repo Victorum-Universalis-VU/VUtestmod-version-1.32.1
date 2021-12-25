@@ -1,9 +1,9 @@
-# - Suriname
+#2937 - Sipaliwini
 
 culture = carib
 discovered_by = south_american
 religion = animism
-capital = "Suriname"
+capital = "Sipaliwini"
 trade_goods = unknown
 hre = no
 base_tax = 1  

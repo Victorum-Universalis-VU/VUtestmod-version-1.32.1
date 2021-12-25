@@ -1338,6 +1338,7 @@ colombia_region = {
 		upper_guyana_area
 		guyana_area
 		suriname_area
+		cayanne_area
 		venezuela_area
 		eastern_llanos
 		western_llanos

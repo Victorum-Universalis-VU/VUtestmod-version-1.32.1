@@ -3266,11 +3266,15 @@ banda_oriental_area = { #5
 }
 
 guyana_area = { #4
-	743 744 2931
+	743 744 2931 3025 3026
 }
 
 suriname_area = { #3
-	745 746 2937
+	745 2937 3027 3029 3030
+}
+
+cayanne_area = { #3
+	746 3031 3033 3035 3037
 }
 
 upper_guyana_area = { #5

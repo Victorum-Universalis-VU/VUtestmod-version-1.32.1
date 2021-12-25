@@ -1056,6 +1056,10 @@
  COLONIAL_THE_CARRIBEAN_Westindien_ADJ:0 "Westindien"
  COLONIAL_THE_CARRIBEAN_NED:0 "West-Indische Bezittingen"
  COLONIAL_THE_CARRIBEAN_NED_ADJ:0 "West-Indische Bezittingen"
+ COLONIAL_GUYANA_Suriname:0 "Suriname"
+ COLONIAL_GUYANA_Suriname_ADJ:0 "Suriname"
+ COLONIAL_GUYANA_Guiana:0 "Guiana"
+ COLONIAL_GUYANA_Guiana_ADJ:0 "Guiana"
 
  #Argacyan's non Germanic names
  COLONIAL_ALASKA_BT_EAST_ASIAN:0 "Yuè"
@@ -1138,6 +1142,8 @@
  COLONIAL_BAHAMAS_Bachames_ADJ:0 "Bachámes"
  COLONIAL_GREENLAND_BTP_Hupervoreios:0 "Hupérvóreios"
  COLONIAL_GREENLAND_BTP_Hupervoreios_ADJ:0 "Hupérvóreios"
+ COLONIAL_GUYANA_Gouiana:0 "Gouiána"
+ COLONIAL_GUYANA_Gouiana_ADJ:0 "Gouiána"
 
 
 
@@ -1180,6 +1186,9 @@
  COLONIAL_CANADA_CY_ADJ:0 "Bryniau"
  COLONIAL_HISPANIOLA_CY:0 "Ynys Fawr"
  COLONIAL_HISPANIOLA_CY_ADJ:0 "Ynys Fawr"
+ COLONIAL_GUYANA_CY:0 "Guyana"
+ COLONIAL_GUYANA_CY_ADJ:0 "Guyana"
+ 
 
  #Eris's Work
  #Pomo (Also pretty much all non-Chumash probably? At least a a stopgap, perhaps.)
@@ -1493,6 +1502,16 @@
  short_colonial_mississippi:0 "Mississippi"
  COLONIAL_MISSISSIPPI_Mississippi:0 "Mississippi"
  COLONIAL_MISSISSIPPI_Mississippi_ADJ:0 "Mississippian"
+ #
+ #colonial_suriname:0 "Colonial Suriname"
+ #short_colonial_suriname:0 "Suriname"
+ #COLONIAL_SURINAME_Suriname:0 "Suriname"
+ #COLONIAL_SURINAME_Suriname_ADJ:0 "Surinaman"
+ #
+ #colonial_guiana:0 "Colonial Guiana"
+ #short_colonial_guiana:0 "Guiana"
+ #COLONIAL_GUIANA_Guiana:0 "Guiana"
+ #COLONIAL_GUIANA_Guiana_ADJ:0 "Guianan"
  #
  colonial_ecuador:0 "Colonial Ecuador"
  short_colonial_ecuador:0 "Ecuador"
@@ -2120,11 +2139,6 @@
  
  PHI:0 "Philippines"
  PHI_ADJ:0 "Filipino"
- 
- colonial_guyanas:0 "Colonial Guyanas"
- short_colonial_guyanas:0 "Guyanas"
- COLONIAL_GUYANA_Guyanas:0 "Guyanas"
- COLONIAL_GUYANA_Guyanas_ADJ:0 "Guyanese"
  
  colonial_maranhao:0 "Colonial Maranhão"
  short_colonial_maranhao:0 "Maranhão"
