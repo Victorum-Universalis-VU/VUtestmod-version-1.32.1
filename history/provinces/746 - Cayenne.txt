@@ -1,8 +1,9 @@
-#746 - Cayenne
+#746 - Sinnamary
 
-culture = guajiro discovered_by = south_american
+culture = guajiro
+discovered_by = south_american
 religion = animism
-capital = "Cayenne"
+capital = "Sinnamary"
 trade_goods = unknown
 hre = no
 base_tax = 1  

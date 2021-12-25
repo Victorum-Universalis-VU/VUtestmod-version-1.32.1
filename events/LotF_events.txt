@@ -230,7 +230,6 @@ country_event = { #CSA Gains Cores SC
 	option = {
 		name = lotf_events.9.a	
 		south_carolina_area = { add_core = CSA }
-		south_carolina_piedmont_area = { add_core = CSA }
 		hidden_effect = {
 				country_event = { id = lotf_events.10 days = 15 random = 60 }	
 		}
@@ -245,7 +244,6 @@ country_event = { #CSA Gains Cores Florida
     fire_only_once = yes
 	option = {
 		name = lotf_events.10.a	
-		north_florida_area = { add_core = CSA }
 		florida_area = { add_core = CSA }
 		923 = { add_core = CSA }
 		2533 = { add_core = CSA }
@@ -283,9 +281,7 @@ country_event = { #CSA Gains Cores Virginia and Tennesse and NC
 		name = lotf_events.12.a	
 		great_valley_area = { add_core = CSA }
 		chesapeake_area = { add_core = CSA }
-		south_appalachia_area = { add_core = CSA }
 		choctaw_area = { add_core = CSA }
-		piedmont_north_america_area = { add_core = CSA }
 		carolinas_area = { add_core = CSA }	
 	}
 }	
@@ -310,7 +306,6 @@ country_event = { #CSA Pops and Declares Independence
 			}
 			define_ruler = {
 				name = "Jefferson Davis"
-				fixed = yes
 				adm = 3
 				dip = 3
 				mil = 5
@@ -893,7 +888,12 @@ country_event = { #Arkansas Joins Confederacy
 	fire_only_once = yes
     trigger = {
 		tag = USA
-		mississippi_plain_area = {
+		ozarks_area = {
+			type = all
+			owned_by = ROOT
+			is_capital = no
+		}
+		lower_louisiana_area = {
 			type = all
 			owned_by = ROOT
 			is_capital = no
@@ -906,11 +906,12 @@ country_event = { #Arkansas Joins Confederacy
 		}
 	}
 	mean_time_to_happen = { 
-		months = 3
+		days = 90
 	}
     option = {
         name = lotf_events.28.a
-		mississippi_plain_area = { add_core = CSA }
+		ozarks_area = { add_core = CSA }
+		lower_louisiana_area = { add_core = CSA }
 		2515 = { add_core = CSA }
 		4886 = { add_core = CSA }
     }
@@ -928,11 +929,6 @@ country_event = { #East Texas Joins Confederacy
 			owned_by = ROOT
 			is_capital = no
 		}
-		coastal_prarie_area = {
-			type = all
-			owned_by = ROOT
-			is_capital = no
-		}
 		calc_true_if = {
 			all_province = { is_core = CSA }
 			amount = 1
@@ -941,12 +937,11 @@ country_event = { #East Texas Joins Confederacy
 		2499 = { owned_by = ROOT is_capital = no }
 	}
 	mean_time_to_happen = { 
-		months = 4
+		days = 120
 	}
     option = {
         name = lotf_events.29.a
 		texas_area = { add_core = CSA }
-		coastal_prarie_area = { add_core = CSA }
 		2666 = { add_core = CSA }
 		2499 = { add_core = CSA }
     }
@@ -959,7 +954,7 @@ country_event = { #West Texas Joins Confederacy
 	fire_only_once = yes
     trigger = {
 		tag = USA
-		pecos_area = {
+		texas_area = {
 			type = all
 			owned_by = ROOT
 			is_capital = no
@@ -982,7 +977,7 @@ country_event = { #West Texas Joins Confederacy
 	}
     option = {
         name = lotf_events.30.a
-		pecos_area = { add_core = CSA }
+		texas_area = { add_core = CSA }
 		885 = { add_core = CSA }
 		2497 = { add_core = CSA }
     }
@@ -1000,7 +995,7 @@ country_event = { #Central Texas and OK Joins Confederacy
 			owned_by = ROOT
 			is_capital = no
 		}
-		texas_plains_area = {
+		texas_area = {
 			type = all
 			owned_by = ROOT
 			is_capital = no
@@ -1021,7 +1016,7 @@ country_event = { #Central Texas and OK Joins Confederacy
     option = {
         name = lotf_events.31.a
 		lower_plains_area = { add_core = CSA }
-		texas_plains_area = { add_core = CSA }
+		texas_area = { add_core = CSA }
 		889 = { add_core = CSA }
     }
 }

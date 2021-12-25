@@ -39,19 +39,19 @@
  #PROV3022:0 "Durham"
  #PROV3023:0 "Leeds"
  PROV3024:0 "Chester"
- #PROV3025:0 "Warwick"
- #PROV3026:0 "Leicester"
- #ROV3027:0 "Cambridge"
+ PROV3025:0 "Mazaruni" #Formerly SPARE Warwick
+ PROV3026:0 "Corentyne" #Formerly SPARE Leicester
+ PROV3027:0 "Nickerie" #Formerly SPARE Cambridge
  PROV3028:0 "Suffolk"
- #PROV3029:0 "Sussex"
- #PROV3030:0 "Dorset"
- #PROV3031:0 "Somerset"
+ PROV3029:0 "Paramaribo" #Formerly SPARE Sussex
+ PROV3030:0 "Commewijne" #Formerly SPARE Dorset
+ PROV3031:0 "Maripasoula" #Formerly SPARE Somerset
  #PROV3032:0 "103-PleaseReportErrorToDraiocht"
- #PROV3033:0 "Powys"
+ PROV3033:0 "Mana" #Formerly SPARE Powys
  PROV3034:0 "Brecon"          #Changed in BT
- #PROV3035:0 "Dyfed"
+ PROV3035:0 "Apuruaque" #Formerly SPARE Dyfed
  PROV3036:0 "Cardigan"          #Changed in BT
- #PROV3037:0 "Girgenti"
+ PROV3037:0 "Camopi" #Formerly SPARE Girgenti
  #PROV3038:0 "Molise"
  PROV3039:0 "Capua"
  PROV3040:0 "Piombino"

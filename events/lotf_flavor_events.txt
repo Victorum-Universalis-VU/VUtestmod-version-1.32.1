@@ -17,7 +17,6 @@ country_event = { #Elect George Washington
 			dip = 4
 			mil = 6
 			age = 57
-			fixed = yes
 		}
 		hidden_effect = { add_ruler_personality = calm_personality }
 	}
@@ -29,7 +28,6 @@ country_event = { #Elect George Washington
 			dip = 5
 			mil = 5
 			age = 54
-			fixed = yes
 		}
 		hidden_effect = { add_ruler_personality = well_connected_personality }
 	}
@@ -238,9 +236,11 @@ country_event = { #Lewis and Clark
 		custom_tooltip = lotf_flavor_event.12.tt
 		custom_tooltip = blank_space
 		hidden_effect = {
-			snake_river_area = { discover_country = ROOT }
+		    utah_area = { discover_country = ROOT }
+			upper_platte_area = { discover_country = ROOT }
+			central_rockies_area = { discover_country = ROOT }
+			oregon_area = { discover_country = ROOT }
 			salish_sea_area = { discover_country = ROOT }
-			columbia_river_area = { discover_country = ROOT }
 			oregon_area = { discover_country = ROOT }
 			colonial_louisiana = { discover_country = ROOT }
 		}

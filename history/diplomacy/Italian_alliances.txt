@@ -102,6 +102,17 @@ vassal = {
 ######################## Mantua (TCOP) ##########################
 ################################################################
 
+#########
+# Union #
+#########
+
+union = {
+	first = MAN
+	second = MFA
+	start_date = 1540.6.29
+	end_date = 1708.6.30 
+}
+
 ###################
 # Royal Marriages #
 ###################
@@ -785,14 +796,6 @@ dependency = {
 dependency = {
 	subject_type = "papal_subject_bt"
 	first = PAP
-	second = RMG
-	start_date = 1499.1.1
-	end_date = 1509.11.1
-} #Cesare Borgia's short lived duchy of Romagna
-
-dependency = {
-	subject_type = "papal_subject_bt"
-	first = PAP
 	second = CMR
 	start_date = 1504.1.1
 	end_date = 1545.1.1
@@ -833,6 +836,14 @@ alliance = {
 	start_date = 1511.10.4
 	end_date = 1515.11.7
 }
+
+# The Pope and Borgia's Romagna 
+alliance = {
+	first = PAP
+	second = RMG
+	start_date = 1499.1.1
+	end_date = 1509.11.1
+} #Cesare Borgia's short lived duchy of Romagna
 
 ##########
 # Vassal #

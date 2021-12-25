@@ -113,6 +113,7 @@ on_colonial_liberation = {
 					}
 					is_subject = no
 				}
+			}
         }
         country_event = { id = colonial_nation.90 days = 1 }
     }

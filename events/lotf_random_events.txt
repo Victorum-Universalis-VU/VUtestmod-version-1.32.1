@@ -217,7 +217,7 @@ country_event = { #University Flavor Event
 		tag = USA
 		stability = 1
 		any_province = { 
-			has_building = univerity
+			has_building = university
 			development = 20
 			NOT = { has_province_flag = university_buff }
 		}
@@ -230,7 +230,7 @@ country_event = { #University Flavor Event
 		}
 		modifier = {
 			factor = 2
-			has_idea_group = economic
+			has_idea_group = economic_ideas
 		}
 	}
 	option = {

@@ -372,7 +372,7 @@ impassable = {
 	#BT and BTP provinces replaced by new 1.23 Paradox province ids, added to wastelands as a redundancy, but probably not needed
 	5182 5294 3255 5291 3249 3259 3258 3257 3260 5230 5506
 	#BtP and BT provinces removed in 1.25 due to being replaced with new Paradox provinces. Added to wastelands as a redundancy.
-	3025 3026 3027 3029 3030 3031 3033 3035 3057 3059 3062 3067 3072 3074
+	3032 3059 3062 3067 3072 3074
 	3076 3078 3080 3086 3093 
 	#BtP and BT provinces removed in 1.28 due to being replaced with new Paradox provinces. Added to wastelands as a redundancy.
 	3097 3096 3098 3300 3094 3298 3299 3101 3102 3103 3105 5098 5308 5564 5562 5566 5568 5570 5571 5569 5831 5829 5828 5842 5062
