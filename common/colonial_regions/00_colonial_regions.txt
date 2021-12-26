@@ -1,3 +1,4 @@
+# 12 Active CR's (Please update this when you add in a new CR)
 # Alaska
 colonial_alaska = {
 	color = { 225 225 225 }
