@@ -7,12 +7,12 @@ technology_group = western
 capital = 3198
 fixed_capital = 3198
 
-1429.7.3 = {
+1429.1.1 = {
 	monarch = {
 		name = "Johann II"
 		dynasty = "von Nassau-Saarbrucken"
 		birth_date = 1423.4.4
-		death_date = 1473.7.15
+		death_date = 1472.7.25
 		adm = 2
 		dip = 3
 		mil = 3
@@ -20,19 +20,19 @@ fixed_capital = 3198
 	heir = {
 		name = "Johann Ludwig"
 		dynasty = "von Nassau-Saarbrucken"
-		birth_date = 1472.10.20
+		birth_date = 1472.10.19
 		claim = 95
 		adm = 2			
 		dip = 2			
 		mil = 2			
 	}
 }
-1487.10.20 = {
+1472.7.26 = {
 	monarch = {
 		name = "Johann Ludwig"
 		dynasty = "von Nassau-Saarbrucken"
-		birth_date = 1472.10.20
-		death_date = 1448.8.4
+		birth_date = 1472.10.19
+		death_date = 1545.6.4
 		adm = 2			
 		dip = 2			
 		mil = 2			
@@ -47,7 +47,7 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
-1545.1.1 = {
+1545.6.5 = {
 	monarch = {
 		name = "Philipp II"
 		dynasty = "von Nassau-Saarbrucken"
@@ -58,9 +58,20 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
-1574.1.1 = {
+1554.6.20 = {
 	monarch = {
-		name = "Philipp IV"
+		name = "Johann III"
+		dynasty = "von Nassau-Saarbrucken"
+		birth_date = 1511.4.5
+		death_date = 1574.11.23
+		adm = 2			
+		dip = 2			
+		mil = 2			
+	}
+}
+1574.11.24 = {
+	monarch = {
+		name = "Philipp III"
 		dynasty = "von Nassau-Saarbrucken"
 		birth_date = 1542.10.14
 		death_date = 1602.3.12
@@ -69,12 +80,12 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
-1602.1.1 = {
+1602.3.13 = {
 	monarch = {
 		name = "Ludwig II"
 		dynasty = "von Nassau-Weilburg"
 		birth_date = 1565.8.9
-		death_date = 1602.11.8
+		death_date = 1627.11.8
 		adm = 2			
 		dip = 2			
 		mil = 2			
@@ -89,7 +100,7 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
-1625.1.1 = {
+1627.11.9 = {
 	monarch = {
 		name = "Wilhelm Ludwig"
 		dynasty = "von Nassau-Saarbrucken"
@@ -131,7 +142,7 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
-1642.9.15 = {
+1690.2.10 = {
 	monarch = {
 		name = "Gustav Adolf"
 		dynasty = "von Nassau-Ottweiler"
@@ -151,7 +162,7 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
-1677.1.1 = {
+1677.10.10 = {
 	monarch = {
 		name = "Ludwig Kraft"
 		dynasty = "von Nassau-Saarbrucken"
@@ -188,14 +199,14 @@ fixed_capital = 3198
 	monarch = {
 		name = "Karl"
 		dynasty = "von Nassau-Usingen"
-		birth_date = 1712.1.1
+		birth_date = 1712.12.31
 		death_date = 1775.6.21
 		adm = 2			
 		dip = 2			
 		mil = 2			
 	}
 }
-1735.1.1 = {
+1775.6.22 = {
 	monarch = {
 		name = "Wilhelm Heinrich"
 		dynasty = "von Nassau-Saarbrucken"
