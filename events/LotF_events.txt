@@ -1001,7 +1001,6 @@ country_event = { #Central Texas and OK Joins Confederacy
 			is_capital = no
 		}
 		889 = {
-			type = all
 			owned_by = ROOT
 			is_capital = no
 		}

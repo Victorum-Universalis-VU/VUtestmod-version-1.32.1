@@ -307,14 +307,14 @@ country_event = { #Cotton Price Boost
 		mission_completed = USA_missions_cotton_king
 		trading_bonus = { trade_goods = cotton value = yes }
 	}
-	mean_time_to_happen = { months = 60 }
+
 	option = {
 		name = lotf_flavor_event.14.a
 		change_price = {
 			trade_goods = cotton
 			key = COTTON_KING_2
 			value = 0.5
-			duration = 12775
+			duration = 1
 		}
 	}
 }

@@ -376,6 +376,77 @@ country_event = {
 	}
 }
 
+# American Philosophical Society
+country_event = {
+	id = usa_dlc.35
+	title = "usa_dlc.EVTNAME35"
+	desc = "usa_dlc.EVTDESC35"
+	picture = LIBERUM_VETO_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_dlc = "American Dream"
+		tag = USA
+		NOT = {
+			war_with = GBR
+		}
+		owns = 962 # Unami/Philadelphia
+		NOT = { has_country_modifier = american_philosophical_society }
+	}
+	
+	mean_time_to_happen = { months = 200 }
+	
+	option = {
+		name = "usa_dlc.EVTOPTA35"
+		add_country_modifier = { 
+			name = american_philosophical_society
+			duration = 7300
+		}
+		add_years_of_income = -0.25
+	}
+	option = {
+		name = "usa_dlc.EVTOPTB35"
+		add_adm_power = -20
+		add_prestige = 10
+	}
+	option = {
+		name = "usa_dlc.EVTOPTC35"
+	}
+}
+
+# Evacuation Day
+country_event = {
+	id = usa_dlc.36
+	title = "usa_dlc.EVTNAME36"
+	desc = "usa_dlc.EVTDESC36"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_dlc = "American Dream"
+		tag = USA
+		is_year = 1783
+		is_month = 10 # November
+		truce_with = GBR
+		GBR = { 
+			NOT = { 
+				any_owned_province = { 
+					is_core = USA 
+				} 
+			} 
+		}
+	}
+	
+	mean_time_to_happen = { months = 200 }
+	
+	option = {
+		name = "usa_dlc.EVTOPTA36"
+		add_prestige = 20
+		set_country_flag = evacuation_day
+	}
+}
 
 # Massachusetts Humane Society
 country_event = {
