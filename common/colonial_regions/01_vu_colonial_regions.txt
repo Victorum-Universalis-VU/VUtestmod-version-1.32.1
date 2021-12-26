@@ -1,4 +1,4 @@
-
+# 69 Active CR's (Please update this when you add in a new CR)
 # Cascadia
 colonial_cascadia = {
 	color = { 10 120 40 }
@@ -672,88 +672,6 @@ colonial_acadia = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 }
-
-#BT's Florida reannexed to Eastern US CR for now.
-#Florida
-#colonial_florida = {
-#	color = { 78 202 78 }			#base caribbean colour
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#		fish = 10
-#		naval_supplies = 10
-#	}
-#
-#	culture = {
-#		arawak = 15
-#	}
-#
-#	religion = {
-#		shamanism = 10
-#	}
-#
-#	provinces = {
-#		923 926 927 928 2533 2534 2535 2536
-#	}
-#
-#	# Specific
-#	names = {
-#		trigger = { culture_group = french }
-#		name = "COLONIAL_FLORIDA_Floride"
-#	}
-#	names = {
-#		trigger = {
-#			OR = {
-#				culture_group = gaelic
-#				#BT Bugfixes added Celtic versions of Gaelic.
-#				primary_culture = celtic_irish_culture
-#				primary_culture = celtic_highland_scottish_culture
-#			}
-#		}
-#		name = "COLONIAL_FLORIDA_Tir_Bhlafar"
-#	}
-#	names = {
-#		trigger = {
-#			culture_group = germanic
-#			NOT = {
-#				primary_culture = dutch
-#				tag = NED
-#				tag = HOL
-#			}
-#		}
-#		name = "COLONIAL_FLORIDA_Osterkueste"
-#	}
-#	names = {
-#		trigger = { culture_group = byzantine }
-#		name = "COLONIAL_FLORIDA_Florinta"
-#	}
-#	names = {
-#		name = "COLONIAL_FLORIDA_Florida"
-#	}
-#	names = {
-#		trigger = {
-#			OR = {
-#				tag = SPA
-#				tag = CAS
-#				tag = ARA
-#			}
-#		}
-#		name = "COLONIAL_EASTERN_AMERICA_Florida"
-#	}
-#
-#	# Generic
-#	names = {
-#		name = "COLONIAL_EASTERN_AMERICA_Florida"
-#	}
-#	names = {
-#		name = "COLONIAL_REGION_New_Root_GetName"
-#	}
-#}
 
 #Cuba
 colonial_cuba = {
@@ -1582,7 +1500,10 @@ colonial_philippines = {
 	}
 
 	provinces = {
-		651 652 653 654 655 656 657 658 1397 2697 2698 2699 2700 2701 2702 4348 4349 4350 4351 4352 4353 4354 4355 4356 6981 6983 7160 7161 7165 7166 7167 7168 7169 7170 7171 7172 7173 7174 7175 7176 7177 7178 7179 7180 7181 7182 7183 7184 7185 7188 7189 8267 8268 8269 8270 8271 8272 8273 8274 8275 8276 8277 8278 8279 8280 8281 8282 8283 8284 8285 8286 8287 8288 8289 8290 8291 8292 8293 8294 8295 8296 8297 8298 8299 8709 8710 8711 8712 8713 8714 8715 8716 8720 8721
+		651 652 653 654 655 656 657 658 1397 2697 2698 2699 2700 2701 2702 4348 4349 4350 4351 4352 4353 4354 4355 4356 6981 6983 7160 7161 7165 
+		7166 7167 7168 7169 7170 7171 7172 7173 7174 7175 7176 7177 7178 7179 7180 7181 7182 7183 7184 7185 7188 7189 8267 8268 8269 8270 8271 8272 
+		8273 8274 8275 8276 8277 8278 8279 8280 8281 8282 8283 8284 8285 8286 8287 8288 8289 8290 8291 8292 8293 8294 8295 8296 8297 8298 8299 8709 
+		8710 8711 8712 8713 8714 8715 8716 8720 8721
 	}
 	
 	# Specific
@@ -1714,7 +1635,8 @@ colonial_burma = {
 	}
 
 	provinces = {
-		579 580 581 582 583 584 585 586 587 588 590 591 1815 2402 2403 2404 2041 2395 2396 2397 2398 2399 2400 2401 4393 4394 4395 4396 4397 4398 4399 4404 4405 4406 6940 6941 8551 8552 8553 8584 8585 8599 8600 8636 8638 8643 8644 8645 8650 8651 8676 8677 8678 8679
+		579 580 581 582 583 584 585 586 587 588 590 591 1815 2402 2403 2404 2041 2395 2396 2397 2398 2399 2400 2401 4393 4394 4395 4396 4397 4398 
+		4399 4404 4405 4406 6940 6941 8551 8552 8553 8584 8585 8599 8600 8636 8638 8643 8644 8645 8650 8651 8676 8677 8678 8679
     }
 	
 	# Specific
@@ -1846,7 +1768,12 @@ colonial_indochina = {
 	}
 
 	provinces = {
-		589 592 593 594 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 1016 1022 1365 1817 1823 1844 2371 2372 2373 2374 2375 2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 2390 2391 4812 4819 4820 4821 4822 4823 4824 4825 4826 4827 4828 4829 4830 4831 4832 4833 4834 4835 4836 4837 4838 4839 4840 4841 4842 6680 6681 6682 6683 6684 6913 6914 6915 6916 6917 6918 6919 6920 6921 6922 6923 6936 6937 6938 6939 6980 6982 8556 8566 8567 8568 8572 8573 8574 8575 8576 8577 8578 8580 8582 8583 8586 8587 8588 8589 8590 8591 8592 8593 8594 8596 8597 8598 8617 8618 8624 8625 8628 8629 8637 8639 8640 8641 8642 8646 8647 8648 8652 8653 8654 8655 8656 8657 8658 8659 8673 8681 8682 8683 8684 8685 8728 8729 8730 8731
+		589 592 593 594 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 1016 1022 1365 1817 1823 1844 2371 2372 2373 2374 2375 
+		2376 2377 2378 2379 2380 2381 2382 2383 2384 2385 2386 2387 2388 2389 2390 2391 4812 4819 4820 4821 4822 4823 4824 4825 4826 4827 4828 4829 
+		4830 4831 4832 4833 4834 4835 4836 4837 4838 4839 4840 4841 4842 6680 6681 6682 6683 6684 6913 6914 6915 6916 6917 6918 6919 6920 6921 6922 
+		6923 6936 6937 6938 6939 6980 6982 8556 8566 8567 8568 8572 8573 8574 8575 8576 8577 8578 8580 8582 8583 8586 8587 8588 8589 8590 8591 8592 
+		8593 8594 8596 8597 8598 8617 8618 8624 8625 8628 8629 8637 8639 8640 8641 8642 8646 8647 8648 8652 8653 8654 8655 8656 8657 8658 8659 8673 
+		8681 8682 8683 8684 8685 8728 8729 8730 8731
 	}
 	
 	# Specific
@@ -1978,7 +1905,13 @@ colonial_indonesia = {
 	}
 
 	provinces = {
-		617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 638 639 640 641 642 643 644 645 646 647 648 649 650 659 1357 1998 1999 2673 2674 2675 2676 2677 2678 2679 2680 2681 2682 2683 2684 2685 2686 2687 2688 2689 2690 2691 2692 2693 2696 2695 2706 2707 2708 2709 2710 2711 2712 2713 2714 2715 2716 2717 2725 4790 4791 4792 4793 4794 4795 4796 4797 4798 4799 4800 4801 4802 4803 4809 4810 4811 4816 4817 4818 4845 5217 5438 5439 5440 5441 5442 5443 5444 5445 5446 5447 5448 5449 5450 5451 8544 8547 8550 8557 8558 8559 8563 8564 8565 8569 8571 8601 8602 8603 8604 8605 8606 8607 8611 8612 8613 8614 8615 8616 8619 8620 8621 8622 8623 8626 8627 8630 8631 8632 8633 8635 8634 8680 8686 8687 8688 8689 8690 8691 8692 8693 8694 8695 8696 8697 8698 8699 8702 8703 8704 8705 8706 8707 8708 8717 8718 8719 8722 8723 8724 8725 8726 8727
+		617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 638 639 640 641 642 643 644 645 646 647 648 649 650 659 1357 
+		1998 1999 2673 2674 2675 2676 2677 2678 2679 2680 2681 2682 2683 2684 2685 2686 2687 2688 2689 2690 2691 2692 2693 2696 2695 2706 2707 2708 
+		2709 2710 2711 2712 2713 2714 2715 2716 2717 2725 4790 4791 4792 4793 4794 4795 4796 4797 4798 4799 4800 4801 4802 4803 4809 4810 4811 4816 
+		4817 4818 4845 5217 5438 5439 5440 5441 5442 5443 5444 5445 5446 5447 5448 5449 5450 5451 8544 8547 8550 8557 8558 8559 8563 8564 8565 8569 
+		8571 8601 8602 8603 8604 8605 8606 8607 8611 8612 8613 8614 8615 8616 8619 8620 8621 8622 8623 8626 8627 8630 8631 8632 8633 8635 8634 8680 
+		8686 8687 8688 8689 8690 8691 8692 8693 8694 8695 8696 8697 8698 8699 8702 8703 8704 8705 8706 8707 8708 8717 8718 8719 8722 8723 8724 8725 
+		8726 8727
 	}
 	
 	# Specific
@@ -2110,7 +2043,8 @@ colonial_malaysia = {
 	}
 
 	provinces = {
-		595 596 597 598 599 636 1361 2392 2393 2394 2704 2705 2740 4804 4805 4806 4813 4814 4815 8649 8669 8670 8595 8675 8668 8672 8560 8701 8561 8562 8667 8671 8674 8579 8546 8700 2703 637
+		595 596 597 598 599 636 637 1361 2392 2393 2394 2703 2704 2705 2740 4804 4805 4806 4813 4814 4815 8579 8546 8560 8561 8595 8562 8649 8667 
+		8668 8669 8670 8671 8672 8674 8675 8700 8701
 	}
 	
 	# Specific
@@ -2218,39 +2152,6 @@ colonial_malaysia = {
 	}
 }
 
-#Colonial Middle Africa
-#colonial_middle_africa = {
-#	color = { 188 243 231 }
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#		fish = 10
-#		naval_supplies = 10
-#	}
-#
-#	culture = {
-#		kongolese = 10
-#	}
-#
-#	religion = {
-#		animism = 10
-#	}
-#
-#	provinces = {
-#		1162 1163 1164 2286 2287 2932 7473 7474 7475 7476 7477 7478
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_MIDDLE_AFRICA_middle_africa"
-#	}
-#}
-
 #Colonial Great_Lakes
 colonial_great_lakes = {
 	color = { 69 157 208 }
@@ -2292,8 +2193,8 @@ colonial_great_lakes = {
 	}
 	
 	provinces = {
-		910 911 912 913 914 915 916 917 942 943 944 945 946 947 948 951 954 958 2517 2518 2519 2520 2521 2522 
-		2523 2524 2525 2551 2555 4872 4875 4889 4898 4899 4903 4904 4907 4922 5143 5621
+		910 911 912 913 914 915 916 917 942 943 944 945 946 947 948 951 954 958 2517 2518 2519 2520 2521 2522 2523 2524 2525 2551 2555 4872 4875 
+		4889 4898 4899 4903 4904 4907 4922 5143 5621
 	}
 	
 	# Specific
@@ -2320,6 +2221,10 @@ colonial_great_lakes = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_GREAT_LAKES_SCA" #Stora_Sjöarna
+	}
+	names = {
+		trigger = { culture_group = dutch }
+		name = "COLONIAL_GREAT_LAKES_NED" #Grote Meren
 	}
 	names = {
 		trigger = {
@@ -2721,6 +2626,10 @@ colonial_namibia = {
 		name = "COLONIAL_NAMIBIA_SCA" #Namibia
 	}
 	names = {
+		trigger = { culture_group = dutch }
+		name = "COLONIAL_NAMIBIA_NED" #Zuidwestafrika
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -3101,6 +3010,10 @@ colonial_kenya = {
 		name = "COLONIAL_KENYA_SCA" #Kenia
 	}
 	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_KENYA_NED" #Kenia
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -3236,40 +3149,6 @@ colonial_buganda = {
 	}
 }
 
-# Rawanda
-#colonial_rawanda = {	#Merged with Uganda into African Great Lakes
-#	color = { 123 161 130 }
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#		grain = 10
-#		fruit = 10
-#	}
-#
-#	culture = {
-#		rwandan = 10
-#		ganda = 4
-#	}
-#
-#	religion = {
-#		shamanism = 10
-#	}
-#
-#	provinces = {
-#		4067 4070 5144 5214 5215 5216
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_RAWANDA_Rawanda"
-#	}
-#}
-
 # Somalia
 colonial_somalia = {
 	color = { 5 159 123 }
@@ -3323,6 +3202,10 @@ colonial_somalia = {
 		name = "COLONIAL_SOMALIA_SCA" #Somalia
 	}
 	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_SOMALIA_NED" #Somalië
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -3361,39 +3244,6 @@ colonial_somalia = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 }
-
-# Eritrea
-#colonial_eritrea = {	#Merged with Ehtiopia as it was for the most of History
-#	color = { 91 95 95 }
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#		grain = 10
-#		fish = 10
-#	}
-#	culture = {
-#		tigray = 10
-#		afar = 2
-#	}
-#
-#	religion = {
-#		coptic = 10
-#	}
-#
-#	provinces = {
-#		1215 1230 2765 2766 2787 5288 5297 5298 
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_ERITREA_Eritrea"
-#	}
-#}
 
 # Ethiopia
 colonial_ethiopia = {
@@ -3450,6 +3300,10 @@ colonial_ethiopia = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_ETHIOPIA_SCA" #Etiopien
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_ETHIOPIA_NED" #Ethiopië
 	}
 	names = {
 		trigger = {
@@ -3835,6 +3689,10 @@ colonial_sudan = {
 		name = "COLONIAL_SUDAN_SCA" #Sudan
 	}
 	names = {
+		trigger = { culture_group = scandinavian }
+		name = "COLONIAL_SUDAN_NED" #Soedan
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -3925,6 +3783,10 @@ colonial_central_africa = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_CENTRAL_AFRICA_SCA" #Centralafrika
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_CENTRAL_AFRICA_NED" #Centraalafrika
 	}
 	names = {
 		trigger = {
@@ -4020,7 +3882,11 @@ colonial_chad = {
 	}
 	names = {
 		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_CHAD_SCA" #Chad
+		name = "COLONIAL_CHAD_SCA" #Tchad
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_CHAD_NED" #Tsjaad
 	}
 	names = {
 		trigger = {
@@ -4115,6 +3981,10 @@ colonial_cameroon = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_CAMEROON_SCA" #Kamerun
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_CAMEROON_NED" #Kameroen
 	}
 	names = {
 		trigger = {
@@ -4507,6 +4377,10 @@ colonial_mauritania = {
 		name = "COLONIAL_MAURITANIA_SCA" #Mauretanien
 	}
 	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_MAURITANIA_NED" #Mauritanië
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -4694,6 +4568,10 @@ colonial_ivory_coast = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_IVORY_COAST_SCA" #Elfenbenskusten
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_IVORY_COAST_NED" #Ivoorkust
 	}
 	names = {
 		trigger = {
@@ -5570,148 +5448,6 @@ colonial_madagascar = {
 	}
 }
 
-# Morocco
-#colonial_morocco = {
-#	color = { 138 24 57 }
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#		grain = 10
-#		sugar = 10
-#	}
-#
-#	culture = {
-#		moroccan = 10
-#		shilha = 10
-#		riffian = 4
-#		berber = 2
-#	}
-#
-#	religion = {
-#		sunni = 10
-#	}
-#
-#	provinces = {
-#		334 335 342 343 344 345 346 347 348 349 1110 1111 1751 2460 2464 2465 2466 2467 2468 2469 2470 4561 4563 4564 4568 5210 5211 5212 5213 5218 5219 5220 5226 5228 5229 6469 6952 6962 6963 6964 6965 6968 7479
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_MOROCCO_Morocco"
-#	}
-#}
-
-# Algeria
-#colonial_algeria = {
-#	color = { 94 108 65 }
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#	    grain = 10
-#		sugar = 10
-#	}
-#
-#	culture = {
-#		berber = 10
-#		kabylian = 4
-#		tunisian = 2
-#		tuareg = 2
-#	}
-#
-#	religion = {
-#		sunni = 10
-#	}
-#
-#	provinces = {
-#		336 337 338 339 340 350 351 1127 1882 2456 2457 2458 2459 2461 2462 2463 2472 2475 4562 5221 5222 5223 5318 5319 5320 5321 5322 5323 5324 5325 5326 5327 5328 5329 6960 
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_ALGERIA_Algeria"
-#	}
-#}
-
-# Tunisia
-#colonial_tunisia = {
-#	color = { 25 34 195 }
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#	    grain = 10
-#		livestock = 10
-#	}
-#
-#	culture = {
-#		tunisian = 10
-#		berber = 4
-#	}
-#
-#	religion = {
-#		sunni = 10
-#	}
-#
-#	provinces = {
-#		341 352 353 2450 2453 2454 2455 2473 2954 4566 5224 5225 5312 5313 5314 5315 5316 5317 6072 8740
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_TUNISIA_Tunisia"
-#	}
-#}
-
-# Libya
-#colonial_libya = {
-#	color = { 104 102 35 }
-#
-#	# Random New World
-#	tax_income = 0
-#	native_size = 10
-#	native_ferocity = 1
-#	native_hostileness = 3
-#
-#	trade_goods = {
-#	    grain = 10
-#	    fruit = 10
-#	}
-#
-#	culture = {
-#		tunisian = 10
-#		libyan_berber_culture = 10
-#		al_misr_arabic = 4
-#		fezzan_arabic = 2
-#	}
-#
-#	religion = {
-#		sunni = 10
-#	}
-#
-#	provinces = {
-#		354 355 356 357 1795 2326 2448 2449 2451 2452 2474 4567 5274 5303 5304 5306 5307 5309 5310 5311 6601 6602 6603 6671 6954 6955 6958 6959
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_LIBYA_Libya"
-#	}
-#}
-
 # Papua New Guinea
 colonial_papua = {
 	color = { 171 89 12 }
@@ -5763,6 +5499,10 @@ colonial_papua = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_PAPUA_SCA" #Nya_Guinea
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_PAPUA_NED" #Nieuw-Guinea
 	}
 	names = {
 		trigger = {
@@ -5955,6 +5695,10 @@ colonial_vanuatu = {
 		name = "COLONIAL_VANUATU_SCA" #Nya_Hebriderna
 	}
 	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_VANUATU_NED" #Nieuwe Hebriden
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -6045,6 +5789,10 @@ colonial_new_caledonia = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_NEW_CALEDONIA_SCA" #Nya_Kaledonien
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_NEW_CALEDONIA_NED" #Nieuw-Caledonië
 	}
 	names = {
 		trigger = {
@@ -6220,7 +5968,7 @@ colonial_jamaica = {
 	}
 	names = {
 		trigger = { primary_culture = portugese }
-		name = "COLONIAL_JAMAICA_POR" #Terra_das_Nascentes
+		name = "COLONIAL_JAMAICA_POR" #Nascentes
 	}
 	names = {
 		trigger = { culture_group = iberian	}
@@ -6228,7 +5976,11 @@ colonial_jamaica = {
 	}
 	names = {
 		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_JAMAICA_SCA" #Land_av_Källor
+		name = "COLONIAL_JAMAICA_SCA" #Källor
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_JAMAICA_NED" #Bronnen
 	}
 	names = {
 		trigger = {
@@ -6237,7 +5989,7 @@ colonial_jamaica = {
 			NOT = {	tag = NED }
 			NOT = {	tag = HOL }
 		}
-		name = "COLONIAL_JAMAICA_GER" #Land_der_Quellen
+		name = "COLONIAL_JAMAICA_GER" #Quellen
 	}
 	names = {
 		trigger = {
@@ -6252,7 +6004,7 @@ colonial_jamaica = {
 	}
 	names = {
 		trigger = { culture_group = latin }
-		name = "COLONIAL_JAMAICA_LAT"  #Terra_Fontium
+		name = "COLONIAL_JAMAICA_LAT"  #Fontium
 	}
 	names = {
 		trigger = { culture_group = turkish_g }
@@ -6311,12 +6063,7 @@ colonial_guyana = {
 		name = "COLONIAL_GUYANA_PT"
 	}
 	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = { tag = NED }
-			NOT = { tag = HOL }
-		}
+		trigger = { primary_culture = dutch }
 		name = "COLONIAL_GUYANA_Suriname"
 	}
 	names = {
@@ -6371,79 +6118,6 @@ colonial_guyana = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 }
-
-# Suriname
-#colonial_suriname = {
-#	color = { 236 106 50 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		sugar = 3
-#		gold = 3
-#		fish = 1
-#		fruit = 1
-#		cocoa = 1
-#	}
-#
-#	culture = {
-#		guajiro = 4
-#		carib = 1
-#	}
-#	
-#	religion = {
-#		animism = 10
-#	}
-#
-#	provinces = {
-#		745 2937 3027 3029 3030
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_SURINAME_Suriname"
-#	}
-#}
-
-# Guiana
-#colonial_guiana = {
-#	color = { 51 147 250 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		sugar = 3
-#		gold = 3
-#		fish = 1
-#		fruit = 1
-#		cocoa = 1
-#	}
-#
-#	culture = {
-#		guajiro = 5
-#	}
-#	
-#	religion = {
-#		animism = 10
-#	}
-#
-#	provinces = {
-#		746 3033 3031 3035 3037
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_GUIANA_Guiana"
-#	}
-#}
 
 # Ecuador
 colonial_ecuador = {
@@ -6502,6 +6176,10 @@ colonial_ecuador = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_ECUADOR_SCA" #Ekvator
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_ECUADOR_NED" #Evenaar
 	}
 	names = {
 		trigger = {
@@ -6600,6 +6278,10 @@ colonial_venezuela = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_VENEZUELA_SCA" #Lilla_Venedig
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_VENEZUELA_NED" #Klein-Venetië
 	}
 	names = {
 		trigger = {
@@ -6701,6 +6383,10 @@ colonial_bolivia = {
 		name = "COLONIAL_BOLIVIA_SCA" #Bolivia
 	}
 	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_BOLIVIA_NED" #Bolivia
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -6799,6 +6485,10 @@ colonial_chile = {
 		name = "COLONIAL_CHILE_SCA" #Chili
 	}
 	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_CHILE_NED" #Chili
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -6837,78 +6527,6 @@ colonial_chile = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 }
-
-# Paraguay
-#colonial_paraguay = {
-#	color = { 194 218 211 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		copper = 5
-#		gems = 2
-#		livestock = 1
-#		exotic_animals = 1
-#	}
-#
-#	culture = {
-#		chacoan = 10
-#		guarani = 5
-#	}
-#	
-#	religion = {
-#		animism = 10
-#	}
-#
-#	provinces = {
-#		775 799 2858 2859 2883 
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_PARAGUAY_Paraguay"
-#	}
-#}
-
-# Uruguay
-#colonial_uruguay = {
-#	color = { 171 181 132 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		lumber = 5
-#		fish = 2
-#		wine = 1
-#		fruit = 1
-#		silver = 1
-#	}
-#
-#	culture = {
-#		charruan = 10
-#	}
-#	
-#	religion = {
-#		animism = 10
-#	}
-#
-#	provinces = {
-#		772 773 2850 2851 2852 
-#	}
-#	
-#	# Generic
-#	names = {
-#		name = "COLONIAL_URUGUAY_Uruguay"
-#	}
-#}
 
 # Patagonia
 colonial_patagonia = {
@@ -6966,6 +6584,10 @@ colonial_patagonia = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_PATAGONIA_SCA" #Patagonien
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_PATAGONIA_NED" #Patagonië
 	}
 	names = {
 		trigger = {
@@ -7065,7 +6687,11 @@ colonial_amazonia = {
 	}
 	names = {
 		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_AMAZONIA_SCA" #Amazon
+		name = "COLONIAL_AMAZONIA_SCA" #Amazone
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_AMAZONIA_NED" #Amazonië
 	}
 	names = {
 		trigger = {
@@ -7074,7 +6700,7 @@ colonial_amazonia = {
 			NOT = {	tag = NED }
 			NOT = {	tag = HOL }
 		}
-		name = "COLONIAL_AMAZONIA_GER" #Amazon
+		name = "COLONIAL_AMAZONIA_GER" #Amazonien
 	}
 	names = {
 		trigger = {
@@ -7085,15 +6711,15 @@ colonial_amazonia = {
 				primary_culture = celtic_highland_scottish_culture
 			}
 		}
-		name = "COLONIAL_AMAZONIA_GLC" #Amazon
+		name = "COLONIAL_AMAZONIA_GLC" #Amazonia
 	}
 	names = {
 		trigger = { culture_group = latin }
-		name = "COLONIAL_AMAZONIA_LAT"  #Amazon
+		name = "COLONIAL_AMAZONIA_LAT"  #Amazonia
 	}
 	names = {
 		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_AMAZONIA_TUR" #Amazon
+		name = "COLONIAL_AMAZONIA_TUR" #Amazonya
 	}
 	# Generic
 	names = {
@@ -7172,6 +6798,10 @@ colonial_rio_grande = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_RIO_GRANDE_SCA" #Stora_Floden
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_RIO_GRANDE_NED" #Grote Rivier
 	}
 	names = {
 		trigger = {
@@ -7374,6 +7004,10 @@ colonial_central_america = {
 		name = "COLONIAL_CENTRAL_AMERICA_SCA" #Centralamerika
 	}
 	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_CENTRAL_AMERICA_NED" #Centraalamerika
+	}
+	names = {
 		trigger = {
 			culture_group = germanic
 			NOT = { primary_culture = dutch }
@@ -7468,6 +7102,10 @@ colonial_maranhao = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_MARANHAO_SCA" #Amazonfloden
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_MARANHAO_NED" #Amazone_Rivier
 	}
 	names = {
 		trigger = {
@@ -7565,6 +7203,10 @@ colonial_mato_grosso = {
 	names = {
 		trigger = { culture_group = scandinavian }
 		name = "COLONIAL_MATO_GROSSO_SCA" #Tjock_Buske
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_MATO_GROSSO_NED" #Dikke_Struik
 	}
 	names = {
 		trigger = {

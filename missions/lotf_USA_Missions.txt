@@ -798,13 +798,6 @@ USA_missions_4 = {
 					}
 					add_permanent_claim = ROOT
 				}
-				west_mindanao_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
 				visayas_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -837,10 +830,7 @@ USA_missions_4 = {
 			hidden_effect = {
 				if = { 
 					limit = {
-						OR = {
-							california_area = { owned_by = ROOT is_city = yes type = all }
-							central_valley_area = { owned_by = ROOT is_city = yes type = all }
-						}
+					    california_area = { owned_by = ROOT is_city = yes type = all }
 					}
 					2480 = { change_trade_goods = gold add_base_production = 5 add_base_manpower = 2 }
 				}
@@ -940,9 +930,9 @@ USA_missions_5 = {
 		provinces_to_highlight = {
 			OR = {
 				area = appalachia_area
-				area = kentucky_area
-				area = south_appalachia_area
+				area = carolinas_area
 				area = choctaw_area
+				area = kentucky_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -952,23 +942,23 @@ USA_missions_5 = {
 		}
 		trigger = { 
 			appalachia_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
-			kentucky_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
-			south_appalachia_area { owned_by = ROOT is_city = yes is_state = yes type = all }
+			carolinas_area { owned_by = ROOT is_city = yes is_state = yes type = all }
 			choctaw_area { owned_by = ROOT is_city = yes is_state = yes type = all }
+			kentucky_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 		}
 		effect = {
 			appalachia_area = {
 				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
-			}		
-			kentucky_area = {
-				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
-			}	
-			south_appalachia_area = {
+			}
+			carolinas_area = {
 				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
 			}
 			choctaw_area = {
 				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
 			}
+			kentucky_area = {
+				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
+			}	
 			935 = {
 				change_trade_goods = copper
 				add_province_modifier = { name = productive_mine duration = -1 }
@@ -991,8 +981,7 @@ USA_missions_5 = {
 				area = american_georgia_area
 				area = upper_american_georgia_area
 				area = alabama_area
-				area = west_florida_area
-				area = north_florida_area
+				area = florida_area
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -1004,8 +993,7 @@ USA_missions_5 = {
 			american_georgia_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 			upper_american_georgia_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 			alabama_area { owned_by = ROOT is_city = yes is_state = yes type = all }
-			west_florida_area { owned_by = ROOT is_city = yes is_state = yes type = all }
-			north_florida_area { owned_by = ROOT is_city = yes is_state = yes type = all }
+			florida_area { owned_by = ROOT is_city = yes is_state = yes type = all }
 		}
 		effect = {
 			custom_tooltip = blank_space
@@ -1018,10 +1006,7 @@ USA_missions_5 = {
 			alabama_area = {
 				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
 			}
-			west_florida_area = {
-				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
-			}
-			north_florida_area = {
+			florida_area = {
 				add_province_modifier = { name = colonial_dev_modifier duration = 5475 }
 			}
 			932 = {
