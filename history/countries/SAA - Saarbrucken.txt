@@ -17,17 +17,31 @@ fixed_capital = 3198
 		dip = 3
 		mil = 3
 	}
-	heir = {
-		name = "Johann Ludwig"
-		dynasty = "von Nassau-Saarbrucken"
-		birth_date = 1472.10.19
-		claim = 95
-		adm = 2			
-		dip = 2			
-		mil = 2			
-	}
 }
-1472.7.26 = {
+
+1472.7.25 = {
+    monarch = {
+        name = "Regency Council"
+        adm = 2
+        dip = 2
+        mil = 2
+        regent = yes
+    }
+}
+
+1472.10.19 = {
+    heir = {
+        name = "Johann Ludwig"
+        dynasty = "von Nassau-Saarbrucken"
+        birth_date = 1472.10.19
+        adm = 2
+        dip = 2
+        mil = 2
+        claim = 95
+    }
+}
+
+1490.1.1 = {
 	monarch = {
 		name = "Johann Ludwig"
 		dynasty = "von Nassau-Saarbrucken"
@@ -37,6 +51,9 @@ fixed_capital = 3198
 		dip = 2			
 		mil = 2			
 	}
+}
+
+1509.7.25 = {
 	heir = {
 		name = "Philipp"
 		dynasty = "von Nassau-Saarbrucken"
@@ -47,6 +64,7 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
+
 1545.6.5 = {
 	monarch = {
 		name = "Philipp II"
@@ -58,6 +76,7 @@ fixed_capital = 3198
 		mil = 2			
 	}
 }
+
 1554.6.20 = {
 	monarch = {
 		name = "Johann III"
