@@ -9,10 +9,10 @@ add_core = CAT
 culture = catalan
 religion = catholic
 hre = no
-base_tax = 1 
+base_tax = 2
 base_production = 1 
 trade_goods = horses
-base_manpower = 1 
+base_manpower = 2
 capital = "Urgell" #Tarrega is way down south in Lleida. Hence it has to be Seu d'Urgell. #"Tàrrega" 
 is_city = yes 
 
