@@ -126,6 +126,11 @@ spriteTypes = {
 		name = "GFX_colony_terrain_dry_highlands"
 		texturefile = "gfx/interface/dry_highlands_colony.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_tropical_highlands_terrain"
+		texturefile = "gfx/interface/tropical_highlands_terrain_colony.dds"
+	}
 
 	spriteType = {
 		name = "GFX_colonist_placement_chance"

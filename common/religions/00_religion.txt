@@ -1428,7 +1428,7 @@ christian = {
 	
 	mormon = {
 		color = { 223 148 255 }
-		icon = 30
+		icon = 38
 		center_of_religion = 2490
 		allowed_conversion = {
 		}

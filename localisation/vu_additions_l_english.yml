@@ -267,6 +267,8 @@
  dry_highlands_desc:0 "Drylands located on elevated and uneven terrain. Hard, infertile soil, lack of lush vegetation, and hot envirorment filled with hills and rocks are not perfect conditions but definetely better than desert."
  swamp:0 "Swamps"
  swamp_desc:0 "A swamp is a forested wetland considered to be transition zones because both land and water play a role in creating this environment. Swamps also vary in size and are located all around the world."
+ tropical_highlands_terrain:0 "Tropical Highlands"
+ tropical_highlands_terrain_desc:0 "Tropical highlands are areas covered with jungle forests that also have high elevation and very steep or uneven terrain, making it very hard terrain to traverse. Tropical Highlands combine jungle and hill features making this terrain very tough to develop and build on."
  
  #
  #URBAN_PLACE_HOLDERS
