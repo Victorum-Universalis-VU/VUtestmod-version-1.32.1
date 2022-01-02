@@ -2557,7 +2557,28 @@ remove_development_from_building = {
 
 #Province effect
 add_latest_building = {
+	[[production]
+		if = {
+			limit = { $builder$ = { adm_tech = 32 } }
+			add_building = factory
+		}
+		if = {
+			limit = { $builder$ = { adm_tech = 24 } }
+			add_building = treasury
+		}
+		if = {
+			limit = { $builder$ = { adm_tech = 12 } }
+			add_building = counting_house
+		}
+		else = {
+			add_building = workshop
+		}
+	]
 	[[trade]
+		if = {
+			limit = { $builder$ = { dip_tech = 32 } }
+			add_building = corporative_headquarters
+		}
 		if = {
 			limit = { $builder$ = { dip_tech = 22 } }
 			add_building = stock_exchange
@@ -2579,16 +2600,11 @@ add_latest_building = {
 			add_building = courthouse
 		}
 	]
-	[[production]
-		if = {
-			limit = { $builder$ = { adm_tech = 24 } }
-			add_building = counting_house
-		}
-		else = {
-			add_building = workshop
-		}
-	]
 	[[tax]
+		if = {
+			limit = { $builder$ = { adm_tech = 29 } }
+			add_building = grand_cathedral
+		}
 		if = {
 			limit = { $builder$ = { adm_tech = 19 } }
 			add_building = cathedral
@@ -2635,11 +2651,15 @@ add_latest_building = {
 	]
 	[[coastal]
 		if = {
+			limit = { $builder$ = { dip_tech = 25 } }
+			add_building = coastal_artillery
+		}
+		if = {
 			limit = { $builder$ = { dip_tech = 12 } }
-			add_building = naval_battery
+			add_building = naval_arsenal
 		}
 		else = {
-			add_building = coastal_defence
+			add_building = naval_base
 		}
 	]
 	[[fort]
