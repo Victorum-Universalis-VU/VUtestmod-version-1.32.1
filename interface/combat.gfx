@@ -259,6 +259,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/tropical_highlands_terrain.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_combat_terrain_salt_flats"
+		texturefile = "gfx/interface/salt_flats.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_mediterranean_grasslands"
+		texturefile = "gfx/interface/mediterranean_grasslands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_dry_river"
+		texturefile = "gfx/interface/dry_river.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_alluvial_plains"
+		texturefile = "gfx/interface/alluvial_plains.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_fertile_highlands"
+		texturefile = "gfx/interface/fertile_highlands.dds"
+	}
+	
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_london"
         texturefile = "gfx/interface/london.dds"
