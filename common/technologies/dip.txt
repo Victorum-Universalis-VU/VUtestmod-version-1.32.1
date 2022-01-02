@@ -15,7 +15,6 @@ technology = { #Early Ships
 	range					=	60
 	may_fabricate_claims = yes
 
-    road_network = yes
 	enable = war_canoe
 }
 
@@ -73,6 +72,8 @@ technology = { #Marketplace
 	}
 		
 	trade_range	= 10
+	
+	#Marketplace Building
 	marketplace = yes 
 }
 
@@ -88,7 +89,8 @@ technology = { #Basic Financial Instruments
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	
-	coastal_defence = yes
+	#Naval Base Building
+	naval_base = yes
 }
 
 technology = { #Shipyards
@@ -99,8 +101,10 @@ technology = { #Shipyards
 		renaissance = 0.3
 	}
 	
-	dock = yes	
 	may_steal_maps = yes
+	
+	#Dock Building
+	dock = yes	
 }
 
 technology = { #Naval Ambitions
@@ -115,6 +119,9 @@ technology = { #Naval Ambitions
 	range					= 115
 	impressment_offices 	= yes
 	naval_engagement_width = 10
+	
+	#Canal System Building
+	canal_system = yes
 }
 
 technology  = { #Docks
@@ -125,12 +132,13 @@ technology  = { #Docks
 		renaissance = 0.5
 	}
 
-	
 	num_accepted_cultures = 1
-	shipyard = yes
 
 	trade_range				=	10
 	naval_morale			=	0.2
+	
+	#Shipyard Building
+	shipyard = yes
 }
 
 technology = { #Carracks & Caravel
@@ -192,8 +200,10 @@ technology = { #Man of War
 	naval_morale			=	0.4
 	may_slander_merchants = yes
 
-	naval_battery = yes
 	naval_engagement_width = 15
+	
+	#Naval Arsenal
+	naval_arsenal = yes
 }
 
 technology = { #Chartered Companies
@@ -273,6 +283,7 @@ technology = { #Merchantman
 	trade_range				=	20
 	range					=	50
 	
+	#Trade Depot Building
 	trade_depot = yes 
 	enable = merchantman
 }
@@ -309,10 +320,11 @@ technology = { #The War Galleon
 	naval_maintenance		= 	0.1	
 	range					=	50
 	
-	drydock = yes 
-	
 	enable = wargalleon
 	enable = frigate
+	
+	#Drydock Building
+	drydock = yes 
 }
 
 technology = { #Naval Professionalization
@@ -362,13 +374,14 @@ technology = { #Limes
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
-	
-	stock_exchange = yes
 
 	reduced_naval_attrition = yes
 	enable = twodecker
 	enable = trabakul
 	naval_engagement_width = 5
+	
+	#Stock Exchange Building
+	stock_exchange = yes 
 }
 
 technology = { #Heavy Frigates
@@ -403,13 +416,14 @@ technology = { #The Archipelago Frigate
 		enlightenment = 0.15
 	}
 	
-	grand_shipyard = yes 
-	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	enable = archipelago_frigate
 	may_corrupt_officials = yes
 	naval_engagement_width = 10
+	
+	#Grand Shipyard Building
+	grand_shipyard = yes 
 }
 
 technology = { #The Threedeckers
@@ -429,6 +443,9 @@ technology = { #The Threedeckers
 	naval_maintenance		= 	0.1
 	
 	enable = threedecker
+	
+	#Coastal Artillery Building
+	coastal_artillery = yes
 }
 
 technology = { #The Eastindiaman
@@ -569,6 +586,9 @@ technology = { #The Gold Standard
 	#The Gold Standard
 	trade_efficiency 		= 	0.02
 	num_accepted_cultures = 1
+	
+	#Corporative Headquarters Building
+	corporative_headquarters = yes
 }
 
 technology = {

@@ -480,7 +480,7 @@ natives_african = {
 		
 		### START colonial_mauritania from 01_vu_colonial_regions.txt ###
 		
-			1793 2244 2246 6953 6961 6966 6967 6969 
+			1112 1793 2244 2246 3032 3038 3041 6953 6961 6966 6967 6969 
 		
 		### END colonial_mauritania ###
 		
@@ -516,7 +516,7 @@ natives_african = {
 		
 		### START colonial_senegal from 01_vu_colonial_regions.txt ###
 		
-			1112 1113 1115 1116 2237 2238 2240 7357 7358 7359 7360 7361 7367 
+			1113 1115 1116 2237 2238 2240 7357 7358 7359 7360 7361 7367 
 		
 		### END colonial_senegal ###
 		

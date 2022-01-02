@@ -36,6 +36,7 @@ technology = {
 	infantry_shock = 0.1
 	infantry_fire = 0.1
 	
+	#Castle Building
 	fort_15th = yes
 	
 	enable = african_mandelaku
@@ -117,6 +118,9 @@ technology = {
 	may_drill = yes
 
 	enable = mongol_steppe	
+	
+	#Road System Building
+	road_system = yes
 }
 
 technology = {
@@ -193,10 +197,6 @@ technology = {
 	infantry_shock = 0.30
 	infantry_fire = 0.20
 
-	
-	barracks = yes
-
-
 	enable = african_somali_cavalry
 	enable = african_tuareg_cavalry	
 	enable = central_american_horsemen
@@ -208,6 +208,9 @@ technology = {
 	enable = pacific_horseman
 	
 	combat_width = 2
+	
+	#Barracks Building
+	barracks = yes
 }
 
 technology = {
@@ -241,13 +244,14 @@ technology = {
 	infantry_fire = 0.25
 	military_tactics = 0.25
 
-	training_fields = yes
-
     enable = persian_shamshir
 	enable = slavic_stradioti
 	enable = ottoman_timariot	
 	
 	combat_width = 1
+	
+	#Training Fields Building
+	training_fields = yes
 }
 
 technology = {
@@ -424,8 +428,6 @@ technology = {
 	#Trunnions
 	artillery_shock = 0.1
 	artillery_fire = 0.4
-
-	regimental_camp = yes
 	
 	enable = mughal_mansabdar
 	enable = westernized_south_american	
@@ -437,6 +439,9 @@ technology = {
 	enable = westernized_adal
 	enable = westernized_ethiopian
 	enable = chambered_demi_cannon
+	
+	#Regimental Camp Building
+	regimental_camp = yes
 }
 
 technology = {
@@ -449,8 +454,6 @@ technology = {
 		printing_press = 0.3
 	}
 	
-	#Star Bastions
-	fort_16th = yes
 	infantry_fire = 0.3
 	
 	enable = african_hussar
@@ -472,6 +475,9 @@ technology = {
 	enable = pacific_arquebusier
 	
 	combat_width = 2
+	
+	#Bastion Building
+	fort_16th = yes
 }
 
 technology = {
@@ -557,8 +563,6 @@ technology = {
 	cavalry_shock = 0.5
 	maneuver_value = 0.25
 
-	conscription_center = yes
-
 	enable = asian_musketeer
 	enable = french_gallop
 	enable = ha_xoloti
@@ -573,6 +577,9 @@ technology = {
 	enable = pacific_swarm_cav
 	
 	combat_width = 2
+	
+	#Conscription Center Building
+	conscription_center = yes
 }
 
 technology = {
@@ -589,8 +596,6 @@ technology = {
 	#Gustavian Infantry
 	military_tactics = 0.25
 	supply_limit = 0.5
-
-	fort_17th = yes
 
 	enable = austrian_tercio
 	enable = british_snapshot
@@ -616,6 +621,9 @@ technology = {
 	enable = swedish_gustavian
 	enable = aboriginal_riflemen
 	enable = pacific_riflemen
+	
+	#Star Fort Building
+	fort_17th = yes
 }
 
 technology = {
@@ -794,7 +802,6 @@ technology = {
 	}
 	
 	#Metallurgy
-	fort_18th = yes	
 	military_tactics = 0.25
 	artillery_shock = 0.1
 	artillery_fire = 2.0
@@ -804,6 +811,9 @@ technology = {
 	enable = reformed_japanese_cavalry
 	enable = russian_lancer
 	enable = tartar_cossack
+	
+	#Fortress Building
+	fort_18th = yes	
 }
 
 technology = {
@@ -1282,8 +1292,10 @@ technology = {
 	combat_width = -2
 	cavalry_fire = 3
 
-	trenches = yes
 	enable = early_tank
 	enable = renault_FT
 	enable = A7V
+	
+	#Trench
+	trench = yes
 }
