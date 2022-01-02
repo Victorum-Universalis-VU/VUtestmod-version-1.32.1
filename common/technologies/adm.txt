@@ -73,7 +73,7 @@ technology = { #Temples
 		feudalism = 0.5
 	}
 
-	# Temple Building
+	# Temple
 	temple = yes
 
 }
@@ -98,11 +98,10 @@ technology = { #Workshop
 		renaissance = 0.3
 	}
 
+	#Workshop
 	farm_estate = yes
-	ramparts = yes
-	
-	#Workshop Building
 	workshop = yes
+	ramparts = yes
 }
 
 technology = { #Renaissance Thought
@@ -125,10 +124,8 @@ technology = { #Courthouse
 		renaissance = 0.5
 	}
 
-	governing_capacity = 200   #Dev doubled but cap gains not?
-	
-	#Courthouse Building
 	courthouse = yes
+	governing_capacity = 200   #Dev doubled but cap gains not?
 
 }
 
@@ -184,9 +181,6 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	governing_capacity = 200	#Dev doubled but cap gains not?
 	state_house = yes
-	
-	#Counting House Building
-	counting_house = yes
 }
 
 technology = { #Improved Drainage
@@ -256,13 +250,11 @@ technology = { #University
 		global_trade = 0.15
 	}
 
+	university = yes
 	governing_capacity = 500	#Dev doubled but cap gains not?
 
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
-	
-	#University Building
-	university = yes
 }
 
 technology = { #National Sovereignty
@@ -290,7 +282,7 @@ technology = { #Cathedral
 		global_trade = 0.5
 	}
 	
-	#Cathedral Building
+	#Cathedral
 	cathedral = yes
 }
 
@@ -341,7 +333,6 @@ technology = { #The Constitution
 	constitutional_monarchy = yes
 	constitutional_republic = yes
 
-	#Town Hall Building
 	town_hall = yes
 }
 
@@ -374,10 +365,8 @@ technology = { #Bonds and Tontines
 		enlightenment = 0.15
 	}
 	
+	counting_house = yes
 	governing_capacity = 500	#Dev doubled but cap gains not?
-	
-	#Treasury Building
-	treasury = yes
 }
 
 technology = { #Improved Production
@@ -431,8 +420,10 @@ technology = { #Modern Bureaucracy
 		enlightenment = 0.5
 	}
 
+	#Modern Canal System
     #Rotherham Plough
 	production_efficiency = 0.02
+	transport_canal = yes
 }
 
 technology = { #Rotherham Plough
@@ -471,9 +462,6 @@ technology = { #Rights of Man
 
 	#Watt Steam Engine
 	production_efficiency 	=	0.02
-	
-	#Grand Cathedral Building
-	grand_cathedral = yes
 }
 
 technology = { #Advanced Production
@@ -533,9 +521,7 @@ technology = { #Four Field Rotation
 		imperialism = 0.5
 	}
 
-	#Factory Building
-	factory = yes
-	
+
 	#Revolutionary Ideals
 	revolutionary_republic = yes
 	revolutionary_empire = yes
@@ -576,11 +562,10 @@ technology = {
 		imperialism = 1
 	}
 
+	#Railroad
+	railroad = yes
 	development_efficiency = 0.1
 	production_efficiency  = 0.02
-	
-	#Railway System Building
-	railway_system = yes
 }
 
 technology = {

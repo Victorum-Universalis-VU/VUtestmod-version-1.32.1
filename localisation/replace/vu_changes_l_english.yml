@@ -1892,6 +1892,19 @@
  #VIC_HEALTH_2:0 "(2) Your country provides Acceptable National Health Care"
  #VIC_HEALTH_3:0 "(3) Your country provides Good National Health Care"
 
+ #NEW BUILDINGS - Added in TCOP by San Felipe
+ building_transport_canal:0 "Canal"
+ building_railroad:0 "Railroad"
+ building_fort_19th:0 "Polygonal Fort"
+ building_fort_siege_1:0 "Siege Weaponry: Field Howitzer"
+ building_fort_siege_2:0 "Siege Weaponry: Breech-loaded Artillery"
+ building_fort_siege_3:0 "Siege Weaponry: Recoil Firing System"
+ building_fort_siege_4:0 "Siege Weaponry: Modern Howitzer"
+ building_trenches:0 "Trenches"
+ building_oil_well:0 "Oil Well"
+ building_steam_engine_factory:0 "Steam Engine Factory"
+ TRANSPORTATION:0 "Transport"
+
  #NEW UNITS - Added in TCOP by San Felipe
  social_reforms_decision_title:0 "?YSocial Reforms Overview?!"
  social_reforms_decision_desc:0 "Hover over the latter-icon on the right, to see an overview of your current Social Reforms."
@@ -1981,14 +1994,14 @@
  german_group:0 "German"
  industrial_age:0 "Age of Industrialization"
  industrial_age_desc:0 "With factories and other powerful means of production popping up the great powers are dividing the less developed parts of the world between each other to secure access to the resources required to fuel the industrial revolution."
- obj_industrial_railways:0 "Railway Systems"
+ obj_industrial_railroads:0 "Railroad Network"
  obj_industrial_modern_industry:0 "Modern Industry"
  obj_industrial_african_colonies:0 "Scramble for Africa"
  obj_industrial_four_continents:0 "The Sun never sets"
  obj_industrial_developed_provinces:0 "Growing Cities"
  obj_industrial_social_welfare:0 "Social Welfare"
  obj_industrial_modern_resources:0 "Industrial Trade"
- obj_industrial_railways_desc:0 "Build 15 Railways."
+ obj_industrial_railroads_desc:0 "Build 15 Railroads."
  obj_industrial_modern_industry_desc:0 "Build 5 Furnaces or Oil Wells."
  obj_industrial_african_colonies_desc:0 "Have at least 20 Provinces in the four Central African Regions."
  obj_industrial_four_continents_desc:0 "Own a province on 4 different continents."
@@ -1996,6 +2009,10 @@
  obj_industrial_social_welfare_desc:0 "Have 6 Social Policy Levels."
  obj_industrial_modern_resources_desc:0 "Have the "trading in" bonus of one of the latent resources."
  ab_industrial_construction:0 "Industrial Construction"
+ ab_industrial_railroad:0 "Railroad Boom"
+ railroad_ab_industrial:0 "Gain §YRailroad§! in §YCapital Province§! and §YRailroad Boom§! modifier in every owned Province with §Y40 Development§!."
+ railroad_building_slot:0 "Railroad Boom"
+ desc_railroad_building_slot:0 "Allows building §YRailroad§! in this Province."
  ab_industrial_colonization:0 "A Place in the Sun"
  ab_industrial_child_labour:0 "Child Labour"
  ab_industrial_socialist:0 "Socialism"
@@ -2109,9 +2126,9 @@
  vic_prices.EVTNAME1:0 "Iron Ships"
  vic_prices.EVTDESC1:0 "The change from wood to iron came because the introduction of steam power required new techniques and experience in shipbuilding. The general use of iron for warships awaited the full realization of the value of the shell gun and the resulting need for armour, which were first demonstrated in the employment of armoured batteries in the Crimean War and in the battle between the Monitor and Merrimack in the American Civil War."
  vic_prices.EVTOPTA1:0 "This will increase the demand for Iron"
- LOCOMOTIVE:0 "Railways"
- vic_prices.EVTNAME2:0 "Railways"
- vic_prices.EVTDESC2:0 "The first industries benefitting from the Railway Boom were the coal and iron industries. They were destined to be basic industries in the new age of machinery. While coal demand increased even further, the early 19th century also marked the beginning of the the new Iron Age, as the iron industry experienced a massive stimulation from the heavy demand for railways, which needed iron rails, iron in the stock, bridges, tunnels and more. Meanwhile, civilian use increased, as everything which could be made of iron began to be."
+ LOCOMOTIVE:0 "Railroads"
+ vic_prices.EVTNAME2:0 "Railroads"
+ vic_prices.EVTDESC2:0 "The first industries benefitting from the Railroad-boom were the coal and iron industries. They were destined to be basic industries in the new age of machinery. While coal demand increased even further, the early 19th century also marked the beginning of the the new Iron Age, as the iron industry experienced a massive stimulation from the heavy demand for railways, which needed iron rails, iron in the stock, bridges, tunnels and more. Meanwhile, civilian use increased, as everything which could be made of iron began to be."
  vic_prices.EVTOPTA2:0 "This will increase the demand for Iron and Coal"
  FLYING_SHUTTLE:0 "Flying Shuttle"
  vic_prices.EVTNAME3:0 "Introduction of the Flying Shuttle"
@@ -3843,45 +3860,3 @@
  TIER_1_DESCRIPTION:0 "Significant"
  TIER_2_DESCRIPTION:0 "Great"
  TIER_3_DESCRIPTION:0 "Magnificent"
- 
- #OK Buildings
- #Production
- building_workshop:0 "Workshop"
- building_counting_house:0 "Counting House"
- building_treasury:0 "Treasury"
- building_factory:0 "Factory"
- #Trade
- building_marketplace:0 "Marketplace"
- building_trade_depot:0 "Trade Depot"
- building_stock_exchange:0 "Stock Exchange"
- building_corporative_headquarters:0 "Corporative Headquarters"
- #Army
- building_barracks:0 "Barracks"
- building_training_fields:0 "Training Fields"
- building_regimental_camp:0 "Regimental Camp"
- building_conscription_center:0 "Conscription Center"
- #Navy
- building_shipyard:0 "Shipyard"
- building_grand_shipyard:0 "Grand Shipyard"
- building_dock:0 "Dock"
- building_drydock:0 "Drydock"
- #GOVERNMENT:0
- building_courthouse:0 "Courthouse"
- building_town_hall:0 "Town Hall"
- building_university:0 "University"
- #Taxation
- building_temple:0 "Temple"
- building_cathedral:0 "Cathedral"
- building_grand_cathedral:0 "Grand Cathedral"
- #Transportation
- building_canal_system:0 "Canal System"
- building_road_system:0 "Road System"
- building_railway_system:0 "Railway System"
- #Coastal
- building_naval_base:0 "Naval Base"
- building_naval_arsenal:0 "Naval Arsenal"
- building_coastal_artillery:0 "Coastal Artillery"
- #Fortification
- building_trench:0 "Trench"
- #Manufactories
- building_oil_well:0 "Oil Well"

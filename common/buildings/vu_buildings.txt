@@ -1,1 +1,438 @@
-#Everything in this file was moved to 00_buildings.txt
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+
+# cost = x #==> cost in $ to build (subject to other modifiers)
+# time = x #==> number of months to build.
+# modifier = m # a modifier on the province that the building gives
+# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# one_per_country = yes/no # if yes, only one of these can exist in a country
+# manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
+# onmap = yes/no # show as a sprite on the map
+
+# FROM = owner
+# ROOT = province
+
+# AI will consider buildings it does not have the tech for at 20% of scripted AI weight (in case it wants to save slots)
+
+################################################
+# Transportation
+################################################
+
+transport_canal = {
+	cost = 200
+	time = 12
+
+	modifier = {
+		local_friendly_movement_speed = 0.2
+		province_trade_power_modifier = 0.25
+		local_production_efficiency = 0.25
+	}
+	
+	build_trigger = {
+		OR = {
+			has_port = yes
+			AND = {
+				any_friendly_coast_border_province = {
+					has_building = transport_canal
+				}
+				any_neighbor_province = {
+					has_building = transport_canal
+				}
+			}
+		}	
+	}
+
+    ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+			NOT = { development = 10 }
+		}
+	}
+}
+
+road_network = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		local_production_efficiency = 0.2
+		local_friendly_movement_speed = 0.2
+		province_trade_power_modifier = 0.2
+		allowed_num_of_buildings = 1
+	}
+	
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+			NOT = { development = 10 }
+		}
+	}
+}
+
+
+railroad = {
+	cost = 400
+	time = 12
+	make_obsolete = road_network
+
+	potential = {
+		OR = {
+			has_dlc = "Rule Britannia"
+			has_dlc = "Mandate of Heaven"
+		}
+	}
+
+	modifier = {
+		local_friendly_movement_speed = 0.4
+		province_trade_power_modifier = 0.5
+		local_production_efficiency = 0.5
+		allowed_num_of_buildings = 1
+	}
+
+	build_trigger = {
+		OR = {
+			trade_goods = coal
+			AND = {
+				owner = { has_country_flag = railroad_boom_happened }
+				THIS = { development = 40 }
+			}		
+			AND = {
+				any_friendly_coast_border_province = {
+					has_building = railroad
+				}
+				any_neighbor_province = {
+					has_building = railroad
+				}
+			}		
+		}
+	}
+
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+			NOT = { development = 10 }
+		}
+	}
+}
+
+################################################
+# Fort
+################################################
+	
+fort_19th = {
+	
+	cost = 1000
+	time = 72
+	
+	make_obsolete = fort_18th
+	
+	modifier = {
+		fort_level = 8
+		local_unrest = -2.5				#Tcop AddOn new
+		local_defensiveness = 1.2		#Tcop AddOn new
+	}
+
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+fort_siege_1 = {
+	
+	cost = 1200	
+	time = 72
+	#make_obsolete = fort_19th
+	modifier = {
+		fort_level = 10
+		local_unrest = -3.0					#Tcop AddOn new
+		local_defensiveness = 1.5			#Tcop AddOn new
+	}
+	
+	build_trigger = {
+		always = no
+	}
+
+	onmap = yes
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 0 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+fort_siege_2 = {
+	
+	cost = 1400
+	time = 72
+	#make_obsolete = fort_siege_1
+	modifier = {
+		fort_level = 12
+		local_unrest = -3.5				#Tcop AddOn new
+		local_defensiveness = 2.0		#Tcop AddOn new
+	}
+	
+	build_trigger = {
+		always = no
+	}
+
+	onmap = yes
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 0 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+fort_siege_3 = {
+	
+	cost = 1600
+	time = 72
+	#make_obsolete = fort_siege_2
+	modifier = {
+		fort_level = 14
+		local_unrest = -3.5				#BTAddOn new
+		local_defensiveness = 1.8		#BTAddOn new
+	}
+	
+	build_trigger = {
+		always = no
+	}
+
+	onmap = yes
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 0 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+fort_siege_4 = {
+	
+	cost = 1800
+	time = 72
+	#make_obsolete = fort_siege_3
+	modifier = {
+		fort_level = 16
+		local_unrest = -4.0				#BTAddOn new
+		local_defensiveness = 2.0		#BTAddOn new
+	}
+	
+	build_trigger = {
+		always = no
+	}
+
+	onmap = yes
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 0 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+trenches = {
+	
+	cost = 20
+	time = 1
+	modifier = {
+		local_monthly_devastation = 0.25
+		allowed_num_of_buildings = 1
+		local_hostile_movement_speed = -0.40
+		local_defensiveness = 1.5
+	}
+	build_trigger = {
+		NOT = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+			has_building = fort_19th
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				any_neighbor_province = {
+					NOT = {
+						controller = { tag = ROOT }
+					}
+				}	
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = { is_at_war = no }
+		}
+		modifier = {
+			factor = 2
+			any_neighbor_province = {
+				controller = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+}
+
+################################################
+# Manufactories
+################################################
+
+manufactory = {
+	cost = 500
+	time = 60
+	modifier = {
+		trade_goods_size = 1.0
+	}
+}
+
+steam_engine_factory = {
+	manufactory = {
+	    coal
+		copper
+		iron
+		lead
+		mercury
+		tin
+		zinc
+	}
+	modifier = {
+		trade_goods_size = 2.0
+		trade_goods_size_modifier = 1.0
+		land_forcelimit = 1.0
+	}
+	onmap = yes
+
+	keep_trigger = {
+		OR = {
+		    trade_goods = coal
+			trade_goods = copper
+			trade_goods = iron
+			trade_goods = lead
+			trade_goods = mercury
+			trade_goods = tin
+			trade_goods = zinc
+		}
+	}
+
+	ai_will_do = {
+		factor = 12			#BT Addon changed from 1. Changing all base factors to price divided by 100. AI apparently doesn't factor the modifier, just the raw size increase, so also increasing weight beyond that by 20 percent for manufacturies with other bonuses, and 60 for non-factored bonuses.
+		#BT Addon New factors, range 2 percent to about 425 percent
+		modifier = {
+			factor = 0.9
+			FROM = { technology_group = eastern }
+		}	#Minor penalty for eastern tech
+		modifier = {
+			factor = 0.6
+			FROM = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+			}
+		}	#Lesser penalty for non european medium-high tech groups.
+		modifier = {
+			factor = 0.4
+			FROM = {
+				OR = {
+					technology_group = indian
+					technology_group = east_african
+					technology_group = chinese
+					technology_group = sub_saharan
+					technology_group = central_african
+					technology_group = nomad_group
+				}
+			}
+		}	#Penalty for medium-low tech groups
+		modifier = {
+			factor = 0.2
+			FROM = {
+				OR = {
+					technology_group = mesoamerican
+					technology_group = andean
+					technology_group = north_american
+					technology_group = south_american
+					#Any other future new world cultures should be added here
+				}
+			}
+		}	#Much like the university, some technology groups simply did not have the infrastructure, history, or circumstance to evolve and develop in this way.
+		modifier = {
+			factor = 1.5
+			FROM = { is_great_power = yes }
+		}	#Great powers get a sustantial bonus, putting Muslims on par with Europeans, other Old World techs on par with Muslims, and rocketing European powers even higher.
+		modifier = {
+			factor = 0.1
+			FROM = {
+				AND = {
+					NOT = { technology_group = western }
+					NOT = { total_development = 100 }
+				}
+			}
+		}	#Small non western AI countries shouldn't be grasping like this, institutions can spread to them from bigger neighbours. Further penalty even beyond the tech group penalty above.
+		modifier = {
+			factor = 1.3
+			owner = { ruler_has_personality = entrepreneur_personality }
+		}
+		modifier = {
+			factor = 1.3
+			owner = { ruler_has_personality = industrious_personality }
+		}
+		modifier = {
+			factor = 1.3
+			owner = { full_idea_group = economic_ideas }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { army_size_percentage = 0.9 }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { army_tradition = 50 }
+		}
+		modifier = {
+			factor = 1.1
+			base_production = 4
+		}
+		modifier = {
+			factor = 1.2
+			base_production = 8
+		}
+		modifier = {
+			factor = 1.4
+			base_production = 12
+		}
+	}
+}
+
+oil_well = {
+
+	manufactory = {
+		oil
+	}
+
+	potential = {
+		has_dlc = "Rule Britannia"
+	}
+
+	modifier = {
+		global_trade_goods_size_modifier = 0.05 #National Bonus
+	}
+	onmap = yes
+	show_separate = yes # Means as a manufactory it will be shown according to the old way
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
