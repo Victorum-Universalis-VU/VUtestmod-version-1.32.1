@@ -3230,7 +3230,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "back_button"
-					position = { x = 160 y = 530 }
+					position = { x = 380 y = 530 }
 					quadTextureSprite ="GFX_standard_button_71"
 					tooltip = ""
 					tooltipText =""
@@ -3245,7 +3245,7 @@ guiTypes = {
 					name = "list1"
 					position = { x = 14 y = 44 }
 					backGround=""
-					size = { x = 348 y = 520 }
+					size = { x = 368 y = 520 }
 					Orientation = "UPPER_LEFT"
 					horizontal = 0
 					spacing = 2
@@ -3255,7 +3255,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "window_title"
-					position = { x = 0 y = 5 }
+					position = { x = 25 y = 5 }
 					textureFile = ""
 					font = "vic_29s"
 					borderSize = { x = 4 y = 4 }
@@ -3290,7 +3290,7 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "back_button"
-					position = { x = 130 y = 615 }
+					position = { x = 350 y = 615 }
 					quadTextureSprite ="GFX_standard_button_71"
 					tooltip = ""
 					tooltipText =""
@@ -3305,7 +3305,7 @@ guiTypes = {
 					name = "list1"
 					position = { x = 14 y = 47 }
 					backGround=""
-					size = { x = 348 y = 624 }
+					size = { x = 368 y = 624 }
 					Orientation = "UPPER_LEFT"
 					horizontal = 0
 					spacing = 2
@@ -3315,7 +3315,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "window_title"
-					position = { x = 0 y = 5 }
+					position = { x = 25 y = 5 }
 					textureFile = ""
 					font = "vic_29s"
 					borderSize = { x = 4 y = 4 }
@@ -5827,15 +5827,13 @@ guiTypes = {
 		name = "new_buildings_entry2"
 		backGround=""
 		position = { x = 0 y = 0 }
-		size = { x = 400 y = 680 }
+		size = { x = 400 y = 620 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullscreen = no
 
-		#OK Buildings
-			
 		iconType = {
 			name = "production_banner"
 			position = { x = 4 y = 0 }
@@ -6820,7 +6818,6 @@ guiTypes = {
 			spriteType = "GFX_unitpanel_button_large_glow"
 			alwaystransparent = yes
 		}
-		
 	}
 
 	windowType = {
