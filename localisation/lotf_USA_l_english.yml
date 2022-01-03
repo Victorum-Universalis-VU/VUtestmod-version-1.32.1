@@ -465,7 +465,6 @@
  missions_reconstruction_tt: "§Y[Root.GetName]§! has finished the §YAmerican Civil War§! disaster victorious"
  caribbean_bases_tt: "§Y[Root.GetName]§! gains a permanent claim on §YColonial Caribbean§!.\n\nAdditionally, if at least 2 §Ycenters of trade§! within the §YColonial Caribbean§! are owned by §Y[Root.GetName]§!, a §G25%§! Trade Steering modifier will be granted."
  missions_abolish_slavery_tt: "The freed populations of The South will contribute to development of the §YSoutheast§! region!\n\n§Y10§! random provinces within the §YSoutheast§! region will gain §G2§! Base Tax, §G2§! Base Production and §G3§! Base Manpower.\n\n§RBe warned, as this mission will lead to long term consequences, both very positive but also punishing§!."
- can_build_white_house_tt: "§YThe White House§! has been constructed"
  can_build_west_point_tt: "§YWest Point Academy§! has been constructed"
  missions_reconstruction_tt: "§YThe American Civil War§! is over and the country must be rebuilt.\nThe direction of the fate of the nation shall be decided in the coming months."
  absolute_rule_tt: "§Y[Root.GetName]§! gains a permanent claim on §YAll of the Americas§!."
@@ -490,12 +489,10 @@
  
 
 #Monuments
- white_house: "The White House"
  west_point: "West Point"
  fort_sumter: "Fort Sumter"
  missions: "San Antonio Missions"
  liberty_bell: "The Liberty Bell"
- statue_of_liberty: "Statue of Liberty"
  calumet_and_hecla: "C&H Mining Company"
  
 #Decisions

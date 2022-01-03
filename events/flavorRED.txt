@@ -86,9 +86,9 @@ country_event = {
 			add_base_manpower = 3
 			add_building = shipyard
 			add_building = dock
-			add_building = coastal_defence
+			add_building = naval_base
 			add_building = courthouse
-			add_building = road_network
+			add_building = road_system
 			add_building = temple
 			add_center_of_trade_level = 2
 		}
@@ -161,9 +161,9 @@ country_event = {
 			add_base_manpower = 3
 			add_building = shipyard
 			add_building = dock
-			add_building = coastal_defence
+			add_building = naval_base
 			add_building = courthouse
-			add_building = road_network
+			add_building = road_system
 			add_building = temple
 			add_center_of_trade_level = 2
 		}
