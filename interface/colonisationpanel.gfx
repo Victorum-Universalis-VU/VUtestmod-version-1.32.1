@@ -131,6 +131,31 @@ spriteTypes = {
 		name = "GFX_colony_terrain_tropical_highlands_terrain"
 		texturefile = "gfx/interface/tropical_highlands_terrain_colony.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_salt_flats"
+		texturefile = "gfx/interface/salt_flats_colony.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_dry_river"
+		texturefile = "gfx/interface/dry_river_colony.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_mediterranean_grasslands"
+		texturefile = "gfx/interface/mediterranean_grasslands_colony.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_alluvial_plains"
+		texturefile = "gfx/interface/alluvial_plains_colony.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_terrain_fertile_highlands"
+		texturefile = "gfx/interface/fertile_highlands_colony.dds"
+	}
 
 	spriteType = {
 		name = "GFX_colonist_placement_chance"
