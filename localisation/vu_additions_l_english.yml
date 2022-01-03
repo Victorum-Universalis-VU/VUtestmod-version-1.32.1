@@ -3478,3 +3478,23 @@
  burghers_estate_events.17.1.t:0 "Tropical City Planning"
  burghers_estate_events.17.1.d:0 "As we grow and add new tropical provinces to our realm, the $ESTATE_BURGHERS$ of [Root.GetName] have started their plans for these new places so they can grow big and powerful thanks to their techniques."
  burghers_estate_events.17.1.a:0 "Ok."
+ #OK Buildings
+ #Production
+ building_treasury:0 "Treasury"
+ building_factory:0 "Factory"
+ #Trade
+ building_corporative_headquarters:0 "Corporative Headquarters"
+ #Taxation
+ building_grand_cathedral:0 "Grand Cathedral"
+ #Transportation
+ building_canal_system:0 "Canal System"
+ building_road_system:0 "Road System"
+ building_railway_system:0 "Railway System"
+ #Coastal
+ building_naval_base:0 "Naval Base"
+ building_naval_arsenal:0 "Naval Arsenal"
+ building_coastal_artillery:0 "Coastal Artillery"
+ #Fortification
+ building_trench:0 "Trench"
+ #Manufactories
+ building_oil_well:0 "Oil Well"

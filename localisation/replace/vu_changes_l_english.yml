@@ -3848,13 +3848,10 @@
  #Production
  building_workshop:0 "Workshop"
  building_counting_house:0 "Counting House"
- building_treasury:0 "Treasury"
- building_factory:0 "Factory"
  #Trade
  building_marketplace:0 "Marketplace"
  building_trade_depot:0 "Trade Depot"
  building_stock_exchange:0 "Stock Exchange"
- building_corporative_headquarters:0 "Corporative Headquarters"
  #Army
  building_barracks:0 "Barracks"
  building_training_fields:0 "Training Fields"
@@ -3872,16 +3869,3 @@
  #Taxation
  building_temple:0 "Temple"
  building_cathedral:0 "Cathedral"
- building_grand_cathedral:0 "Grand Cathedral"
- #Transportation
- building_canal_system:0 "Canal System"
- building_road_system:0 "Road System"
- building_railway_system:0 "Railway System"
- #Coastal
- building_naval_base:0 "Naval Base"
- building_naval_arsenal:0 "Naval Arsenal"
- building_coastal_artillery:0 "Coastal Artillery"
- #Fortification
- building_trench:0 "Trench"
- #Manufactories
- building_oil_well:0 "Oil Well"

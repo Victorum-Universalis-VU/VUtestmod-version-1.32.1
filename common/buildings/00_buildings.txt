@@ -2289,7 +2289,7 @@ naval_base = {
 		blockade_force_required = 0.5
 		hostile_disembark_speed = 0.5
 		
-		hostile_fleet_attrition = 5
+		hostile_fleet_attrition = 1
 		#Added so, firstly, this building is worth it, and secondly, to add a way to counter blockades even if just a little.
 		
 		block_slave_raid = yes
@@ -2315,7 +2315,7 @@ naval_arsenal = {
 		blockade_force_required = 1.0
 		hostile_disembark_speed = 1.0
 		
-		hostile_fleet_attrition = 10
+		hostile_fleet_attrition = 2
 		#Added so, firstly, this building is worth it, and secondly, to add a way to counter blockades even if just a little.
 		
 		block_slave_raid = yes
@@ -2341,7 +2341,7 @@ coastal_artillery = {
 		blockade_force_required = 2.0
 		hostile_disembark_speed = 2.0
 		
-		hostile_fleet_attrition = 20
+		hostile_fleet_attrition = 5
 		#By now provinces with this should be able to counter the late-game naval powers, but not cripple them.
 		
 		block_slave_raid = yes
