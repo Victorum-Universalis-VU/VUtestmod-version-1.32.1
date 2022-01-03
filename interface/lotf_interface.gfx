@@ -65,17 +65,12 @@ spriteTypes = {
 		texturefile = "gfx//interface//missions//lotf_republic_army.dds"
 	}
 	
-	
-	
 	spriteType = {
 		name = "GFX_disaster_US_civil_war"
 		texturefile = "gfx//interface//disasters//us_civil_war.dds"
 		noOfFrames = 3
         loadType = "INGAME"
 	}
-	
-	
-	
 	
 	spriteType = {
 		name = "GFX_great_project_west_point"
@@ -86,20 +81,12 @@ spriteTypes = {
 		texturefile = "gfx//interface//monuments//fort_sumter.dds"
 	}
 	spriteType = {
-		name = "GFX_great_project_white_house"
-		texturefile = "gfx//interface//monuments//white_house.dds"
-	}
-	spriteType = {
 		name = "GFX_great_project_missions"
 		texturefile = "gfx//interface//monuments//missions.dds"
 	}
 	spriteType = {
 		name = "GFX_great_project_liberty_bell"
 		texturefile = "gfx//interface//monuments//liberty_bell.dds"
-	}
-	spriteType = {
-		name = "GFX_great_project_statue_of_liberty"
-		texturefile = "gfx//interface//monuments//statue_of_liberty.dds"
 	}
 	spriteType = {
 		name = "GFX_great_project_calumet_and_hecla"
