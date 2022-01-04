@@ -2998,7 +2998,7 @@
  bran_castle: "Castelul Bran"
  bran_castle_title: "Renovate the Castelul Bran"
  construct_bran_castle_title: "Renovate the Castelul Bran"
- construct_bran_castle_desc:
+ construct_bran_castle_desc: ""
  #
  great_project_drottningholm_palace: "Drottningholms Slott"
  drottningholm_palace: "Drottningholms Slott"
