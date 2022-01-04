@@ -2461,16 +2461,19 @@
  westminster_title: "Construct the Palace of Westminster"
  construct_westminster_title: "Construct the Palace of Westminster"
  construct_westminster_desc: "On 16 October 1834, a fire broke out in the Palace after an overheated stove used to destroy the Exchequer's stockpile of tally sticks set fire to the House of Lords Chamber, resulting in both Houses of Parliament being destroyed in the conflagration. In 1835, following that year's General Election, the King permitted Parliament to make "plans for permanent accommodation" culminating in the completion of the Lords Chamber in 1847, the Commons Chamber in 1852 and the overall construction by 1870."
+ #
  #great_project_brandenburger_tor: "Brandenburg Gate"
  #brandenburger_tor: "Brandenburg Gate"
  #brandenburger_tor_title: "Build the Brandenburg Gate"
  #construct_brandenburger_tor_title: "Build the Brandenburg Gate"
  #construct_brandenburger_tor_desc: "The Brandenburg Gate or "Brandenburger Tor" was commissioned by Frederick William II of Prussia to represent peace and to replace the earlier simple guardhouses which flanked the original gate in the Customs Wall."
+ #
  great_project_petra_renovated: "City of Petra"
  petra_renovated: "City of Petra"
  petra_renovated_title: "Expand the Petra"
  construct_petra_renovated_title: "Expand Petra"
  construct_petra_renovated_desc: "The treasure city of Petra lies on the slope of Jabal Al-Madbah in a basin among the mountains which form the eastern flank of Arabah valley. For generations, historians have both wondered and speculated as to its true purpose, but recent excavations and observations have led many to conclude that the city "built by the Nabataeans" was it-self divided into different areas, with a treasure vault "occupying the famous facade that greets all incoming visitors" on one end followed by a series of buildings on the skirts "dug into the mountains" where inhabitants, traders and officials would reside. One of the many reasons why so many historians have been skeptical on the purpose of Petra is because the Nabataeans were originally a nomadic group. So to suggest that they all of a sudden gave that up to settle down "historians feel" only leads to more unanswered questions as to why and what caused this sudden and drastic shift in the Nabataean's own sedentary attitudes."
+ #
  great_project_hagia_sophia: "Hagia Sophia"
  hagia_sophia: "Hagia Sophia"
  hagia_sophia_title: "Convert the Hagia Sophia to an Imperial Mosque"
