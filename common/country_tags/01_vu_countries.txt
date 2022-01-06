@@ -117,10 +117,10 @@ VNE = "countries/Vienne.txt"
 
 #VU - France
 CMG = "countries/Comminges.txt"
-FOR	= "countries/Forez.txt"
-MNE	= "countries/Maine.txt"
-ONG	= "countries/Orange.txt"
-RET	= "countries/Rethel.txt"
+FOR = "countries/Forez.txt"
+MNE = "countries/Maine.txt"
+ONG = "countries/Orange.txt"
+RET = "countries/Rethel.txt"
 VDM = "countries/Vaudemont.txt"
 VRD = "countries/County_of_Vermandois.txt"
 
@@ -414,6 +414,11 @@ VTN = "countries/Vorotynsk.txt"
 VYA = "countries/Vyatka.txt"
 ZBT = "countries/Zubtsov.txt"
 NRU = "countries/NovgorodRus.txt"
+
+#Caucasus update
+BKS = "countries/Balkars.txt"
+KBD = "countries/Kabardia.txt"
+ALN = "countries/Alania.txt"
 
 #BT - Scandinavia & Baltics
 GTA = "countries/Gotaland.txt"
