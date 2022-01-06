@@ -2086,7 +2086,7 @@ canal_system = {
 		local_friendly_movement_speed = 0.25
 		#Changed from 0.2 so it combines nicely with roads and railways for 50% and 100% bonuses.
 		
-		local_institution_spread = 0.25
+		local_institution_spread = 0.15
 		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
 		
 		allowed_num_of_buildings = 1
@@ -2095,17 +2095,11 @@ canal_system = {
 	
 	build_trigger = {
 		AND = {
-			
 			#Can only build if province is coastal or a neighbouring province has it
 			OR = {
 				has_port = yes
-				AND = {
-					any_friendly_coast_border_province = {
-						has_building = transport_canal
-					}
-					any_neighbor_province = {
-						has_building = transport_canal
-					}
+				any_neighbor_province = {
+					has_building = transport_canal
 				}
 			}
 			
@@ -2129,30 +2123,36 @@ canal_system = {
 
 	#Pulled from VU, requires further testing.
 	ai_will_do = {
-		factor = 100
+		factor = 50
 		modifier = {
 			factor = 0.1
 			is_overseas = yes
 			NOT = { development = 10 }
 		}
 		
-		#AI is encouraged to build in their capital.
+		#AI is encouraged to build in capitals.
 		modifier = {
 			factor = 6
 			is_capital = yes
 		}
 		
+		#AI is encouraged to build in very high development provinces.
+		modifier = {
+			factor = 4
+			development = 50
+		}
+		
 		#AI is encouraged to build in high development provinces.
 		modifier = {
-			factor = 3
+			factor = 2
 			development = 30
 		}
 		
 		#AI is encouraged to build nearby others, this is done to avoid roads that lead nowhere.
 		modifier = {
-			factor = 2
+			factor = 1.5
 			any_neighbor_province = {
-				has_building = transport_canal
+				has_building = canal_system
 			}
 		}
 	}
@@ -2160,14 +2160,14 @@ canal_system = {
 
 #Tier 1 Transportation - Road System
 road_system = {
-	cost = 100
-	time = 12
+	cost = 50
+	time = 6
 	
 	modifier = {
 		local_friendly_movement_speed = 0.25
 		#Changed from 0.2 so it combines nicely with canals and railways for 50% and 100% bonuses.
 		
-		local_institution_spread = 0.25
+		local_institution_spread = 0.1
 		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
 		
 		allowed_num_of_buildings = 1
@@ -2176,28 +2176,34 @@ road_system = {
 
 	#Pulled from VU, requires further testing.
 	ai_will_do = {
-		factor = 100
+		factor = 50
 		modifier = {
 			factor = 0.1
 			is_overseas = yes
 			NOT = { development = 10 }
 		}
 		
-		#AI is encouraged to build in their capital.
+		#AI is encouraged to build in capitals.
 		modifier = {
 			factor = 6
 			is_capital = yes
 		}
 		
+		#AI is encouraged to build in very high development provinces.
+		modifier = {
+			factor = 4
+			development = 50
+		}
+		
 		#AI is encouraged to build in high development provinces.
 		modifier = {
-			factor = 3
+			factor = 2
 			development = 30
 		}
 		
 		#AI is encouraged to build nearby others, this is done to avoid roads that lead nowhere.
 		modifier = {
-			factor = 2
+			factor = 1.5
 			any_neighbor_province = {
 				has_building = road_system
 			}
@@ -2250,21 +2256,27 @@ railway_system = {
 			NOT = { development = 10 }
 		}
 		
-		#AI is encouraged to build in their capital.
+		#AI is encouraged to build in capitals.
 		modifier = {
 			factor = 6
 			is_capital = yes
 		}
 		
+		#AI is encouraged to build in very high development provinces.
+		modifier = {
+			factor = 4
+			development = 50
+		}
+		
 		#AI is encouraged to build in high development provinces.
 		modifier = {
-			factor = 3
-			development = 50
+			factor = 2
+			development = 30
 		}
 		
 		#AI is encouraged to build nearby others, this is done to avoid roads that lead nowhere.
 		modifier = {
-			factor = 2
+			factor = 1.5
 			any_neighbor_province = {
 				has_building = railway_system
 			}
