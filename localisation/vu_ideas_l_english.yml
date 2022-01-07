@@ -1298,6 +1298,24 @@
  aln_european_voyages:0 "European Voyages"
  aln_european_voyages_desc:0 "Alans once migrated across the Europe and settled down there, adopting customs and technology from western nations. We must keep contacts with Europeans to stay relevant and don't fall back in technology."
  
+ AVR_ideas: "Avarian Ideas"
+ AVR_ideas_start: "Avarian Traditions"
+ AVR_ideas_bonus: "Avarian Ambition"
+ avr_the_sarir_dynasty: "The Sarir Dynasty"
+ avr_the_sarir_dynasty_desc: "One of the first positions of power our people came into was called Sarir. Lasting from about the 5th century to the 12th century, it saw great developments for the Avar people and the cementing of the Avar people in the Caucuses. To this day, we still do claim to be descended from  the Sarir state, although in a different form, giving us legitimacy in the eyes of the Avarian people."
+ avr_caucasian_wars: "Wars in the Caucasus"
+ avr_caucasian_wars_desc: "The hills and mountains by which we call home are by no means easy to live in, let alone wage war in. Yet, time and time again, the Avar people have routinely fought in these harsh conditions, seeking to maintain their own identity and their own state. It is through these conflicts that we've learned to fend off attrition better, aiding us in prolonged conflicts that see the Avarian people and troops being pushed to the edge."
+ avr_alliance_shifts: "Alliance Shifts"
+ avr_alliance_shifts_desc: "We've seen several states rise and fall throughout our history in the Caucuses. In order to secure our own safety, we've had to ally various powers from the north, the south, the east, and the west, causing us to have to engage in alliances and diplomacy on all sides. As this is still the case, we must be ready to do this all over again and safeguard our independence by diplomatic means."
+ avr_revenge_against_gazikumukh: "Revenge Against Gazikumukh"
+ avr_revenge_against_gazikumukh_desc: "The Gazikumukh Samkhalate have claimed to be the rulers of the Avar people and the lands that Avar hold for some time now. Though we vehemently detest this and have tried to fight them off, we failed in the past and were forced into subjugation. One day, though, we can and will have our revenge against the tyrannical power that is Gazikumukh, and the Avar will breathe the air of their ancestors: the air of independence."
+ avr_survive_external_threats: "Withstand External Threats"
+ avr_survive_external_threats_desc: "The threats outside of the Caucuses are great and numerous; almost every culture in the region knows it as they've seen numerous invaders come by over the centuries. If the Avar people are to be different, if they are to be ready for these invasions when they come around, adopting improved military technology and bolstering our military potential should be a top priority."
+ avr_lessons_of_the_caucuses: "Lessons of the Caucusus"
+ avr_lessons_of_the_caucuses_desc: "Such is the terrain that we call home, mountains and hills on the northern side of the Caucuses, that invaders often find little room for supply trains on top of sturdy defensive positions that are well built and well stocked. This will continue to be the case and how we set up defenses in our homeland will be a model for how we set up defensive positions elsewhere."
+ avr_caucasian_cultures: "Cultures of the Caucusus"
+ avr_caucasian_cultures_desc: "There are several distinct languages, cultures, traditions, and customs here in the Caucuses. From the Alans to the Circassians to the Georgians and many others, we know that they all desire to be left autonomous in some way and accepted for who they are. Being as one from this group of distinct cultures situated in the vast mountains, we can empathize and sympathize with these various groups and come to accept them into our own domain, even though the same was not always done to our people in the past."
+ 
  
  #Helena stuff
  #Irish tweak

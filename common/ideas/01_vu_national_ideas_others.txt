@@ -3156,3 +3156,47 @@ ALN_ideas = {
 		advisor_pool = 1
 	}
 }
+
+#Avar ideas
+AVR_ideas = {
+	start = {
+		hostile_attrition = 1
+		shock_damage_received = -0.10
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = AVR
+	}
+	free = yes
+	
+	avr_the_sarir_dynasty = {
+		legitimacy = 1
+		horde_unity = 1
+	}
+	avr_caucasian_wars = {
+		land_attrition = -0.15
+		shock_damage_received = -0.075
+	}
+	avr_alliance_shifts = {
+		diplomats = 1
+	}
+	avr_revenge_against_gazikumukh = {
+		land_morale = 0.10
+		cavalry_power = 0.1
+	}
+	avr_survive_external_threats = {
+		fire_damage = 0.05
+		artillery_cost = -0.15
+	}
+	avr_lessons_of_the_caucuses = {
+		defensiveness = 0.15
+	}
+	avr_caucasian_cultures = {
+		num_accepted_cultures = 1
+		culture_conversion_cost = -0.1
+	}
+}
