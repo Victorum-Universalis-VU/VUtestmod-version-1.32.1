@@ -1280,6 +1280,24 @@
  kbd_georgian_contacts:0 "Contacts with Georgia"
  kbd_georgian_contacts_desc:0 "Merchants coming from the territory of Georgia and Armenia tell us about various new inventions, invented far in Europe or Middle East. Some of these inventions would help us in the develop the country and we have to take this opportunity to gain access to new technologies. We cannot become backward nation to survive."
  
+ ALN_ideas:0 "Alan Ideas"
+ ALN_ideas_start:0 "Alan Traditions"
+ ALN_ideas_bonus:0 "Alan Ambition"
+ aln_nomads:0 "Caucasian Nomads"
+ aln_nomads_desc:0 "Alans have cultivated nomadic lifestyle for centuries, specializing in horse-based nomadic warfare, quick skirmishes and high mobility. They are masters of living on the back of their horses. Surviving on and exploiting the scarsely populated plains."
+ aln_raiding:0 "Raiding Parties"
+ aln_raiding_desc:0 "As part of our tribal-nomadic lifestlye, we shall organize raids on nearby countries to pillage their towns and exort tribute. Those escapades are source of tax revenue and social event for our warriors."
+ aln_caucasus_stronghold:0 "Caucasus Stronghold"
+ aln_caucasus_stronghold_desc:0 "Living in the steep lands of Caucasus offers us natural defense and helps us exort high attrition upon enemies."
+ aln_migrations:0 "Alan Migration"
+ aln_migrations_desc:0 "Alans have once migrated long distanced from their homeland in Pontic Steppes all across the Europe. Some even reaching Iberia and Africa in V century. We shall continue this tradition and improve our mobility and population movements."
+ aln_grazing:0 "Animal Grazing"
+ aln_grazing_desc:0 "Grazing packs of animals has been a main job for Alan people that did not specialize in agriculture due to their nomadic/tribal lifestyle. Taking care of animals for their various products ais great source of income and we shall develop this industry."
+ aln_steppe_society:0 "Steppe Society"
+ aln_steppe_society_desc:0 "Living in the lands of Caucasus and Potice Steppe brings its own traditions and practices. We shall cultivate those."
+ aln_european_voyages:0 "European Voyages"
+ aln_european_voyages_desc:0 "Alans once migrated across the Europe and settled down there, adopting customs and technology from western nations. We must keep contacts with Europeans to stay relevant and don't fall back in technology."
+ 
  
  #Helena stuff
  #Irish tweak
