@@ -3179,7 +3179,7 @@ AVR_ideas = {
 	}
 	avr_caucasian_wars = {
 		land_attrition = -0.15
-		shock_damage_received = -0.075
+		fire_damage_received = -0.075
 	}
 	avr_alliance_shifts = {
 		diplomats = 1
