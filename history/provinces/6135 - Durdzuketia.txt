@@ -1,7 +1,7 @@
 #6135 - Durdzuketia
 
-owner = GAZ		#Should be owned by independent state of Durdzuketia in 1444 but no such tag exists yet, so temporarily to GAZ
-controller = GAZ
+owner = DRZ
+controller = DRZ
 culture = dagestani
 religion = shiite
 capital = "Solzh-Glala"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = GAZ
+add_core = DRZ
 add_core = AVR
 
 discovered_by = muslim
@@ -20,6 +20,7 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
 
+1569.1.1 = { owner = GAZ controller = GAZ } # Budai-Chopan conquest
 1801.1.18 = {
 	owner = RUS
 	controller = RUS

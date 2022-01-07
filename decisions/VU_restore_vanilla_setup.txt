@@ -145,8 +145,13 @@ country_decisions = {
 			}
 			TVE = { inherit = ZBT }
 			GLC = { inherit = MLL }
-			CIR = { inherit = BKS }
+			CIR = { 
+				inherit = BKS 
+				inherit = QRC
+			}
 			GOL = { inherit = KBD }
+			AVR = { inherit = DID }
+			GAZ = { inherit = DRZ }
 			#Bohemia
 			GLG = {
 				inherit = LEG

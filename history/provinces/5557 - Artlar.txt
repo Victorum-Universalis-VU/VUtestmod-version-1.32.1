@@ -19,6 +19,8 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
 
+1444.1.1 = { add_local_autonomy = 60 } #Semi-independent tribes
+1600.1.1 = { add_local_autonomy = -60 }
 1801.1.18 = {
 	owner = RUS
 	controller = RUS
