@@ -447,5 +447,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 8728;611;sea;7396;-1;-1;-1;-1;That Phanom-Sikhottabong
 613;8658;sea;5201;-1;-1;-1;-1;Dong Kinh-Thai Nguyen
 8597;2372;sea;5200;-1;-1;-1;-1;Son Nam-Hai Phong
+6633;5548;sea;7297;-1;-1;-1;-1;Rawa-Al-Jibab
+6634;409;sea;6647;-1;-1;-1;-1;Fallujah-Karbala
+6625;409;sea;7294;-1;-1;-1;-1;Hillah-Karbala
+4288;6615;sea;6646;-1;-1;-1;-1;Shatt-Nasiriyah
+2312;6620;sea;6646;-1;-1;-1;-1;Wassi-Ash Sharqi
+6618;408;sea;7295;-1;-1;-1;-1;Al Qurnah-Basrah
+408;6611;sea;7295;-1;-1;-1;-1;Basrah-Babiyan
+6610;6611;sea;7295;-1;-1;-1;-1;Abdali-Babiyan
+6551;2320;sea;1328;-1;-1;-1;-1;Tor-Ros Gharib
+6552;2327;sea;1328;-1;-1;-1;-1;Sharm-Ros Gharib
+319;320;sea;5493;-1;-1;-1;-1;Rhodes-Mentesha
 
 -1;-1;;-1;-1;-1;-1;-1;-1;
