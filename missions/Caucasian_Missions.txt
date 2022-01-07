@@ -1,0 +1,52 @@
+#Generic missions for Caucasian nations
+
+caucasus_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CIR
+			tag = DID
+			tag = AVR
+			tag = ALN
+			tag = KBD
+			tag = DRZ
+			tag = BKS
+			tag = QRC
+			tag = GAZ
+		}
+	}
+	has_country_shield = yes
+	caucasus_conquer_west = {
+		icon = claim_the_borderlands
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 3262
+				province_id = 5554
+				province_id = 5559
+				province_id = 463
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 3262
+			owns_or_non_sovereign_subject_of = 5554
+			owns_or_non_sovereign_subject_of = 5559
+			owns_or_non_sovereign_subject_of = 463
+		}
+		effect = {
+			add_prestige = 10
+			2195 = { add_permanent_claim = ROOT }
+			2447 = { add_permanent_claim = ROOT }
+			2197 = { add_permanent_claim = ROOT }
+			capital_scope = {
+				add_base_tax = 2
+			}
+		}
+	}
+}
