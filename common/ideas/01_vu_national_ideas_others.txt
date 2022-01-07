@@ -3061,3 +3061,48 @@ NRU_ideas = {
 		global_ship_recruit_speed = -0.05
 	}
 }
+
+#Kabardian Ideas
+KBD_ideas = {
+	start = {
+		cavalry_power = 0.20
+                war_exhaustion = -0.03
+	}
+
+	bonus = {
+		land_forcelimit_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = KBD
+	}
+	free = yes
+    		        
+        kbd_tatars = {
+		improve_relation_modifier = 0.25
+		envoy_travel_time = -0.1	
+	}
+	kbd_farm_animals = {
+		production_efficiency = 0.1
+	}
+	kbd_mil_road = {
+		global_tax_modifier = 0.10
+		rival_border_fort_maintenance = -0.15
+	}
+	kbd_horses = {
+		movement_speed = 0.1
+                cavalry_cost = -0.10 
+	}
+	kbd_inal_glory = {
+		legitimacy = 1
+		diplomatic_annexation_cost = -0.1
+	}
+	kbd_armament = {
+		land_morale = 0.1
+		shock_damage_received = -0.05
+	}
+	kbd_georgian_contacts = {
+		technology_cost = -0.05
+		administrative_efficiency = 0.025
+	}
+}

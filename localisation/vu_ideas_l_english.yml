@@ -1262,6 +1262,25 @@
  baltic_shipyard_1:0 "Baltic Shipyard"
  baltic_shipyard_1_desc:0 "Build a Grand shipyard at the eastern coast of the Baltic Sea and dominate the oversea trade!"
  
+ KBD_ideas:0 "Kabardian Ideas"
+ KBD_ideas_start:0 "Kabardian Traditions"
+ KBD_ideas_bonus:0 "Kabardian Ambition"
+ kbd_tatars:0 "Tatar Threat"
+ kbd_tatars_desc:0 "The threat from the Tatars has not gone away despite the recent weakening of their Hordes. Tatars still force us to pay tribute, or invade our lands to plunder and take captives. It's time to establish better diplomatic practices that will help us find allies who will help us deal with the threat."
+ kbd_farm_animals:0 "Breeding of Farm Animals"
+ kbd_farm_animals_desc:0 "Animals in the Caucasus are very valuable because of the nomadic lifestyle we lead. Our people do not grow grains in massive quantities nor specialize in agricultural lifestyle, therefore sheep and horses are necessary for survival. We must drive herds to new pastures and guard them against the temptations of other Caucasus tribes."
+ kbd_mil_road:0 "Georgian Military Road"
+ kbd_mil_road_desc:0 "The Georgian Military Road is the main route passing across the Greater Caucasus that connects the regions of the Southern and Northern Caucasus. The passage was well known and used since the ancient times. From the beginning, it was used by armies (e.g. Roman, Persian, Mongolian), merchants, and even entire peoples wandering between Asia and Europe. Although the pass is under the control of Georgian rulers, they must reckon with us because we control the entrance to the pass from the north. We must guard the gates connecting Pontic Steppes with Armenian Highlands. Taking profit from it is welcome too."
+ kbd_horses:0 "Kabardian Horses"
+ kbd_horses_desc:0 "Kabardian horses have been bred since the 16th century by mountain tribes in the North Caucasus and is the result of centuries of selective breeding for the ability to survive in harsh conditions. The Kabarda breed was created from a combination of steppe horses, Karabakh, Arabs and Turkomaniacs. The breeds are usually kept in herds, and in the summer they are moved between mountain pastures. We shall use these horses for our conquests."
+ kbd_inal_glory:0 "Prince Inal"
+ kbd_inal_glory_desc:0 "Our dynasty ruling the state has a pedigree that goes back to our legendary ancestor Prince Inal, thanks to which our ruler is strengthened among ordinary people and nobility. We shall take pride and spread this glory."
+ kbd_armament:0 "Armament of Kabardians"
+ kbd_armament_desc:0 "Many of the Caucasus peoples, including our Western adyghe brothers, copy our style of clothing and armaments from us so that our soldiers have greater morale and are considered the best in the Caucasus. We cannot let other Caucasus people stop admiring us, we must show them who rules here."
+ kbd_georgian_contacts:0 "Contacts with Georgia"
+ kbd_georgian_contacts_desc:0 "Merchants coming from the territory of Georgia and Armenia tell us about various new inventions, invented far in Europe or Middle East. Some of these inventions would help us in the develop the country and we have to take this opportunity to gain access to new technologies. We cannot become backward nation to survive."
+ 
+ 
  #Helena stuff
  #Irish tweak
  irish_minor_ideas:0 "Clann Ideas"
