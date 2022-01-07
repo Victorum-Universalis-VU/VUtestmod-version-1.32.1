@@ -2099,7 +2099,7 @@ canal_system = {
 			OR = {
 				has_port = yes
 				any_neighbor_province = {
-					has_building = transport_canal
+					has_building = canal_system
 				}
 			}
 			

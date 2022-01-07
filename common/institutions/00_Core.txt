@@ -4978,7 +4978,6 @@ manufactories = {
 				has_building = plantations
 				has_building = tradecompany
 				has_building = mills
-				has_building = steam_engine_factory
 			}
 		}
 		hidden_trigger = {
@@ -5489,7 +5488,6 @@ manufactories = {
 					has_building = plantations
 					has_building = tradecompany
 					has_building = mills
-					has_building = steam_engine_factory
 				}
 				printing_press = 100
 				NOT = { global_trade = 100 }
@@ -5512,7 +5510,6 @@ manufactories = {
 					has_building = plantations
 					has_building = tradecompany
 					has_building = mills
-					has_building = steam_engine_factory
 				}
 				global_trade = 100
 				owner = { has_institution = global_trade }
@@ -6725,7 +6722,6 @@ industrialization = { #Unmodified, pending Draiocht rebalance.
 			OR = {
 				has_building = weapons
 				has_building = textile
-				has_building = steam_engine_factory
 			}
 			owner = {
 				OR = {
@@ -6953,28 +6949,6 @@ industrialization = { #Unmodified, pending Draiocht rebalance.
 			scale = yes
 			potential = {
 				OR = {
-					trade_goods = coal
-					trade_goods = copper
-					trade_goods = iron
-					trade_goods = lead
-					trade_goods = mercury
-					trade_goods = tin
-					trade_goods = zinc
-				}
-				industrialization_origin = {
-					same_continent = PREV
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_steam_engine_factory_on_institution_continent_industrialization
-				has_building = steam_engine_factory
-			}
-		}
-		modifier = {
-			factor = 0.3
-			scale = yes
-			potential = {
-				OR = {
 					trade_goods = wool
 					trade_goods = cloth
 					trade_goods = silk
@@ -7100,28 +7074,6 @@ industrialization = { #Unmodified, pending Draiocht rebalance.
 			custom_trigger_tooltip = {
 				tooltip = tooltip_weapons_not_institution_continent_industrialization
 				has_building = weapons
-				industrialization_origin = {
-					NOT = { same_continent = PREV }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.15
-			scale = yes
-			potential = {
-				OR = {
-					trade_goods = coal
-					trade_goods = copper
-					trade_goods = iron
-					trade_goods = lead
-					trade_goods = mercury
-					trade_goods = tin
-					trade_goods = zinc
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_steam_engine_factory_not_institution_continent_industrialization
-				has_building = steam_engine_factory
 				industrialization_origin = {
 					NOT = { same_continent = PREV }
 				}

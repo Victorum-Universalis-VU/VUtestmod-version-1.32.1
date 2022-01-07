@@ -1,8 +1,8 @@
 #6504 - Wadi_Halfa
 
-owner = HWW
-controller = HWW
-add_core = HWW
+owner = ABD
+controller = ABD
+add_core = ABD
 capital = "Wadi Halfa"
 culture = nubian
 religion = sunni
@@ -12,9 +12,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = MKR
+add_core = MAK
 add_core = NBA
-
 
 discovered_by = muslim
 discovered_by = ottoman

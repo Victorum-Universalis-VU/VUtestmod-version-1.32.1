@@ -6942,10 +6942,7 @@ country_event = {
 					NOT = { has_province_modifier = Promoted_Industry }
 				}
 				AND = {
-					OR = {
-						has_building = counting_house 
-						has_building = steam_engine_factory #used to be steam_factory
-					}
+				    has_building = counting_house 
 					NOT = { has_province_modifier = Promoted_Industry_v2 }
 				}
 			}
@@ -6972,10 +6969,7 @@ country_event = {
 		}
 		every_owned_province = {
 			limit = {
-				OR = {
-					has_building = counting_house 
-					has_building = steam_engine_factory #used to be steam_factory
-				}
+			    has_building = counting_house 
 				NOT = {	has_province_modifier = Promoted_Industry_v2 }
             }
 			remove_province_modifier = Promoted_Industry

@@ -12,7 +12,6 @@ base_manpower = 2
 base_tax = 3  
 base_production = 3 
 hre = no
-add_core = MKR
 add_local_autonomy = 95
 center_of_trade = 1
 

@@ -3,7 +3,7 @@
 owner = ALO
 controller = ALO
 add_core = ALO
-culture = nubian
+culture = berta_culture
 religion = coptic
 capital = "Soba"
 is_city = yes

@@ -2512,6 +2512,7 @@
  PROV5278:0 "Korosko"
  PROV5279:0 "Kerma"
  PROV5280:0 "Hadendoa"          #Actually a 17th century division, but good names are hard to come by in this region.
+ PROV_ADJ5280:0 "Hadendoan"
  PROV5281:0 "Karima"
  PROV5282:0 "Port Beja"
  PROV5283:0 "Tokar"
@@ -3803,6 +3804,7 @@
  #Start of 1st Group of New African and Middle-Eastern Additions
  PROV6469:0 "Ghafsai"
  PROV6470:0 "Toshka"
+ PROV_ADJ6470:0 "Toshkan"
  #End of 1st Group of New African and Middle-Eastern Additions
  #End Japan Part 2
  #Start of Korea
@@ -3944,6 +3946,7 @@
  PROV6577:0 "Lake Toshka"
  PROV6578:0 "Lake al-Juraf"
  PROV6579:0 "Kawa"
+ PROV_ADJ6579:0 "Kawa"
  PROV6580:0 "Goled"
  PROV6581:0 "Kerma"
  PROV6582:0 "Hillat-Banat"
@@ -4036,7 +4039,8 @@
  PROV6669:0 "Boma"
  PROV6670:0 "Tal Afar"
  PROV6671:0 "At Tallab"
- PROV6672:0 "Eastern Desert"
+ PROV6672:0 "Kunuz"
+ PROV_ADJ6672:0 "Kunuzan"
  PROV6673:0 "Eastern Desert"
  PROV6674:0 "Ouaddai"
  PROV6675:0 "Batha"

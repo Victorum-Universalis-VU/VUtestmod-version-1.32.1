@@ -1,4 +1,4 @@
-#New Province
+#5300 - Wadi Malik
 
 capital = "Wadi al-Malik"			#Poor name, need better
 culture = tungur_culture

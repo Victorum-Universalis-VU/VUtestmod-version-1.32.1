@@ -1,8 +1,8 @@
 #6507 - Kosha
 
-owner = ABB
-controller = ABB
-add_core = ABB
+owner = ABD
+controller = ABD
+add_core = ABD
 capital = "Kosha"
 culture = nubian
 religion = shiite
@@ -12,9 +12,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = MKR
-add_core = HWW
-
+add_core = MAK
 
 discovered_by = east_african
 discovered_by = muslim

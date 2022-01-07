@@ -11444,18 +11444,21 @@ sudanese = {
 	graphical_culture = africangfx
 
 	acholi = {
-
+	}
+	berta_culture = {
+		#primary = KNM
+	}
+	funj_culture = {
+		#primary = FNJ
+	}
+	luo_culture = {
+		primary = SLK
 	}
 	nubian = {
 		primary = NUB
 	}
-	#BtPLegacy Culture
-	luo_culture = {
-		primary = SLK
-	}
-	#BtPLegacy Culture
-	berta_culture = {
-		#primary = XXX
+	rufaa_culture = {
+		#primary = KUU
 	}
 	dynasty_names = {
 		Senar

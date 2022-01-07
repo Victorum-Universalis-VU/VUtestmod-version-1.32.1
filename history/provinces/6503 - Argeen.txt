@@ -1,8 +1,8 @@
 #6503 - Argeen
 
-owner = HWW
-controller = HWW
-add_core = HWW
+owner = ABB
+controller = ABB
+add_core = ABB
 capital = "Argeen"
 culture = nubian
 religion = sunni
@@ -12,7 +12,7 @@ base_tax = 1
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = MKR
+add_core = MAK
 add_core = NBA
 
 
