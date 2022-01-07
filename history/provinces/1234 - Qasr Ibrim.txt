@@ -12,7 +12,6 @@ trade_goods = livestock			#Evidence of extensive sorghum remains, as well as und
 hre = no
 base_tax = 4 
 base_production = 4
-add_core = MKR
 add_core = NBA
 center_of_trade = 1
 

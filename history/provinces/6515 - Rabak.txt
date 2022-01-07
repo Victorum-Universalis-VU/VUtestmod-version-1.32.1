@@ -1,12 +1,12 @@
 #6515 - Rabak
 
-owner = FNJ
-controller = FNJ
-add_core = FNJ
+owner = SLK
+controller = SLK
+add_core = SLK
 is_city = yes
 capital = "Rabak"
-culture = nubian
-religion = coptic
+culture = luo_culture
+religion = shamanism
 trade_goods = dates
 hre = no
 base_tax = 2

@@ -1,4 +1,4 @@
-#New Beyond Typus Province
+#5303 - Jaghbub
 
 culture = libyan_berber_culture
 religion = sunni
@@ -11,10 +11,6 @@ base_manpower = 1
 native_size = 30
 native_ferocity = 5
 native_hostileness = 5
-
-discovered_by = muslim
-discovered_by = eastern
-
 
 1634.1.1 = {
 	owner = TRP

@@ -1861,7 +1861,6 @@ petra = {
 		OR = {
 			AND = {
 				culture = al_suryah_arabic
-   
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -7926,7 +7925,7 @@ pyramid_of_cheops = {
 			AND = {
 				culture = al_misr_arabic
 				has_owner_culture = yes
-				}
+			}
 		}
 	}
 
@@ -7940,7 +7939,7 @@ pyramid_of_cheops = {
 			AND = {
 				culture = al_misr_arabic
 				has_owner_culture = yes
-				}
+			}
 		}
 	}
 
@@ -12951,8 +12950,11 @@ dutch_polders = {
 	type = monument
 
 	build_trigger = {
-		culture = dutch
-		province_is_or_accepts_culture = yes
+	    culture_group = dutch
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	on_built = {
@@ -12963,12 +12965,18 @@ dutch_polders = {
 
 	can_use_modifiers_trigger = {
 		culture = dutch
-		province_is_or_accepts_culture = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	can_upgrade_trigger = {
 		culture = dutch
-		province_is_or_accepts_culture = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	keep_trigger = {
@@ -17215,7 +17223,10 @@ tikal = {
 
 	build_trigger = {
 		culture_group = maya
-		province_is_or_accepts_culture = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	on_built = {
@@ -17226,12 +17237,18 @@ tikal = {
 
 	can_use_modifiers_trigger = {
 		culture_group = maya
-		province_is_or_accepts_culture = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	can_upgrade_trigger = {
 		culture_group = maya
-		province_is_or_accepts_culture = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	keep_trigger = {

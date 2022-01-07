@@ -1,8 +1,8 @@
-#New Province
+#5290 - Malakal
 
-owner = FNJ
-controller = FNJ
-add_core = FNJ
+owner = SLK
+controller = SLK
+add_core = SLK
 is_city = yes
 capital = "Malakal"			#Fashoda would be better, perhaps, but leaving it for now
 culture = luo_culture

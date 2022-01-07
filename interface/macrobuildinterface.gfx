@@ -712,11 +712,6 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_fort_19th"
-		texturefile = "gfx//interface//buildings//latin_fort05.tga"
-		loadType = "INGAME"
-	}
-	spriteType = {
 		name = "GFX_fort0_easterngfx"
 		texturefile = "gfx//interface//buildings//latin_fort00.tga"
 		loadType = "INGAME"
@@ -739,11 +734,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fort_18th_easterngfx"
 		texturefile = "gfx//interface//buildings//eastern_fort04.dds"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_fort_19th_easterngfx"
-		texturefile = "gfx//interface//buildings//eastern_fort05.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -772,11 +762,6 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_fort_19th_asiangfx"
-		texturefile = "gfx//interface//buildings//chinese_fort05.tga"
-		loadType = "INGAME"
-	}
-	spriteType = {
 		name = "GFX_fort0_africangfx"
 		texturefile = "gfx//interface//buildings//latin_fort00.tga"
 		loadType = "INGAME"
@@ -799,11 +784,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fort_18th_africangfx"
 		texturefile = "gfx//interface//buildings//african_fort04.dds"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_fort_19th_africangfx"
-		texturefile = "gfx//interface//buildings//african_fort05.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -832,11 +812,6 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_fort_19th_indiangfx"
-		texturefile = "gfx//interface//buildings//indian_fort05.tga"
-		loadType = "INGAME"
-	}
-	spriteType = {
 		name = "GFX_fort0_muslimgfx"
 		texturefile = "gfx//interface//buildings//latin_fort00.tga"
 		loadType = "INGAME"
@@ -859,11 +834,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fort_18th_muslimgfx"
 		texturefile = "gfx//interface//buildings//muslim_fort04.dds"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_fort_19th_muslimgfx"
-		texturefile = "gfx//interface//buildings//muslim_fort05.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -892,11 +862,6 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_fort_19th_northamericagfx"
-		texturefile = "gfx//interface//buildings//northamerica_fort05.tga"
-		loadType = "INGAME"
-	}
-	spriteType = {
 		name = "GFX_fort0_southamericagfx"
 		texturefile = "gfx//interface//buildings//latin_fort00.tga"
 		loadType = "INGAME"
@@ -919,11 +884,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fort_18th_southamericagfx"
 		texturefile = "gfx//interface//buildings//southamerica_fort04.dds"
-		loadType = "INGAME"
-	}
-	spriteType = {
-		name = "GFX_fort_19th_southamericagfx"
-		texturefile = "gfx//interface//buildings//southamerica_fort05.tga"
 		loadType = "INGAME"
 	}
 }

@@ -614,8 +614,11 @@
  PROV3023:0 "Corozal"
  PROV3024:0 "Cayman Islands"
  PROV3032:0 "Bogue"
+ PROV_ADJ3032:0 "Boguen"
  PROV3038:0 "Kaédi"
  PROV3041:0 "Kiffa"
+ PROV3043:0 "Dehmit"
+ PROV3044:0 "Dahlak"
  PROV3069:0 "Rombas"
  PROV3197:0 "Jülich"
  PROV4033:0 "Gadarif"
@@ -725,7 +728,7 @@
  PROV4320:0 "This"         #or Ptolemais, or Chemmis, or Panopolis, or Girga, Formerly 5268
  PROV4321:0 "Eastern Desert"          #Formerly 5270
  PROV4322:0 "Ababda"              #Or Blemmyia, Formerly 5276
- PROV4323:0 "Dakhla"          #Formerly 5275
+ PROV4323:0 "A'l-Nyhaha"          #Formerly 5275
  PROV4340:0 "Talysh"          #Formerly 3257
  PROV4349:0 "Tabuco"
  PROV4350:0 "Mangya"          #Formerly Mindoro

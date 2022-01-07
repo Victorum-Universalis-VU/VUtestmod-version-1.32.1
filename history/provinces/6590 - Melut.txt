@@ -1,8 +1,8 @@
 #6590 - Melut
 
-owner = FNJ
-controller = FNJ
-add_core = FNJ
+owner = SLK
+controller = SLK
+add_core = SLK
 is_city = yes
 capital = "Melut"
 culture = luo_culture

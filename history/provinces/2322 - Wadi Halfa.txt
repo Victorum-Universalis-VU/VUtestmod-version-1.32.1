@@ -12,7 +12,6 @@ trade_goods = camel
 hre = no
 base_tax = 4
 base_production = 4
-add_core = MKR
 add_core = NBA
 
 discovered_by = muslim
