@@ -359,8 +359,19 @@ country_decisions = {
 			}
 			RFR = { inherit = KSA }
 			#North Africa
-			MAK = { inherit = HWW }
-			ALO = { inherit = FNJ }
+			MAK = { 
+			    inherit = HWW
+				inherit = MKR
+				inherit = KUU
+			}
+			ALO = { 
+			    inherit = FNJ
+				inherit = KNM
+				inherit = SLK
+			}
+			ABB = { inherit = ABD }
+			}
+			MED = { inherit = DKK }
 			}
 		}
 		ai_will_do = {
