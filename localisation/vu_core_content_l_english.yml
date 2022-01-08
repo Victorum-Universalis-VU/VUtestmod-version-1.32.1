@@ -1689,6 +1689,10 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  ice_rebuild_leifsbuoir_desc:0 "Rebuild one of the legendary viking settlments."
  ice_return_vinland_title:0 "Return to Vinland"
  ice_return_vinland_desc:0 "We shall finally reach the fertile lands of Vinland and establish a prominent colony there. With new technology, we will not be driven out by natives."
+ 
+ #Generic missions for Caucasia
+ caucasus_conquer_west_title:0 "Conquer Western Lands"
+ caucasus_conquer_west_desc:0 "Conquer Northwest Caucasus region and spread our rule over lands of Circassia."
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"

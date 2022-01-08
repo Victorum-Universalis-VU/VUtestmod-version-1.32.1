@@ -418,6 +418,9 @@ NRU = "countries/NovgorodRus.txt"
 BKS = "countries/Balkars.txt"
 KBD = "countries/Kabardia.txt"
 ALN = "countries/Alania.txt"
+DID = "countries/Didoya.txt"
+DRZ = "countries/Durdzuketia.txt"
+QRC = "countries/Qaracay.txt"
 
 #BT - Scandinavia & Baltics
 GTA = "countries/Gotaland.txt"
