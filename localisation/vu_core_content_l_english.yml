@@ -1693,6 +1693,16 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  #Generic missions for Caucasia
  caucasus_conquer_west_title:0 "Conquer Western Lands"
  caucasus_conquer_west_desc:0 "Conquer Northwest Caucasus region and spread our rule over lands of Circassia."
+ caucasus_reach_sea_title:0 "Reach the Sea"
+ caucasus_reach_sea_desc:0 "We cannot be remain a prisoners of Caucasus Mountains. With the recent conquest of Circassia we are in great position into expanding further and siezing strategic ports in Black Sea. Establishing naval routes will be necessary to keep in touch with outside world."
+ caucasus_conquer_centerwest_title:0 "Conquer Central Lands"
+ caucasus_conquer_centerwest_desc:0 "Conquer Center-West Caucasus lands of Alania and Kabardia to secure strategic mountain passage and spread our rule."
+ caucasus_conquer_centereast_title:0 "Secure Avaria"
+ caucasus_conquer_centereast_desc:0 "Conquer Center-East Caucasus lands of Avaria to expand our rule over mountainous regions and subjungate the tribes there."
+ caucasus_conquer_east_title:0 "Conquer Eastern Lands"
+ caucasus_conquer_east_desc:0 "Conquer Northeast Caucasus region and tighten our grip over more-settled lands of Dagestand and reach Caucasus Sea. Siezing control over Eastern passage is necessary."
+ caucasus_unite_region_title:0 "Unite Caucasus States"
+ caucasus_unite_region_desc:0 "The era of pitty tribes and Caucasian states has come to an end. We have successfully siezed control over all of them and claimed superiority. With North Caucasia united under one rule, we can show our glory and start thinking about further expansion and foreign politics."
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"

@@ -49,4 +49,235 @@ caucasus_missions_1 = {
 			}
 		}
 	}
+	
+	caucasus_reach_sea = {
+		icon = mission_retake_ceuta
+		required_missions = { caucasus_conquer_west }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 5557
+				province_id = 2195
+				province_id = 2447
+				province_id = 287
+			}
+		}
+		trigger = {
+			any_owned_province = { has_port = yes }
+			OR = {
+				owns_or_non_sovereign_subject_of = 5557
+				owns_or_non_sovereign_subject_of = 2195
+				owns_or_non_sovereign_subject_of = 2447
+				owns_or_non_sovereign_subject_of = 287
+			}
+		}
+		effect = {
+			add_sailors = 1000
+			random_owned_province = {
+				limit = { has_port = yes }
+				add_base_tax = 2
+				add_base_production = 2
+				add_building = shipyard
+			}
+		}
+	}
+}
+
+caucasus_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CIR
+			tag = DID
+			tag = AVR
+			tag = ALN
+			tag = KBD
+			tag = DRZ
+			tag = BKS
+			tag = QRC
+			tag = GAZ
+		}
+	}
+	has_country_shield = yes
+	caucasus_conquer_centerwest = {
+		icon = alpine_fortifications
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 5558
+				province_id = 2197
+				province_id = 2201
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 5558
+			owns_or_non_sovereign_subject_of = 2197
+			owns_or_non_sovereign_subject_of = 2201
+		}
+		effect = {
+			add_prestige = 10
+			5554 = { add_permanent_claim = ROOT }
+			3262 = { add_permanent_claim = ROOT }
+			6135 = { add_permanent_claim = ROOT }
+			capital_scope = {
+				add_base_production = 2
+			}
+		}
+	}
+}
+
+caucasus_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CIR
+			tag = DID
+			tag = AVR
+			tag = ALN
+			tag = KBD
+			tag = DRZ
+			tag = BKS
+			tag = QRC
+			tag = GAZ
+		}
+	}
+	has_country_shield = yes
+	caucasus_conquer_centereast = {
+		icon = alpine_defenses
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 6135
+				province_id = 5556
+				province_id = 2198
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 6135
+			owns_or_non_sovereign_subject_of = 5556
+			owns_or_non_sovereign_subject_of = 2198
+		}
+		effect = {
+			add_prestige = 10
+			4306 = { add_permanent_claim = ROOT }
+			2201 = { add_permanent_claim = ROOT }
+			2199 = { add_permanent_claim = ROOT }
+			capital_scope = {
+				add_base_manpower = 2
+			}
+		}
+	}
+	
+	caucasus_unite_region = {
+		icon = mission_unite_home_region
+		required_missions = {
+			caucasus_conquer_west
+			caucasus_conquer_centerwest
+			caucasus_conquer_centereast
+			caucasus_conquer_east
+		}
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2201
+				province_id = 5558
+				province_id = 2198
+				province_id = 463
+				province_id = 425
+				province_id = 3262
+				province_id = 2199
+			}
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 2201
+			owns_or_non_sovereign_subject_of = 5558
+			owns_or_non_sovereign_subject_of = 2198
+			owns_or_non_sovereign_subject_of = 463
+			owns_or_non_sovereign_subject_of = 425
+			owns_or_non_sovereign_subject_of = 3262
+			owns_or_non_sovereign_subject_of = 2199
+			stability = 0
+			army_size_percentage = 0.7
+			max_manpower = 8
+		}
+		effect = {
+			add_stability = 1
+			add_legitimacy = 20
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
+			add_treasury = 100
+			add_army_tradition = 20
+			3263 = { add_permanent_claim = ROOT }
+			2416 = { add_permanent_claim = ROOT }
+			5557 = { add_permanent_claim = ROOT }
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+	}
+}
+
+caucasus_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = CIR
+			tag = DID
+			tag = AVR
+			tag = ALN
+			tag = KBD
+			tag = DRZ
+			tag = BKS
+			tag = QRC
+			tag = GAZ
+		}
+	}
+	has_country_shield = yes
+	caucasus_conquer_east = {
+		icon = mission_sw_against_the_desert
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2199
+				province_id = 4306
+				province_id = 3261
+				province_id = 425
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 2199
+			owns_or_non_sovereign_subject_of = 4306
+			owns_or_non_sovereign_subject_of = 3261
+			owns_or_non_sovereign_subject_of = 425
+		}
+		effect = {
+			add_prestige = 10
+			2198 = { add_permanent_claim = ROOT }
+			6135 = { add_permanent_claim = ROOT }
+			2208 = { add_permanent_claim = ROOT }
+			add_years_of_income = 0.5
+			3261 = { add_center_of_trade_level = 1 }
+		}
+	}
 }
