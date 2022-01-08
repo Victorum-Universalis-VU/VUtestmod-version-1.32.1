@@ -145,8 +145,13 @@ country_decisions = {
 			}
 			TVE = { inherit = ZBT }
 			GLC = { inherit = MLL }
-			CIR = { inherit = BKS }
+			CIR = {
+				inherit = BKS 
+				inherit = QRC
+			}
 			GOL = { inherit = KBD }
+			AVR = { inherit = DID }
+			GAZ = { inherit = DRZ }
 			#Bohemia
 			GLG = {
 				inherit = LEG
@@ -360,17 +365,16 @@ country_decisions = {
 			RFR = { inherit = KSA }
 			#North Africa
 			MAK = { 
-			    inherit = HWW
+				inherit = HWW
 				inherit = MKR
 				inherit = KUU
 			}
 			ALO = { 
-			    inherit = FNJ
+				inherit = FNJ
 				inherit = KNM
 				inherit = SLK
 			}
 			ABB = { inherit = ABD }
-			}
 			MED = { inherit = DKK }
 			}
 		}
