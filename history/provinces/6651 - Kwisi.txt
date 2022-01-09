@@ -1,8 +1,5 @@
 #6651 - Kwisi
 
-discovered_by = central_african
-discovered_by = sub_saharan
-
 culture = mucubal
 religion = shamanism #Fetishism
 trade_goods = unknown

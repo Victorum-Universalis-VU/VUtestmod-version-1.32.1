@@ -111,6 +111,9 @@
 1995 = "Micronésia"
 4720 = "Genebra"
 
+#Africa
+3047 = { "Ndar" "São Luís" }
+
 #VU - Australia by NoobMiner72
 1084 = { "Perth" "Perth" }
 1085 = { "Hobart" "Hobart" }

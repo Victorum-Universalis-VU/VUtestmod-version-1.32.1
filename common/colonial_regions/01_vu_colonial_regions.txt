@@ -3649,9 +3649,10 @@ colonial_sudan = {
 	culture = {
 		nubian = 10
 		luo_culture = 10
-		fur_culture = 4
+		funj_culture = 4
 		tegali_culture = 4
 		berta_culture = 2
+		rufaa_culture = 2
 		tungur_culture = 2
 	}
 
@@ -5196,7 +5197,7 @@ colonial_senegal = {
 	}
 
 	provinces = {
-		1113 1115 1116 2237 2238 2240 5430 5431 5432 7357 7358 7359 7360 7361 7367 7742
+		1113 1115 1116 2237 2238 2240 3047 5430 5431 5432 7357 7358 7359 7360 7361 7367 7742
 	}
 	
 	# Specific

@@ -1,5 +1,6 @@
 #Africa
 1096 = "Cap-Vert"
+3047 = { "Ndar" "St-Louis-du-Fort" }
 
 #America
 884 = "Baye Saint-Louis"

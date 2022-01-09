@@ -12,16 +12,16 @@ base_manpower = 2
 base_tax = 3 
 base_production = 3 
 hre = no
+extra_cost = 10
 
 discovered_by = east_african
 discovered_by = muslim
 
-extra_cost = 10
-
-1503.1.1 = {	owner = NUB
+1503.1.1 = { discovered_by = NUB }
+1503.1.1 = {	
+    owner = NUB
 	controller = NUB
 	add_core = NUB
-	discovered_by = NUB
 }
 1523.1.1 = { religion = sunni } #Funj sultans declare Islam state religion
 1565.1.1 = { unrest = 8 } #Shaykh Ajib launches invasion of Funj heartland

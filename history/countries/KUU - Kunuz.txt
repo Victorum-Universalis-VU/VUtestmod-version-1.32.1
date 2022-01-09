@@ -6,4 +6,6 @@ unit_type = sub_saharan
 religion = sunni
 primary_culture = rufaa_culture
 capital = 6672
+historical_rival = MKR
+historical_rival = MAK
 religious_school = maliki_school

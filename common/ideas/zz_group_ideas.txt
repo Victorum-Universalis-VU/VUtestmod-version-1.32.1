@@ -2238,6 +2238,10 @@ nubian_ideas = {
 		OR = {
 			primary_culture = nubian
 			primary_culture = beja
+			primary_culture = funj_culture
+			primary_culture = rufaa_culture
+			primary_culture = berta_culture
+			primary_culture = luo_culture
 		}
 	}
 	free = yes
