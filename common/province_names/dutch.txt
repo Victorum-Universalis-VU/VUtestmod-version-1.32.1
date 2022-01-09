@@ -12,6 +12,7 @@
 1306 = "Sint Thomas"
 1988 = "Paaseiland"
 2258 = "Fort Hollandia"
+3047 = { "Ndar" "Sint Louis" }
 4782 = { "Vrijburg" "Endvogelfontein" }
 
 #Americas

@@ -1,4 +1,4 @@
-#Grand Gedeh
+#7469 - Grand Gedeh
 
 culture = kru
 religion = shamanism #Fetishism
@@ -11,7 +11,5 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 base_manpower = 2 
-
-discovered_by = sub_saharan
 
 1464.1.1 = { discovered_by = POR }

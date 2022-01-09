@@ -1,4 +1,1 @@
 #6403 - Lake_Rukwa
-
-discovered_by = east_african
-discovered_by = central_african

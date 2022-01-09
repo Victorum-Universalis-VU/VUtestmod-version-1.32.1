@@ -755,56 +755,6 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
-			1373.000 0.250 1408.000 
-		}
-		rotation={
-			0.000 50.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1380.000 0.250 1423.000 
-		}
-		rotation={
-			0.000 130.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1369.000 0.250 1464.000 
-		}
-		rotation={
-			0.000 160.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1357.000 0.250 1491.000 
-		}
-		rotation={
-			0.000 -120.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1368.000 0.250 1439.000 
-		}
-		rotation={
-			0.000 50.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
 			1671.000 0.200 1144.000 
 		}
 		rotation={
@@ -856,6 +806,56 @@ type={
 		hidden_on_start=no
 		position={
 			2866.000 0.100 936.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1373.000 0.250 1408.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1380.000 0.250 1423.000 
+		}
+		rotation={
+			0.000 130.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1369.000 0.250 1464.000 
+		}
+		rotation={
+			0.000 160.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1357.000 0.250 1491.000 
+		}
+		rotation={
+			0.000 -120.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1368.000 0.250 1439.000 
 		}
 		rotation={
 			0.000 50.000 0.000 
@@ -2371,7 +2371,7 @@ type={
 		name="stonehenge"
 		hidden_on_start=no
 		position={
-			2615.000 0.150 1864.000 
+			2608.000 0.150 1863.000 
 		}
 		rotation={
 			0.000 -0.800 0.000 
@@ -2512,16 +2512,27 @@ type={
 type={
 	type="panama_canal"
 	use_animation=yes
-	scale=0.500000
 	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
 	object={
 		name="panama_canal"
 		hidden_on_start=yes
 		position={
-			1392.600 -0.600 1150.500 
+			1389.000 -0.100 1147.650 
 		}
 		rotation={
-			0.000 25.000 0.000 
+			0.000 -150.000 0.000 
+		}
+	}
+	object={
+		name="panama_canal"
+		hidden_on_start=yes
+		position={
+			1390.700 -0.100 1153.450 
+		}
+		rotation={
+			0.000 27.000 0.000 
 		}
 	}
 }

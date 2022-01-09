@@ -1,11 +1,7 @@
 #1112 - Trarza
 
-owner = JOL
-controller = JOL
-add_core = JOL
-is_city = yes
 culture = fulani
-capital = "Awlil"
+capital = "Nouakchott"
 religion = sunni
 trade_goods = salt
 hre = no

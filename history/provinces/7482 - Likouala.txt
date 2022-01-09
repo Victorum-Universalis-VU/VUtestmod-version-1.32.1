@@ -1,4 +1,4 @@
-#Likouala
+#7482 - Likouala
 
 culture = kongolese 
 religion = shamanism #Fetishism
@@ -12,8 +12,8 @@ base_tax = 2
 base_production = 2 
 base_manpower = 2
 
-discovered_by = central_african
-1444.1.1 = { discovered_by = KON } 1444.1.1 = { discovered_by = NDO } 1444.1.1 = { discovered_by = LOA } 
-discovered_by = sub_saharan
+1444.1.1 = { discovered_by = KON } 
+1444.1.1 = { discovered_by = NDO } 
+1444.1.1 = { discovered_by = LOA } 
 
 1564.1.1 = { owner = LOA controller = LOA }

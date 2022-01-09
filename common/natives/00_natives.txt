@@ -516,7 +516,7 @@ natives_african = {
 		
 		### START colonial_senegal from 01_vu_colonial_regions.txt ###
 		
-			1113 1115 1116 2237 2238 2240 7357 7358 7359 7360 7361 7367 
+			1113 1115 1116 2237 2238 2240 3047 7357 7358 7359 7360 7361 7367 
 		
 		### END colonial_senegal ###
 		
