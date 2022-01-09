@@ -5060,6 +5060,14 @@ on_trade_good_changed = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			ROOT = { trade_goods = metalworking }
+			NOT = { has_global_flag = metalworking_start }
+		}
+		ROOT = { province_event = { id = prices_marcin.15 days = 1 } }
+		set_global_flag = metalworking_start
+	}	
 }
 
 # this = country
