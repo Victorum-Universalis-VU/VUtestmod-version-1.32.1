@@ -1162,6 +1162,10 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  desc_vu_convert_pagans:0 "We are on a mission to convert all the pagans within our realm... by all means necessary."
  vu_norse_religion_returns:0 "Return of norse religion"
  desc_vu_norse_religion_returns:0 "Our country has recently reverted back to old norse beliefs."
+ caucasus_fortress:0 "Strategic Caucasus Passage"
+ desc_caucasus_fortress:0 ""
+ caucasian_raiding_escapade:0 "Caucasian Raiding Escapades"
+ desc_caucasian_raiding_escapade:0 "People of Caucasus have grown tired of boring  mountainous lifestyle and are in need for loot. They begun building fleet and are more than eagar to conduct naval raids and sack escapades to bring the desired splendor to their home region."
  
  ##########################
  # New province modifiers
@@ -1704,6 +1708,11 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  caucasus_conquer_east_desc:0 "Conquer Northeast Caucasus region and tighten our grip over more-settled lands of Dagestand and reach Caucasus Sea. Siezing control over Eastern passage is necessary."
  caucasus_unite_region_title:0 "Unite Caucasus States"
  caucasus_unite_region_desc:0 "The era of pitty tribes and Caucasian states has come to an end. We have successfully siezed control over all of them and claimed superiority. With North Caucasia united under one rule, we can show our glory and start thinking about further expansion and foreign politics."
+ caucasus_strategic_pass_title:0 "Fortify Mountain Pass"
+ caucasus_strategic_pass_desc:0 "Caucasus mountains are very steep and hard to traverse, therefore crossing it is done either from Western Side, Eastern Side, or by central passage. Other routes are too dangerous or demanding. If we control those passages and set up a strong military outposts to control the narrow gaps in the mountains, we can effectively control the movement across all of the mountain range."
+ caucasus_real_fleet_title:0 "Found Real Fleet"
+ caucasus_real_fleet_desc:0 "Now that we have firm access to the sea, we can start to think about using this new opportunity to conduct naval voyages for the first time and send our people across Black Sea for some... tradiing buisness..."
+ caucasus_real_fleet.tooltip:0 "If you complete the mission while owning Matrega and Adyghe with more than 20 development, those provinces will become naval bases and receive special bonuses!"
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"

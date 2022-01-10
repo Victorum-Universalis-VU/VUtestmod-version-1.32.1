@@ -81,6 +81,85 @@ caucasus_missions_1 = {
 			}
 		}
 	}
+	
+	caucasus_real_fleet = {
+		icon = danubian_power
+		required_missions = { caucasus_reach_sea }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2447
+				province_id = 2195
+				province_id = 7190
+				province_id = 330
+			}
+		}
+		trigger = {
+			any_owned_province = { has_port = yes }
+			naval_forcelimit = 15
+			navy_size_percentage = 0.8
+			num_of_admirals = 1
+			num_of_light_ship = 8
+			OR = {
+				num_of_centers_of_trade = 6
+				286 = { #Azov
+					trade_share = {
+						country = ROOT
+						share = 25
+					}
+				}
+				330 = { #Pontus
+					trade_share = {
+						country = ROOT
+						share = 25
+					}
+				}
+			}
+		}
+		effect = {
+			add_sailors = 1000
+			custom_tooltip = caucasus_real_fleet.tooltip
+			random_owned_province = {
+				limit = { 
+					has_port = yes 
+					NOT = { has_building = shipyard }
+				}
+				add_building = shipyard
+			}
+			if = {
+				limit = {
+					owns_or_non_sovereign_subject_of = 2195
+					2195 = { development = 20 }
+				}
+				2195 = {
+					add_permanent_province_modifier = {
+						name = navalbase_modifier
+						duration = -1
+						hidden = no
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns_or_non_sovereign_subject_of = 2447
+					2447 = { development = 20 }
+				}
+				2447 = {
+					add_permanent_province_modifier = {
+						name = navalbase_modifier
+						duration = -1
+						hidden = no
+					}
+				}
+			}
+			create_admiral = { tradition = 80 }
+			add_country_modifier = {
+				name = caucasian_raiding_escapade
+				duration = 3650
+				hidden = no
+			}
+		}
+	}
 }
 
 caucasus_missions_2 = {
@@ -127,6 +206,105 @@ caucasus_missions_2 = {
 			6135 = { add_permanent_claim = ROOT }
 			capital_scope = {
 				add_base_production = 2
+			}
+		}
+	}
+	
+	caucasus_strategic_pass = {
+		icon = fortress_of_belgrade
+		required_missions = { }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2201
+				province_id = 425
+				province_id = 2195
+				province_id = 5557
+			}
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 2201
+			owns_or_non_sovereign_subject_of = 425
+			OR = {
+				owns_or_non_sovereign_subject_of = 2195
+				owns_or_non_sovereign_subject_of = 5557
+			}
+			2201 = { 
+				fort_level = 2
+				base_manpower = 5
+				OR = {
+					has_building = ramparts
+					has_building = regimental_camp
+				}
+			}
+			425 = { 
+				fort_level = 2
+				base_manpower = 5
+				OR = {
+					has_building = ramparts
+					has_building = regimental_camp
+				}
+			}
+			OR = {
+				2195 = { 
+					fort_level = 2
+					base_manpower = 5
+					OR = {
+						has_building = ramparts
+						has_building = regimental_camp
+					}
+				}
+				5557 = { 
+					fort_level = 2
+					base_manpower = 5
+					OR = {
+						has_building = ramparts
+						has_building = regimental_camp
+					}
+				}
+			}
+		}
+		effect = {
+			add_mil_power = 50
+			2201 = {
+				add_permanent_province_modifier = {
+					name = caucasus_fortress
+					duration = -1
+					hidden = no
+				}
+			}
+			425 = {
+				add_permanent_province_modifier = {
+					name = caucasus_fortress
+					duration = -1
+					hidden = no
+				}
+			}
+			if = {
+				limit = {
+					owns_or_non_sovereign_subject_of = 2195
+					NOT = { owns_or_non_sovereign_subject_of = 5557 }
+				}
+				2195 = {
+					add_permanent_province_modifier = {
+						name = caucasus_fortress
+						duration = -1
+						hidden = no
+					}
+				}
+			}
+			if = {
+				limit = {
+					owns_or_non_sovereign_subject_of = 5557
+					5557 = { fort_level = 2 }
+				}
+				5557 = {
+					add_permanent_province_modifier = {
+						name = caucasus_fortress
+						duration = -1
+						hidden = no
+					}
+				}
 			}
 		}
 	}
