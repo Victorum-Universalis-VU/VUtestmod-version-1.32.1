@@ -1539,6 +1539,23 @@ vu_norse_religion_returns = {
 	church_loyalty_modifier = -0.1
 	liberty_desire = 10
 }
+
+caucasus_fortress = {
+	local_hostile_attrition = 2
+	local_defensiveness = 0.1
+	local_friendly_movement_speed = 0.1
+	local_hostile_movement_speed = 0.25
+	local_governing_cost = -0.2
+	trade_value = 0.5
+}
+
+caucasian_raiding_escapade = {
+	may_perform_slave_raid_on_same_religion = yes
+	naval_tradition_from_battle = 0.25
+	blockade_efficiency = 0.15
+	naval_attrition = -0.1
+	global_naval_barrage_cost = -0.25
+}
 	
 
 ################
