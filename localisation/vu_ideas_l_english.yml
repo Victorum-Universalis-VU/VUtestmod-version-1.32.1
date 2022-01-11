@@ -195,6 +195,10 @@
  university_oxford:0 "University of Oxford"
  university_oxford_desc:0 "Established in 1096, the University of Oxford first began to grow into prominence as English returned from overseas universities. In 1333 King Edward III disallowed the founding of any knew universities aside from Oxford and Cambridge giving them a monopoly in England. For over 500 years, Oxford has been the center of scholarship and learning in the country."
  
+ #VU addition
+ SCO_ideas:0 "Scottish Ideas"
+ SCO_ideas_start:0 "Scottish Traditions"
+ SCO_ideas_bonus:0 "Scottish Ambition"
  COL_ideas:0 "Colombian Ideas"
  COL_ideas_start:0 "Colombian Traditions"
  COL_ideas_bonus:0 "Colombian Ambition"
