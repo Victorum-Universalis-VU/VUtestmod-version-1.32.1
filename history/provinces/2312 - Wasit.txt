@@ -28,10 +28,20 @@ discovered_by = eastern
 discovered_by = indian
 discovered_by = nomad_group
 
+1440.1.1 = {
+	revolt = {
+		type = noble_rebels
+		size = 0
+	}
+	unrest = 5
+	controller = REB
+}
 1447.1.1 = {
 	owner = MSY
 	controller = MSY
 	remove_core = QAR
+	revolt = {}
+	unrest = 0
 }
 1508.1.1 = {
 	owner = PER
