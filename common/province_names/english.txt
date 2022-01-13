@@ -27,6 +27,7 @@
 2315 = { "Suez" "Suez" }
 2326 = "Bardia"
 2327 = { "Magna" "Magna" }
+3047 = { "Ndar" "Saint-Louis" }
 4781 = { "Johannesburg" "Johannesburg" }
 4782 = { "Tswana" "Vryburg" } 
 5261 = { "Port Said" "Port Said" }

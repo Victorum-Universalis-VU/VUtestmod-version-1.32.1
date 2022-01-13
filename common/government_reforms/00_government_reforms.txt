@@ -2815,12 +2815,20 @@ matrilineal_system = {
 	potential = {
 		OR = {
 			primary_culture = nubian
+			primary_culture = funj_culture
+			primary_culture = rufaa_culture
+			primary_culture = berta_culture
+			primary_culture = luo_culture
 			have_had_reform = matrilineal_system
 		}
 	}
 	trigger = {
 		OR = {
 			primary_culture = nubian
+			primary_culture = funj_culture
+			primary_culture = rufaa_culture
+			primary_culture = berta_culture
+			primary_culture = luo_culture
 			have_had_reform = matrilineal_system
 		}
 	}

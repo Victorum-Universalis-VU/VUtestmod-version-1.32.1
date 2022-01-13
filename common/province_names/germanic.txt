@@ -164,6 +164,9 @@
 4769 = "Ryssel"
 4770 = "Herzogenbusch"
 
+#Africa
+3047 = { "Ndar" "Sankt Louis" }
+
 #Caribbean
 830 = "Neu-Nürnberg"
 1139 = "Fort Dorothea"

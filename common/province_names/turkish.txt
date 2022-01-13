@@ -151,6 +151,9 @@
 5164 = "Karabük"
 5167 = "Çorum"
 
+#Africa
+3047 = { "Ndar" "Aziz Louis" }
+
 #VU - Australia by NoobMiner72
 1084 = { "Perth" "Perth" }
 1085 = { "Hobart" "Hobart" }

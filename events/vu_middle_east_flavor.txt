@@ -1,0 +1,238 @@
+# New disaster and flavor events for Middle East region
+# Initially added by docRobert
+
+# ====================================
+namespace = vu_middle_east
+
+country_event = { # Aspand rebelion in Iraq
+	id = vu_middle_east.1
+	title = vu_middle_east.1.t
+	desc = vu_middle_east.1.d
+	picture = MILITARY_CAMP_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	goto = 410
+	
+	trigger = {
+		tag = QAR
+		is_year = 1444
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = { # Time to abandon Iraq and prepare for new year's offensive
+		name = vu_middle_east.1.a
+		highlight = yes
+		ai_chance = { factor = 30 } 
+		set_country_flag = qoyunlu_iraq_free
+		hidden_effect = {
+			disband_rebels = noble_rebels
+			every_owned_province = {
+				limit = { controlled_by = REB }
+				change_controller = ROOT
+			}
+		}
+		release = IRQ
+		if = {
+			limit = { 2309 = { owned_by = IRQ } }
+			2309 = { cede_province = ROOT }
+		}
+		if = {
+			limit = { 6670 = { owned_by = IRQ } }
+			6670 = { cede_province = ROOT }
+		}
+		if = {
+			limit = { 6640 = { owned_by = IRQ } }
+			6640 = { cede_province = ROOT }
+		}
+		if = {
+			limit = { 411 = { owned_by = IRQ } }
+			411 = { cede_province = ROOT }
+		}
+		if = {
+			limit = { 6638 = { owned_by = IRQ } }
+			6638 = { cede_province = ROOT }
+		}
+		if = {
+			limit = { 6641 = { owned_by = IRQ } }
+			6641 = { cede_province = ROOT }
+		}
+		6625 = { cede_province = IRQ }
+		2311 = { cede_province = IRQ }
+		6624 = { cede_province = IRQ }
+		2312 = { cede_province = IRQ }
+		6622 = { cede_province = IRQ }
+		6623 = { cede_province = IRQ }
+		6614 = { cede_province = IRQ }
+		IRQ = {
+			add_treasury = 400
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			6625 = {
+				build_to_forcelimit = {
+					heavy_ship = 0.1
+					light_ship = 0.5
+					galley = 0.2
+					transport = 0.2
+				}
+				build_to_forcelimit = {
+					infantry = 0.7
+					cavalry = 0.3
+				}
+			}
+			define_ruler = {
+				name = "Aspand"
+				dynasty = "Qara Qoyunlu"
+				adm = 4
+				dip = 4
+				mil = 4
+				age = 55
+				claim = 70
+				culture = QAR
+				religion = shiite
+			}
+			define_ruler_to_general = {
+				fire = 4
+				shock = 3
+				manuever = 3
+				siege = 1
+			}
+			add_manpower = 8
+			add_army_tradition = 20
+			add_casus_belli = {
+				target = QAR
+				type = cb_annex
+				months = 120
+			}
+		}
+		add_casus_belli = {
+			target = IRQ
+			type = cb_annex
+			months = 120
+		}
+	}
+	
+	option = { #The struggle continues
+		name = vu_middle_east.1.b
+		highlight = yes
+		ai_chance = { factor = 70 }
+		set_country_flag = qoyunlu_normal_rebelion
+		custom_tooltip = vu_middle_east.1.tooltip
+		hidden_effect = {
+			disband_rebels = noble_rebels
+			410 = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 1.5
+					leader = "Aspand"
+					win = yes
+				}
+			}
+		}
+		add_stability = -1
+		add_adm_power = -25
+		add_corruption = 1
+	}
+}
+
+country_event = { # Aspand dies around 1445
+	id = vu_middle_east.2
+	title = vu_middle_east.2.t
+	desc = vu_middle_east.2.d
+	picture = CIVIL_WAR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QAR
+		is_year = 1445
+		has_country_flag = qoyunlu_normal_rebelion
+		OR = {
+			NOT = { num_of_rebel_controlled_provinces = 8 }
+			NOT = { num_of_rebel_armies = 2 }
+			controls = 410
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = { #Rebelion ends, Jahanshah reigns supreme
+		name = vu_middle_east.2.a
+		highlight = yes
+		clr_country_flag = qoyunlu_normal_rebelion
+		disband_rebels = pretender_rebels
+		add_stability = 1
+		add_legitimacy = 25
+		add_prestige = 25
+		every_owned_province = {
+			limit = { region = mesopotamia_region }
+			add_devastation = -5
+		}
+	}
+}
+
+country_event = { # Aspand in Iraq wages war on Quara Qoyunlu
+	id = vu_middle_east.3
+	title = vu_middle_east.3.t
+	desc = vu_middle_east.3.d
+	picture = CIVIL_WAR_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	goto = 410
+	
+	trigger = {
+		tag = QAR
+		is_year = 1444
+		has_country_flag = qoyunlu_iraq_free
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = { #Civil war continues
+		name = vu_middle_east.3.a
+		highlight = yes
+		ai_chance = { factor = 90 }
+		add_stability = -1
+		every_owned_province = {
+			limit = { region = mesopotamia_region }
+			add_devastation = 10
+		}
+		IRQ = {
+			declare_war_with_cb = {
+				who = QAR
+				casus_belli = cb_annex
+			}
+		}
+	}
+	
+	option = { #Recognize Aspand as ruler of Iraq
+		name = vu_middle_east.3.b
+		highlight = yes
+		ai_chance = { factor = 10 }
+		add_legitimacy = 10
+		add_prestige = -10
+		add_truce_with = IRQ
+		6638 = { cede_province = IRQ }
+		6670 = { cede_province = IRQ }
+		2309 = { cede_province = IRQ }
+		6645 = { cede_province = IRQ }
+		2209 = { cede_province = QOM }
+		IRQ = { 
+			add_stability = 1 
+			add_treasury = 250
+		}
+	}
+}

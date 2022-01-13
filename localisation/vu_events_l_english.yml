@@ -210,6 +210,19 @@
  vu_pagan.2.b:0 "Those heretics must be purged"
  vu_pagan.2.c:0 "Catholicism has failed, we shall return to old gods of our fathers"
  vu_pagan.2.tooltip:0 "All catholic countries will be upset (-30) that we have turned to paganism"
+ #Middle East flavor events
+ vu_middle_east.1.t:0 "Aspand Rebellion in Iraq"
+ vu_middle_east.1.d:0 "Aspand - relative of current ruling dynasty in Qara Qoyunlu is the leader of large-scale revolt in Lower Mesopotamia. He is a memeber of Iraqi dynastic line that has been centered around Baghdad for quite some time now. His predescessor - Shah Mehmed lead Iraq from 1412 but was pushed back by Aspand in 1433. From now on, Aspand ruled this land semi-independendly posing major problem to Qara Qoyunlu. Despite many pitty conflicts and battles, the rebelion is sill going on and old Aspand still controlls the majority of southern territories. Aspand does not have an heir and he's getting old, so his uprising may end very soon, but we cannnot expect the best outcome and do nothing."
+ vu_middle_east.1.a:0 "He's been there for over 10 years now. We must abandon Iraq and prepare new offensive later."
+ vu_middle_east.1.b:0 "He and his rebels will soon fall"
+ vu_middle_east.1.tooltip:0 "The rebellion will continue normally, with Aspand marching his armies in attempt to take over the throne."
+ vu_middle_east.2.t:0 "The death of Aspand"
+ vu_middle_east.2.d:0 "Great news reach to us. Pretender to our throne from Iraqi dynastic line - Aspand - passed away on [GetDate]. He died without having an heir, meaning there's no legitimate person to carry his cause. Without the key interest and proper leader, the rebellion is soon damned to fail."
+ vu_middle_east.2.a:0 "Ah, victory indeed"
+ vu_middle_east.3.t:0 "Aspand wages war on Quara Qoyunlu"
+ vu_middle_east.3.d:0 "After we had abondoned Iraq, Aspand has consolidated his power and began ruling the region as independent monarch. Now that he feels confident enough, he is pressing his claims to the throne of Qara Qoyunlu's Federation. We can try to negotiate but he's not inrerested in keeping Status Quo."
+ vu_middle_east.3.a:0 "Then the civil war continues!"
+ vu_middle_east.3.b:0 "Recognize Aspand as independent ruler of Iraq and make concessions"
  #Events for Prussia and Brandenburg
  vu_pru.1.t:0 "Unifying two thrones"
  vu_pru.1.d:0 "Now that Electorate of Brandenburg and Duchy of Prussia have been in close relation with each other for quite some time, we may take efforts to unite the two nations together and form one large Prussian State. The ties between two realms shall be thighten."
@@ -219,6 +232,8 @@
  vu_remove_country.t:0 "Revert to EU4 Vanilla"
  vu_remove_country.d:1 "Do you have a potato rig? Do you miss vanilla? Do you want to play it whilst keeping VU's map? Look no further and click the button below."
  removed_country_name.a:0 "Give me VANILLA!"
+ #Missing locs
+ flavor_fra.9104:0 "France comes out victorious"
  #Belgian Revolt
  incident_belgian_revolt:0 "The Belgian Rebellion"
  incident_belgian_revolt_member_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."

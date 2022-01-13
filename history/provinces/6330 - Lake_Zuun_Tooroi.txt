@@ -6,5 +6,5 @@ discovered_by = nomad_group
 
 
 
- #Ferdinand Verbiest
+#Ferdinand Verbiest
 1682.1.1 = { discovered_by = SPA } #Ferdinand Verbiest

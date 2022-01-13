@@ -1,6 +1,6 @@
 west_point = {
-	start = 965
-	date = 1300.10.13
+	start = 5953
+	date = 1802.01.01
 	time = {
 		months = 0
 	}
@@ -10,13 +10,18 @@ west_point = {
 	starting_tier = 0	
 	type = monument
 	build_trigger = {
-		always = no		
+		is_year = 1802
+        culture_group = british
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}	
 	}
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
 		owner = {
-			culture = american 
+			culture_group = british 
 		}
 		OR = {
 			ROOT = { has_owner_accepted_culture = yes }
@@ -24,8 +29,9 @@ west_point = {
 		}
 	}
 	can_upgrade_trigger = {
+	    is_year = 1803
 		owner = {
-			culture = american 
+			culture_group = british 
 		}
 		OR = {
 			ROOT = { has_owner_accepted_culture = yes }
@@ -59,7 +65,7 @@ west_point = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 5000
 		}
 		province_modifiers = {
 		}
@@ -67,7 +73,7 @@ west_point = {
 		}
 		country_modifiers = {
 			mil_advisor_cost = -0.1
-			army_tradition_decay = -0.0025
+			army_tradition_decay = -0.0010
 		}
 		on_upgraded = {
 			owner = { add_army_tradition = 10 }
@@ -75,48 +81,48 @@ west_point = {
 	}
 	tier_2 = {
 		upgrade_time = {
-			months = 120
+			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 7500
 		}
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_manpower_modifier = 0.25
+			local_manpower_modifier = 0.15
 		}
 		country_modifiers = {
-			mil_advisor_cost = -0.20
-			army_tradition_decay = -0.005
+			mil_advisor_cost = -0.15
+			army_tradition_decay = -0.0015
 		}
 		on_upgraded = {
 			owner = {
 				add_army_tradition = 15
-				add_mil_power = 100
+				add_mil_power = 50
 			}
 		}
 	}
 	tier_3 = {
 		upgrade_time = {
-			months = 120
+			months = 480
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 10000
 		}
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_manpower_modifier = 0.50
+			local_manpower_modifier = 0.2
 		}
 		country_modifiers = {
-			mil_advisor_cost = -0.25
-			army_tradition_decay = -0.01
-			yearly_army_professionalism = 0.005
+			mil_advisor_cost = -0.2
+			army_tradition_decay = -0.002
+			yearly_army_professionalism = 0.002
 		}
 		on_upgraded = {
 			owner = {
-				add_army_tradition = 10
-				add_army_professionalism = 0.05
+				add_army_tradition = 20
+				add_army_professionalism = 0.025
 				add_mil_power = 100 
 			}
 		}
@@ -125,7 +131,7 @@ west_point = {
 
 fort_sumter = {
 	start = 932
-	date = 1300.10.13
+	date = 1814.01.01
 	time = {
 		months = 0
 	}
@@ -135,26 +141,28 @@ fort_sumter = {
 	starting_tier = 0	
 	type = monument
 	build_trigger = {
-		always = no		
+		is_year = 1814
+        culture = american
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		owner = {
-			culture = american 
-		}
+        culture = american
 		OR = {
-			ROOT = { has_owner_accepted_culture = yes }
-			ROOT = { has_owner_culture = yes }
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
 		}
 	}
 	can_upgrade_trigger = {
-		owner = {
-			culture = american 
-		}
+		is_year = 1861
+        culture = american
 		OR = {
-			ROOT = { has_owner_accepted_culture = yes }
-			ROOT = { has_owner_culture = yes }
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
 		}
 	}
 	keep_trigger = {
@@ -238,123 +246,10 @@ fort_sumter = {
 		}
 	}
 }
-missions = {
-	start = 4627
-	date = 1300.10.13
-	time = {
-		months = 0
-	}
-	build_cost = 0
-	can_be_moved = no	
-	move_days_per_unit_distance = 10	
-	starting_tier = 0	
-	type = monument
-	build_trigger = {
-		always = no		
-	}
-	on_built = { }
-	on_destroyed = { }
-	can_use_modifiers_trigger = {
-		owner = {
-			religion_group = christian 
-		}
-		ROOT = {
-			has_owner_religion = yes
-		}
-	}
-	can_upgrade_trigger = {
-		owner = {
-			religion_group = christian 
-		}
-		ROOT = {
-			has_owner_religion = yes
-		}
-	}
-	keep_trigger = {
-	}
-	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-		}
-		on_upgraded = {
-		}
-	}
-	tier_1 = {
-		upgrade_time = {
-			months = 120
-		}
-		cost_to_upgrade = {
-			factor = 1000
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-			global_missionary_strength = 0.01
-		}
-		on_upgraded = {
-			owner = {
-				add_estate_loyalty = { estate = estate_church loyalty = 10 }
-			}
-		}
-	}
-	tier_2 = {
-		upgrade_time = {
-			months = 120
-		}
-		cost_to_upgrade = {
-			factor = 2500
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-			global_missionary_strength = 0.02
-			missionary_maintenance_cost = -0.10
-		}
-		on_upgraded = {
-			owner = {
-				add_estate_loyalty = { estate = estate_church loyalty = 10 }
-			}
-		}
-	}
-	tier_3 = {
-		upgrade_time = {
-			months = 120
-		}
-		cost_to_upgrade = {
-			factor = 3500
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-			global_missionary_strength = 0.03
-			missionary_maintenance_cost = -0.25
-			missionaries = 1
-		}
-		on_upgraded = {
-			owner = {
-				add_estate_loyalty = { estate = estate_church loyalty = 10 }
-			}
-		}
-	}
-}
+
 liberty_bell = {
 	start = 956
-	date = 1300.10.13
+	date = 1752.01.01
 	time = {
 		months = 0
 	}
@@ -364,26 +259,28 @@ liberty_bell = {
 	starting_tier = 0	
 	type = monument
 	build_trigger = {
-		always = no		
+		is_year = 1752
+        culture = american
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		owner = {
-			culture = american 
-		}
+		culture = american
 		OR = {
-			ROOT = { has_owner_accepted_culture = yes }
-			ROOT = { has_owner_culture = yes }
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
 		}
 	}
 	can_upgrade_trigger = {
-		owner = {
-			culture = american 
-		}
+		is_year = 1753
+        culture = american
 		OR = {
-			ROOT = { has_owner_accepted_culture = yes }
-			ROOT = { has_owner_culture = yes }
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
 		}
 	}
 	keep_trigger = {
@@ -480,7 +377,7 @@ liberty_bell = {
 
 calumet_and_hecla = {
 	start = 4898
-	date = 1300.10.13
+	date = 1864.01.01
 	time = {
 		months = 0
 	}
@@ -490,13 +387,29 @@ calumet_and_hecla = {
 	starting_tier = 0	
 	type = monument
 	build_trigger = {
-		always = no		
+		is_year = 1864
+        culture = american
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
+        culture = american
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 	can_upgrade_trigger = {
+	    is_year = 1871
+        culture = american
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 	keep_trigger = {
 	}
