@@ -306,7 +306,7 @@ development = {
 }
 
 development_scaled = {
-	local_development_cost = 0.03			#Reverted back to 3 from 2. BTAddOn changed from 0.03. Dev doubling accounted for.
+	local_development_cost = 0.08			#Increased from 3 to 0.8 in order to help solve and mitigate late game lag as I've been getting a lot of feedback over the years regarding lag, I decided to finally sort this out. So, as you can see, I've increased it from 0.03 to 0.08.
 }
 
 capital_city = {
