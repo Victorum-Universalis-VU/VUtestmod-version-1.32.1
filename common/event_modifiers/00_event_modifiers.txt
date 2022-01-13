@@ -1556,6 +1556,22 @@ caucasian_raiding_escapade = {
 	naval_attrition = -0.1
 	global_naval_barrage_cost = -0.25
 }
+
+vu_shiite_unrest = {
+	local_manpower_modifier = -0.1
+	local_tax_modifier = -0.2
+	local_unrest = 5
+	local_autonomy = 0.05
+}
+
+msy_religious_defense = {
+	fire_damage_received = -0.05
+	shock_damage_received = -0.05
+	recover_army_morale_speed = 0.10
+	war_taxes_cost_modifier = -0.2
+	army_tradition_from_battle = 0.01
+	global_unrest = -1
+}
 	
 
 ################

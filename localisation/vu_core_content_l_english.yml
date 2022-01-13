@@ -1166,6 +1166,10 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  desc_caucasus_fortress:0 ""
  caucasian_raiding_escapade:0 "Caucasian Raiding Escapades"
  desc_caucasian_raiding_escapade:0 "People of Caucasus have grown tired of boring  mountainous lifestyle and are in need for loot. They begun building fleet and are more than eagar to conduct naval raids and sack escapades to bring the desired splendor to their home region."
+ vu_shiite_unrest:0 "Shiite resistance"
+ desc_vu_shiite_unrest:0 "The influence of Mushasha has turned shiite communities in Mesopotamia against us."
+ msy_religious_defense:0 "Defending the Holy State"
+ desc_msy_religious_defense:0 "Our religious state is under a threat of foreign conquest. We must mobilize our faithful men and stand strong against enemy invasion."
  
  ##########################
  # New province modifiers
