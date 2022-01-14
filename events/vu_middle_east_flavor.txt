@@ -235,4 +235,173 @@ country_event = { # Aspand in Iraq wages war on Quara Qoyunlu
 			add_treasury = 250
 		}
 	}
+	
+	option = { #Player can become Iraq
+		name = vu_middle_east.3.c
+		highlight = yes
+		ai_chance = { factor = 0 }
+		add_legitimacy = 10
+		add_prestige = -10
+		add_truce_with = IRQ
+		6638 = { cede_province = IRQ }
+		6670 = { cede_province = IRQ }
+		2309 = { cede_province = IRQ }
+		6645 = { cede_province = IRQ }
+		2209 = { cede_province = QOM }
+		IRQ = { 
+			add_stability = 1 
+			add_treasury = 250
+		}
+		switch_tag = IRQ
+		QAR = {
+			declare_war_with_cb = {
+				who = IRQ
+				casus_belli = cb_annex
+			}
+		}
+	}
+}
+
+country_event = { # Mushasha tries to sieze land
+	id = vu_middle_east.4
+	title = vu_middle_east.4.t
+	desc = vu_middle_east.4.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	goto = 6624
+	
+	trigger = {
+		tag = MSY
+		is_year = 1446
+		OR = {
+			QAR = { has_country_flag = qoyunlu_normal_rebelion }
+			QAR = { has_country_flag = qoyunlu_iraq_free }
+		}
+		OR = {
+			6624 = { owned_by = IRQ }
+			6624 = { owned_by = QAR }
+			2312 = { owned_by = IRQ }
+			2312 = { owned_by = QAR }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = { #Attempt to gain land
+		name = vu_middle_east.4.a
+		highlight = yes
+		ai_chance = { factor = 90 }
+		add_adm_power = -25
+		add_dip_power = -25
+		custom_tooltip = vu_middle_east.4.tooltip
+		hidden_effect = {
+			every_province = {
+				limit = { 
+					region = mesopotamia_region 
+					religion = shiite
+					OR = { 
+						owned_by = IRQ
+						owned_by = QAR
+					}
+				}
+				add_devastation = 2
+				add_province_modifier = {
+					name = vu_shiite_unrest
+					duration = 1460
+					hidden = no
+				}
+			}
+		}
+		6624 = {
+			owner = {
+				country_event = {
+					id = vu_middle_east.5
+					days = 10
+				}
+				add_casus_belli = {
+					target = MSY
+					type = cb_insult
+					months = 12
+				}
+			}
+		}
+	}
+	
+	option = { #Do not	
+		name = vu_middle_east.4.b
+		ai_chance = { factor = 10 }
+		add_mil_power = 25
+		add_prestige = -10
+	}
+}
+
+country_event = { # Response to Mushasha claims
+	id = vu_middle_east.5
+	title = vu_middle_east.5.t
+	desc = vu_middle_east.5.d
+	picture = RELIGIOUS_WARS_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Agree to their raids
+		name = vu_middle_east.5.a
+		ai_chance = { factor = 50 }
+		add_adm_power = 25
+		add_dip_power = 25
+		add_prestige = -15
+		
+		if = {
+			limit = { 6624 = { owned_by = ROOT } }
+			6624 = { cede_province = MSY }
+		}
+		if = {
+			limit = { 6614 = { owned_by = ROOT } }
+			6614 = { cede_province = MSY }
+		}
+		if = {
+			limit = { 2311 = { owned_by = ROOT } }
+			2311 = { cede_province = MSY }
+		}
+		if = {
+			limit = { 6622 = { owned_by = ROOT } }
+			6622 = { cede_province = MSY }
+		}
+		if = {
+			limit = { 6623 = { owned_by = ROOT } }
+			6623 = { cede_province = MSY }
+		}
+		if = {
+			limit = { 2312 = { owned_by = ROOT } }
+			2312 = { cede_province = MSY }
+		}
+		MSY = { add_prestige = 20 }
+	}
+	
+	option = { #This means war	
+		name = vu_middle_east.5.b
+		ai_chance = { factor = 50 }
+		add_mil_power = 20
+		add_prestige = 5
+		declare_war_with_cb = {
+			who = MSY
+			casus_belli = cb_insult
+		}
+		MSY = {
+			add_country_modifier = {
+				name = msy_religious_defense
+				duration = 3650
+				hidden = no
+			}
+		}
+	}
 }
