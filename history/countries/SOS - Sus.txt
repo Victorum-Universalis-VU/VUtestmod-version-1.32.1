@@ -1,6 +1,7 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
-primary_culture = berber
+primary_culture = shila
+add_accepted_culture = berber
 religion = sunni
 technology_group = muslim
 capital = 348 # Sus
