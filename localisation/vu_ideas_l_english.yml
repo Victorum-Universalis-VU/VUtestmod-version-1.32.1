@@ -1320,6 +1320,24 @@
  avr_caucasian_cultures: "Cultures of the Caucusus"
  avr_caucasian_cultures_desc: "There are several distinct languages, cultures, traditions, and customs here in the Caucuses. From the Alans to the Circassians to the Georgians and many others, we know that they all desire to be left autonomous in some way and accepted for who they are. Being as one from this group of distinct cultures situated in the vast mountains, we can empathize and sympathize with these various groups and come to accept them into our own domain, even though the same was not always done to our people in the past."
  
+ ASY_ideas: "Assyrian Ideas"
+ ASY_ideas_start: "Assyrian Traditions"
+ ASY_ideas_bonus: "Assyrian Ambition"
+ asy_river_fleet: "River Fleet of Euphrates and Tigris"
+ asy_river_fleet_desc: "."
+ asy_defensive_lines: "Fortifications on Mountain Borderlands"
+ asy_defensive_lines_desc: "."
+ asy_cultural: "Multicultural Lands"
+ asy_cultural_desc: "."
+ asy_develop_rivers: "Develop Fertile Crescent"
+ asy_develop_rivers_desc: "."
+ asy_army_reform: "Assyrian Army Reform"
+ asy_army_reform_desc: "."
+ asy_splendid_court: "Legacy of Sargon"
+ asy_splendid_court_desc: "."
+ asy_expansion: "Assyrian Military Expansion"
+ asy_expansion_desc: "."
+ 
  
  #Helena stuff
  #Irish tweak
