@@ -3200,3 +3200,50 @@ AVR_ideas = {
 		culture_conversion_cost = -0.1
 	}
 }
+
+#Assyrian ideas
+ASY_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		development_cost = -0.075
+	}
+	
+	bonus = {
+		administrative_efficiency = 0.075
+	}
+	
+	trigger = {
+		tag = ASY
+	}
+	free = yes
+	
+	asy_river_fleet = {
+		light_ship_cost = -0.1
+		global_ship_trade_power = 0.15
+	}
+	asy_defensive_lines = {
+		fort_maintenance_modifier = -0.15
+	}
+	asy_cultural = {
+		tolerance_heathen = 1
+		stability_cost_modifier = -0.05
+		culture_conversion_cost = -0.2
+	}
+	asy_develop_rivers = {
+		global_prov_trade_power_modifier = 0.05
+		production_efficiency = 0.05
+	}
+	asy_army_reform = {
+		shock_damage = 0.075
+		siege_ability = 0.10
+		cavalry_power = 0.2
+	}
+	asy_splendid_court = {
+		all_power_cost = -0.025
+	}
+	asy_expansion = {
+		state_governing_cost = -0.1
+		num_accepted_cultures = 1
+		core_creation = -0.1
+	}
+}
