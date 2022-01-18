@@ -9339,7 +9339,7 @@ port_of_baltimore = {
 	start = 2554
 	
 	# date built in real life 
-	date = 1444.01.01 #1706.01.01 
+	date = 1729.01.01 #Founded
 	
 	#time to build
 	time = {
@@ -9363,38 +9363,26 @@ port_of_baltimore = {
 
 	#can we build it?
 	build_trigger = {	
-	is_year = 1444
-		culture_group = british
-		OR = {
-				has_owner_culture = yes
-				has_owner_accepted_culture = yes
-		        }
+	    is_year = 1729
+		religion_group = christian
 	}
 
 	#what to do when it's built
 	on_built = {
-		
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		 
 	}
 
 	#can our country use it?
 	can_use_modifiers_trigger = {	
-     
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {	
-    is_year = 1706
-	culture_group = british
-	OR = {
-				has_owner_culture = yes
-				has_owner_accepted_culture = yes
-		        }
-		
+        development = 30
+		province_has_center_of_trade_of_level = 3 #you're not gonna build a monumental harbour if your current is trash!
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
