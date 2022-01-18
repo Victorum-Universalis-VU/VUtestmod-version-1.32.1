@@ -284,7 +284,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { # Time to build a stronger nation
-		name = "flavor_fra.EVTOPTA9104"
+		name = "flavor_fra.EVTOPTA3104"
 		add_stability_or_adm_power = yes
 		add_adm_power = 50
 		add_truce_with = ENG

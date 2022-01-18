@@ -2512,6 +2512,7 @@ type={
 type={
 	type="panama_canal"
 	use_animation=yes
+	scale=0.500000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
@@ -2533,6 +2534,136 @@ type={
 		}
 		rotation={
 			0.000 27.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2777.300 0.200 1838.700 
+		}
+		rotation={
+			0.000 69.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2797.000 -0.050 1814.500 
+		}
+		rotation={
+			0.000 55.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2794.300 -0.800 1815.000 
+		}
+		rotation={
+			0.000 -125.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2786.900 0.000 1818.200 
+		}
+		rotation={
+			0.000 -79.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2779.810 0.200 1836.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2780.600 0.150 1820.800 
+		}
+		rotation={
+			0.000 -117.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2778.150 0.100 1823.650 
+		}
+		rotation={
+			0.000 -135.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2779.800 0.000 1829.000 
+		}
+		rotation={
+			0.000 -18.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2780.800 -0.100 1832.440 
+		}
+		rotation={
+			0.000 13.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2777.400 -0.300 1827.000 
+		}
+		rotation={
+			0.000 -174.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2784.300 0.200 1820.450 
+		}
+		rotation={
+			0.000 78.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2790.600 -0.400 1819.100 
+		}
+		rotation={
+			0.000 84.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2793.000 0.100 1818.100 
+		}
+		rotation={
+			0.000 73.000 0.000 
 		}
 	}
 }
@@ -2609,6 +2740,16 @@ type={
 		name="frame_top_left_entity"
 		hidden_on_start=no
 		position={
+			1536.000 18.000 2304.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity"
+		hidden_on_start=no
+		position={
 			2048.000 18.000 2304.000 
 		}
 		rotation={
@@ -2620,16 +2761,6 @@ type={
 		hidden_on_start=no
 		position={
 			2560.000 18.000 2304.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity"
-		hidden_on_start=no
-		position={
-			1536.000 18.000 2304.000 
 		}
 		rotation={
 			0.000 0.000 0.000 
@@ -2730,7 +2861,7 @@ type={
 type={
 	type="kiel_canal"
 	use_animation=yes
-	scale=0.600000
+	scale=0.500000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
