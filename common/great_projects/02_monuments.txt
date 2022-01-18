@@ -4861,11 +4861,7 @@ boston = {
 
     build_trigger = {
 	    is_year = 1630
-        culture_group = british
-		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}		
+		religion_group = christian
     }
 
     on_built = {
@@ -5533,11 +5529,7 @@ new_orleans = {
 
     build_trigger = {
 	    is_year = 1718
-        culture_group = french
-		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}		
+		religion_group = christian
     }
 
     on_built = {
@@ -6538,11 +6530,7 @@ quebec = {
 
     build_trigger = {
 	    is_year = 1608
-        culture_group = french
-		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}		
+		religion_group = christian
     }
 
     on_built = {
