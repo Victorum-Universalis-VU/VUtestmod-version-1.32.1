@@ -1729,6 +1729,13 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  caucasus_look_south_title:0 "Look Southward"
  caucasus_look_south_desc:0 "We control the North but we have never really controlled lands south of Caucasus Mountain Range. It is time to change that. Either by taking strategic outposts out there or making strong connections with Georgians."
  caucasus_look_south.tooltip:0 "If we complete the mission while being allied to Georgia, we will gain 125 dip points and 2 powerful advisors, as well as unification cb on them. Otherwise, we will just reveive claims on their lands."
+ caucasus_invade_crimea_title:0 "Invade Crimea"
+ caucasus_invade_crimea_desc:0 "We shall expand westward into the rich lands of Crimea to firmly secure our trade interests in the region."
+ caucasus_volga_don_title:0 "Volga and Don Border"
+ caucasus_volga_don_desc:0 "Continiue the conquest of Pontic Steppe by siezing fort in Astrakhan and Azov. With those secured and nomadic hordes defeated, we can hold control over 2 main rivers in the region so important for the trade."
+ caucasus_secure_south_title:0 "Sieze Southern Ranges"
+ caucasus_secure_south_desc:0 "Cross highest peaks of Caucasus and establish control over its southern side too. Our nation shall fully encompass the Caucasus Mountain Range!"
+ caucasus_secure_south.tooltip:0 "5 Random owned provinces in Caucasia region will receive 1 base tax, 1 base production and 1 base manpower"
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"
