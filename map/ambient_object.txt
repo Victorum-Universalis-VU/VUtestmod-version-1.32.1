@@ -2730,10 +2730,20 @@ type={
 type={
 	type="kiel_canal"
 	use_animation=yes
-	scale=0.900000
+	scale=0.600000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
+	object={
+		name="welland_canal"
+		hidden_on_start=yes
+		position={
+			1396.680 0.250 1711.120 
+		}
+		rotation={
+			0.000 -0.100 0.000 
+		}
+	}
 	object={
 		name="kra_canal"
 		hidden_on_start=yes
