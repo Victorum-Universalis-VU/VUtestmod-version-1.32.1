@@ -1320,10 +1320,10 @@ chocolate_hills_modifier = {
 	picture = "chocolate_hills_icon"
 }
 
-niagra_falls_modifier = {
+niagara_falls_modifier = {
   diplomatic_reputation = 0.5
   prestige = 0.4
-	picture = "niagra_falls_icon"
+	picture = "niagara_falls_icon"
 }
 
 victoria_falls_modifier = {

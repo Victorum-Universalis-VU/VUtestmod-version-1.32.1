@@ -251,7 +251,7 @@
 984 = { "Fundy" "Fundy" }
 985 = { "Moncton" "Moncton" }
 986 = { "Gaspe" "Gaspe" }
-987 = { "Windsor" "Fort Niagra" }
+987 = { "Windsor" "Fort Niagara" }
 988 = { "Simcoe" "Midhurst" }
 989 = { "Ontario" "Kingston" }
 990 = { "Three Rivers" "Three Rivers" }

@@ -41,7 +41,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7183;4353;sea;1397;-1;-1;-1;-1;Biliran-Leyte
 6983;8282;sea;1395;-1;-1;-1;-1;Bataan-Cavite
 1146;1145;sea;7303;-1;-1;-1;-1;Ife-Nupe
-987;4872;sea;7341;-1;-1;-1;-1;Windsor-Buffalo
 988;944;sea;7342;-1;-1;-1;-1;Simcoe-Detroit
 2584;993;sea;7340;-1;-1;-1;-1;Osheaga-Weskarini
 994;2583;sea;7340;-1;-1;-1;-1;Quebec-Shawenigane
@@ -56,6 +55,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 303;2418;sea;8366;-1;-1;-1;-1;Saratov-Ukek
 3020;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1365;1347;canal;2390;-1;-1;-1;-1;kra_canal
+1660;1659;canal;987;-1;-1;-1;-1;welland_canal
 7954;6951;sea;8326;-1;-1;-1;-1;Helder-Hoorn
 97;6951;sea;8352;-1;-1;-1;-1;Amsterdam-Hoorn
 7954;100;sea;8326;-1;-1;-1;-1;Helder-Friesland

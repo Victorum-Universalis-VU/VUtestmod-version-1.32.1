@@ -8548,7 +8548,7 @@ nazca_lines = {
 	}
 }
 
-niagra_falls_east = {
+niagara_falls_east = {
 	# province it starts in
 	start = 4872
 	
@@ -8730,7 +8730,7 @@ niagra_falls_east = {
 	}
 }
 
-niagra_falls_west = {
+niagara_falls_west = {
 	# province it starts in
 	start = 987
 	
