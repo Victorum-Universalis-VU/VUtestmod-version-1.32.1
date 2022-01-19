@@ -242,8 +242,6 @@
  vu_remove_country.t:0 "Revert to EU4 Vanilla"
  vu_remove_country.d:1 "Do you have a potato rig? Do you miss vanilla? Do you want to play it whilst keeping VU's map? Look no further and click the button below."
  removed_country_name.a:0 "Give me VANILLA!"
- #Missing locs
- flavor_fra.9104:0 "France comes out victorious"
  #Belgian Revolt
  incident_belgian_revolt:0 "The Belgian Rebellion"
  incident_belgian_revolt_member_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."
