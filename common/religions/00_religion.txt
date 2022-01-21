@@ -2084,17 +2084,9 @@ muslim = {
 		allowed_conversion = {
 				#iconoclast
 				ibadi
-				manichaean
-				mazdaki
-				zikri
-				kharijite
-				sufism
-				alevi
 				druze_new
-				manichaean
 				buddhism
 				sikhism
-				jain
 				taoism
 		}
 		
@@ -2124,10 +2116,7 @@ muslim = {
 		allowed_conversion = {
 				#iconoclast
 				zoroastrian
-				mazdaki
-				sufism
 				druze_new
-				manichaean
 				buddhism
 				sikhism
 				taoism 
@@ -2388,6 +2377,7 @@ muslim = {
 			zoroastrian
 			miaphysite
 			coptic
+			yazidi
 		}
 		country = {
 			tolerance_heathen = 2 #Believed in the holiness of many religious figures
@@ -2438,7 +2428,6 @@ eastern = {
 		allowed_conversion = {
 			vajrayana
 			mahayana
-			manichaean
 			sikhism
 		}
 		
@@ -2483,7 +2472,6 @@ eastern = {
 		
 		allowed_conversion = {
 				vajrayana
-				mahayana
 				taoism
 		}
 		
@@ -2521,7 +2509,6 @@ eastern = {
 		color = { 204 76 76 }
 		icon = 25
 		allowed_conversion = {
-			mahayana
 			buddhism #Theravada
 			taoism
 		}
@@ -2687,9 +2674,8 @@ eastern = {
 		color = { 62 55 65 }
 		icon = 39
 		allowed_conversion = {
-				manichaean
-				mahayana
-				shinto
+			mahayana
+			shinto
 		}
 		country = {
 			global_unrest = -2
@@ -2790,8 +2776,6 @@ dharmic = {
 			nestorian
 			buddhism
 			sikhism
-			dravidian
-			jain
 		}
 		
 		country = {
@@ -2833,12 +2817,9 @@ dharmic = {
 		color = { 76 118 132 }
 		icon = 15
 		allowed_conversion = {
-			zikri
-			jain
 			hinduism
 			sunni
 			shiite
-			manichaean
 		}
 		
 		country = {
@@ -4064,12 +4045,10 @@ pagan = {
 		color = { 25 76 217 }
 		
 		allowed_conversion = {
-				nestorian
-				manichaean
-				buddhism
-				vajrayana
-				mahayana
-				siberian
+			nestorian
+			buddhism
+			vajrayana
+			mahayana
 		}
 		
 		country = {
@@ -4265,25 +4244,25 @@ pagan = {
 	#}
 
 	
-	#dreamtime = {		#Not added yet
-	#	icon = 1
-	#	color = { 197 133 43 }
-	#	
-	#	country = {
-	#		shock_damage_received = -0.05
-	#		land_morale = 0.1
-	#		diplomatic_reputation = 1
-	#	}
-	#	country_as_secondary = {
-	#		land_morale = 0.1
-	#		shock_damage = 0.1
-	#		hostile_attrition = 2
-	#	}
-	#	
-	#	declare_war_in_regency = yes
-	#	fetishist_cult = yes
-	#	heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
-	#}
+	dreamtime = {		#Aborigenal
+		icon = 29
+		color = { 197 133 43 }
+		
+		country = {
+			shock_damage_received = -0.05
+			land_morale = 0.1
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			land_morale = 0.1
+			shock_damage = 0.1
+			hostile_attrition = 2
+		}
+		
+		declare_war_in_regency = yes
+		fetishist_cult = yes
+		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
+	}
 	
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan
@@ -4457,11 +4436,9 @@ zoroastrian_group = {
 			nestorian
 			mazdaki
 			yazidi
-			manichaean
 			buddhism
 			vajrayana
 			sikhism
-			jain
 		}
 		
 		province = {
@@ -4615,49 +4592,54 @@ zoroastrian_group = {
 	#	
 	#}
 
-	#yazidi = {		#Not added yet
-	#	color = { 91 87 133 }
-	#	icon = 1
-	#	country = {
-	#		tolerance_own = 3 # Preoccupation with religious purity
-	#		tolerance_heretic = -1 # Too much contact with non-Yazidis is considered polluting
-	#		tolerance_heathen = -1
-	#		advisor_pool = 1 # Caste system
-	#		global_missionary_strength = 0.01
-	#	}
-	#	province = {
-	#		local_missionary_strength = -0.02
-	#		global_regiment_recruit_speed = -0.25
-	#	}
-	#	country_as_secondary = {
-	#		tolerance_own = 2
-	#		advisor_pool = 1
-	#	}
-	#	
-	#	holy_sites = { 421 4430 2223 441 2235 }
-	#
-	#	blessings = {
-	#		blessing_yasna
-	#		blessing_haoma
-	#		blessing_navjote
-	#		blessing_manthras
-	#		blessing_dakhma
-	#	}
-	#
-	#	on_convert = {
-	#		change_religion = yazidi
-	#		add_prestige = -100
-	#		add_country_modifier = {
-	#			name = "conversion_zeal"
-	#			duration = 3650
-	#		}
-	#	}
-	#
-	#	heretic = { YAZIDI_FUNDAMENTALIST }
-	#	
-	#	harmonized_modifier = harmonized_yazidi
-	#	
-	#}
+	yazidi = {
+		color = { 65 38 215 }
+		icon = 47
+		allowed_conversion = {
+			nestorian
+			druze_new
+			zoroastrian
+		}
+		country = {
+			tolerance_own = 3 # Preoccupation with religious purity
+			tolerance_heretic = -1 # Too much contact with non-Yazidis is considered polluting
+			tolerance_heathen = -1
+			advisor_pool = 1 # Caste system
+			global_missionary_strength = 0.01
+		}
+		province = {
+			local_missionary_strength = -0.02
+			global_regiment_recruit_speed = -0.25
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			advisor_pool = 1
+		}
+		
+		holy_sites = { 421 4430 2223 441 2235 }
+	
+		blessings = {
+			blessing_yasna
+			blessing_haoma
+			blessing_navjote
+			blessing_manthras
+			blessing_dakhma
+		}
+	
+		on_convert = {
+			change_religion = yazidi
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+	
+		heretic = { YAZIDI_FUNDAMENTALIST }
+		
+		harmonized_modifier = harmonized_yazidi
+		
+	}
 	
 	#yarsan = {		#Not added yet
 	#	color = { 0.5 0.6 0.3 }

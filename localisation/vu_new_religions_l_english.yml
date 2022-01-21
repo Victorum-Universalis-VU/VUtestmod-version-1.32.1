@@ -134,6 +134,18 @@
  druze_new_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  
  
+ yazidi_religion_desc: "Yazidi, Yazidism is a monotheistic ethnic religion that has roots in a western Iranic pre-Zoroastrian religion directly derived from the Indo-Iranian tradition. Yazidism is followed by the mainly by some groups of Kurdish people and is based on belief in one God who created the world and entrusted it into the care of seven Holy Beings, known as Angels. Preeminent among these Angels is Tawese Melek (also spelled as "Melek Taus"), who is the leader of the Angels and who has authority over the world. Melek is often depicted as a holy peacock, thus the origin of peacock feather as the symbol of the religion. Scripture of the faith is written in Yazidi Book of Revelation and Yazidi Black Book. By 1444 few pockets of Yazidism majority exist among Kurdish-dominated region of Mesopotamia."
+ yazidi: "Yazidi"
+ yazidi_rebels_title: "Religious"
+ yazidi_rebels_name: "$RELIGION$ Zealots"
+ yazidi_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ yazidi_rebels_army: "$RELIGION$ Army"
+ yazidi_rebels_demand: "Convert $COUNTRYNAME$"
+ yazidi_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ yazidi_blessings:0 "Yazidism Blessings"
+ pick_yazidi_blessing:0 "Pick Yazidi Blessing"
+ 
+ 
  vu_lollardy_rebels_demand:0 "Supremacy of Lollardy"
  vu_lollardy_rebels_demand_desc:0 "State's religion has been opressing Lollard community for too long. It is time for reactionary uprising."
  vu_nestorian_rebels_demand:0 "Supremacy of Nestorian faith"

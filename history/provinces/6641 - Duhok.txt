@@ -4,7 +4,7 @@ owner = TIM
 controller = TIM
 add_core = TIM
 culture = kurdish		#was al_iraqiya_arabic
-religion = sunni
+religion = yazidi		#Data shows the large concentration of yazidi right north of Mosul but Mosul itself was dominated by sunni. Going for this province as yazidi one as they were probably more widespread in 1444.
 capital = "Duhok"
 trade_goods = livestock
 hre = no
@@ -45,5 +45,6 @@ discovered_by = nomad_group
 	add_core = TUR
 	remove_core = PER
 } # Annexed by the Ottomans
+1600.1.1 = { religion = sunni } #Yazidi population is dominated by sunni
 1624.1.1 = { controller = PER }
 1638.12.24 = { controller = TUR }

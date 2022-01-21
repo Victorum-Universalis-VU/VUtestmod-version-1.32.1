@@ -3,7 +3,7 @@
 owner = QAR
 controller = QAR
 culture = al_iraqiya_arabic
-religion = sunni
+religion = yazidi		#In 1444 this region was about 1:1 mix between sunni and yazidi
 capital = "Sindjar"
 trade_goods = sugar
 hre = no
@@ -43,3 +43,4 @@ discovered_by = nomad_group
 } # Annexed by the Ottomans
 1624.1.1 = { controller = PER }
 1638.12.24 = { controller = TUR }
+1700.1.1 = { religion = sunni } #Sunni religion gains population

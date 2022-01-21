@@ -365,6 +365,66 @@ caucasus_missions_2 = {
 		}
 		trigger = {
 			OR = {
+				owns_or_non_sovereign_subject_of = 330
+				330 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				owns_or_non_sovereign_subject_of = 2196
+				2196 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 328
+				328 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				owns_or_non_sovereign_subject_of = 2304
+				2304 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+			}
+			OR = {
+				owns_or_non_sovereign_subject_of = 6932
+				6932 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				owns_or_non_sovereign_subject_of = 7139
+				7139 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				owns_or_non_sovereign_subject_of = 3165
+				3165 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				owns_or_non_sovereign_subject_of = 282
+				282 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				owns_or_non_sovereign_subject_of = 2406
+				2406 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+			}
+			OR = {
 				navy_size = 25
 				naval_forcelimit = 30
 			}
@@ -373,66 +433,6 @@ caucasus_missions_2 = {
 				num_of_light_ship = 15
 				num_of_galley = 20
 				num_of_transport = 20
-			}
-			OR = {
-				country_or_subject_holds = 330
-				330 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-				country_or_subject_holds = 2196
-				2196 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-			}
-			OR = {
-				country_or_subject_holds = 328
-				328 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-				country_or_subject_holds = 2304
-				2304 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-			}
-			OR = {
-				country_or_subject_holds = 6932
-				6932 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-				country_or_subject_holds = 7139
-				7139 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-				country_or_subject_holds = 3165
-				3165 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-				country_or_subject_holds = 282
-				282 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
-				country_or_subject_holds = 2406
-				2406 = {
-					controlled_by = ROOT
-					is_looted = yes
-					devastation = 10
-				}
 			}
 		}
 		effect = {
