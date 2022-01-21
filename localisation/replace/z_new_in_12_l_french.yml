@@ -76,6 +76,7 @@
  PROV1742:0 "Overmaas"
  PROV1877:0 "Charolais"
  PROV3091:0 "Mâcon"           #BtP added province, cut the accomodate new vanilla province, then readded with 12.0 overhaul.
+ PROV_ADJ3091:0 "Mâconnais"
  #PROV3092:0 "Vesoul"           #BtP added province, no name change required.
  PROV4392:0 "Auxerre"
  

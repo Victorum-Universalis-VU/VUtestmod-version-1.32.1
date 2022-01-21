@@ -1,6 +1,6 @@
 # - Borborema
 
-culture = ge
+culture = tupinamba
 discovered_by = south_american
 religion = animism
 capital = "Cimbres"
@@ -19,7 +19,7 @@ native_hostileness = 6
 	controller = POR
 	add_core = POR
 	is_city = yes
-	culture = portugese
+	culture = portutupinambase
 	religion = catholic
 	trade_goods = tobacco
 }

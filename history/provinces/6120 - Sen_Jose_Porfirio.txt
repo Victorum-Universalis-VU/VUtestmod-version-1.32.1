@@ -1,6 +1,6 @@
 #6120 - Sen_Jose_Porfirio
 
-culture = tupinamba
+culture = carib
 discovered_by = south_american
 religion = animism
 capital = "Sen. José Porfírio"

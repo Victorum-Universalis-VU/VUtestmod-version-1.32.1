@@ -116,6 +116,30 @@ gc_por_1 = {
 		effect = {
 			if = {
 				limit = {
+					2898 = {
+						NOT = {
+							trade_goods = diamonds
+						}
+					}
+				}
+				2898 = {
+					change_trade_goods = diamonds
+				}
+			}
+			if = {
+				limit = {
+					2903 = {
+						NOT = {
+							trade_goods = gold
+						}
+					}
+				}
+				2903 = {
+					change_trade_goods = gold
+				}
+			}
+			if = {
+				limit = {
 					765 = {
 						NOT = {
 							trade_goods = gold

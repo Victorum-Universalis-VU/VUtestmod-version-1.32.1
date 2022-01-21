@@ -2456,10 +2456,10 @@
  COLONIAL_PATAGONIA_Patagonia:0 "Patagonia"
  
  #Amazonia
- COLONIAL_AMAZONIA_USA:0 "Amazonia"
- COLONIAL_AMAZONIA_GBR:0 "Amazonia"
+ COLONIAL_AMAZONIA_USA:0 "Amazon"
+ COLONIAL_AMAZONIA_GBR:0 "Amazon"
  COLONIAL_AMAZONIA_FRA:0 "Amazonie"
- COLONIAL_AMAZONIA_POR:0 "Amazonas"
+ COLONIAL_AMAZONIA_POR:0 "Grão-Pará"
  COLONIAL_AMAZONIA_SPA:0 "Amazonas"
  COLONIAL_AMAZONIA_SCA:0 "Amazone"
  COLONIAL_AMAZONIA_NED:0 "Amazonië"
@@ -2475,7 +2475,7 @@
  COLONIAL_RIO_GRANDE_USA:0 "Great River"
  COLONIAL_RIO_GRANDE_GBR:0 "Great River"
  COLONIAL_RIO_GRANDE_FRA:0 "Grande Rivière"
- COLONIAL_RIO_GRANDE_POR:0 "Grande Rio"
+ COLONIAL_RIO_GRANDE_POR:0 "Rio Grande"
  COLONIAL_RIO_GRANDE_SPA:0 "Rio Grande"
  COLONIAL_RIO_GRANDE_SCA:0 "Stora Floden"
  COLONIAL_RIO_GRANDE_NED:0 "Grote Rivier"
@@ -2519,36 +2519,36 @@
  COLONIAL_CENTRAL_AMERICA_Central_America:0 "Central America"
  
  #Maranhão
- COLONIAL_MARANHAO_USA:0 "Amazon River"
- COLONIAL_MARANHAO_GBR:0 "Amazon River"
- COLONIAL_MARANHAO_FRA:0 "La Rivière Amazone"
+ COLONIAL_MARANHAO_USA:0 "Amazon River" #Might get confusing, please change later
+ COLONIAL_MARANHAO_GBR:0 "Amazon River" #Might get confusing, please change later
+ COLONIAL_MARANHAO_FRA:0 "France Équinoxiale"
  COLONIAL_MARANHAO_POR:0 "Maranhão"
- COLONIAL_MARANHAO_SPA:0 "Rio Amazonas"
- COLONIAL_MARANHAO_SCA:0 "Amazonfloden"
- COLONIAL_MARANHAO_NED:0 "Amazone Rivier"
- COLONIAL_MARANHAO_GER:0 "Amazonas"
- COLONIAL_MARANHAO_GLC:0 "Abhainn Amazon"
- COLONIAL_MARANHAO_LAT:0 "Amazon Flumen"
- COLONIAL_MARANHAO_TUR:0 "Amazon Nehri"
+ COLONIAL_MARANHAO_SPA:0 "Marañón"
+ COLONIAL_MARANHAO_SCA:0 "Amazonfloden" #Might get confusing, please change later
+ COLONIAL_MARANHAO_NED:0 "Nieuw-Holland"
+ COLONIAL_MARANHAO_GER:0 "Amazonas" #Might get confusing, please change later
+ COLONIAL_MARANHAO_GLC:0 "Abhainn Amazon" #Might get confusing, please change later
+ COLONIAL_MARANHAO_LAT:0 "Amazon Flumen" #Might get confusing, please change later
+ COLONIAL_MARANHAO_TUR:0 "Amazon Nehri" #Might get confusing, please change later
  COLONIAL_MARANHAO_Root_Culture_GetGroupName_Maranhao:0 "Maranhao"
- COLONIAL_MARANHAO_Root_Culture_GetGroupName_Rio_Amazonas:0 "Rio Amazonas"
+ COLONIAL_MARANHAO_Root_Culture_GetGroupName_Rio_Amazonas:0 "Rio Amazonas" #Might get confusing, please change later
  COLONIAL_MARANHAO_Maranhao:0 "Maranhao"
  
  #Mato Grosso
- COLONIAL_MATO_GROSSO_USA:0 "Thick Bush"
- COLONIAL_MATO_GROSSO_GBR:0 "Thick Bush"
- COLONIAL_MATO_GROSSO_FRA:0 "Buisson épais"
- COLONIAL_MATO_GROSSO_POR:0 "Matto Grosso"
- COLONIAL_MATO_GROSSO_SPA:0 "Arbusto Espeso"
+ COLONIAL_MATO_GROSSO_USA:0 "Thick Woods"
+ COLONIAL_MATO_GROSSO_GBR:0 "Thick Woods"
+ COLONIAL_MATO_GROSSO_FRA:0 "Buisson Épais"
+ COLONIAL_MATO_GROSSO_POR:0 "Mato Grosso"
+ COLONIAL_MATO_GROSSO_SPA:0 "Bosque Grueso"
  COLONIAL_MATO_GROSSO_SCA:0 "Tjock Buske"
  COLONIAL_MATO_GROSSO_NED:0 "Dikke Struik"
  COLONIAL_MATO_GROSSO_GER:0 "Dicker Busch"
  COLONIAL_MATO_GROSSO_GLC:0 "Preas Tiugh"
  COLONIAL_MATO_GROSSO_LAT:0 "Densissima Rubi"
  COLONIAL_MATO_GROSSO_TUR:0 "Kalin Cali"
- COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Mato_Grosso:0 "Matto Grosso"
- COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Arbusto_Espeso:0 "Arbusto Espeso"
- COLONIAL_MATO_GROSSO_Mato_Grosso:0 "Matto Grosso"
+ COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Mato_Grosso:0 "Mato Grosso"
+ COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Arbusto_Espeso:0 "Bosque Grueso"
+ COLONIAL_MATO_GROSSO_Mato_Grosso:0 "Mato Grosso"
  
  #Ideas
  #From Math5615
@@ -3487,9 +3487,9 @@
  #Taxation
  building_grand_cathedral:0 "Grand Cathedral"
  #Transportation
- building_canal_system:0 "Canal System"
- building_road_system:0 "Road System"
- building_railway_system:0 "Railway System"
+ building_road_system:0 "Roads"
+ building_canal_system:0 "Roads & Waterways"
+ building_railway_system:0 "Railroads"
  #Coastal
  building_naval_base:0 "Naval Base"
  building_naval_arsenal:0 "Naval Arsenal"
