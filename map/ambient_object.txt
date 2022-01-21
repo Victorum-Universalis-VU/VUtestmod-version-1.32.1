@@ -2512,7 +2512,7 @@ type={
 type={
 	type="panama_canal"
 	use_animation=yes
-	scale=0.500000
+	scale=0.650000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
@@ -2534,6 +2534,76 @@ type={
 		}
 		rotation={
 			0.000 27.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2786.800 0.700 1924.100 
+		}
+		rotation={
+			0.000 102.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2775.800 0.150 1922.750 
+		}
+		rotation={
+			0.000 -50.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2779.500 0.400 1925.650 
+		}
+		rotation={
+			0.000 100.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2781.750 0.450 1923.000 
+		}
+		rotation={
+			0.000 -99.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2791.000 0.550 1923.000 
+		}
+		rotation={
+			0.000 -53.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2795.000 0.500 1925.000 
+		}
+		rotation={
+			0.000 -48.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2798.500 0.200 1927.300 
+		}
+		rotation={
+			0.000 -40.000 0.000 
 		}
 	}
 	object={
@@ -2861,7 +2931,7 @@ type={
 type={
 	type="kiel_canal"
 	use_animation=yes
-	scale=0.500000
+	scale=0.600000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
@@ -2883,16 +2953,6 @@ type={
 		}
 		rotation={
 			0.000 95.000 0.000 
-		}
-	}
-	object={
-		name="kiel_canal"
-		hidden_on_start=yes
-		position={
-			2781.000 -0.150 1927.500 
-		}
-		rotation={
-			0.000 -75.000 0.000 
 		}
 	}
 	object={

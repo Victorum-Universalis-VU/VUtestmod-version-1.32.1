@@ -3132,19 +3132,115 @@ grand_cathedral = {
 
 ### TRANSPORTATION
 
-#Tier 1 Transportation - Canal System
-canal_system = {
-	cost = 100
-	time = 12
+#Tier 1 Transportation - Road System
+road_system = {
+	cost = 50
+	time = 6
 	
 	modifier = {
-		local_friendly_movement_speed = 0.25
+		local_friendly_movement_speed = 0.15
 		#Changed from 0.2 so it combines nicely with roads and railways for 50% and 100% bonuses.
 		
 		local_institution_spread = 0.15
 		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
 		
+		local_development_cost = -0.25
+		#Roads moderately improved the development of any cities it connected to by facilitating the transport of people and goods substantially.
+		
 		allowed_num_of_buildings = 1
+		#This allows for improved transportation between urban and rural areas, so buildings can be made when otherwise they would be too far to get to.
+	}
+
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+			NOT = { development = 10 }
+		}
+		
+		modifier = {
+			factor = 0.1
+			is_overseas = yes
+			NOT = { development = 10 }
+		}
+		
+		#ECONOMY 101
+		#AI avoids building with loans
+		modifier = {
+			factor = 0
+			owner = { num_of_loans = 3 }
+		}
+		modifier = {
+			factor = 0.3
+			owner = { num_of_loans = 2 }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { num_of_loans = 1 }
+		}
+		
+		#AI avoids building when in deficit
+		modifier = {
+			factor = 0.75
+			owner = { is_in_deficit = yes }
+		}
+		
+		#AI will try to stockpile some amount of money
+		modifier = {
+			factor = 0.75
+			owner = { NOT = { treasury = 100 } }
+		}
+		
+		#SPECIFIC
+		#AI more likely to build in provinces with high development
+		modifier = {
+			factor = 2.5
+			development = 15
+		}
+		modifier = {
+			factor = 2.5
+			development = 21
+		}
+		modifier = {
+			factor = 2.5
+			development = 30
+		}
+		
+		#GENERAL
+		#AI is encouraged to build nearby others, this is done to avoid roads that lead nowhere.
+		modifier = {
+			factor = 2
+			any_neighbor_province = {
+				has_building = road_system
+			}
+		}
+		
+		#AI is encouraged to build in capitals.
+		modifier = {
+			factor = 2.5
+			is_capital = yes
+		}
+	}
+}
+
+#Tier 1 Transportation - Canal System
+canal_system = {
+	cost = 100
+	time = 12
+	
+	make_obsolete = road_system
+	modifier = {
+		local_friendly_movement_speed = 0.30
+		#Changed from 0.2 so it combines nicely with canals and railways for 50% and 100% bonuses.
+		
+		local_institution_spread = 0.30
+		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
+		
+		local_development_cost = -0.35
+		#Canals significantly improved the development of any cities it connected to by facilitating the transport of people and goods substantially.
+		
+		allowed_num_of_buildings = 2
 		#This allows for improved transportation between urban and rural areas, so buildings can be made when otherwise they would be too far to get to.
 	}
 	
@@ -3243,95 +3339,6 @@ canal_system = {
 	}
 }
 
-#Tier 1 Transportation - Road System
-road_system = {
-	cost = 50
-	time = 6
-	
-	modifier = {
-		local_friendly_movement_speed = 0.25
-		#Changed from 0.2 so it combines nicely with canals and railways for 50% and 100% bonuses.
-		
-		local_institution_spread = 0.1
-		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
-		
-		allowed_num_of_buildings = 1
-		#This allows for improved transportation between urban and rural areas, so buildings can be made when otherwise they would be too far to get to.
-	}
-
-	ai_will_do = {
-		factor = 50
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-			NOT = { development = 10 }
-		}
-		
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-			NOT = { development = 10 }
-		}
-		
-		#ECONOMY 101
-		#AI avoids building with loans
-		modifier = {
-			factor = 0
-			owner = { num_of_loans = 3 }
-		}
-		modifier = {
-			factor = 0.3
-			owner = { num_of_loans = 2 }
-		}
-		modifier = {
-			factor = 0.5
-			owner = { num_of_loans = 1 }
-		}
-		
-		#AI avoids building when in deficit
-		modifier = {
-			factor = 0.75
-			owner = { is_in_deficit = yes }
-		}
-		
-		#AI will try to stockpile some amount of money
-		modifier = {
-			factor = 0.75
-			owner = { NOT = { treasury = 100 } }
-		}
-		
-		#SPECIFIC
-		#AI more likely to build in provinces with high development
-		modifier = {
-			factor = 2.5
-			development = 15
-		}
-		modifier = {
-			factor = 2.5
-			development = 21
-		}
-		modifier = {
-			factor = 2.5
-			development = 30
-		}
-		
-		#GENERAL
-		#AI is encouraged to build nearby others, this is done to avoid roads that lead nowhere.
-		modifier = {
-			factor = 2
-			any_neighbor_province = {
-				has_building = road_system
-			}
-		}
-		
-		#AI is encouraged to build in capitals.
-		modifier = {
-			factor = 2.5
-			is_capital = yes
-		}
-	}
-}
-
 #Tier 1 Transportation - Railway System
 railway_system = {
 	cost = 200
@@ -3350,21 +3357,22 @@ railway_system = {
 			has_terrain = mountain
 			has_terrain = cold_mountains
 			has_terrain = glacier
+			has_terrain = swamp
 		}
 	}
 	
 	modifier = {
-		local_friendly_movement_speed = 0.5
+		local_friendly_movement_speed = 0.6
 		#Changed from 0.4 so it combines nicely with roads and canals for 50% and 100% bonuses.
 		#Should go without saying that railways were the best infrastructure possible at the time, so they have the largest bonus to movement speed.
 		
-		local_institution_spread = 0.5
+		local_institution_spread = 0.6
 		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
 		
-		local_development_cost = -0.25
+		local_development_cost = -0.45
 		#Railways drastically improved the development of any cities it connected to by facilitating the transport of people and goods substantially.
 		
-		allowed_num_of_buildings = 1
+		allowed_num_of_buildings = 3
 		#This allows for improved transportation between urban and rural areas, so buildings can be made when otherwise they would be too far to get to.
 	}
 

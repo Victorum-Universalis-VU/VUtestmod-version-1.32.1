@@ -6327,13 +6327,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_canal_system"
+			name = "build_road_system"
 			position = { x = 244 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "canal_system_cost"
+			name = "road_system_cost"
 			position = { x = 244 y = 276 }
 			font = "vic_18"
 			borderSize = { x = 0 y = 0 }
@@ -6341,15 +6341,21 @@ guiTypes = {
 			maxHeight = 18
 			text = "2000¤"
 		}
+		
+		iconType = {
+			name = "road_to_canal_arrow"
+			position = { x = 288 y = 235 }
+			spriteType = "GFX_building_upgrade_icon"
+		}
 
 		checkboxType = {
-			name = "build_road_system"
+			name = "build_canal_system"
 			position = { x = 296 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "road_system_cost"
+			name = "canal_system_cost"
 			position = { x = 296 y = 276 }
 			font = "vic_18"
 			borderSize = { x = 0 y = 0 }

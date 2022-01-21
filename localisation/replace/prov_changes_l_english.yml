@@ -163,15 +163,30 @@
  PROV743:0 "Barima" #Formerly Essequibo
  PROV745:0 "Brokopondo" #Formerly Paramaribo
  PROV746:0 "Sinnamary" #Formerly Cayanne
+ PROV747:0 "Macapá"
  PROV748:0 "Mairi" #Formerly Belém
+ PROV749:0 "Itapecuru-Mirim"
+ PROV750:0 "Cariri"
+ PROV751:0 "Ipu"
+ PROV753:0 "Mossoró"
+ PROV754:0 "Sanhauá"
+ PROV755:0 "Itamaracá"
  PROV756:0 "Kirimurê"          #Credit to Arga
- PROV761:0 "Caparaó" #Formerly Espirito Santo
+ PROV757:0 "Ilhéus"
+ PROV758:0 "Jataí"
+ PROV759:0 "Anais"
+ PROV760:0 "Canguçu"
+ PROV761:0 "Ibiraçu" #Formerly Espirito Santo
  PROV762:0 "Goitacás"
  PROV763:0 "Niterói" #Formerly Goanã-pará #Credit to Arga
- PROV766:0 "Piratininga"          #Credit to Arga
+ PROV764:0 "Guaratinguetá"
+ PROV765:0 "Inhaúma"
+ PROV766:0 "Sorocaba"
  PROV767:0 "Lyck"
+ PROV768:0 "Umuarama"
  PROV770:0 "Kreva"
  PROV774:0 "Geneina"
+ PROV776:0 "Ponta Porã"
  PROV789:0 "Eswatini"
  PROV833:0 "Graaff-Reinet"           #ERROR - Graaf Reinet, naming being problematic.
  PROV859:0 "Sinaloa"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla
@@ -339,6 +354,7 @@
  PROV1783:0 "Sannikov"
  PROV1796:0 "Central Congo"
  PROV1801:0 "Menonge"
+ PROV1802:0 "North Amazon Jungle"
  PROV1805:0 "Ungava"
  PROV1806:0 "Wasagamack"
  PROV1808:0 "Mahaguadüka"
@@ -583,10 +599,50 @@
  PROV2819:0 "Darien Gap"         #Credit to San Felipe
  PROV2852:0 "Tacuaremboty"         #Credit to Arga
  PROV2856:0 "Mangaung"         #ERROR - Bantu name in what was probably San (Khoisan) land
+ PROV2857:0 "Guaíba"
  PROV2864:0 "Kakamas"
+ PROV2879:0 "Bagé"
  PROV2880:0 "Griquatown"          #ERROR - Griquatown, naming being problematic.
+ PROV2881:0 "Aquidauna"
+ PROV2884:0 "Erechim"
+ PROV2885:0 "Juazeiro"
+ PROV2886:0 "Parnaíba"
  PROV2887:0 "Meiembipe"         #Credit to Arga   Carijó name, which is a subdivision of Tupi not represented ingame living here
+ PROV2888:0 "Jaciara"
  PROV2889:0 "Cantá" #Formerly Rio Branco
+ PROV2891:0 "Paracatu"
+ PROV2892:0 "Araxás"
+ PROV2893:0 "Paranaíba"
+ PROV2894:0 "Jacuí"
+ PROV2895:0 "Jaguariaíva"
+ PROV2896:0 "Bauru"
+ PROV2897:0 "Parapuã"
+ PROV2898:0 "Jequitinhonha"
+ PROV2899:0 "Muriaé"
+ PROV2900:0 "Guaporé"
+ PROV2901:0 "Ariquemes"
+ PROV2902:0 "Juína"
+ PROV2903:0 "Cuiabá"
+ PROV2904:0 "Araputanga"
+ PROV2905:0 "Xingu"
+ PROV2906:0 "Juruá"
+ PROV2907:0 "Iporá"
+ PROV2908:0 "Paranoá"
+ PROV2909:0 "Aragarças"
+ PROV2910:0 "Tocantins"
+ PROV2911:0 "Porangatu"
+ PROV2914:0 "Jacobina"
+ PROV2915:0 "Itaparica"
+ PROV2916:0 "Jequié"
+ PROV2917:0 "Cotegipe"
+ PROV2918:0 "West Amazon Jungle"
+ PROV2919:0 "Mambaí"
+ PROV2920:0 "Taquari"
+ PROV2922:0 "Itaporanga"
+ PROV2923:0 "Sambaíba"
+ PROV2924:0 "Codó"
+ PROV2926:0 "Grajaú"
+ PROV2927:0 "Buriticupu"
  PROV2930:0 "Tupaiús"         #Credit to Arga
  PROV2931:0 "Takutu" #Formerly Pirara
  PROV2933:0 "Anauá" #Formerly Barcelos
@@ -632,6 +688,8 @@
  PROV3057:0 "Michelstadt"
  PROV_ADJ3057:0 "Michelstadt"
  PROV3069:0 "Rombas"
+ PROV3079:0 "Mucuri"
+ PROV_ADJ3079:0 "Mucuri"
  PROV3197:0 "Jülich"
  PROV4033:0 "Gadarif"
  PROV4154:0 "Pyrenees"
