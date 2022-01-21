@@ -117,10 +117,10 @@ VNE = "countries/Vienne.txt"
 
 #VU - France
 CMG = "countries/Comminges.txt"
-FOR	= "countries/Forez.txt"
-MNE	= "countries/Maine.txt"
-ONG	= "countries/Orange.txt"
-RET	= "countries/Rethel.txt"
+FOR = "countries/Forez.txt"
+MNE = "countries/Maine.txt"
+ONG = "countries/Orange.txt"
+RET = "countries/Rethel.txt"
 VDM = "countries/Vaudemont.txt"
 VRD = "countries/County_of_Vermandois.txt"
 
@@ -234,7 +234,6 @@ ZCV = "countries/Zapadoslavia.txt"
 LES = "countries/Lesbos.txt"
 
 #BT - Holy Orders
-DMN = "countries/Damietta.txt"
 KNT = "countries/KnightsTemplar.txt"
 LTE = "countries/LatinEmpire.txt"
 
@@ -415,6 +414,15 @@ VYA = "countries/Vyatka.txt"
 ZBT = "countries/Zubtsov.txt"
 NRU = "countries/NovgorodRus.txt"
 
+#Caucasus update
+BKS = "countries/Balkars.txt"
+KBD = "countries/Kabardia.txt"
+ALN = "countries/Alania.txt"
+DID = "countries/Didoya.txt"
+DRZ = "countries/Durdzuketia.txt"
+QRC = "countries/Qaracay.txt"
+ASY = "countries/Assyria.txt"
+
 #BT - Scandinavia & Baltics
 GTA = "countries/Gotaland.txt"
 KLL = "countries/Kulm.txt"
@@ -439,7 +447,6 @@ BSL = "countries/Basel.txt"
 
 #BT - Africa
 AAB = "countries/AitAbbas.txt"
-ABD = "countries/Abdallab.txt"
 ANF = "countries/Anfa.txt"
 AUR = "countries/Aures.txt"
 BSM = "countries/BanuSulaym.txt"
@@ -450,13 +457,11 @@ HWW = "countries/Hawwara.txt"
 KEM = "countries/Keme.txt"
 KUK = "countries/Kuku.txt"
 LGH = "countries/Laghouat.txt"
-MKR = "countries/Btmakuria.txt"
 NBA = "countries/Nubia.txt"
 OGL = "countries/Ouargla.txt"
 OTN = "countries/OttomanTunisia.txt"
 RGR = "countries/Regraga.txt"
 RIF = "countries/Riffans.txt"
-SLK = "countries/Shilluk.txt"
 TEG = "countries/Tegali.txt"
 TUG = "countries/Tungur.txt"
 WNS = "countries/Ouarsenis.txt"
@@ -475,6 +480,14 @@ VYE = "countries/Vye.txt"
 MUC = "countries/Mucubal.txt"
 MWI = "countries/Mwila.txt"
 MBU = "countries/Mbunda.txt"
+
+#Egypt
+ABD = "countries/Abdallab.txt"
+DKK = "countries/Dahlak_Kebir.txt"
+KUU = "countries/Kunuz.txt"
+KNM = "countries/Kunama.txt"
+MKR = "countries/Btmakuria.txt"
+SLK = "countries/Shilluk.txt"
 
 #Namibia
 AMK = "countries/Amkoe.txt"
@@ -695,6 +708,11 @@ YZG = "countries/Laurentian.txt"
 YZH = "countries/Missisauga.txt"
 YZI = "countries/NeutralConfederacy.txt"
 ZIA = "countries/Zia.txt"
+
+#VU additions
+CSA = "countries/Confederates.txt"
+PHI = "countries/Philippines.txt"
+LBA = "countries/Liberia.txt"
 
 ##################
 # BT - Caribbean #

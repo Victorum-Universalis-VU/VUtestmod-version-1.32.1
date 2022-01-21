@@ -695,7 +695,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = GBR }
-			NOT = { exists = WLC }
+			NOT = { exists = WLS }
 			NOT = { exists = WMC }
 			NOT = { exists = DBT }
 			is_at_war = no
@@ -2974,6 +2974,7 @@ country_decisions = {
 				primary_culture = pommeranian
 				primary_culture = saxon
 				primary_culture = prussian
+				primary_culture = lower_saxon
 			}
 			NOT = { tag = BRA }
 			OR = {

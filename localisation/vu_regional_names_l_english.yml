@@ -144,6 +144,8 @@
  bengo_area_region_name:0 "Bengo"
  bailundo_area_region:0 "Bailundo"
  bailundo_area_region_name:0 "Bailundo"
+ ireland_region:0 "Ireland"
+ ireland_region_name:0 "Ireland"
 
  #################################################################################
  #################################################################################
@@ -197,6 +199,9 @@
  short_colonial_polynesia:0 "New Zealand"
  colonial_cape:0 "Colonial Cape"
  short_colonial_cape:0 "the Cape"
+ 
+ colonial_guyana:0 "Colonial Guyana"
+ short_colonial_guyana:0 "Guyana"
 
 
  #################################################################################
@@ -1173,6 +1178,11 @@
  COLONIAL_GREENLAND_BTP_BR_ADJ:0 "Douar C'hwer"
  COLONIAL_GREENLAND_BTP_CY:0 "Ynys Las"
  COLONIAL_GREENLAND_BTP_CY_ADJ:0 "Ynys Las"
+ #Guyana
+ COLONIAL_GUYANA_Guyanas:0 "Guyana"
+ COLONIAL_GUYANA_Guyanas_ADJ:0 "Guyana"
+ COLONIAL_GUYANA_Guyana:0 "Guyana"
+ COLONIAL_GUYANA_Guyana_ADJ:0 "Guyana"
 
 
 

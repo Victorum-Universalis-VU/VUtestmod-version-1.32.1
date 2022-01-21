@@ -955,6 +955,44 @@ volost_colonies_reform = {
 	}
 }
 
+novgorod_prince_federation_reform = {
+	icon = magnates_2
+	allow_normal_conversion = yes
+	effect = {
+		change_variable = {
+			which = Oliarch_Influence
+			value = 1
+		}
+	}
+	removed_effect = {
+		change_variable = {
+			which = Oliarch_Influence
+			value = -1
+		}
+	}
+	potential = {
+		OR = {
+			has_reform = novgorod_prince_federation_reform
+			has_reform = veche_republic
+			tag = NOV
+		}
+	}
+	modifiers = {
+		production_efficiency = 0.1
+		governing_capacity = 100
+		governing_capacity_modifier = 0.25
+		state_governing_cost = 0.1
+		trade_company_governing_cost = -0.1
+		min_autonomy = 10
+	}
+	custom_attributes = {
+		enables_noble_estate = yes
+	}
+	ai = {
+		factor = 100
+	}
+}
+
 island_republic_reform = {
 	icon = admiralty_reform
 	allow_normal_conversion = yes

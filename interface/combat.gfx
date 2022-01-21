@@ -254,6 +254,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/dry_highlands.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_combat_terrain_tropical_highlands_terrain"
+		texturefile = "gfx/interface/tropical_highlands_terrain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_salt_flats"
+		texturefile = "gfx/interface/salt_flats.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_mediterranean_grasslands"
+		texturefile = "gfx/interface/mediterranean_grasslands.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_dry_river"
+		texturefile = "gfx/interface/dry_river.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_alluvial_plains"
+		texturefile = "gfx/interface/alluvial_plains.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_combat_terrain_fertile_highlands"
+		texturefile = "gfx/interface/fertile_highlands.dds"
+	}
+	
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_london"
         texturefile = "gfx/interface/london.dds"
@@ -262,16 +292,6 @@ spriteTypes = {
 	spriteType = {                                                        
         name = "GFX_combat_terrain_urban_lambeth"
         texturefile = "gfx/interface/lambeth.dds"
-    }
-	
-	spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_flintshire"
-        texturefile = "gfx/interface/flintshire.dds"
-    }
-	
-	spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_denbigh"
-        texturefile = "gfx/interface/denbigh.dds"
     }
 
     spriteType = {                                                        
@@ -293,22 +313,10 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_brighton"
         texturefile = "gfx/interface/brighton.dds"
     }
-
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_isle_of_white"
-        texturefile = "gfx/interface/isle_of_white.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_exeter"
-        texturefile = "gfx/interface/exeter.dds"
-    }
+    
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_truro"
         texturefile = "gfx/interface/truro.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_luton"
-        texturefile = "gfx/interface/luton.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_bath"
@@ -331,20 +339,8 @@ spriteTypes = {
         texturefile = "gfx/interface/herefordshire.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_essex"
-        texturefile = "gfx/interface/essex.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_ipswich"
-        texturefile = "gfx/interface/ipswich.dds"
-    }
-    spriteType = {                                                        
         name = "GFX_combat_terrain_urban_lancaster"
         texturefile = "gfx/interface/lancaster.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_barrow_in_furness"
-        texturefile = "gfx/interface/barrow_in_furness.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_cumbria"
@@ -375,10 +371,6 @@ spriteTypes = {
         texturefile = "gfx/interface/newcastle.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_carlisle"
-        texturefile = "gfx/interface/carlisle.dds"
-    }
-    spriteType = {                                                        
         name = "GFX_combat_terrain_urban_manchester"
         texturefile = "gfx/interface/manchester.dds"
     }
@@ -397,10 +389,6 @@ spriteTypes = {
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_bristol"
         texturefile = "gfx/interface/bristol.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_leeds"
-        texturefile = "gfx/interface/leeds.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_lincoln"
@@ -435,10 +423,6 @@ spriteTypes = {
         texturefile = "gfx/interface/berkshire.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_warwick"
-        texturefile = "gfx/interface/warwick.dds"
-    }
-    spriteType = {                                                        
         name = "GFX_combat_terrain_urban_bedford"
         texturefile = "gfx/interface/bedford.dds"
     }
@@ -449,10 +433,6 @@ spriteTypes = {
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_southampton"
         texturefile = "gfx/interface/southampton.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_rochester"
-        texturefile = "gfx/interface/rochester.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_plymouth"
@@ -483,20 +463,8 @@ spriteTypes = {
         texturefile = "gfx/interface/nottinghamshire.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_norfolk"
-        texturefile = "gfx/interface/norfolk.dds"
-    }
-    spriteType = {                                                        
         name = "GFX_combat_terrain_urban_scunthorpe"
         texturefile = "gfx/interface/scunthorpe.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_stoke"
-        texturefile = "gfx/interface/stoke.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_staffordshire"
-        texturefile = "gfx/interface/staffordshire.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_derbyshire"
@@ -509,14 +477,6 @@ spriteTypes = {
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_dorset"
         texturefile = "gfx/interface/dorset.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_worcester"
-        texturefile = "gfx/interface/worcester.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_northamptonshire"
-        texturefile = "gfx/interface/northamptonshire.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_surrey"
@@ -611,10 +571,6 @@ spriteTypes = {
         texturefile = "gfx/interface/carrickfergus.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_bangor"
-        texturefile = "gfx/interface/bangor.dds"
-    }
-    spriteType = {                                                        
         name = "GFX_combat_terrain_urban_cork"
         texturefile = "gfx/interface/cork.dds"
     }
@@ -629,10 +585,6 @@ spriteTypes = {
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_kilkenny"
         texturefile = "gfx/interface/kilkenny.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_wexford"
-        texturefile = "gfx/interface/wexford.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_leinster"
@@ -4863,10 +4815,6 @@ spriteTypes = {
         texturefile = "gfx/interface/galway.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_londonderry"
-        texturefile = "gfx/interface/londonderry.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_vigo"
         texturefile = "gfx/interface/vigo.dds"
     }
@@ -5425,10 +5373,6 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_sheffield"
         texturefile = "gfx/interface/sheffield.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_bradford"
-        texturefile = "gfx/interface/bradford.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_tver"

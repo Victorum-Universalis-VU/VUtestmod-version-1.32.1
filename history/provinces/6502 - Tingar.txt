@@ -1,23 +1,20 @@
 #6502 - Tingar
 
-owner = HWW
-controller = HWW
-add_core = HWW
+owner = MKR
+controller = MKR
+add_core = MKR
 capital = "Tingar"
 culture = nubian
-religion = sunni
+religion = coptic
 trade_goods = sugar
 hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = MKR
 add_core = NBA
 
 discovered_by = muslim
-discovered_by = ottoman
-discovered_by = eastern
 discovered_by = east_african
 
 extra_cost = 5

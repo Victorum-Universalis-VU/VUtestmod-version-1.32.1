@@ -1,4 +1,4 @@
-# No previous file for Tagant
+#2244 - Tagant
 
 culture = tuareg 
 religion = shamanism #Fetishism
@@ -7,15 +7,10 @@ trade_goods = unknown
 hre = no
 base_tax = 2  
 base_production = 2 
+base_manpower = 2
 native_size = 40
 native_ferocity = 4
-native_hostileness = 9
-base_manpower = 2 
-
-
-
-discovered_by = sub_saharan
-
+native_hostileness = 9 
 
 1490.1.1 = {
 	owner = FUL 

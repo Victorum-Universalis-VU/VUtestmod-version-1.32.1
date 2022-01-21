@@ -1,4 +1,4 @@
-#New Province
+#5300 - Wadi Malik
 
 capital = "Wadi al-Malik"			#Poor name, need better
 culture = tungur_culture
@@ -11,6 +11,3 @@ base_manpower = 1
 native_size = 10
 native_ferocity = 4
 native_hostileness = 9
-
-
-discovered_by = east_african

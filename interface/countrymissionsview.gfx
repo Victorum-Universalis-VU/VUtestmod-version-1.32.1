@@ -310,6 +310,11 @@ spriteTypes = {
 		name = "mission_hammer_of_the_scots"
 		texturefile = "gfx//interface//missions//mission_hammer_of_the_scots.dds"
 	}
+	
+	spriteType = {
+		name = "mission_reorganize_colonies"
+		texturefile = "gfx//interface//missions//mission_reorganize_colonies.dds"
+	}
 
 	spriteType = {
 		name = "mission_british_nigeria"

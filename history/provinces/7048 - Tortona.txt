@@ -70,3 +70,29 @@ discovered_by = eastern
 #	remove_core = XXX
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 #1495.1.1 = { hre = no }	#Shadow Kingdom. Vanilla calls Northern Italy out of the HRE by 1500, BT is going with 1648, when the Peace of Westphalia definitively ended HRE influence in Italy.
+1535.1.1 = { owner = SPA controller = SPA add_core = SPA } # Annexed to Spain after the last Sforza died
+1714.9.7 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = SPA
+} # Treaty of Baden
+1715.1.1 = { fort_17th = no fort_18th = yes }
+1796.11.15 = {
+ owner = MLO
+	controller = MLO
+	remove_core = HAB
+} # Transpadane Republic
+1797.6.29 = {
+	owner = ITL
+	controller = ITL
+	add_core = ITL
+} # Cisalpine Republic
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1814.4.11 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = ITL
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally
+1814.4.20 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # The Milan insurrection

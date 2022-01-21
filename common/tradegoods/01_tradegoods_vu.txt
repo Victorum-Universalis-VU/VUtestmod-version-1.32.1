@@ -1468,14 +1468,21 @@ silver = {
 			NOT = { region = peru_region }
 			NOT = { region = mexico_region }
 			NOT = { region = central_america_region }
-			NOT = { area = goias_area }
-			NOT = { area = mato_grosso_area }
-			NOT = { area = minas_gerais_area }
-			NOT = { area = rio_grande_do_sol_area }
-			NOT = { area = santa_catarina_area }
-			NOT = { area = grao_para_area }
+			NOT = { region = maranhao_region }
+			NOT = { region = amazon_region }
+			NOT = { region = rio_grande_do_sul_region }
 			NOT = { area = ucayali_area }
-			NOT = { area = amazon_area }
+			NOT = { area = mato_grosso_area }
+			NOT = { area = espirito_santo_area }
+			NOT = { area = rio_de_janeiro_area }
+			NOT = { area = sao_paolo_area }
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				area = minas_gerais_area
+				area = goias_area
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -1497,14 +1504,6 @@ silver = {
 				province_id = 857
 				province_id = 858
 				province_id = 2615
-			}
-		}
-		modifier = {
-			factor = 2.5
-			OR = {
-				area = minas_gerais_area
-				area = mato_grosso_area
-				area = goias_area
 			}
 		}
 	}
@@ -2384,7 +2383,6 @@ llama = {
 		modifier = {
 			factor = 0
 			OR = {
-				region = brazil_region
 				region = colombia_region
 				region = la_plata_region
 				continent = north_america
@@ -2394,6 +2392,16 @@ llama = {
 				continent = oceania
 			}
 			NOT = { has_terrain = mountain }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				region = brazil_region
+				region = amazon_region
+				region = mato_grosso_region
+				region = maranhao_region
+				region = rio_grande_do_sul_region
+			}
 		}
 		modifier = {
 			factor = 0.15

@@ -121,6 +121,9 @@
 4689 = "Omsk"
 4691 = "Ob"
 
+#Africa
+3047 = { "Ndar" "Svyatoy Lui" }
+
 #Caribbean
 481 = { "Bermudy" "Mys Igorya" }
 482 = { "N'yu-Providens" "Ivanova bukhta" } 

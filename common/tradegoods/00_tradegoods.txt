@@ -1163,21 +1163,18 @@ gold = {
 			NOT = { region = upper_peru_region }
 			NOT = { region = mexico_region }
 			NOT = { region = central_america_region }
-			NOT = { area = goias_area }
-			NOT = { area = sao_paolo_area }
-			NOT = { area = west_sao_paolo_area }
-			NOT = { area = mato_grosso_area }
-			NOT = { area = minas_gerais_area }
-			NOT = { area = rio_grande_do_sol_area }
-			NOT = { area = santa_catarina_area }
-			NOT = { area = grao_para_area }
 			NOT = { area = ucayali_area }
-			NOT = { area = amazon_area }
 			NOT = { region = alaska_region }
 			NOT = { region = northwest_territories_region }
 			NOT = { region = new_zealand_region }
 			NOT = { area = hispaniola_area }
 			NOT = { area = dominica_area }
+			NOT = { region = amazon_region }
+			NOT = { region = mato_grosso_region }
+			NOT = { region = maranhao_region }
+			NOT = { region = rio_grande_do_sul_region }
+			NOT = { area = espirito_santo_area }
+			NOT = { area = rio_de_janeiro_area }
 		}
 		modifier = {
 			factor = 0
@@ -1258,10 +1255,6 @@ gold = {
 			OR = {
 				region = peru_region
 				area = minas_gerais_area
-				area = mato_grosso_area
-				area = goias_area
-				area = sao_paolo_area
-				area = west_sao_paolo_area
 				area = mexico_area
 				area = jalisco_area
 				area = gran_chichimeca_area
@@ -1288,6 +1281,7 @@ gold = {
 				area = california_area			#Gold rarer in coastal California
 				area = baja_california_area
 				area = mojave_area
+				area = sao_paolo_area
 			}
 		}
 		modifier = {	#Gold is rarer here
@@ -1303,7 +1297,7 @@ gold = {
 					}
 				}
 			}
-		}
+		}		
 		modifier = {	# About half the gold ever mined in the entire world was mined from the Highveld in 100 years, apparently
 			factor = 24.0
 			area = highveld_area
@@ -1950,6 +1944,9 @@ sugar = {
 			is_random_new_world = no
 			NOT = { region = carribeans_region }
 			NOT = { region = brazil_region }
+			NOT = { region = amazon_region }
+			NOT = { region = rio_grande_do_sul_region }
+			NOT = { region = mato_grosso_region }
 			NOT = { region = mexico_region }
 			NOT = { region = central_america_region }
 			NOT = { region = colombia_region }
@@ -1973,9 +1970,7 @@ sugar = {
 			NOT = { province_id = 481 }
 			OR = {
 				region = carribeans_region
-				area = ceara_area
-				area = pernambuco_area
-				area = bahia_area
+				region = maranhao_region
 				area = guyana_area
 				area = suriname_area
 			}
@@ -2224,8 +2219,11 @@ tropical_wood = {
 			NOT = { province_id = 1240 }
 		}
 		modifier = {
-			factor = 1.5
-			area = amazon_area
+			factor = 2
+			OR = {
+				region = amazon_region
+				region = amazon_region
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -2237,6 +2235,13 @@ tropical_wood = {
 				region = sumatran_region
 				region = celebes_region
 				region = philippines_region
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				region = rio_grande_do_sul_region
+				region = maranhao_region
 			}
 		}
 	}

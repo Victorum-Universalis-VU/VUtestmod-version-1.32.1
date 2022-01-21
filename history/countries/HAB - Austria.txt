@@ -15,7 +15,7 @@ historical_rival = FRA
 national_focus = ADM
 
 add_country_modifier = {
-    name = "mercenary_upkeep_XV"
+    name = "mercenary_upkeep_X"
     duration = -1
 }
 

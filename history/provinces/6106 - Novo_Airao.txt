@@ -1,6 +1,6 @@
 #6106 - Novo_Airao
 
-culture = tupinamba
+culture = carib
 discovered_by = south_american
 religion = animism
 capital = "Novo Airão"

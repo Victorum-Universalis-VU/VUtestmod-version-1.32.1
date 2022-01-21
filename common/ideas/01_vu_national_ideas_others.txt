@@ -3061,3 +3061,189 @@ NRU_ideas = {
 		global_ship_recruit_speed = -0.05
 	}
 }
+
+#Kabardian Ideas
+KBD_ideas = {
+	start = {
+		cavalry_power = 0.20
+                war_exhaustion = -0.03
+	}
+
+	bonus = {
+		land_forcelimit_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = KBD
+	}
+	free = yes
+    		        
+        kbd_tatars = {
+		improve_relation_modifier = 0.25
+		envoy_travel_time = -0.1	
+	}
+	kbd_farm_animals = {
+		production_efficiency = 0.1
+	}
+	kbd_mil_road = {
+		global_tax_modifier = 0.10
+		rival_border_fort_maintenance = -0.15
+	}
+	kbd_horses = {
+		movement_speed = 0.1
+                cavalry_cost = -0.10 
+	}
+	kbd_inal_glory = {
+		legitimacy = 1
+		diplomatic_annexation_cost = -0.1
+	}
+	kbd_armament = {
+		land_morale = 0.1
+		shock_damage_received = -0.05
+	}
+	kbd_georgian_contacts = {
+		technology_cost = -0.05
+		administrative_efficiency = 0.025
+	}
+}
+
+#Alanian Ideas by docRobert
+ALN_ideas = {
+	start = {
+		movement_speed = 0.10
+		land_maintenance_modifier = -0.15
+	}
+
+	bonus = {
+		unjustified_demands = -0.15
+	}
+	
+	trigger = {
+		tag = ALN
+	}
+	free = yes
+    		        
+        aln_nomads = {
+		raze_power_gain = 0.2	
+		land_attrition = -0.10
+		cavalry_flanking = 0.15
+	}
+	aln_raiding = {
+		loot_amount = 0.2
+		global_tax_modifier = 0.05
+	}
+	aln_caucasus_stronghold = {
+		hostile_attrition = 1
+		rival_border_fort_maintenance = -0.1
+	}
+	aln_migrations = {
+		movement_speed = 0.1
+		global_institution_spread = 0.1
+		culture_conversion_cost = -0.2
+	}
+	aln_grazing = {
+		trade_range_modifier = 0.2
+		state_maintenance_modifier = -0.15
+	}
+	aln_steppe_society = {
+		global_unrest = -1
+		tolerance_heathen = 1
+		horde_unity = 1
+		legitimacy = 1
+	}
+	aln_european_voyages = {
+		technology_cost = -0.025
+		advisor_pool = 1
+	}
+}
+
+#Avar ideas
+AVR_ideas = {
+	start = {
+		hostile_attrition = 1
+		shock_damage_received = -0.10
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = AVR
+	}
+	free = yes
+	
+	avr_the_sarir_dynasty = {
+		legitimacy = 1
+		horde_unity = 1
+	}
+	avr_caucasian_wars = {
+		land_attrition = -0.15
+		shock_damage_received = -0.075
+	}
+	avr_alliance_shifts = {
+		diplomats = 1
+	}
+	avr_revenge_against_gazikumukh = {
+		land_morale = 0.10
+		cavalry_power = 0.1
+	}
+	avr_survive_external_threats = {
+		fire_damage = 0.05
+		artillery_cost = -0.15
+	}
+	avr_lessons_of_the_caucuses = {
+		defensiveness = 0.15
+	}
+	avr_caucasian_cultures = {
+		num_accepted_cultures = 1
+		culture_conversion_cost = -0.1
+	}
+}
+
+#Assyrian ideas
+ASY_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		development_cost = -0.075
+	}
+	
+	bonus = {
+		administrative_efficiency = 0.075
+	}
+	
+	trigger = {
+		tag = ASY
+	}
+	free = yes
+	
+	asy_river_fleet = {
+		light_ship_cost = -0.1
+		global_ship_trade_power = 0.15
+	}
+	asy_defensive_lines = {
+		fort_maintenance_modifier = -0.15
+	}
+	asy_cultural = {
+		tolerance_heathen = 1
+		stability_cost_modifier = -0.05
+		culture_conversion_cost = -0.2
+	}
+	asy_develop_rivers = {
+		global_prov_trade_power_modifier = 0.05
+		production_efficiency = 0.05
+	}
+	asy_army_reform = {
+		shock_damage = 0.075
+		siege_ability = 0.10
+		cavalry_power = 0.2
+	}
+	asy_splendid_court = {
+		all_power_cost = -0.025
+	}
+	asy_expansion = {
+		state_governing_cost = -0.1
+		num_accepted_cultures = 1
+		core_creation = -0.1
+	}
+}

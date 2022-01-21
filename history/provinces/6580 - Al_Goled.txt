@@ -12,7 +12,7 @@ hre = no
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = MKR
+add_core = MAK
 add_core = HWW
 
 discovered_by = east_african

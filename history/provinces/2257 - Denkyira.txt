@@ -1,4 +1,4 @@
-
+#2257 - Denkyira
 culture = aka 
 religion = shamanism #Fetishism
 capital = "Dunkwa"
@@ -10,11 +10,6 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 base_manpower = 2 
-
-
-
-discovered_by = sub_saharan
-
 
 1500.1.1 = {
 	owner = ASH

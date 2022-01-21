@@ -19,7 +19,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7771;7607;sea;5499;-1;-1;-1;-1;Ringkobing-Hjorring
 6462;6449;sea;1389;-1;-1;-1;-1;Shimabara-Amakusa
 8168;375;sea;1287;-1;-1;-1;-1;Tralee-Limerick
-6932;316;sea;1320;-1;-1;-1;-1;Galata-Bithynia
+6932;316;sea;6359;-1;-1;-1;-1;Galata-Bithynia
 911;945;sea;1662;-1;-1;-1;-1;Menominee-Michigan
 1;1930;sea;1928;-1;-1;-1;-1;Stockholm-Åland
 1930;27;sea;1928;-1;-1;-1;-1;Åland-Finland
@@ -41,7 +41,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7183;4353;sea;1397;-1;-1;-1;-1;Biliran-Leyte
 6983;8282;sea;1395;-1;-1;-1;-1;Bataan-Cavite
 1146;1145;sea;7303;-1;-1;-1;-1;Ife-Nupe
-987;4872;sea;7341;-1;-1;-1;-1;Windsor-Buffalo
 988;944;sea;7342;-1;-1;-1;-1;Simcoe-Detroit
 2584;993;sea;7340;-1;-1;-1;-1;Osheaga-Weskarini
 994;2583;sea;7340;-1;-1;-1;-1;Quebec-Shawenigane
@@ -56,6 +55,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 303;2418;sea;8366;-1;-1;-1;-1;Saratov-Ukek
 3020;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1365;1347;canal;2390;-1;-1;-1;-1;kra_canal
+1660;1659;canal;987;-1;-1;-1;-1;welland_canal
 7954;6951;sea;8326;-1;-1;-1;-1;Helder-Hoorn
 97;6951;sea;8352;-1;-1;-1;-1;Amsterdam-Hoorn
 7954;100;sea;8326;-1;-1;-1;-1;Helder-Friesland
@@ -224,7 +224,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 142;7140;sea;1311;-1;-1;-1;-1;Corfu-Butrint
 142;7132;sea;1311;-1;-1;-1;-1;Corfu-Thesprotia
 2348;4309;sea;5493;-1;-1;-1;-1;Chios-Aydin
-2296;4779;sea;1319;-1;-1;-1;-1;Biga-Gallipoli
+2296;4779;sea;6360;-1;-1;-1;-1;Biga-Gallipoli
 7110;7113;sea;1319;-1;-1;-1;-1;Oreoi-ZetounionBodonitsa
 7110;7117;sea;1319;-1;-1;-1;-1;Oreoi-Demetrias
 164;7109;sea;5493;-1;-1;-1;-1;Naxos-Chalcis
@@ -447,5 +447,29 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 8728;611;sea;7396;-1;-1;-1;-1;That Phanom-Sikhottabong
 613;8658;sea;5201;-1;-1;-1;-1;Dong Kinh-Thai Nguyen
 8597;2372;sea;5200;-1;-1;-1;-1;Son Nam-Hai Phong
+6633;5548;sea;7297;-1;-1;-1;-1;Rawa-Al-Jibab
+6634;409;sea;6647;-1;-1;-1;-1;Fallujah-Karbala
+6625;409;sea;7294;-1;-1;-1;-1;Hillah-Karbala
+4288;6615;sea;6646;-1;-1;-1;-1;Shatt-Nasiriyah
+2312;6620;sea;6646;-1;-1;-1;-1;Wassi-Ash Sharqi
+6618;408;sea;7295;-1;-1;-1;-1;Al Qurnah-Basrah
+408;6611;sea;7295;-1;-1;-1;-1;Basrah-Babiyan
+6610;6611;sea;7295;-1;-1;-1;-1;Abdali-Babiyan
+6551;2320;sea;1328;-1;-1;-1;-1;Tor-Ros Gharib
+6552;2327;sea;1328;-1;-1;-1;-1;Sharm-Ros Gharib
+319;320;sea;5493;-1;-1;-1;-1;Rhodes-Mentesha
+2319;6499;sea;6592;-1;-1;-1;-1;Asyut-Abnub
+6576;6501;sea;6593;-1;-1;-1;-1;Farshut-Qena
+6563;4319;sea;6593;-1;-1;-1;-1;Esna-Thebes
+5278;3043;sea;6584;-1;-1;-1;-1;Korosko-Dehmit
+2322;3043;sea;6584;-1;-1;-1;-1;Faras-Dehmit
+6506;5277;sea;6594;-1;-1;-1;-1;Murshid-Semna
+6580;6581;sea;7388;-1;-1;-1;-1;Goled-Kerma
+6509;5281;sea;6578;-1;-1;-1;-1;Merowe-Karima
+6511;5284;sea;6597;-1;-1;-1;-1;Albawga-Abara
+6512;5285;sea;6599;-1;-1;-1;-1;Wad-Hamid-Omdurman
+1222;6514;sea;8340;-1;-1;-1;-1;Dewaim-Musa
+6589;6590;sea;6600;-1;-1;-1;-1;Kaka-Melut
+7381;5717;sea;1467;-1;-1;-1;-1;Bonthe-Matru
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

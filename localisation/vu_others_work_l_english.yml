@@ -1056,6 +1056,10 @@
  COLONIAL_THE_CARRIBEAN_Westindien_ADJ:0 "Westindien"
  COLONIAL_THE_CARRIBEAN_NED:0 "West-Indische Bezittingen"
  COLONIAL_THE_CARRIBEAN_NED_ADJ:0 "West-Indische Bezittingen"
+ COLONIAL_GUYANA_Suriname:0 "Suriname"
+ COLONIAL_GUYANA_Suriname_ADJ:0 "Suriname"
+ COLONIAL_GUYANA_Guiana:0 "Guiana"
+ COLONIAL_GUYANA_Guiana_ADJ:0 "Guiana"
 
  #Argacyan's non Germanic names
  COLONIAL_ALASKA_BT_EAST_ASIAN:0 "Yuè"
@@ -1138,6 +1142,8 @@
  COLONIAL_BAHAMAS_Bachames_ADJ:0 "Bachámes"
  COLONIAL_GREENLAND_BTP_Hupervoreios:0 "Hupérvóreios"
  COLONIAL_GREENLAND_BTP_Hupervoreios_ADJ:0 "Hupérvóreios"
+ COLONIAL_GUYANA_Gouiana:0 "Gouiána"
+ COLONIAL_GUYANA_Gouiana_ADJ:0 "Gouiána"
 
 
 
@@ -1180,6 +1186,9 @@
  COLONIAL_CANADA_CY_ADJ:0 "Bryniau"
  COLONIAL_HISPANIOLA_CY:0 "Ynys Fawr"
  COLONIAL_HISPANIOLA_CY_ADJ:0 "Ynys Fawr"
+ COLONIAL_GUYANA_CY:0 "Guyana"
+ COLONIAL_GUYANA_CY_ADJ:0 "Guyana"
+ 
 
  #Eris's Work
  #Pomo (Also pretty much all non-Chumash probably? At least a a stopgap, perhaps.)
@@ -1299,25 +1308,25 @@
  COLONIAL_KENYA_Kenya:0 "Kenya"
  COLONIAL_KENYA_Kenya_ADJ:0 "Kenyan"
  #
- colonial_buganda:0 "Colonial Buganda"
- short_colonial_buganda:0 "Buganda"
- COLONIAL_BUGANDA_Buganda:0 "Buganda"
- COLONIAL_BUGANDA_Buganda_ADJ:0 "Bugandan"
+ colonial_buganda:0 "Colonial African Lakes"
+ short_colonial_buganda:0 "African Great Lakes"
+ COLONIAL_BUGANDA_Buganda:0 "African Great Lakes"
+ COLONIAL_BUGANDA_Buganda_ADJ:0 "African Great Lakes"
  #
- colonial_rawanda:0 "Colonial Ruanda-Urundi"
- short_colonial_rawanda:0 "Ruanda-Urundi"
- COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
- COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
+ #colonial_rawanda:0 "Colonial Ruanda-Urundi"   #Merged with Tanganyika
+ #short_colonial_rawanda:0 "Ruanda-Urundi"
+ #COLONIAL_RAWANDA_Rawanda:0 "Ruanda-Urundi"
+ #COLONIAL_RAWANDA_Rawanda_ADJ:0 "Ruandan-Urundin"
  #
  colonial_somalia:0 "Colonial Somalia"
  short_colonial_somalia:0 "Somalia"
  COLONIAL_SOMALIA_Somalia:0 "Somalia"
  COLONIAL_SOMALIA_Somalia_ADJ:0 "Somalian"
  #
- colonial_eritrea:0 "Colonial Eritrea"
- short_colonial_eritrea:0 "Eritrea"
- COLONIAL_ERITREA_Eritrea:0 "Eritrea"
- COLONIAL_ERITREA_Eritrea_ADJ:0 "Eritrean"
+ #colonial_eritrea:0 "Colonial Eritrea"         #Merged with Ethiopia
+ #short_colonial_eritrea:0 "Eritrea"
+ #COLONIAL_ERITREA_Eritrea:0 "Eritrea"
+ #COLONIAL_ERITREA_Eritrea_ADJ:0 "Eritrean"
  #
  colonial_ethiopia:0 "Colonial Ethiopia"
  short_colonial_ethiopia:0 "Ethiopia"
@@ -1493,6 +1502,16 @@
  short_colonial_mississippi:0 "Mississippi"
  COLONIAL_MISSISSIPPI_Mississippi:0 "Mississippi"
  COLONIAL_MISSISSIPPI_Mississippi_ADJ:0 "Mississippian"
+ #
+ #colonial_suriname:0 "Colonial Suriname"
+ #short_colonial_suriname:0 "Suriname"
+ #COLONIAL_SURINAME_Suriname:0 "Suriname"
+ #COLONIAL_SURINAME_Suriname_ADJ:0 "Surinaman"
+ #
+ #colonial_guiana:0 "Colonial Guiana"
+ #short_colonial_guiana:0 "Guiana"
+ #COLONIAL_GUIANA_Guiana:0 "Guiana"
+ #COLONIAL_GUIANA_Guiana_ADJ:0 "Guianan"
  #
  colonial_ecuador:0 "Colonial Ecuador"
  short_colonial_ecuador:0 "Ecuador"
@@ -2120,10 +2139,16 @@
  
  PHI:0 "Philippines"
  PHI_ADJ:0 "Filipino"
- colonial_guyanas:0 "Colonial Guyanas"
- short_colonial_guyanas:0 "Guyanas"
- COLONIAL_GUYANA_Guyanas:0 "Guyanas"
- COLONIAL_GUYANA_Guyanas_ADJ:0 "Guyanese"              
+ 
+ colonial_maranhao:0 "Colonial Maranhão"
+ short_colonial_maranhao:0 "Maranhão"
+ COLONIAL_MARANHAO_Maranhao:0 "Maranhão"
+ COLONIAL_MARANHAO_Maranhao_ADJ:0 "Maranhense"
+ 
+ colonial_mato_grosso:0 "Colonial Mato Grosso"
+ short_colonial_mato_grosso:0 "Mato Grosso"
+ COLONIAL_MATO_GROSSO_Mato_grosso:0 "Mato Grosso"
+ COLONIAL_MATO_GROSSO_Mato_grosso_ADJ:0 "Mato Grossense"
 
  #################################################################################
  #################################################################################

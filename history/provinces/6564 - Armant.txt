@@ -4,7 +4,7 @@ owner = MAM
 controller = MAM
 add_core = MAM
 capital = "Armant"
-culture = nubian
+culture = al_misr_arabic
 religion = sunni
 trade_goods = camel
 hre = no
@@ -15,8 +15,6 @@ is_city = yes
 add_core = KEM
 
 discovered_by = muslim
-discovered_by = ottoman
-discovered_by = eastern
 discovered_by = east_african
 
 extra_cost = 5

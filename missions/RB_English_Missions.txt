@@ -395,42 +395,11 @@ eng_rb_slot_2 = {
 		    }
 	    }
     }
-
-    eng_rb_own_thirteen_colonies = {
-	    icon = mission_rb_the_thirteen_colonies
-	    required_missions = { english_colony_in_north_america }
-	    completed_by = 1701.1.1
-	    position = 12
-
-	    provinces_to_highlight = {
-		    colonial_region = colonial_eastern_america
-		    NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		    has_discovered = ROOT
-	    }
-
-	    trigger = {
-		    custom_trigger_tooltip = {
-			    tooltip = eng_rb_own_thirteen_colonies.tooltip
-			    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				    value = 15
-				    colonial_region = colonial_eastern_america
-				    is_city = yes
-			    }
-		    }
-	    }
-
-	    effect = {
-		    add_country_modifier = {
-			    name = "eng_rb_thirteen_colonies_mod"
-			    duration = 7300
-		    }
-	    }
-    }
 	
 	eng_rb_establish_trade_in_american_cot_virginia_company = {
         icon = mission_rb_dominate_trade_node_virginia_co
-        required_missions = { eng_rb_own_thirteen_colonies }
-        position = 13
+        required_missions = { english_colony_in_north_america }
+        position = 12
 	
 	    provinces_to_highlight = {
 	        province_id = 1500
@@ -458,6 +427,288 @@ eng_rb_slot_2 = {
 		        }
 	        }
         }
+    }
+	
+	lotf_gb_rh = {
+		icon = overshadow_venice
+		required_missions = { lotf_gb_sea_venture }	
+		position = 13
+		provinces_to_highlight = {
+			province_id = 967
+		}	
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = lotf_gb_rh_tt
+				967 = {country_or_non_sovereign_subject_holds = ROOT is_city = yes }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = colonial_buffs_4
+				duration = 7300
+			}
+			967 = {
+				if = {
+					limit = {
+						has_building = marketplace
+					}
+					add_building = trade_depot
+				}
+				else = {
+					add_building = marketplace
+				}
+			change_trade_goods = fur
+			add_base_tax = 1
+			add_base_production = 3
+			add_base_manpower = 1
+			}
+		}
+	}
+	
+	lotf_gb_plymouth = {
+		icon = mission_settlers_north_america
+		required_missions = { lotf_gb_jamestown lotf_gb_rh }	
+		position = 14
+		provinces_to_highlight = {
+			province_id = 2561
+		}	
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = lotf_gb_plymouth_tt
+				2561 = { country_or_non_sovereign_subject_holds = ROOT is_city = yes }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = colonial_buffs_3
+				duration = 7300
+			}
+			2561 = {
+				if = {
+					limit = {
+						has_building = marketplace
+					}
+					add_building = trade_depot
+				}
+				else = {
+					add_building = marketplace
+				}
+			change_trade_goods = fish
+			add_base_tax = 1
+			add_base_production = 3
+			add_base_manpower = 1
+			}
+		}
+	}
+	
+	lotf_gb_invest_northern_colonies = {
+		icon = renaissance_city
+		required_missions = { lotf_gb_plymouth }
+        position = 15		
+		provinces_to_highlight = {
+			colonial_region = colonial_eastern_america
+			country_or_non_sovereign_subject_holds = ROOT
+			if = {
+				limit = {
+					has_global_flag = trade_goods_expanded_mod_active
+				}
+				OR = {
+					trade_goods = fur
+					trade_goods = fish
+					trade_goods = seafood
+					trade_goods = whaling
+				}
+				NOT = {
+					AND = {
+						has_production_building_trigger = yes
+						base_production = 8
+					}
+				}
+			}
+			else = {
+				OR = {
+					trade_goods = fur
+					trade_goods = fish
+				}
+				NOT =  {
+					AND = {
+						has_production_building_trigger = yes
+						base_production = 8
+					}
+				}
+			}
+		}		
+		trigger = {
+			if = {
+				limit = {
+					has_global_flag = trade_goods_expanded_mod_active
+				}
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					colonial_region = colonial_eastern_america
+					value = 3
+					OR = {
+						trade_goods = fur
+						trade_goods = fish
+						trade_goods = seafood
+						trade_goods = whaling
+					}
+					has_production_building_trigger = yes
+					base_production = 8
+				}
+			}
+			else = {
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					colonial_region = colonial_eastern_america
+					value = 3
+					OR = {
+						trade_goods = fur
+						trade_goods = fish
+					}
+				has_production_building_trigger = yes
+				base_production = 8
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = lotf_gb_invest_southern_colonies_tt
+			hidden_effect = {
+				colonial_eastern_america = {
+					limit = {
+						country_or_non_sovereign_subject_holds = ROOT
+						has_production_building_trigger = yes
+						base_production = 8
+					}
+					if = {
+						limit = { has_global_flag = trade_goods_expanded_mod_active }
+						if = {
+							limit = {
+								OR = {
+									trade_goods = fur
+									trade_goods = whaling
+								}
+							}
+							add_building = tradecompany
+							add_province_modifier = {
+								name = southern_plantations_1
+								duration = 7300	
+							}
+						}
+						else_if = {
+							limit = {
+								OR = {
+									trade_goods = fish
+									trade_goods = seafood
+								}
+							}
+							add_building = wharf
+							add_province_modifier = {
+								name = southern_plantations_1
+								duration = 7300	
+							}
+						}	
+					}
+					else = {
+						if = {
+							limit = {
+								trade_goods = fish
+							}
+							add_building = wharf
+							add_province_modifier = {
+								name = southern_plantations_1
+								duration = 7300	
+							}
+						}
+						else_if = {
+							limit = {
+								trade_goods = fur
+							}
+							add_building = tradecompany	
+							add_province_modifier = {
+								name = southern_plantations_1
+								duration = 7300	
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						newfoundland_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+					}
+					968 = { add_center_of_trade_level = 1 }
+					967 = { center_of_trade = 1 }
+				}
+			}
+			custom_tooltip = lotf_gb_invest_northern_colonies_bonus_tt
+		}
+	}
+	
+	lotf_gb_reorganize_colonies = {
+		icon = mission_reorganize_colonies
+		required_missions = { 
+			lotf_gb_invest_northern_colonies
+			lotf_gb_invest_southern_colonies
+		}	
+		position = 16
+		trigger = {		
+			custom_trigger_tooltip = {
+				tooltip = lotf_gb_reorganize_colonies_tt
+				has_country_flag = navigation_acts_chain_end
+			}			
+		}	
+		effect = {
+			custom_tooltip = ready_to_switch_tt
+			hidden_effect = {
+				random_country = { 
+					limit = { 
+						capital_scope = { 
+							colonial_region = colonial_eastern_america
+						}
+						is_colonial_nation_of = ROOT
+					}
+					save_global_event_target_as = read_to_switch
+					set_country_flag = rebelliouscolony
+				}
+				if = {
+					limit = { ai = no }
+					switch_tag = event_target:read_to_switch
+				}
+				clear_global_event_target = read_to_switch		
+			}
+		}
+	}
+	
+	eng_rb_own_thirteen_colonies = {
+	    icon = mission_rb_the_thirteen_colonies
+	    required_missions = { lotf_gb_reorganize_colonies }
+	    completed_by = 1701.1.1
+	    position = 17
+
+	    provinces_to_highlight = {
+		    colonial_region = colonial_eastern_america
+		    NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		    has_discovered = ROOT
+	    }
+
+	    trigger = {
+		    custom_trigger_tooltip = {
+			    tooltip = eng_rb_own_thirteen_colonies.tooltip
+			    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				    value = 15
+				    colonial_region = colonial_eastern_america
+				    is_city = yes
+			    }
+		    }
+	    }
+
+	    effect = {
+		    add_country_modifier = {
+			    name = "eng_rb_thirteen_colonies_mod"
+			    duration = 7300
+		    }
+	    }
     }
 }
 
@@ -986,6 +1237,238 @@ eng_rb_take_baleares = {
 		}
 	}
 	
+	eng_rb_hudson_bay = {
+		icon = mission_rb_colonise_hudson_bay
+		required_missions = { eng_canada }
+		completed_by = 1613.1.1
+		position = 13
+
+		provinces_to_highlight = {
+			colonial_region = colonial_hudson_bay
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+
+		ai_priority = {
+			factor = 2
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = miss_discover_hudson_bay
+				colonial_hudson_bay = {
+					has_discovered = ROOT
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = miss_colonised_hudson_bay
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					colonial_region = colonial_hudson_bay
+					is_city = yes
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "eng_rb_established_fur_trade"
+				duration = 7300
+			}
+		}
+	}
+
+	eng_rb_establish_trade_in_american_cot = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { eng_rb_hudson_bay }
+		position = 14
+
+		provinces_to_highlight = {
+			province_id = 1487
+			has_discovered = ROOT
+		}
+
+		trigger = {
+			1487 = {	# Hudson Bay
+				is_strongest_trade_power = ROOT
+			}
+		}
+
+		effect = {
+		    add_treasury = 2500
+			add_country_modifier = {
+				name = "eng_hudson_dominance"
+				duration = 7300
+			}
+		}
+	}
+
+	eng_rb_british_columbia = {
+		icon = mission_rb_colonise_british_columbia
+		required_missions = { eng_rb_establish_trade_in_american_cot }
+		completed_by = 1613.1.1
+		position = 15
+
+		provinces_to_highlight = {
+			colonial_region = colonial_cascadia
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+
+		ai_priority = {
+			factor = 2
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = miss_discover_british_columbia
+				colonial_cascadia = {
+					has_discovered = ROOT
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = miss_colonised_british_columbia
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					colonial_region = colonial_cascadia
+					is_city = yes
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "eng_rb_established_gold"
+				duration = 7300
+			}
+		}
+	}
+
+	eng_rb_northwest_territories = {
+		icon = mission_rb_colonise_northwest_territories
+		required_missions = { eng_rb_british_columbia }
+		completed_by = 1613.1.1
+		position = 16
+
+		provinces_to_highlight = {
+			colonial_region = colonial_northwest_territories
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+
+		ai_priority = {
+			factor = 2
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = miss_discover_northwest_territories
+				colonial_northwest_territories = {
+					has_discovered = ROOT
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = miss_colonised_northwest_territories
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					colonial_region = colonial_northwest_territories
+					is_city = yes
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "eng_rb_established_logging"
+				duration = 7300
+			}
+		}
+	}
+
+	eng_rb_canadian_prairies = {
+		icon = mission_rb_canadian_prairies
+		required_missions = { eng_rb_northwest_territories }
+		completed_by = 1613.1.1
+		position = 17
+
+		provinces_to_highlight = {
+			colonial_region = colonial_louisiana
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+
+		ai_priority = {
+			factor = 2
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = miss_discover_canadian_prairies
+				colonial_louisiana = {
+					has_discovered = ROOT
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = miss_colonised_canadian_prairies
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 1
+					colonial_region = colonial_louisiana
+					is_city = yes
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "eng_rb_established_farming"
+				duration = 7300
+			}
+		}
+	}
+}
+
+eng_rb_slot_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Rule Britannia"
+	}
+	potential = {
+		OR = {
+			tag = ENG
+			tag = GBR
+		}
+		has_dlc = "Rule Britannia"
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	eng_rb_british_kowloon = {
+	    icon = mission_rb_british_kowloon
+	    required_missions = { eng_rb_british_borneo }
+	    completed_by = 1846.1.1
+		position = 12
+
+	    provinces_to_highlight = {
+	        province_id = 7164
+	        NOT = { country_or_non_sovereign_subject_holds = ROOT }
+	        has_discovered = ROOT
+	    }
+
+	    trigger = {
+	        owns = 7164
+	    }
+
+	    effect = {
+	        add_treasury = 15000
+	        add_country_modifier = {
+		        name = "eng_rb_british_hong_kong"
+		        duration = 36135
+		    }
+	    }
+	}
+	
 	eng_rb_furnaces = {
 		icon = mission_rb_build_furnaces
 		required_missions = { eng_rb_coal }
@@ -1082,48 +1565,5 @@ eng_rb_take_baleares = {
 			#	days = 1
 			#}
 		}
-	}
-}
-
-eng_rb_slot_5 = {
-	slot = 5
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Rule Britannia"
-	}
-	potential = {
-		OR = {
-			tag = ENG
-			tag = GBR
-		}
-		has_dlc = "Rule Britannia"
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	
-	eng_rb_british_kowloon = {
-	    icon = mission_rb_british_kowloon
-	    required_missions = { eng_rb_british_borneo }
-	    completed_by = 1846.1.1
-		position = 12
-
-	    provinces_to_highlight = {
-	        province_id = 7164
-	        NOT = { country_or_non_sovereign_subject_holds = ROOT }
-	        has_discovered = ROOT
-	    }
-
-	    trigger = {
-	        owns = 7164
-	    }
-
-	    effect = {
-	        add_treasury = 15000
-	        add_country_modifier = {
-		        name = "eng_rb_british_hong_kong"
-		        duration = 36135
-		    }
-	    }
 	}
 }

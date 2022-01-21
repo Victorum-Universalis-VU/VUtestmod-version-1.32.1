@@ -67,3 +67,5 @@ discovered_by = eastern
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
 #1444 on
+1477.1.5 = { owner = HAB controller = HAB add_core = HAB }	#from vanilla. Mary of Burgundy, an heiress, passes all Burgundian holdings in the Low Countries to the Habsburgs
+1481.1.1 = { owner = FRA controller = FRA add_core = FRA } # Provence added to France after the death of Duke Charles

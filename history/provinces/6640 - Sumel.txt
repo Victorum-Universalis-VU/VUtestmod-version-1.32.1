@@ -3,8 +3,8 @@
 owner = TIM
 controller = TIM
 add_core = TIM
-culture = al_iraqiya_arabic
-religion = sunni
+culture = assyrian	#Map shows those areas were still populated by Assyrians in XV century
+religion = nestorian
 capital = "Sumel"
 trade_goods = horses
 hre = no
@@ -45,5 +45,10 @@ discovered_by = nomad_group
 	add_core = TUR
 	remove_core = PER
 } # Annexed by the Ottomans
+1600.1.1 = { #Decline of cultural minorities
+	culture = al_iraqiya_arabic
+	religion = sunni
+}
 1624.1.1 = { controller = PER }
 1638.12.24 = { controller = TUR }
+1800.1.1 = { culture = kurdish } #Kurds are moving towards Northern Syria

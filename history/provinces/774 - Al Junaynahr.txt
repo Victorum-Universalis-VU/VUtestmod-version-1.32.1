@@ -1,6 +1,6 @@
-# - Al-Junaynah
+#774 - Al-Junaynah
 
-culture = fur_culture 
+culture = funj_culture 
 religion = shamanism #Fetishism
 capital = "Al-Junaynahr"
 add_core = DAR
@@ -13,16 +13,14 @@ base_tax = 1
 base_production = 1 
 base_manpower = 1 
 
-
-discovered_by = east_african
-
+1596.1.1 = { discovered_by = NUB }
+1596.1.1 = { discovered_by = ETH }
 
 1596.1.1 = {
 	owner = DAR
 	controller = DAR
-	discovered_by = NUB
 	is_city = yes
-	discovered_by = ETH
 	trade_goods = slaves
 }
+
 1682.1.1 = { religion = sunni }

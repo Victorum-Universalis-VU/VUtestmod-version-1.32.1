@@ -67,4 +67,4 @@ discovered_by = eastern
 #	remove_core = XXX
 #} #Return to proper mod added owners and cuts vanilla core, typically.
 
-1713.4.12 = { owner = FRA controller = FRA remove_core = SAV } # Treaty of Utrecht gives Savoy to France
+1713.4.12 = { owner = FRA controller = FRA add_core = FRA remove_core = SAV } # Treaty of Utrecht gives Savoy to France

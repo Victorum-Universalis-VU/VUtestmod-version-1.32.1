@@ -8,7 +8,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -16,7 +16,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -24,7 +24,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -32,7 +32,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -40,7 +40,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -48,7 +48,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -56,7 +56,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -64,7 +64,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -72,7 +72,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -80,7 +80,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -88,7 +88,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -96,7 +96,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -104,7 +104,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -112,7 +112,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -120,7 +120,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -128,7 +128,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -136,7 +136,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -144,7 +144,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -152,7 +152,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -160,7 +160,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -168,7 +168,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -176,7 +176,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -184,7 +184,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -192,7 +192,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -200,7 +200,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -208,7 +208,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -216,7 +216,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -224,7 +224,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -232,7 +232,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 1
 				adm = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -240,7 +240,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 2
 				adm = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -248,7 +248,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 3
 				adm = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -256,7 +256,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		2 = {
@@ -264,7 +264,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 0
 				adm = 3
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		2 = {
@@ -272,7 +272,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 				mil = 4
 				adm = 6
 				dip = 4
-				fixed = yes
+				
 			}
 		}
 	}
@@ -286,7 +286,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 4
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -294,7 +294,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 4
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -302,7 +302,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 4
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -310,7 +310,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 4
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -318,7 +318,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 4
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -326,7 +326,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 4
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -334,7 +334,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 4
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -342,7 +342,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 4
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -350,7 +350,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 4
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -358,7 +358,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 4
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -366,7 +366,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 4
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -374,7 +374,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 4
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -382,7 +382,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 4
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -390,7 +390,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 4
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -398,7 +398,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 4
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -406,7 +406,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 4
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -414,7 +414,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 5
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -422,7 +422,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 5
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -430,7 +430,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 5
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -438,7 +438,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 5
 				mil = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -446,7 +446,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 5
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -454,7 +454,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 5
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -462,7 +462,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 5
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -470,7 +470,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 5
 				mil = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -478,7 +478,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 5
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -486,7 +486,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 5
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -494,7 +494,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 5
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -502,7 +502,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 5
 				mil = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -510,7 +510,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 1
 				dip = 5
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -518,7 +518,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 2
 				dip = 5
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -526,7 +526,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 3
 				dip = 5
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -534,7 +534,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 5
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		2 = {
@@ -542,7 +542,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 0
 				dip = 3
 				mil = 0
-				fixed = yes
+				
 			}
 		}
 		2 = {
@@ -550,7 +550,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 				adm = 4
 				dip = 6
 				mil = 4
-				fixed = yes
+				
 			}
 		}
 	}
@@ -564,7 +564,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -572,7 +572,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -580,7 +580,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -588,7 +588,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 4
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -596,7 +596,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -604,7 +604,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -612,7 +612,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -620,7 +620,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 4
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -628,7 +628,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -636,7 +636,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -644,7 +644,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -652,7 +652,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 4
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -660,7 +660,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -668,7 +668,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -676,7 +676,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -684,7 +684,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 4
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -692,7 +692,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -700,7 +700,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -708,7 +708,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -716,7 +716,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 5
 				dip = 1
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -724,7 +724,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -732,7 +732,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -740,7 +740,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -748,7 +748,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 5
 				dip = 2
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -756,7 +756,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -764,7 +764,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -772,7 +772,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -780,7 +780,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 5
 				dip = 3
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -788,7 +788,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 1
 				mil = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -796,7 +796,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 2
 				mil = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -804,7 +804,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 3
 				mil = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		3 = {
@@ -812,7 +812,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 5
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		2 = {
@@ -820,7 +820,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 0
 				mil = 3
 				dip = 0
-				fixed = yes
+				
 			}
 		}
 		2 = {
@@ -828,7 +828,7 @@ bt_script_improved_republic_elections_mil_ruler  = {
 				adm = 4
 				mil = 6
 				dip = 4
-				fixed = yes
+				
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_despotism
-primary_culture = tegali_culture
+primary_culture = fur_culture
 religion = shiite
 technology_group = east_african
 unit_type = sub_saharan

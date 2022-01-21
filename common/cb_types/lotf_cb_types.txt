@@ -1,0 +1,58 @@
+cb_manifest_destiny = {
+	valid_for_subject = no
+	prerequisites = {
+		mission_completed = USA_missions_proper_nation
+		FROM = {
+			any_owned_province = {
+				OR = {
+					region = great_lakes_region
+					region = mississippi_region
+					region = great_plains_region
+					region = northeast_america_region
+					region = southeast_america_region
+					area = utah_area
+					area = upper_platte_area
+					area = central_rockies_area
+					area = oregon_area
+					area = salish_sea_area
+					area = red_river_area
+					area = california_area
+					area = arizona_area
+					area = colorado_plateau_area
+					area = new_mexico_area
+					area = texas_area
+					province_id = 2666
+					province_id = 2499
+				}
+			}
+		}
+	}
+	war_goal = manifest_destiny_war_goal
+}
+lotf_civil_war = {
+	exclusive = yes
+	independence = yes
+	is_triggered_only = yes
+	war_goal = civil_war_wargoal
+	months = 12
+	ai_peace_desire = -35
+	attacker_disabled_po = {
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_change_religion
+		po_form_personal_union
+		po_gold
+		po_become_vassal
+		po_subjugate_vassal 
+		po_concede_defeat
+		po_annul_treaties
+		po_change_government
+		po_revoke_elector
+		po_trade_power
+		po_steer_trade
+		po_humiliate
+		po_enforce_rebel_demands
+	}
+}

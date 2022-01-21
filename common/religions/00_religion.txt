@@ -691,7 +691,7 @@ christian = {
 		allowed_conversion = {
 				coptic
 				bogomilist_new
-				iconoclast
+				#iconoclast
 				nestorian
 				miaphysite
 		}
@@ -900,7 +900,7 @@ christian = {
 			waldensian
 			lollardy
 			bogomilist_new
-			iconoclast
+			#iconoclast
 			jewish
 			manichaean
 		}
@@ -1228,44 +1228,44 @@ christian = {
 
 
 # Iconoclast Religion
-	iconoclast = {
-		color = { 153 204 102 }
-		icon = 44
-		allowed_conversion = {
-				reformed
-				hussite
-				zoroastrian
-				manichaean
-				buddhism
-		}
-		country = {
-			unjustified_demands = -0.15
-			tolerance_heretic = -2
-			tolerance_own = 4
-		}
-		country_as_secondary = {
-			unjustified_demands = -0.3
-			raze_power_gain = 0.2
-			global_missionary_strength = 0.01
-		}
-		province = {
-			local_missionary_strength = -0.01
-		}
-
-		on_convert = {
-			change_religion = iconoclast
-			add_prestige = -100
-			add_country_modifier = {
-			name = "conversion_zeal"
-			duration = 3650
-			}
-		}
-
-		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
-
-		uses_judaism_power = yes		# Uses patriarch authority
-		misguided_heretic = yes		# Other christians hate them less
-	}	
+	#iconoclast = {
+	#	color = { 153 204 102 }
+	#	icon = 44
+	#	allowed_conversion = {
+	#			reformed
+	#			hussite
+	#			zoroastrian
+	#			manichaean
+	#			buddhism
+	#	}
+	#	country = {
+	#		unjustified_demands = -0.15
+	#		tolerance_heretic = -2
+	#		tolerance_own = 4
+	#	}
+	#	country_as_secondary = {
+	#		unjustified_demands = -0.3
+	#		raze_power_gain = 0.2
+	#		global_missionary_strength = 0.01
+	#	}
+	#	province = {
+	#		local_missionary_strength = -0.01
+	#	}
+	#
+	#	on_convert = {
+	#		change_religion = iconoclast
+	#		add_prestige = -100
+	#		add_country_modifier = {
+	#		name = "conversion_zeal"
+	#		duration = 3650
+	#		}
+	#	}
+	#
+	#	heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY }
+	#
+	#	uses_judaism_power = yes		# Uses patriarch authority
+	#	misguided_heretic = yes		# Other christians hate them less
+	#}	
 
 	#Reworked Nestorian religion
 	nestorian = {
@@ -1424,6 +1424,37 @@ christian = {
 		
 		heretic = { OLD_BELIEVER MOLOKAN ICONOCLAST }
 		misguided_heretic = yes
+	}
+	
+	mormon = {
+		color = { 223 148 255 }
+		icon = 38
+		center_of_religion = 2490
+		allowed_conversion = {
+		}
+		country = {
+			missionary_maintenance_cost = -0.33
+			dip_tech_cost_modifier = -0.1
+		}		
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			advisor_pool = 1
+		}
+		will_get_center = {
+			any_owned_province = { province_id = 236 } # the ID from the event
+		}
+		allowed_center_conversion = {
+			protestant catholic hussite anglican orthodox totemism reformed 
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		crusade_name = HOLY_WAR
 	}
 	
 	#Lollard religion
@@ -2048,7 +2079,7 @@ muslim = {
 		icon = 5
 		
 		allowed_conversion = {
-				iconoclast
+				#iconoclast
 				ibadi
 				manichaean
 				mazdaki
@@ -2088,7 +2119,7 @@ muslim = {
 		icon = 6
 		
 		allowed_conversion = {
-				iconoclast
+				#iconoclast
 				zoroastrian
 				mazdaki
 				sufism
@@ -2150,7 +2181,7 @@ muslim = {
 		color = { 0.3 0.6 0.4 }
 		icon = 45
 		allowed_conversion = {
-				iconoclast
+				#iconoclast
 				nestorian
 				zoroastrian
 				mazdaki
@@ -2203,7 +2234,7 @@ muslim = {
 		color = { 0.2 0.3 0.2 }
 		icon = 46
 		allowed_conversion = {
-				iconoclast
+				#iconoclast
 				zikri
 				sunni
 		}
@@ -2250,7 +2281,7 @@ muslim = {
 		color = { 154 121 53 }
 		icon = 47
 		allowed_conversion = {
-				iconoclast
+				#iconoclast
 				nestorian
 				zoroastrian
 				mazdaki
@@ -2299,7 +2330,7 @@ muslim = {
 		color = { 0 117 91 }
 		icon = 48
 		allowed_conversion = {
-				iconoclast
+				#iconoclast
 				nestorian
 				zoroastrian
 				druze_new

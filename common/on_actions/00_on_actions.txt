@@ -353,12 +353,35 @@ on_enforce_rebel_demands = {
 
 # country
 on_colonial_liberation = {
+	# if = {
+       # limit = {
+            # capital_scope = {
+                # colonial_region = colonial_eastern_america
+            # }
+            # colonial_parent = {
+                # tag = GBR
+            # }
+			# is_subject = no
+        # }
+        # country_event = { id = lotf_events.3 days = 3 } #Change name to USA
+    # }
 	if = {
-		limit = {
-			NOT = { has_country_flag = old_world_to_new_world_flag }
-		}
-		country_event = { id = colonial_nation.90 days = 1 }
-	}
+        limit = {
+            AND = {
+				NOT = { has_country_flag = old_world_to_new_world_flag }
+				NOT = {
+					capital_scope = {
+						colonial_region = colonial_eastern_america
+					}
+					colonial_parent = {
+						tag = GBR
+					}
+					is_subject = no
+				}
+			}
+        }
+        country_event = { id = colonial_nation.90 days = 1 }
+    }
 }
 
 # country
@@ -462,12 +485,16 @@ on_war_won = {
 	}
 	if = {
 		limit = {
-			ROOT = {
-				religion = jewish
-				has_church_aspect = judaism_purim_teachings_aspect
+			has_country_flag = usarebel
+			is_subject = no
+			FROM = {
+				tag = GBR
+			}
+			colonial_parent = {
+				tag = FROM
 			}
 		}
-		add_church_power = 10
+		country_event = { id = lotf_events.2 }
 	}
 }
 
@@ -1030,121 +1057,83 @@ on_new_consort = {
 }
 
 #country
-#on_monarch_death = {
-#	#Vanilla
-#	if = {
-#		limit = {
-#			tag = ANS
-#			BRA = {
-#				has_country_flag = albrecht_achilles_flag
-#			}
-#		}
-#		BRA = {
-#			clr_country_flag = albrecht_achilles_flag #Just to be sure
-#			kill_heir = {} #If Albrecht Achilles dies in Ansbach he will also be dead in Brandenburg, will appear as normal death of heir to BRA.
-#		}
-#	}
-#	if = {
-#		limit = { has_country_modifier = sought_after_bachelor }
-#		remove_country_modifier = sought_after_bachelor
-#	}
-#	if = {
-#		limit = {
-#			tag = SAX
-#			has_country_flag = sax_thuringen_split_to_happen
-#			OR = {
-#				NOT = { dynasty = "von Wettin" }
-#				NOT = { senior_union_with = THU }
-#				has_regency = yes
-#			}
-#		}
-#		clr_country_flag = sax_thuringen_split_to_happen
-#	}
-#	if = {
-#		limit = { tag = SAM }
-#		country_event = { id = polynesian.35 }
-#	}
-#	if = {
-#		limit = { tag = TOG }
-#		country_event = { id = polynesian.36 }
-#	}
-#	if = {	# Ascension of Trailokanat	
-#		limit = { tag = AYU }
-#		country_event = { id = flavor_suk.1 }		 			
-#	}
-#	burgundian_inheritance_start_effect = yes
-#	ladislaus_postumus_king_died_effect = yes
-#	#GE addition
-#	if = {
-#		limit = {
-#			has_ruler_flag = Ulugh_beg_is_ruler
-#		}
-#		ROOT = {
-#			country_event = { id = ME_Timurid_Princes_Event.11 }
-#		}
-#	}
-#	if = {
-#		limit = {
-#			OR = {
-#				has_country_flag = no_stab_hit_on_ruler_death
-#				has_a_primary_cult_selected = yes
-#			}
-#			OR = {
-#				government = tribal
-#				government = monarchy
-#			}
-#		}
-#		add_stability = 1
-#	}
-#	events = {
-#		flavor_wal.1 # Vlad the Impaler. So that he doesn't try to usurp his father.
-#		flavor_nav.4 # Navarra succession event
-#		flavor_sax.8 # Treaty of Leipzig
-#		flavor_pap.16 # Borgia Pope
-#		flavor_pap.19 # death of borgia pope
-#		flavor_tus.22 # Medici Pope
-#		flavor_tus.24 # death of the Medici Pope
-#		majapahit.8 # Majapahit pretenders
-#		flavor_mal.11 # Mali pretenders
-#		flavor_mal.47 # Pilgrimage ends prematurely
-#		#ME_Spain_Events.8 #GE additions
-#		#ME_Reform_Events.1
-#		#ME_Korea_Events.6
-#        #ME_Korea_Events.8
-#        reform_me_events.240
-#		#GE_electoral_monarchy.1	# end GE additions
-#	}
-#	#GE additions from here
-#	if = {
-#		limit = {
-#			tag = CRI
-#			is_subject_of_type = timar
-#		}
-#		TUR = {
-#			country_event = { id = ME_Crimea_Events.1 }
-#		}
-#	}
-#	if = {
-#		limit = {
-#			has_reform = west_slavic_monarchy
-#			NOT = { has_country_flag = ME_FFS_STAP }
-#		}
-#		set_country_flag = ME_FFS_STAP
-#		country_event = { id = ME_Zapadoslavia_Events.9 }
-#	}
-#	if = {
-#		limit = {
-#			tag = ERE
-#			mission_completed = ERE_tombs
-#		}
-#		random_owned_province = {
-#			province_event = {
-#				id = ME_Beylik_Events.14
-#			}
-#		}
-#	}
-#	#end GE additions
-#}
+on_monarch_death = {
+	#Vanilla
+	if = {
+		limit = {
+			tag = ANS
+			BRA = {
+				has_country_flag = albrecht_achilles_flag
+			}
+		}
+		BRA = {
+			clr_country_flag = albrecht_achilles_flag #Just to be sure
+			kill_heir = {} #If Albrecht Achilles dies in Ansbach he will also be dead in Brandenburg, will appear as normal death of heir to BRA.
+		}
+	}
+	if = {
+		limit = { has_country_modifier = sought_after_bachelor }
+		remove_country_modifier = sought_after_bachelor
+	}
+	if = {
+		limit = {
+			tag = SAX
+			has_country_flag = sax_thuringen_split_to_happen
+			OR = {
+				NOT = { dynasty = "von Wettin" }
+				NOT = { senior_union_with = THU }
+				has_regency = yes
+			}
+		}
+		clr_country_flag = sax_thuringen_split_to_happen
+	}
+	if = {
+		limit = { tag = SAM }
+		country_event = { id = polynesian.35 }
+	}
+	if = {
+		limit = { tag = TOG }
+		country_event = { id = polynesian.36 }
+	}
+	if = {	# Ascension of Trailokanat	
+		limit = { tag = AYU }
+		country_event = { id = flavor_suk.1 }		 			
+	}
+	burgundian_inheritance_start_effect = yes
+	ladislaus_postumus_king_died_effect = yes
+	#GE addition
+	if = {
+		limit = {
+			OR = {
+				has_country_flag = no_stab_hit_on_ruler_death
+				has_a_primary_cult_selected = yes
+			}
+			OR = {
+				government = tribal
+				government = monarchy
+			}
+		}
+		add_stability = 1
+	}
+	events = {
+		flavor_wal.1 # Vlad the Impaler. So that he doesn't try to usurp his father.
+		flavor_nav.4 # Navarra succession event
+		flavor_sax.8 # Treaty of Leipzig
+		flavor_pap.16 # Borgia Pope
+		flavor_pap.19 # death of borgia pope
+		flavor_tus.22 # Medici Pope
+		flavor_tus.24 # death of the Medici Pope
+		majapahit.8 # Majapahit pretenders
+		flavor_mal.11 # Mali pretenders
+		flavor_mal.47 # Pilgrimage ends prematurely
+		#ME_Spain_Events.8 #GE additions
+		#ME_Reform_Events.1
+		#ME_Korea_Events.6
+       #ME_Korea_Events.8
+       reform_me_events.240
+		#GE_electoral_monarchy.1	# end GE additions
+	}
+}
 
 # country
 on_regent = {
@@ -2512,6 +2501,12 @@ on_bi_yearly_pulse_4 = {
 
 on_bi_yearly_pulse_5 = {
 	random_events = { #all these were shifted from on_bi_yearly_pulse_1
+		# LOTF EVENTS
+		200 = lotf_random_events.1
+		200 = lotf_random_events.2
+		200 = lotf_random_events.3
+		200 = lotf_random_events.4
+		
 		# Anglican Events
 		100 = anglican_events.1
 		100 = anglican_events.2
@@ -3121,6 +3116,9 @@ on_four_year_pulse_4 = {
 on_five_year_pulse = {
 	random_events = {
 
+		# LOTF EVENTS
+		50 = lotf_random_events.5
+		
 		# Innovativeness Events
 
 		100 = innovativeness_events.1
@@ -3450,12 +3448,10 @@ on_five_year_pulse = {
 		
 		1000 = 0
 	}
-
 	events = {
 		seven_cities_events.1000 #Clearing of Seven Cities Hunt when goal is no longer possible
 	}
 }
-
 
 # Estates pulse
 on_five_year_pulse_2 = {
@@ -5026,6 +5022,14 @@ on_trade_good_changed = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			ROOT = { trade_goods = metalworking }
+			NOT = { has_global_flag = metalworking_start }
+		}
+		ROOT = { province_event = { id = prices_marcin.15 days = 1 } }
+		set_global_flag = metalworking_start
+	}	
 }
 
 # this = country

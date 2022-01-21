@@ -755,56 +755,6 @@ type={
 		name="Seagulls_english_channel"
 		hidden_on_start=no
 		position={
-			1373.000 0.250 1408.000 
-		}
-		rotation={
-			0.000 50.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1380.000 0.250 1423.000 
-		}
-		rotation={
-			0.000 130.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1369.000 0.250 1464.000 
-		}
-		rotation={
-			0.000 160.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1357.000 0.250 1491.000 
-		}
-		rotation={
-			0.000 -120.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
-			1368.000 0.250 1439.000 
-		}
-		rotation={
-			0.000 50.000 0.000 
-		}
-	}
-	object={
-		name="Seagulls_english_channel"
-		hidden_on_start=no
-		position={
 			1671.000 0.200 1144.000 
 		}
 		rotation={
@@ -856,6 +806,56 @@ type={
 		hidden_on_start=no
 		position={
 			2866.000 0.100 936.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1373.000 0.250 1408.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1380.000 0.250 1423.000 
+		}
+		rotation={
+			0.000 130.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1369.000 0.250 1464.000 
+		}
+		rotation={
+			0.000 160.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1357.000 0.250 1491.000 
+		}
+		rotation={
+			0.000 -120.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1368.000 0.250 1439.000 
 		}
 		rotation={
 			0.000 50.000 0.000 
@@ -2371,7 +2371,7 @@ type={
 		name="stonehenge"
 		hidden_on_start=no
 		position={
-			2615.000 0.150 1864.000 
+			2608.000 0.150 1863.000 
 		}
 		rotation={
 			0.000 -0.800 0.000 
@@ -2512,16 +2512,228 @@ type={
 type={
 	type="panama_canal"
 	use_animation=yes
-	scale=0.500000
+	scale=0.650000
 	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
 	object={
 		name="panama_canal"
 		hidden_on_start=yes
 		position={
-			1392.600 -0.600 1150.500 
+			1389.000 -0.100 1147.650 
 		}
 		rotation={
-			0.000 25.000 0.000 
+			0.000 -150.000 0.000 
+		}
+	}
+	object={
+		name="panama_canal"
+		hidden_on_start=yes
+		position={
+			1390.700 -0.100 1153.450 
+		}
+		rotation={
+			0.000 27.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2786.800 0.700 1924.100 
+		}
+		rotation={
+			0.000 102.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2775.800 0.150 1922.750 
+		}
+		rotation={
+			0.000 -50.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2779.500 0.400 1925.650 
+		}
+		rotation={
+			0.000 100.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2781.750 0.450 1923.000 
+		}
+		rotation={
+			0.000 -99.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2791.000 0.550 1923.000 
+		}
+		rotation={
+			0.000 -53.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2795.000 0.500 1925.000 
+		}
+		rotation={
+			0.000 -48.000 0.000 
+		}
+	}
+	object={
+		name="kiel_canal"
+		hidden_on_start=no
+		position={
+			2798.500 0.200 1927.300 
+		}
+		rotation={
+			0.000 -40.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2777.300 0.200 1838.700 
+		}
+		rotation={
+			0.000 69.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2797.000 -0.050 1814.500 
+		}
+		rotation={
+			0.000 55.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2794.300 -0.800 1815.000 
+		}
+		rotation={
+			0.000 -125.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2786.900 0.000 1818.200 
+		}
+		rotation={
+			0.000 -79.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2779.810 0.200 1836.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2780.600 0.150 1820.800 
+		}
+		rotation={
+			0.000 -117.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2778.150 0.100 1823.650 
+		}
+		rotation={
+			0.000 -135.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2779.800 0.000 1829.000 
+		}
+		rotation={
+			0.000 -18.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2780.800 -0.100 1832.440 
+		}
+		rotation={
+			0.000 13.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2777.400 -0.300 1827.000 
+		}
+		rotation={
+			0.000 -174.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2784.300 0.200 1820.450 
+		}
+		rotation={
+			0.000 78.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2790.600 -0.400 1819.100 
+		}
+		rotation={
+			0.000 84.000 0.000 
+		}
+	}
+	object={
+		name="ludwig_canal"
+		hidden_on_start=yes
+		position={
+			2793.000 0.100 1818.100 
+		}
+		rotation={
+			0.000 73.000 0.000 
 		}
 	}
 }
@@ -2598,6 +2810,16 @@ type={
 		name="frame_top_left_entity"
 		hidden_on_start=no
 		position={
+			1536.000 18.000 2304.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity"
+		hidden_on_start=no
+		position={
 			2048.000 18.000 2304.000 
 		}
 		rotation={
@@ -2609,16 +2831,6 @@ type={
 		hidden_on_start=no
 		position={
 			2560.000 18.000 2304.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity"
-		hidden_on_start=no
-		position={
-			1536.000 18.000 2304.000 
 		}
 		rotation={
 			0.000 0.000 0.000 
@@ -2719,10 +2931,20 @@ type={
 type={
 	type="kiel_canal"
 	use_animation=yes
-	scale=0.900000
+	scale=0.600000
 	time_duration=300.000000
 	always_visible=yes
 	visible_in_all_map_modes=yes
+	object={
+		name="welland_canal"
+		hidden_on_start=yes
+		position={
+			1396.680 0.250 1711.120 
+		}
+		rotation={
+			0.000 -0.100 0.000 
+		}
+	}
 	object={
 		name="kra_canal"
 		hidden_on_start=yes
@@ -2731,16 +2953,6 @@ type={
 		}
 		rotation={
 			0.000 95.000 0.000 
-		}
-	}
-	object={
-		name="kiel_canal"
-		hidden_on_start=yes
-		position={
-			2781.000 -0.150 1927.500 
-		}
-		rotation={
-			0.000 -75.000 0.000 
 		}
 	}
 	object={

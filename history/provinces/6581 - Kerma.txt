@@ -1,8 +1,8 @@
 #6581 - Kerma
 
-owner = ABB
-controller = ABB
-add_core = ABB
+owner = ABD
+controller = ABD
+add_core = ABD
 capital = "Karmah"
 culture = nubian
 religion = shiite
@@ -12,12 +12,10 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = MKR
-add_core = HWW
+add_core = MAK
 
 discovered_by = east_african
 discovered_by = muslim
-discovered_by = ottoman
 
 extra_cost = 5
 

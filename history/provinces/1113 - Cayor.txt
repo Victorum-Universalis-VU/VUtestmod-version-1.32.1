@@ -2,6 +2,7 @@
 
 owner = JOL
 controller = JOL
+add_core = JOL
 culture = fulani
 is_city = yes
 base_manpower = 4
@@ -11,7 +12,8 @@ trade_goods = slaves
 hre = no
 base_tax = 6 
 base_production = 6
-add_core = JOL
+center_of_trade = 1
+
 discovered_by = sub_saharan
 
 1445.1.1 = { discovered_by = POR }

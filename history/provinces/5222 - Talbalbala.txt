@@ -1,4 +1,4 @@
-
+#5222 - Talbalbala
 culture = tuareg
 religion = sunni
 capital = "Talbalbala"
@@ -10,6 +10,3 @@ hre = no
 native_size = 30
 native_ferocity = 5
 native_hostileness = 9
-
-discovered_by = muslim
-discovered_by = sub_saharan

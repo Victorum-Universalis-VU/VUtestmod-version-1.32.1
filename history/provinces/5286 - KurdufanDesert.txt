@@ -1,17 +1,19 @@
 #New Province
 
+owner = FNJ
+controller = FNJ
+add_core = FNJ
+is_city = yes
 capital = "Abu 'Uruq"			#Absolutely no other info on this place other than a dot on a map
 culture = nubian
 religion = coptic
-trade_goods = unknown
+trade_goods = livestock
 hre = no
 base_tax = 1 
 base_production = 1 
 base_manpower = 1 
-native_size = 10
-native_ferocity = 9
-native_hostileness = 5
 
+discovered_by = muslim
 discovered_by = east_african
 
 1503.1.1 = {
