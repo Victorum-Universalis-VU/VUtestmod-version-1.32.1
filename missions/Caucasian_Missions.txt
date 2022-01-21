@@ -345,6 +345,120 @@ caucasus_missions_2 = {
 			3245 = { add_center_of_trade_level = 1 }
 		}
 	}
+	
+	caucasus_raid_black_sea = {
+		icon = mission_raid_on_genoa
+		required_missions = { caucasus_invade_crimea }
+		position = 6
+		provinces_to_highlight = {
+			OR = {
+				province_id = 330
+				province_id = 2196
+				province_id = 328
+				province_id = 282
+				province_id = 2406
+				province_id = 3165
+				province_id = 7139
+				province_id = 6932
+				province_id = 2304
+			}
+		}
+		trigger = {
+			OR = {
+				navy_size = 25
+				naval_forcelimit = 30
+			}
+			OR = {
+				num_of_heavy_ship = 5
+				num_of_light_ship = 15
+				num_of_galley = 20
+				num_of_transport = 20
+			}
+			OR = {
+				country_or_subject_holds = 330
+				330 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				country_or_subject_holds = 2196
+				2196 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+			}
+			OR = {
+				country_or_subject_holds = 328
+				328 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				country_or_subject_holds = 2304
+				2304 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+			}
+			OR = {
+				country_or_subject_holds = 6932
+				6932 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				country_or_subject_holds = 7139
+				7139 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				country_or_subject_holds = 3165
+				3165 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				country_or_subject_holds = 282
+				282 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+				country_or_subject_holds = 2406
+				2406 = {
+					controlled_by = ROOT
+					is_looted = yes
+					devastation = 10
+				}
+			}
+		}
+		effect = {
+			add_treasury = 1000
+			add_years_of_income = 1
+			add_mercantilism = 2
+			6932 = { add_permanent_claim = ROOT } #Galata
+			silistria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			285 = { add_center_of_trade_level = 1 }
+			random_owned_province = {
+				limit = { has_port = yes }
+				ROOT = {
+					create_flagship = {    
+						name = "Caucasus"
+						type = light_ship
+					}
+				}
+			}
+		}
+	}
 }
 
 caucasus_missions_3 = {

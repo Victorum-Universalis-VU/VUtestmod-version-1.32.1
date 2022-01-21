@@ -1736,6 +1736,8 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  caucasus_secure_south_title:0 "Sieze Southern Ranges"
  caucasus_secure_south_desc:0 "Cross highest peaks of Caucasus and establish control over its southern side too. Our nation shall fully encompass the Caucasus Mountain Range!"
  caucasus_secure_south.tooltip:0 "5 Random owned provinces in Caucasia region will receive 1 base tax, 1 base production and 1 base manpower"
+ caucasus_raid_black_sea_title:0 "Raid Black Sea Coast"
+ caucasus_raid_black_sea_desc:0 "Raid or sieze strategic ports around the Black Sea to assert our naval dominance in these waters and bring all sorts of treasury to our nation."
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"
