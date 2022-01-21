@@ -1736,7 +1736,7 @@ country_decisions = {
 					region = russia_region
 					region = ruthenia_region
 				}
-				value = 125	#125 provinces in Russia or Ruthenia
+				value = 100	#100 provinces in Russia or Ruthenia
 			}
 		}
 		effect = {

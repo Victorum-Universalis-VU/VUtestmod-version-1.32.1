@@ -957,6 +957,7 @@ republic = {
 				clergical_administration_reform
 				union_of_italian_states_reform
 				volost_colonies_reform
+				novgorod_prince_federation_reform
 				island_republic_reform
 				#federalism_reform
 				#supremacy_constitution_reform
