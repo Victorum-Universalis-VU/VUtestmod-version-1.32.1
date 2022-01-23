@@ -62,6 +62,7 @@
 2755 = "Madinat Salim"
 6524 = "Rashid"
 5261 = "Borsa'id"
+5560 = { "Foça" "Foça" }
 
 124 = "Massina"
 125 = "Balarm"

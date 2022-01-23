@@ -29,6 +29,11 @@ discovered_by = indian
 	add_core = TUR
 } # Part of the Ottoman Empire
 1525.1.1 = { culture = syriac_culture }	#aramaic fades to obscurity
+1550.1.1 = {
+	base_tax = 4
+	base_production = 3
+	base_manpower = 3
+} #City recovers
 1665.1.1 = { unrest = 4 }
 1669.1.1 = { unrest = 2 } # Ottoman attempts to pacify unruly tribes 
 1670.1.1 = { unrest = 0 }

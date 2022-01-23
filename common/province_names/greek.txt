@@ -27,3 +27,5 @@
 5147 = "Korakesion" # No idea why province is named Candelore
 5155 = "Gordion"
 5164 = { "Hadrianopolis" "Hadrianopolis" }
+5560 = "Phokaia"
+5561 = "Pisidia"
