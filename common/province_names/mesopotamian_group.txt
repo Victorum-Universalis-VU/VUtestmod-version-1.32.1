@@ -29,7 +29,7 @@
 4291 = { "Esnunna" "Esnunna" }
 4292 = "Amidu"
 4293 = "Arbail"
-4294 = { "Arrapha" "Arrapha }
+4294 = { "Arrapha" "Arrapha" }
 4295 = "Dunnu-sha-Uzibi"
 4296 = "Nairi"
 4297 = "Qadesh"
