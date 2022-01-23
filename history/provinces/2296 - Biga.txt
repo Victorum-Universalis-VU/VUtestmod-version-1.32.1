@@ -3,8 +3,8 @@
 owner = TUR
 controller = TUR
 add_core = TUR
-culture = turkish
-religion = sunni
+culture = greek				#Greeks were still dominating the coast around that time
+religion = orthodox
 capital = "Kale-i Sultaniye"			#Çanakkale was an Ottoman fortress called Kale-i Sultaniye. Not actually until 1460s, but whatever, close enough
 trade_goods = glass			#From the late 17th century it alsor became known for its fine-glazed pottery, but before that, sure, Naval supplies are fine. 
 hre = no
@@ -30,6 +30,10 @@ discovered_by = nomad_group
 1623.1.1 = { unrest = 8 } # The empire fell into anarchy, Janissaries stormed the palace
 1625.1.1 = { unrest = 0 } # Murad tries to quell the corruption
 #1690.1.1 = { base_tax = 4 base_production = 4 } #The Decentralizing Effect of the Provincial System
+1700.1.1 = {
+	culture = turkish
+	religion = sunni
+}
 1718.1.1 = { unrest = 3 } # Lale Devri (the tulip age), not appreciated by everyone 
 1720.1.1 = { unrest = 0 }
 1795.1.1 = { unrest = 6 } # Reforms by Sultan Selim III, tried to replace the Janissary corps

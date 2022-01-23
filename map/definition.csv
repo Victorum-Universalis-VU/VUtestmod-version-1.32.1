@@ -5558,8 +5558,8 @@ province;red;green;blue;x;x
 5557;142;205;73;Artlar
 5558;39;139;82;Baksan
 5559;71;245;175;Abaza
-5560;245;95;95;BeyondTypus641Wasteland
-5561;245;100;100;BeyondTypus642Wasteland
+5560;206;17;17;Phocaea
+5561;167;104;67;Isparta
 5562;100;100;25;Marien
 5563;100;100;100;Yaquimel
 5564;100;100;175;Gonaibo
@@ -8398,7 +8398,7 @@ province;red;green;blue;x;x
 8397;35;35;251;BeyondTypusSeaAndLake
 8398;40;40;251;BeyondTypusSeaAndLake
 8399;45;45;251;BeyondTypusSeaAndLake
-8400;255;5;5;BeyondTypusWastelands
+8400;63;56;80;Taurus Mountains
 8401;255;10;10;BeyondTypusWastelands
 8402;255;15;15;BeyondTypusWastelands
 8403;255;20;20;BeyondTypusWastelands
