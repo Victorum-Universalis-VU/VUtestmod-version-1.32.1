@@ -4326,7 +4326,7 @@ province;red;green;blue;x;x
 4325;222;47;29;Sarakhs;x
 4326;134;196;131;Nishapur;x
 4327;244;221;131;Jask;x
-4328;143;34;255;Chagai;x
+4328;143;34;255;Chagai 1;x
 4329;96;128;136;Fasa;x
 4330;54;193;106;Darab;x
 4331;212;14;89;Kazarun;x
@@ -8399,13 +8399,13 @@ province;red;green;blue;x;x
 8398;40;40;251;BeyondTypusSeaAndLake
 8399;45;45;251;BeyondTypusSeaAndLake
 8400;63;56;80;Taurus Mountains
-8401;255;10;10;BeyondTypusWastelands
-8402;255;15;15;BeyondTypusWastelands
-8403;255;20;20;BeyondTypusWastelands
-8404;255;25;25;BeyondTypusWastelands
-8405;255;30;30;BeyondTypusWastelands
-8406;255;35;35;BeyondTypusWastelands
-8407;255;40;40;BeyondTypusWastelands
+8401;218;199;131;Western Desert
+8402;215;236;128;Nubian Desert
+8403;188;225;138;East Nubian Desert
+8404;209;194;173;Chagai
+8405;145;114;6;Kirthar Mountains
+8406;91;64;106;Zhob
+8407;185;158;218;Khuzdar
 8408;255;45;45;BeyondTypusWastelands
 8409;255;50;50;BeyondTypusWastelands
 8410;255;55;55;BeyondTypusWastelands
