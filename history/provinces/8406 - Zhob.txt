@@ -13,6 +13,7 @@ base_manpower = 2
 is_city = yes
 add_core = BAL
 add_local_autonomy = 75
+fort_15th = yes
 
 
 1444.1.1 = { discovered_by = KAS } 
