@@ -9,8 +9,10 @@
 147 = { "Thessaly" "Larissa" }
 148 = { "Thessaloniki" "Thessaloniki" }
 149 = { "Adrianople" "Adrianopolis" }
+164 = "Naxos"
 285 = "Theodosia"
 316 = "Nicomedia"
+320 = "Rhodes"
 322 = "Dorylaion"
 340 = "Constantina"
 352 = "Justiniania"
@@ -23,6 +25,7 @@
 418 = "Amida"
 1231 = "Syene"
 1233 = "Megale"
+1764 = { "Mesembria" "Mesembria" }
 1773 = { "Elis" "Pyrgos" }
 1846 = "Kotyora"
 1848 = { "Afyon" "Afyon" }
@@ -34,6 +37,11 @@
 2348 = "Chios"
 2343 = "Adrramyta"
 2447 = "Tamatarha"
+2750 = { "Philippopolis" "Philippopolis" }
+3001 = { "Skoupoi" "Scupi" }
+3003 = { "Euboea" "Euripos" }
+3164 = "Konstantia"
+3165 = { "Odessos" "Odessos" }
 3167 = { "Pirin" "Nevrokopi" }
 3170 = { "Arcadiopolis" "Arcadiopolis" }
 3174 = "Trikala"
@@ -47,6 +55,7 @@
 7172 = "Dewol"
 4174 = { "Dyrrhachium" "Dyrrhachium" }
 4175 = { "Lissos" "Lissos" }
+4239 = { "Singidunum" "Singidunum" }
 4311 = "Cotyaion"
 4698 = "Cephallenia"
 4699 = "Arta"
@@ -66,10 +75,12 @@
 5561 = "Pisidia"
 6931 = { "Selymbria" "Selymbria" }
 6932 = { "Pera" "Galata" }
+7100 = { "Pylos" "Koroni" }
 7101 = "Messenia"
 7102 = "Arcadia"
 7108 = { "Evrytania" "Karpenisi" }
-7110 = { "Pylos" "Koroni" }
+7109 = "Karystos"
+7110 = "Istiaia"
 7111 = "Boeotia"
 7112 = { "Naupaktos" "Naupaktos" }
 7113 = { "Phthiotis" "Zetounion" }
@@ -91,9 +102,13 @@
 7133 = "East Ioannia"
 7136 = { "Rhaedestus" "Rodosto" }
 7137 = { "Theodosion" "Western Districts" }
+7139 = "Sozopolis"
 7140 = { "Buthrotum" "Buthrotum" }
 7141 = { "Dryinoupolis" "Dryinoupolis" }
+7142 = { "Boius" "Antipatria" }
 7143 = { "Apollonia" "Apollonia" }
 7144 = "Peshkopia"
+7146 = "Prilep"
+7154 = { "Dionysopolis" "Dionysopolis" }
 7163 = "Monemvasia"
 7708 = "Bar"
