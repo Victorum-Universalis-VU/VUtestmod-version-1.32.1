@@ -471,5 +471,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1222;6514;sea;8340;-1;-1;-1;-1;Dewaim-Musa
 6589;6590;sea;6600;-1;-1;-1;-1;Kaka-Melut
 7381;5717;sea;1467;-1;-1;-1;-1;Bonthe-Matru
+6579;6672;sea;8402;-1;-1;-1;-1;Kawa-Kunuz
+6579;6504;sea;8402;-1;-1;-1;-1;Kawa-WadiHalfa
+5280;5302;sea;8403;-1;-1;-1;-1;Hadendoa-AbuHameb
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

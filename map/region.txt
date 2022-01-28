@@ -515,6 +515,7 @@ khorasan_region = {
 		ghor_area
 		sistan_area
 		makran_area
+		baluchi_coast_area
 		kalat_area
 		birjand_area
 		herat_area
