@@ -6,6 +6,7 @@ indonesians_3 = {
 		technology_group = chinese
 		culture_group = malay
 		NOT = { tag = MAJ }
+		NOT = { has_reform = pirate_republic_reform }
 	}
 	has_country_shield = yes
 	
@@ -687,6 +688,7 @@ indonesians_5 = {
 	potential = {
 		technology_group = chinese
 		culture_group = malay
+		NOT = { has_reform = pirate_republic_reform }
 	}
 	has_country_shield = yes
 	
