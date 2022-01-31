@@ -603,7 +603,7 @@
  PROV2864:0 "Kakamas"
  PROV2879:0 "Bagé"
  PROV2880:0 "Griquatown"          #ERROR - Griquatown, naming being problematic.
- PROV2881:0 "Aquidauna"
+ PROV2881:0 "Corumbá"
  PROV2884:0 "Erechim"
  PROV2885:0 "Juazeiro"
  PROV2886:0 "Parnaíba"
@@ -628,7 +628,7 @@
  PROV2906:0 "Juruá"
  PROV2907:0 "Iporá"
  PROV2908:0 "Paranoá"
- PROV2909:0 "Aragarças"
+ PROV2909:0 "Goiás"
  PROV2910:0 "Tocantins"
  PROV2911:0 "Porangatu"
  PROV2914:0 "Jacobina"
@@ -643,11 +643,13 @@
  PROV2924:0 "Codó"
  PROV2926:0 "Grajaú"
  PROV2927:0 "Buriticupu"
+ PROV2929:0 "Cametá"
  PROV2930:0 "Tupaiús"         #Credit to Arga
  PROV2931:0 "Takutu" #Formerly Pirara
  PROV2933:0 "Anauá" #Formerly Barcelos
  PROV2934:0 "Manaós"         #Credit to Arga   name of tribe chiefdom
  PROV2937:0 "Sipaliwini" #Formerly Suriname
+ PROV2938:0 "Amapá"
  PROV2994:0 "Wolgast"
  #PROV2954:0 "Djerba"            #Actually the same as vanilla, but adding here anyway to prevent changes with vanilla
  PROV2963:0 "Krajna"
