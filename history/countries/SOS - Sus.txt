@@ -1,6 +1,6 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
-primary_culture = shila
+primary_culture = shilha
 add_accepted_culture = berber
 religion = sunni
 technology_group = muslim

@@ -4434,7 +4434,7 @@ zoroastrian_group = {
 		
 		allowed_conversion = {
 			nestorian
-			mazdaki
+			#mazdaki
 			yazidi
 			buddhism
 			vajrayana
