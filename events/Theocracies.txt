@@ -398,6 +398,7 @@ country_event = {
 				government = monarchy
 				has_regency = no
 				religion = ROOT
+				is_lesser_in_union = no
 			}
 			ROOT = { 
 				if = {

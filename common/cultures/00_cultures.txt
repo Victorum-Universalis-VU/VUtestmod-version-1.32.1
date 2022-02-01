@@ -5099,6 +5099,38 @@ je_tupi = { # Tupi
 			Bartira Potira Porasy Jougousa Azelene
 		}
 	}
+	portutupinambase = {
+		#primary = XXX
+		dynasty_names = {
+			Piratininga Tabajara Temiminó Tamoio Tabajara Caeté Tupinaé Temiminó Tupina Aricobé
+		}
+		male_names = {
+			Tibiriçá Piquerobi Caiubi Ramalho Italo Arah Pirijá Arata Toruí Mbicy
+			#Portuguese names
+			João Filipe Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Diniz 
+			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
+			Xavier Gabriel Garcia Gaspar Gil Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
+			Paulo Rafael Rogério Rui Simão Vicente Otávio
+			Afonso Aires Álvaro Bermudo Diogo Diaco Egas Estêvão Fernão 
+			Ferdinando Fernando Garcia Gil Gomes Gonçalo Gutierre 
+			Valter Henrique Hermígio João Lourenço Martim Martin
+			Mendo Munio Nuno Pôncio Mem
+			Rodrigo Rui Raimundo Vasco Vicente
+			Moacir Caíque Ubirajara Ubiratã Joacir Domingos Quintino Deodoro Eduardo Emílio Castro Pascoal
+			Moreira Cláudio Dirceu Evandro Tomé Amado Silvério Basílio Cipriano Amaro Cosme Júlio Lucas
+			Severino Severiano Benjamim Epaminondas Seixas Torquato Antônio Getúlio Silveriano Brás
+		}
+		female_names = {
+			Bartira Potira Porasy Jougousa Azelene
+			#Portuguese names
+			Aldara Alduara Beatriz Berengária Branca
+			Constância Elvira Estevânia Fruilhe Fronilde Gontinha Gontroda 
+			Guiomar Inês Agnes Joana Leonor Eleanor Mafalda Matilda Margarida Maria 
+			Marinha Marinês Ouroana Teresa Urraca Constança Célia
+			Maiara Janaína Iara Tainara Iracema Mariana Bárbara Josefina Ana "Ana Paula" Aurélia
+			Adelaide Firmina Emília Cecília Lauriana Isabel
+		}
+	}
 	guarani = {
 		primary = GUA
 		dynasty_names = {
