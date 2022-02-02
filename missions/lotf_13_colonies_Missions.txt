@@ -238,7 +238,7 @@
 				shock = 5
 				manuever = 4
 				siege = 2
-				trait = defensive_planner
+				trait = inspirational_leader_general_personality
 			}
 			country_event = { id = lotf_events.6 } #BEGIN REVOLUTION EVENT CHAIN HERE
 		}

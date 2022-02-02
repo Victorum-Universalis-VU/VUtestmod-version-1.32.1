@@ -3011,7 +3011,7 @@ library_alexandria = {
 	type = monument
 
 	build_trigger = {	#Going with innovativeness for now, will likely be avaliable via event, decision or mission later
-		innovativeness = 25
+		owner = { innovativeness = 25 }
 	}
 	
 	can_use_modifiers_trigger = {
@@ -3035,7 +3035,7 @@ library_alexandria = {
 	}
 
 	can_upgrade_trigger = {
-		innovativeness = 25
+		owner = { innovativeness = 25 }
 	}
 
 	keep_trigger = {

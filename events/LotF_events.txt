@@ -322,7 +322,7 @@ country_event = { #CSA Pops and Declares Independence
 					shock = 5
 					manuever = 4
 					siege = 3
-					trait = master_of_arms
+					trait = master_of_arms_personality
 				}
 				define_general = {
 					name = "Stonewall Jackson"
@@ -402,7 +402,7 @@ country_event = { #CSA Pops and Declares Independence
 			shock = 4
 			manuever = 4
 			siege = 2
-			trait = goal_oriented
+			trait = ironside_personality
 		}
 		define_general = {
 			name = "William T. Sherman"
@@ -410,7 +410,7 @@ country_event = { #CSA Pops and Declares Independence
 			shock = 4
 			manuever = 5
 			siege = 3
-			trait = ruthless
+			trait = hardy_warrior_personality
 		}
 		define_general = {
 			name = "George McClellan"
@@ -418,7 +418,7 @@ country_event = { #CSA Pops and Declares Independence
 			shock = 3
 			manuever = 3
 			siege = 1
-			trait = ruthless
+			trait = hardy_warrior_personality
 		}	
 	}
 }

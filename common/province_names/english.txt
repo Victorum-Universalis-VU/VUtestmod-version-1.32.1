@@ -183,6 +183,7 @@
 134 = "Vienna"
 2746 = { "Widdin" "Widdin" }
 4729 = "Padua"
+7944 = { "Upper Rhine" "Hagenaw" }
 
 #America
 833 = { "Somerset East" "Somerset East" }

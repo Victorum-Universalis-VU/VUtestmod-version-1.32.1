@@ -189,7 +189,7 @@
 72 = "Brisgau"
 73 = "Val d'Inn"
 74 = "Bade"
-75 = { "Strasbourg" "Strasbourg" }
+75 = { "Alsace" "Strasbourg" }
 76 = "Salzbourg"
 78 = "Mayence"
 79 = "Wurtzbourg"
@@ -243,6 +243,7 @@
 165 = "Berne"
 166 = "Waldstätten"
 181 = "Rethélois"
+188 = { "Metz" "Metz" }
 189 = "Lorraine"
 197 = "Roussillon"
 205 = "Savoie"
@@ -337,12 +338,19 @@
 4752 = "Fiume"
 4758 = "Val d'Etsch"
 4759 = "Haute-Carinthie"
-4765 = { "Mulhouse" "Mulhouse" }
+4765 = { "Haut-Rhin" "Mulhouse" }
 4767 = "Deux-Ponts"
 4768 = "Juliers"
 4769 = "Lille"
 4770 = "Bois-le-Duc"
 4779 = "Gallipoli"
+7944 = { "Bas-Rhin" "Haguenau" }
+7949 = { "Sarreguemines" "Sarreguemines" }
+8459 = { "Amnéville" "Amnéville" }
+8461 = { "Forbach" "Forbach" }
+8463 = { "La Petite-Pierre" "La Petite-Pierre" }
+8466 = { "Dabo" "Dabo" }
+8465 = { "Moselle" "Fénétrange" }
 
 #Pacific
 1102 = "Île de France"
