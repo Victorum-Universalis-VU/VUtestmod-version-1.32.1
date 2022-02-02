@@ -9,6 +9,7 @@
 37 = "Liefland"
 42 = "Ermland"
 57 = "Braunschweig"
+75 = { "Elsass" "Straßburg" }
 87 = "Kalen"
 88 = "Artesien"
 90 = "Brügge"
@@ -50,6 +51,7 @@
 162 = "Semmlin"
 163 = "Kreta"
 187 = "Herzogenbar"
+188 = { "Metz" "Metz" }
 189 = "Nanzig"
 192 = "Dision"
 193 = "Freigrafschaft"
@@ -101,6 +103,7 @@
 1865 = "Gent"
 1866 = "Namen"
 1867 = "Waadt"
+1880 = { "Sundgau" "Altkirch" }
 1931 = "Ostfriesland"
 1934 = "Lukanien"
 1936 = "Kauen"
@@ -157,12 +160,19 @@
 4756 = "Bellowar"
 4753 = "Jadara"
 4764 = "Salzbad"
-4765 = "Mülhausen"
+4765 =  { "Oberelsass" "Mülhausen" }
 4766 = "Wirten"
 4767 = "Zweibrücken"
 4768 = "Jülich"
 4769 = "Ryssel"
 4770 = "Herzogenbusch"
+7944 = { "Niederrhein" "Hagenau" }
+7949 = { "Saargemünd" "Saargemünd" }
+8459 = { "Amenweiler" "Amenweiler" }
+8461 = { "Fuerboch" "Fuerboch" }
+8463 = { "Lützelstein" "Lützelstein" }
+8466 = { "Dagespurg" "Dagsburg" }
+8465 = { "Mosel" "Finstingen" }
 
 #Africa
 3047 = { "Ndar" "Sankt Louis" }
