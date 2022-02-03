@@ -72,8 +72,11 @@
 356 = { "Cyrene" "Euseperides" }
 357 = { "Darnis" "Darnis" }
 358 = { "Aleksandreia" "Alexandria" }
+359 = { "Crocodilopolis" "Crocodilopolis" }
 360 = "Kaine"
-363 = "Tamiathis"
+361 = { "Heliopolis" "Heliopolis" } #Cairo
+362 = { "Buto" "Pachnemunis" }
+363 = { "Tamiathis" "Tamiathis" }
 366 = { "Junonia" "Junonia" }
 368 = { "Erythia" "Erythia" }
 396 = "Tylos"
@@ -113,6 +116,7 @@
 2196 = { "Bathys" "Bathys" }
 2244 = { "Kerne" "Kerne" }
 2313 = "Antiocheia"
+2316 = { "Sebennytus" "Sebennytus" }
 2319 = "Lytkopolis"
 2325 = { "Pinigeus" "Pinigeus" }
 2326 = { "Petra Megale" "Kathabathmos" }
@@ -199,6 +203,9 @@
 4239 = { "Singidunum" "Singidunum" }
 4240 = { "Pannoniopolis" "Pannoniopolis" }
 4311 = "Cotyaion"
+4316 = { "Athribis" "Athribis" }
+4317 = { "Hermopolis" "Hermopolis" }
+4318 = { "Aphroditopolis" "Aphroditopolis" }
 4323 = "Libya Interior"
 4529 = "Pyrretion"
 4530 = { "Barbosi" "Barbosi" }
@@ -260,6 +267,10 @@
 5226 = { "Asarna Inferior" "Chichoios" }
 5228 = "Daras Superior"
 5229 = "Mulucha"
+5261 = { "Pelusium" "Pelusium" }
+5264 = { "Memphis" "Memphis" }
+5267 = { "Heracleopolis" "Heracleopolis" }
+5271 = { "Berenice" "Berenice" }
 5272 = { "Paraitonion" "Paraitonion" }
 5273 = { "Sitra" "Sitra" }
 5274 = { "Boreum" "Ajdabyos" }
@@ -298,7 +309,15 @@
 6469 = "Babba"
 6505 = { "Ederguia Mons" "Ederguia" }
 6519 = { "Antiphrai" "Antiphrai" }
+6524 = { "Canopus" "Agriuceras" }
+6525 = { "Sais" "Sais" }
+6533 = { "Mendes" "Tanis" }
+6537 = "Lenotopolis"
+6555 = { "Pharbaetus" "Bubastis" }
+6568 = { "Prosopis" "Andropolis" }
 6571 = "Kossedaoum Mons"
+6573 = { "Peme" "Peme" }
+6574 = { "Hipponium" "Hipponium" }
 6585 = { "Ainesisphyra" "Ainesisphyra" }
 6604 = { "Ammon" "Ammon" }
 6643 = { "Klimax" "Alexandrou Parembol" }
