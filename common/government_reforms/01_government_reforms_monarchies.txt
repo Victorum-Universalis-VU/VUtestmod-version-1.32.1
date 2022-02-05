@@ -540,6 +540,10 @@ english_monarchy = {
 		global_unrest = -1
 		max_absolutism = -30
 	}
+	
+	#custom_attributes = {
+	#	has_unify_british_isles_cb = yes
+	#}
 
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
@@ -640,6 +644,10 @@ prussian_monarchy = {
 		monarch_military_power = 3
 		nobles_loyalty_modifier = 0.1
 		governing_capacity_modifier = -0.5 #No change in VU
+	}
+	
+	custom_attributes = {
+		has_unify_germany_cb = yes
 	}
 
 	conditional = {
@@ -756,6 +764,7 @@ tsardom = {
 		claim_states = yes
 	}
 }
+
 
 mamluk_government = {
 	icon = "mamluk_government"

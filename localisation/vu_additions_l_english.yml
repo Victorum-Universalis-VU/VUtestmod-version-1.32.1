@@ -114,6 +114,12 @@
  IRI:0 "Ineri"
  #New Cultures
  seminole:0 "Seminole"
+ #New cb text
+ #ALL_BRITISH_PROVS:0 "All Provinces in both German regions, including Alsace area"
+ #BRITISH_UNIFICATION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ war over German Hegemony"
+ ALL_GERMAN_PROVS:0 "All Provinces in both German regions, including Alsace area"
+ GERMAN_UNIFICATION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ war over German Hegemony"
+ #New Colonial Regions
  dutchcolonialsurinamername1:0 "Birth of a Surinamer Identity"
  dutchcolonialsurinamerdesc1:0 "The descendants of Dutch settlers and their slaves in the Guyanas has lead to a newly distinct culture and society develop over time."
  dutchcolonialsurinameroption1:0 "Interesting Development"
