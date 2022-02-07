@@ -116,7 +116,7 @@
 421 = { "Albania Inferior" "Kaspiania" }
 422 = { "Kotais" "Kotais" }
 423 = { "Iberia Occidentalis" "Tiflis" }
-424 = { "Ardabil "Spandarion" }
+424 = { "Ardabil" "Spandarion" }
 426 = { "Orotan" "Orotan" }
 462 = { "Archaiopolis" "Phasis" }
 463 = "Siracia"
@@ -152,7 +152,7 @@
 1864 = { "Tricciana" "Limusion" }
 1882 = { "Hippo Regius" "Hippo Regius" }
 1933 = { "Barion" "Barion" }
-1934 = { "Grumention" "Blanda"
+1934 = { "Grumention" "Blanda" }
 1974 = "Lower Scythia"
 2195 = { "Nesis" "Nesis" }
 2196 = { "Asparos" "Bathys" }
