@@ -158,3 +158,13 @@
  vu_bogomilist_new_rebels_demand_desc:0 "State's religion has been opressing bogomilist communities for too long. It is time for reactionary uprising."
  vu_pagan_rebels_demand:0 "Supremacy of pagan faith"
  vu_pagan_rebels_demand_desc:0 "State's religion has been opressing native faith for too long. It is time for pagan reactionary uprising."
+ 
+ 
+ bon_religion_desc:0 "Bön is ancient, pre-Buddhist religion of Tibet. Its nature is animistic and shamanistic in nature, and consists of many deities. Its oroginal shape - Pre-Buddhist Bön - has gone through many reforms by taking influence from the spread of neighbor religions. First into Yungdrung Bon in 10th century and finally into New Bon around 14th century. Both times incorporating various aspects of Tibetan Buddhism and Buddhist schools of thoughts. In 1444 Bön remains dominant in mountainous Tibet and some regions of Nepal but it's long past its days of the greatest power."
+ bon: "Bön"
+ bon_rebels_title: "Religious"
+ bon_rebels_name: "$RELIGION$ Zealots"
+ bon_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ bon_rebels_army: "$RELIGION$ Army"
+ bon_rebels_demand: "Convert $COUNTRYNAME$"
+ bon_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
