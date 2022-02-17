@@ -1172,6 +1172,8 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  desc_msy_religious_defense:0 "Our religious state is under a threat of foreign conquest. We must mobilize our faithful men and stand strong against enemy invasion."
  caucasus_centralized_state:0 "Centralization of Caucasus States"
  desc_caucasus_centralized_state:0 "We have centralized the region of Caucasus and established strong administration. With that, we are ready to expand outwards."
+ vu_expanded_roads:0 "Expanded Road System"
+ desc_vu_expanded_roads:0 ""
  
  ##########################
  # New province modifiers
@@ -1738,6 +1740,14 @@ gulf_of_mexico_estuary_modifier:0 "Gulf of Mexico"
  caucasus_secure_south.tooltip:0 "5 Random owned provinces in Caucasia region will receive 1 base tax, 1 base production and 1 base manpower"
  caucasus_raid_black_sea_title:0 "Raid Black Sea Coast"
  caucasus_raid_black_sea_desc:0 "Raid or sieze strategic ports around the Black Sea to assert our naval dominance in these waters and bring all sorts of treasury to our nation."
+ caucasus_build_roads_title:0 "Build Roads"
+ caucasus_build_roads_desc:0 "Found intricate road network so we can better navigate around the region of Caucasus. This will also improve communication for our people and the economy."
+ caucasus_build_roads.tooltip:0 "Every province that fulfills the requirements for this mission will receive special modifier for 40 years."
+ caucasus_spread_beliefs_title:0 "Spread Our Beliefs"
+ caucasus_spread_beliefs_desc:0 "Tribes of caucasus follow many different religions and traditions. From various branches of Christianity and Islam, to many local pagan faiths. If we want to rule unified region we must ensure that most of our people follow one faith."
+ caucasus_spread_culture_title:0 "Spread Our Culture"
+ caucasus_spread_culture_desc:0 "Caucasus is home to so many different culture groups and traditions. To govern this region firmly and effectively we must spread our cultural heritage onto others so that most of Caucasus adopts our ways."
+ 
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
  bt_establish_newfoundland_colony_title:0 "Establish a colony in Newfoundland"

@@ -160,6 +160,68 @@ caucasus_missions_1 = {
 			}
 		}
 	}
+	
+	caucasus_spread_beliefs = {
+		icon = convert_the_holy_lands
+		required_missions = { }
+		position = 5
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 15
+				region = caucasia_region
+				has_owner_religion = yes
+				NOT = { unrest = 0 }
+			}
+			num_of_owned_provinces_with = {
+				value = 15
+				region = caucasia_region
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+			NOT = { average_autonomy_above_min = 5 }
+			OR = {
+				religious_unity = 0.95
+				num_of_missionaries = 2
+			}
+		}
+		effect = {
+			change_adm = 1
+			add_prestige = 10
+			add_patriarch_authority = 0.2
+			add_harmony = 10
+			add_piety = 20
+			add_papal_influence = 25
+			add_authority = 10
+			add_karma = 10
+			add_church_power = 20
+		}
+	}
+	
+	caucasus_spread_culture = {
+		icon = mission_alliances
+		required_missions = { caucasus_spread_beliefs }
+		position = 6
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 15
+				region = caucasia_region
+				has_owner_religion = yes
+				has_owner_culture = yes
+				NOT = { unrest = 0 }
+			}
+			NOT = { average_autonomy_above_min = 5 }
+			dominant_culture = ROOT
+			num_accepted_cultures = 2
+		}
+		effect = {
+			add_stability = 1
+			add_dip_power = 100
+			add_horde_unity = 50
+			change_government_reform_progress = 100
+		}
+	}
 }
 
 caucasus_missions_2 = {
@@ -309,6 +371,44 @@ caucasus_missions_2 = {
 		}
 	}
 	
+	caucasus_build_roads = {
+		icon = construct_the_kiel_canal
+		required_missions = { }
+		position = 4
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 15
+				region = caucasia_region
+				OR = {
+					has_building = road_system
+					has_building = canal_system
+				}
+				base_tax = 5
+			}
+		}
+		effect = {
+			add_mercantilism = 2
+			custom_tooltip = caucasus_build_roads.tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							has_building = road_system
+							has_building = canal_system
+						}
+						base_tax = 5
+						region = caucasia_region
+					}
+					add_province_modifier = {
+						name = vu_expanded_roads
+						duration = 14600 #40 years
+						hidden = no
+					}		
+				}
+			}
+		}
+	}
+	
 	caucasus_invade_crimea = {
 		icon = mission_cossack_cavalry
 		required_missions = { caucasus_into_steppe }
@@ -449,12 +549,13 @@ caucasus_missions_2 = {
 			}
 			285 = { add_center_of_trade_level = 1 }
 			random_owned_province = {
-				limit = { has_port = yes }
-				ROOT = {
-					create_flagship = {    
-						name = "Caucasus"
-						type = light_ship
-					}
+				limit = { 
+					has_port = yes 
+					has_dlc = "Golden Century" 
+				}
+				create_flagship = {    
+					name = "Caucasus"
+					type = light_ship
 				}
 			}
 		}
