@@ -3,7 +3,7 @@
 owner = LWA
 controller = LWA
 culture = nepali
-religion = vajrayana
+religion = bon
 capital = "Yuksom"
 trade_goods = wool
 hre = no
@@ -23,6 +23,7 @@ discovered_by = chinese
 1609.1.1 = {
 	owner = SKK
 	controller = SKK
+	religion = vajrayana
 }
 1670.1.1 = { capital = "Rabdentse" }
 #1789 #Gorkha

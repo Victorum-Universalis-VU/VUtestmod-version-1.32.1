@@ -5669,6 +5669,10 @@ bagan_temples = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
@@ -5711,6 +5715,10 @@ bagan_temples = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
@@ -5741,6 +5749,10 @@ bagan_temples = {
 			}
 			AND = {
 				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = bon
 				has_owner_religion = yes
 			}
 			AND = {
@@ -6527,6 +6539,10 @@ jokhang_temple = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
@@ -6569,6 +6585,10 @@ jokhang_temple = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
@@ -6598,6 +6618,10 @@ jokhang_temple = {
 			}
 			AND = {
 				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = bon
 				has_owner_religion = yes
 			}
 			AND = {
@@ -16929,6 +16953,10 @@ swayambhunath = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
@@ -16966,6 +16994,10 @@ swayambhunath = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = hinduism
 				has_owner_religion = yes
 				owner = {
@@ -16994,6 +17026,10 @@ swayambhunath = {
 			}
 			AND= {
 				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = bon
 				has_owner_religion = yes
 			}
 			AND = {
