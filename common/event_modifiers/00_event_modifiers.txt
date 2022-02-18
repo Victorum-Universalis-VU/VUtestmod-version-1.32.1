@@ -1591,6 +1591,13 @@ caucasus_centralized_state = {
 	unjustified_demands = -0.15
 	land_morale = 0.10
 }
+
+vu_expanded_roads = {
+	local_friendly_movement_speed = 0.05
+	local_production_efficiency = 0.075
+	local_prosperity_growth = 0.1
+	trade_value_modifier = 0.1
+}
 	
 
 ################
