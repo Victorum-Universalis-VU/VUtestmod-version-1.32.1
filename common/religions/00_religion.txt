@@ -2720,7 +2720,7 @@ eastern = {
 		
 		country = {
 			shock_damage_received = -0.10
-			yearly_corruption = -0.5
+			yearly_corruption = -0.01
 			tolerance_heretic = 1
 			harsh_treatment_cost = 0.2
 			same_culture_advisor_cost = -0.15
@@ -2728,7 +2728,7 @@ eastern = {
 
 		country_as_secondary = {
 			global_unrest = -1
-			yearly_corruption = -0.5
+			yearly_corruption = -0.01
 			innovativeness_gain = 0.5
 			tolerance_heathen = 1
 			same_culture_advisor_cost = -0.05
