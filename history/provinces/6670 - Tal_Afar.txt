@@ -15,6 +15,7 @@ is_city = yes
 
 add_core = IRQ
 add_core = BHT
+add_core = SIN
 
 discovered_by = east_african
 discovered_by = muslim

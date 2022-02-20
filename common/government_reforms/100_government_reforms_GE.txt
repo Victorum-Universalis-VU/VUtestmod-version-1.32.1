@@ -1568,10 +1568,16 @@
 		icon = church
 		allow_normal_conversion = yes
 		potential = {
-			religion = orthodox
+			OR = {
+				religion = orthodox
+				religion = monothelite
+			}
 		}
 		trigger = {
-			religion = orthodox
+			OR = {
+				religion = orthodox
+				religion = monothelite
+			}
 		}
 		modifiers = {
 			yearly_patriarch_authority = 0.005

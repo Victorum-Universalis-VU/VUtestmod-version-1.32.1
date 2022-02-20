@@ -165,7 +165,7 @@ nestorian_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "vu_nestorian_rebels_demand"
+	demands_description = "nestorian_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {		

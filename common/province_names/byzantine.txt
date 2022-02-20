@@ -767,6 +767,9 @@
 8217 = "Sebastion"
 8219 = "Lower Pyretus"
 8220 = { "Bastarnia" "Piroboridava" }
+8412 = "Soran"
+8413 = "Hakkarion"
+8414 = { "Phasianoi" "Phasianoi" }
 8454 = { "Aethalia" "Aethalia" } #Elba
 8735 = { "Sebaste" "Sebaste" }
 8740 = { "Turris Tamalleni" "Kabylion" }

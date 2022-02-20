@@ -291,3 +291,4 @@
 6015 = { "Büyük Exuma" "Selim'in Kasabasi" }
 6016 = { "Rum Çay Adasi" "Liman Süleyman" }
 6017 = { "Çarpik ada" "Selim Kasabasi" }
+8414 = { "Hasankale" "Pasinler" }
