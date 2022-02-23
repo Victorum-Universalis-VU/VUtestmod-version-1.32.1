@@ -111,9 +111,11 @@ country_decisions = {
 			    MZB = { inherit = LGH }
 			    TGT = { inherit = OGL }
 			    FZA = { inherit = BSM }
-			    #Anatolia
+			    #Anatolia & Middle East
 			    KAR = { inherit = ALI }
 			    BTL = { inherit = BHT }
+			    QAR = { inherit = SIN }
+			    HAK = { inherit = SRN }
 			    #Baltic
 			    LIV = {
 			    	inherit = OSL

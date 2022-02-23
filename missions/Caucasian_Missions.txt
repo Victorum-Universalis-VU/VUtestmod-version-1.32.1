@@ -560,6 +560,36 @@ caucasus_missions_2 = {
 			}
 		}
 	}
+	
+	caucasus_unite_home_land = {
+		icon = mission_unite_home_region
+		required_missions = { caucasus_secure_south }
+		position = 7
+		provinces_to_highlight = {
+			region = caucasia_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			caucasia_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			capital_scope = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			add_country_modifier = {
+				name = caucasus_centralized_state
+				duration = 7300
+			}
+		}
+	}
 }
 
 caucasus_missions_3 = {
