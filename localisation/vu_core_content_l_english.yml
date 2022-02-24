@@ -1178,6 +1178,8 @@
  desc_vu_reykjavik_base:0 "Reykjavik possesses strong military structures on its coast."
  vu_developing_nation_1:0 "Developing the Nation"
  desc_vu_developing_nation_1:0 "Our country experiences increased efforts and interest in development."
+ vu_modernized_nation_1:0 "Modernization of the Nation"
+ desc_vu_modernized_nation_1:0 "Our nation is undergoing a process of modernization, and increased technological and cultural advancements."
  
  ##########################
  # New province modifiers
@@ -1718,6 +1720,10 @@
  ice_volcanic_mining_title:0 "Invest in Volcanic Mines"
  ice_volcanic_mining_desc:0 "Constant volcanic activity of the island, while dangerous, gives us potential access to precious minerals. If we can expand mining on the island, we should expect significant economic boost."
  iceland_sulfur:0 "Icelandic Sulfur"
+ ice_modernize_country_title:0 "Modernize the Country"
+ ice_modernize_country_desc:0 "Modernized nation that is up-to-date with the rest of Western Europe shall be created."
+ ice_consolidate_helluland_title:0 "Consolidate all Helluland"
+ ice_consolidate_helluland_desc:0 "We must take all the region of Helluland and establish strong permanent presence in all of its areas. The strong outposts in the region will make excellent base of operation in expanding into vile western forests."
  
  #Generic missions for Caucasia
  caucasus_conquer_west_title:0 "Conquer Western Lands"

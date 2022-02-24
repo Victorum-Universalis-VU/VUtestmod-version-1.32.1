@@ -1608,6 +1608,18 @@ vu_reykjavik_base = {
 vu_developing_nation_1 = {
 	development_cost = -0.1
 }
+
+vu_modernized_nation_1 = {
+	global_prosperity_growth = 0.1
+	inflation_action_cost = -0.2
+	technology_cost = -0.1
+	idea_cost = -0.1
+	embracement_cost = -0.15
+	global_institution_spread = 0.1
+	advisor_pool = 1
+	female_advisor_chance = 0.15
+	monthly_reform_progress_modifier = 0.1
+}
 	
 
 ################
