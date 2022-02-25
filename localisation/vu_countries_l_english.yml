@@ -109,6 +109,8 @@
  SRN_ADJ:0 "Soran"
  HAK:0 "Hakkâri"
  HAK_ADJ:0 "Hakkâri"
+ CAA:0 "Cappadocia"
+ CAA_ADJ:0 "Cappadocian"
  EGH:0 "Enghien"
  EGH_ADJ:0 "Enghienan"
  ELW:0 "Elwangen"
