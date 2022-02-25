@@ -1620,6 +1620,14 @@ vu_modernized_nation_1 = {
 	female_advisor_chance = 0.15
 	monthly_reform_progress_modifier = 0.1
 }
+
+avaria_independence_effort = {
+	army_tradition_from_battle = 0.1
+	cavalry_power = 0.15
+	land_morale = 0.10
+	shock_damage_received = -0.05
+	land_maintenance_modifier = -0.25
+}
 	
 
 ################

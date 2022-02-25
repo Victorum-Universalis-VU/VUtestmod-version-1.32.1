@@ -1180,6 +1180,8 @@
  desc_vu_developing_nation_1:0 "Our country experiences increased efforts and interest in development."
  vu_modernized_nation_1:0 "Modernization of the Nation"
  desc_vu_modernized_nation_1:0 "Our nation is undergoing a process of modernization, and increased technological and cultural advancements."
+ avaria_independence_effort:0 "Avarian Independence Effort"
+ desc_avaria_independence_effort:0 ""
  
  ##########################
  # New province modifiers
@@ -1768,6 +1770,14 @@
  caucasus_spread_culture_desc:0 "Caucasus is home to so many different culture groups and traditions. To govern this region firmly and effectively we must spread our cultural heritage onto others so that most of Caucasus adopts our ways."
  caucasus_unite_home_land_title:0 "Consolidate the Region"
  caucasus_unite_home_land_desc:0 "All of the Caucasia Region shall be ours!"
+ avaria_assemble_army_title:0 "Assemble Army Force"
+ avaria_assemble_army_desc:0 "We must break free from our overlord. First thing that needs to be done in order to achieve it, is to recruit a formidable army we can fight with."
+ avaria_prepare_independence_title:0 "Prepare For Independence"
+ avaria_prepare_independence_desc:0 "To go and fight our overlord alone against all the odds would be foolish. We must make sure that we are well-prepared for such risk before we challenge our overlord."
+ avaria_free_title:0 "Liberate Avaria"
+ avaria_free_desc:0 "We shall be free! We shall be the rulers, not ruled-by!"
+ avaria_expand_state_title:0 "Dagestan & Circassia"
+ avaria_expand_state_desc:0 "To build strong state we need new lands. We shall start by gaining significant power in the North Caucasus."
  
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
