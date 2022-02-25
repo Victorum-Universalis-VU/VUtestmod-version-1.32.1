@@ -2218,6 +2218,16 @@ country_event = {
 				}
 				add_war_exhaustion = 4
 			}
+			every_country = {	#Countries that support Sweden will join
+				limit = {
+					OR = {
+						alliance_with = SWE
+						is_supporting_independence_of = SWE
+					}
+				}
+				join_all_offensive_wars_of = SWE
+				join_all_defensive_wars_of = SWE
+			}
 		}
 	}
 }
