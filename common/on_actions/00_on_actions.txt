@@ -104,6 +104,20 @@ on_startup = {
 			# set_global_flag = bt_loan_size_fixed
 		# }
 	}
+	if = {
+		limit = {
+			NOT = { is_year = 1552 }
+			NOT = { started_in = 1552.1.1 }
+		}
+		ZAZ = { override_country_name = ZAZ_WILD_FIELDS }
+	}
+	if = {
+		limit = {
+			is_year = 1552
+			started_in = 1552.1.1
+		}
+		ZAZ = { restore_country_name = yes }
+	}
 }
 
 # country
