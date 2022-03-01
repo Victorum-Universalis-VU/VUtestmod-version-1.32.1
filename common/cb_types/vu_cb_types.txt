@@ -107,7 +107,7 @@ unify_germany = {
 		culture_group = germanic
 		OR = {
 			tag = BRA
-			tag = PUR
+			tag = PRU
 		}
 		has_government_attribute = has_unify_germany_cb
 		

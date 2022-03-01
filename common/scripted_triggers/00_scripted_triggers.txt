@@ -2288,3 +2288,61 @@ has_not_any_exploration_ideas = {
 	NOT = { has_idea = legendary_voyagers }
 	NOT = { has_idea_group = ICE_ideas }
 }
+
+has_any_exploration_idea = {
+	OR = {
+		has_idea = quest_for_the_new_world
+		has_idea = call_of_our_forefathers
+		has_idea = tonga_oceanic_empire
+		has_idea = samoa_trade
+		has_idea = legendary_voyagers
+		has_idea_group = ICE_ideas
+	}
+}
+
+has_exempt_from_seize_land_for_estate_nobles = {
+	OR = {
+		has_estate_privilege = estate_nobles_levies
+		has_estate_privilege = estate_nobles_golden_liberty
+		has_estate_privilege = estate_nobles_decentralized_tribe
+		has_estate_privilege = estate_nobles_tribe_unification
+	}
+}
+has_exempt_from_seize_land_for_estate_brahmins = {
+	always = no	#Doesn't have Exempt from Seize Land privileges
+}
+has_exempt_from_seize_land_for_estate_burghers = {
+	always = no	#Doesn't have Exempt from Seize Land privileges
+}
+has_exempt_from_seize_land_for_estate_church = {
+	has_estate_privilege = estate_church_inwards_perfection
+}
+has_exempt_from_seize_land_for_estate_cossacks = {
+	has_estate_privilege = estate_cossacks_establish_the_cossack_regiments
+}
+has_exempt_from_seize_land_for_estate_dhimmi = {
+	always = no	#Doesn't have Exempt from Seize Land privileges
+}
+has_exempt_from_seize_land_for_estate_jains = {
+	always = no	#Doesn't have Exempt from Seize Land privileges
+}
+has_exempt_from_seize_land_for_estate_maratha = {
+	OR = {
+		has_estate_privilege = estate_maratha_levies
+		has_estate_privilege = estate_maratha_special_privilege
+	}
+}
+has_exempt_from_seize_land_for_estate_nomadic_tribes = {
+	always = no	#Doesn't have Exempt from Seize Land privileges
+}
+has_exempt_from_seize_land_for_estate_rajput = {
+	has_estate_privilege = estate_rajput_rajput_regiments
+}
+has_exempt_from_seize_land_for_estate_vaisyas = {
+	has_estate_privilege = estate_vaisyas_wartaxes
+}
+
+estate_has_exempt_from_seize_land_privilege = {
+	has_estate = $estate$
+	has_exempt_from_seize_land_for_$estate$ = yes
+}
