@@ -3,7 +3,7 @@
 owner = MAM
 controller = MAM
 culture = al_suryah_arabic
-religion = sunni
+religion = monothelite
 capital = "Tiberias"
 trade_goods = citrus
 hre = no
@@ -26,4 +26,5 @@ discovered_by = east_african
 	controller = TUR
 	add_core = TUR
 } # Part of the Ottoman empire
+1700.1.1 = { religion = sunni }
 1750.1.1 = { add_core = SYR }

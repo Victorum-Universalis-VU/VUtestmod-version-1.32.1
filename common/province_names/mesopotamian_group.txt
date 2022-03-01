@@ -70,3 +70,5 @@
 6644 = "Me-Turnat"
 6645 = { "Arrapakha" "Arrapakha" }
 6670 = { "Tell Rimah" "Qattara" }
+8412 = { "Soran" "Barzantu" }
+8413 = { "Hubushkia" "Hakkarati" }

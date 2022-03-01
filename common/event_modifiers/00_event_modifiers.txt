@@ -1598,6 +1598,36 @@ vu_expanded_roads = {
 	local_prosperity_growth = 0.1
 	trade_value_modifier = 0.1
 }
+
+vu_reykjavik_base = {
+	trade_value_modifier = 0.1
+	local_hostile_attrition = 2
+	local_ship_repair = 0.1
+}
+
+vu_developing_nation_1 = {
+	development_cost = -0.1
+}
+
+vu_modernized_nation_1 = {
+	global_prosperity_growth = 0.1
+	inflation_action_cost = -0.2
+	technology_cost = -0.1
+	idea_cost = -0.1
+	embracement_cost = -0.15
+	global_institution_spread = 0.1
+	advisor_pool = 1
+	female_advisor_chance = 0.15
+	monthly_reform_progress_modifier = 0.1
+}
+
+avaria_independence_effort = {
+	army_tradition_from_battle = 0.1
+	cavalry_power = 0.15
+	land_morale = 0.10
+	shock_damage_received = -0.05
+	land_maintenance_modifier = -0.25
+}
 	
 
 ################

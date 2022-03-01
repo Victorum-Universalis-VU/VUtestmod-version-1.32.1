@@ -560,6 +560,36 @@ caucasus_missions_2 = {
 			}
 		}
 	}
+	
+	caucasus_unite_home_land = {
+		icon = mission_unite_home_region
+		required_missions = { caucasus_secure_south }
+		position = 7
+		provinces_to_highlight = {
+			region = caucasia_region
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			caucasia_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			capital_scope = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			add_country_modifier = {
+				name = caucasus_centralized_state
+				duration = 7300
+			}
+		}
+	}
 }
 
 caucasus_missions_3 = {
@@ -1048,6 +1078,187 @@ caucasus_missions_4 = {
 					add_base_production = 1
 					add_base_manpower = 1
 				}
+			}
+		}
+	}
+}
+#################################
+#    END OF GENERIC MISSIONS    #
+#################################
+
+caucasus_missions_5_avaria = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = AVR
+	}
+	has_country_shield = yes
+	avaria_assemble_army = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 3
+		trigger = {
+			army_size_percentage = 1
+			num_of_cavalry = 1
+			manpower_percentage = 0.8
+			OR = {
+				num_of_generals = 1
+				is_heir_leader = yes
+				is_monarch_leader = yes
+			}
+			OR = {
+				stability = 1
+				liberty_desire = 25
+			}
+		}
+		effect = {
+			add_mil_power = 50
+			add_prestige = 10
+			define_advisor = {
+				type = army_reformer
+				skill = 2
+				culture = ROOT
+				religion = ROOT
+				cost_multiplier = 0.25
+			}
+		}
+	}
+	
+	avaria_prepare_independence = {
+		icon = mission_crusade_for_varna
+		required_missions = { avaria_assemble_army }
+		position = 5
+		trigger = {
+			manpower_percentage = 0.9
+			stability = 1
+			OR = {
+				AND = {
+					OR = {
+						liberty_desire = 60
+						any_country = {
+							is_supporting_independence_of = ROOT
+						}
+					}
+					OR = {
+						army_professionalism = 0.03
+						army_tradition = 20
+						army_size = 6
+					}
+					OR = {
+						diplomatic_reputation = 2
+						employed_advisor = {
+							category = DIP
+						}
+					}
+					overlord = {
+						has_spy_network_from = {
+							who = ROOT
+							value = 25
+						}
+					}
+				}
+				is_subject = no
+			}
+		}
+		effect = {
+			overlord = {
+				add_corruption = 2
+			}
+			change_mil = 1
+			add_stability = 1
+			create_general = { tradition = 70 }
+			add_treasury = 50
+			add_prestige = 10
+			add_army_tradition = 10
+			add_manpower = 1
+			add_ruler_modifier = { 
+				name = avaria_independence_effort
+				duration = -1  
+				hidden = no
+			}
+			2199 = {
+				add_claim = ROOT
+			}
+		}
+	}
+	
+	avaria_free = {
+		icon = mission_conquer_romania
+		required_missions = { avaria_prepare_independence }
+		position = 6
+		trigger = {
+			is_subject = no
+			OR = {
+				has_won_war_against = {
+					who = GAZ
+					max_years_since = 20
+				}
+				2199 = { owned_by = ROOT }
+			}
+		}
+		effect = {
+			add_stability = 1
+			add_splendor = 200
+			add_prestige = 25
+		}
+	}
+	
+	avaria_expand_state = {
+		icon = mission_recruit_the_cossacks
+		required_missions = { avaria_free }
+		position = 7
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2201
+				province_id = 5554
+				province_id = 5556
+				province_id = 5558
+				province_id = 5559
+				province_id = 2197
+				province_id = 2198
+				province_id = 2199
+				province_id = 463
+				province_id = 425
+				province_id = 3261
+				province_id = 3262
+				province_id = 4306
+				province_id = 6135
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				area = circassia_area
+				is_city = yes
+				is_state = yes
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				area = dagestan_area
+				is_city = yes
+				is_state = yes
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						area = circassia_area
+						area = dagestan_area
+					}
+					NOT = { owned_by = ROOT }
+				}
+				add_core = ROOT
+			}
+			astrakhan_area = {
+				add_permanent_claim = ROOT
+			}
+			lower_don_area = {
+				add_permanent_claim = ROOT
+			}
+			azov_area = {
+				add_permanent_claim = ROOT
 			}
 		}
 	}

@@ -193,6 +193,40 @@ vassal = {
 	end_date = 1469.2.4
 }
 
+vassal = {
+	first = QAR
+	second = SRN
+	start_date = 1444.1.1
+	end_date = 1469.2.4
+}
+
+vassal = {
+	first = QAR
+	second = HAK
+	start_date = 1444.1.1
+	end_date = 1469.2.4
+}
+
+vassal = {
+	first = PER
+	second = HAK
+	start_date = 1507.1.1
+	end_date = 1515.1.1
+}
+
+vassal = {
+	first = TUR
+	second = HAK
+	start_date = 1515.1.1
+	end_date = 1520.1.1
+}
+
+vassal = {
+	first = TUR
+	second = HAK
+	start_date = 1555.1.1
+	end_date = 1847.6.1
+}
 
 
 ############################################################

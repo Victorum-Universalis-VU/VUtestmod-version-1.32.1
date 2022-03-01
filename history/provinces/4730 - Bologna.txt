@@ -30,7 +30,6 @@ discovered_by = eastern
 
 #Second Shattering not used
 
-} 
 1506.1.1 = { 
 	owner = PAP 
 	controller = PAP

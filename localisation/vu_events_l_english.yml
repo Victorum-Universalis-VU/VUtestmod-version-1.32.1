@@ -247,4 +247,5 @@
  incident_belgian_revolt_member_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."
  incident_belgian_revolt_emperor_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."
 
- 
+ #Override country names
+ ZAZ_WILD_FIELDS: "Wild Fields"
