@@ -119,6 +119,5 @@ american_monarchy = {
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
 		militarised_society = yes
-		}
 	}
 }

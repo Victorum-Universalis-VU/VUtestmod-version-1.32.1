@@ -1331,7 +1331,6 @@ cb_force_tributary = {
 					}
 				}
 			}
-		}
 	}
 	
 	war_goal = take_capital_force_tributary
