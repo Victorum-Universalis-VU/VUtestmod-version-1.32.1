@@ -14533,6 +14533,7 @@ KHA_ideas = {
 	
 	bonus = {
 		land_maintenance_modifier = -0.05
+		leader_land_shock = 1
 	}
 	
 	trigger = {
@@ -14545,8 +14546,6 @@ KHA_ideas = {
 	}
 	ikh_mongol_uls = {
 		ae_impact = -0.15
-		may_establish_frontier = yes
-		auto_explore_adjacent_to_colony = yes
 	}
 	life_of_steppe_warrior = {
 		#land_attrition = -0.20 (effect taken in OIR_ideas)
@@ -14563,7 +14562,8 @@ KHA_ideas = {
 		movement_speed = 0.1
 	}
 	MNG_kheshig = {
-		leader_land_shock = 1
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
 	}
 }
 
