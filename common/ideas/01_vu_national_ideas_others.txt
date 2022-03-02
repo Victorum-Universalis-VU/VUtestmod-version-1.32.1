@@ -3247,3 +3247,51 @@ ASY_ideas = {
 		core_creation = -0.1
 	}
 }
+
+#Villarvatom ideas
+VLV_ideas = {
+	start = {
+		global_trade_power = 0.1
+		diplomatic_reputation = 1
+	}
+	
+	bonus = {
+		trade_steering = 0.1
+	}
+	
+	trigger = {
+		tag = VLV
+	}
+	free = yes
+	
+	vlv_trade = {
+		trade_efficiency = 0.05
+		global_ship_trade_power = 0.1
+	}
+	vlv_east_church = {
+		shock_damage_received = -0.075
+		land_morale = 0.075
+		tolerance_heathen = 2
+	}
+	vlv_idea_flow = {
+		idea_cost = -0.1
+		stability_cost_modifier = -0.05
+	}
+	vlv_against_pagans = {
+		warscore_cost_vs_other_religion = -0.1
+		global_heathen_missionary_strength = 0.02
+		fort_maintenance_modifier = -0.15
+	}
+	vlv_diplomats = {
+		diplomatic_upkeep = 1
+	}
+	vlv_st_thomas = {
+		religious_unity = 0.2
+		production_efficiency = 0.075
+	}
+	vlv_spice_and_tech = {
+		naval_morale = 0.1
+		discipline = 0.05
+		placed_merchant_power = 5
+	}
+}
