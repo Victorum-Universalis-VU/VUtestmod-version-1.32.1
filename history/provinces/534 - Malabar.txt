@@ -3,7 +3,7 @@
 owner = MAB
 controller = MAB
 culture = malayalam
-religion = hinduism
+religion = sunni	#Spread of Islam through trade
 capital = "Calicut"
 trade_goods = saffron
 hre = no

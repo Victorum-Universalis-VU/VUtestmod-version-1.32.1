@@ -1669,6 +1669,14 @@
  remove_primitive_nations_all_desc:0 "Removes all Primitive Nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
  restore_vanilla_status_title:0 "Restore Vanilla Setup"
  restore_vanilla_status_desc:0 "Resets the map removing nearly all non-vanilla nations. Tags added by the mod will be carved up and integrated to vanilla countries. This drastically reduces amount of nations and units on the map, therefore this decision is meant for those wishing to reduce lag and improve game performance at the cost of accuracy and realism. MAKE SURE YOU ARE NOT PLAYING ONE OF THOSE NATIONS OR WILL TOO DISAPPEAR!"
+ vu_restore_country_name_title:0 "Restore Country Name"
+ vu_restore_country_name_desc:0 "If your country has assigned custom name to it, this button will remove it. DO NOT SPAM!"
+ vu_restore_byz_name_title:0 "Reclaim the Basileia Title"
+ vu_restore_byz_name_desc:0 "We are not the ''Byzantine''. It's a fake term given to us by western usurpators. We are the Greek Romans and our caountry shall be properly called Basileia Rhomaion!" \n \n \nChanges country name to Basileia Rhomaion. Will not change tag. It is mostly cosmetic change."
+ VU_NAME_BYZ:0 "Basileía Rhomaíon"
+ vu_restore_tun_name_title:0 "Revert name to Tunisia"
+ vu_restore_tun_name_desc:0 "Your nation will no longer be called Ifriqiya but a more uniform name of 'Tunis' will be given to it. \n \n \nDoes not change country tag. It is mostly cosmetic change."
+ VU_NAME_TUN:0 "Tunis"
 
 
 
