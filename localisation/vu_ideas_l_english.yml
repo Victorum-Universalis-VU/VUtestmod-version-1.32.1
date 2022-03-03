@@ -1338,6 +1338,24 @@
  asy_expansion: "Assyrian Military Expansion"
  asy_expansion_desc: "."
  
+ VLV_ideas: "Villarvattom Ideas"
+ VLV_ideas_start: "Villarvattom Traditions"
+ VLV_ideas_bonus: "Villarvattom Ambition"
+ vlv_trade: "Indian Trade"
+ vlv_trade_desc: "Truly, the riches of Indian Subcontinent and sea routes of Indian Ocean await for our engagement."
+ vlv_east_church: "Christian Church of the East"
+ vlv_east_church_desc: "Being the last remants of christian missions to India from early medieval era, we must stand strong and continue our mission to christianize the land. Either by word or the sword!"
+ vlv_idea_flow: "Exchange of Ideas"
+ vlv_idea_flow_desc: "Contacts with both the western and eastern world will open many possibilities for technological and cultural advancement. Being on a crossroad between Middle East and mystical lands of Spice, places us in a perfect position to benefit from the flow of information."
+ vlv_against_pagans: "Alone Against Tousend Gods"
+ vlv_against_pagans_desc: "We are the only christian nation in the region dominated by polytheistic religions worshipping countless smaller gods and deities. Alone against the odds, we are obligated to resist and spread the true word."
+ vlv_diplomats: "Diplomatic Missions to Europe"
+ vlv_diplomats_desc: "Hey Europe! You thought we were long dead? We have prevailed and are ready to become a foothold of christian civilization in India."
+ vlv_st_thomas: "Legacy of Saint Thomas"
+ vlv_st_thomas_desc: "St. Thomas was a legendary missionary that brought christianity to India in the first centuries after the fall of Rome. We must continue his legacy by building a great state."
+ vlv_spice_and_tech: "Of Spice and Modernization"
+ vlv_spice_and_tech_desc: "Me dominate trade. Me sell big spices to Europe. Happy Europe give tech and western knowledge."
+ 
  
  #Helena stuff
  #Irish tweak
