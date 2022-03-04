@@ -63,12 +63,12 @@ monarchy = {
 				restoration_reform
 				#End of VU Additions
 				#ME
-				crusader_kingdom
-				khaganate
-				athenian_monarchy
-				german_kaiserreich
-				caliphate_reform_sunni
-				west_slavic_monarchy
+				#crusader_kingdom
+				#khaganate
+				#athenian_monarchy
+				#german_kaiserreich
+				#caliphate_reform_sunni
+				#west_slavic_monarchy
 				#GE
 				#Generics
 				elective_monarchy_reform
@@ -148,7 +148,7 @@ monarchy = {
 				#Start of EU4 Leviathan Dlc additions
 				uparaja_reform
 				#ME
-				sharia_reform
+				#sharia_reform
 				#GE
 				#Religous
 				papal_embassy_reform
@@ -619,12 +619,12 @@ monarchy = {
 		parliamentary_monarchy
 		#End of VU additions
 		#ME Legacy Governments
-		crusader_kingdom_legacy
-		khaganate_legacy
-		athenian_monarchy_legacy
-		german_kaiserreich_legacy
-		caliphate_sunni_legacy
-		west_slavic_legacy
+		#crusader_kingdom_legacy
+		#khaganate_legacy
+		#athenian_monarchy_legacy
+		#german_kaiserreich_legacy
+		#caliphate_sunni_legacy
+		#west_slavic_legacy
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other
@@ -656,7 +656,7 @@ monarchy = {
 		#GE
 		granadan_iqta_reform
 		crown_of_saint_wenceslaus
-		khaganate
+		#khaganate
 		empire_of_japan_reform
 	}
 
@@ -777,7 +777,7 @@ republic = {
 		#End of VU additions
 		prussian_republic_reform
 		#ME
-		caliphate_sunni_legacy
+		#caliphate_sunni_legacy
 	}
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
@@ -853,7 +853,7 @@ republic = {
 				egalite_reform
 				fraternite_reform
 				#ME
-				sharia_reform
+				#sharia_reform
 				#GE
 				demedici_dynasty_reform
 				support_borghese_reform
@@ -1185,7 +1185,7 @@ tribal = {
 				martial_society_reform
 				civil_society_reform
 				# ME Reforms:
-				sharia_reform
+				#sharia_reform
 				#GE
 				great_law_of_peace_reform
 				royal_society_reform
@@ -1346,7 +1346,7 @@ theocracy = {
 				mission_to_kill_pirates_reform
 				#teuton_drill
 				#ME Reforms
-				sharia_reform
+				#sharia_reform
 			}
 		}
 		divine_cause = {

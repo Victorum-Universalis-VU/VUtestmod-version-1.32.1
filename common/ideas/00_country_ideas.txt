@@ -312,7 +312,13 @@ SPA_ideas = {
 	}
 	
 	trigger = {
-		tag = SPA
+	    OR = {
+		    tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
+		}
 	}
 	free = yes		#will be added at load.
 
@@ -476,7 +482,16 @@ FRA_ideas = {
 	}	
 
 	trigger = {
-		tag = FRA
+	    OR = {
+		    tag = FRA
+			tag = BFR
+			tag = FSR
+			tag = FSE
+			tag = NPF
+			tag = OFR
+			tag = RVF
+			tag = TFR
+		}
 	}
 	free = yes		#will be added at load.
 	
