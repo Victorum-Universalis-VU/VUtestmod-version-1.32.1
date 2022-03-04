@@ -1182,6 +1182,12 @@
  desc_vu_modernized_nation_1:0 "Our nation is undergoing a process of modernization, and increased technological and cultural advancements."
  avaria_independence_effort:0 "Avarian Independence Effort"
  desc_avaria_independence_effort:0 ""
+ vu_norse_pagan_unhappy:0 "Norse Resistane"
+ dsc_vu_norse_pagan_unhappy:0 "Demands and needs of local norse communities were not met and now the area is openly rebelious against the overlord."
+ vu_norse_pagan_satisfied:0 "Satisfied Norse Demands"
+ desc_vu_norse_pagan_satisfied:0 "Demands of local norse communities were approved."
+ vu_norse_pagan_stalemate:0 "Diplomatic Compromise with Norse People"
+ desc_vu_norse_pagan_stalemate:0 "Diplomatic stalemate has been reached between unhappy norse communities and the government. Situation is still uneasy there."
  
  ##########################
  # New province modifiers
@@ -1669,6 +1675,14 @@
  remove_primitive_nations_all_desc:0 "Removes all Primitive Nations that should not be considered a proper state at this moment. This applies to most of America and Oceania but not only. Will also reduce lag of the game!"
  restore_vanilla_status_title:0 "Restore Vanilla Setup"
  restore_vanilla_status_desc:0 "Resets the map removing nearly all non-vanilla nations. Tags added by the mod will be carved up and integrated to vanilla countries. This drastically reduces amount of nations and units on the map, therefore this decision is meant for those wishing to reduce lag and improve game performance at the cost of accuracy and realism. MAKE SURE YOU ARE NOT PLAYING ONE OF THOSE NATIONS OR WILL TOO DISAPPEAR!"
+ vu_restore_country_name_title:0 "Restore Country Name"
+ vu_restore_country_name_desc:0 "If your country has assigned custom name to it, this button will remove it. DO NOT SPAM!"
+ vu_restore_byz_name_title:0 "Reclaim the Basileia Title"
+ vu_restore_byz_name_desc:0 "We are not the ''Byzantine''. It's a fake term given to us by western usurpators. We are the Greek Romans and our caountry shall be properly called Basileia Rhomaion!" \n \n \nChanges country name to Basileia Rhomaion. Will not change tag. It is mostly cosmetic change."
+ VU_NAME_BYZ:0 "Basileía Rhomaíon"
+ vu_restore_tun_name_title:0 "Revert name to Tunisia"
+ vu_restore_tun_name_desc:0 "Your nation will no longer be called Ifriqiya but a more uniform name of 'Tunis' will be given to it. \n \n \nDoes not change country tag. It is mostly cosmetic change."
+ VU_NAME_TUN:0 "Tunis"
 
 
 

@@ -352,9 +352,9 @@ trade_company_coromandel = {
 		1101 1248 #indian_ocean_islands_area
 		538 2085 4414 #kongu_area
 		2026 4415 4416 #tanjore_area
-		533 2031 4421 4422 4426 #mysore_area
+		533 2031 4421 4422 4426 8425 8426 #mysore_area
 		541 1949 2090 4423 4424 #rayalaseema_area
-		534 535 537 4410 4413 8422 8423 #malabar_area
+		534 535 537 4410 4413 8422 8423 8427 #malabar_area
 		531 2029 2030 2032 4427 #kanara_area
 		543 549 2084 2080 4425 #andhra_area 
 	}
