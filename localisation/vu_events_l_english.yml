@@ -210,6 +210,11 @@
  vu_pagan.2.b:0 "Those heretics must be purged"
  vu_pagan.2.c:0 "Catholicism has failed, we shall return to old gods of our fathers"
  vu_pagan.2.tooltip:0 "All catholic countries will be upset (-30) that we have turned to paganism"
+ vu_pagan.3.t:0 "Revolts among norse communities"
+ vu_pagan.3.d:0 "Certain province in our nation that is still mostly populated by the followers of norse paganism is growing progressively rebellious. They demand more freedom and respect from the government and from non-norse communities around them. The tensions grow high. If their demands are not met, they threaten to rebel and pillage the land. We must take action before conflict escalates."
+ vu_pagan.3.a:0 "We will not negotiate with pagans"
+ vu_pagan.3.b:0 "We are ready to agree to their demands"
+ vu_pagan.3.c:0 "We must reach a diplomatic comprimise"
  #Middle East flavor events
  vu_middle_east.1.t:0 "Aspand Rebellion in Iraq"
  vu_middle_east.1.d:0 "Aspand - relative of current ruling dynasty in Qara Qoyunlu is the leader of large-scale revolt in Lower Mesopotamia. He is a memeber of Iraqi dynastic line that has been centered around Baghdad for quite some time now. His predescessor - Shah Mehmed lead Iraq from 1412 but was pushed back by Aspand in 1433. From now on, Aspand ruled this land semi-independendly posing major problem to Qara Qoyunlu. Despite many pitty conflicts and battles, the rebelion is sill going on and old Aspand still controlls the majority of southern territories. Aspand does not have an heir and he's getting old, so his uprising may end very soon, but we cannnot expect the best outcome and do nothing."

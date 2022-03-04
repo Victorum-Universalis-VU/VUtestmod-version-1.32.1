@@ -1628,6 +1628,35 @@ avaria_independence_effort = {
 	shock_damage_received = -0.05
 	land_maintenance_modifier = -0.25
 }
+
+vu_norse_pagan_unhappy = {
+	attrition = 1
+	regiment_recruit_speed = 0.25
+	local_governing_cost = 0.2
+	local_prosperity_growth = -0.2
+	local_unrest = 4
+	local_autonomy = 0.04
+	local_tax_modifier = -0.25
+}
+
+vu_norse_pagan_satisfied = {
+	local_prosperity_growth = 0.1
+	regiment_recruit_speed = -0.1
+	local_governing_cost = -0.2
+	local_unrest = -2
+	local_tax_modifier = -0.1
+	local_production_efficiency = 0.1
+	local_missionary_strength = -0.03
+	local_manpower_modifier = -0.2
+}
+
+vu_norse_pagan_stalemate = {
+	attrition = 1
+	local_unrest = 2
+	local_tax_modifier = -0.1
+	local_missionary_strength = -0.02
+	local_production_efficiency = 0.05
+}
 	
 
 ################

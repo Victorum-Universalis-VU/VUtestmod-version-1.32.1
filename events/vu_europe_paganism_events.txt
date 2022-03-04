@@ -125,7 +125,7 @@ country_event = {	#Norse communities rise up on Iceland
 			tag = ICE
 		}
 		any_owned_province = {
-			religion = norse_pagan_freformed
+			religion = norse_pagan_reformed
 		}
 		is_year = 1455
 	}
@@ -188,6 +188,99 @@ country_event = {	#Norse communities rise up on Iceland
 					who = ROOT
 					modifier = turned_norse_pagan
 				}
+			}
+		}
+	}
+}
+
+country_event = {	#Norse people revolt
+	id = vu_pagan.3
+	title = vu_pagan.3.t
+	desc = vu_pagan.3.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+	
+	trigger = {
+		NOT = { religion = norse_pagan_reformed }
+		any_owned_province = {
+			religion = norse_pagan_reformed
+		}
+		is_year = 1455
+	}
+	
+	mean_time_to_happen = { #About 15 years
+		months = 180
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					religion = norse_pagan_reformed
+				}
+				save_event_target_as = vu_norse_revolt
+			}
+		}
+	}
+	
+	option = { #They must be punished
+		name = vu_pagan.3.a
+		ai_chance = { 
+			factor = 45
+			modifier = {
+				factor = 50
+				ruler_has_personality = cruel_personality
+			}
+		}
+		event_target:vu_norse_revolt = {
+			spawn_rebels = {
+				type = norse_pagan_reformed_rebels
+				size = 1
+			}
+			add_province_modifier = {
+				name = vu_norse_pagan_unhappy
+				duration = 1825
+				hidden = no
+			}
+		}
+	}
+	
+	option = { #Bend the knee
+		name = vu_pagan.3.b
+		ai_chance = {
+			factor = 45
+			modifier = {
+				factor = 0
+				ruler_has_personality = cruel_personality
+			}
+		}
+		add_prestige = -10
+		add_province_modifier = {
+			name = vu_norse_pagan_satisfied
+			duration = 1825
+			hidden = no
+		}
+	}
+	
+	option = { #Negotiate with them
+		name = vu_pagan.3.c
+		trigger = {
+			OR = {
+				ruler_has_personality = tolerant_personality
+				ruler_has_personality = kind_hearted_personality
+				ruler_has_personality = charismatic_negotiator_personality
+				ruler_has_personality = just_personality
+				ruler_has_personality = lawgiver_personality
+			}
+		}
+		highlight = yes
+		ai_chance = { factor = 100 }
+		add_adm_power = -10
+		add_dip_power = -10
+		event_target:vu_norse_revolt = {
+			add_province_modifier = {
+				name = vu_norse_pagan_stalemate
+				duration = 1825
+				hidden = no
 			}
 		}
 	}

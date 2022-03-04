@@ -1182,6 +1182,12 @@
  desc_vu_modernized_nation_1:0 "Our nation is undergoing a process of modernization, and increased technological and cultural advancements."
  avaria_independence_effort:0 "Avarian Independence Effort"
  desc_avaria_independence_effort:0 ""
+ vu_norse_pagan_unhappy:0 "Norse Resistane"
+ dsc_vu_norse_pagan_unhappy:0 "Demands and needs of local norse communities were not met and now the area is openly rebelious against the overlord."
+ vu_norse_pagan_satisfied:0 "Satisfied Norse Demands"
+ desc_vu_norse_pagan_satisfied:0 "Demands of local norse communities were approved."
+ vu_norse_pagan_stalemate:0 "Diplomatic Compromise with Norse People"
+ desc_vu_norse_pagan_stalemate:0 "Diplomatic stalemate has been reached between unhappy norse communities and the government. Situation is still uneasy there."
  
  ##########################
  # New province modifiers
