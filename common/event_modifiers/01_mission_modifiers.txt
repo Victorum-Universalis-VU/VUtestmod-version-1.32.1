@@ -184,6 +184,31 @@ convert_the_steppes = {
 	local_unrest = -2
 }
 
+convert_the_caucasus = {
+	local_missionary_strength = 0.02
+	local_unrest = -2
+}
+
+convert_transoxania = {
+	local_missionary_strength = 0.02
+	local_unrest = -2
+}
+
+convert_khorasan = {
+	local_missionary_strength = 0.02
+	local_unrest = -2
+}
+
+convert_persia = {
+	local_missionary_strength = 0.02
+	local_unrest = -2
+}
+
+conquest_of_scandinavia = {
+	land_morale = 0.1
+	land_attrition = -0.2
+}
+
 baltic_ambition_new = {
 	trade_efficiency = 0.15
 	global_sailors_modifier = 0.33
