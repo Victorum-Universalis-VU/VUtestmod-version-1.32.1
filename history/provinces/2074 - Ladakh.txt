@@ -24,7 +24,7 @@ discovered_by = chinese
 	controller = KSH
 	add_core = KSH
 } #Shah Mirs
-1525.1.1 = { religion = vajrayana }
+1525.1.1 = { religion = tantra }
 1570.1.1 = {
 	owner = LDK
 	controller = LDK

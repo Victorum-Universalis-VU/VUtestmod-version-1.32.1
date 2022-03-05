@@ -22,7 +22,7 @@ discovered_by = indian
 	owner = KSD
 	add_core = KSD 
 }
-1650.1.1 = { religion = vajrayana }
+1650.1.1 = { religion = tantra }
 1717.1.1 = {
 	owner = ZUN
 	controller = ZUN
