@@ -2095,7 +2095,7 @@ zabt_reform = {
 # parliamentary_reform defined in common file
 
 royal_decree_reform = {
-	icon = "king"
+	icon = "royal_decree"
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
@@ -2109,7 +2109,7 @@ royal_decree_reform = {
 }
 
 aristocratic_court_reform = {
-	icon = "soldiers_2"
+	icon = "aristocratic_court"
 	allow_normal_conversion = yes
 	modifiers = {
 		army_tradition_decay = -0.003
@@ -2286,7 +2286,7 @@ consulate_reform = {
 #separation_of_power
 
 political_absolutism_reform = {
-	icon = "judge"
+	icon = "political_absolutism"
 	allow_normal_conversion = yes
 	potential = {
 		is_revolutionary = no
