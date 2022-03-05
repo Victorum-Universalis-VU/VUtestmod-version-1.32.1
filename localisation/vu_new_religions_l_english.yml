@@ -194,3 +194,12 @@
  tantra_rebels_demand: "Convert $COUNTRYNAME$"
  tantra_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  
+ 
+ taoism_religion_desc:0 "Taoism or Daoism can be viewed as both school of philosophical thought and religion that both share ideas and concepts of Chinese origin and emphasize living in harmony with the Tao - natural order of the universe. In Taoism, the Tao is the source of everything and the ultimate principle underlying reality. Taoism teaches about the various disciplines for achieving perfection through self-cultivation. This can be done through the use of Taoist techniques and by becoming one with the unplanned rhythms of the all, called 'the way' or 'Tao'. Taoist ethics vary depending on the particular school, but in general tend to emphasize wu wei (action without intention), naturalness, simplicity, spontaneity and the Three Treasures - compassion, frugality and humility. In 1444 Taoism is scattered in various regions of China, mostly the southern part."
+ taoism: "Taoism"
+ taoism_rebels_title: "Religious"
+ taoism_rebels_name: "$RELIGION$ Zealots"
+ taoism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ taoism_rebels_army: "$RELIGION$ Army"
+ taoism_rebels_demand: "Convert $COUNTRYNAME$"
+ taoism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
