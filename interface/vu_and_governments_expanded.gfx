@@ -852,4 +852,40 @@ spriteTypes = {
 		name = "government_reform_west_africa_horseman"
 		texturefile = "gfx//interface//government_reform_icons//west_africa_horseman.dds"
 	}
+	
+	#VU additions
+	spriteType = {
+		name = "government_reform_general_war_commissariat"
+		texturefile = "gfx//interface//government_reform_icons//general_war_commissariat.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_arch_monarchy"
+		texturefile = "gfx//interface//government_reform_icons//arch_monarchy.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_parliamentary_monarchy"
+		texturefile = "gfx//interface//government_reform_icons//parliamentary_monarchy.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_royal_decree"
+		texturefile = "gfx//interface//government_reform_icons//royal_decree.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_political_absolutism"
+		texturefile = "gfx//interface//government_reform_icons//political_absolutism.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_aristocratic_court"
+		texturefile = "gfx//interface//government_reform_icons//aristocratic_court.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_professional_army"
+		texturefile = "gfx//interface//government_reform_icons//professional_army.dds"
+	}
 }

@@ -18,7 +18,7 @@
 	}
 
 	arch_monarchy_reform = {
-		icon = "king"
+		icon = "arch_monarchy"
 		allow_normal_conversion = yes
 		valid_for_nation_designer = yes
 		nation_designer_cost = 10
@@ -8528,7 +8528,7 @@
 	}
 
 	professional_army_reform = {
-		icon = "soldiers"
+		icon = "professional_army"
 		allow_normal_conversion = yes
 		effect = {
 			change_variable = {
@@ -8940,7 +8940,7 @@
 
 
 	general_war_commissariat_reform = {
-		icon = "king"
+		icon = "general_war_commissariat"
 		allow_normal_conversion = yes
 		effect = {
 			change_variable = {
