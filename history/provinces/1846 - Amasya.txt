@@ -4,8 +4,8 @@ owner = CIK
 controller = CIK			#Very ambigious, 3 different sources all give different owners at this point. One says it was still under Empire of Trebizond, one says Turks had gotten control of the region by now, and other says region still under Canik.... Indirect sources 'suggest' this region was either extremely autonomous 
 add_core = CIK			#or independant from the Ottomans, and 'suggest' majority population was muslim Turks. Everyone does seem to seem to agree it was definitely under the Ottomans by the fall of Trebizond against Mehmed II in 1475
 add_core = TRE
-culture = turkish
-religion = sunni
+culture = pontic_greek		#Coastline still dominated by Greeks
+religion = orthodox
 capital = "Bayramli"
 trade_goods = naval_supplies			#famous for hazelnuts, timber, and orchards
 hre = no
@@ -37,4 +37,8 @@ discovered_by = nomad_group
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Civil war
 1513.1.1 = { revolt = {} controller = TUR }
+1700.1.1 = {
+	religion = sunni
+	culture = turkish
+}
 #1740.1.1 = { base_tax = 6 base_production = 6 } # The decentralizing effect of the provincial system

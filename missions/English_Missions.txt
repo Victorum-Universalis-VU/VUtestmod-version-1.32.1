@@ -26,16 +26,6 @@ eng_slot_1 = {
 
 		effect = {
 			give_permaclaims_for_mission = { mission=conquer_ireland }
-			give_permaclaims_for_mission = { mission=conquer_scotland }
-			if = {
-				limit = {
-					exists = SCO
-				}
-				add_casus_belli = {
-					target = SCO
-					type = cb_vassalize_mission
-				}
-			}
 		}
 	}
 
@@ -63,6 +53,16 @@ eng_slot_1 = {
 				add_province_modifier = {
 					name = "eng_irish_revolts"
 					duration = -1
+				}
+			}
+			give_permaclaims_for_mission = { mission=conquer_scotland }
+			if = {
+				limit = {
+					exists = SCO
+				}
+				add_casus_belli = {
+					target = SCO
+					type = cb_vassalize_mission
 				}
 			}
 		}
@@ -99,13 +99,6 @@ eng_slot_1 = {
 					tag = GBR
 				}
 				give_permaclaims_for_mission = { mission=eng_take_shetland_and_faro_isles }
-				iceland_area = {
-					limit = {
-					    NOT = { is_core = ROOT }
-					    NOT = { owned_by = ROOT }
-				    }
-				    add_permanent_claim = ROOT
-			    }
 			}
 		}
 	}
@@ -137,6 +130,13 @@ eng_slot_1 = {
 				name = "eng_rb_faro_coast"
 				duration = -1
 			}
+			iceland_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			greenland_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -153,7 +153,10 @@ eng_slot_1 = {
 		position = 5
 
 		provinces_to_highlight = {
-			area = greenland_area
+		    OR = {
+				area = iceland_area
+				area = greenland_area
+			}
 			NOT = { owned_by = ROOT }
 			has_discovered = ROOT
 		}
@@ -165,6 +168,9 @@ eng_slot_1 = {
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_greenland
+				iceland_area = {
+					has_discovered = ROOT
+				}
 				greenland_area = {
 					has_discovered = ROOT
 				}

@@ -61,6 +61,7 @@ country_event = {
 		NOT = { has_government_attribute = enables_divine_blood }
 		NOT = { has_country_flag = in_theocracy_heir_selection }
 		has_government_attribute = heir
+		is_lesser_in_union = no
 	}
 
 	immediate = {
@@ -227,7 +228,10 @@ country_event = {
 
 	option = {
 		name = theocracy.1.a		# A Local Noble
-		trigger = { NOT = { has_country_flag = KOL_secondogeniture_of_BAV } }
+		trigger = { 
+		    NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
+			is_lesser_in_union = no
+		}
 		if = {
 			limit = {
 				has_estate = estate_nobles
@@ -342,6 +346,7 @@ country_event = {
 				government = monarchy
 				has_regency = no
 				religion = ROOT
+				is_lesser_in_union = no
 			}
 		}
 		if = {
@@ -398,6 +403,7 @@ country_event = {
 				government = monarchy
 				has_regency = no
 				religion = ROOT
+				is_lesser_in_union = no
 			}
 			ROOT = { 
 				if = {
@@ -434,7 +440,10 @@ country_event = {
 
 	option = {
 		name = theocracy.1.c		# A Merchant's Son
-		trigger = { NOT = { has_country_flag = KOL_secondogeniture_of_BAV } }
+		trigger = { 
+		    NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
+			is_lesser_in_union = no
+		}
 		if = {
 			limit = {
 				has_estate = estate_burghers
@@ -533,7 +542,10 @@ country_event = {
 
 	option = {
 		name = theocracy.1.e		# A Talented Theologian
-		trigger = { NOT = { has_country_flag = KOL_secondogeniture_of_BAV } }
+		trigger = { 
+		    NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
+			is_lesser_in_union = no
+		}
 		if = {
 			limit = {
 				has_estate = estate_church
@@ -631,9 +643,8 @@ country_event = {
 		name = theocracy.1.f		# A Local Preacher
 		trigger = {
 			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
-			NOT = {
-				religion_group = muslim
-			}
+			NOT = {	religion_group = muslim	}
+			is_lesser_in_union = no
 		}
 		if = {
 			limit = {
@@ -744,6 +755,7 @@ country_event = {
 		trigger = {
 			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
 			religion = catholic
+			is_lesser_in_union = no
 		}
 		if = {
 			limit = {

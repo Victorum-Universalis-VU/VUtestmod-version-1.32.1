@@ -2538,7 +2538,7 @@ type={
 	}
 	object={
 		name="kiel_canal"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			2786.800 0.700 1924.100 
 		}
@@ -2548,7 +2548,7 @@ type={
 	}
 	object={
 		name="kiel_canal"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			2775.800 0.150 1922.750 
 		}
@@ -2558,7 +2558,7 @@ type={
 	}
 	object={
 		name="kiel_canal"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			2779.500 0.400 1925.650 
 		}
@@ -2568,7 +2568,7 @@ type={
 	}
 	object={
 		name="kiel_canal"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			2781.750 0.450 1923.000 
 		}
@@ -2578,7 +2578,7 @@ type={
 	}
 	object={
 		name="kiel_canal"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			2791.000 0.550 1923.000 
 		}
@@ -2588,7 +2588,7 @@ type={
 	}
 	object={
 		name="kiel_canal"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			2795.000 0.500 1925.000 
 		}
@@ -2598,7 +2598,7 @@ type={
 	}
 	object={
 		name="kiel_canal"
-		hidden_on_start=no
+		hidden_on_start=yes
 		position={
 			2798.500 0.200 1927.300 
 		}

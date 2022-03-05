@@ -9168,12 +9168,18 @@ basel_town_hall = {
     type = monument
 
     build_trigger = {
-        culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}		
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     on_built = {
     }
@@ -9182,21 +9188,33 @@ basel_town_hall = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}	
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     can_upgrade_trigger = {
 	    is_year = 1522
-		culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}	
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     keep_trigger = {
     }
@@ -9991,12 +10009,18 @@ chillon_castle = {
     type = monument
 
     build_trigger = {
-        culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}		
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     on_built = {
     }
@@ -10005,20 +10029,32 @@ chillon_castle = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}	
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     can_upgrade_trigger = {
-		culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}	
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     keep_trigger = {
     }
@@ -11487,12 +11523,18 @@ zytglogge = {
     type = monument
 
     build_trigger = {
-        culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}		
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     on_built = {
     }
@@ -11501,20 +11543,32 @@ zytglogge = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}	
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     can_upgrade_trigger = {
-		culture_group = germanic
 		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}	
-    }
+			AND = {
+				culture_group = germanic
+				OR = {
+					has_owner_culture = yes
+					has_owner_accepted_culture = yes
+				}
+			}
+			culture = romanch_culture
+			culture = arpitan
+		}
+	}
 
     keep_trigger = {
     }

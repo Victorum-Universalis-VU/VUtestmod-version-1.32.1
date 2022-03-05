@@ -7824,6 +7824,10 @@ mount_everest = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
+			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
@@ -7833,7 +7837,7 @@ mount_everest = {
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {	
-    always = no	
+		always = no	
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -16169,6 +16173,10 @@ masrur_temples = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
+			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
@@ -16201,6 +16209,10 @@ masrur_temples = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
+			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
@@ -16221,6 +16233,10 @@ masrur_temples = {
 			}
 			AND= {
 				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = bon
 				has_owner_religion = yes
 			}
 			AND= {
@@ -16650,6 +16666,10 @@ iron_pillar_of_delhi = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
+			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
@@ -16682,6 +16702,10 @@ iron_pillar_of_delhi = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
+			AND = {
+				religion = bon
+				has_owner_religion = yes
+			}
 			AND= {
 				religion = hinduism
 				has_owner_religion = yes
@@ -16702,6 +16726,10 @@ iron_pillar_of_delhi = {
 			}
 			AND= {
 				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = bon
 				has_owner_religion = yes
 			}
 			AND= {

@@ -49,7 +49,6 @@ add_permanent_province_modifier = {
 } # Held by the Dutch
 1644.1.1 = {	owner = POR
 	controller = POR
-	culture = portutupinambase
 	religion = catholic	  	
 }
 1677.1.1 = { unrest = 5 } # Jesuits are expelled from Maranhao

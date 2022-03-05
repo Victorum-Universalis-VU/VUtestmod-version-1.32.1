@@ -9,9 +9,9 @@ religion = sunni
 capital = "Kirkkake"			#not settled until the 16th century, but need a province here to prevent ugly borders, giant provinces, lopsided area balance etc.
 trade_goods = fruit
 hre = no
-base_tax = 1 
-base_production = 1 
-base_manpower = 1 
+base_tax = 2
+base_production = 2 
+base_manpower = 3
 is_city = yes
 
 discovered_by = western

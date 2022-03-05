@@ -10,7 +10,10 @@ monarchy = {
 				nayankara_reform
 				misl_confederacy_reform
 				rajput_kingdom
+				negusa_nagast
+				solomonic_empire
 				#Specific:
+				chinese_warlord
 				american_monarchy
 				grand_duchy_reform
 				daimyo
@@ -43,6 +46,8 @@ monarchy = {
 				#Start of EU4 Leviathan Dlc additions
 				siamese_absolutism
 				confucian_bureaucracy
+				musa_rule
+				mossi_federal_kingdom
 				#End of EU4 Leviathan Dlc additions
 				#Start of VU Additions
 				welsh_principality
@@ -58,12 +63,12 @@ monarchy = {
 				restoration_reform
 				#End of VU Additions
 				#ME
-				crusader_kingdom
-				khaganate
-				athenian_monarchy
-				german_kaiserreich
-				caliphate_reform_sunni
-				west_slavic_monarchy
+				#crusader_kingdom
+				#khaganate
+				#athenian_monarchy
+				#german_kaiserreich
+				#caliphate_reform_sunni
+				#west_slavic_monarchy
 				#GE
 				#Generics
 				elective_monarchy_reform
@@ -143,7 +148,7 @@ monarchy = {
 				#Start of EU4 Leviathan Dlc additions
 				uparaja_reform
 				#ME
-				sharia_reform
+				#sharia_reform
 				#GE
 				#Religous
 				papal_embassy_reform
@@ -590,6 +595,10 @@ monarchy = {
 		principality_legacy
 		tsardom_legacy
 		holy_state_legacy
+		negusa_nagast_legacy
+		solomonic_empire_legacy
+		musa_rule_legacy
+		mossi_federal_kingdom_legacy
 		#Start of BT additions
 		irish_clann_legacy
 		norman_lordship_legacy
@@ -610,12 +619,12 @@ monarchy = {
 		parliamentary_monarchy
 		#End of VU additions
 		#ME Legacy Governments
-		crusader_kingdom_legacy
-		khaganate_legacy
-		athenian_monarchy_legacy
-		german_kaiserreich_legacy
-		caliphate_sunni_legacy
-		west_slavic_legacy
+		#crusader_kingdom_legacy
+		#khaganate_legacy
+		#athenian_monarchy_legacy
+		#german_kaiserreich_legacy
+		#caliphate_sunni_legacy
+		#west_slavic_legacy
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other
@@ -647,7 +656,7 @@ monarchy = {
 		#GE
 		granadan_iqta_reform
 		crown_of_saint_wenceslaus
-		khaganate
+		#khaganate
 		empire_of_japan_reform
 	}
 
@@ -768,7 +777,7 @@ republic = {
 		#End of VU additions
 		prussian_republic_reform
 		#ME
-		caliphate_sunni_legacy
+		#caliphate_sunni_legacy
 	}
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
@@ -844,7 +853,7 @@ republic = {
 				egalite_reform
 				fraternite_reform
 				#ME
-				sharia_reform
+				#sharia_reform
 				#GE
 				demedici_dynasty_reform
 				support_borghese_reform
@@ -1138,6 +1147,12 @@ tribal = {
 		tribal_federation_legacy
 		steppe_horde_legacy
 		siberian_native_council
+		sacred_kingdom_legacy
+		tribal_confederacy_legacy
+		shaka_regime_legacy
+		matrilineal_system_legacy
+		feudal_tribe_legacy
+		great_man_legacy
 	}
 
 	reform_levels = {
@@ -1154,6 +1169,12 @@ tribal = {
 				stateless_society
 				polynesian_kingdom
 				polynesian_tribe
+				sacred_kingdom
+				tribal_confederacy
+				shaka_regime
+				matrilineal_system
+				feudal_tribe
+				great_man
 				#End of EU4 Leviathan Dlc additions
 				#GE
 				eghaevbo_administration_reform
@@ -1164,7 +1185,7 @@ tribal = {
 				martial_society_reform
 				civil_society_reform
 				# ME Reforms:
-				sharia_reform
+				#sharia_reform
 				#GE
 				great_law_of_peace_reform
 				royal_society_reform
@@ -1223,6 +1244,8 @@ tribal = {
 				tribe_becomes_republic_reform
 				tribe_becomes_theocracy_reform
 				tribe_becomes_horde_reform
+				tribe_remain_tribal_reform
+				tribe_tribal_unity
 				haudenosaunee_reform
 				recruit_cossacks_reform
 				feudal_vassals_reform
@@ -1323,7 +1346,7 @@ theocracy = {
 				mission_to_kill_pirates_reform
 				#teuton_drill
 				#ME Reforms
-				sharia_reform
+				#sharia_reform
 			}
 		}
 		divine_cause = {

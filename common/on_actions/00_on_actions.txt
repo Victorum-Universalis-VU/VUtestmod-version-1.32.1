@@ -104,6 +104,20 @@ on_startup = {
 			# set_global_flag = bt_loan_size_fixed
 		# }
 	}
+	if = {
+		limit = {
+			NOT = { is_year = 1552 }
+			NOT = { started_in = 1552.1.1 }
+		}
+		ZAZ = { override_country_name = ZAZ_WILD_FIELDS }
+	}
+	if = {
+		limit = {
+			is_year = 1552
+			started_in = 1552.1.1
+		}
+		ZAZ = { restore_country_name = yes }
+	}
 }
 
 # country
@@ -246,6 +260,7 @@ on_religion_change = {
 # country.
 on_secondary_religion_change = {
 	# Done from code: add_prestige = -50 (Define: CHANGE_SECONDARY_PRESTIGE_HIT)
+	on_secondary_religion_change_estate_privileges_effect = yes
 	every_owned_province = {
 		limit = { has_province_modifier = tengri_monastic_order }
 		remove_province_modifier = tengri_monastic_order
@@ -482,6 +497,15 @@ on_war_won = {
 				id = polynesian.17
 			}
 		}
+	}
+	if = {
+		limit = {
+			ROOT = {
+				religion = jewish
+				has_church_aspect = judaism_purim_teachings_aspect
+			}
+		}
+		add_church_power = 10
 	}
 	if = {
 		limit = {
@@ -845,6 +869,52 @@ on_siege_won_province = {
 		}
 		owner = { country_event = { id = center_of_revolution.1600 } }
 	}
+	if = {
+		limit = {
+			superregion = china_superregion
+			controller = {
+				has_government_attribute = has_unify_china_cb
+				OR = {
+					is_in_war = {
+						attacker_leader = this
+						casus_belli = cb_chinese_unification
+					}
+					is_in_war = {
+						defender_leader = this
+						casus_belli = cb_chinese_unification
+					}
+				}
+				NOT = { is_core = ROOT }
+			}
+		}
+		controller = { 
+			add_core = ROOT
+			remove_claim = ROOT
+		}
+	}
+    if = {
+		limit = {
+			superregion = europe_superregion
+			controller = {
+				has_government_attribute = has_unify_germany_cb
+				OR = {
+					is_in_war = {
+						attacker_leader = this
+						casus_belli = unify_germany
+					}
+					is_in_war = {
+						defender_leader = this
+						casus_belli = unify_germany
+					}
+				}
+				NOT = { is_core = ROOT }
+			}
+		}
+		controller = { 
+			add_core = ROOT
+			remove_claim = ROOT
+		}
+	}	
 }
 
 # province
@@ -1101,6 +1171,7 @@ on_monarch_death = {
 	}
 	burgundian_inheritance_start_effect = yes
 	ladislaus_postumus_king_died_effect = yes
+	joan_de_trastamara_king_died_effect = yes
 	#GE addition
 	if = {
 		limit = {
@@ -1182,6 +1253,7 @@ on_new_term_election = {
 	events = {
 		700		# Election event
 		elections.720		# Dutch Republic
+		elections.800	# Lottery election
 		pirates.1
 		elections.7001 #GE
 		#GE_electoral_monarchy.1
@@ -1210,6 +1282,7 @@ on_death_election = {
 	events = {
 		701		# Election event
 		elections.721		# Dutch Republic
+		elections.800	# Lottery election
 		flavor_tus.16 #Savonarola Leaves This World
 		elections.800	# Lottery election
 		elections.7002 #GE
@@ -1301,6 +1374,7 @@ on_heir_death = {
 		clr_ruler_flag = returned_from_sancaga_sikma_province
 	}
 	ladislaus_postumus_heir_died_effect = yes
+	joan_de_trastamara_heir_died_effect = yes
 	if = {
 		limit = { primary_culture = maori }
 		country_event = { id = polynesian.26 }
@@ -4623,51 +4697,61 @@ on_parliament_debate_succeeded = {
 
 # country
 on_harmonized_pagan = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.1
 	}
 }
 on_harmonized_christian = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.2
 	}
 }
 on_harmonized_muslim = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.3
 	}
 }
 on_harmonized_jewish_group = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.5
 	}
 }
 on_harmonized_zoroastrian_group = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.6
 	}
 }
 on_harmonized_dharmic = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.4
 	}
 }
 on_harmonized_mahayana = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.9
 	}
 }
 on_harmonized_buddhism = { #Theravada
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.8
 	}
 }
 on_harmonized_shinto = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.7
 	}
 }
 on_harmonized_vajrayana = {
+    on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.10
 	}
@@ -4815,31 +4899,57 @@ on_center_of_trade_downgrade = {
 }
 
 on_culture_promoted = {
+	on_culture_promoted_estate_privileges_effect = yes
+	judaism_on_culture_country_effect = yes
+	kongo_on_culture_country_effect = yes
+}
+
+on_culture_demoted = {
+	on_culture_demoted_estate_privileges_effect = yes
+	judaism_on_culture_country_effect = yes
+	kongo_on_culture_country_effect = yes
 	if = {
 		limit = {
-			has_estate_privilege = estate_church_one_faith_one_culture
+			has_country_modifier = plc_polish_lithuanian_union
+			OR = {
+				AND = {
+					primary_culture = polish
+					NOT = { accepted_culture = lithuanian }
+				}
+				AND = {
+					primary_culture = lithuanian
+					NOT = { accepted_culture = polish }
+				}
+				AND = {
+					OR = {
+						NOT = { accepted_culture = lithuanian }
+						NOT = { accepted_culture = polish }
+					}
+					NOT = { primary_culture = polish }
+					NOT = { primary_culture = lithuanian }
+				}
+			}
 		}
+		remove_country_modifier = plc_polish_lithuanian_union
+	}
+}
+
+on_primary_culture_changed = {
+	on_primary_culture_changed_privileges_effect = yes
+	judaism_on_culture_country_effect = yes										   
+	if = {
+		limit = {
+			has_country_modifier = kon_south_african_hegemony
+			NOT = { culture_group = kongo_group }
+		}
+		remove_country_modifier = kon_south_african_hegemony
 		every_owned_province = {
 			limit = {
-				has_province_modifier = estate_church_false_culture
-				has_owner_accepted_culture = yes
+				has_province_modifier = kon_south_african_hegemony_province
 			}
-			remove_province_modifier = estate_church_false_culture
-			if = {
-				limit = {
-					owner = {
-						religion = PREV
-					}
-				}
-				add_province_modifier = {
-					name = estate_church_united_faith_and_culture
-					duration = -1
-				}
-			}
+			remove_province_modifier = kon_south_african_hegemony_province
 		}
 	}
-	judaism_on_culture_promoted_effect = yes
-	kongo_on_culture_promoted_effect = yes
 }
 
 # FROM = Previous Country, ROOT = Province
@@ -5261,6 +5371,7 @@ on_estate_removed = {
 	}
 }
 
+##scope = colony province, FROM = owner country or province if there's a minority expulsion source
 on_colonist_boosting_colony = {
 	hidden_effect = {
 		if = {
@@ -5277,6 +5388,10 @@ on_colonist_boosting_colony = {
 						export_to_variable = {
 							which = vab_nativesize
 							value = trigger_value:native_size
+						}
+						multiply_variable = {
+							which = vab_nativesize
+							value = 100
 						}
 						check_variable = {
 							which = vab_colonysize
@@ -5313,6 +5428,10 @@ on_colonist_boosting_colony = {
 						export_to_variable = {
 							which = vab_nativesize
 							value = trigger_value:native_size
+						}
+						multiply_variable = {
+							which = vab_nativesize
+							value = 100
 						}
 						check_variable = {
 							which = vab_colonysize
@@ -5358,3 +5477,7 @@ on_force_conversion = {
 	#	}
 	#}
 }
+
+on_institution_embracement = {}
+on_national_focus_change = {}
+on_capital_moved = {}

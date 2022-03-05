@@ -88,6 +88,8 @@
  indos:0 "Indos"
  afrikaner_culture:0 "Afrikaaner"
  katsila:0 "Katsila"
+ #New South American Cultures
+ portutupinambase:0 "Portutupinambase"
  LBG:0 "Limburg"
  LBG_ADJ:0 "Limburgish"
  ZEE:0 "Zeeland"
@@ -112,6 +114,12 @@
  IRI:0 "Ineri"
  #New Cultures
  seminole:0 "Seminole"
+ #New cb text
+ #ALL_BRITISH_PROVS:0 "All Provinces in both German regions, including Alsace area"
+ #BRITISH_UNIFICATION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ war over German Hegemony"
+ ALL_GERMAN_PROVS:0 "All Provinces in both German regions, including Alsace area"
+ GERMAN_UNIFICATION_WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ war over German Hegemony"
+ #New Colonial Regions
  dutchcolonialsurinamername1:0 "Birth of a Surinamer Identity"
  dutchcolonialsurinamerdesc1:0 "The descendants of Dutch settlers and their slaves in the Guyanas has lead to a newly distinct culture and society develop over time."
  dutchcolonialsurinameroption1:0 "Interesting Development"
@@ -482,7 +490,7 @@
  urban_nurnberg:0 "Nurnberg"
  urban_kiel:0 "Kiel"
  urban_stettin:0 "Stettin"
- urban_rostock:0 "Nostock"
+ urban_rostock:0 "Rostock"
  urban_breslau:0 "Breslau"
  urban_wurzburg:0 "Wurzburg"
  urban_konigsberg:0 "Konigsberg"
@@ -3498,3 +3506,31 @@
  building_trench:0 "Trench"
  #Manufactories
  building_oil_well:0 "Oil Well"
+ 
+ # VU Russian Missions
+ tr_into_the_caucasus_title:0 "Into the Caucasus"
+ tr_into_the_caucasus_desc:0 "With Crimea under our control, let us now lay claim to the rich mineral lands to the south known as the Caucasus."
+ tr_conquest_of_persia_title:0 "Conquest of Persia"
+ tr_conquest_of_persia_desc:0 "If we are to maintain control of our newly gained Caucasian lands, then the ancient lands of Persia to the south must bear the brunt of our sabres. However, we shall not tolerate the heathen faiths there like Cyrus the Great but rather force conversion of the true Orthodox faith on our new subjects."
+ tr_conquest_of_khorasan_title:0 "The Great Game"
+ tr_conquest_of_khorasan_desc:0 "Now that most of Persia is in our hands, let us finish off our conquests there by seizing Khorasan before any foreign power can sneak up from the Indian Sub-continent. Let us win this 'Great Game!'."
+ tr_conquest_of_scandinavia_title:0 "Conquest of Scandinavia"
+ tr_conquest_of_scandinavia_desc:0 "Although Poland remains our staunchest rival, no other countries demise would please the throne more than that of Sweden's. For too long, the Swedes have remained a thorn at our side. Now is the time to finally pluck out that thorn and seize not only Sweden but Scandinavia for ourselves."
+ tr_conquer_transoxania_title:0 "Conquer Transoxania"
+ tr_conquer_transoxania_desc:0 "Let us finish off our conquest of Central Asia by conquering Transoxania."
+
+ 
+ # VU Russian Missions Rewards
+ convert_the_caucasus:0 "Convert the Caucasus"
+ desc_convert_the_caucasus:0 "The nomadic peoples of the Caucasus must be converted to our faith."
+ convert_persia:0 "Convert Persia"
+ desc_convert_persia:0 "The nomadic and heathen peoples of Persia must be converted to our faith."
+ convert_khorasan:0 "Convert Khorasan"
+ desc_convert_khorasan:0 "The nomadic and heathen peoples of Khorasan must be converted to our faith."
+ conquest_of_scandinavia:0 "Conquest of Scandinavia"
+ desc_conquest_of_scandinavia:0 "Conquering Scandinavia was difficult but we have learned lessons about attrition from the conflict."
+ convert_transoxania:0 "Convert Transoxania"
+ desc_convert_transoxania:0 "The nomadic and heathen peoples of Transoxania must be converted to our faith."
+
+ 
+ 

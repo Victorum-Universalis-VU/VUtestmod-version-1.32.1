@@ -11,9 +11,9 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-		  every_owned_province = {
-			cede_province = ---
-		  }
+			every_owned_province = {
+				cede_province = ---
+			}
 		}
 	}
 

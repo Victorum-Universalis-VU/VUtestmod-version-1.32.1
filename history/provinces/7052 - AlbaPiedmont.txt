@@ -34,7 +34,6 @@ discovered_by = eastern
 	remove_core = SPA
 }
 1648.1.1 = { hre = no }	#Peace of Westphalia, the 'Kingdom of Italy' definitively leaves the Holy Roman Empire
-}
 1708.6.30 = {
 	owner = SAV
 	controller = SAV

@@ -3,7 +3,7 @@
 owner = LDK
 controller = LDK
 culture = kashmiri
-religion = vajrayana
+religion = bon
 capital = "Leh"
 trade_goods = saffron
 hre = no
@@ -24,6 +24,7 @@ discovered_by = chinese
 	controller = KSH
 	add_core = KSH
 } #Shah Mirs
+1525.1.1 = { religion = vajrayana }
 1570.1.1 = {
 	owner = LDK
 	controller = LDK
