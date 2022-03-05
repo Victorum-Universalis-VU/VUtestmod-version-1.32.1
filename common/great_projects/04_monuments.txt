@@ -1309,15 +1309,7 @@ arunachalesvara_temple = {
 	build_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -1341,15 +1333,7 @@ arunachalesvara_temple = {
 	can_use_modifiers_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -1363,15 +1347,7 @@ arunachalesvara_temple = {
 	can_upgrade_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -2653,15 +2629,7 @@ fort_canning_hill = {
 	build_trigger = {
 		OR = {
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -2685,15 +2653,7 @@ fort_canning_hill = {
 	can_use_modifiers_trigger = {
 		OR = {
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -2708,15 +2668,7 @@ fort_canning_hill = {
 	    is_year = 1800  #British improvements
 		OR = {
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -7813,15 +7765,7 @@ mount_everest = {
 	can_use_modifiers_trigger = {	
             OR = {
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND = {
@@ -11836,15 +11780,7 @@ sigiriya = {
 	is_year = 1444
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -11868,15 +11804,7 @@ sigiriya = {
 	can_use_modifiers_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -11894,15 +11822,7 @@ sigiriya = {
 	can_upgrade_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -16162,15 +16082,7 @@ masrur_temples = {
 	build_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND = {
@@ -16198,15 +16110,7 @@ masrur_temples = {
 	can_use_modifiers_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND = {
@@ -16224,15 +16128,7 @@ masrur_temples = {
 	can_upgrade_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND = {
@@ -16413,15 +16309,7 @@ krishna_mandapam = {
 	build_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -16445,15 +16333,7 @@ krishna_mandapam = {
 	can_use_modifiers_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -16467,15 +16347,7 @@ krishna_mandapam = {
 	can_upgrade_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND= {
@@ -16655,15 +16527,7 @@ iron_pillar_of_delhi = {
 	build_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND = {
@@ -16691,15 +16555,7 @@ iron_pillar_of_delhi = {
 	can_use_modifiers_trigger = {
 		OR = {		
 			AND = {
-				religion = buddhism
-				has_owner_religion = yes
-			}
-			AND = {
-				religion = vajrayana
-				has_owner_religion = yes
-			}
-			AND= {
-				religion = mahayana
+				religion_group = buddhist_group
 				has_owner_religion = yes
 			}
 			AND = {

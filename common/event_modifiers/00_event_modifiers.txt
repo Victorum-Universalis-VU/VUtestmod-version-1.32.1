@@ -87,6 +87,36 @@ harmonized_yarsan = {
 	religion = yes
 }
 
+harmonized_balto_slavic_group = {
+	hostile_attrition = 1
+	religion = yes
+}
+
+harmonized_finnic_group = {
+	enemy_core_creation = 0.1
+	religion = yes
+}
+
+harmonized_slavic_group = {
+	promote_culture_cost = -0.2
+	religion = yes
+}
+
+harmonized_bon = {
+	tolerance_of_heathens_capacity = 1
+	religion = yes
+}
+
+harmonized_asian_pagan_group = {
+	core_decay_on_your_own = -0.15
+	religion = yes
+}
+
+harmonized_buddhist_group = {
+	global_unrest = -1
+	religion = yes
+}
+
 #####################
 # Province Modifier #
 #####################

@@ -18,7 +18,7 @@ christian = {
 	
 	catholic = {
 		color = { 221 221 219 }
-		icon = 1
+		icon = 50	#Icon number 1 now represents no religion
 		allowed_conversion = {
 			reformed
 			protestant
@@ -2574,49 +2574,7 @@ eastern = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 58 80 }
 
-	buddhism = { #Theravada
-		color = { 204 76 0 }
-		icon = 24
-		allowed_conversion = {
-			vajrayana
-			mahayana
-			sikhism
-		}
-		
-		country = {
-			prestige = 1
-			tolerance_heretic = 2
-			advisor_cost = -0.1
-			mercenary_cost = -0.20
-			years_of_nationalism = 5
-		}
-		
-		country_as_secondary = {
-			development_cost = -0.1
-			diplomats = 1
-			prestige = 1
-			tolerance_heretic = 2
-			tolerance_heathen = 1
-			advisor_cost = -0.1
-			mercenary_cost = -0.20
-			years_of_nationalism = 5
-		}
-		
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		harmonized_modifier = harmonized_buddhism
-		
-		uses_karma = yes
-	}
+	#buddhism = { } #Theravada #Theravada Moved to buddhist group
 	
 	state_shinto = {
 		color = { 255 40 20 }
@@ -2657,93 +2615,9 @@ eastern = {
 		
 	}
 	
-	vajrayana = {
-		color = { 204 76 76 }
-		icon = 25
-		allowed_conversion = {
-			buddhism #Theravada
-			taoism
-		}
-		country = {
-			global_missionary_strength = 0.005
-			legitimacy = 0.50
-			republican_tradition = 0.25
-			horde_unity = 0.25
-			devotion = 1
-			tolerance_heretic = 1
-			global_unrest = -1
-			land_morale = 0.05
-		}
-		
-		country_as_secondary = {
-			horde_unity = 1
-			tolerance_own = 1
-			legitimacy = 0.50
-			devotion = 1
-			global_unrest = -1
-			global_missionary_strength = -0.01
-		}
-		
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		uses_karma = yes
+	#vajrayana = { } #Vajrayana moved to buddhist group
 	
-		harmonized_modifier = harmonized_vajrayana
-	}
-	
-	mahayana = {
-		color = { 254 170 52 }
-		icon = 23
-		allowed_conversion = {
-			vajrayana
-			buddhism #Theravada
-			taoism
-			shinto
-		}
-		
-		country = {
-			global_missionary_strength = 0.01
-			tolerance_heretic = 2
-			prestige = 0.5 
-			idea_cost = -0.10
-			free_leader_pool = 1
-			global_autonomy = 0.02
-		}
-		
-		country_as_secondary = {
-			global_tax_modifier = 0.1
-			tolerance_heathen = 2
-			prestige = 0.5 
-			idea_cost = -0.10
-			free_leader_pool = 1
-			global_autonomy = 0.02
-			global_missionary_strength = 0.005
-		}
-		
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		harmonized_modifier = harmonized_mahayana
-		
-		heretic = { ZEN }
-		
-		uses_karma = yes
-	}
+	#mahayana = { } #Mahayana moved to buddhist group
 
 	confucianism = {
 		color = { 177 196 132 }
@@ -2824,7 +2698,7 @@ eastern = {
 	
 	taoism = {
 		color = { 62 55 65 }
-		icon = 39
+		icon = 51
 		allowed_conversion = {
 			mahayana
 			shinto
@@ -2861,51 +2735,8 @@ eastern = {
 	}
 	
 	#Bon religion
-	bon = {
-		color = { 67 203 186 }
-		icon = 48
-		allowed_conversion = {
-			mahayana
-			vajrayana
-			buddhism #Theravada
-		}
-		
-		country = {
-			shock_damage_received = -0.10
-			yearly_corruption = -0.01
-			tolerance_heretic = 1
-			harsh_treatment_cost = 0.2
-			same_culture_advisor_cost = -0.15
-		}
-
-		country_as_secondary = {
-			global_unrest = -1
-			yearly_corruption = -0.01
-			innovativeness_gain = 0.5
-			tolerance_heathen = 1
-			same_culture_advisor_cost = -0.05
-		}
-		
-		province = {
-			local_missionary_strength = -0.005
-			local_defensiveness = 0.1
-		}
-		
-		on_convert = {
-			change_religion = bon
-			add_prestige = -100
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN ANIMIST OLD_BON }
-		
-		uses_karma = yes
+	#bon = { } #Bon moved to its own group
 	
-		harmonized_modifier = harmonized_vajrayana
-	}
 	#New eastern religion
 	#wuism = {		#Not added yet
 	#	color = { 160 95 107 }
