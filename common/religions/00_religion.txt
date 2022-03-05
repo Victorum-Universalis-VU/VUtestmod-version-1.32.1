@@ -2624,9 +2624,9 @@ eastern = {
 		icon = 9
 
 		allowed_conversion = {
-				vajrayana
-				mahayana
-				taoism
+			vajrayana
+			mahayana
+			taoism
 		}
 		
 		country = {
@@ -2651,6 +2651,7 @@ eastern = {
 		
 		heretic = { TAOIST }
 		uses_harmony = yes
+		harmonized_modifier = harmonized_confucianism
 	}
 
 	shinto = {
@@ -2658,10 +2659,10 @@ eastern = {
 		icon = 10
 
 		allowed_conversion = {
-				vajrayana
-				mahayana
-				taoism
-				state_shinto
+			vajrayana
+			mahayana
+			taoism
+			state_shinto
 		}
 		
 		country = {
@@ -2697,31 +2698,30 @@ eastern = {
 	}
 	
 	taoism = {
-		color = { 62 55 65 }
+		color = { 79 73 95 }
 		icon = 51
 		allowed_conversion = {
 			mahayana
 			shinto
+			confucianism
 		}
 		country = {
 			global_unrest = -2
 			global_manpower_modifier = 0.15
 			ae_impact = -0.1
 			yearly_corruption = -1
-			innovativeness_gain = 0.5
-			idea_cost = -0.15
-			adm_tech_cost_modifier = -0.1
+			innovativeness_gain = 0.1
+			idea_cost = -0.1
+			adm_tech_cost_modifier = -0.05
 			heir_chance = 0.5
 		}
 
 		country_as_secondary = {
 			global_unrest = -1
 			global_manpower_modifier = 0.1
-			ae_impact = -0.1
-			yearly_corruption = -1
-			innovativeness_gain = 0.5
-			idea_cost = -0.1
-			adm_tech_cost_modifier = -0.1
+			innovativeness_gain = 0.05
+			idea_cost = -0.05
+			adm_tech_cost_modifier = -0.05
 			heir_chance = 0.5
 		}
 
@@ -2730,6 +2730,7 @@ eastern = {
 		}
 
 		heretic = { CONFUCIAN }
+		uses_harmony = yes
 		
 		harmonized_modifier = harmonized_taoism
 	}
