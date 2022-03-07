@@ -1,5 +1,6 @@
 namespace = bt_ayyubid_mission_events
 namespace = bt_angevin_mission_events
+namespace = vu_mission_events
 
 country_event = { #1 The Jewish of Jerusalem
 	id = bt_ayyubid_mission_events.1
@@ -188,5 +189,132 @@ country_event = { #2 The Eagle's Perch
 			}
 			move_capital_effect = yes
 		}
+	}
+}
+
+country_event = { #3 Government of Avaria
+	id = vu_mission_events.1
+	title = vu_mission_events.1.t
+	desc = vu_mission_events.1.d
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Remain normal government
+		name = vu_mission_events.1.a
+		change_government_reform_progress = 200
+		set_government_rank = 2
+		add_army_professionalism = 0.05
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+		change_innovativeness = 5
+	}
+	
+	option = { #Become steppe nomads
+		name = vu_mission_events.1.b
+		highlight = yes
+		change_mil = 1
+		change_government = tribal
+		add_government_reform = steppe_horde
+		add_government_reform = herders_of_the_steppe
+		add_horde_unity = 100
+		add_army_tradition = 30
+		add_stability = -1
+	}
+}
+
+country_event = { #4 Religion of Avaria
+	id = vu_mission_events.2
+	title = vu_mission_events.2.t
+	desc = vu_mission_events.2.d
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Remain current religion
+		name = vu_mission_events.2.a
+		change_government_reform_progress = 50
+		change_adm = 1
+		add_stability = 1
+		add_adm_power = 100
+		add_dip_power = 100
+		add_corruption = -2
+		add_inflation = -2
+	}
+	
+	option = { #Convert orthodox
+		name = vu_mission_events.2.b
+		change_religion = orthodox
+		capital_scope = {
+			change_religion = orthodox
+		}
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}
+		hidden_effect = { add_prestige = 50 } #Counters -100 from conversion command
+	}
+	
+	option = { #Convert miaphysite
+		name = vu_mission_events.2.c
+		change_religion = miaphysite
+		capital_scope = {
+			change_religion = miaphysite
+		}
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}
+		hidden_effect = { add_prestige = 50 } #Counters -100 from conversion command
+	}
+	
+	option = { #Convert nestorian
+		name = vu_mission_events.2.e
+		change_religion = nestorian
+		capital_scope = {
+			change_religion = nestorian
+		}
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}
+		hidden_effect = { add_prestige = 50 } #Counters -100 from conversion command
+	}
+	
+	option = { #Convert tengri
+		name = vu_mission_events.2.f
+		highlight = yes
+		change_religion = tengri_pagan_reformed
+		capital_scope = {
+			change_religion = tengri_pagan_reformed
+		}
+		add_mil_power = 100
+		add_stability = 1
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}
+		hidden_effect = { add_prestige = 50 } #Counters -100 from conversion command
+	}
+	
+	option = { #Convert jewish
+		name = vu_mission_events.2.g
+		highlight = yes
+		change_religion = jewish
+		capital_scope = {
+			change_religion = jewish
+		}
+		add_adm_power = 50
+		add_inflation = -2
+		add_country_modifier = {
+			name = "conversion_zeal"
+			duration = 3650
+		}
+		hidden_effect = { add_prestige = 50 } #Counters -100 from conversion command
 	}
 }

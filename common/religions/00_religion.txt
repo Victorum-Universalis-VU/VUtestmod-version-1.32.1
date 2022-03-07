@@ -2581,8 +2581,8 @@ eastern = {
 		icon = 10
 		
 		allowed_conversion = {
-				vajrayana
-				taoism
+			vajrayana
+			taoism
 		}
 		
 		country = {
@@ -2647,6 +2647,15 @@ eastern = {
 			republican_tradition = -0.5
 			horde_unity = -0.5
 			devotion = -0.1
+		}
+		
+		on_convert = {
+			change_religion = confucianism
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
 		}
 		
 		heretic = { TAOIST }
@@ -2727,6 +2736,15 @@ eastern = {
 
 		province = {
 			local_missionary_strength = -0.01
+		}
+		
+		on_convert = {
+			change_religion = taoism
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
 		}
 
 		heretic = { CONFUCIAN }

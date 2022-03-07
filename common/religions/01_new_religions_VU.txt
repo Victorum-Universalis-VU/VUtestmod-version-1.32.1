@@ -260,6 +260,7 @@ buddhist_group = {
 		}
 		
 		on_convert = {
+			change_religion = buddhism
 			add_prestige = -100
 			add_stability = -1
 			add_country_modifier = {
@@ -304,6 +305,7 @@ buddhist_group = {
 		}
 		
 		on_convert = {
+			change_religion = vajrayana
 			add_prestige = -100
 			add_stability = -1
 			add_country_modifier = {
@@ -349,6 +351,7 @@ buddhist_group = {
 		}
 		
 		on_convert = {
+			change_religion = mahayana
 			add_prestige = -100
 			add_stability = -1
 			add_country_modifier = {
@@ -395,6 +398,7 @@ buddhist_group = {
 		}
 		
 		on_convert = {
+			change_religion = tantra
 			add_prestige = -100
 			add_stability = -1
 			add_country_modifier = {
