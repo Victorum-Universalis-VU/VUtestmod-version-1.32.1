@@ -1794,6 +1794,10 @@
  avaria_free_desc:0 "We shall be free! We shall be the rulers, not ruled-by!"
  avaria_expand_state_title:0 "Dagestan & Circassia"
  avaria_expand_state_desc:0 "To build strong state we need new lands. We shall start by gaining significant power in the North Caucasus."
+ avaria_reform_government_title:0 "Steppe Legacy"
+ avaria_reform_government_desc:0 "With our continious expansion into steppes, we must ask ourselves whether we want to remain as we are right now or do we want to embrace nomadic lifestyle of our ancestors."
+ avaria_religion_reform_title:0 "Religious Reforms"
+ avaria_religion_reform_desc:0 "Do we want to return to the old gods Avars used to worship or do we want to find something else?"
  
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
