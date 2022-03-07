@@ -238,6 +238,19 @@
  vu_middle_east.5.d:0 "Heretics from militarist state of Mushasha, seeing our weakness, has sent us an ultimatum. They demand that we give up on our posessions in Lower Mesoppotamia area and cede those lands back to their holy state. How shall we respond to such outrageous demands?"
  vu_middle_east.5.a:0 "We are ravaged by rebellion, we must agree in our tough sitiation"
  vu_middle_east.5.b:0 "If those heretics want war, they will get war!"
+ #Missions events
+ vu_mission_events.1.t:0 "Reform of the Avarian State"
+ vu_mission_events.1.d:0 "As our nation expands and regains its long-lost glory we must face an important question - will we return to the old ways of life? Long time ago Avars were nomadic people just like the Tatars or Turks who would conquer their way all the way to Pannonian Basin. Shall we continue their legacy or shall we settle for modern lifestyle?"
+ vu_mission_events.1.a:0 "But I like my fancy dress!"
+ vu_mission_events.1.b:0 "Time to ride the horses and rule the steppe!"
+ vu_mission_events.2.t:0 "Matters of Religion"
+ vu_mission_events.2.d:0 "Oroginal Avars followed tengrism or shamanism but our people from Caucasus have adopted islam some time ago. It this the true way we shall keep or is there something more? Maybe it is time to reconsider our spiritual allignment and invite various scholars from all churches to decide which one will stick around... just like centuries ago great Khans did."
+ vu_mission_events.2.a:0 "Islam is the true way for sure"
+ vu_mission_events.2.b:0 "Orthodox missionaries are wise ones"
+ vu_mission_events.2.c:0 "Orthodoxy but the other branch please"
+ vu_mission_events.2.e:0 "Many steppe nomads tried nestorian, maybe we shall too"
+ vu_mission_events.2.f:0 "WE MUST RETURN TO THE OLD GODS"
+ vu_mission_events.2.g:0 "Jewish traditions sound neat"
  #Events for Prussia and Brandenburg
  vu_pru.1.t:0 "Unifying two thrones"
  vu_pru.1.d:0 "Now that Electorate of Brandenburg and Duchy of Prussia have been in close relation with each other for quite some time, we may take efforts to unite the two nations together and form one large Prussian State. The ties between two realms shall be thighten."
@@ -254,3 +267,4 @@
 
  #Override country names
  ZAZ_WILD_FIELDS: "Wild Fields"
+ ZAZ_WILD_FIELDS_ADJ: "Wild Fields"

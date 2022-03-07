@@ -1,25 +1,29 @@
-bon_rebels = {
+
+######################################################################
+# Vajrayana rebels. Disgruntled fanatics.
+######################################################################
+vajrayana_rebels = {
+
+	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
-	government = theocracy 				# Desires Theocracy
-	religion = bon
-	defection = none				# Defects to countries of their religion
+	government = theocracy 			# Desires Theocracy
+	religion = vajrayana
+	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
-	unit_transfer = yes
+	unit_transfer = no
 	gfx_type = culture_province
-	color = { 45 85 90 }
-
-	will_relocate = no
-
+	will_relocate = yes	
+	
 	resilient = no
 	reinforcing = yes
 	general = yes
 	smart = yes
 	
-	artillery = 0.1
-	infantry = 0.8
-	cavalry = 0.1
+	artillery = 0.0
+	infantry = 0.7
+	cavalry = 0.3
 	
 	morale = 1.1
 
@@ -31,7 +35,7 @@ bon_rebels = {
 	
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
-		factor = 1.5
+		factor = 1
 		modifier = {
 			factor = 0.5
 			is_overseas = yes
@@ -42,7 +46,7 @@ bon_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = bon }
+			NOT = { religion = vajrayana }
 		}
 		modifier = {
 			factor = 0.001
@@ -54,7 +58,7 @@ bon_rebels = {
 		}
 		modifier = {
 			factor = 5.0
-			owner = { has_country_flag = religious_turmoil }
+			owner = { has_disaster = religious_turmoil }
 		}		
 		modifier = {
 			factor = 2000
@@ -87,17 +91,22 @@ bon_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = bon
-			owner = { religion = bon }
+			religion = vajrayana
+			owner = { religion = vajrayana }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = bon }
+			NOT = { religion = vajrayana }
 			any_neighbor_province = {
-	 			religion = bon
+	 			religion = vajrayana
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
+		modifier = {
+			factor = 5
+			has_missionary = yes
+			religion = vajrayana
+		}
 		modifier = {
 			factor = 1.5
 			unrest = 2
@@ -127,9 +136,9 @@ bon_rebels = {
 			if = {
 				limit = {
 					OR = {
-						religion = bon
+						religion = vajrayana
 						is_reformation_center = yes
-						owner = { religion = bon }
+						owner = { religion = vajrayana }
 					}
 				}
 				add_province_modifier = {
@@ -139,15 +148,22 @@ bon_rebels = {
 			}
 			if = {
 				limit = {
-					NOT = { religion = bon }
+					NOT = { religion = vajrayana }
 					is_reformation_center = no
-					NOT = { owner = { religion = bon } }
+					NOT = { owner = { religion = vajrayana } }
 				}
-				change_religion = bon
+				change_religion = vajrayana
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
 				}
+			}
+		}
+		owner = {
+			change_estate_land_share = {
+				estate = estate_church
+				share = 10.0
+				province = ROOT
 			}
 		}
 	}
@@ -155,7 +171,8 @@ bon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			dominant_religion = bon
+			religion_group = buddhist_group
+			dominant_religion = vajrayana
 		}
 	}
 	
@@ -165,13 +182,20 @@ bon_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "bon_rebels_demand"
+	demands_description = "vajrayana_rebels_demand"
 	
 	# Country Scope	
-	demands_enforced_effect = {		
+	demands_enforced_effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = just_lost_to_rebels
+				duration = 10
+				hidden = yes
+			}
+		}
 		if = {
 			limit = {
-				NOT = { religion_group = asian_pagan_group }
+				NOT = { religion_group = buddhist_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -187,18 +211,41 @@ bon_rebels = {
 			}
 			add_stability = -1
 		}
-		if = {
+		else_if = {
 			limit = {
-				religion = bon
+				religion = vajrayana
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
 				duration = 3650
 			}
 		}
+		
+		else_if = {
+			limit = {
+				NOT = { religion = vajrayana }
+				dominant_religion = vajrayana
+			}
+			change_religion = vajrayana
+			force_converted = yes
+		}
+		else_if = {
+			limit = {
+				NOT = { religion = vajrayana }
+				NOT = { dominant_religion = vajrayana }
+				religion_group = buddhist_group
+				NOT = { has_country_modifier = heretic_tolerance }
+			}
+			add_country_modifier = {
+				name = "heretic_tolerance"
+				duration = 3650
+			}
+			add_stability = -1
+		}
+		else = { add_stability = -1 }
 		if = {
 			limit = {
-				religion = bon
+				religion = vajrayana
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {
@@ -214,28 +261,9 @@ bon_rebels = {
 				influence = 15
 			}
 		}
-		if = {
-			limit = {
-				NOT = { religion = bon }
-				dominant_religion = bon
-				NOT = { tag = PAP }
-			}
-			change_religion = bon
-			force_converted = yes
-		}
-		if = {
-			limit = {
-				NOT = { religion = bon }
-				NOT = { dominant_religion = bon }
-				NOT = { tag = PAP }
-				NOT = { has_country_modifier = heathen_tolerance_modifier }
-				religion_group = { NOT = asian_pagan_group }
-			}
-			add_country_modifier = {
-				name = "heathen_tolerance_modifier"
-				duration = 3650
-			}
-			add_stability = -1
+		change_estate_land_share = {
+			estate = estate_church
+			share = 10.0
 		}
 	}
 }
