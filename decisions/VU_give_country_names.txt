@@ -4,7 +4,7 @@
 country_decisions = {
 	vu_restore_country_name = { #Restore name of the country. Always active!
 		major = yes
-		potantial = { ai = no }
+		potential = { ai = no }
 		allow = { ai = no }
 		effect = {
 			restore_country_name = yes

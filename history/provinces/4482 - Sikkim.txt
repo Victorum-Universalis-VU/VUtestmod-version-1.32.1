@@ -23,7 +23,7 @@ discovered_by = chinese
 1609.1.1 = {
 	owner = SKK
 	controller = SKK
-	religion = vijrayana
+	religion = vajrayana
 }
 1670.1.1 = { capital = "Rabdentse" }
 #1789 #Gorkha
