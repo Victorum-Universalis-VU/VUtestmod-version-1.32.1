@@ -1222,6 +1222,7 @@
 						religion_group = eastern
 						religion_group = dharmic
 						religion_group = muslim
+						religion_group = buddhist_group
 						religion = animism
 					}
 					technology_group = chinese
@@ -1238,6 +1239,7 @@
 				religion_group = eastern
 				religion_group = dharmic
 				religion_group = muslim
+				religion_group = buddhist_group
 			}
 			technology_group = chinese
 		}
@@ -1269,6 +1271,7 @@
 				religion_group = eastern
 				religion_group = dharmic
 				religion_group = muslim
+				religion_group = buddhist_group
 				religion = animism
 			}
 			technology_group = chinese

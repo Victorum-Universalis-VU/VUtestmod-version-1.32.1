@@ -2087,7 +2087,10 @@ pangasinan_monarchy = { #Buddhist state that used Muslim titles.
 	trigger = {
 		government = monarchy
 		tag = PGS
-		religion_group = eastern
+		OR = {
+			religion_group = eastern
+			religion_group = buddhist_group
+		}
 	}
 }
 
