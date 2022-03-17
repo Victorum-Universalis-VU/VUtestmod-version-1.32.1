@@ -542,7 +542,10 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = JAP
-		war_with = RUS
+		OR = {
+		    war_with = RUS
+			war_with = TZR
+		}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -564,6 +567,12 @@ country_event = {
 				duration = 3650
 			}
 		RUS = {
+			add_country_modifier = {
+				name = "british_interference"
+				duration = 3650
+			}
+		}
+		TZR = {
 			add_country_modifier = {
 				name = "british_interference"
 				duration = 3650

@@ -678,6 +678,20 @@ lithuanian_missions_slot = {
 					target = RUS
 				}
 			}
+			if = {
+				limit = {
+					exists = TZR
+					valid_for_personal_unions_trigger = yes
+					TZR = {
+						valid_for_personal_unions_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = TZR
+				}
+			}
 			else_if = {
 				limit = {
 					exists = MOS
@@ -733,6 +747,19 @@ lithuanian_missions_slot = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					TZR = {
+						is_subject_of = ROOT
+						is_lesser_in_union = no
+					}
+				}
+				TZR = {
+					define_ruler = {
+						name = "Dmitry"
+					}
+				}
+			}
 			else_if = {
 				limit = {
 					MOS = {
@@ -753,6 +780,9 @@ lithuanian_missions_slot = {
 							is_subject_of = ROOT
 						}
 						RUS = {
+							is_subject_of = ROOT
+						}
+						TZR = {
 							is_subject_of = ROOT
 						}
 					}

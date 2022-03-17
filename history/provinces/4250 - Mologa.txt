@@ -1,4 +1,4 @@
-#4250 - Mologa
+#4250 - Rybnaya
 
 owner = MLL
 controller = MLL
@@ -9,7 +9,7 @@ base_tax = 8
 base_production = 8
 trade_goods = cloth			#locally important trading center between Volga and Baltics, choosing cloth as a generic well developed trade good
 base_manpower = 4
-capital = "Mologa"
+capital = "Rybnaya"
 is_city = yes
 add_core = MLL
 

@@ -325,6 +325,98 @@ granada_slot_2_missions = {
 					}
 				}
 			}
+			if = {
+			    limit = {
+					exists = BSP
+					BSP = {
+						is_neighbor_of = ROOT
+					}
+				}
+				BSP = {
+					custom_trigger_tooltip = {
+						tooltip = has_been_insulted_by_root
+						OR = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = insulted
+							}
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = scornfully_insulted
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = SPB
+					SPB = {
+						is_neighbor_of = ROOT
+					}
+				}
+				SPB = {
+					custom_trigger_tooltip = {
+						tooltip = has_been_insulted_by_root
+						OR = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = insulted
+							}
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = scornfully_insulted
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = BBS
+					BBS = {
+						is_neighbor_of = ROOT
+					}
+				}
+				BBS = {
+					custom_trigger_tooltip = {
+						tooltip = has_been_insulted_by_root
+						OR = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = insulted
+							}
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = scornfully_insulted
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = CSP
+					CSP = {
+						is_neighbor_of = ROOT
+					}
+				}
+				CSP = {
+					custom_trigger_tooltip = {
+						tooltip = has_been_insulted_by_root
+						OR = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = insulted
+							}
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = scornfully_insulted
+							}
+						}
+					}
+				}
+			}
 			else_if = {
 				limit = {
 					exists = SPA
@@ -347,50 +439,84 @@ granada_slot_2_missions = {
 						}
 					}
 				}
-				
 			}
 			army_size_percentage = 1
 		}
 		
-		effect = {
-			if = {
-				limit = {
-					OR = {
+		effect ={
+            if = {
+                limit = {
+                    OR = {
+                        AND = {
+                            exists = CAS
+                            CAS = {
+                                has_opinion_modifier = {
+                                    who = ROOT
+                                    modifier = scornfully_insulted
+                                }
+                            }
+                        }
+                        AND = {
+                            exists = SPA
+                            SPA= {
+                                has_opinion_modifier = {
+                                    who = ROOT
+                                    modifier = scornfully_insulted
+                                }
+                            }
+                        }
+                        AND = {
+                            exists = BSP
+                            BSP= {
+                                has_opinion_modifier = {
+                                    who = ROOT
+                                    modifier = scornfully_insulted
+                                }
+                            }
+                        }
 						AND = {
-							exists = CAS
-							CAS = {
-								has_opinion_modifier = {
-									who = ROOT
-									modifier = scornfully_insulted
-								}
-							}
-						}
+                            exists = SPB
+                            SPB = {
+                                has_opinion_modifier = {
+                                    who = ROOT
+                                    modifier = scornfully_insulted
+                                }
+                            }
+                        }
 						AND = {
-							exists = SPA
-							SPA = {
-								has_opinion_modifier = {
-									who = ROOT
-									modifier = scornfully_insulted
-								}
-							}
-						}
-					}
-				}
-				create_general = {
-					tradition = 100
-				}
-			}
-			else = {
-				create_general = {
-					tradition = 60
-				}
-			}
-			#Claims
-			give_permaclaims_for_mission = { mission=gra_reconquer_valencia }
-			give_permaclaims_for_mission = { mission=gra_reconquer_sevilla }
-		}
-		
-	}
+                            exists = BBS
+                            BBS = {
+                                has_opinion_modifier = {
+                                    who = ROOT
+                                    modifier = scornfully_insulted
+                                }
+                            }
+                        }
+						AND = {
+                            exists = CSP
+                            CSP = {
+                                has_opinion_modifier = {
+                                    who = ROOT
+                                    modifier = scornfully_insulted
+                                }
+                            }
+                        }
+                    }
+                }
+                create_general = {
+                    tradition = 100
+                }
+            }
+            else = {
+                create_general = {
+                    tradition = 60
+                }
+            }
+            #Claims
+            give_permaclaims_for_mission = { mission=gra_reconquer_valencia }
+            give_permaclaims_for_mission = { mission=gra_reconquer_sevilla }
+        }
+    }
 	
 	gra_reconquer_valencia = { #art
 		icon = mission_al-wadi_al-kabir

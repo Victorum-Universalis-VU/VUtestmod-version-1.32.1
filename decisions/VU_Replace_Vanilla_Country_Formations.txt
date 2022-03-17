@@ -1168,7 +1168,10 @@ country_decisions = {
 				tag = FSR
 				tag = FSE
 				tag = TFR 
-				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 			}
 			OR = { 
 				culture_group = french
@@ -3625,6 +3628,10 @@ country_decisions = {
 			NOT = { has_country_flag = formed_spain_flag }
 			NOT = { tag = IBE }
 			NOT = { tag = SPA }
+			NOT = { tag = BSP }
+			NOT = { tag = SPB }
+			NOT = { tag = BBS }
+			NOT = { tag = CSP }
 			NOT = { tag = ADU }
 			NOT = { tag = KNI }
 			NOT = { religion_group = muslim }			#Muslims go for Andalusia
@@ -3749,6 +3756,10 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = SPA }
+			NOT = { exists = BSP }
+			NOT = { exists = SPB }
+			NOT = { exists = BBS }
+			NOT = { exists = CSP }
 			NOT = { exists = IBE }			#Special, no doubling up on Iberia superpowers
 			NOT = { exists = ADU }			#Special, no doubling up on Iberia superpowers
 			is_nomad = no

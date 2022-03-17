@@ -742,6 +742,10 @@ exploration_ideas = {
 				tag = POR
 				tag = CAS
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 			}
 		}
 		modifier = {
@@ -751,6 +755,13 @@ exploration_ideas = {
 				tag = NED
 				tag = ENG
 				tag = FRA
+				tag = BFR
+				tag = FSE
+				tag = NPF
+				tag = OFR
+				tag = FSR
+				tag = RVF
+				tag = TFR
 				tag = KUR
 			}
 		}
@@ -947,12 +958,19 @@ expansion_ideas = {
 				tag = CAS
 				tag = POR
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 			}
 		}
 		modifier = {
 			factor = 10
 			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
-			tag = RUS
+			OR = {
+				tag = RUS
+				tag = TZR
+			}
 			num_of_cities = 20
 			any_owned_province = {
 				has_empty_adjacent_province = yes

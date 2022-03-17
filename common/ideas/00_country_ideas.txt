@@ -268,7 +268,10 @@ RUS_ideas = {
 	}
 
 	trigger = {
-		tag = RUS
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 	}
 	free = yes		#will be added at load.
 

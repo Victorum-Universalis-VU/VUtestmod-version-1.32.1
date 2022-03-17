@@ -6,6 +6,10 @@ spa_colonial_group = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
@@ -132,6 +136,10 @@ spa_colonial_group_rnw_off = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
@@ -308,6 +316,10 @@ spa_colonial_group_two = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
@@ -490,6 +502,10 @@ spa_colonial_group_two_rnw_off = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
@@ -536,6 +552,10 @@ spa_iberia_convert = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_dlc = "Golden Century" }
@@ -590,6 +610,10 @@ spa_colonial_group_three_rnw_off = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
@@ -636,6 +660,10 @@ spa_reconquista = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		NOT = { has_dlc = "Golden Century" }
 	}
@@ -818,6 +846,10 @@ spa_reconquista_por = {
 		OR = {
 			tag = CAS
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_dlc = "Golden Century" }

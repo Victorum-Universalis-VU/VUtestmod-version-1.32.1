@@ -772,8 +772,28 @@ eng_slot_3 = {
 					}
 				}
 				226 = {
-					owned_by = SPA
-					is_core = SPA
+				    OR = {
+					    AND = {
+						    owned_by = SPA
+							is_core = SPA
+						}
+						AND = {
+						    owned_by = BSP
+							is_core = BSP
+						}
+						AND = {
+						    owned_by = SPB
+							is_core = SPB
+						}
+						AND = {
+						    owned_by = BBS
+							is_core = BBS
+						}
+						AND = {
+						    owned_by = CSP
+							is_core = CSP
+						}
+					}
 				}
 			}
 		}

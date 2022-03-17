@@ -2,7 +2,10 @@ country_decisions = {
 
 	make_st_petersburg_capital = {
 		potential = {
-			tag = RUS
+		    OR = {
+			    tag = RUS
+				tag = TZR
+			}
 			is_institution_enabled = enlightenment
 			normal_or_historical_nations = yes
 			OR = {
@@ -58,7 +61,10 @@ country_decisions = {
 			NOT = {
 				has_mission = rus_patriarchate_mission
 			}
-			tag = RUS
+			OR = {
+			    tag = RUS
+				tag = TZR
+			}
 			normal_or_historical_nations = yes
 			OR = {
 				ai = no

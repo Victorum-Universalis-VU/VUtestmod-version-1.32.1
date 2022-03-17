@@ -336,6 +336,10 @@ country_decisions = {
 			NOT = { tag = FRA }
 			NOT = { tag = CEL }
 			NOT = { tag = SPA }
+			NOT = { tag = BSP }
+			NOT = { tag = SPB }
+			NOT = { tag = BBS }
+			NOT = { tag = CSP }
 			OR = {
 				culture_group = french
 				primary_culture = basque
@@ -706,6 +710,10 @@ country_decisions = {
 			NOT = { has_country_flag = formed_iberia_flag_btp }
 			NOT = { tag = IBE }
 			NOT = { tag = SPA }
+			NOT = { tag = BSP }
+			NOT = { tag = SPB }
+			NOT = { tag = BBS }
+			NOT = { tag = CSP }
 			NOT = { tag = ADU }
 			primary_culture = portugese
 		}
@@ -719,6 +727,10 @@ country_decisions = {
 		allow = {
 			NOT = { exists = IBE }
 			NOT = { exists = SPA }			#Special, no doubling up on Iberia superpowers
+			NOT = { exists = BSP }			#Special, no doubling up on Iberia superpowers
+			NOT = { exists = SPB }			#Special, no doubling up on Iberia superpowers
+			NOT = { exists = BBS }			#Special, no doubling up on Iberia superpowers
+			NOT = { exists = CSP }			#Special, no doubling up on Iberia superpowers
 			NOT = { exists = ADU }			#Special, no doubling up on Iberia superpowers
 			is_nomad = no
 			is_free_or_tributary_trigger = yes
@@ -1730,6 +1742,7 @@ country_decisions = {
 			owns_core_province = 275
 			NOT = { exists = MOS }
 			NOT = { exists = RUS }
+			NOT = { exists = TZR }
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				OR = {

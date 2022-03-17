@@ -87,7 +87,13 @@ revolutionary_spanish_republic = {
 
 	trigger = {
 		is_revolutionary_republic_trigger = yes
-		tag = SPA
+		OR = {
+		    tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
+		}
 	}
 }
 
@@ -2088,6 +2094,10 @@ pangasinan_monarchy = { #Buddhist state that used Muslim titles.
 		government = monarchy
 		tag = PGS
 		religion_group = eastern
+		OR = {
+			religion_group = eastern
+			religion_group = buddhist_group
+		}
 	}
 }
 

@@ -582,8 +582,16 @@ country_event = { #SPAIN INTERVENTION REVOLUTIONARY WAR
 			AND = {
 				tag = CAS
 				NOT = { exists = SPA }
+				NOT = { exists = BSP }
+				NOT = { exists = SPB }
+				NOT = { exists = BBS }
+				NOT = { exists = CSP }
 			}
 			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
 		}
 		is_subject = no
 		NOT = { alliance_with = GBR }

@@ -50,9 +50,19 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3085;7894;sea;8317;-1;-1;-1;-1;Nimes-Arles
 7438;7442;sea;1272;-1;-1;-1;-1;Isles of White-Portsmouth
 7438;234;sea;1272;-1;-1;-1;-1;Isles of White-Hampshire
-3243;2411;sea;3016;-1;-1;-1;-1;Nikitin-Mansur
+3243;2411;sea;3016;-1;-1;-1;-1;Nikitin-Zaporizhzhia
 3242;7256;sea;3017;-1;-1;-1;-1;Buhogard-Kremenchuk
-303;2418;sea;8366;-1;-1;-1;-1;Saratov-Ukek
+303;2418;sea;6358;-1;-1;-1;-1;Saratov-Ukek
+1971;466;sea;6357;-1;-1;-1;-1;Beljamen-Sarai
+8660;464;sea;8365;-1;-1;-1;-1;Ikryanoe-Astrakhan
+1081;473;sea;8366;-1;-1;-1;-1;Ikryanoe-Uryupin
+8663;5655;sea;6353;-1;-1;-1;-1;Cherepovets-Sheksna
+288;3264;sea;8362;-1;-1;-1;-1;Lower Don-Sarkel
+288;3265;sea;8363;-1;-1;-1;-1;Lower Don-Shir
+7196;2411;sea;3016;-1;-1;-1;-1;Ekaterinoslav-Zaporizhzhia
+3243;1974;sea;8360;-1;-1;-1;-1;Nikitin Rog-Yedi Shkul
+4340;421;sea;6361;-1;-1;-1;-1;Talysh - Shirvan
+7237;4115;sea;7237;-1;-1;-1;-1;Brahin - Gomel
 3020;8365;canal;1971;-1;-1;-1;-1;don_and_volga_canal
 1365;1347;canal;2390;-1;-1;-1;-1;kra_canal
 1660;1659;canal;987;-1;-1;-1;-1;welland_canal
@@ -195,7 +205,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3;3121;sea;1255;-1;-1;-1;-1;Smaland-Kalmar
 227;3108;sea;7306;-1;-1;-1;-1;Lisboa-Setubal
 8061;8096;sea;7307;-1;-1;-1;-1;Alcantara-Covilha
-7193;7200;sea;1322;-1;-1;-1;-1;Ichki-KyzylYar
 4700;5131;sea;1319;-1;-1;-1;-1;Lesbos-Ayvalik
 741;502;sea;1522;-1;-1;-1;-1;Cumana-Trinidad
 741;5579;sea;1520;-1;-1;-1;-1;Cumana-Waikeri

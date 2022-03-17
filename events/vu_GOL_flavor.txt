@@ -174,6 +174,7 @@ country_event = { # Dismantle Great Horde
 			tag = CRI
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		exists = GOL
 		exists = CRI
@@ -181,6 +182,7 @@ country_event = { # Dismantle Great Horde
 		OR = {
 			exists = MOS
 			exists = RUS
+			exists = TZR
 		}
 		GOL = {
 			has_country_flag = horde_will_soon_fall
@@ -334,6 +336,14 @@ country_event = { # Dismantle Great Horde
 				exists = RUS
 			}
 			RUS = {
+				inherit = GOL
+			}
+		}
+		if = {
+			limit = {
+				exists = TZR
+			}
+			TZR = {
 				inherit = GOL
 			}
 		}
