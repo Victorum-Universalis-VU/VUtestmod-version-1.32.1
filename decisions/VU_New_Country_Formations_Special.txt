@@ -1285,4 +1285,44 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	
+##################################################################################################################
+######################	    Imperial Russia (Diplomatically) Russian flag (1693–1700)	    ######################
+##################################################################################################################
+	imperial_russia = {
+		major = yes
+		potential = {
+            tag = RUS
+            NOT = { has_country_flag = formed_imperial_russia }
+            NOT = { religion_group = muslim }
+            culture_group = east_slavic
+            NOT = { primary_culture = novgorodian }
+        }
+		provinces_to_highlight = {
+			owned_by = RUS
+		}
+		allow = {
+			NOT = { exists = TZR }
+			is_year = 1693
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			adm_tech = 30
+			total_development = 2000
+			prestige = 80
+			legitimacy = 80
+		}
+		effect = {
+			change_tag = TZR
+			add_prestige = 80
+			add_legitimacy = 80
+			set_country_flag = formed_imperial_russia
+			#swap_ideas = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
 }
+

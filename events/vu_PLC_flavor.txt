@@ -293,6 +293,7 @@ country_event = { # Russian help Cossacks and intervene in war
 		OR = {
 			tag = RUS
 			tag = MOS
+			tag = TZR
 		}
 		has_global_flag = chmielnicki_uprising
 	}

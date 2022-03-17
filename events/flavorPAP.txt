@@ -63,6 +63,30 @@ country_event = {
 				}
 			}
 			AND = {
+				BSP = { 
+					religion = catholic
+					has_country_modifier = the_societas_jesu 
+				}
+			}
+			AND = {
+				SPB = { 
+					religion = catholic
+					has_country_modifier = the_societas_jesu 
+				}
+			}
+			AND = {
+				BBS = { 
+					religion = catholic
+					has_country_modifier = the_societas_jesu 
+				}
+			}
+			AND = {
+				CSP = { 
+					religion = catholic
+					has_country_modifier = the_societas_jesu 
+				}
+			}
+			AND = {
 				IBE = { 
 					religion = catholic
 					has_country_modifier = the_societas_jesu 
@@ -92,6 +116,54 @@ country_event = {
 		random_known_country = {
 			limit = {
 				tag = SPA 
+				has_country_modifier = the_societas_jesu 
+			}
+			tooltip = {	
+				add_papal_influence = 10 
+			}
+			country_event = {
+				id = flavor_pap.3
+			}
+		}
+		random_known_country = {
+			limit = {
+				tag = BSP 
+				has_country_modifier = the_societas_jesu 
+			}
+			tooltip = {	
+				add_papal_influence = 10 
+			}
+			country_event = {
+				id = flavor_pap.3
+			}
+		}
+		random_known_country = {
+			limit = {
+				tag = SPB 
+				has_country_modifier = the_societas_jesu 
+			}
+			tooltip = {	
+				add_papal_influence = 10 
+			}
+			country_event = {
+				id = flavor_pap.3
+			}
+		}
+		random_known_country = {
+			limit = {
+				tag = BBS 
+				has_country_modifier = the_societas_jesu 
+			}
+			tooltip = {	
+				add_papal_influence = 10 
+			}
+			country_event = {
+				id = flavor_pap.3
+			}
+		}
+		random_known_country = {
+			limit = {
+				tag = CSP 
 				has_country_modifier = the_societas_jesu 
 			}
 			tooltip = {	
@@ -145,6 +217,18 @@ country_event = {
 		tag = PAP
 		NOT = { is_year = 1550 }
 		SPA = {
+			has_country_flag = spa_holy_inquisition
+		}
+		BSP = {
+			has_country_flag = spa_holy_inquisition
+		}
+		SPB = {
+			has_country_flag = spa_holy_inquisition
+		}
+		BBS = {
+			has_country_flag = spa_holy_inquisition
+		}
+		CSP = {
 			has_country_flag = spa_holy_inquisition
 		}
 	}
@@ -250,6 +334,10 @@ country_event = {
 		OR = {
 			POR = { has_country_modifier = the_societas_jesu }
 			SPA = { has_country_modifier = the_societas_jesu }
+			BSP = { has_country_modifier = the_societas_jesu }
+			SPB = { has_country_modifier = the_societas_jesu }
+			BBS = { has_country_modifier = the_societas_jesu }
+			CSP = { has_country_modifier = the_societas_jesu }
 			IBE = { has_country_modifier = the_societas_jesu }
 			is_religion_enabled = reformed
 		}

@@ -859,7 +859,15 @@ colonial_mexico = {
 		name = "COLONIAL_MEXICO_PT"
 	}
 	names = {
-		trigger = { tag = SPA }
+		trigger = {
+			OR = {
+				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
+			}
+		}
 		name = "COLONIAL_MEXICO_New_Spain"
 	}
 	names = {

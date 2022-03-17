@@ -753,7 +753,10 @@ age_of_revolutions = {
 		}
 		ab_russia_boost = {
 			allow = {
-				tag = RUS
+			    OR = {
+					tag = RUS
+					tag = TZR
+				}
 			}
 			modifier = {
 				governing_capacity_modifier = 0.33

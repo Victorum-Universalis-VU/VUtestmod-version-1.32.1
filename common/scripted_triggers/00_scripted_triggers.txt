@@ -514,6 +514,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { was_tag = RUM }
 			NOT = { was_tag = QNG }
 			NOT = { was_tag = RUS }
+			NOT = { was_tag = TZR }
 			NOT = { was_tag = PLC }
 			NOT = { was_tag = JAP }
 			NOT = { was_tag = YUA }
@@ -522,6 +523,10 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { was_tag = ARB }
 			NOT = { was_tag = PAP }
 			NOT = { was_tag = SPA }
+			NOT = { was_tag = BSP }
+			NOT = { was_tag = SPB }
+			NOT = { was_tag = BBS }
+			NOT = { was_tag = CSP }
 			NOT = { was_tag = GBR }
 			NOT = { was_tag = ITA }
 			NOT = { was_tag = GER }
@@ -549,6 +554,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { tag = RUM }
 			NOT = { tag = QNG }
 			NOT = { tag = RUS }
+			NOT = { tag = TZR }
 			NOT = { tag = PLC }
 			NOT = { tag = JAP }
 			NOT = { tag = YUA }
@@ -557,6 +563,10 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { tag = ARB }
 			NOT = { tag = PAP }
 			NOT = { tag = SPA }
+			NOT = { tag = BSP }
+			NOT = { tag = SPB }
+			NOT = { tag = BBS }
+			NOT = { tag = CSP }
 			NOT = { tag = GBR }
 			NOT = { tag = ITA }
 			NOT = { tag = GER }

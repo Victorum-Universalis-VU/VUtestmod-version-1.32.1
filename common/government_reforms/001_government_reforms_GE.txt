@@ -811,6 +811,10 @@ great_code_of_nomads = {
 	potential = {
 		has_reform = steppe_horde
 		religion_group = eastern
+		OR = {
+			religion_group = eastern
+			religion_group = buddhist_group
+		}
 	}
 	modifiers = {
 		global_trade_power = 0.2

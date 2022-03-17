@@ -40,7 +40,7 @@ feudalism_reform = {
 }
 
 autocracy_reform = {
-	icon = "crown"
+	icon = "autocracy"
 	allow_normal_conversion = yes
 	legacy_equivalent = despotic_monarchy
 	valid_for_nation_designer = yes
@@ -719,7 +719,7 @@ principality = {
 }
 
 tsardom = {
-	icon = "king"
+	icon = "tsardom"
 	allow_normal_conversion = yes
 	potential = {
 		religion = orthodox
@@ -727,6 +727,10 @@ tsardom = {
 		OR = {
 			AND = {
 				tag = RUS
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				tag = TZR
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -1123,6 +1127,7 @@ mandala_reform = {
 			religion_group = eastern
 			religion_group = dharmic
 			religion_group = muslim
+			religion_group = buddhist_group
 			religion = animism
 		}
 		technology_group = chinese
@@ -1140,6 +1145,7 @@ mandala_reform = {
 			religion_group = eastern
 			religion_group = dharmic
 			religion_group = muslim
+			religion_group = buddhist_group
 		}
 		technology_group = chinese
 		OR = {

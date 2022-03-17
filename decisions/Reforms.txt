@@ -72,7 +72,10 @@ country_decisions = {
 			was_tag = NOV
 		}
 		allow = {
-			tag = RUS
+		    OR = {
+			    tag = RUS
+				tag = TZR
+			}
 		}
 		effect = {
 			change_government = republic

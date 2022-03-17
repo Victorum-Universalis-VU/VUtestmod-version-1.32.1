@@ -1241,9 +1241,12 @@ AST = {
 #    color3= { 112 150 105  }
 #}
 
-
-
-
+# Imperial_Russia
+TZR = {
+    color1= { 96 131 80  }
+    color2= { 144 52 53  }
+    color3= { 107 170 77  }
+}
 
 # Muscowy
 MOS = {

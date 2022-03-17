@@ -5,7 +5,10 @@ country_decisions = {
 		potential = {
 			OR = {
 				tag = POR
-				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 			}
 			religion = catholic
 			NOT = { has_country_modifier = the_societas_jesu }

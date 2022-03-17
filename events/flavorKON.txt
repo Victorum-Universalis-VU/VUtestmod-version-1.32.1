@@ -288,13 +288,17 @@ country_event = {
 			factor = 0.1
 			OR = {
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				tag = CAS
 				tag = POR
 				tag = PAP
 			}
 		}
 	}
-
+	
 	option = {
 		set_global_flag = kon_kongo_got_discovered_by_europeans
 		KON = {
@@ -321,6 +325,10 @@ country_event = {
 				OR = {
 					tag = POR
 					tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
 					tag = CAS
 				}
 				religion = catholic
@@ -342,6 +350,10 @@ country_event = {
 			FROM = {
 				NOT = { tag = POR }
 				NOT = { tag = SPA }
+				NOT = { tag = BSP }
+				NOT = { tag = SPB }
+				NOT = { tag = BBS }
+				NOT = { tag = CSP }
 				NOT = { tag = CAS }
 				NOT = { tag = PAP }
 				religion = catholic
