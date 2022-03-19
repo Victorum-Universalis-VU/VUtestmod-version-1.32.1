@@ -162,6 +162,12 @@ alliance = { #Vijayanagara and the Reddys
 vassal = {
 	first = VIJ
 	second = MYS
+	start_date = 1444.1.1
+	end_date = 1512.12.1
+}
+vassal = {
+	first = VIJ
+	second = MYS
 	start_date = 1529.1.1
 	end_date = 1610.1.1
 }
