@@ -344,7 +344,7 @@ trade_company_coromandel = {
 	color = { 50 30 210 }
 	
 	provinces = {
-		2083 4418 4419 4420 #north_carnatic_area
+		2083 4418 4419 4420 8396 #north_carnatic_area
 		539 540 1947 2027 4417 8420 8421 #south_carnatic_area
 		536 2101 4412 8419 #madura_area
 		2100 4408 4409 8416 #lanka_area
@@ -356,7 +356,7 @@ trade_company_coromandel = {
 		541 1949 2090 4423 4424 #rayalaseema_area
 		534 535 537 4410 4413 8422 8423 8427 #malabar_area
 		531 2029 2030 2032 4427 #kanara_area
-		543 549 2084 2080 4425 #andhra_area 
+		543 549 2084 2080 4425 8397 #andhra_area 
 	}
 	# Generic
 	names = {

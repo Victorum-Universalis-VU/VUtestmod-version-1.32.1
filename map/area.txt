@@ -2332,8 +2332,8 @@ golconda_area = { #4
 	542 2037 4436 4439
 }
 
-andhra_area = { #5
-	543 549 2084 2080 4425
+andhra_area = { #6
+	543 549 2084 2080 4425 8397
 }
 
 raichur_doab_area = { #3
@@ -2382,8 +2382,8 @@ northern_sindh_area = { #3
 	505 2072 4505
 }
 
-north_carnatic_area = { #4
-	2083 4418 4419 4420
+north_carnatic_area = { #5
+	2083 4418 4419 4420 8396
 }
 
 south_carnatic_area = { #7
@@ -4631,7 +4631,7 @@ unused_area = {
 	#Beyond Typus Open Provinces, being used in BT overhauls
 	5539 5540 5541
 
-	8396 8397 8398 8399
+	8398 8399
 
 	#Provinces cut in 13.0
 	3296 5119 5364 5375 5377 5379 7010 7018 7023 7074 7077 7135	7145 7704 7716 7726 7737 7763 7814 7820 7822 7902 7912 7941 7943 7978 8046 8132 8235 8261	
