@@ -1,26 +1,28 @@
-#549 - Kalingandhra
+#8399 - Yanam
 
 owner = ORI
 controller = ORI
 culture = telegu
 religion = hinduism
-capital = "Vizianagaram"
-trade_goods = cotton
+capital = "Yanam"
+trade_goods = dyes	#Indigo wells
 hre = no
-base_tax = 6 
-base_production = 6
-base_manpower = 4
+base_tax = 4
+base_production = 5
+base_manpower = 3
 is_city = yes
 add_core = YOR
 add_core = ORI
-add_brahmins_or_church_effect = yes
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
-extra_cost = 8
-center_of_trade = 2
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
 
 1405.1.1 = { discovered_by = chinese }
 1443.1.1 = {
@@ -56,17 +58,21 @@ center_of_trade = 2
 	controller = DEC
 	remove_core = MUG
 } # Asif Jah declared himself Nizam-al-Mulk
-1751.3.1 = {
+1731.7.30 = {
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-
-} # To France in exchange for aid in succession war
+	capital = "French Yanaon"
+} # Siezed by France and made colony
 1759.1.1 = { controller = GBR } # Lally withdraws all forces from the northern Circars which are then promptly seized by col. Forde
 1763.2.10 = { owner = DEC controller = DEC remove_core = FRA } #Control returned to Nizam
-1766.11.12 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-} # Northern Circars to Britain
+1765.5.15 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+} # Yanaon returned to France
+1778.6.1 = { controller = GBR } #2nd British occupation
+1785.1.1 = { controller = FRA }
+1793.6.1 = { controller = GBR owner = GBR } #3rd British occupation
+1816.9.26 = { controller = FRA owner = FRA } #Returned to France
 1823.1.1 = { remove_core = DEC } #Nizam withdraws his claims

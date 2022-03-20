@@ -1,18 +1,20 @@
-#4436 - Devarakonda
+#8235 - Rachakonda
 
-owner = TLG
-controller = TLG
+owner = BAH
+controller = BAH
 culture = telegu
 religion = hinduism
-capital = "Devarakonda"
-trade_goods = iron
+capital = "Rachakonda"
+trade_goods = cotton
 hre = no
-base_tax = 6
-base_production = 6
+base_tax = 3
+base_production = 3
 base_manpower = 4
 is_city = yes
+fort_15th = yes
 add_core = GOC
 add_core = TLG
+add_core = BAH
 add_rajputs_or_marathas_or_nobles_effect = yes
 
 discovered_by = indian
@@ -21,17 +23,6 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = chinese
 
-1452.1.1 = { #Before 1454
-	owner = ORI
-	add_core = ORI
-	controller = ORI
-}  # Conquered by Gajapatis with the help of local Velama lords.
-1468.1.1 = {
-	controller = BAH
-	owner = BAH
-	add_core = BAH
-	revolt = { }
-} #Given to/taken by Bahmanis due to involvement in Gajapati civil war
 1490.1.1 = {
 	remove_core = BAH 
 	owner = GOC

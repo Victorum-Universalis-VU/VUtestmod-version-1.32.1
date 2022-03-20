@@ -356,7 +356,7 @@ trade_company_coromandel = {
 		541 1949 2090 4423 4424 #rayalaseema_area
 		534 535 537 4410 4413 8422 8423 8427 #malabar_area
 		531 2029 2030 2032 4427 #kanara_area
-		543 549 2084 2080 4425 8397 #andhra_area 
+		543 549 2084 2080 4425 8397 8398 8399 #andhra_area 
 	}
 	# Generic
 	names = {
@@ -385,7 +385,7 @@ trade_company_deccan = {
 		550 551 2092 4458 4460 #gondwana_area
 		532 2033 4428 #raichur_doab_area
 		2028 4438 4444 #telingana_area
-		542 2037 4436 4439 #golconda_area
+		542 2037 4436 4439 8132 8235 #golconda_area
 		527 4434 4453 #khandesh_area
 		569 1948 2035 4435 #maidan_area
 		546 548 2050 4442 4443 #berar_area
