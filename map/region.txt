@@ -1109,6 +1109,7 @@ deccan_region = {
 		desh_area
 		rayalaseema_area
 		mysore_area
+		morasanadu_area
 		kanara_area
 		konkan_area
 		malabar_area

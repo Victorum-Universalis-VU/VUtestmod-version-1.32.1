@@ -1,3 +1,6 @@
+#Asia
+8399 = { "Yanaon" "French Yanaon" }
+
 #Africa
 1096 = "Cap-Vert"
 3047 = { "Ndar" "St-Louis-du-Fort" }
