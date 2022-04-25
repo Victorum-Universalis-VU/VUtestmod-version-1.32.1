@@ -590,6 +590,8 @@ guinea_region = {
 		guinea_coast_area
 		futa_jallon_area
 		west_africa_coast_area
+		grain_coast_area
+		gold_coast_area
 		jolof_area
 		sao_tome_area
 		tekrur_area
@@ -620,6 +622,10 @@ sahel_region = {
 		baghena_area
 		niger_bend_area
 		east_azbin_area
+		wadai_area
+		bagirmi_area
+		bahr_salamat_area
+		central_africa_area
 		#BTADDITIONS
 	}
 	monsoon = {
