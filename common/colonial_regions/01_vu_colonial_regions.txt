@@ -879,99 +879,99 @@ colonial_hispaniola = {
 }
 
 #Bahamas
-colonial_bahamas = {
-	color = { 230 251 99 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-
-	trade_goods = {
-		fish = 10
-		naval_supplies = 10
-	}
-
-	culture = {
-		arawak = 10
-	}
-
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		482 483 5574 5575 5576 5577 
-		
-		#VU Additions by San Felipe
-		6010 6011 6012 6013 6014 6015 6016 6017
-	}
-
-	# Specific
-	names = {
-		trigger = {
-			tag = POR
-		}
-		name = "COLONIAL_BAHAMAS_PT"
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = { tag = NED }
-			NOT = { tag = HOL }
-		}
-		name = "COLONIAL_BAHAMAS_Flachmeer"
-	}
-	names = {
-		trigger = { culture_group = byzantine }
-		name = "COLONIAL_BAHAMAS_Bachames"
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_BAHAMAS_Bahamai"
-	}
-	names = {
-		trigger = {
-			OR = {
-				primary_culture = welsh
-				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
-				primary_culture = celtic_welsh_culture
-				primary_culture = celtic_cornish_culture
-			}
-		}
-		name = "COLONIAL_BAHAMAS_CY"
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_BAHAMAS_LA"
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_BAHAMAS_ES"
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_BAHAMAS_TU"
-	}
-
-	# Generic
-	names = {
-		name = "COLONIAL_BAHAMAS_Bahamas"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_bahamas = { #OBSOLETE, MERGED WITH ANTILLES (CARRIBEAN)
+#	color = { 230 251 99 }
+#
+#	# Random New World
+#	tax_income = 0
+#	native_size = 10
+#	native_ferocity = 1
+#	native_hostileness = 3
+#
+#	trade_goods = {
+#		fish = 10
+#		naval_supplies = 10
+#	}
+#
+#	culture = {
+#		arawak = 10
+#	}
+#
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		482 483 5574 5575 5576 5577 
+#		
+#		#VU Additions by San Felipe
+#		6010 6011 6012 6013 6014 6015 6016 6017
+#	}
+#
+#	# Specific
+#	names = {
+#		trigger = {
+#			tag = POR
+#		}
+#		name = "COLONIAL_BAHAMAS_PT"
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = { tag = NED }
+#			NOT = { tag = HOL }
+#		}
+#		name = "COLONIAL_BAHAMAS_Flachmeer"
+#	}
+#	names = {
+#		trigger = { culture_group = byzantine }
+#		name = "COLONIAL_BAHAMAS_Bachames"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_BAHAMAS_Bahamai"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				primary_culture = welsh
+#				primary_culture = cornish
+#				#BT Bugfixes added Celtic versions of Brythonic.
+#				primary_culture = celtic_welsh_culture
+#				primary_culture = celtic_cornish_culture
+#			}
+#		}
+#		name = "COLONIAL_BAHAMAS_CY"
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_BAHAMAS_LA"
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_BAHAMAS_ES"
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_BAHAMAS_TU"
+#	}
+#
+#	# Generic
+#	names = {
+#		name = "COLONIAL_BAHAMAS_Bahamas"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 #Polynesia
 colonial_polynesia = {
@@ -5928,103 +5928,103 @@ colonial_fiji = {
 }
 
 # Jamaica
-colonial_jamaica = {
-	color = { 237 1 64 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-
-	trade_goods = {
-	    sugar = 10
-	    fish = 10
-	}
-
-	culture = {
-		west_taino = 10
-	}
-
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		487 843 3023 3024 4589 5709 5710
-	}
-	
-	# Specific
-	names = {
-		trigger = { tag = USA }
-		name = "COLONIAL_JAMAICA_USA" #Jamaica
-	}
-	names = {
-		trigger = { culture_group = british }
-		name = "COLONIAL_JAMAICA_GBR" #Jamaica
-	}
-	names = {
-		trigger = { culture_group = french }
-		name = "COLONIAL_JAMAICA_FRA" #Jamaïque
-	}
-	names = {
-		trigger = { primary_culture = portugese }
-		name = "COLONIAL_JAMAICA_POR" #Nascentes
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_JAMAICA_SPA" #Xamaica
-	}
-	names = {
-		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_JAMAICA_SCA" #Källor
-	}
-	names = {
-		trigger = { primary_culture = dutch }
-		name = "COLONIAL_JAMAICA_NED" #Bronnen
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = {	tag = NED }
-			NOT = {	tag = HOL }
-		}
-		name = "COLONIAL_JAMAICA_GER" #Quellen
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_JAMAICA_GLC" #Tìr_Fuarain
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_JAMAICA_LAT"  #Fontium
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_JAMAICA_TUR" #Jamaika
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Jamaica"
-	}
-	names = {
-		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Xamaica"
-	}
-	names = {
-		name = "COLONIAL_JAMAICA_Jamaica"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_jamaica = { #OBSOLETE, MERGED WITH ANTILLES (CARIBBEAN)
+#	color = { 237 1 64 }
+#
+#	# Random New World
+#	tax_income = 0
+#	native_size = 10
+#	native_ferocity = 1
+#	native_hostileness = 3
+#
+#	trade_goods = {
+#	    sugar = 10
+#	    fish = 10
+#	}
+#
+#	culture = {
+#		west_taino = 10
+#	}
+#
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		487 843 3023 3024 4589 5709 5710
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = { tag = USA }
+#		name = "COLONIAL_JAMAICA_USA" #Jamaica
+#	}
+#	names = {
+#		trigger = { culture_group = british }
+#		name = "COLONIAL_JAMAICA_GBR" #Jamaica
+#	}
+#	names = {
+#		trigger = { culture_group = french }
+#		name = "COLONIAL_JAMAICA_FRA" #Jamaïque
+#	}
+#	names = {
+#		trigger = { primary_culture = portugese }
+#		name = "COLONIAL_JAMAICA_POR" #Nascentes
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_JAMAICA_SPA" #Xamaica
+#	}
+#	names = {
+#		trigger = { culture_group = scandinavian }
+#		name = "COLONIAL_JAMAICA_SCA" #Källor
+#	}
+#	names = {
+#		trigger = { primary_culture = dutch }
+#		name = "COLONIAL_JAMAICA_NED" #Bronnen
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = {	tag = NED }
+#			NOT = {	tag = HOL }
+#		}
+#		name = "COLONIAL_JAMAICA_GER" #Quellen
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_JAMAICA_GLC" #Tìr_Fuarain
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_JAMAICA_LAT"  #Fontium
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_JAMAICA_TUR" #Jamaika
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Jamaica"
+#	}
+#	names = {
+#		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Xamaica"
+#	}
+#	names = {
+#		name = "COLONIAL_JAMAICA_Jamaica"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Guyana
 colonial_guyana = {
@@ -6976,7 +6976,7 @@ colonial_central_america = {
 	}
 
 	provinces = {
-		835 836 837 838 839 840 841 842 2636 2637 2640 2653 2660 2661 2662 2663 2664 2819 4587 4592 4593 4594 4595 4597 5140
+		835 836 837 838 839 840 841 842 843 2636 2637 2640 2653 2660 2661 2662 2663 2664 2819 3023 4587 4589 4592 4593 4594 4595 4597 5140
 	}
 	
 	# Specific

@@ -10,8 +10,8 @@
  LOADING_TIP_19:0 "Trade going to the English Channel cannot be steered away.\nAs the end node, trade may only be collected here."
 
  #Colonial regions and names
- colonial_the_carribean:0 "Colonial Lesser Antilles"
- short_colonial_the_carribean:0 "Lesser Antilles"
+ colonial_the_carribean:0 "Colonial Antilles"
+ short_colonial_the_carribean:0 "Antilles"
  colonial_alaska:0 "Colonial Alaska"
  short_colonial_alaska:0 "Alaska"
  COLONIAL_CALIFORNIA_New_Albion:0 "Columbia"
@@ -3230,10 +3230,10 @@
  establish_canada_colony_desc:0 "The rich valley of the Saint Lawrence River and its surrounding areas seems to be an ideal location for a new settlement. Let us found a grand new city is this vast new land!"
  establish_usa_colony_title:0 "Establish a colony in Eastern America"
  establish_usa_colony_desc:0 "The fertile temperate woodlands of the eastern coast of North America would make a fine location for a new colony. Let us establish a new settlement on these distant shores at once!"
- establish_carribean_colony_title:0 "Establish a colony in the Lesser Antilles"
+ establish_carribean_colony_title:0 "Establish a colony in the Antilles"
  establish_carribean_colony_desc:0 "The tiny islands of the Caribbean produce sugar, exotic timber, spices, coffee, tobacco and more far in excess of what their modest sizes would suggest and the region's central location makes it an ideal trade hub. We should establish a presence there without delay to take advantage of this potential!"
  
- miss_colonize_caribbean:0 "§Y[Root.GetName]§! or their subjects own at least 5 province in the Lesser Antilles colonial region."
+ miss_colonize_caribbean:0 "§Y[Root.GetName]§! or their subjects own at least 5 province in the Antilles colonial region."
  miss_discover_caribbean:0 "§Y[Root.GetName]§! has discovered any province in the Caribbean."
 
  #Misc
@@ -3252,7 +3252,7 @@
  obj_3_trade_companies_desc:0 "Found at least five different trade companies."
 
  #Mission Corrections (probably temporary, no real need to translate)
- fra_carib_colony.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Lesser Antilles"
+ fra_carib_colony.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Antilles"
  
  #VU Monument Categorisation
  TIER_0_DESCRIPTION:0 "Insignificant"
