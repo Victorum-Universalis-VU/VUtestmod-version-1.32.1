@@ -1225,10 +1225,14 @@ south_china_region = {
 	areas = {
 		guangdong_area
 		west_guangdong_area
+		hainan_area
+		hangzhou_area
 		fujian_area
 		jiangxi_area
 		huguang_area
 		zhejiang_area
+		shanghai_area
+		central_huainan_area
 		south_anhui_area
 		south_jiangsu_area
 		hunan_area
@@ -1257,6 +1261,8 @@ north_china_region = {
 		hebei_area
 		south_hebei_area
 		shandong_area
+		yanzhou_area
+		qingzhou_area
 		henan_area
 		shanxi_area
 		gansu_area
@@ -1265,6 +1271,7 @@ north_china_region = {
 		west_gansu_area
 		anhui_area
 		jiangsu_area
+		central_zhili_area
 	}
 }
 
