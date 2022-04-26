@@ -33,46 +33,13 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
+#History completed by docRobert
 1494.1.1 = {
 	discovered_by = CAS
-	owner = CAS
-	controller = CAS
-	culture = castillian
-	add_core = CAS
-	religion = catholic
-	is_city = yes
-	trade_goods = sugar
 } # Christopher Columbus
-1509.1.1 = {
-	owner = CAS
-	controller = CAS
-	add_core = CAS
-	culture = castillian
-	religion = catholic
-	is_city = yes
-	capital = "Sevilla"
-	trade_goods = sugar
-} # 
 1516.1.23 = {
 	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = CAS
 }
-1524.1.1 = {
-	owner = XXX
-	controller = XXX
-	remove_core = SPA
-	culture = west_taino
-	religion = animism
-	is_city = yes
-	native_size = 5
-	native_ferocity = 5
-	native_hostileness = 5
-	capital = "Xaymaca"
-	trade_goods = unknown
-} # Settlement abandoned because it was deemed unhealthy
 1534.1.1 = {
 	owner = SPA
 	controller = SPA
@@ -80,7 +47,6 @@ add_permanent_province_modifier = {
 	culture = castillian
 	religion = catholic
 	is_city = yes
-	capital = "St. Jago de la Veg"
 	trade_goods = sugar
 } # New settlement at Spanish Town
 1655.1.1 = {
@@ -92,8 +58,11 @@ add_permanent_province_modifier = {
 	religion = catholic
 	is_city = yes
 	capital = "Spanish Town"
-	trade_goods = sugar
 } # Sir William Penn and General Robert Venables take Jamaica for England
+1700.1.1 = {
+	base_production = 7
+	base_manpower = 5
+} #Economy booming
 1707.5.12 = { 
 	discovered_by = GBR 
 	owner = GBR
@@ -105,3 +74,6 @@ add_permanent_province_modifier = {
 1761.1.1 = { unrest = 0 }
 1795.1.1 = { unrest = 4 } # Slave rebellion
 1796.1.1 = { unrest = 0 }
+1831.1.1 = { unrest = 10 } #Slave rebellion
+1834.1.1 = { unrest = 0 }
+1850.1.1 = { base_manpower = 7 }
