@@ -36,9 +36,9 @@ discovered_by = south_american
 	trade_goods = sugar
 } #First settlers
 1635.1.1 = {
-	owner = XXX
-	controller = XXX
-	add_core = XXX
+	owner = ---
+	controller = ---
+	add_core = ---
 	culture = karina
 	religion = animism
 	capital = "Tabako"

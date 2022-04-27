@@ -1,14 +1,14 @@
 #4621 - Hiquey
 #VU Discovery Bug Fix
 
-owner = HGY
-controller = HGY
-add_core = HGY
+#owner = HGY
+#controller = HGY
+#add_core = HGY
 culture = macoris
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Hosama"
-trade_goods = sugar 
+trade_goods = unknown
 hre = no
 base_tax = 5
 base_production = 5

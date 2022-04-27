@@ -1,11 +1,11 @@
 #492 - Puerto Rico
 #VU Discovery Bug Fix
 
-owner = HGY
-controller = HGY
-add_core = HGY
+#owner = HGY	#Reducing tribal land at the start
+#controller = HGY
+#add_core = HGY
 culture = arawak
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Borikén"
 trade_goods = sugar 

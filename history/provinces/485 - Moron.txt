@@ -1,14 +1,14 @@
 #485 - Moron
 #VU Discovery Bug Fix
 
-owner = CIB
-controller = CIB
-add_core = CIB
+#owner = CIB	#Limiting tribal land at the start
+#controller = CIB
+#add_core = CIB
 culture = west_taino
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Cumanayagua"
-trade_goods = sugar 
+trade_goods = unknown 
 hre = no
 base_tax = 2
 base_production = 3
