@@ -97,6 +97,7 @@ bt_generic_can_form_potential_check = {
 	NOT = { was_tag = RUM }
 	NOT = { was_tag = QNG }
 	NOT = { was_tag = RUS }
+	NOT = { was_tag = TZR }
 	NOT = { was_tag = PLC }
 	NOT = { was_tag = JAP }
 	NOT = { was_tag = YUA }
@@ -105,6 +106,10 @@ bt_generic_can_form_potential_check = {
 	NOT = { was_tag = ARB }
 	NOT = { was_tag = PAP }
 	NOT = { was_tag = SPA }
+	NOT = { was_tag = BSP }
+	NOT = { was_tag = SPB }
+	NOT = { was_tag = BBS }
+	NOT = { was_tag = CSP }
 	#NOT = { was_tag = GBR }			#Cut GBR, as I add the UK formable
 	NOT = { was_tag = ITA }
 	NOT = { was_tag = GER }
@@ -122,6 +127,7 @@ bt_generic_can_form_potential_check = {
 	NOT = { tag = RUM }
 	NOT = { tag = QNG }
 	NOT = { tag = RUS }
+	NOT = { tag = TZR }
 	NOT = { tag = PLC }
 	NOT = { tag = JAP }
 	NOT = { tag = YUA }
@@ -130,6 +136,10 @@ bt_generic_can_form_potential_check = {
 	NOT = { tag = ARB }
 	NOT = { tag = PAP }
 	NOT = { tag = SPA }
+	NOT = { tag = BSP }
+	NOT = { tag = SPB }
+	NOT = { tag = BBS }
+	NOT = { tag = CSP }
 	#NOT = { tag = GBR }			#Cut GBR, as I add the UK formable
 	NOT = { tag = ITA }
 	NOT = { tag = GER }

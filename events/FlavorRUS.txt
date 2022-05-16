@@ -124,7 +124,10 @@ country_event = {
 
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		
 	}
 	
@@ -144,7 +147,7 @@ country_event = {
 				NOT = { is_permanent_claim = ROOT }
 				NOT = { is_core = ROOT }
 			}
-			add_permanent_claim = RUS
+			add_permanent_claim = ROOT
 		}
 		
 	}
@@ -163,7 +166,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		white_ruthenia_area = {
 			OR = {
 				owned_by = POL
@@ -174,8 +180,8 @@ country_event = {
 		
 		smolensk_area = {
 			type = all
-			owned_by = RUS
-			is_core = RUS
+			owned_by = ROOT
+			is_core = ROOT
 		}		
 	}
 	
@@ -252,28 +258,29 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-	
-		tag = RUS
-
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		kazan_area = {
 			type = all
-			owned_by = RUS
-			is_core = RUS
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		samara_area = {
 			type = all
-			owned_by = RUS
-			is_core = RUS
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		tambov_area = {
 			type = all
-			owned_by = RUS
-			is_core = RUS
+			owned_by = ROOT
+			is_core = ROOT
 		}
 		saratov_area = {
 			type = all
-			owned_by = RUS
-			is_core = RUS
+			owned_by = ROOT
+			is_core = ROOT
 		}
 	}
 	
@@ -290,19 +297,19 @@ country_event = {
 			limit = {
 				NOT = { owned_by = ROOT }
 			}
-			add_permanent_claim = RUS
+			add_permanent_claim = ROOT
 		}
 		nogai_area = {
 			limit = {
 				NOT = { owned_by = ROOT }
 			}
-			add_permanent_claim = RUS
+			add_permanent_claim = ROOT
 		}
 		lower_yik_area = {
 			limit = {
 				NOT = { owned_by = ROOT }
 			}
-			add_permanent_claim = RUS
+			add_permanent_claim = ROOT
 		}
 	}
 }
@@ -366,7 +373,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		capital_scope = {
 			NOT = { controlled_by = ROOT }
 			province_id = 295
@@ -470,10 +480,14 @@ country_event = {
 		OR = {
 			has_country_flag = patriarchate_mission
 			AND = {
+			    OR = {
+				    tag = RUS
+					tag = TZR
+				}
 				NOT = {
 					has_mission = rus_patriarchate_mission
 				}
-				tag = RUS
+			 
 				religion = orthodox
 				NOT = {
 					exists = BYZ
@@ -552,7 +566,10 @@ country_event = {
 	
 	
 	trigger = {
-		tag = RUS
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1600
 		NOT = { is_year = 1700 }
 	}
@@ -668,7 +685,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1650
 		NOT = { is_year = 1750 }
 		government = monarchy
@@ -730,7 +750,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1650
 		NOT = { is_year = 1750 }	
 		religion = orthodox
@@ -770,7 +793,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1650
 		NOT = { is_year = 1750 }	
 		religion = orthodox
@@ -842,7 +868,10 @@ country_event = {
 	
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1680
 		NOT = { is_year = 1720 }
 		religion = orthodox
@@ -899,7 +928,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		religion = orthodox
 		has_ruler_modifier = western_reforms
 
@@ -980,7 +1012,10 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_neighbor_of = MNG
 		exists = MNG
 	}
@@ -1043,7 +1078,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1650
 		calc_true_if = {
 			all_owned_province = {
@@ -1141,7 +1179,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1650
 		OR = {
 			exists = MNG
@@ -1312,15 +1353,18 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1680
 		NOT = { is_year = 1730 }
 		SWE = {
 			is_free_or_tributary_trigger = yes
 			total_development = 400 #BT Dev Doubling
-			is_neighbor_of = RUS
+			is_neighbor_of = ROOT
 			NOT = {
-				alliance_with = RUS
+				alliance_with = ROOT
 			}
 			any_enemy_country = {
 				NOT = { is_rival = ROOT }
@@ -1379,7 +1423,10 @@ country_event = {
 
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1680
 		NOT = { is_year = 1720 }
 		government = monarchy
@@ -1422,7 +1469,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1720
 		NOT = { is_year = 1740 }
 		religion = orthodox
@@ -1474,11 +1524,14 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		exists = KUR
 		KUR = {
 			has_heir = no
-			is_neighbor_of = RUS
+			is_neighbor_of = ROOT
 			is_free_or_tributary_trigger = yes
 			government = monarchy
 		}
@@ -1554,7 +1607,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1750
 		NOT = { is_year = 1770 }
 		
@@ -1602,7 +1658,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1700
 		NOT = { is_year = 1800 }
 	}
@@ -1642,11 +1701,14 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1750
 		NOT = { stability = 1 }
 		ural_region = {
-			owned_by = RUS
+			owned_by = ROOT
 		}
 	}
 	
@@ -1661,7 +1723,7 @@ country_event = {
 		
 		ural_region = {
 			limit = {
-				owned_by = RUS
+				owned_by = ROOT
 			}
 			add_unrest = 10
 		}
@@ -1689,10 +1751,12 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
-		
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}		
 		government = monarchy
-		
+  
 		had_country_flag = {
 			flag = rus_pugachev_uprising
 			days = 730
@@ -1755,7 +1819,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1750
 		OR = {
 			has_country_modifier = enserfed_peasants
@@ -1819,7 +1886,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1780
 		
 		OR = {
@@ -1920,7 +1990,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1763
 		NOT = { is_year = 1783 }
 	}
@@ -1947,7 +2020,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1716
 		NOT = { is_year = 1746 }
 
@@ -1974,7 +2050,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_year = 1741
 		NOT = { is_year = 1765 }
 	}
@@ -2007,7 +2086,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		is_at_war = no
 		is_monarch_leader = no
 		has_regency = no
@@ -2249,7 +2331,7 @@ country_event = {
 					continent = europe
 				}
 				tech_difference = 5
-				has_opinion = { who = RUS value = 10 }
+				has_opinion = { who = ROOT value = 10 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
 			}
@@ -2268,7 +2350,7 @@ country_event = {
 					continent = europe
 				}
 				tech_difference = 5
-				has_opinion = { who = RUS value = 50 }
+				has_opinion = { who = ROOT value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
 			}
@@ -2303,7 +2385,7 @@ country_event = {
 				continent = europe
 			}
 			tech_difference = 5
-			has_opinion = { who = RUS value = 50 }
+			has_opinion = { who = ROOT value = 50 }
 			NOT = { is_rival = ROOT }
 			NOT = { is_enemy = ROOT }
 		}
@@ -2321,7 +2403,7 @@ country_event = {
 					continent = europe
 				}
 				tech_difference = 5
-				has_opinion = { who = RUS value = 50 }
+				has_opinion = { who = ROOT value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
 			}
@@ -2504,7 +2586,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 
 		revolution_event_can_happen_trigger = yes
 	}

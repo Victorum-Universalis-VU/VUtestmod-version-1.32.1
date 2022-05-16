@@ -1458,8 +1458,10 @@ country_event = {
 	trigger ={
 		tag = TUR
 		is_year = 1700
-		war_with = RUS
-		
+		OR = {
+			war_with = RUS
+			war_with = TZR
+		}
 		egypt_region = {
 			owned_by = TUR
 			culture = al_misr_arabic

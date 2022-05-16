@@ -359,6 +359,7 @@ warrior_monks_reform = {
 	potential = {
 		OR = {
 			religion_group = eastern
+			religion_group = buddhist_group
 			AND = {
 				OR = {
 					culture_group = japanese_g

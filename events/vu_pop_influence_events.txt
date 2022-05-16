@@ -982,6 +982,7 @@ country_event = {
 					OR = {
 						tag = MOS
 						tag = RUS
+						tag = TZR
 					}
 				}
 			}
@@ -989,6 +990,7 @@ country_event = {
 				OR = {
 					tag = MOS
 					tag = RUS
+					tag = TZR
 				}
 				is_year = 1800
 			}
@@ -1278,12 +1280,13 @@ country_event = {
 			AND = {
 				has_country_flag = vu_serfs_1
 				AND = {
-						OR = {
-							tag = MOS
-							tag = RUS
-						}
-						is_year = 1800
+					OR = {
+						tag = MOS
+						tag = RUS
+						tag = TZR
 					}
+					is_year = 1800
+				}
 			}
 			AND = {
 				has_country_flag = vu_serfs_2
@@ -1307,6 +1310,7 @@ country_event = {
 							OR = {
 								tag = MOS
 								tag = RUS
+								tag = TZR
 							}
 						}
 					}
@@ -1314,6 +1318,7 @@ country_event = {
 						OR = {
 							tag = MOS
 							tag = RUS
+							tag = TZR
 						}
 						is_year = 1820
 					}

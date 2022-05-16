@@ -793,7 +793,59 @@ country_event = {
 		}
 		if = {
 			limit = {
+				exists = BSP
+				BSP = {
+					has_idea = quest_for_the_new_world
+					num_of_ports = 1
+				}
+			}
+			BSP = {
+				country_event = { id = flavor_spa.1 days = 10 }
+			}
+		}
+		if = {
+			limit = {
+				exists = SPB
+				SPB = {
+					has_idea = quest_for_the_new_world
+					num_of_ports = 1
+				}
+			}
+			SPB = {
+				country_event = { id = flavor_spa.1 days = 10 }
+			}
+		}
+		if = {
+			limit = {
+				exists = BBS
+				BBS = {
+					has_idea = quest_for_the_new_world
+					num_of_ports = 1
+				}
+			}
+			BBS = {
+				country_event = { id = flavor_spa.1 days = 10 }
+			}
+		}
+		if = {
+			limit = {
+				exists = CSP
+				CSP = {
+					has_idea = quest_for_the_new_world
+					num_of_ports = 1
+				}
+			}
+			CSP = {
+				country_event = { id = flavor_spa.1 days = 10 }
+			}
+		}
+		if = {
+			limit = {
 				NOT = { exists = SPA }
+				NOT = { exists = BSP }
+				NOT = { exists = SPB }
+				NOT = { exists = BBS }
+				NOT = { exists = CSP }
 				exists = CAS
 				CAS = {
 					has_idea = quest_for_the_new_world
@@ -809,11 +861,19 @@ country_event = {
 				OR = {
 					AND = {
 						NOT = { exists = SPA }
+						NOT = { exists = BSP }
+						NOT = { exists = SPB }
+						NOT = { exists = BBS }
+						NOT = { exists = CSP }
 						NOT = { exists = CAS }
 					}
 					AND = {
 						CAS = { NOT = { has_idea = quest_for_the_new_world } }
 						SPA = { NOT = { has_idea = quest_for_the_new_world } }
+						BSP = { NOT = { has_idea = quest_for_the_new_world } }
+						SPB = { NOT = { has_idea = quest_for_the_new_world } }
+						BBS = { NOT = { has_idea = quest_for_the_new_world } }
+						CSP = { NOT = { has_idea = quest_for_the_new_world } }
 					}
 				}
 				any_known_country = {

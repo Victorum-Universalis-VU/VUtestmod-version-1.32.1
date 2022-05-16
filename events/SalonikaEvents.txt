@@ -19,6 +19,10 @@ country_event = {
 		OR = {
 			CAS = { has_country_modifier = alhambra_decree }
 			SPA = { has_country_modifier = alhambra_decree }
+			BSP = { has_country_modifier = alhambra_decree }
+			SPB = { has_country_modifier = alhambra_decree }
+			BBS = { has_country_modifier = alhambra_decree }
+			CSP = { has_country_modifier = alhambra_decree }
 		}
 	}
 	

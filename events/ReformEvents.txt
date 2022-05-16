@@ -5267,7 +5267,13 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = SPA
+		OR = {
+			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -5290,7 +5296,13 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = SPA
+		OR = {
+			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
+		}
 		absolutism = 50
 	}
 	

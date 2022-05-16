@@ -1523,6 +1523,11 @@ plitvice = { # Plitvice lakes in Croatia
 	picture = "estuary_icon"
 }
 
+dharmapuri_mango = { #Dharmapuri 8429
+	trade_value = 0.75
+	trade_goods_size_modifier = 0.1
+}
+
 ##################################
 # Generic modifiers by docRobert #
 ##################################

@@ -331,6 +331,10 @@ country_event = {
 				tag = ARA
 				tag = CAS
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 			}
 			any_owned_province = {
 				OR = {
@@ -377,6 +381,10 @@ country_event = {
 						owned_by = ARA
 						owned_by = CAS
 						owned_by = SPA
+						owned_by = BSP
+						owned_by = SPB
+						owned_by = BBS
+						owned_by = CSP
 					}
 				}
 				add_claim = FRA
@@ -389,6 +397,10 @@ country_event = {
 					tag = ARA
 					tag = CAS
 					tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
 				}
 				any_owned_province = {
 					OR = {
@@ -416,6 +428,10 @@ country_event = {
 					tag = ARA
 					tag = CAS
 					tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
 				}
 				any_owned_province = {
 					OR = {

@@ -888,4 +888,14 @@ spriteTypes = {
 		name = "government_reform_professional_army"
 		texturefile = "gfx//interface//government_reform_icons//professional_army.dds"
 	}
+	
+	spriteType = {
+		name = "government_reform_autocracy"
+		texturefile = "gfx//interface//government_reform_icons//autocracy.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_tsardom"
+		texturefile = "gfx//interface//government_reform_icons//tsardom.dds"
+	}
 }

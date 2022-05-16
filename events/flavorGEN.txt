@@ -424,25 +424,79 @@ country_event = {
 	
 
 	trigger = {
-		tag = GEN
-		government = republic
-		has_country_flag = gen_andrea_doria_censor_event
-		exists = FRA
-		exists = SPA
-		italy_region = {
-			owned_by = FRA
-		}
-		italy_region = {
-			owned_by = SPA
-		}
-		NOT = {
-			num_of_cities = 10
-		}
-		FRA = {
-			num_of_cities = 20
-		}
-		SPA = {
-			num_of_cities = 20
+	    AND = {
+		    tag = GEN
+		    government = republic
+		    has_country_flag = gen_andrea_doria_censor_event
+			NOT = {	num_of_cities = 10 }
+		    OR = {
+                AND = {
+                    exists = FRA
+                    FRA = {
+				        num_of_cities = 20
+                        AND = {
+                            italy_region = {
+						        owned_by = FRA
+						    }
+                        }
+                    }
+                }
+				AND = {
+                    exists = SPA
+                    SPA = {
+				        num_of_cities = 20
+                        AND = {
+                            italy_region = {
+						        owned_by = SPA
+						    }
+                        }
+                    }
+                }
+				AND = {
+                    exists = BSP
+                    BSP = {
+				        num_of_cities = 20
+                        AND = {
+                            italy_region = {
+						        owned_by = BSP
+						    }
+                        }
+                    }
+                }
+				AND = {
+                    exists = SPB
+                    SPB = {
+				        num_of_cities = 20
+                        AND = {
+                            italy_region = {
+						        owned_by = SPB
+						    }
+                        }
+                    }
+                }
+				AND = {
+                    exists = BBS
+                    BBS = {
+				        num_of_cities = 20
+                        AND = {
+                            italy_region = {
+						        owned_by = BBS
+						    }
+                        }
+                    }
+                }
+				AND = {
+                    exists = CSP
+                    CSP = {
+				        num_of_cities = 20
+                        AND = {
+                            italy_region = {
+						        owned_by = CSP
+						    }
+                        }
+                    }
+                }
+			}
 		}
 	}
 	
@@ -463,6 +517,30 @@ country_event = {
 	option = {
 		name = flavor_gen.12.b
 		SPA = {
+			add_opinion = {
+				who = root
+				modifier = gen_andrea_doria_reform
+			}
+		}
+		BSP = {
+			add_opinion = {
+				who = root
+				modifier = gen_andrea_doria_reform
+			}
+		}
+		SPB = {
+			add_opinion = {
+				who = root
+				modifier = gen_andrea_doria_reform
+			}
+		}
+		BBS = {
+			add_opinion = {
+				who = root
+				modifier = gen_andrea_doria_reform
+			}
+		}
+		CSP = {
 			add_opinion = {
 				who = root
 				modifier = gen_andrea_doria_reform

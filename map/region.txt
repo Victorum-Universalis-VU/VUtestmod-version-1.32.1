@@ -590,6 +590,8 @@ guinea_region = {
 		guinea_coast_area
 		futa_jallon_area
 		west_africa_coast_area
+		grain_coast_area
+		gold_coast_area
 		jolof_area
 		sao_tome_area
 		tekrur_area
@@ -620,6 +622,10 @@ sahel_region = {
 		baghena_area
 		niger_bend_area
 		east_azbin_area
+		wadai_area
+		bagirmi_area
+		bahr_salamat_area
+		central_africa_area
 		#BTADDITIONS
 	}
 	monsoon = {
@@ -1109,6 +1115,7 @@ deccan_region = {
 		desh_area
 		rayalaseema_area
 		mysore_area
+		morasanadu_area
 		kanara_area
 		konkan_area
 		malabar_area
@@ -1218,10 +1225,14 @@ south_china_region = {
 	areas = {
 		guangdong_area
 		west_guangdong_area
+		hainan_area
+		hangzhou_area
 		fujian_area
 		jiangxi_area
 		huguang_area
 		zhejiang_area
+		shanghai_area
+		central_huainan_area
 		south_anhui_area
 		south_jiangsu_area
 		hunan_area
@@ -1250,6 +1261,8 @@ north_china_region = {
 		hebei_area
 		south_hebei_area
 		shandong_area
+		yanzhou_area
+		qingzhou_area
 		henan_area
 		shanxi_area
 		gansu_area
@@ -1258,6 +1271,7 @@ north_china_region = {
 		west_gansu_area
 		anhui_area
 		jiangsu_area
+		central_zhili_area
 	}
 }
 

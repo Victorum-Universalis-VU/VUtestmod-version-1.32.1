@@ -10,6 +10,7 @@ consolidate_expand_russia_missions = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 	}
 	has_country_shield = yes
@@ -300,6 +301,7 @@ russia_conquer_baltic_mission_slot = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		NOT = {
 			has_dlc = "Third Rome"
@@ -353,6 +355,7 @@ russia_steppe_siberia_missions = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		NOT = {
 			has_dlc = "Third Rome"
@@ -634,6 +637,7 @@ russia_siberian_missions_slot = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		NOT = {
 			has_dlc = "Third Rome"
@@ -663,12 +667,9 @@ russia_siberian_missions_slot = {
 		effect = {
 			if = {
 				limit = {
-					NOT = {
-						tag = RUS
-					}
-					NOT = {
-						has_dlc = "Third Rome"
-					}
+					NOT = {	tag = RUS }
+					NOT = {	tag = TZR }
+					NOT = {	has_dlc = "Third Rome" }
 				}
 				add_country_modifier = {
 					name = "colonial_enthusiasm"
@@ -751,6 +752,7 @@ russia_continue_steppes_mission_slot = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		NOT = {
 			has_dlc = "Third Rome"

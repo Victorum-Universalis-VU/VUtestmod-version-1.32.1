@@ -2574,7 +2574,7 @@ eastern = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 58 80 }
 
-	#buddhism = { } #Theravada #Theravada Moved to buddhist group
+	#buddhism = { } #Moved to buddhist group in 01_new_religions_VU
 	
 	state_shinto = {
 		color = { 255 40 20 }
@@ -2615,10 +2615,12 @@ eastern = {
 		
 	}
 	
-	#vajrayana = { } #Vajrayana moved to buddhist group
+	#vajrayana = { } #Moved to buddhist group in 01_new_religions_VU
 	
-	#mahayana = { } #Mahayana moved to buddhist group
-
+	#mahayana = { } #Moved to buddhist group in 01_new_religions_VU
+	
+	#tantra = { } #Moved to buddhist group in 01_new_religions_VU
+	
 	confucianism = {
 		color = { 177 196 132 }
 		icon = 9
@@ -2753,8 +2755,7 @@ eastern = {
 		harmonized_modifier = harmonized_taoism
 	}
 	
-	#Bon religion
-	#bon = { } #Bon moved to its own group
+	#bon = { } #Moved to asian_pagan_group in 01_new_religions_VU
 	
 	#New eastern religion
 	#wuism = {		#Not added yet

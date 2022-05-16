@@ -3121,7 +3121,7 @@ has_noble_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_nobles
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3186,7 +3186,7 @@ has_burgher_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_burghers
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3250,7 +3250,7 @@ has_church_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_church
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3315,7 +3315,7 @@ has_brahmins_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_brahmins
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3380,7 +3380,7 @@ has_maratha_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_maratha
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3445,7 +3445,7 @@ has_vaisyas_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_vaisyas
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3510,7 +3510,7 @@ has_cossacks_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_cossacks
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3575,7 +3575,7 @@ has_tribes_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_nomadic_tribes
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3640,7 +3640,7 @@ has_dhimmi_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_dhimmi
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3705,7 +3705,7 @@ has_jains_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_jains
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3770,7 +3770,7 @@ has_rajput_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_rajput
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3835,7 +3835,7 @@ has_peasants_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_peasants
-						value = 4
+						value = 6
 					}
 				}
 			}
@@ -3900,7 +3900,7 @@ has_ghulam_privilege_space = {
 				NOT = {
 					num_of_estate_privileges = {
 						estate = estate_ghulams
-						value = 4
+						value = 6
 					}
 				}
 			}
