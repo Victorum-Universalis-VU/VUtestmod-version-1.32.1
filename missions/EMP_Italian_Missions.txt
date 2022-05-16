@@ -747,7 +747,7 @@ emp_ita_war_branch = {
 			#custom_trigger_tooltip = {
 			#	tooltip = emp_ita_redeem_tirolo_tt
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 4
+					value = 3
 					area = trentino_area
 				}
 			#}  ##...why is there a custom tooltip that makes you think you need to take all of but you only need to take 4? What the frick, Paradox.
