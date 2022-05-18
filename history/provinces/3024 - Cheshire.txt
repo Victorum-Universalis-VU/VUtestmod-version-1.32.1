@@ -18,41 +18,26 @@ extra_cost = 5
 #discovered_by = CAB
 #discovered_by = ARW
 
-1494.1.1 = {
+#History completed by docRobert
+1503.5.10 = {
 	discovered_by = CAS
-	owner = CAS
-	controller = CAS
-	culture = castillian
-	add_core = CAS
-	religion = catholic
-	is_city = yes
-	trade_goods = livestock
-	capital = "Montego Bay"
 } # Christopher Columbus
-1509.1.1 = {
-	owner = CAS
-	controller = CAS
-	add_core = CAS
-	culture = castillian
-	religion = catholic
-	is_city = yes
-} # 
 1516.1.23 = {
 	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = CAS
 }
-1534.1.1 = {
+1586.1.1 = {
+	discovered_by = ENG
+} #Francis Drake
+1650.1.1 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
 	culture = castillian
 	religion = catholic
 	is_city = yes
-} # New settlement at Spanish Town
-1655.1.1 = {
+	trade_goods = sea_turtles
+} # First settlements
+1670.7.1 = {
 	owner = ENG
 	controller = ENG
 	add_core = ENG
@@ -60,7 +45,10 @@ extra_cost = 5
 	culture = english
 	religion = catholic
 	is_city = yes
-} # Sir William Penn and General Robert Venables take Jamaica for England
+} # Treaty of Madrid
+1700.1.1 = {
+	trade_goods = seafood #Sea Turtles nearly wiped out so there's alternative
+}
 1707.5.12 = { 
 	discovered_by = GBR 
 	owner = GBR
@@ -68,7 +56,3 @@ extra_cost = 5
 	add_core = GBR
 	remove_core = ENG
 }
-1760.1.1 = { unrest = 4 } # Slave rebellion
-1761.1.1 = { unrest = 0 }
-1795.1.1 = { unrest = 4 } # Slave rebellion
-1796.1.1 = { unrest = 0 }

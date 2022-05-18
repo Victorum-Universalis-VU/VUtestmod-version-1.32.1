@@ -1,13 +1,13 @@
 #482 - Bahamas
 
-owner = KLO
-controller = KLO
-add_core = KLO
+#owner = KLO	#Reducing starting tribal land
+#controller = KLO
+#add_core = KLO
 culture = west_taino
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Bahama"
-trade_goods = fish
+trade_goods = unknown
 hre = no
 base_tax = 1
 base_production = 1

@@ -101,6 +101,7 @@ country_decisions = {
 		
 		effect = {
 			set_global_flag = removed_all_primitive_nations
+			hidden_effect = {
 			every_country = {
 				limit = {
 					ai = yes
@@ -112,6 +113,8 @@ country_decisions = {
 						tag = SLV
 						tag = DNE
 						tag = STL
+						tag = CNK
+						tag = SHO
 						tag = BLA
 						tag = SAL
 						tag = BVR
@@ -200,6 +203,8 @@ country_decisions = {
 						tag = AGQ
 						tag = INN
 						tag = STA
+						tag = ERI
+						tag = SUS
 						#tag = WEN #Iroquois confederation region, potential for unification and reform?
 						#tag = SEN
 						#tag = CAY
@@ -302,6 +307,233 @@ country_decisions = {
 					}
 				}
 				country_event = { id = vu_remove_country.1 }
+			}
+			#There's an unexplainable bug where some nations don't get deleted. I will manually remove them with commands below until some genius finds a solution
+			5184 = {
+				cede_province = ---
+			}
+			4986 = {
+				cede_province = ---
+			}
+			5739 = {
+				cede_province = ---
+			}
+			5805 = {
+				cede_province = ---
+			}
+			871 = {
+				cede_province = ---
+			}
+			5826 = {
+				cede_province = ---
+			}
+			5016 = {
+				cede_province = ---
+			}
+			1809 = {
+				cede_province = ---
+			}
+			868 = {
+				cede_province = ---
+			}
+			5018 = {
+				cede_province = ---
+			}
+			5061 = {
+				cede_province = ---
+			}
+			4650 = {
+				cede_province = ---
+			}
+			2502 = {
+				cede_province = ---
+			}
+			2596 = {
+				cede_province = ---
+			}
+			1008 = {
+				cede_province = ---
+			}
+			2016 = {
+				cede_province = ---
+			}
+			4901 = {
+				cede_province = ---
+			}
+			913 = {
+				cede_province = ---
+			}
+			915 = {
+				cede_province = ---
+			}
+			945 = {
+				cede_province = ---
+			}
+			944 = {
+				cede_province = ---
+			}
+			943 = {
+				cede_province = ---
+			}
+			2524 = {
+				cede_province = ---
+			}
+			899 = {
+				cede_province = ---
+			}
+			897 = {
+				cede_province = ---
+			}
+			894 = {
+				cede_province = ---
+			}
+			2014 = {
+				cede_province = ---
+			}
+			2528 = {
+				cede_province = ---
+			}
+			920 = {
+				cede_province = ---
+			}
+			2532 = {
+				cede_province = ---
+			}
+			925 = {
+				cede_province = ---
+			}
+			931 = {
+				cede_province = ---
+			}
+			2527 = {
+				cede_province = ---
+			}
+			5992 = {
+				cede_province = ---
+			}
+			2537 = {
+				cede_province = ---
+			}
+			6004 = {
+				cede_province = ---
+			}
+			6005 = {
+				cede_province = ---
+			}
+			926 = {
+				cede_province = ---
+			}
+			936 = {
+				cede_province = ---
+			}
+			4888 = {
+				cede_province = ---
+			}
+			2526 = {
+				cede_province = ---
+			}
+			5954 = {
+				cede_province = ---
+			}
+			594 = {
+				cede_province = ---
+			}
+			969 = {
+				cede_province = ---
+			}
+			971 = {
+				cede_province = ---
+			}
+			988 = {
+				cede_province = ---
+			}
+			987 = {
+				cede_province = ---
+			}
+			2586 = {
+				cede_province = ---
+			}
+			2587 = {
+				cede_province = ---
+			}
+			991 = {
+				cede_province = ---
+			}
+			992 = {
+				cede_province = ---
+			}
+			5057 = {
+				cede_province = ---
+			}
+			994 = {
+				cede_province = ---
+			}
+			2579 = {
+				cede_province = ---
+			}
+			4619 = {
+				cede_province = ---
+			}
+			4620 = {
+				cede_province = ---
+			}
+			488 = {
+				cede_province = ---
+			}
+			4624 = {
+				cede_province = ---
+			}
+			5582 = {
+				cede_province = ---
+			}
+			2805 = {
+				cede_province = ---
+			}
+			2854 = {
+				cede_province = ---
+			}
+			2877 = {
+				cede_province = ---
+			}
+			2850 = {
+				cede_province = ---
+			}
+			757 = {
+				cede_province = ---
+			}
+			761 = {
+				cede_province = ---
+			}
+			2837 = {
+				cede_province = ---
+			}
+			2864 = {
+				cede_province = ---
+			}
+			5420 = {
+				cede_province = ---
+			}
+			5424 = {
+				cede_province = ---
+			}
+			5422 = {
+				cede_province = ---
+			}
+			5404 = {
+				cede_province = ---
+			}
+			5405 = {
+				cede_province = ---
+			}
+			1037 = {
+				cede_province = ---
+			}
+			2010 = {
+				cede_province = ---
+			}
+			5393 = {
+				cede_province = ---
+			}
 			}
 		}
 	}

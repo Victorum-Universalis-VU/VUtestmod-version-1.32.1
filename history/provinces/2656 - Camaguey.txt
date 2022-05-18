@@ -1,14 +1,14 @@
 #2656 - Camaguey
 #VU Discovery Bug Fix
 
-owner = CIB
-controller = CIB
-add_core = CIB
+#owner = CIB
+#controller = CIB
+#add_core = CIB
 culture = west_taino
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Camagüey"
-trade_goods = sugar
+trade_goods = unknown
 hre = no
 base_tax = 2
 base_production = 3
