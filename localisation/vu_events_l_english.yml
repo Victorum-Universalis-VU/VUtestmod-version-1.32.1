@@ -251,6 +251,12 @@
  vu_mission_events.2.e:0 "Many steppe nomads tried nestorian, maybe we shall too"
  vu_mission_events.2.f:0 "WE MUST RETURN TO THE OLD GODS"
  vu_mission_events.2.g:0 "Jewish traditions sound neat"
+ #Events buffing reformation
+ vu_reformation.1.t:0 "Reformation mass spreads to Scandinavia"
+ vu_reformation.1.d:0 "Ideas of reformation and religious changes that has started in Germany are breaching out. Scandinavia is one of regions where newly found ideas are quickly accepted. As the news spread, more and more Nordic people begin adopting reformed doctrine. Since it fits well with Nordic culture, there is little that one can do to stop it... at least for now. While more people move there to seek shelter or preach about new ideas, we can only watch as the whole region sweeps out of control from corrupt Papacy and bishops. Truly turbulent times are ahead for this Peninsula."
+ vu_reformation.1.a:0 "Little we can do now but watch"
+ vu_reformation.1.tooltip:0 "Each province that is catholic and within Scandinavia region will have 50% chance to convert to protestant"
+ vu_reformation.1.b:0 "Best thing we can do is to join them"
  #Events for Prussia and Brandenburg
  vu_pru.1.t:0 "Unifying two thrones"
  vu_pru.1.d:0 "Now that Electorate of Brandenburg and Duchy of Prussia have been in close relation with each other for quite some time, we may take efforts to unite the two nations together and form one large Prussian State. The ties between two realms shall be thighten."

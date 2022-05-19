@@ -1,11 +1,11 @@
 #2658 - Maguana
 #VU Discovery Bug Fix
 
-owner = MGA
-controller = MGA
-add_core = MGA
+#owner = MGA
+#controller = MGA
+#add_core = MGA
 culture = arawak
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Azua"
 trade_goods = copper

@@ -49,6 +49,7 @@ native_hostileness = 1
 	controller = NED
 	add_core = NED
 	remove_core = KNI
+	add_core = FRA
 	capital = "Sint-Thomas"
 } # French reposess the island from the Knights, but around the same time Saint Thomas under the Dutch becomes more important, and the French colony in Saint Croix wouldn't be destined to last
 1666.1.1 = {
@@ -58,5 +59,29 @@ native_hostileness = 1
 	remove_core = NED
 	capital = "Sankt Thomas"
 } # Denmark conquers the island from the Dutch
+1673.1.1 = {
+	base_production = 3
+	trade_goods = slaves
+} #St Thomas becomes slave market
+1685.1.1 = {
+	base_manpower = 2
+	add_core = BRA
+} #Part of St Thomas sold to Brandenbourg company, resold in 1754
 1691.1.1 = { capital = "Charlotte Amalie" } # capital renamed
+1701.1.18 = {
+	remove_core = BRA
+	add_core = PRU
+}
+1733.1.1 = {
+	remove_core = FRA
+} #Denmark purchases Saint Croix from France
+1754.1.1 = {
+	remove_core = PRU
+	trade_goods = sugar
+	base_manpower = 1
+} #Company land resold to Denmark
 #Other changes in Saint Croix, but Saint Thomas was more important from this time on
+1848.1.1 = {
+	base_manpower = 2
+	base_production = 1
+} #Slavery aboloshed but sugar production declines
