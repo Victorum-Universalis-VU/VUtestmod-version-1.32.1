@@ -859,8 +859,8 @@ sloboda_ukraine_area = { #3
 	291 3247 7258 7205
 }
 
-yedisan_area = { #3
-	282 2406 7195 7197 7279
+yedisan_area = { #6
+	282 2406 4140 7195 7197 7279
 }
 
 zaporizhia_area = { #3
@@ -4674,7 +4674,7 @@ unused_area = {
 	3232 3161 3162 3218 3219 3222 3233 3234 3235 3237 3158 			#Replaced in 1.27
 
 	#Removed Paradox & BtP provinces (mostly wastelands), which seems to want an area anyway, or they fill up the error log
-	3107 3116 3132 3133 3136 3186 3189 3272 3275 3299 4140 4328 4347 5114 5115 5122 5128 5113 7479
+	3107 3116 3132 3133 3136 3186 3189 3272 3275 3299 4328 4347 5114 5115 5122 5128 5113 7479
 
 	8610 # Removed Sea Provinces from CR's SEA
 

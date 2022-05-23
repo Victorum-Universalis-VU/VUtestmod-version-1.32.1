@@ -420,6 +420,7 @@
 #7172 = "Dewol" #???
 4111 = { "Mediolanum" "Mediolanum" } #Approx. La Rochelle
 4112 = { "Cadurci" "Varadetum" }
+4140 = { "Alektor" "Alektor" } #Vozia
 4150 = { "Ebora" "Ebora" } #Evora
 4174 = { "Dyrrhachium" "Dyrrhachium" }
 4175 = { "Lissos" "Lissos" }
