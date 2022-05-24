@@ -779,6 +779,7 @@
 7007 = { "Kanousion" "Natolion" }
 7008 = { "Aquilonia" "Venusia" }
 7009 = { "Lucania" "Poseidonia" }
+7010 = "Sinaia"
 7011 = { "Uria" "Teano" }
 7012 = "Nola"
 7013 = { "Aternum" "Aternum" }
