@@ -15310,23 +15310,23 @@ tomb_of_genghis_kahn = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-		statewide_governing_cost = -0.25
-		local_manpower_modifier = 0.33
+			statewide_governing_cost = -0.25
+			local_manpower_modifier = 0.33
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-		regiment_recruit_speed = -0.33
-		local_monthly_devastation = -0.1
+			regiment_recruit_speed = -0.33
+			local_monthly_devastation = -0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-		movement_speed = 0.10
-		prestige = 0.5
-		horde_unity = 1
-		nomadic_tribes_loyalty_modifier = 0.1
-		nomadic_tribes_influence_modifier = 0.05
+			movement_speed = 0.10
+			prestige = 0.5
+			horde_unity = 1
+			nomadic_tribes_loyalty_modifier = 0.1
+			nomadic_tribes_influence_modifier = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -15347,18 +15347,23 @@ tomb_of_genghis_kahn = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-
+			statewide_governing_cost = -0.25
+			local_manpower_modifier = 0.33
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			
+			regiment_recruit_speed = -0.33
+			local_monthly_devastation = -0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			
-			
+			movement_speed = 0.10
+			prestige = 0.5
+			horde_unity = 1
+			nomadic_tribes_loyalty_modifier = 0.1
+			nomadic_tribes_influence_modifier = 0.05
 		}
 
 		#what effects happen when this tier is achieved
