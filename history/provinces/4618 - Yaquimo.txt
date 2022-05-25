@@ -1,14 +1,14 @@
 #4618 - Yaquimo
 #VU Discovery Bug Fix
 
-owner = JRA
-controller = JRA
-add_core = JRA
+#owner = JRA
+#controller = JRA
+#add_core = JRA
 culture = west_taino
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Gonaibo"
-trade_goods = grain 
+trade_goods = unknown
 hre = no
 base_tax = 4
 base_production = 5
