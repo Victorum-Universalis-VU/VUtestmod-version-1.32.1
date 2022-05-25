@@ -30,7 +30,7 @@ spa_colonial_group = {
 					colonial_the_carribean = { has_discovered = ROOT }
 					colonial_hispaniola = { has_discovered = ROOT }
 					colonial_cuba = { has_discovered = ROOT }
-					colonial_bahamas = { has_discovered = ROOT }
+					#colonial_bahamas = { has_discovered = ROOT }
 				}
 			}
 		}
@@ -78,13 +78,13 @@ spa_colonial_group = {
 						colonial_region = colonial_cuba
 					}
 				}
-				custom_trigger_tooltip = {
-					tooltip = bt_mission_tooltip_bahamas_colonisation
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_bahamas
-					}
-				}
+				#custom_trigger_tooltip = {
+				#	tooltip = bt_mission_tooltip_bahamas_colonisation
+				#	num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				#		value = 5
+				#		colonial_region = colonial_bahamas
+				#	}
+				#}
 			}
 		}
 		

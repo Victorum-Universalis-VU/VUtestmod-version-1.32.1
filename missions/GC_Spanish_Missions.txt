@@ -146,7 +146,7 @@ gc_spain_1_b = {
 		# free mission
 
 		provinces_to_highlight = {
-			colonial_region = colonial_bahamas
+			colonial_region = colonial_the_carribean
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -159,7 +159,7 @@ gc_spain_1_b = {
 				tooltip = miss_colonize_caribbean
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 1
-					colonial_region = colonial_bahamas
+					colonial_region = colonial_the_carribean
 					is_city = yes
 				}
 			}
