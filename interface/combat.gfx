@@ -1922,6 +1922,10 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_adana"
         texturefile = "gfx/interface/adana.dds"
     }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_hakkari"
+        texturefile = "gfx/interface/hakkari.dds"
+    }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_tblisi"
         texturefile = "gfx/interface/tblisi.dds"
