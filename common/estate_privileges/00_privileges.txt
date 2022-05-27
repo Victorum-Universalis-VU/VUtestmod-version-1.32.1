@@ -566,7 +566,6 @@ estate_maratha_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_estate = estate_maratha
 	}
 	on_granted = {
 	}
@@ -941,7 +940,6 @@ estate_vaisyas_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_estate = estate_vaisyas
 	}
 	on_granted = {
 	}
@@ -1129,7 +1127,6 @@ estate_cossacks_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_estate = estate_cossacks
 	}
 	on_granted = {
 	}
@@ -1317,7 +1314,6 @@ estate_nomadic_tribes_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_estate = estate_nomadic_tribes
 	}
 	on_granted = {
 	}
@@ -1505,7 +1501,6 @@ estate_dhimmi_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_estate = estate_dhimmi
 	}
 	on_granted = {
 	}
@@ -3055,7 +3050,6 @@ estate_cossacks_exploration_expedition = {
 	loyalty = 0.05
 	influence = 0.05
 	is_valid = {
-		has_estate = estate_cossacks
 	}
 	can_select = {
 	}
@@ -3115,7 +3109,6 @@ estate_cossacks_cossack_self_governance = {
 	loyalty = 0.1
 	influence = 0.1
 	is_valid = {
-		has_estate = estate_cossacks
 	}
 	can_select = {
 	}
