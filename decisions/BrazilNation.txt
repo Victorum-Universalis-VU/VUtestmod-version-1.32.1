@@ -164,13 +164,14 @@ country_decisions = {
 				limit = {
 					is_colonial_nation = yes
 					capital_scope = {
-						OR = {
-							colonial_region = colonial_brazil
-							colonial_region = colonial_maranhao
-							colonial_region = colonial_amazonia
-							colonial_region = colonial_mato_grosso
-							colonial_region = colonial_rio_grande
-						}
+					    colonial_region = colonial_brazil
+						#OR = {
+						#	colonial_region = colonial_brazil
+						#	colonial_region = colonial_maranhao
+						#	colonial_region = colonial_amazonia
+						#	colonial_region = colonial_mato_grosso
+						#	colonial_region = colonial_rio_grande
+						#}
 					}
 				}
 				FROM = { inherit = PREV }

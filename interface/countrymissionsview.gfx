@@ -766,4 +766,170 @@ spriteTypes = {
 		name = "mission_sw_paquime"
 		texturefile = "gfx/interface/missions/sw_paquime.dds"
 	}
+	
+	#Byzantine Missions
+	spriteType = {
+		name = "mission_slopes_of_olympus"
+		texturefile = "gfx//interface//missions//mission_slopes_of_olympus.dds"
+	}
+	
+	spriteType = {
+		name = "mission_east_balkans"
+		texturefile = "gfx//interface//missions//mission_east_balkans.dds"
+	}
+	
+	spriteType = {
+		name = "mission_our_dacian_cousins"
+		texturefile = "gfx//interface//missions//mission_our_dacian_cousins.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_cyprus"
+		texturefile = "gfx//interface//missions//mission_recover_cyprus.dds"
+	}
+	
+	spriteType = {
+		name = "mission_alpine_minerals"
+		texturefile = "gfx//interface//missions//mission_alpine_minerals.dds"
+	}
+	
+	spriteType = {
+		name = "mission_anatolian_coast"
+		texturefile = "gfx//interface//missions//mission_anatolian_coast.dds"
+	}
+	
+	spriteType = {
+		name = "mission_crossing_the_rhine"
+		texturefile = "gfx//interface//missions//mission_crossing_the_rhine.dds"
+	}
+	
+	spriteType = {
+		name = "mission_into_draculas_lair"
+		texturefile = "gfx//interface//missions//mission_into_draculas_lair.dds"
+	}
+	
+	spriteType = {
+		name = "mission_into_germania_inferior"
+		texturefile = "gfx//interface//missions//mission_into_germania_inferior.dds"
+	}
+	
+	spriteType = {
+		name = "mission_into_hispania"
+		texturefile = "gfx//interface//missions//mission_into_hispania.dds"
+	}
+	
+	spriteType = {
+		name = "mission_invasion_britain"
+		texturefile = "gfx//interface//missions//mission_invasion_britain.dds"
+	}
+	
+	spriteType = {
+		name = "mission_luck_of_the_irish"
+		texturefile = "gfx//interface//missions//mission_luck_of_the_irish.dds"
+	}
+	
+	spriteType = {
+		name = "mission_over_the_wall"
+		texturefile = "gfx//interface//missions//mission_over_the_wall.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_alexandria"
+		texturefile = "gfx//interface//missions//mission_recover_alexandria.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_jerusalem"
+		texturefile = "gfx//interface//missions//mission_recover_jerusalem.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_lombardia"
+		texturefile = "gfx//interface//missions//mission_recover_lombardia.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_tunis"
+		texturefile = "gfx//interface//missions//mission_recover_tunis.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recovery_gaul"
+		texturefile = "gfx//interface//missions//mission_recovery_gaul.dds"
+	}
+	
+	spriteType = {
+		name = "mission_the_hispanic_coast"
+		texturefile = "gfx//interface//missions//mission_the_hispanic_coast.dds"
+	}
+	
+	spriteType = {
+		name = "mission_thessaly_and_epirus"
+		texturefile = "gfx//interface//missions//mission_thessaly_and_epirus.dds"
+	}
+	
+	spriteType = {
+		name = "mission_when_in_pella"
+		texturefile = "gfx//interface//missions//mission_when_in_pella.dds"
+	}
+	
+	spriteType = {
+		name = "mission_northern_border"
+		texturefile = "gfx//interface//missions//mission_northern_border.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_western_balkans"
+		texturefile = "gfx//interface//missions//mission_recover_western_balkans.dds"
+	}
+	
+	spriteType = {
+		name = "mission_destroy_venice"
+		texturefile = "gfx//interface//missions//mission_destroy_venice.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_rome"
+		texturefile = "gfx//interface//missions//mission_recover_rome.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_north_italy"
+		texturefile = "gfx//interface//missions//mission_recover_north_italy.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_south_italy"
+		texturefile = "gfx//interface//missions//mission_recover_south_italy.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_sicily"
+		texturefile = "gfx//interface//missions//mission_recover_sicily.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_antioch"
+		texturefile = "gfx//interface//missions//mission_recover_antioch.dds"
+	}
+	
+	spriteType = {
+		name = "mission_the_pentarchy"
+		texturefile = "gfx//interface//missions//mission_the_pentarchy.dds"
+	}
+	
+	spriteType = {
+		name = "mission_convert_rome"
+		texturefile = "gfx//interface//missions//mission_convert_rome.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_caucasus"
+		texturefile = "gfx//interface//missions//mission_recover_caucasus.dds"
+	}
+	
+	spriteType = {
+		name = "mission_recover_southern_greece"
+		texturefile = "gfx//interface//missions//mission_recover_southern_greece.dds"
+	}
 }

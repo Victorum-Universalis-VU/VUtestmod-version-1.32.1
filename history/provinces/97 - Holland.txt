@@ -14,7 +14,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 trade_goods = beer			#Beer trade with Hamburg was the core of Amsterdam trade in the early days, and part of the reason for its growth early on.
-center_of_trade = 4
+center_of_trade = 3 #Lowered from 4 for more historical accuracy
 
 add_permanent_province_modifier = {
 	name = ijsselmeer_bay_modifier

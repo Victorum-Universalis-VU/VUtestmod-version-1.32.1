@@ -1355,7 +1355,7 @@
  PROV_ADJ7192:0 "Solkhat"
  PROV_ADJ7193:0 "Ichki"
  PROV_ADJ7194:0 "Kinburn"
- PROV_ADJ7195:0 "Vozia"
+ PROV_ADJ7195:0 "Berezan"
  PROV_ADJ7196:0 "Ekaterinoslav"
  PROV_ADJ7197:0 "Voznesensk"
  PROV_ADJ7198:0 "Kryvyi Rih"
@@ -2015,9 +2015,12 @@
  ############################################################################################################
  ############################################################################################################
  ############################################################################################################
-
+ 
+ PROV282:0 "Khadjibey"
+ PROV_ADJ282:0 "Khadjibey"
  PROV3069:0 "Verdun"
  PROV3197:0 "Jülich"
+ PROV4140:0 "Vozia"
  PROV4768:0 "Heinsberg"
 
  PROV4790:0 "Pangguyanan"
@@ -4373,7 +4376,7 @@
  PROV7007:0 "Barletta"
  PROV7008:0 "Melfi"
  PROV7009:0 "Cilento"
- #PROV7010:0 "Avellino"
+ PROV7010:0 "Bucegi"
  PROV7011:0 "San Severo"
  PROV7012:0 "Benevento"
  PROV7013:0 "Chieti"
@@ -4560,7 +4563,7 @@
  PROV7192:0 "Solkhat"
  PROV7193:0 "Ichki"
  PROV7194:0 "Kinburn"
- PROV7195:0 "Vozia"
+ PROV7195:0 "Berezan"
  PROV7196:0 "Ekaterinoslav"
  PROV7197:0 "Voznesensk"
  PROV7198:0 "Kryvyi Rih"
@@ -6348,6 +6351,7 @@
  PROV_ADJ8763:0 "Itaperuna"
 
  # Beyond Typus province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Draiocht
+ PROV_ADJ4140:0 "Vozian"
  PROV_ADJ4846:0 "Woolna"
  PROV_ADJ4847:0 "Yunawa"
  PROV_ADJ4848:0 "Mingin"
@@ -7227,6 +7231,7 @@
  PROV_ADJ6985:0 "Penghu"
  PROV_ADJ6998:0 "Northern Territory"
  PROV_ADJ6999:0 "Western Territory"
+ PROV_ADJ7010:0 "Bucegi"
  PROV_ADJ7068:0 "Guastalla"
  PROV_ADJ7069:0 "Kara"
  PROV_ADJ7073:0 "Atakpame"

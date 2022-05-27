@@ -42,5 +42,5 @@ discovered_by = nomad_group
 1770.9.30 = { controller = RUS } # Occupied by Russia
 1774.7.21 = { controller = TUR } # Treaty of Kuchuk-Kainarji
 1788.12.17 = { controller = RUS } # Occupied by Russia
-1792.1.9 = { owner = RUS controller = RUS add_core = RUS remove_core = TUR capital = "Ochakov" } # Treaty of Jassy
+1792.1.9 = { owner = RUS controller = RUS add_core = RUS remove_core = TUR capital = "Odessa" } # Treaty of Jassy
 
