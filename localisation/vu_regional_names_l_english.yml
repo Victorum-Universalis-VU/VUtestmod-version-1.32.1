@@ -193,8 +193,8 @@
  short_colonial_cuba:0 "Cuba"
  colonial_hispaniola:0 "Colonial Hispaniola"
  short_colonial_hispaniola:0 "Hispaniola"
- colonial_bahamas:0 "Colonial Bahamas"
- short_colonial_bahamas:0 "Bahamas"
+ #colonial_bahamas:0 "Colonial Bahamas"
+ #short_colonial_bahamas:0 "Bahamas"
  colonial_polynesia:0 "Colonial New Zealand"
  short_colonial_polynesia:0 "New Zealand"
  colonial_cape:0 "Colonial Cape"
@@ -1167,11 +1167,11 @@
  COLONIAL_HISPANIOLA_Haiti_IE:0 "Dominic Naofa"
  COLONIAL_HISPANIOLA_Haiti_IE_ADJ:0 "Dominic Naofach"
  #Bahamas
- COLONIAL_BAHAMAS_Bahamas:0 "Bahamas"
- COLONIAL_BAHAMAS_Bahamas_ADJ:0 "Bahamas"
- COLONIAL_BAHAMAS_Bahamai:0 "Bahamaí"
- COLONIAL_BAHAMAS_Bahamai_ADJ:0 "Bahamach"
-#Greenland
+ #COLONIAL_BAHAMAS_Bahamas:0 "Bahamas"
+ #COLONIAL_BAHAMAS_Bahamas_ADJ:0 "Bahamas"
+ #COLONIAL_BAHAMAS_Bahamai:0 "Bahamaí"
+ #COLONIAL_BAHAMAS_Bahamai_ADJ:0 "Bahamach"
+ #Greenland
  COLONIAL_GREENLAND_BTP_IE:0 "Tír Ghlas"
  COLONIAL_GREENLAND_BTP_IE_ADJ:0 "Tír Ghlas"
  COLONIAL_GREENLAND_BTP_BR:0 "Douar C'hwer"

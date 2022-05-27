@@ -652,6 +652,7 @@
  urban_izmir:0 "Izmir"
  urban_sinop:0 "Sinop"
  urban_ankara:0 "Ankara"
+ urban_hakkari:0 "Hakkari"
  urban_sivas:0 "Sivas"
  urban_manastir:0 "Manastir"
  urban_tarnovo:0 "Tarnovo"
@@ -1507,7 +1508,7 @@
  COLONIAL_ACADIA_LA:0 "Nuova Toscana"
  COLONIAL_CUBA_LA:0 "Isola Giovanna" #Suggestion from Chrysocyon & Alexious
  COLONIAL_HISPANIOLA_LA:0 "Nuova Silicia"
- COLONIAL_BAHAMAS_LA:0 "Bassa Marea" #Suggestion from Chrysocyon & Alexious
+ #COLONIAL_BAHAMAS_LA:0 "Bassa Marea" #Suggestion from Chrysocyon & Alexious
  COLONIAL_GREENLAND_LA:0 "Ultima Thule" #Suggestion from Alexious. I am aware it has Nazi connotations, but given its original meaning, the farthest northern lands on the borders of the known world, it makes sense for Greenland in this case, especially given its Graeco-Roman origin. It also was the historical Latin name for Greenland used in the time period.
  COLONIAL_GUYANA_LA:0 "Multarum Aquarum"
  #Adjectives:
@@ -1531,7 +1532,7 @@
  COLONIAL_ACADIA_LA_ADJ:0 "Nuova Toscana"
  COLONIAL_CUBA_LA_ADJ:0 "Isola Giovanna" #Suggestion from Chrysocyon & Alexious
  COLONIAL_HISPANIOLA_LA_ADJ:0 "Nuova Silicia"
- COLONIAL_BAHAMAS_LA_ADJ:0 "Bassa Marea" #Suggestion from Chrysocyon & Alexious
+ #COLONIAL_BAHAMAS_LA_ADJ:0 "Bassa Marea" #Suggestion from Chrysocyon & Alexious
  COLONIAL_GREENLAND_LA:0 "Ultima Thule" #Suggestion from Alexious. I am aware it has Nazi connotations, but given its original meaning, the farthest northern lands on the borders of the known world, it makes sense for Greenland in this case, especially given its Graeco-Roman origin. It also was the historical Latin name for Greenland used in the time period.
  COLONIAL_GUYANA_LA_ADJ:0 "Multarum Aquarum"
  
@@ -1551,7 +1552,7 @@
  COLONIAL_CUBA_PT:0 "Ilha Joana"
  COLONIAL_HISPANIOLA_PT:0 "Ilha de Cristo"
  COLONIAL_HISPANIOLA_PT_2:0 "São Domingos"
- COLONIAL_BAHAMAS_PT:0 "Ilhas Lucaias"
+ #COLONIAL_BAHAMAS_PT:0 "Ilhas Lucaias"
  COLONIAL_GREENLAND_PT:0 "Terra Verde"
  COLONIAL_GUYANA_PT:0 "Guayana"
  #Adjectives:
@@ -1570,16 +1571,16 @@
  COLONIAL_CUBA_PT_ADJ:0 "Ilha Joana"
  COLONIAL_HISPANIOLA_PT_ADJ:0 "Ilha de Cristo"
  COLONIAL_HISPANIOLA_PT_2_ADJ:0 "São Domingos"
- COLONIAL_BAHAMAS_PT_ADJ:0 "Ilhas Lucaias"
+ #COLONIAL_BAHAMAS_PT_ADJ:0 "Ilhas Lucaias"
  COLONIAL_GREENLAND_PT_ADJ:0 "Terra Verde"
  COLONIAL_GUYANA_PT_ADJ:0 "Guayana"
  #Spanish/Iberian names, based off of discussion on the BT Discord with Chrysocyon mainly:
  COLONIAL_ACADIA_ES:0 "Tierra de Corte-Real"
- COLONIAL_BAHAMAS_ES:0 "Las Lucayas"
+ #COLONIAL_BAHAMAS_ES:0 "Las Lucayas"
  COLONIAL_GUYANA_ES:0 "Guayana"
  #Adjectives:
  COLONIAL_ACADIA_ES_ADJ:0 "Tierra de Corte-Real"
- COLONIAL_BAHAMAS_ES_ADJ:0 "Las Lucayas"
+ #COLONIAL_BAHAMAS_ES_ADJ:0 "Las Lucayas"
  COLONIAL_GUYANA_ES_ADJ:0 "Guayana"
  #French names, based off of discussion on the BT Discord:
  #British names, based off of discussion on the BT Discord:
@@ -1629,7 +1630,7 @@
  COLONIAL_FLORIDA_TU:0 "Gülçalisi Kolonisi" #Local fern translated into gülçalisi or kusburnu kinda makes a good name for it (Other choice would be Gündogumu Kolonisi cause Florida call herself a Sunshine State which translates into that)
  COLONIAL_CUBA_TU:0 "Tütün Kolonisi" #Tobacco n cigars translates into tütün which turks actually loved it during those years and had them grown northern in eastern anatolia.
  COLONIAL_HISPANIOLA_TU:0 "Askkusu Kolonisi" #Commenting on rich presence of tropical birds on the island
- COLONIAL_BAHAMAS_TU:0 "Ulutürk Egemenligi" #Got the name from Grand Turk island in Bahamas
+ #COLONIAL_BAHAMAS_TU:0 "Ulutürk Egemenligi" #Got the name from Grand Turk island in Bahamas
  COLONIAL_POLYNESIA_TU:0 "Paskalya Kolonisi" #Paskalya Adasi translation from Isla de Pascua or (we could call it Adalar Kolonisi which is roughly Island Colonies)
  COLONIAL_CAPE_COLONY_TU:0 "Afrika Burnu" #or Ümit Burnu (In case of ümüt burnu literally what the turks call cape of africa)
  COLONIAL_GREENLAND_TU:0 "Yesil Vadi" #Greenvalley has a historical value between mamluks and ottomans skirmishes also has one of the coldest spot in Levant area at night so makes sense follows up nicely with green from troll danes as well.
@@ -1655,7 +1656,7 @@
  COLONIAL_FLORIDA_TU_ADJ:0 "Gülçalisi" #Local fern translated into gülçalisi or kusburnu kinda makes a good name for it (Other choice would be Gündogumu Kolonisi cause Florida call herself a Sunshine State which translates into that)
  COLONIAL_CUBA_TU_ADJ:0 "Tütün" #Tobacco n cigars translates into tütün which turks actually loved it during those years and had them grown northern in eastern anatolia.
  COLONIAL_HISPANIOLA_TU_ADJ:0 "Askkusu" #Commenting on rich presence of tropical birds on the island
- COLONIAL_BAHAMAS_TU_ADJ:0 "Ulutürk" #Got the name from Grand Turk island in Bahamas
+ #COLONIAL_BAHAMAS_TU_ADJ:0 "Ulutürk" #Got the name from Grand Turk island in Bahamas
  COLONIAL_POLYNESIA_TU_ADJ:0 "Paskalya" #Paskalya Adasi translation from Isla de Pascua or (we could call it Adalar Kolonisi which is roughly Island Colonies)
  COLONIAL_CAPE_COLONY_TU_ADJ:0 "Afrika" #or Ümit Burnu (In case of ümüt burnu literally what the turks call cape of africa)
  COLONIAL_GREENLAND_TU_ADJ:0 "Yesil Vadi" #Greenvalley has a historical value between mamluks and ottomans skirmishes also has one of the coldest spot in Levant area at night so makes sense follows up nicely with green from troll danes as well.
@@ -2386,114 +2387,146 @@
  COLONIAL_JAMAICA_Jamaica:0 "Jamaica"
  
  #Ecuador
- COLONIAL_ECUADOR_USA:0 "Equator"
- COLONIAL_ECUADOR_GBR:0 "Equator"
- COLONIAL_ECUADOR_FRA:0 "Équateur"
- COLONIAL_ECUADOR_POR:0 "Equador"
- COLONIAL_ECUADOR_SPA:0 "Ecuador"
- COLONIAL_ECUADOR_SCA:0 "Ekvator"
- COLONIAL_ECUADOR_NED:0 "Evenaar"
- COLONIAL_ECUADOR_GER:0 "Äquator"
- COLONIAL_ECUADOR_GLC:0 "Crios-Meadhain"
- COLONIAL_ECUADOR_LAT:0 "Aequatoriana"
- COLONIAL_ECUADOR_TUR:0 "Ekvador"
- COLONIAL_ECUADOR_Root_Culture_GetGroupName_Equator:0 "Equator"
- COLONIAL_ECUADOR_Root_Culture_GetGroupName_Ecuador:0 "Ecuador"
- COLONIAL_ECUADOR_Equator:0 "Equator"
+ #COLONIAL_ECUADOR_USA:0 "Equator"
+ #COLONIAL_ECUADOR_GBR:0 "Equator"
+ #COLONIAL_ECUADOR_FRA:0 "Équateur"
+ #COLONIAL_ECUADOR_POR:0 "Equador"
+ #COLONIAL_ECUADOR_SPA:0 "Ecuador"
+ #COLONIAL_ECUADOR_SCA:0 "Ekvator"
+ #COLONIAL_ECUADOR_NED:0 "Evenaar"
+ #COLONIAL_ECUADOR_GER:0 "Äquator"
+ #COLONIAL_ECUADOR_GLC:0 "Crios-Meadhain"
+ #COLONIAL_ECUADOR_LAT:0 "Aequatoriana"
+ #COLONIAL_ECUADOR_TUR:0 "Ekvador"
+ #COLONIAL_ECUADOR_Root_Culture_GetGroupName_Equator:0 "Equator"
+ #COLONIAL_ECUADOR_Root_Culture_GetGroupName_Ecuador:0 "Ecuador"
+ #COLONIAL_ECUADOR_Equator:0 "Equator"
  
  #Venezuela
- COLONIAL_VENEZUELA_USA:0 "Little Venice"
- COLONIAL_VENEZUELA_GBR:0 "Little Venice"
- COLONIAL_VENEZUELA_FRA:0 "Petite Venise"
- COLONIAL_VENEZUELA_POR:0 "Pequena Veneza"
- COLONIAL_VENEZUELA_SPA:0 "Venezuela"
- COLONIAL_VENEZUELA_SCA:0 "Lilla Venedig"
- COLONIAL_VENEZUELA_NED:0 "Klein-Venetië"
- COLONIAL_VENEZUELA_GER:0 "Klein-Venedig"
- COLONIAL_VENEZUELA_GLC:0 "Venice Beag"
- COLONIAL_VENEZUELA_LAT:0 "Venetiola"
- COLONIAL_VENEZUELA_TUR:0 "Kücük Venedik"
- COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Little_Venice:0 "Little Venice"
- COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Venezuela:0 "Venezuela"
- COLONIAL_VENEZUELA_Little_Venice:0 "Little Venice"
+ #COLONIAL_VENEZUELA_USA:0 "Little Venice"
+ #COLONIAL_VENEZUELA_GBR:0 "Little Venice"
+ #COLONIAL_VENEZUELA_FRA:0 "Petite Venise"
+ #COLONIAL_VENEZUELA_POR:0 "Pequena Veneza"
+ #COLONIAL_VENEZUELA_SPA:0 "Venezuela"
+ #COLONIAL_VENEZUELA_SCA:0 "Lilla Venedig"
+ #COLONIAL_VENEZUELA_NED:0 "Klein-Venetië"
+ #COLONIAL_VENEZUELA_GER:0 "Klein-Venedig"
+ #COLONIAL_VENEZUELA_GLC:0 "Venice Beag"
+ #COLONIAL_VENEZUELA_LAT:0 "Venetiola"
+ #COLONIAL_VENEZUELA_TUR:0 "Kücük Venedik"
+ #COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Little_Venice:0 "Little Venice"
+ #COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Venezuela:0 "Venezuela"
+ #COLONIAL_VENEZUELA_Little_Venice:0 "Little Venice"
  
  #Bolivia
- COLONIAL_BOLIVIA_USA:0 "Bolivia"
- COLONIAL_BOLIVIA_GBR:0 "Bolivia"
- COLONIAL_BOLIVIA_FRA:0 "Bolivie"
- COLONIAL_BOLIVIA_POR:0 "Bolívia"
- COLONIAL_BOLIVIA_SPA:0 "Bolivia"
- COLONIAL_BOLIVIA_SCA:0 "Bolivia"
- COLONIAL_BOLIVIA_NED:0 "Bolivia"
- COLONIAL_BOLIVIA_GER:0 "Bolivien"
- COLONIAL_BOLIVIA_GLC:0 "Bolivia"
- COLONIAL_BOLIVIA_LAT:0 "Bolivia"
- COLONIAL_BOLIVIA_TUR:0 "Bolivya"
- COLONIAL_BOLIVIA_Root_Culture_GetGroupName_Bolivia:0 "Bolivia"
- COLONIAL_BOLIVIA_Bolivia:0 "Bolivia"
+ #COLONIAL_BOLIVIA_USA:0 "Bolivia"
+ #COLONIAL_BOLIVIA_GBR:0 "Bolivia"
+ #COLONIAL_BOLIVIA_FRA:0 "Bolivie"
+ #COLONIAL_BOLIVIA_POR:0 "Bolívia"
+ #COLONIAL_BOLIVIA_SPA:0 "Bolivia"
+ #COLONIAL_BOLIVIA_SCA:0 "Bolivia"
+ #COLONIAL_BOLIVIA_NED:0 "Bolivia"
+ #COLONIAL_BOLIVIA_GER:0 "Bolivien"
+ #COLONIAL_BOLIVIA_GLC:0 "Bolivia"
+ #COLONIAL_BOLIVIA_LAT:0 "Bolivia"
+ #COLONIAL_BOLIVIA_TUR:0 "Bolivya"
+ #COLONIAL_BOLIVIA_Root_Culture_GetGroupName_Bolivia:0 "Bolivia"
+ #COLONIAL_BOLIVIA_Bolivia:0 "Bolivia"
  
  #Chile
- COLONIAL_CHILE_USA:0 "Chili"
- COLONIAL_CHILE_GBR:0 "Chili"
- COLONIAL_CHILE_FRA:0 "Chili"
- COLONIAL_CHILE_POR:0 "Pimenta"
- COLONIAL_CHILE_SPA:0 "Chile"
- COLONIAL_CHILE_SCA:0 "Chili"
- COLONIAL_CHILE_NED:0 "Chili"
- COLONIAL_CHILE_GER:0 "Chili"
- COLONIAL_CHILE_GLC:0 "Chili"
- COLONIAL_CHILE_LAT:0 "Purus"
- COLONIAL_CHILE_TUR:0 "Sili"
- COLONIAL_CHILE_Root_Culture_GetGroupName_Chile:0 "Chili"
- COLONIAL_CHILE_Chile:0 "Chili"
+ #COLONIAL_CHILE_USA:0 "Chili"
+ #COLONIAL_CHILE_GBR:0 "Chili"
+ #COLONIAL_CHILE_FRA:0 "Chili"
+ #COLONIAL_CHILE_POR:0 "Pimenta"
+ #COLONIAL_CHILE_SPA:0 "Chile"
+ #COLONIAL_CHILE_SCA:0 "Chili"
+ #COLONIAL_CHILE_NED:0 "Chili"
+ #COLONIAL_CHILE_GER:0 "Chili"
+ #COLONIAL_CHILE_GLC:0 "Chili"
+ #COLONIAL_CHILE_LAT:0 "Purus"
+ #COLONIAL_CHILE_TUR:0 "Sili"
+ #COLONIAL_CHILE_Root_Culture_GetGroupName_Chile:0 "Chili"
+ #COLONIAL_CHILE_Chile:0 "Chili"
  
  #Patagonia
- COLONIAL_PATAGONIA_USA:0 "Patagonia"
- COLONIAL_PATAGONIA_GBR:0 "Patagonia"
- COLONIAL_PATAGONIA_FRA:0 "Patagonie"
- COLONIAL_PATAGONIA_POR:0 "Patagônia"
- COLONIAL_PATAGONIA_SPA:0 "Patayonja"
- COLONIAL_PATAGONIA_SCA:0 "Patagonien"
- COLONIAL_PATAGONIA_NED:0 "Patagonië"
- COLONIAL_PATAGONIA_GER:0 "Patagonien"
- COLONIAL_PATAGONIA_GLC:0 "Patagonia"
- COLONIAL_PATAGONIA_LAT:0 "Patagonia"
- COLONIAL_PATAGONIA_TUR:0 "Patagonya"
- COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patagonia:0 "Patagonia"
- COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patayonja:0 "Patayonja"
- COLONIAL_PATAGONIA_Patagonia:0 "Patagonia"
+ #COLONIAL_PATAGONIA_USA:0 "Patagonia"
+ #COLONIAL_PATAGONIA_GBR:0 "Patagonia"
+ #COLONIAL_PATAGONIA_FRA:0 "Patagonie"
+ #COLONIAL_PATAGONIA_POR:0 "Patagônia"
+ #COLONIAL_PATAGONIA_SPA:0 "Patayonja"
+ #COLONIAL_PATAGONIA_SCA:0 "Patagonien"
+ #COLONIAL_PATAGONIA_NED:0 "Patagonië"
+ #COLONIAL_PATAGONIA_GER:0 "Patagonien"
+ #COLONIAL_PATAGONIA_GLC:0 "Patagonia"
+ #COLONIAL_PATAGONIA_LAT:0 "Patagonia"
+ #COLONIAL_PATAGONIA_TUR:0 "Patagonya"
+ #COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patagonia:0 "Patagonia"
+ #COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patayonja:0 "Patayonja"
+ #COLONIAL_PATAGONIA_Patagonia:0 "Patagonia"
  
  #Amazonia
- COLONIAL_AMAZONIA_USA:0 "Amazon"
- COLONIAL_AMAZONIA_GBR:0 "Amazon"
- COLONIAL_AMAZONIA_FRA:0 "Amazonie"
- COLONIAL_AMAZONIA_POR:0 "Grão-Pará"
- COLONIAL_AMAZONIA_SPA:0 "Amazonas"
- COLONIAL_AMAZONIA_SCA:0 "Amazone"
- COLONIAL_AMAZONIA_NED:0 "Amazonië"
- COLONIAL_AMAZONIA_GER:0 "Amazonien"
- COLONIAL_AMAZONIA_GLC:0 "Amazonia"
- COLONIAL_AMAZONIA_LAT:0 "Amazonia"
- COLONIAL_AMAZONIA_TUR:0 "Amazonya"
- COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonia:0 "Amazonia"
- COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonas:0 "Amazonas"
- COLONIAL_AMAZONIA_Amazonia:0 "Amazonia"
+ #COLONIAL_AMAZONIA_USA:0 "Amazon"
+ #COLONIAL_AMAZONIA_GBR:0 "Amazon"
+ #COLONIAL_AMAZONIA_FRA:0 "Amazonie"
+ #COLONIAL_AMAZONIA_POR:0 "Grão-Pará"
+ #COLONIAL_AMAZONIA_SPA:0 "Amazonas"
+ #COLONIAL_AMAZONIA_SCA:0 "Amazone"
+ #COLONIAL_AMAZONIA_NED:0 "Amazonië"
+ #COLONIAL_AMAZONIA_GER:0 "Amazonien"
+ #COLONIAL_AMAZONIA_GLC:0 "Amazonia"
+ #COLONIAL_AMAZONIA_LAT:0 "Amazonia"
+ #COLONIAL_AMAZONIA_TUR:0 "Amazonya"
+ #COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonia:0 "Amazonia"
+ #COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonas:0 "Amazonas"
+ #COLONIAL_AMAZONIA_Amazonia:0 "Amazonia"
  
  #Rio Grande
- COLONIAL_RIO_GRANDE_USA:0 "Great River"
- COLONIAL_RIO_GRANDE_GBR:0 "Great River"
- COLONIAL_RIO_GRANDE_FRA:0 "Grande Rivière"
- COLONIAL_RIO_GRANDE_POR:0 "Rio Grande"
- COLONIAL_RIO_GRANDE_SPA:0 "Rio Grande"
- COLONIAL_RIO_GRANDE_SCA:0 "Stora Floden"
- COLONIAL_RIO_GRANDE_NED:0 "Grote Rivier"
- COLONIAL_RIO_GRANDE_GER:0 "Groser Fluss"
- COLONIAL_RIO_GRANDE_GLC:0 "Abhainn Mhor"
- COLONIAL_RIO_GRANDE_LAT:0 "Magnum Flumen"
- COLONIAL_RIO_GRANDE_TUR:0 "Büyük Nehir"
- COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Great_River:0 "Great River"
- COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Rio_Grande:0 "Rio Grande"
- COLONIAL_RIO_GRANDE_Rio_Grande:0 "Great River"
+ #COLONIAL_RIO_GRANDE_USA:0 "Great River"
+ #COLONIAL_RIO_GRANDE_GBR:0 "Great River"
+ #COLONIAL_RIO_GRANDE_FRA:0 "Grande Rivière"
+ #COLONIAL_RIO_GRANDE_POR:0 "Rio Grande"
+ #COLONIAL_RIO_GRANDE_SPA:0 "Rio Grande"
+ #COLONIAL_RIO_GRANDE_SCA:0 "Stora Floden"
+ #COLONIAL_RIO_GRANDE_NED:0 "Grote Rivier"
+ #COLONIAL_RIO_GRANDE_GER:0 "Groser Fluss"
+ #COLONIAL_RIO_GRANDE_GLC:0 "Abhainn Mhor"
+ #COLONIAL_RIO_GRANDE_LAT:0 "Magnum Flumen"
+ #COLONIAL_RIO_GRANDE_TUR:0 "Büyük Nehir"
+ #COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Great_River:0 "Great River"
+ #COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Rio_Grande:0 "Rio Grande"
+ #COLONIAL_RIO_GRANDE_Rio_Grande:0 "Great River"
+ 
+ #Maranhão
+ #COLONIAL_MARANHAO_USA:0 "Amazon River" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_GBR:0 "Amazon River" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_FRA:0 "France Équinoxiale"
+ #COLONIAL_MARANHAO_POR:0 "Maranhão"
+ #COLONIAL_MARANHAO_SPA:0 "Marañón"
+ #COLONIAL_MARANHAO_SCA:0 "Amazonfloden" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_NED:0 "Nieuw-Holland"
+ #COLONIAL_MARANHAO_GER:0 "Amazonas" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_GLC:0 "Abhainn Amazon" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_LAT:0 "Amazon Flumen" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_TUR:0 "Amazon Nehri" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_Root_Culture_GetGroupName_Maranhao:0 "Maranhao"
+ #COLONIAL_MARANHAO_Root_Culture_GetGroupName_Rio_Amazonas:0 "Rio Amazonas" #Might get confusing, please change later
+ #COLONIAL_MARANHAO_Maranhao:0 "Maranhao"
+ 
+ #Mato Grosso
+ #COLONIAL_MATO_GROSSO_USA:0 "Thick Woods"
+ #COLONIAL_MATO_GROSSO_GBR:0 "Thick Woods"
+ #COLONIAL_MATO_GROSSO_FRA:0 "Buisson Épais"
+ #COLONIAL_MATO_GROSSO_POR:0 "Mato Grosso"
+ #COLONIAL_MATO_GROSSO_SPA:0 "Bosque Grueso"
+ #COLONIAL_MATO_GROSSO_SCA:0 "Tjock Buske"
+ #COLONIAL_MATO_GROSSO_NED:0 "Dikke Struik"
+ #COLONIAL_MATO_GROSSO_GER:0 "Dicker Busch"
+ #COLONIAL_MATO_GROSSO_GLC:0 "Preas Tiugh"
+ #COLONIAL_MATO_GROSSO_LAT:0 "Densissima Rubi"
+ #COLONIAL_MATO_GROSSO_TUR:0 "Kalin Cali"
+ #COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Mato_Grosso:0 "Mato Grosso"
+ #COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Arbusto_Espeso:0 "Bosque Grueso"
+ #COLONIAL_MATO_GROSSO_Mato_Grosso:0 "Mato Grosso"
  
  #Texas
  COLONIAL_TEXAS_USA:0 "Texas"
@@ -2525,38 +2558,6 @@
  COLONIAL_CENTRAL_AMERICA_Root_Culture_GetGroupName_Central_America:0 "Central America"
  COLONIAL_CENTRAL_AMERICA_Root_Culture_GetGroupName_Centroamerica:0 "Centroamerica"
  COLONIAL_CENTRAL_AMERICA_Central_America:0 "Central America"
- 
- #Maranhão
- COLONIAL_MARANHAO_USA:0 "Amazon River" #Might get confusing, please change later
- COLONIAL_MARANHAO_GBR:0 "Amazon River" #Might get confusing, please change later
- COLONIAL_MARANHAO_FRA:0 "France Équinoxiale"
- COLONIAL_MARANHAO_POR:0 "Maranhão"
- COLONIAL_MARANHAO_SPA:0 "Marañón"
- COLONIAL_MARANHAO_SCA:0 "Amazonfloden" #Might get confusing, please change later
- COLONIAL_MARANHAO_NED:0 "Nieuw-Holland"
- COLONIAL_MARANHAO_GER:0 "Amazonas" #Might get confusing, please change later
- COLONIAL_MARANHAO_GLC:0 "Abhainn Amazon" #Might get confusing, please change later
- COLONIAL_MARANHAO_LAT:0 "Amazon Flumen" #Might get confusing, please change later
- COLONIAL_MARANHAO_TUR:0 "Amazon Nehri" #Might get confusing, please change later
- COLONIAL_MARANHAO_Root_Culture_GetGroupName_Maranhao:0 "Maranhao"
- COLONIAL_MARANHAO_Root_Culture_GetGroupName_Rio_Amazonas:0 "Rio Amazonas" #Might get confusing, please change later
- COLONIAL_MARANHAO_Maranhao:0 "Maranhao"
- 
- #Mato Grosso
- COLONIAL_MATO_GROSSO_USA:0 "Thick Woods"
- COLONIAL_MATO_GROSSO_GBR:0 "Thick Woods"
- COLONIAL_MATO_GROSSO_FRA:0 "Buisson Épais"
- COLONIAL_MATO_GROSSO_POR:0 "Mato Grosso"
- COLONIAL_MATO_GROSSO_SPA:0 "Bosque Grueso"
- COLONIAL_MATO_GROSSO_SCA:0 "Tjock Buske"
- COLONIAL_MATO_GROSSO_NED:0 "Dikke Struik"
- COLONIAL_MATO_GROSSO_GER:0 "Dicker Busch"
- COLONIAL_MATO_GROSSO_GLC:0 "Preas Tiugh"
- COLONIAL_MATO_GROSSO_LAT:0 "Densissima Rubi"
- COLONIAL_MATO_GROSSO_TUR:0 "Kalin Cali"
- COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Mato_Grosso:0 "Mato Grosso"
- COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Arbusto_Espeso:0 "Bosque Grueso"
- COLONIAL_MATO_GROSSO_Mato_Grosso:0 "Mato Grosso"
  
  #Ideas
  #From Math5615
