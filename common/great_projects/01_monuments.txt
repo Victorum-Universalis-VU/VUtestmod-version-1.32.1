@@ -3473,6 +3473,10 @@ mount_fuji = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = state_shinto
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
@@ -3494,6 +3498,10 @@ mount_fuji = {
 		OR = {
 			AND = {
 				religion = shinto
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = state_shinto
 				has_owner_religion = yes
 			}
 			AND = {
