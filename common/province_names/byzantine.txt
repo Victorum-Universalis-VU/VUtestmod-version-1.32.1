@@ -553,7 +553,7 @@
 5094 = "Lugina"
 5096 = "Tamaria"
 5130 = { "Mysia" "Pegadia" }
-5131 = { "Pergamon" "Pergamon" }
+5131 = { "Kydonies" "Kydonies" }
 5134 = { "Petronium" "Helikarnaossos" }
 5135 = { "Zephyrion" "Tarsos" }
 5137 = { "Tavia" "Tavia" }
@@ -1037,6 +1037,7 @@
 7935 = "Crovios"
 7936 = { "Leucae" "Leucae" }
 7937 = "Argentomagus"
+7943 = { "Pergamon" "Pergamon" } #Bergama
 7957 = { "Stampae" "Salioclita" }
 7959 = "Sancera"
 7960 = "Akadimia Sorbonia"
@@ -1045,6 +1046,7 @@
 7970 = "Vexin"
 7971 = { "Caletes" "Diepos" }
 7972 = { "Carocotinum" "Juliobona" }
+7978 = { "Synaos" "Synaos" }
 7979 = "Sodobria"
 7980 = "Perketia"
 7981 = { "Durocassium" "Versalion" }
@@ -1083,6 +1085,7 @@
 8043 = { "Asturica Augusta" "Asturica Augusta" }
 8044 = { "Lancia" "Legio Gernina" }
 8045 = { "Lacobrigia" "Lacobrigia" }
+8046 = { "Achyraos" "Hadrianeia" }
 8047 = { "Arevacia" "Uxama" }
 8048 = { "Deobriga" "Viroveskia" }
 8049 = { "Clunia" "Clunia" }
@@ -1167,6 +1170,7 @@
 8217 = "Sebastion"
 8219 = "Lower Pyretus"
 8220 = { "Bastarnia" "Piroboridava" }
+8261 = { "Gergithes" "Gergithes" }
 8412 = "Soran"
 8413 = "Hakkarion"
 8414 = { "Phasianoi" "Phasianoi" }
@@ -1183,5 +1187,6 @@
 8504 = "Dea"
 8505 = { "Lorezion" "Miacum" }
 8531 = { "Blavia" "Blavia" }
+8610 = { "Adramyttion" "Adramyttion" }
 8735 = { "Sebaste" "Sebaste" }
 8740 = { "Turris Tamalleni" "Kabylion" }
