@@ -3958,7 +3958,7 @@ west_karelia_area = {
 }
 
 lydia_area = {
-	4308 5163 5172
+	4308 5163 5172 7978
 }
 
 friuli_area = {
@@ -4333,7 +4333,7 @@ pontus_area = {
 }
 
 karasi_area = {
-	2296 5130 5131 5156 5171
+	2296 5130 5131 5156 5171 7943 8046 8261 8610
 }
 
 pamphylia_area = {
@@ -4676,13 +4676,11 @@ unused_area = {
 	#Removed Paradox & BtP provinces (mostly wastelands), which seems to want an area anyway, or they fill up the error log
 	3107 3116 3132 3133 3136 3186 3189 3272 3275 3299 4328 4347 5114 5115 5122 5128 5113 7479
 
-	8610 # Removed Sea Provinces from CR's SEA
-
 	#Beyond Typus Open Provinces, being used in BT overhauls
 	5539 5540 5541
 
 	#Provinces cut in 13.0
-	3296 5119 5364 5375 5377 5379 7018 7023 7074 7077 7135 7145 7704 7716 7726 7737 7763 7814 7820 7822 7902 7912 7941 7943 7978 8046 8261	
+	3296 5119 5364 5375 5377 5379 7018 7023 7074 7077 7135 7145 7704 7716 7726 7737 7763 7814 7820 7822 7902 7912 7941
 	
 	#VU additions by San Felipe
 	365 2819 5301 6144 6601 6548 6671 8736 8738 8739
