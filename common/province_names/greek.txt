@@ -754,7 +754,7 @@
 6672 = "Blemmyorium"
 6924 = { "Nisi Agois" "Nisi Agois" }
 6927 = { "Nisi Parisi" "Kathedrikos Parisi" }
-6928 = { "Oplostasio" Bastilion" }
+6928 = { "Oplostasio" "Bastilion" }
 6930 = { "Portus Reatinus" "Muranos" }
 6931 = { "Selymbria" "Selymbria" }
 6932 = { "Pera" "Galata" }
