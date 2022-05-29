@@ -35,7 +35,7 @@ extra_cost = 5
 	culture = castillian
 	religion = catholic
 	is_city = yes
-	trade_goods = sea_turtles
+	trade_goods = sea_turtle
 } # First settlements
 1670.7.1 = {
 	owner = ENG

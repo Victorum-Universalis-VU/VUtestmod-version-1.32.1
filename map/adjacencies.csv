@@ -232,7 +232,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3178;7112;sea;1312;-1;-1;-1;-1;Patras-Naupaktos
 142;7140;sea;1311;-1;-1;-1;-1;Corfu-Butrint
 142;7132;sea;1311;-1;-1;-1;-1;Corfu-Thesprotia
-2348;4309;sea;5493;-1;-1;-1;-1;Chios-Aydin
+2348;7912;sea;5493;-1;-1;-1;-1;Chios-Aydin
 2296;4779;sea;6360;-1;-1;-1;-1;Biga-Gallipoli
 7110;7113;sea;1319;-1;-1;-1;-1;Oreoi-ZetounionBodonitsa
 7110;7117;sea;1319;-1;-1;-1;-1;Oreoi-Demetrias
@@ -466,7 +466,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6610;6611;sea;7295;-1;-1;-1;-1;Abdali-Babiyan
 6551;2320;sea;1328;-1;-1;-1;-1;Tor-Ros Gharib
 6552;2327;sea;1328;-1;-1;-1;-1;Sharm-Ros Gharib
-319;320;sea;5493;-1;-1;-1;-1;Rhodes-Mentesha
+320;7822;sea;5493;-1;-1;-1;-1;Rhodes-Marmaris
 2319;6499;sea;6592;-1;-1;-1;-1;Asyut-Abnub
 6576;6501;sea;6593;-1;-1;-1;-1;Farshut-Qena
 6563;4319;sea;6593;-1;-1;-1;-1;Esna-Thebes
@@ -485,5 +485,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5280;5302;sea;8403;-1;-1;-1;-1;Hadendoa-AbuHameb
 1780;1073;sea;8375;-1;-1;-1;-1;Komi-Berezhov
 2427;1073;sea;8375;-1;-1;-1;-1;Ostyaki-Berezhov
+1888;5486;sea;2426;-1;-1;-1;-1;Kara Sea-Kara Sea
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

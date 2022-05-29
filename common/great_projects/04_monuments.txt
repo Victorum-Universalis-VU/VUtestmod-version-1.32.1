@@ -5410,6 +5410,10 @@ hagatna = {
 				has_owner_religion = yes
 			}
 			AND = {
+				religion = state_shinto
+				has_owner_religion = yes
+			}
+			AND = {
 				religion = animism
 				has_owner_religion = yes
 			}
@@ -5435,6 +5439,10 @@ hagatna = {
 		OR = {
 			AND = {
 				religion = shinto
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = state_shinto
 				has_owner_religion = yes
 			}
 			AND = {
@@ -13519,6 +13527,10 @@ atlasov_island = {
 		OR = {		
 			AND = {
 				religion = tengri_pagan_reformed
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = state_shinto
 				has_owner_religion = yes
 			}
 			AND = {

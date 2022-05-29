@@ -7818,9 +7818,9 @@ province;red;green;blue;x;x
 7817;200;150;74;Locknitz;
 7818;200;150;149;KamminPomerania;
 7819;200;150;224;Arnswalde;
-7820;50;50;23;StargardPomerania;
+7820;50;50;23;Tavas;
 7821;50;50;98;Zantoch;
-7822;50;50;173;Schivelbein;
+7822;50;50;173;Marmaris;
 7823;5;5;100;Belgard;
 7824;50;50;48;Schlawe;
 7825;50;50;123;LauenburgPomerelia;
@@ -7900,7 +7900,7 @@ province;red;green;blue;x;x
 7899;150;100;223;Vivaraisii;
 7900;150;150;23;Beziers;
 7901;150;150;98;Castres;
-7902;150;150;173;ReplacedBy4695;
+7902;219;219;227;AnatolianMountains;
 7903;150;150;248;Tudela ;
 7904;150;150;48;Albi;
 7905;150;150;123;Millhau;
@@ -7910,7 +7910,7 @@ province;red;green;blue;x;x
 7909;150;150;223;StEtienne;
 7910;150;200;23;Vienne;
 7911;150;200;98;Beaujolais;
-7912;150;200;173;Bresse;
+7912;150;200;173;Aydin;
 7913;150;200;248;Chablais;
 7914;150;200;48;Thiers;
 7915;150;200;123;StFlour;
@@ -7939,9 +7939,9 @@ province;red;green;blue;x;x
 7938;200;150;148;Chalon;
 7939;200;150;223;Cuiseaux;
 7940;50;50;22;StClaude;
-7941;50;50;97;Dole;
+7941;50;50;97;Sart;
 7942;50;50;172;Montbeliard;
-7943;150;1;1;Colmar;
+7943;150;1;1;Bergama;
 7944;50;50;47;Haguenau;
 7945;50;50;122;Sarrebourg;
 7946;50;50;197;Epinal;
@@ -7976,7 +7976,7 @@ province;red;green;blue;x;x
 7975;50;200;122;Dordrecht;
 7976;50;200;197;Valenciennes;
 7977;50;200;72;Maubeuge;
-7978;50;200;147;Blois;
+7978;50;200;147;Simav;
 7979;50;200;222;Vendome;
 7980;100;50;22;Perche;
 7981;100;50;97;Dreux;
@@ -8044,7 +8044,7 @@ province;red;green;blue;x;x
 8043;200;50;247;Ponferrada;
 8044;200;50;47;Benavente;
 8045;200;50;122;Sahagun;
-8046;200;50;197;Palencia;
+8046;200;50;197;Bigadic;
 8047;200;50;72;Almazan;
 8048;200;50;147;Miranda;
 8049;200;50;222;Aranda;
@@ -8259,7 +8259,7 @@ province;red;green;blue;x;x
 8258;150;100;145;Domazlice;
 8259;150;100;220;Prachen;
 8260;150;150;20;Caslav;
-8261;150;150;95;Gorlitz;
+8261;150;150;95;Can;
 8262;150;150;170;Luban;
 8263;150;150;245;Brody;
 8264;150;150;45;Calau;
@@ -8608,7 +8608,7 @@ province;red;green;blue;x;x
 8607;90;117;254;Kluet;x
 8608;107;238;117;Annamite Mountains;x
 8609;251;99;116;Cao Bac;x
-8610;60;62;207;Ten Layer Mountains;x
+8610;60;62;25;Edremit;x
 8611;218;141;39;Bone;x
 8612;34;135;90;Wajo;x
 8613;141;235;242;Soppeng;x

@@ -8,6 +8,7 @@
 29 = "Tawastland"
 37 = "Liefland"
 42 = "Ermland"
+49 = "Landsberg"
 57 = "Braunschweig"
 75 = { "Elsass" "Straﬂburg" }
 87 = "Kalen"

@@ -120,7 +120,7 @@
 316 = { "Optimatoi" "Nikomedia" }
 317 = { "Opsikion" "Prussa" }
 318 = { "Smyrna" "Smyrna" }
-319 = { "Caria" "Physkos" }
+319 = { "Caria" "Mogalla" }
 320 = "Rhodes"
 321 = "Limassol"
 322 = { "Dorylaion" "Dorylaion" }
@@ -449,7 +449,7 @@
 4305 = { "Varashekion" "Mingehauros" }
 4307 = { "Koloneia" "Malakopeia" }
 4308 = { "Laodicea" "Aphrodisias" }
-4309 = { "Tralles" "Miletus" }
+4309 = { "Tire" "Tire" }
 4310 = { "Arsamosata" "Arsamosata" }
 4311 = { "Kotyaion" "Kotyaion" }
 4312 = { "Claudiopolis" "Heraclea" }
@@ -553,7 +553,7 @@
 5094 = "Lugina"
 5096 = "Tamaria"
 5130 = { "Mysia" "Pegadia" }
-5131 = { "Pergamon" "Pergamon" }
+5131 = { "Kydonies" "Kydonies" }
 5134 = { "Petronium" "Helikarnaossos" }
 5135 = { "Zephyrion" "Tarsos" }
 5137 = { "Tavia" "Tavia" }
@@ -754,7 +754,7 @@
 6672 = "Blemmyorium"
 6924 = { "Nisi Agois" "Nisi Agois" }
 6927 = { "Nisi Parisi" "Kathedrikos Parisi" }
-6928 = { "Oplostasio" Bastilion" }
+6928 = { "Oplostasio" "Bastilion" }
 6930 = { "Portus Reatinus" "Muranos" }
 6931 = { "Selymbria" "Selymbria" }
 6932 = { "Pera" "Galata" }
@@ -991,6 +991,8 @@
 7762 = "Latobikornos"
 7764 = "Virunum"
 7765 = { "Axiopolis" "Axiopolis" }
+7820 = { "Tavaios" "Tavai" }
+7822 = { "Physkos" "Physkos" }
 7889 = "Andoria"
 7890 = { "Olbia Martius" "Olbia" }
 7891 = { "Aleabaceos" "Aleabaceos" }
@@ -1013,6 +1015,7 @@
 7909 = { "Segustania" "Etienia" }
 7910 = { "Vienna" "Vienna" }
 7911 = { "Brulliacus" "Brulliacus" }
+7912 = { "Tralles" "Miletus" } #Aydin
 7914 = { "Gergovia" "Brivas" }
 7915 = "Floria"
 7916 = { "Ricomagus" "Ricomagus" }
@@ -1037,6 +1040,8 @@
 7935 = "Crovios"
 7936 = { "Leucae" "Leucae" }
 7937 = "Argentomagus"
+7941 = { "Sardes" "Sardes" } #Sart
+7943 = { "Pergamon" "Pergamon" } #Bergama
 7957 = { "Stampae" "Salioclita" }
 7959 = "Sancera"
 7960 = "Akadimia Sorbonia"
@@ -1045,6 +1050,7 @@
 7970 = "Vexin"
 7971 = { "Caletes" "Diepos" }
 7972 = { "Carocotinum" "Juliobona" }
+7978 = { "Synaos" "Synaos" }
 7979 = "Sodobria"
 7980 = "Perketia"
 7981 = { "Durocassium" "Versalion" }
@@ -1083,6 +1089,7 @@
 8043 = { "Asturica Augusta" "Asturica Augusta" }
 8044 = { "Lancia" "Legio Gernina" }
 8045 = { "Lacobrigia" "Lacobrigia" }
+8046 = { "Achyraos" "Hadrianeia" }
 8047 = { "Arevacia" "Uxama" }
 8048 = { "Deobriga" "Viroveskia" }
 8049 = { "Clunia" "Clunia" }
@@ -1167,6 +1174,7 @@
 8217 = "Sebastion"
 8219 = "Lower Pyretus"
 8220 = { "Bastarnia" "Piroboridava" }
+8261 = { "Gergithes" "Gergithes" }
 8412 = "Soran"
 8413 = "Hakkarion"
 8414 = { "Phasianoi" "Phasianoi" }
@@ -1183,5 +1191,6 @@
 8504 = "Dea"
 8505 = { "Lorezion" "Miacum" }
 8531 = { "Blavia" "Blavia" }
+8610 = { "Adramyttion" "Adramyttion" }
 8735 = { "Sebaste" "Sebaste" }
 8740 = { "Turris Tamalleni" "Kabylion" }

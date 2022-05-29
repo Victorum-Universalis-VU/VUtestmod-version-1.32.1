@@ -6120,414 +6120,414 @@ colonial_guyana = {
 	}
 }
 
-# Ecuador
-#colonial_ecuador = {
-#	color = { 221 74 26 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		alpaca_wool = 6
-#		potato = 2
-#		cloth = 2
-#		fish = 1
-#		cocoa = 1
-#	}
-#
-#	culture = {
-#		cara = 10
-#		jivaro = 1
-#		chimuan = 1
-#	}
-#	
-#	religion = {
-#		inti = 10
-#		animism = 1
-#	}
-#
-#	provinces = {
-#		815 817 818 819 820 821 2820 3022 4604 4605 5336 6098 6099 6100
-#	}
-#	
-#	# Specific
-#	names = {
-#		trigger = { tag = USA }
-#		name = "COLONIAL_ECUADOR_USA" #Equator
-#	}
-#	names = {
-#		trigger = { culture_group = british }
-#		name = "COLONIAL_ECUADOR_GBR" #Equator
-#	}
-#	names = {
-#		trigger = { culture_group = french }
-#		name = "COLONIAL_ECUADOR_FRA" #Équateur
-#	}
-#	names = {
-#		trigger = { primary_culture = portugese }
-#		name = "COLONIAL_ECUADOR_POR" #Equador
-#	}
-#	names = {
-#		trigger = { culture_group = iberian	}
-#		name = "COLONIAL_ECUADOR_SPA" #Ecuador
-#	}
-#	names = {
-#		trigger = { culture_group = scandinavian }
-#		name = "COLONIAL_ECUADOR_SCA" #Ekvator
-#	}
-#	names = {
-#		trigger = { primary_culture = dutch }
-#		name = "COLONIAL_ECUADOR_NED" #Evenaar
-#	}
-#	names = {
-#		trigger = {
-#			culture_group = germanic
-#			NOT = { primary_culture = dutch }
-#			NOT = {	tag = NED }
-#			NOT = {	tag = HOL }
-#		}
-#		name = "COLONIAL_ECUADOR_GER" #Äquator
-#	}
-#	names = {
-#		trigger = {
-#			OR = {
-#				culture_group = gaelic
-#				#BT Bugfixes added Celtic versions of Gaelic.
-#				primary_culture = celtic_irish_culture
-#				primary_culture = celtic_highland_scottish_culture
-#			}
-#		}
-#		name = "COLONIAL_ECUADOR_GLC" #Crios-Meadhain
-#	}
-#	names = {
-#		trigger = { culture_group = latin }
-#		name = "COLONIAL_ECUADOR_LAT"  #Aequatoriana
-#	}
-#	names = {
-#		trigger = { culture_group = turkish_g }
-#		name = "COLONIAL_ECUADOR_TUR" #Ekvador
-#	}
-#	# Generic
-#	names = {
-#		name = "COLONIAL_ECUADOR_Root_Culture_GetGroupName_Equator"
-#	}
-#	names = {
-#		name = "COLONIAL_ECUADOR_Root_Culture_GetGroupName_Ecuador"
-#	}
-#	names = {
-#		name = "COLONIAL_ECUADOR_Equator"
-#	}
-#	names = {
-#		name = "COLONIAL_REGION_New_Root_GetName"
-#	}
-#}
+#Ecuador
+colonial_ecuador = {
+	color = { 221 74 26 }
 
-# Venezuela
-#colonial_venezuela = {
-#	color = { 105 157 243 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		sugar = 5
-#		fish = 2
-#		cocoa = 1
-#		coffee = 1
-#	}
-#
-#	culture = {
-#		guajiro = 10
-#		carib = 5
-#	}
-#	
-#	religion = {
-#		animism = 10
-#	}
-#
-#	provinces = {
-#		491 741 742 830 831 834 2803 2804 2805 2807 2808 2809 2810 2811 2813 2939 4609 4610 4611 4612 4613 4615 4616 4617 5578 5579
-#	}
-#	
-#	# Specific
-#	names = {
-#		trigger = { tag = USA }
-#		name = "COLONIAL_VENEZUELA_USA" #Little_Venice
-#	}
-#	names = {
-#		trigger = { culture_group = british }
-#		name = "COLONIAL_VENEZUELA_GBR" #Little_Venice
-#	}
-#	names = {
-#		trigger = { culture_group = french }
-#		name = "COLONIAL_VENEZUELA_FRA" #Petite_Venise
-#	}
-#	names = {
-#		trigger = { primary_culture = portugese }
-#		name = "COLONIAL_VENEZUELA_POR" #Pequena_Veneza
-#	}
-#	names = {
-#		trigger = { culture_group = iberian	}
-#		name = "COLONIAL_VENEZUELA_SPA" #Venezuela
-#	}
-#	names = {
-#		trigger = { culture_group = scandinavian }
-#		name = "COLONIAL_VENEZUELA_SCA" #Lilla_Venedig
-#	}
-#	names = {
-#		trigger = { primary_culture = dutch }
-#		name = "COLONIAL_VENEZUELA_NED" #Klein-Venetië
-#	}
-#	names = {
-#		trigger = {
-#			culture_group = germanic
-#			NOT = { primary_culture = dutch }
-#			NOT = {	tag = NED }
-#			NOT = {	tag = HOL }
-#		}
-#		name = "COLONIAL_VENEZUELA_GER" #Klein-Venedig
-#	}
-#	names = {
-#		trigger = {
-#			OR = {
-#				culture_group = gaelic
-#				#BT Bugfixes added Celtic versions of Gaelic.
-#				primary_culture = celtic_irish_culture
-#				primary_culture = celtic_highland_scottish_culture
-#			}
-#		}
-#		name = "COLONIAL_VENEZUELA_GLC" #Venice_Beag
-#	}
-#	names = {
-#		trigger = { culture_group = latin }
-#		name = "COLONIAL_VENEZUELA_LAT"  #Venetiola
-#	}
-#	names = {
-#		trigger = { culture_group = turkish_g }
-#		name = "COLONIAL_VENEZUELA_TUR" #Kücük_Venedik
-#	}
-#	# Generic
-#	names = {
-#		name = "COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Little_Venice"
-#	}
-#	names = {
-#		name = "COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Venezuela"
-#	}
-#	names = {
-#		name = "COLONIAL_VENEZUELA_Little_Venice"
-#	}
-#	names = {
-#		name = "COLONIAL_REGION_New_Root_GetName"
-#	}
-#}
+	# Random New World
+	tax_income = 3
+	native_size = 12
+	native_ferocity = 1
+	native_hostileness = 2
+	
+	trade_goods = {
+		alpaca_wool = 6
+		potato = 2
+		cloth = 2
+		fish = 1
+		cocoa = 1
+	}
 
-# Bolivia
-#colonial_bolivia = {
-#	color = { 60 192 94 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		gold = 5
-#		silver = 2
-#		fish = 2
-#	}
-#
-#	culture = {
-#		aimara = 10
-#		guarani = 2
-#		maipurean = 1
-#	}
-#	
-#	religion = {
-#		animism = 10
-#		inti = 2
-#	}
-#
-#	provinces = {
-#		795 797 800 801 802 803 2831 2832 2834 2835 2838 2839 2840 2841 2882 2906 2940 2941 2942 2946 7000
-#	}
-#	
-#	# Specific
-#	names = {
-#		trigger = { tag = USA }
-#		name = "COLONIAL_BOLIVIA_USA" #Bolivia
-#	}
-#	names = {
-#		trigger = { culture_group = british }
-#		name = "COLONIAL_BOLIVIA_GBR" #Bolivia
-#	}
-#	names = {
-#		trigger = { culture_group = french }
-#		name = "COLONIAL_BOLIVIA_FRA" #Bolivie
-#	}
-#	names = {
-#		trigger = { primary_culture = portugese }
-#		name = "COLONIAL_BOLIVIA_POR" #Bolívia
-#	}
-#	names = {
-#		trigger = { culture_group = iberian	}
-#		name = "COLONIAL_BOLIVIA_SPA" #Bolivia
-#	}
-#	names = {
-#		trigger = { culture_group = scandinavian }
-#		name = "COLONIAL_BOLIVIA_SCA" #Bolivia
-#	}
-#	names = {
-#		trigger = { primary_culture = dutch }
-#		name = "COLONIAL_BOLIVIA_NED" #Bolivia
-#	}
-#	names = {
-#		trigger = {
-#			culture_group = germanic
-#			NOT = { primary_culture = dutch }
-#			NOT = {	tag = NED }
-#			NOT = {	tag = HOL }
-#		}
-#		name = "COLONIAL_BOLIVIA_GER" #Bolivien
-#	}
-#	names = {
-#		trigger = {
-#			OR = {
-#				culture_group = gaelic
-#				#BT Bugfixes added Celtic versions of Gaelic.
-#				primary_culture = celtic_irish_culture
-#				primary_culture = celtic_highland_scottish_culture
-#			}
-#		}
-#		name = "COLONIAL_BOLIVIA_GLC" #Bolivia
-#	}
-#	names = {
-#		trigger = { culture_group = latin }
-#		name = "COLONIAL_BOLIVIA_LAT"  #Bolivia
-#	}
-#	names = {
-#		trigger = { culture_group = turkish_g }
-#		name = "COLONIAL_BOLIVIA_TUR" #Bolivya
-#	}
-#	# Generic
-#	names = {
-#		name = "COLONIAL_BOLIVIA_Root_Culture_GetGroupName_Bolivia"
-#	}
-#	names = {
-#		name = "COLONIAL_BOLIVIA_Bolivia"
-#	}
-#	names = {
-#		name = "COLONIAL_REGION_New_Root_GetName"
-#	}
-#}
+	culture = {
+		cara = 10
+		jivaro = 1
+		chimuan = 1
+	}
+	
+	religion = {
+		inti = 10
+		animism = 1
+	}
 
-# Chile
-#colonial_chile = {
-#	color = { 207 34 24 }
-#
-#	# Random New World
-#	tax_income = 3
-#	native_size = 12
-#	native_ferocity = 1
-#	native_hostileness = 2
-#	
-#	trade_goods = {
-#		gold = 5
-#		silver = 2
-#		fish = 2
-#	}
-#
-#	culture = {
-#		mapuche = 10
-#		diaguita = 5
-#		patagonian = 2
-#		yahgan = 1
-#		aimara = 1
-#	}
-#	
-#	religion = {
-#		animism = 10
-#		inti = 1
-#	}
-#
-#	provinces = {
-#		783 784 787 792 2862 2873 2874
-#	}
-#	
-#	# Specific
-#	names = {
-#		trigger = { tag = USA }
-#		name = "COLONIAL_CHILE_USA" #Chili
-#	}
-#	names = {
-#		trigger = { culture_group = british }
-#		name = "COLONIAL_CHILE_GBR" #Chili
-#	}
-#	names = {
-#		trigger = { culture_group = french }
-#		name = "COLONIAL_CHILE_FRA" #Chili
-#	}
-#	names = {
-#		trigger = { primary_culture = portugese }
-#		name = "COLONIAL_CHILE_POR" #Pimenta
-#	}
-#	names = {
-#		trigger = { culture_group = iberian	}
-#		name = "COLONIAL_CHILE_SPA" #Chile
-#	}
-#	names = {
-#		trigger = { culture_group = scandinavian }
-#		name = "COLONIAL_CHILE_SCA" #Chili
-#	}
-#	names = {
-#		trigger = { primary_culture = dutch }
-#		name = "COLONIAL_CHILE_NED" #Chili
-#	}
-#	names = {
-#		trigger = {
-#			culture_group = germanic
-#			NOT = { primary_culture = dutch }
-#			NOT = {	tag = NED }
-#			NOT = {	tag = HOL }
-#		}
-#		name = "COLONIAL_CHILE_GER" #Chili
-#	}
-#	names = {
-#		trigger = {
-#			OR = {
-#				culture_group = gaelic
-#				#BT Bugfixes added Celtic versions of Gaelic.
-#				primary_culture = celtic_irish_culture
-#				primary_culture = celtic_highland_scottish_culture
-#			}
-#		}
-#		name = "COLONIAL_CHILE_GLC" #Chili
-#	}
-#	names = {
-#		trigger = { culture_group = latin }
-#		name = "COLONIAL_CHILE_LAT"  #Purus
-#	}
-#	names = {
-#		trigger = { culture_group = turkish_g }
-#		name = "COLONIAL_CHILE_TUR" #Sili
-#	}
-#	# Generic
-#	names = {
-#		name = "COLONIAL_CHILE_Root_Culture_GetGroupName_Chile"
-#	}
-#	names = {
-#		name = "COLONIAL_CHILE_Chile"
-#	}
-#	names = {
-#		name = "COLONIAL_REGION_New_Root_GetName"
-#	}
-#}
+	provinces = {
+		815 817 818 819 820 821 2820 3022 4604 4605 5336 6098 6099 6100
+	}
+	
+	# Specific
+	names = {
+		trigger = { tag = USA }
+		name = "COLONIAL_ECUADOR_USA" #Equator
+	}
+	names = {
+		trigger = { culture_group = british }
+		name = "COLONIAL_ECUADOR_GBR" #Equator
+	}
+	names = {
+		trigger = { culture_group = french }
+		name = "COLONIAL_ECUADOR_FRA" #Équateur
+	}
+	names = {
+		trigger = { primary_culture = portugese }
+		name = "COLONIAL_ECUADOR_POR" #Equador
+	}
+	names = {
+		trigger = { culture_group = iberian	}
+		name = "COLONIAL_ECUADOR_SPA" #Ecuador
+	}
+	names = {
+		trigger = { culture_group = scandinavian }
+		name = "COLONIAL_ECUADOR_SCA" #Ekvator
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_ECUADOR_NED" #Evenaar
+	}
+	names = {
+		trigger = {
+			culture_group = germanic
+			NOT = { primary_culture = dutch }
+			NOT = {	tag = NED }
+			NOT = {	tag = HOL }
+		}
+		name = "COLONIAL_ECUADOR_GER" #Äquator
+	}
+	names = {
+		trigger = {
+			OR = {
+				culture_group = gaelic
+				#BT Bugfixes added Celtic versions of Gaelic.
+				primary_culture = celtic_irish_culture
+				primary_culture = celtic_highland_scottish_culture
+			}
+		}
+		name = "COLONIAL_ECUADOR_GLC" #Crios-Meadhain
+	}
+	names = {
+		trigger = { culture_group = latin }
+		name = "COLONIAL_ECUADOR_LAT"  #Aequatoriana
+	}
+	names = {
+		trigger = { culture_group = turkish_g }
+		name = "COLONIAL_ECUADOR_TUR" #Ekvador
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_ECUADOR_Root_Culture_GetGroupName_Equator"
+	}
+	names = {
+		name = "COLONIAL_ECUADOR_Root_Culture_GetGroupName_Ecuador"
+	}
+	names = {
+		name = "COLONIAL_ECUADOR_Equator"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+#Venezuela
+colonial_venezuela = {
+	color = { 105 157 243 }
+
+	# Random New World
+	tax_income = 3
+	native_size = 12
+	native_ferocity = 1
+	native_hostileness = 2
+	
+	trade_goods = {
+		sugar = 5
+		fish = 2
+		cocoa = 1
+		coffee = 1
+	}
+
+	culture = {
+		guajiro = 10
+		carib = 5
+	}
+	
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		491 741 742 830 831 834 2803 2804 2805 2807 2808 2809 2810 2811 2813 2939 4609 4610 4611 4612 4613 4615 4616 4617 5578 5579
+	}
+	
+	# Specific
+	names = {
+		trigger = { tag = USA }
+		name = "COLONIAL_VENEZUELA_USA" #Little_Venice
+	}
+	names = {
+		trigger = { culture_group = british }
+		name = "COLONIAL_VENEZUELA_GBR" #Little_Venice
+	}
+	names = {
+		trigger = { culture_group = french }
+		name = "COLONIAL_VENEZUELA_FRA" #Petite_Venise
+	}
+	names = {
+		trigger = { primary_culture = portugese }
+		name = "COLONIAL_VENEZUELA_POR" #Pequena_Veneza
+	}
+	names = {
+		trigger = { culture_group = iberian	}
+		name = "COLONIAL_VENEZUELA_SPA" #Venezuela
+	}
+	names = {
+		trigger = { culture_group = scandinavian }
+		name = "COLONIAL_VENEZUELA_SCA" #Lilla_Venedig
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_VENEZUELA_NED" #Klein-Venetië
+	}
+	names = {
+		trigger = {
+			culture_group = germanic
+			NOT = { primary_culture = dutch }
+			NOT = {	tag = NED }
+			NOT = {	tag = HOL }
+		}
+		name = "COLONIAL_VENEZUELA_GER" #Klein-Venedig
+	}
+	names = {
+		trigger = {
+			OR = {
+				culture_group = gaelic
+				#BT Bugfixes added Celtic versions of Gaelic.
+				primary_culture = celtic_irish_culture
+				primary_culture = celtic_highland_scottish_culture
+			}
+		}
+		name = "COLONIAL_VENEZUELA_GLC" #Venice_Beag
+	}
+	names = {
+		trigger = { culture_group = latin }
+		name = "COLONIAL_VENEZUELA_LAT"  #Venetiola
+	}
+	names = {
+		trigger = { culture_group = turkish_g }
+		name = "COLONIAL_VENEZUELA_TUR" #Kücük_Venedik
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Little_Venice"
+	}
+	names = {
+		name = "COLONIAL_VENEZUELA_Root_Culture_GetGroupName_Venezuela"
+	}
+	names = {
+		name = "COLONIAL_VENEZUELA_Little_Venice"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+#Bolivia
+colonial_bolivia = {
+	color = { 60 192 94 }
+
+	# Random New World
+	tax_income = 3
+	native_size = 12
+	native_ferocity = 1
+	native_hostileness = 2
+	
+	trade_goods = {
+		gold = 5
+		silver = 2
+		fish = 2
+	}
+
+	culture = {
+		aimara = 10
+		guarani = 2
+		maipurean = 1
+	}
+	
+	religion = {
+		animism = 10
+		inti = 2
+	}
+
+	provinces = {
+		795 797 800 801 802 803 2831 2832 2834 2835 2838 2839 2840 2841 2882 2906 2940 2941 2942 2946 7000
+	}
+	
+	# Specific
+	names = {
+		trigger = { tag = USA }
+		name = "COLONIAL_BOLIVIA_USA" #Bolivia
+	}
+	names = {
+		trigger = { culture_group = british }
+		name = "COLONIAL_BOLIVIA_GBR" #Bolivia
+	}
+	names = {
+		trigger = { culture_group = french }
+		name = "COLONIAL_BOLIVIA_FRA" #Bolivie
+	}
+	names = {
+		trigger = { primary_culture = portugese }
+		name = "COLONIAL_BOLIVIA_POR" #Bolívia
+	}
+	names = {
+		trigger = { culture_group = iberian	}
+		name = "COLONIAL_BOLIVIA_SPA" #Bolivia
+	}
+	names = {
+		trigger = { culture_group = scandinavian }
+		name = "COLONIAL_BOLIVIA_SCA" #Bolivia
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_BOLIVIA_NED" #Bolivia
+	}
+	names = {
+		trigger = {
+			culture_group = germanic
+			NOT = { primary_culture = dutch }
+			NOT = {	tag = NED }
+			NOT = {	tag = HOL }
+		}
+		name = "COLONIAL_BOLIVIA_GER" #Bolivien
+	}
+	names = {
+		trigger = {
+			OR = {
+				culture_group = gaelic
+				#BT Bugfixes added Celtic versions of Gaelic.
+				primary_culture = celtic_irish_culture
+				primary_culture = celtic_highland_scottish_culture
+			}
+		}
+		name = "COLONIAL_BOLIVIA_GLC" #Bolivia
+	}
+	names = {
+		trigger = { culture_group = latin }
+		name = "COLONIAL_BOLIVIA_LAT"  #Bolivia
+	}
+	names = {
+		trigger = { culture_group = turkish_g }
+		name = "COLONIAL_BOLIVIA_TUR" #Bolivya
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_BOLIVIA_Root_Culture_GetGroupName_Bolivia"
+	}
+	names = {
+		name = "COLONIAL_BOLIVIA_Bolivia"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+#Chile
+colonial_chile = {
+	color = { 207 34 24 }
+
+	# Random New World
+	tax_income = 3
+	native_size = 12
+	native_ferocity = 1
+	native_hostileness = 2
+	
+	trade_goods = {
+		gold = 5
+		silver = 2
+		fish = 2
+	}
+
+	culture = {
+		mapuche = 10
+		diaguita = 5
+		patagonian = 2
+		yahgan = 1
+		aimara = 1
+	}
+	
+	religion = {
+		animism = 10
+		inti = 1
+	}
+
+	provinces = {
+		783 784 787 792 2862 2873 2874
+	}
+	
+	# Specific
+	names = {
+		trigger = { tag = USA }
+		name = "COLONIAL_CHILE_USA" #Chili
+	}
+	names = {
+		trigger = { culture_group = british }
+		name = "COLONIAL_CHILE_GBR" #Chili
+	}
+	names = {
+		trigger = { culture_group = french }
+		name = "COLONIAL_CHILE_FRA" #Chili
+	}
+	names = {
+		trigger = { primary_culture = portugese }
+		name = "COLONIAL_CHILE_POR" #Pimenta
+	}
+	names = {
+		trigger = { culture_group = iberian	}
+		name = "COLONIAL_CHILE_SPA" #Chile
+	}
+	names = {
+		trigger = { culture_group = scandinavian }
+		name = "COLONIAL_CHILE_SCA" #Chili
+	}
+	names = {
+		trigger = { primary_culture = dutch }
+		name = "COLONIAL_CHILE_NED" #Chili
+	}
+	names = {
+		trigger = {
+			culture_group = germanic
+			NOT = { primary_culture = dutch }
+			NOT = {	tag = NED }
+			NOT = {	tag = HOL }
+		}
+		name = "COLONIAL_CHILE_GER" #Chili
+	}
+	names = {
+		trigger = {
+			OR = {
+				culture_group = gaelic
+				#BT Bugfixes added Celtic versions of Gaelic.
+				primary_culture = celtic_irish_culture
+				primary_culture = celtic_highland_scottish_culture
+			}
+		}
+		name = "COLONIAL_CHILE_GLC" #Chili
+	}
+	names = {
+		trigger = { culture_group = latin }
+		name = "COLONIAL_CHILE_LAT"  #Purus
+	}
+	names = {
+		trigger = { culture_group = turkish_g }
+		name = "COLONIAL_CHILE_TUR" #Sili
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_CHILE_Root_Culture_GetGroupName_Chile"
+	}
+	names = {
+		name = "COLONIAL_CHILE_Chile"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
 
 # Patagonia
 #colonial_patagonia = {
