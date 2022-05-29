@@ -1188,6 +1188,10 @@
  desc_vu_norse_pagan_satisfied:0 "Demands of local norse communities were approved."
  vu_norse_pagan_stalemate:0 "Diplomatic Compromise with Norse People"
  desc_vu_norse_pagan_stalemate:0 "Diplomatic stalemate has been reached between unhappy norse communities and the government. Situation is still uneasy there."
+ BYZ_offensive_stand:0 "Offensive outward focus"
+ desc_BYZ_offensive_stand:0 "To survive Ottoman menace we must focus our efforts externally."
+ BYZ_defensive_stand:0 "Defensive inward focus"
+ desc_BYZ_defensive_stand:0 "To survive Ottoman menace we must focus our efforts internally and raise improve our defensiveness as much as we can."
  
  ##########################
  # New province modifiers
