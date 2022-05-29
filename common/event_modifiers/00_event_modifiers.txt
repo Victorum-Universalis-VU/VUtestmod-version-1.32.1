@@ -1697,6 +1697,29 @@ vu_norse_pagan_stalemate = {
 	local_missionary_strength = -0.02
 	local_production_efficiency = 0.05
 }
+
+BYZ_offensive_stand = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.1
+	improve_relation_modifier = 0.2
+	naval_maintenance_modifier = -0.1
+	leader_naval_manuever = 1
+	spy_offence = 0.2
+	land_morale = 0.10
+}
+
+BYZ_defensive_stand = {
+	defensiveness = 0.05
+	fire_damage_received = -0.075
+	garrison_size = 0.2
+	enemy_core_creation = 0.2
+	advisor_cost = -0.1
+	technology_cost = -0.025
+	advisor_pool = 1
+	monthly_reform_progress_modifier = 0.1
+	global_unrest = -1
+	global_spy_defence = 0.2
+}
 	
 
 ################

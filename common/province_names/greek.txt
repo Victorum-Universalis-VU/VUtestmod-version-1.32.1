@@ -120,7 +120,7 @@
 316 = { "Optimatoi" "Nikomedia" }
 317 = { "Opsikion" "Prussa" }
 318 = { "Smyrna" "Smyrna" }
-319 = { "Caria" "Physkos" }
+319 = { "Caria" "Mogalla" }
 320 = "Rhodes"
 321 = "Limassol"
 322 = { "Dorylaion" "Dorylaion" }
@@ -449,7 +449,7 @@
 4305 = { "Varashekion" "Mingehauros" }
 4307 = { "Koloneia" "Malakopeia" }
 4308 = { "Laodicea" "Aphrodisias" }
-4309 = { "Tralles" "Miletus" }
+4309 = { "Tire" "Tire" }
 4310 = { "Arsamosata" "Arsamosata" }
 4311 = { "Kotyaion" "Kotyaion" }
 4312 = { "Claudiopolis" "Heraclea" }
@@ -991,6 +991,8 @@
 7762 = "Latobikornos"
 7764 = "Virunum"
 7765 = { "Axiopolis" "Axiopolis" }
+7820 = { "Tavaios" "Tavai" }
+7822 = { "Physkos" "Physkos" }
 7889 = "Andoria"
 7890 = { "Olbia Martius" "Olbia" }
 7891 = { "Aleabaceos" "Aleabaceos" }
@@ -1013,6 +1015,7 @@
 7909 = { "Segustania" "Etienia" }
 7910 = { "Vienna" "Vienna" }
 7911 = { "Brulliacus" "Brulliacus" }
+7912 = { "Tralles" "Miletus" } #Aydin
 7914 = { "Gergovia" "Brivas" }
 7915 = "Floria"
 7916 = { "Ricomagus" "Ricomagus" }
@@ -1037,6 +1040,7 @@
 7935 = "Crovios"
 7936 = { "Leucae" "Leucae" }
 7937 = "Argentomagus"
+7941 = { "Sardes" "Sardes" } #Sart
 7943 = { "Pergamon" "Pergamon" } #Bergama
 7957 = { "Stampae" "Salioclita" }
 7959 = "Sancera"

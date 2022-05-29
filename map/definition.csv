@@ -7818,9 +7818,9 @@ province;red;green;blue;x;x
 7817;200;150;74;Locknitz;
 7818;200;150;149;KamminPomerania;
 7819;200;150;224;Arnswalde;
-7820;50;50;23;StargardPomerania;
+7820;50;50;23;Tavas;
 7821;50;50;98;Zantoch;
-7822;50;50;173;Schivelbein;
+7822;50;50;173;Marmaris;
 7823;5;5;100;Belgard;
 7824;50;50;48;Schlawe;
 7825;50;50;123;LauenburgPomerelia;
@@ -7900,7 +7900,7 @@ province;red;green;blue;x;x
 7899;150;100;223;Vivaraisii;
 7900;150;150;23;Beziers;
 7901;150;150;98;Castres;
-7902;150;150;173;ReplacedBy4695;
+7902;219;219;227;AnatolianMountains;
 7903;150;150;248;Tudela ;
 7904;150;150;48;Albi;
 7905;150;150;123;Millhau;
@@ -7910,7 +7910,7 @@ province;red;green;blue;x;x
 7909;150;150;223;StEtienne;
 7910;150;200;23;Vienne;
 7911;150;200;98;Beaujolais;
-7912;150;200;173;Bresse;
+7912;150;200;173;Aydin;
 7913;150;200;248;Chablais;
 7914;150;200;48;Thiers;
 7915;150;200;123;StFlour;
@@ -7939,7 +7939,7 @@ province;red;green;blue;x;x
 7938;200;150;148;Chalon;
 7939;200;150;223;Cuiseaux;
 7940;50;50;22;StClaude;
-7941;50;50;97;Dole;
+7941;50;50;97;Sart;
 7942;50;50;172;Montbeliard;
 7943;150;1;1;Bergama;
 7944;50;50;47;Haguenau;

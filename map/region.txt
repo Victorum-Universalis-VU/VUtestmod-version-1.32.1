@@ -489,6 +489,7 @@ anatolia_region = {
 		karasi_area
 		pamphylia_area
 		lydia_area
+		aeolia_area
 	}
 }
 
