@@ -2883,6 +2883,7 @@ byz_pp_east = {
 				area = cukurova_area
 				area = dulkadir_area
 				area = lydia_area
+				area = aeolia_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -2916,6 +2917,10 @@ byz_pp_east = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			lydia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aeolia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
