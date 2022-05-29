@@ -35,18 +35,18 @@ discovered_by = south_american
 	capital = "Nieuw Walcheren"
 	trade_goods = sugar
 } #First settlers
-1635.1.1 = {
-	owner = ---
-	controller = ---
-	add_core = ---
-	culture = karina
-	religion = animism
-	capital = "Tabako"
-	trade_goods = unknown
-	native_size = 10
-	native_ferocity = 5
-	native_hostileness = 9
-} #Colonies fail
+#1635.1.1 = {
+#	owner = ---
+#	controller = ---
+#	add_core = ---
+#	culture = karina
+#	religion = animism
+#	capital = "Tabako"
+#	trade_goods = unknown
+#	native_size = 10
+#	native_ferocity = 5
+#	native_hostileness = 9
+#} #Colonies fail
 1654.5.1 = {
 	owner = KUR
 	controller = KUR
