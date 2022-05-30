@@ -22,7 +22,6 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Province history completed by - Nikicaga
-#First Shattering not used
 
 1399.1.1 = {
    owner = PIO
