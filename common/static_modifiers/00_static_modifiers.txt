@@ -298,11 +298,11 @@ development = {
 	allowed_num_of_buildings = 0.1
 	supply_limit_modifier = 0.02
 	local_missionary_strength = -0.001
-	land_forcelimit	= 0.025			# special case, affected by autonomy
-	naval_forcelimit = 0.025			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 15			# special case, affected by autonomy & set to 0 by code if not port
+	land_forcelimit	= 0.045			# special case, affected by autonomy
+	naval_forcelimit = 0.055			# special case, affected by autonomy & set to 0 by code if not port
+	local_sailors = 20			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
-	local_amount_of_banners = 0.033
+	local_amount_of_banners = 0.05
 	local_amount_of_cawa = 0.125
 }
 
@@ -1327,8 +1327,8 @@ trade_company_strong = {
 }
 
 private_enterprise_overlord = {
-	global_tariffs = -0.025         #Added in VU and decreased from 0.5
-	global_trade_power = 0.025      #Added in VU and decreased from 0.5
+	global_tariffs = -0.25         #Added in VU and decreased from 0.5
+	global_trade_power = 0.25      #Added in VU and decreased from 0.5
 	naval_forcelimit = 1            #Added in VU.
 	land_forcelimit = 1             #Added in VU.
 }
@@ -1342,20 +1342,20 @@ private_enterprise_subject = {
 
 large_colonial_nation = {
 	merchants = 1
-	colonists = 1                   #Added in VU - The idea here is that once a colony is large enough, people then venture out to claim and settle new land.
-	global_trade_power = 0.05
+	global_trade_power = 0.5
 	naval_forcelimit = 2			#VU changed from 3. #BTAddOn changed from 10. Naval forcelimits were getting obscene
 	land_forcelimit = 2			    #BTAddOn changed from 5. Too large a bonus compared to vassals and marches
 }
 
 crown_colony_overlord = {
     merchants = 2                   #VU increase from 1
-	global_trade_power = 0.075      #VU increase from 0.5
-	naval_forcelimit = 3            #VU increase from 2
-	land_forcelimit = 3             #VU increase from 2
+	global_trade_power = 0.75      #VU increase from 0.5
+	naval_forcelimit = 2           #VU increase from 2
+	land_forcelimit = 2            #VU increase from 2
 }
 
 crown_colony_subject = {
+    colonists = 1                   #Added in VU - The idea here is that once a colony is large enough, people then venture out to claim and settle new land.
 	global_autonomy = -0.05
 	global_colonial_growth = 10
 }
