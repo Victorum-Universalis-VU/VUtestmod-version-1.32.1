@@ -961,6 +961,7 @@
 7723 = "Deliminios"
 7724 = "Serbenikos"
 7725 = { "Aequum" "Aequum" }
+7725 = { "Prusia" "Prusias ad Hypium" }
 7727 = { "Servition" "Servition" }
 7728 = "Prijedoria"
 7729 = "Burnum"

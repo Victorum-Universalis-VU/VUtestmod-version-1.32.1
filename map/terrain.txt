@@ -163,7 +163,7 @@ categories =  {
 		local_build_cost = 0.05			#Some trees for building materials, alternate building materials like stone take more time to gather
 
 		terrain_override = {
-			222 1179 1181 2856 4737 5131 5340 5343 5350 5352 5353 5357 5370 5430 5560 6547 7358 7763 8610
+			222 1179 1181 2856 4737 5131 5340 5343 5350 5352 5353 5357 5370 5430 5560 6547 7358 7726 7763 8610
 		}
 	}
 	
