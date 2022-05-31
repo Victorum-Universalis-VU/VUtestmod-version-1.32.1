@@ -295,6 +295,7 @@
 7715 = { "Fethülislam" "Fethülislam" }
 7718 = { "Sirem" "Dimitrofça" }
 7727 = { "Lefçe" "Lefçe" }
+7737 = "Osmaneli"
 7740 = { "Küçük Hisar" "Küçük Hisar" }
 7741 = { "Beçkerek" "Beçkerek" }
 7748 = { "Kalafat" "Kalafat" }

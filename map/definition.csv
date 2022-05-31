@@ -7724,7 +7724,7 @@ province;red;green;blue;x;x
 7723;50;150;249;Duvno;
 7724;50;150;49;Srebrenica;
 7725;50;150;124;Tropolje;
-7726;50;150;199;Doboj;
+7726;178;199;132;Duzce;
 7727;50;150;74;Lijevce;
 7728;50;150;149;Prijedor;
 7729;50;150;224;Bihac;
@@ -7735,7 +7735,7 @@ province;red;green;blue;x;x
 7734;50;200;49;Senj;
 7735;50;200;124;CresKrk;
 7736;50;200;199;Sisak;
-7737;50;200;74;Varazdin;
+7737;50;200;74;Osmaneli;
 7738;50;200;149;Pozega;
 7739;50;200;224;Vukovar;
 7740;100;50;24;Baksa;
@@ -7761,7 +7761,7 @@ province;red;green;blue;x;x
 7760;150;50;24;Koper;
 7761;150;50;99;InnerCarniola;
 7762;150;50;174;UpperCarniola;
-7763;150;50;249;Celje;
+7763;150;50;249;Inegol;
 7764;150;50;49;Prekmurje;
 7765;150;50;124;Harsovo;
 7766;150;50;199;Helsingborg;
@@ -7812,7 +7812,7 @@ province;red;green;blue;x;x
 7811;200;150;99;Dannenberg;
 7812;200;150;174;Parchim;
 7813;200;150;249;Gustrow;
-7814;200;150;49;Rugen;
+7814;200;150;49;Kirimasti;
 7815;200;150;124;Anklam;
 7816;200;150;199;Usedom;
 7817;200;150;74;Locknitz;
