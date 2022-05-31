@@ -971,6 +971,7 @@
 7734 = { "Senia" "Senia" }
 7735 = { "Crexa" "Curicium" }
 7736 = "Clandate"
+7737 = { "Leukai" "Lefke" } #Osmaneli
 7738 = "Pozegia"
 7739 = "Upper Sirmium"
 7745 = "Arcidava"
@@ -989,8 +990,10 @@
 7760 = "Dytiki Carnium"
 7761 = "Emona"
 7762 = "Latobikornos"
+7763 = { "Angelokomis" "Angelokomis" }
 7764 = "Virunum"
 7765 = { "Axiopolis" "Axiopolis" }
+7814 = { "Kremaste" "Kremaste" }
 7820 = { "Tavaios" "Tavai" }
 7822 = { "Physkos" "Physkos" }
 7889 = "Andoria"
