@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = easterngfx
+graphical_culture = greekgfx #easterngfx
 
 color = { 29  118  160 }
 revolutionary_colors = { 5 14 0 }

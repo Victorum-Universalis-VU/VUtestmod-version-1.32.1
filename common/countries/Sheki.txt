@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = muslimgfx # was caucasiangfx # UPE compatibility
+graphical_culture = turkishgfx #muslimgfx # was caucasiangfx # UPE compatibility
 
 color = { 95  46  9 }
 

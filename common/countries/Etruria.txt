@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = westerngfx
+graphical_culture = latingfx #westerngfx
 
 color = { 114  154  143 } 
 revolutionary_colors = { 14 0 14 }

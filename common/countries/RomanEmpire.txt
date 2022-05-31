@@ -1,5 +1,5 @@
 # Roman Empire
-graphical_culture = easterngfx
+graphical_culture = greekgfx #easterngfx
 
 color = { 170 0 0 }
 revolutionary_colors = { 4 8 4 }
