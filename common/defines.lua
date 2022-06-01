@@ -795,7 +795,7 @@ NCountry = {
 	FACTION_BOOST_SIZE = 10,
 	WAREXHAUSTION_REDUCTION = 2,
 	HARSH_TREATMENT_IN_MONTHS = 180,
-	RECENT_UPRISING_IN_MONTHS = 120,				-- 10 year interval between uprising is fair
+	RECENT_UPRISING_IN_MONTHS = 240,				-- 10 year interval between uprising is fair
 	UNREST_REVOLT_FACTOR = 0.4, -- How much does each point of unrest contribute to chance of revolt uprising increasing (base)
 	UPRISING_INCREASE = 8, -- Number of percent that the progress increases
 	PROVOKE_REVOLT_SIZE_FACTOR = 0.4, -- Extra strength of revolt when using provoke revolt
@@ -864,10 +864,10 @@ NCountry = {
 	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
 	MONTHS_TO_CHANGE_CULTURE = 5,					-- How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
-	STARTING_ARMY_SIZE = 0.50,						-- Percentage of force limit
+	STARTING_ARMY_SIZE = 0.7,						-- Percentage of force limit
 	STARTING_ARMY_SIZE_AT_WAR = 1.5,				-- Percentage of force limit
 	STARTING_ARMY_SIZE_REBEL_THREAT = 0.05,			-- Percentage of rebel threat added to percentage of force limit
-	STARTING_FLEET_SIZE = 0.6, 						-- Starting fleet (as percentage of forcelimits)
+	STARTING_FLEET_SIZE = 0.7, 						-- Starting fleet (as percentage of forcelimits)
 	GALLEY_INLAND_SEA_COAST_RATIO = 0.75, 			-- % of ports that need to be inland seas for galleys to be considered important
 	REBEL_BREAK_STABILITY_SET = 0,					-- Stability will be set to this value when rebels break country.
 	REBEL_BREAK_EXHAUSTION_SET = 0, 				-- Exhaustion will be set to this value when rebels break country.
@@ -1146,11 +1146,11 @@ NEconomy = {
 	WARTAXES_DURATION = 2,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 1.0,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 4.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.4,					-- _EDEF_LAND_MAINTENANCE_FACTOR
-	HEAVY_SHIP_MAINT_FACTOR = 0.15,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
-	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
-	GALLEY_MAINT_FACTOR = 0.06,						-- _EDEF_GALLEY_MAINT_FACTOR_
-	TRANSPORT_MAINT_FACTOR = 0.04,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
+	LAND_MAINTENANCE_FACTOR = 0.35,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	HEAVY_SHIP_MAINT_FACTOR = 0.135,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
+	LIGHT_SHIP_MAINT_FACTOR = 0.0325,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
+	GALLEY_MAINT_FACTOR = 0.055,						-- _EDEF_GALLEY_MAINT_FACTOR_
+	TRANSPORT_MAINT_FACTOR = 0.045,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
 	COLONIAL_MAINTENANCE_FACTOR = 8.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
 	MISSIONARY_MAINTENANCE_FACTOR = 0.0,				-- How much a missionary costs in itself
 	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 0.5,	-- How much this is ncreased from development
@@ -1306,11 +1306,11 @@ NMilitary = {
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
 	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,
 	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,
-	INFANTRY_TIME = 90, 							-- _MDEF_INFANTRY_TIME = 10,
-	CAVALRY_TIME = 120, 								-- _MDEF_CAVALRY_TIME = 10,
-	ARTILLERY_TIME = 180, 							-- _MDEF_ARTILLERY_TIME = 10,
-	HEAVY_SHIP_TIME = 900, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
-	LIGHT_SHIP_TIME = 730, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
+	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
+	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
+	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
+	HEAVY_SHIP_TIME = 730, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
+	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
 	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,
 	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
@@ -1338,7 +1338,7 @@ NMilitary = {
 	NOMAD_LOOT_TRADITION = 0.01,	 				-- _MDEF_NOMAD_LOOT_TRADITION_;Military tradition a horde gets from looting territory
 	NOMAD_PLAINS_SHOCK_BONUS = 0.25, 				--
 	NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.25, 		--
-	SUPPLYLIMIT_BASE_MULTIPLIER = 4.0, 				-- Keeping low so it's actually important to warfare, gives smaller nations chance against blobs and reduces doomstacks early game
+	SUPPLYLIMIT_BASE_MULTIPLIER = 4.5, 				-- Keeping low so it's actually important to warfare, gives smaller nations chance against blobs and reduces doomstacks early game
 	WAR_LENGTH_DAMAGE_MODIFIER = 0.01,				-- How much (by percentage) the damage dealt will be increased each day of the combat
 	BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.4,	-- Multiplier for morale damage taken by backrow
 	BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0,	-- Multiplier for strength damage taken by backrow
