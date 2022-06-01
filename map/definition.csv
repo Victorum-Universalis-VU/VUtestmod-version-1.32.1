@@ -7143,7 +7143,7 @@ province;red;green;blue;x;x
 7142;100;100;151;Korce;
 7143;100;100;231;CutProvinceFier;
 7144;100;100;26;Peshkopi;
-7145;100;100;101;Ohrid;
+7145;100;100;101;Inebolu;
 7146;100;100;176;Prilep;
 7147;100;100;51;Kratovo;
 7148;100;100;126;Shtip;
@@ -7702,7 +7702,7 @@ province;red;green;blue;x;x
 7701;50;50;99;Pec;
 7702;50;100;249;Pristina;
 7703;50;50;174;Samokov;
-7704;50;50;49;ReplacedBy4703;
+7704;50;50;49;Bartin;
 7705;50;50;124;Pirot;
 7706;50;50;199;Lovech;
 7707;50;50;74;Vratsa;
@@ -7714,7 +7714,7 @@ province;red;green;blue;x;x
 7713;208;217;184;Bambari;
 7714;50;100;49;Sokokic;
 7715;50;100;124;Negotin;
-7716;50;100;199;Valjevo;
+7716;193;115;199;Zonguldak;
 7717;50;100;74;Uzice;
 7718;50;100;149;Belgrade;
 7719;230;148;100;Kissi;
