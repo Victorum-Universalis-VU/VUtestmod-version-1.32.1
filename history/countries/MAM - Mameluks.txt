@@ -20,7 +20,12 @@ change_estate_land_share = {
 }
 
 add_country_modifier = {
-    name = "mercenary_upkeep_XXX"
+    name = "mercenary_upkeep_II"
+    duration = -1
+}
+
+add_country_modifier = {
+    name = "mercenary_upkeep_XXV"
     duration = -1
 }
 
