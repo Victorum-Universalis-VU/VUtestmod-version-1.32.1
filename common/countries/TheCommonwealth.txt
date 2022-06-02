@@ -1,6 +1,6 @@
 #Polish-Lithuanian Commonwealth
 
-graphical_culture = easterngfx
+graphical_culture = westerngfx #easterngfx
 
 #New colour
 color = { 220 20 60 }

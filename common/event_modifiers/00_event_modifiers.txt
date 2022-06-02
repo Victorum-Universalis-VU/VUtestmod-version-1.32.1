@@ -1940,6 +1940,12 @@ great_horde_humiliated = {
 hired_mercenaries_I = {
 	land_forcelimit = 1
 }
+hired_mercenaries_II = {
+	land_forcelimit = 2
+}
+hired_mercenaries_III = {
+	land_forcelimit = 3
+}
 hired_mercenaries_IV = {
 	land_forcelimit = 4
 }
@@ -2008,6 +2014,21 @@ hired_mercenaries_CCL = {
 }
 
 #ARMY - ADDITIVE DEBUFF
+mercenary_upkeep_I = {
+	land_forcelimit = -1
+}
+
+mercenary_upkeep_II = {
+	land_forcelimit = -2
+}
+
+mercenary_upkeep_III = {
+	land_forcelimit = -3
+}
+
+mercenary_upkeep_IV = {
+	land_forcelimit = -4
+}
 mercenary_upkeep_V = {
 	land_forcelimit = -5
 }

@@ -893,6 +893,7 @@
 7142 = { "Boius" "Antipatria" }
 7143 = { "Apollonia" "Apollonia" }
 7144 = { "Pikaria" "Peshkopia" }
+7145 = { "Aboniteichos" "Ionopolis" }
 7146 = "Prilep"
 7147 = { "Koritos" "Koritos" }
 7148 = { "Strumitsa" "Strumitsa" }
@@ -945,6 +946,7 @@
 7701 = "Siparat"
 7702 = { "Justiniania Prima" "Vicianum" }
 7703 = { "Rila Mount" "Dupnitsa" }
+7704 = { "Perthenia" "Parthenios" }
 7705 = { "Ramesiana" "Ramesiana" }
 7706 = { "Hisarya" "Hisarya" }
 7707 = "Vratsa"
@@ -955,12 +957,14 @@
 7712 = "Dardana"
 7714 = { "Timakon" "Timacus" }
 7715 = { "Egeta" "Aquis" }
+7716 = { "Pontoheraclea" "Heraclea Pontica" }
 7718 = { "Sirmium" "Sirmium" }
 7721 = "Salthuos"
 7722 = "Deasitiatios"
 7723 = "Deliminios"
 7724 = "Serbenikos"
 7725 = { "Aequum" "Aequum" }
+7725 = { "Prusia" "Prusias ad Hypium" }
 7727 = { "Servition" "Servition" }
 7728 = "Prijedoria"
 7729 = "Burnum"
@@ -971,6 +975,7 @@
 7734 = { "Senia" "Senia" }
 7735 = { "Crexa" "Curicium" }
 7736 = "Clandate"
+7737 = { "Leukai" "Lefke" } #Osmaneli
 7738 = "Pozegia"
 7739 = "Upper Sirmium"
 7745 = "Arcidava"
@@ -989,8 +994,10 @@
 7760 = "Dytiki Carnium"
 7761 = "Emona"
 7762 = "Latobikornos"
+7763 = { "Angelokomis" "Angelokomis" }
 7764 = "Virunum"
 7765 = { "Axiopolis" "Axiopolis" }
+7814 = { "Kremaste" "Kremaste" }
 7820 = { "Tavaios" "Tavai" }
 7822 = { "Physkos" "Physkos" }
 7889 = "Andoria"

@@ -1,6 +1,6 @@
 #Lithuania
 
-graphical_culture = easterngfx
+graphical_culture = westerngfx #easterngfx
 
 color = { 125  30  100 }
 

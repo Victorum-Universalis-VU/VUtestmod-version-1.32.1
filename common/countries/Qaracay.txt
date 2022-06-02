@@ -1,6 +1,6 @@
 #Qara Cay
 
-graphical_culture = easterngfx
+graphical_culture = greekgfx #easterngfx
 
 color = { 237 218 192 }
 

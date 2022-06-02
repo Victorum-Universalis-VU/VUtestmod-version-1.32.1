@@ -118,6 +118,279 @@ on_startup = {
 		}
 		ZAZ = { restore_country_name = yes }
 	}
+	#VU San Felipe Additions
+	if = {
+        limit = {
+            NOT = {
+                has_global_flag = setup
+            }
+        }
+        set_global_flag = setup
+		ENG = {
+			export_to_variable = { which = num_of_infantry value = trigger_value:num_of_infantry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_infantry value = 24 }
+                    }
+                }
+                infantry = capital
+                change_variable = { which = num_of_infantry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_infantry value = 25 }
+                }
+                random_owned_province = {
+                    limit = {
+                        infantry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = infantry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_infantry value = -1 }
+            }
+            set_variable = { which = num_of_infantry value = 0 }
+			#
+			export_to_variable = { which = num_of_cavalry value = trigger_value:num_of_cavalry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_cavalry value = 6 }
+                    }
+                }
+                cavalry = capital
+                change_variable = { which = num_of_cavalry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_cavalry value = 7 }
+                }
+                random_owned_province = {
+                    limit = {
+                        cavalry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = cavalry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_cavalry value = -1 }
+            }
+            set_variable = { which = num_of_cavalry value = 0 }
+			#
+			export_to_variable = { which = num_of_artillery value = trigger_value:num_of_artillery }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_artillery value = 0 }
+                    }
+                }
+                artillery = capital
+                change_variable = { which = num_of_artillery value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_artillery value = 0 }
+                }
+                random_owned_province = {
+                    limit = {
+                        artillery_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = artillery
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_artillery value = -1 }
+            }
+            set_variable = { which = num_of_artillery value = 0 }
+			#
+            export_to_variable = { which = num_of_heavy_ship value = trigger_value:num_of_heavy_ship }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_heavy_ship value = 10 }
+                    }
+                }
+                heavy_ship = capital
+                change_variable = { which = num_of_heavy_ship value = 1 }
+            }
+            set_variable = { which = num_of_heavy_ship value = 0 }
+		}
+        CAS = {
+            export_to_variable = { which = num_of_heavy_ship value = trigger_value:num_of_heavy_ship }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_heavy_ship value = 8 }
+                    }
+                }
+                heavy_ship = 4551
+                change_variable = { which = num_of_heavy_ship value = 1 }
+            }
+            set_variable = { which = num_of_heavy_ship value = 0 }
+		}
+        POR = {
+            export_to_variable = { which = num_of_heavy_ship value = trigger_value:num_of_heavy_ship }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_heavy_ship value = 6 }
+                    }
+                }
+                heavy_ship = 4556
+                change_variable = { which = num_of_heavy_ship value = 1 }
+            }
+            set_variable = { which = num_of_heavy_ship value = 0 }
+		}
+        FRA = {
+            export_to_variable = { which = num_of_heavy_ship value = trigger_value:num_of_heavy_ship }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_heavy_ship value = 3 }
+                    }
+                }
+                heavy_ship = 6928
+                change_variable = { which = num_of_heavy_ship value = 1 }
+            }
+            set_variable = { which = num_of_heavy_ship value = 0 }
+		}
+		MAM = {
+			export_to_variable = { which = num_of_infantry value = trigger_value:num_of_infantry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_infantry value = 14 }
+                    }
+                }
+                infantry = capital
+                change_variable = { which = num_of_infantry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_infantry value = 15 }
+                }
+                random_owned_province = {
+                    limit = {
+                        infantry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = infantry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_infantry value = -1 }
+            }
+            set_variable = { which = num_of_infantry value = 0 }
+			#
+			export_to_variable = { which = num_of_cavalry value = trigger_value:num_of_cavalry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_cavalry value = 6 }
+                    }
+                }
+                cavalry = capital
+                change_variable = { which = num_of_cavalry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_cavalry value = 7 }
+                }
+                random_owned_province = {
+                    limit = {
+                        cavalry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = cavalry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_cavalry value = -1 }
+            }
+            set_variable = { which = num_of_cavalry value = 0 }
+			#
+			export_to_variable = { which = num_of_artillery value = trigger_value:num_of_artillery }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_artillery value = 0 }
+                    }
+                }
+                artillery = capital
+                change_variable = { which = num_of_artillery value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_artillery value = 0 }
+                }
+                random_owned_province = {
+                    limit = {
+                        artillery_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = artillery
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_artillery value = -1 }
+            }
+            set_variable = { which = num_of_artillery value = 0 }
+		}
+		TUR = {
+            infantry = capital
+			#
+			export_to_variable = { which = num_of_cavalry value = trigger_value:num_of_cavalry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_cavalry value = 6 }
+                    }
+                }
+                cavalry = capital
+                change_variable = { which = num_of_cavalry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_cavalry value = 7 }
+                }
+                random_owned_province = {
+                    limit = {
+                        cavalry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = cavalry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_cavalry value = -1 }
+            }
+            set_variable = { which = num_of_cavalry value = 0 }
+			#
+			export_to_variable = { which = num_of_galley value = trigger_value:num_of_galley }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_galley value = 16 }
+                    }
+                }
+                galley = 7129
+                change_variable = { which = num_of_galley value = 1 }
+            }
+            set_variable = { which = num_of_galley value = 0 }
+		}
+	}
 }
 
 # country

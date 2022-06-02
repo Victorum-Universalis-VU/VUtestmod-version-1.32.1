@@ -28,6 +28,16 @@ change_estate_land_share = {
 	share = 10
 }
 
+add_country_modifier = {
+    name = "hired_mercenaries_III"
+    duration = -1
+}
+
+add_country_modifier = {
+    name = "hired_mercenaries_XV"
+    duration = -1
+}
+
 1444.10.1 = {
 	set_estate_privilege = estate_dhimmi_guaranteed_autonomy
 	set_estate_privilege = estate_dhimmi_lighter_dhimmi_taxes

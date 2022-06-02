@@ -289,9 +289,9 @@ NDiplomacy = {
 	PEACE_COST_JOIN_HRE = 90, 							-- Max Peace cost for forcing country to join the empire
 	PEACE_COST_CONVERSION = 0.25,					-- scaled with countrysize for forced conversion in peace.
 	PEACE_COST_CONCEDE = 10, 						-- _DDEF_PEACE_COST_CONCEDE_ Base Peace cost for conceding defeat
-	PEACE_COST_GOLD_STEP = 10, 						-- _DDEF_PEACE_COST_GOLD_STEP_ Peace Cost for 1 loan size gold of giver
+	PEACE_COST_GOLD_STEP = 5, 						-- _DDEF_PEACE_COST_GOLD_STEP_ Peace Cost for 1 loan size gold of giver
 	PEACE_COST_GOLD_MAX = 3,						-- Maximum loans of gold that can be demanded from giver in peace.
-	PEACE_COST_ANNUL = 20, 							-- _DDEF_PEACE_COST_ANNUL_ Peace cost for annulment of treaties
+	PEACE_COST_ANNUL = 10, 							-- _DDEF_PEACE_COST_ANNUL_ Peace cost for annulment of treaties
 	PEACE_COST_CHANGE_GOVERNMENT = 50, 				-- _Peace cost for changing government form
 	PEACE_COST_TRADE_POWER = 30, 					-- Peace cost for demanding trade power
 	PEACE_COST_STEER_TRADE = 60,					-- Peace cost for steering trade
@@ -731,8 +731,8 @@ NCountry = {
 	PS_BUY_CONQUISTADOR = 50,
 	PS_BUY_EXPLORER = 50,
 	PS_ASSAULT = 5,
-	PS_ARTILLERY_BARRAGE = 30,
-	PS_NAVAL_BARRAGE = 25,
+	PS_ARTILLERY_BARRAGE = 20,
+	PS_NAVAL_BARRAGE = 20,
 	PS_ADD_TRIBAL_LAND = 100,
 	PS_ADD_TRIBAL_LAND_EXTRA_COST_PER_PROVINCE = 10,
 	PS_FORCE_MARCH = 1,
@@ -743,9 +743,9 @@ NCountry = {
 	PS_REDUCE_INFLATION = 75,
 	PS_PROMOTE_MERCANTILISM = 100,
 	PS_MOVE_CAPITAL = 100,
-	PS_MOVE_CAPITAL_EXTRA = 100,						-- Per 100 country development.
+	PS_MOVE_CAPITAL_EXTRA = 50,						-- Per 100 country development.
 	PS_MOVE_CAPITAL_DISTANCE = 10,					-- How many pixels distance per 1 Adm.
-	PS_MOVE_CAPITAL_DISTANCE_CAP = 300,				-- How much this penalty is allowed to cost in Adm.
+	PS_MOVE_CAPITAL_DISTANCE_CAP = 200,				-- How much this penalty is allowed to cost in Adm.
 	PS_MOVE_TRADE_PORT = 200,
 	PS_REPLACE_RIVAL = 100,
 	PS_SEIZE_COLONY = 25,
@@ -755,7 +755,7 @@ NCountry = {
 	PS_CHANGE_GOVERNMENT = 100,
 	PS_CHANGE_CULTURE = 5,
 	PS_CHANGE_CULTURE_OVERSEAS_RELIGION_MOD = -0.25,	-- Modifier how much cheaper it is to change culture in overseas province if same religion
-	PS_HARSH_TREATMENT_COST = 200,					-- Max cost for harsh treatment (scales to revolt size)
+	PS_HARSH_TREATMENT_COST = 100,					-- Max cost for harsh treatment (scales to revolt size)
 	PS_HARSH_TREATMENT_REDUCE = 30,
 	PS_GARRISON_SORTIES = 10,
 	PS_REDUCE_WAREXHAUSTION = 75,
@@ -795,10 +795,10 @@ NCountry = {
 	FACTION_BOOST_SIZE = 10,
 	WAREXHAUSTION_REDUCTION = 2,
 	HARSH_TREATMENT_IN_MONTHS = 180,
-	RECENT_UPRISING_IN_MONTHS = 120,
+	RECENT_UPRISING_IN_MONTHS = 240,				-- 10 year interval between uprising is fair
 	UNREST_REVOLT_FACTOR = 0.4, -- How much does each point of unrest contribute to chance of revolt uprising increasing (base)
-	UPRISING_INCREASE = 10, -- Number of percent that the progress increases
-	PROVOKE_REVOLT_SIZE_FACTOR = 0.5, -- Extra strength of revolt when using provoke revolt
+	UPRISING_INCREASE = 8, -- Number of percent that the progress increases
+	PROVOKE_REVOLT_SIZE_FACTOR = 0.4, -- Extra strength of revolt when using provoke revolt
 	PROVOKE_REVOLT_MIN_PROGRESS = 50.0,	-- Minimum revolt progress to use provoke
 	UNREST_DECAY = 1.0,
 
@@ -864,10 +864,10 @@ NCountry = {
 	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
 	MONTHS_TO_CHANGE_CULTURE = 5,					-- How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
-	STARTING_ARMY_SIZE = 0.50,						-- Percentage of force limit
+	STARTING_ARMY_SIZE = 0.5,						-- Percentage of force limit
 	STARTING_ARMY_SIZE_AT_WAR = 1.5,				-- Percentage of force limit
 	STARTING_ARMY_SIZE_REBEL_THREAT = 0.05,			-- Percentage of rebel threat added to percentage of force limit
-	STARTING_FLEET_SIZE = 0.5, 						-- Starting fleet (as percentage of forcelimits)
+	STARTING_FLEET_SIZE = 0.6, 						-- Starting fleet (as percentage of forcelimits)
 	GALLEY_INLAND_SEA_COAST_RATIO = 0.75, 			-- % of ports that need to be inland seas for galleys to be considered important
 	REBEL_BREAK_STABILITY_SET = 0,					-- Stability will be set to this value when rebels break country.
 	REBEL_BREAK_EXHAUSTION_SET = 0, 				-- Exhaustion will be set to this value when rebels break country.
@@ -1146,11 +1146,11 @@ NEconomy = {
 	WARTAXES_DURATION = 2,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 1.0,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 4.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.4,					-- _EDEF_LAND_MAINTENANCE_FACTOR
-	HEAVY_SHIP_MAINT_FACTOR = 0.2,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
-	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
-	GALLEY_MAINT_FACTOR = 0.08,						-- _EDEF_GALLEY_MAINT_FACTOR_
-	TRANSPORT_MAINT_FACTOR = 0.04,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
+	LAND_MAINTENANCE_FACTOR = 0.35,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	HEAVY_SHIP_MAINT_FACTOR = 0.135,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
+	LIGHT_SHIP_MAINT_FACTOR = 0.0325,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
+	GALLEY_MAINT_FACTOR = 0.055,						-- _EDEF_GALLEY_MAINT_FACTOR_
+	TRANSPORT_MAINT_FACTOR = 0.045,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
 	COLONIAL_MAINTENANCE_FACTOR = 8.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
 	MISSIONARY_MAINTENANCE_FACTOR = 0.0,				-- How much a missionary costs in itself
 	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 0.5,	-- How much this is ncreased from development
@@ -1301,23 +1301,23 @@ NMilitary = {
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,
 	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,
 	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
-	FORTRESS_COST = 0.4,							-- base fort cost
+	FORTRESS_COST = 0.3,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
 	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,
 	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,
-	INFANTRY_TIME = 90, 							-- _MDEF_INFANTRY_TIME = 10,
-	CAVALRY_TIME = 135, 								-- _MDEF_CAVALRY_TIME = 10,
-	ARTILLERY_TIME = 180, 							-- _MDEF_ARTILLERY_TIME = 10,
-	HEAVY_SHIP_TIME = 1095, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
-	LIGHT_SHIP_TIME = 730, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
-	GALLEY_TIME = 730, 								-- _MDEF_GALLEY_TIME = 10,
-	TRANSPORT_TIME = 730, 							-- _MDEF_TRANSPORT_TIME = 10,
+	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
+	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
+	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
+	HEAVY_SHIP_TIME = 730, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
+	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
+	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,
+	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
-	MERCENARY_REINFORCE_COST_MULTIPLIER = -1.0,			-- Mercs no longer costs anything to reinfroce
-	MERCENARY_BASE_COST = 10.0,					-- base cost added for a mercenary regiment
+	MERCENARY_REINFORCE_COST_MULTIPLIER = -1.0,		-- Mercs no longer costs anything to reinfroce
+	MERCENARY_BASE_COST = 10.0,						-- base cost added for a mercenary regiment
 	TRADITION_GAIN_LAND = 20,						-- Tradition gain base value from land combat.
 	TRADITION_GAIN_NAVAL = 40,						-- Tradition gain base value from naval combat.
 	CONDOTTIERI_TRADITION_BONUS = 0.5,				-- This modifies army tradition gained from fighting with condottieris
@@ -1326,9 +1326,9 @@ NMilitary = {
 	BASE_COMBAT_WIDTH = 15.0,						-- _MDEF_BASE_COMBAT_WIDTH_
 	MAX_COMBAT_WIDTH = 40,
 	FORCE_MARCH_FACTOR = 0.5,						--
-	LOOT_DEVASTATION_IMPACT = 10,						-- how much devastation full loot impacts
-	SCORCHED_DEVASTATION_IMPACT = 5, 					-- how much devastation scorching impacts.
-	SCORCHED_DURATION = 60,				-- months
+	LOOT_DEVASTATION_IMPACT = 10,					-- how much devastation full loot impacts
+	SCORCHED_DEVASTATION_IMPACT = 5, 				-- how much devastation scorching impacts.
+	SCORCHED_DURATION = 60,							-- months
 	LOOTED_DAYS = 730,								-- Time the "Looted" static modifier lasts.
 	LOOTED_SCALE = 0.5,								-- Scaling value from province development to number of ducats it contains.
 	LOOTED_MAX = 5,									-- Maximum amount of ducats (total) a province can be looted for each month.
@@ -1337,8 +1337,8 @@ NMilitary = {
 	REBEL_TRADITION_GAIN = 0.5, 					-- _MDEF_REBEL_TRADITION_GAIN_; Factor of army/navy tradition gained from fighting rebels and pirates.
 	NOMAD_LOOT_TRADITION = 0.01,	 				-- _MDEF_NOMAD_LOOT_TRADITION_;Military tradition a horde gets from looting territory
 	NOMAD_PLAINS_SHOCK_BONUS = 0.25, 				--
-	NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.25, 			--
-	SUPPLYLIMIT_BASE_MULTIPLIER = 3.0, 				--
+	NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.25, 		--
+	SUPPLYLIMIT_BASE_MULTIPLIER = 4, 				-- Keeping low so it's actually important to warfare, gives smaller nations chance against blobs and reduces doomstacks early game
 	WAR_LENGTH_DAMAGE_MODIFIER = 0.01,				-- How much (by percentage) the damage dealt will be increased each day of the combat
 	BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.4,	-- Multiplier for morale damage taken by backrow
 	BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0,	-- Multiplier for strength damage taken by backrow
@@ -1566,7 +1566,7 @@ NAI = {
 	TRADE_INTEREST_THRESHOLD = 3, -- Number of merchants required to be a nation with trade interest
 	DEFICIT_SPENDING_MIN_MONTHS = 6, -- AI must have at least this many monthly deficits of savings to be willing to deficit spend
 	DEFICIT_SPENDING_MIN_MONTHS_PEACETIME = 48, -- Same as DEFICIT_SPENDING_MIN_MONTHS, but during peacetime, no rebels and no war exhaustion
-	BIGSHIP_FRACTION = 0.4,	-- The proportion of big ships in an AI navy of light ships and big ships (for coastal sea countries, this fraction is mostly galleys)
+	BIGSHIP_FRACTION = 0.3,	-- The proportion of big ships in an AI navy of light ships and big ships (for coastal sea countries, this fraction is mostly galleys)
 	ARTILLERY_FRACTION = 0.35, 	-- Ratio of artillery to infantry AI will build
 	FORCE_COMPOSITION_CHANGE_TECH_LEVEL = 11, -- Tech level at which AI will double its artillery fraction
 	TRANSPORT_FRACTION = 0.5, -- Max fraction of naval forcelimit that should be transports
@@ -2053,8 +2053,8 @@ NGraphics = {
 	MIN_PROVINCES_FOR_NAME_ON_MAP = 2,
 	MIN_PROVINCES_FOR_REGION = 4,
 	RIVER_MEMORY_BUFFER = 250000,					-- Increase this if you want to add more rivers to the game
-	PORT_SHIP_OFFSET = 2.0,
-	SHIP_IN_PORT_SCALE = 0.25,
+	PORT_SHIP_OFFSET = 1.0,
+	SHIP_IN_PORT_SCALE = 0.5,
 	CITY_SPRAWL_SHRINK_DISTANCE = 90.0, 			-- Start shrinking at this distance
 	CITY_SPRAWL_DRAW_DISTANCE = 120.0, 				-- Remove at this distance
 	CITY_SPRAWL_AMOUNT = 1.0, 						-- Size of cities, higher gives larger cities
@@ -2092,8 +2092,8 @@ NGraphics = {
 	WATER_MAP_MODE_COLOR_R = 0.27,
 	WATER_MAP_MODE_COLOR_G = 0.42,
 	WATER_MAP_MODE_COLOR_B = 0.64,
-	CAPITAL_INDICATOR_HEIGHT = 5.8,
-	CAPITAL_INDICATOR_HEIGHT_SCALE = 140.0,
+	CAPITAL_INDICATOR_HEIGHT = 3.3,
+	CAPITAL_INDICATOR_HEIGHT_SCALE = 170.0,
 
 	BORDER_COLOR_SELECTION_R = 1.0,
 	BORDER_COLOR_SELECTION_G = 0.8,

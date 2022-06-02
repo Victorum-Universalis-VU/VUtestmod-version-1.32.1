@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = muslimgfx
+graphical_culture = turkishgfx #muslimgfx
 
 #New Green Colour
 color = { 133  187  101 }

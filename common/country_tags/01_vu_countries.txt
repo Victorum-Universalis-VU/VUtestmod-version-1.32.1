@@ -516,6 +516,22 @@ TOB = "countries/Toba.txt"
 WCH = "countries/Wichi.txt"
 YAG = "countries/Yahgan.txt"
 
+#New Additions by San Felipe
+#ECU = "countries/Ecuador.txt"
+#BOL = "countries/Bolivia.txt"
+#
+#These SA tags are already in EU4. I didn't know that HAT was already in the game?
+#COL = "countries/Colombia.txt"
+#CHL = "countries/Chile.txt"
+#LAP = "countries/LaPlata.txt"
+#PEU = "countries/Peru.txt"
+#PRG = "countries/Paraguay.txt"
+#CAM = "countries/UPCA.txt"
+#VNZ = "countries/Venezuela.txt"
+#BRZ = "countries/Brazil.txt"
+#HAT = "countries/Haiti.txt"
+#MEX = "countries/Mexico.txt"
+
 ########
 # Asia #
 ########

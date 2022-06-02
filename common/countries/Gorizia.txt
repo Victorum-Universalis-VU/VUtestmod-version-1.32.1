@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = westerngfx # austriangfx # UPE compatibility
+graphical_culture = latingfx #westerngfx # austriangfx # UPE compatibility
 
 color = { 107  153  237 }
 

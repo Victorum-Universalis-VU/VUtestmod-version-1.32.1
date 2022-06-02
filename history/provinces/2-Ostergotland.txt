@@ -20,16 +20,8 @@ discovered_by = western
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
-#1st Shattering unused
-#1st Performance Start Unused
+#Province history completed by docRobert
 
-#1291 - 1444
-
-#2nd Shattering unused
-#2nd Performance Start Unused
-
-#1444 on
 1487.1.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # The Axelsson Tott Family
 1487.5.24 = { revolt = {} controller = SWE } # The Demise of the Axelsson Tott Family
 1497.3.13 = { controller = DAN } # Danish loyalists at Danish DoW
@@ -38,3 +30,10 @@ discovered_by = eastern
 1503.6.1 = { controller = SWE } # Retaken by Sweden
 1521.6.7 = { culture = swedish } #After the 15th century and the Kalmar Union, the Swedes and the Geats appear to have begun to perceive themselves as one nation, which is reflected in the evolution of svensk into a common ethnonym.
 1527.6.1 = { religion = protestant}
+1598.8.12 = { controller = PLC } # Sigismund tries to reconquer his crown
+1598.9.25 = { controller = SWE } # Fameous decisive battle between Charles and Sigismund, Charles wins
+1627.1.1 = {	#Cathedral school established
+	cathedral = yes
+	base_tax = 3
+	base_manpower = 3
+}
