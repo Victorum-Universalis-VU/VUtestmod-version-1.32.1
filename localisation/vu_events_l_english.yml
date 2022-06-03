@@ -282,6 +282,11 @@
  vu_fall_of_rome.3.c:0 "Everything's F I I I I N E E . . ."
  vu_fall_of_rome.3.tooltip1:0 "We will focus externally and seek help outwards. We will channel our efforts into finding allies, training army and preparing to attack."
  vu_fall_of_rome.3.tooltip2:0 "We will focus internally on our small realm. We shall put all the efforts inwards. Build defences, reinforce the countryside and outposts. Seeks experts and noble men from our country. Our little nation must become the greatest stronghold known to Europe."
+ vu_fall_of_rome.4.t:0 "Orhan Çelebi in Constantinople"
+ vu_fall_of_rome.4.d:0 "Orhan Çelebi was a prince of the Ottoman Empire. Orhan was the grandson of Süleyman Çelebi and son of Kasim Çelebi, thus a second cousin and a rival to Mehmed the Conqueror. Orhan was sent to Constantinople as a hostage and the Ottomans paid tribute to the Byzantines during his time there to keep him out of the way. In 1453 he joined the defence of the Byzantine Empire during the Fall of Constantinople with about 600 Ottoman defectors by his side. They were charged with defending part of the sea walls, including the harbour of Eptaskalio. \n \nNow in our own timeline, we must decide if his cause is of any use to us.
+ vu_fall_of_rome.4.a:0 "He can work in our court and train the army."
+ vu_fall_of_rome.4.b:0 "He will make a decent general."
+ vu_fall_of_rome.4.c:0 "Keep him as a hostage and collect the tribute."
  #Belgian Revolt
  incident_belgian_revolt:0 "The Belgian Rebellion"
  incident_belgian_revolt_member_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."

@@ -20,6 +20,8 @@ country_event = { # Losing grip on northern coast part 1
 		is_year = 1448
 		exists = BYZ
 		is_great_power = yes
+		NOT = { offensive_war_with = BYZ }
+		is_at_war = no
 		OR = {
 			1764 = { owned_by = BYZ }
 			7139 = { owned_by = BYZ }
@@ -74,7 +76,7 @@ country_event = { # Losing grip on northern coast part 2
 	option = { # We will agree
 		name = vu_fall_of_rome.2.a
 		highlight = yes
-		ai_chance = { factor = 40 }
+		ai_chance = { factor = 50 }
 		if = {
 			limit = {
 				1764 = { owned_by = ROOT }
@@ -111,7 +113,7 @@ country_event = { # Losing grip on northern coast part 2
 	option = { # No, we will fight
 		name = vu_fall_of_rome.2.b
 		highlight = yes
-		ai_chance = { factor = 60 }
+		ai_chance = { factor = 50 }
 		1764 = { add_territorial_core = TUR }
 		7139 = { add_territorial_core = TUR }
 		7138 = { add_territorial_core = TUR }
@@ -191,5 +193,58 @@ country_event = { # Gathering storm
 		name = vu_fall_of_rome.3.c
 		ai_chance = { factor = 0 }
 		add_prestige = 1
+	}
+}
+
+country_event = { # Orhan Celebi
+	id = vu_fall_of_rome.4
+	title = vu_fall_of_rome.4.t
+	desc = vu_fall_of_rome.4.d
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+		is_year = 1447
+		151 = { owned_by = ROOT }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = { # He will be advisor
+		name = vu_fall_of_rome.4.a
+		define_advisor = {
+			type = quartermaster
+			name = "Orhan Çelebi"
+			skill = 2
+			culture = turkish
+			religion = sunni
+			cost_multiplier = 0.5
+		}
+		add_splendor = 20
+	}
+	
+	option = { # Let him command the army
+		name = vu_fall_of_rome.4.b
+		add_mil_power = 25
+		capital_scope = {
+			infantry = BYZ
+		}
+		add_manpower = 1
+		define_general = {
+			shock = 2
+			fire = 2
+			manuever = 2
+			siege = 1
+			name = "Orhan Çelebi"
+		}
+	}
+	
+	option = { # We don't need his help, keep him hostage
+		name = vu_fall_of_rome.4.c
+		add_treasury = 50
 	}
 }
