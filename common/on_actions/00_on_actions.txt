@@ -261,7 +261,64 @@ on_startup = {
                 change_variable = { which = num_of_heavy_ship value = 1 }
             }
             set_variable = { which = num_of_heavy_ship value = 0 }
+			#
+			export_to_variable = { which = num_of_infantry value = trigger_value:num_of_infantry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_infantry value = 32 }
+                    }
+                }
+                infantry = capital
+                change_variable = { which = num_of_infantry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_infantry value = 33 }
+                }
+                random_owned_province = {
+                    limit = {
+                        infantry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = infantry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_infantry value = -1 }
+            }
+            set_variable = { which = num_of_infantry value = 0 }
+			#
+			export_to_variable = { which = num_of_cavalry value = trigger_value:num_of_cavalry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_cavalry value = 8 }
+                    }
+                }
+                cavalry = capital
+                change_variable = { which = num_of_cavalry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_cavalry value = 9 }
+                }
+                random_owned_province = {
+                    limit = {
+                        cavalry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = cavalry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_cavalry value = -1 }
+            }
+            set_variable = { which = num_of_cavalry value = 0 }
 		}
+		
 		MAM = {
 			export_to_variable = { which = num_of_infantry value = trigger_value:num_of_infantry }
             while = {
@@ -348,13 +405,39 @@ on_startup = {
             set_variable = { which = num_of_artillery value = 0 }
 		}
 		TUR = {
-            infantry = capital
+			export_to_variable = { which = num_of_infantry value = trigger_value:num_of_infantry }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_infantry value = 22 }
+                    }
+                }
+                infantry = capital
+                change_variable = { which = num_of_infantry value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_infantry value = 23 }
+                }
+                random_owned_province = {
+                    limit = {
+                        infantry_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = infantry
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_infantry value = -1 }
+            }
+            set_variable = { which = num_of_infantry value = 0 }
 			#
 			export_to_variable = { which = num_of_cavalry value = trigger_value:num_of_cavalry }
             while = {
                 limit = {
                     NOT = {
-                        check_variable = { which = num_of_cavalry value = 6 }
+                        check_variable = { which = num_of_cavalry value = 8 }
                     }
                 }
                 cavalry = capital
@@ -362,7 +445,7 @@ on_startup = {
             }
             while = {
                 limit = {
-                    check_variable = { which = num_of_cavalry value = 7 }
+                    check_variable = { which = num_of_cavalry value = 9 }
                 }
                 random_owned_province = {
                     limit = {
@@ -377,6 +460,34 @@ on_startup = {
                 change_variable = { which = num_of_cavalry value = -1 }
             }
             set_variable = { which = num_of_cavalry value = 0 }
+			#
+			export_to_variable = { which = num_of_artillery value = trigger_value:num_of_artillery }
+            while = {
+                limit = {
+                    NOT = {
+                        check_variable = { which = num_of_artillery value = 0 }
+                    }
+                }
+                artillery = capital
+                change_variable = { which = num_of_artillery value = 1 }
+            }
+            while = {
+                limit = {
+                    check_variable = { which = num_of_artillery value = 0 }
+                }
+                random_owned_province = {
+                    limit = {
+                        artillery_in_province = PREV
+                    }
+                    kill_units = {
+                        who = PREV
+                        type = artillery
+                        amount = 1
+                    }
+                }
+                change_variable = { which = num_of_artillery value = -1 }
+            }
+            set_variable = { which = num_of_artillery value = 0 }
 			#
 			export_to_variable = { which = num_of_galley value = trigger_value:num_of_galley }
             while = {
