@@ -5426,7 +5426,7 @@ PRM_ideas = {
 	}
 	
 	trigger = {
-	    OR  {
+	    OR = {
 			tag = PRM
 			tag = VYA # BT
 		}
