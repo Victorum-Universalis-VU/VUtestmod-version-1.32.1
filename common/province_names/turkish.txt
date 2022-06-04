@@ -261,7 +261,7 @@
 7143 = { "Myzeqeja" "Ferecik" }
 7144 = { "Debre" "Debre" }
 7147 = { "Kratova" "Kratova" }
-7148 = { "Istip" "Istip"
+7148 = { "Istip" "Istip" }
 7149 = { "Kapsiyye" "Kapsiyye" }
 7150 = { "Hasat" "Hasat" }
 7151 = { "Istanimaka" "Istanimaka" }
@@ -273,7 +273,7 @@
 7159 = { "Rusçuk" "Rusçuk" }
 7163 = { "Menekse" "Menekse" }
 7190 = { "Akyar" "Akyar" }
-7192 = { "Bahçesaray" "Bahçesaray"
+7192 = { "Bahçesaray" "Bahçesaray" }
 7193 = { "Içki" "Içki" }
 7197 = { "Sokul" "Sokul" }
 7200 = { "Kizilyar" "Kizilyar" }
@@ -294,6 +294,7 @@
 7714 = { "Saticar" "Saticar" }
 7715 = { "Fethülislam" "Fethülislam" }
 7718 = { "Sirem" "Dimitrofça" }
+7726 = { "Düzce" "Düzce" }
 7727 = { "Lefçe" "Lefçe" }
 7737 = "Osmaneli"
 7740 = { "Küçük Hisar" "Küçük Hisar" }
@@ -308,7 +309,9 @@
 7756 = { "Kiliras" "Kiliras" }
 7758 = { "Ibrail" "Ibrail" }
 7759 = { "Ishakçi" "Ishakçi" }
+7763 = { "Inegöl" "Inegöl" }
 7765 = { "Hirsova" "Hirsova" }
+7814 = { "Kirmasti" "Kirmasti" }
 7941 = { "Kasaba" "Kasaba" }
 8046 = { "Bigadiç" "Bigadiç" }
 8172 = { "Vash" "Vashvar" }
@@ -590,7 +593,7 @@
 2327 = { "Makna" "Makna" }
 2328 = { "Teyma" "Teyma" }
 2329 = { "Yenbû" "Yenbû" }
-2330 = { "Dürc-i Zer" "Dürc-i Zer" 
+2330 = { "Dürc-i Zer" "Dürc-i Zer" }
 2331 = { "Cidde" "Cidde" } 
 2332 = { "Türbahar" "Türbahar" }
 2333 = { "Shileh" "Shileh" }
