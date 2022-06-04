@@ -1305,6 +1305,10 @@
  transitional_government_reform_desc:0 "A transitional government fulfills administrative duties in a society in transition, often a nation recently independent from a foreign power, or a nation in the throws of a revolution. While this government may be all that stands between the country and pure anarchy, it is rarely much better than anarchy. Warlords and oligarchs vie for positions of power in the new society, patriots and revolutionaries scheme to take the country in a new direction, while loyalists and conservatives try to return the country to its former structure. Thankfully, this chaos most often proves very temporary, as one faction or another usually wins out within a few years and the nation returns to a more stable form of government."
  improved_veche_republic:0 "Reformed Veche Republic"
  improved_veche_republic_desc:0 "This state is governed by a Veche, a council with the highest legislative and juidicial authority. This Veche council has been reformed and improved to account for more efficient administration of large realm."
+ late_byzantine_gov_reform:0 "Late Byzantine Autocracy"
+ late_byzantine_gov_reform_desc:0 "Late Byzantine Autocracy represents government in the final period of Byzantine Empire. Decadent and inefficient, a mere shadow of former imperial glory of early medieval era. Despite its weaknesses, imperial court still holds enough splendor to maintain its authority over controlled lands and introduction of late european administration has helped building diplomacy despite weakening the authority of the emperor."
+ crusader_state_vu_reform:0 "Crusader State"
+ crusader_state_vu_reform_desc:0 "Crusader State is remnant of crusade era where western european powers established various catholic states in Greece, Anatolia and Levant. This government is heavily-oriented on religious matters and figting heathens in the region. While crusader state offers bonuses to fighting enemies and diplomacy with western states, it is rather unefficient at managing the internal realm."
 
 
 
