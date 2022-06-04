@@ -248,3 +248,174 @@ country_event = { # Orhan Celebi
 		add_treasury = 50
 	}
 }
+
+country_event = { # Turks capture Theodosian Walls
+	id = vu_fall_of_rome.5
+	title = vu_fall_of_rome.5.t
+	desc = vu_fall_of_rome.5.d
+	picture = SIEGE_eventPicture
+	
+	fire_only_once = yes
+	
+	goto = 7137
+	
+	major = yes
+	
+	trigger = {
+		tag = BYZ
+		exists = TUR
+		is_at_war = yes
+		151 = { owned_by = BYZ }
+		7137 = { owned_by = BYZ }
+		NOT = { is_year = 1490 }
+		at_war_with_religious_enemy = yes
+		NOT = { 7137 = { controlled_by = ROOT }	}
+	}
+	
+	option = { # rip
+		name = vu_fall_of_rome.5.a
+		BYZ = {
+			add_prestige = -20
+			add_mil_power = -10
+		}
+		7137 = {
+			add_devastation = 50
+			remove_building = fort_17th
+			remove_building = fort_16th
+			remove_building = fort_15th
+			controller = {
+				add_prestige = 10
+				add_mil_power = 20
+				add_army_tradition = 10
+				add_splendor = 25
+				add_treasury = 50
+			}
+		}
+		7137 = {
+			add_great_project_tier = {
+				type = walls_of_theodosius
+				tier = -1
+			}
+		}
+	}
+}
+
+country_event = { # Constantinople has fallen!
+	id = vu_fall_of_rome.6
+	title = vu_fall_of_rome.6.t
+	desc = vu_fall_of_rome.6.d
+	picture = SIEGE_eventPicture
+	
+	fire_only_once = yes
+	
+	goto = 151
+	
+	major = yes
+	
+	trigger = {
+		tag = TUR
+		exists = BYZ
+		is_at_war = yes
+		war_with = BYZ
+		151 = { controlled_by = TUR }
+		7137 = { controlled_by = TUR }
+	}
+	
+	option = { # We got what we needed
+		name = vu_fall_of_rome.6.a
+		ai_chance = { factor = 80 } #AI like historical path
+		highlight = yes
+		white_peace = BYZ
+		add_prestige = 25
+		add_legitimacy = 20
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		add_treasury = 500
+		add_army_tradition = 20
+		if = {
+			limit = { 151 = { owned_by = BYZ } }
+			151 = { cede_province = ROOT }
+		}
+		if = {
+			limit = { 7137 = { owned_by = BYZ } }
+			7137 = { cede_province = ROOT }
+		}
+		if = { #If Galata somehow ends up under BYZ
+			limit = { 6932 = { owned_by = BYZ } }
+			6932 = { cede_province = ROOT }
+		}
+		if = {
+			limit = { 6931 = { owned_by = BYZ } }
+			6931 = { 
+				cede_province = ROOT 
+				add_core = ROOT
+			}
+		}
+		if = {
+			limit = { 7138 = { owned_by = BYZ } }
+			7138 = { 
+				cede_province = ROOT 
+				add_core = ROOT
+			}
+		}
+		if = {
+			limit = { 7139 = { owned_by = BYZ } }
+			7139 = { 
+				cede_province = ROOT 
+				add_core = ROOT
+			}
+		}
+		if = {
+			limit = { 1764 = { owned_by = BYZ } }
+			1764 = { 
+				cede_province = ROOT 
+				add_core = ROOT
+			}
+		}
+		BYZ = {
+			add_stability = -1
+			add_prestige = -50
+			add_legitimacy = -50
+			add_war_exhaustion = 10
+			add_patriarch_authority = -1
+		}
+		set_global_flag = TUR_captured_constantinople
+	}
+	option = { # The war goes on, loot the city
+		name = vu_fall_of_rome.6.b
+		ai_chance = { factor = 15 }
+		add_prestige = 20
+		add_legitimacy = 20
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		add_treasury = 800
+		add_manpower = 5
+		151 = { add_devastation = 50 }
+		BYZ = {
+			add_stability = -1
+			add_prestige = -50
+			add_legitimacy = -50
+			add_war_exhaustion = 10
+			add_patriarch_authority = -1
+		}
+	}
+	option = { # The war goes on, spare the city
+		name = vu_fall_of_rome.6.c
+		ai_chance = { factor = 5 }
+		add_prestige = 20
+		add_legitimacy = 20
+		add_adm_power = 25
+		add_dip_power = 50
+		add_mil_power = 25
+		add_army_tradition = 10
+		BYZ = {
+			add_stability = -1
+			add_prestige = -50
+			add_legitimacy = -50
+			add_war_exhaustion = 10
+			add_patriarch_authority = -1
+		}
+	}
+}
