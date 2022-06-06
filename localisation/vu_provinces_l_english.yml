@@ -3664,7 +3664,7 @@
  PROV6368:0 "Lake Tuz"
  PROV6369:0 "Lake Beysehir"
  PROV6370:0 "Lake Aksehir"
- PROV6371:0 "Lake Eber"
+ PROV6371:0 "Central Anatolian Ranges"
  PROV6372:0 "Lake Karamik"
  PROV6373:0 "Lake Egirdir"
  PROV6374:0 "Lake Karatas"
@@ -4505,7 +4505,8 @@
  PROV7132:0 "Thesprotia"
  PROV7133:0 "Metzovon"          #Or Pindos, Pindus, or other.
  PROV7134:0 "Ainos"
- #PROV7135:0 "Gallipoli"
+ PROV7135:0 "Gökirmak"
+ PROV_ADJ7135:0 "Gökirmaki"
  PROV7136:0 "Rhaedestus"
  PROV7137:0 "Selymbria"
  PROV7138:0 "Bizye"

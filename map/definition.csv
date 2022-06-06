@@ -6369,7 +6369,7 @@ province;red;green;blue;x;x
 6368;117;161;211;Lake_Tuz;
 6369;40;88;149;Lake_Beysehir;
 6370;27;159;190;Lake_Aksehir;
-6371;22;175;226;Lake_Eber;
+6371;22;175;226;CentralAnatolianMountains;
 6372;127;165;230;Lake_Karamik;
 6373;59;102;201;Lake_Egirdir;
 6374;98;111;222;Lake_Karatas;
@@ -7133,7 +7133,7 @@ province;red;green;blue;x;x
 7132;200;200;152;Thesprotia;
 7133;200;200;232;Metsovo;
 7134;200;200;27;Ainos;
-7135;200;200;102;Gallipoli;
+7135;200;200;102;Gokirmak;
 7136;200;200;177;Rhaidestos;
 7137;200;200;52;Selymbria;
 7138;200;200;127;Bizye;
