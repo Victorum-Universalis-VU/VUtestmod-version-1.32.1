@@ -9599,8 +9599,16 @@ mausoleum_at_halicarnassus = {
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		religion = pantheism
+		#religion = pantheism #pantheism isn't used at this point
 		has_owner_religion = yes
+		OR = {
+			religion_group = pagan
+			culture_group = byzantine
+			AND = {
+				culture_group = iranian
+				religion_group = zoroastrian_group
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -12836,7 +12844,7 @@ dutch_polders = {
 	type = monument
 
 	build_trigger = {
-	    culture_group = dutch
+	    culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
