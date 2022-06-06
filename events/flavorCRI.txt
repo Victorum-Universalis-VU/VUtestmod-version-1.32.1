@@ -37,7 +37,7 @@ country_event = {
 		name = "flavor_cri.1.a" #We must seek Ottoman Protection!
 		trigger = { NOT = { war_with = TUR } } #Will never be an option if you're at war with TUR.
 		ai_chance = {
-			factor = 35
+			factor = 65
 			modifier = {
 				factor = 1.5
 				TUR = {
@@ -145,7 +145,7 @@ country_event = {
 	option = {
 		name = "flavor_cri.1.b" #We will be better of without Ottoman involvement.
 		ai_chance = {
-			factor = 65
+			factor = 35
 			modifier = {
 				factor = 1.5
 				TUR = {

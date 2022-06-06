@@ -885,6 +885,7 @@
 7130 = "Evros"
 7132 = { "Thesprotia" "Igoumenitsa" }
 7133 = "East Ioannia"
+7135 = { "Zalikia" "Zalikus" }
 7136 = { "Rhaedestus" "Rodosto" }
 7137 = { "Theodosion" "Western Districts" }
 7139 = "Sozopolis"
