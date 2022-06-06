@@ -675,7 +675,7 @@ USA_missions_4 = {
 		trigger = { 
 			susquehanna_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 			iroquoisia_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
-			ohio_country_area { owned_by = ROOT is_city = yes is_state = yes type = all }
+			ohio_country_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 		}
 		effect = {
 			susquehanna_area = {
