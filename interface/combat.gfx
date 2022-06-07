@@ -1634,6 +1634,10 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_rivne"
         texturefile = "gfx/interface/rivne.dds"
     }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_aland"
+        texturefile = "gfx/interface/aland.dds"
+    }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_kremenets"
         texturefile = "gfx/interface/kremenets.dds"
@@ -1917,6 +1921,10 @@ spriteTypes = {
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_adana"
         texturefile = "gfx/interface/adana.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_hakkari"
+        texturefile = "gfx/interface/hakkari.dds"
     }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_tblisi"
@@ -5382,373 +5390,377 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_potosi"
         texturefile = "gfx/interface/potosi.dds"
     }
-        spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ait_benhaddou"
         texturefile = "gfx/interface/ait_benhaddou.dds"
     }
-            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ravenna"
         texturefile = "gfx/interface/ravenna.dds"
     }
-                spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_carpegna"
         texturefile = "gfx/interface/carpegna.dds"
     }
-                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_takamatsu"
         texturefile = "gfx/interface/takamatsu.dds"
     }
-                        spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_greifenberg"
         texturefile = "gfx/interface/greifenberg.dds"
     }
-                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_tula"
         texturefile = "gfx/interface/tula.dds"
     }
-                                spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_tabor"
         texturefile = "gfx/interface/tabor.dds"
     }
-                                spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_usedom"
         texturefile = "gfx/interface/usedom.dds"
     }
-                                spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_neidenburg"
         texturefile = "gfx/interface/neidenburg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ortelsburg"
         texturefile = "gfx/interface/ortelsburg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_mitau"
         texturefile = "gfx/interface/mitau.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_conamara"
         texturefile = "gfx/interface/conamara.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kalisz"
         texturefile = "gfx/interface/kalisz.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_laibach"
         texturefile = "gfx/interface/laibach.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_samara"
         texturefile = "gfx/interface/samara.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_helsingborg"
         texturefile = "gfx/interface/helsingborg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_vasteras"
         texturefile = "gfx/interface/vasteras.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_przemysl"
         texturefile = "gfx/interface/przemysl.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_romny"
         texturefile = "gfx/interface/romny.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kursk"
         texturefile = "gfx/interface/kursk.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_auswintz"
         texturefile = "gfx/interface/auswintz.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_arnswalde"
         texturefile = "gfx/interface/arnswalde.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kulm"
         texturefile = "gfx/interface/kulm.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lyck"
         texturefile = "gfx/interface/lyck.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_marienwerder"
         texturefile = "gfx/interface/marienwerder.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_osterode"
         texturefile = "gfx/interface/osterode.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_locknitz"
         texturefile = "gfx/interface/locknitz.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ribe"
         texturefile = "gfx/interface/ribe.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_znojmo"
         texturefile = "gfx/interface/znojmo.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_nysa"
         texturefile = "gfx/interface/nysa.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_berent"
         texturefile = "gfx/interface/berent.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_stargrad"
         texturefile = "gfx/interface/stargrad.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_stolp"
         texturefile = "gfx/interface/stolp.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_narwa"
         texturefile = "gfx/interface/narwa.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_viborg"
         texturefile = "gfx/interface/viborg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_landsberg"
         texturefile = "gfx/interface/landsberg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_uppland"
         texturefile = "gfx/interface/uppland.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_cieszyn"
         texturefile = "gfx/interface/cieszyn.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kalmar"
         texturefile = "gfx/interface/kalmar.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_merian"
         texturefile = "gfx/interface/merian.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_rhein"
         texturefile = "gfx/interface/rhein.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_insterburg"
         texturefile = "gfx/interface/insterburg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_tapiau"
         texturefile = "gfx/interface/tapiau.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_sandomierz"
         texturefile = "gfx/interface/sandomierz.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_celje"
         texturefile = "gfx/interface/celje.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lolland"
         texturefile = "gfx/interface/lolland.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_piotrkow"
         texturefile = "gfx/interface/piotrkow.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_opava"
         texturefile = "gfx/interface/opava.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_gorlitz"
         texturefile = "gfx/interface/gorlitz.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_weimar"
         texturefile = "gfx/interface/weimar.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ciudad_obregon"
         texturefile = "gfx/interface/ciudad_obregon.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_opole"
         texturefile = "gfx/interface/opole.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lauenburg_holstein"
         texturefile = "gfx/interface/lauenburg_holstein.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lauenburg_pommern"
         texturefile = "gfx/interface/lauenburg_pommern.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_drogheda"
         texturefile = "gfx/interface/drogheda.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_staraya"
         texturefile = "gfx/interface/staraya.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_parnu"
         texturefile = "gfx/interface/parnu.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_falun"
         texturefile = "gfx/interface/falun.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_porvoo"
         texturefile = "gfx/interface/porvoo.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_pyritz"
         texturefile = "gfx/interface/pyritz.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_uglich"
         texturefile = "gfx/interface/uglich.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_vyazma"
         texturefile = "gfx/interface/vyazma.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_vyatka"
         texturefile = "gfx/interface/vyatka.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kolberg"
         texturefile = "gfx/interface/kolberg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_dramburg"
         texturefile = "gfx/interface/dramburg.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kargopol"
         texturefile = "gfx/interface/kargopol.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ermland"
         texturefile = "gfx/interface/ermland.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_radom"
         texturefile = "gfx/interface/radom.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lukow"
         texturefile = "gfx/interface/lukow.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_szczebrzeszyn"
         texturefile = "gfx/interface/szczebrzeszyn.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_schlawe"
         texturefile = "gfx/interface/schlawe.dds"
     }
-                                    spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_butow"
         texturefile = "gfx/interface/butow.dds"
     }
-                                        spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lulea"
         texturefile = "gfx/interface/lulea.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_luster"
         texturefile = "gfx/interface/luster.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_lofoten"
         texturefile = "gfx/interface/lofoten.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_gniezno"
         texturefile = "gfx/interface/gniezno.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_goslar"
         texturefile = "gfx/interface/goslar.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_rothenburg"
         texturefile = "gfx/interface/rothenburg.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_san_gimignano"
         texturefile = "gfx/interface/san_gimignano.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_syktyvkar"
         texturefile = "gfx/interface/syktyvkar.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_roxburgh"
         texturefile = "gfx/interface/roxburgh.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_kirkwall"
         texturefile = "gfx/interface/kirkwall.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_marburg"
         texturefile = "gfx/interface/marburg.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_fredrikshald"
         texturefile = "gfx/interface/fredrikshald.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_verdun"
         texturefile = "gfx/interface/verdun.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_vaasa"
         texturefile = "gfx/interface/vaasa.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_galich"
         texturefile = "gfx/interface/galich.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_trakai"
         texturefile = "gfx/interface/trakai.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_siauliai"
         texturefile = "gfx/interface/siauliai.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_bilbao"
         texturefile = "gfx/interface/bilbao.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_mora"
         texturefile = "gfx/interface/mora.dds"
     }
-                                            spriteType = {                                                       
+    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_portland_me"
         texturefile = "gfx/interface/portland_me.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_kohlm"
+        texturefile = "gfx/interface/kohlm.dds"
     }
 	
 #############################################
@@ -5758,13 +5770,9 @@ spriteTypes = {
 		texturefile = "gfx//interface//combat_divider.tga"
 	}
 	
-	
-	
 	spriteType = {
 		name = "GFX_combat_modifier_small_strip"	
 		texturefile = "gfx\\interface\\combat_modifier_small_strip.dds"
 		noOfFrames = 5
 	}
-
-
 }

@@ -17,6 +17,7 @@ native_hostileness = 3
 
 1493.1.1 = { discovered_by = CAS } # Christopher Columbus, claimed the island for Spain, but never showed much interest
 1516.1.23 = { discovered_by = SPA }
+1648.1.1 = { discovered_by = FRA } #French settle the island
 1650.1.1 = {
 	owner = KNI
 	controller = KNI
@@ -27,7 +28,7 @@ native_hostileness = 3
 	capital = "Saint Barthélemy"
 	trade_goods = cocoa
 } # Very problematic settlement by Jacques Gentes, despite great resistance from the Caribs, under the authority of French Hospitaller De Poincy
-1664.1.1 = {
+1673.6.1 = {
 	owner = FRA
 	controller = FRA
 	add_core = FRA
@@ -40,3 +41,10 @@ native_hostileness = 3
 	remove_core = FRA
 	capital = "Gustavia"
 } # French trade the island to Sweden
+1878.1.1 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = SWE
+	capital = "Saint Barthélemy"
+} #Sold to France again

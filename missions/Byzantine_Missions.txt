@@ -8,7 +8,7 @@ byz_western = {
 	has_country_shield = yes
 	
 	recover_greece = {
-		icon = mission_assemble_an_army
+		icon = mission_slopes_of_olympus
 		required_missions = {  } #None
 		ai_weight = {
 			factor = 5
@@ -63,7 +63,7 @@ byz_western = {
 	}
 	
 	recover_macedon = { #Recover Macedonia
-		icon = mission_unite_home_region
+		icon = mission_when_in_pella
 		required_missions = { recover_greece }
 		position = 4
 		provinces_to_highlight = {
@@ -115,7 +115,7 @@ byz_western = {
 		}
 	}
 	recover_central_greece = { #Recover Thessaly & Epirus
-		icon = mission_unite_home_region
+		icon = mission_thessaly_and_epirus
 		required_missions = { recover_macedon }
 		position = 5
 		provinces_to_highlight = {
@@ -174,7 +174,7 @@ byz_western = {
 		}
 	}
 	recover_southern_greece = { #Recover Hellas
-		icon = mission_unite_home_region
+		icon = mission_recover_southern_greece
 		required_missions = { recover_central_greece }
 		position = 6
 		provinces_to_highlight = {
@@ -259,7 +259,7 @@ byz_western = {
 	}
 	
 	recover_south_italy = {
-		icon = mission_cannons_firing
+		icon = mission_recover_south_italy
 		required_missions = { recover_southern_greece }
 		position = 8
 		provinces_to_highlight = {
@@ -317,7 +317,7 @@ byz_western = {
 	}
 	recover_sicily = {
 	    position = 9
-		icon = mission_sea_battles
+		icon = mission_recover_sicily
 		required_missions = { recover_south_italy }
 		provinces_to_highlight = {
 			OR = {
@@ -362,7 +362,7 @@ byz_generic_slot_2 = {
 	
 	recover_rome = {
 		position = 10
-		icon = mission_early_game_buildings
+		icon = mission_recover_rome
 		required_missions = { recover_south_italy }
 		provinces_to_highlight = {
 			province_id = 118
@@ -387,7 +387,7 @@ byz_generic_slot_2 = {
 	}
 	
 	destroy_venice = {
-		icon = mission_monarch_in_throne_room
+		icon = mission_destroy_venice
 		required_missions = { recover_rome }
 		provinces_to_highlight = {
 			area = venetia_area
@@ -425,7 +425,7 @@ byz_east = {
 	has_country_shield = yes
 	
 	recover_the_coast_of_asia_minor = {
-		icon = mission_galleys_in_port
+		icon = mission_anatolian_coast
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -742,7 +742,7 @@ byz_generic_slot_5 = {
 	}
 	
 	the_pentarchy = {
-		icon = mission_empire
+		icon = mission_the_pentarchy
 		position = 7
 		required_missions = {
 			recover_rome

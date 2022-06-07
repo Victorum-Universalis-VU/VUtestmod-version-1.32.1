@@ -32,7 +32,7 @@
  gen_north_india_powerful_subject.tooltip:0 "Any non-tributary subject country has at least §Y100§! total Development and less than §Y50§! Liberty Desire"
  #Province adjustments
  PROV8102:1 "Estremoz"
- PROV7737:1 "Varazdin"
+ #PROV7737:1 "Varazdin"     #Remove this, already localized
  PROV4241:1 "Lemsal"
  PROV3230:1 "Alt-Pernau"
  PROV7803:1 "Jyväskylä"

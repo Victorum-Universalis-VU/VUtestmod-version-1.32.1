@@ -273,8 +273,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 	
@@ -317,8 +319,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		is_at_war = no
 	}
@@ -367,8 +371,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		is_at_war = no
 	}
@@ -414,8 +420,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		is_at_war = no
 	}
@@ -475,8 +483,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		religion = catholic
 		is_female = no
@@ -533,8 +543,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -579,8 +591,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -630,8 +644,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		owns = 246		# Northumberland
 	}
@@ -667,96 +683,215 @@ country_event = {
 
 # Bloody Mary and King Felipé of England
 country_event = {
-	id = flavor_eng.9114
-	title = "flavor_eng.EVTNAME9114"
-	desc = "flavor_eng.EVTDESC9114"
-	picture = COURT_eventPicture
+    id = flavor_eng.9114
+    title = "flavor_eng.EVTNAME9114"
+    desc = "flavor_eng.EVTDESC9114"
+    picture = COURT_eventPicture
 
-	fire_only_once = yes
-	
-	trigger = {
-		is_year = 1500
-		NOT = {
-			is_year = 1600
-		}
+    fire_only_once = yes
+    
+    trigger = {
+        is_year = 1500
+        NOT = { is_year = 1600 }
 		OR = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
-		OR = {
-			religion = protestant
-			religion = anglican
+        OR = {
+            religion = protestant
+            religion = anglican
+        }
+        OR = {
+            AND = { 
+				exists = SPA
+				OR = {
+					marriage_with = SPA
+					junior_union_with = SPA
+				}
+				SPA = { religion = catholic }
+			}
+            AND = { 
+				exists = BSP
+				OR = {
+					marriage_with = BSP
+					junior_union_with = BSP
+				}
+				BSP = { religion = catholic }
+			}
+            AND = { 
+				exists = SPB
+				OR = {
+					marriage_with = SPB
+					junior_union_with = SPB
+				}
+				SPB = { religion = catholic }
+			}
+            AND = { 
+				exists = BBS
+				OR = {
+					marriage_with = BBS
+					junior_union_with = BBS
+				}
+				BBS = { religion = catholic }
+			}
+            AND = { 
+				exists = CSP
+				OR = {
+					marriage_with = CSP
+					junior_union_with = CSP
+				}
+				CSP = { religion = catholic }
+			}			
 		}
-		OR = {
-			marriage_with = SPA
-			junior_union_with = SPA
-		}
-		SPA = {
-			religion = catholic
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 600
-		modifier = {
-			factor = 0.1
-			junior_union_with = SPA
-		}
-	}
-	
-	option = {			# Reinstate Papal power over Church of England
-		name = "flavor_eng.EVTOPTA9114"
-		ai_chance = { 
-			factor = 15
+    }
+    
+    mean_time_to_happen = {
+        months = 600
+        modifier = {
+            factor = 0.1
+            junior_union_with = SPA        
+        }
+        modifier = {
+            factor = 0.1
+            junior_union_with = BSP        
+        }
+        modifier = {
+            factor = 0.1
+            junior_union_with = SPB        
+        }
+        modifier = {
+            factor = 0.1
+            junior_union_with = BBS        
+        }
+        modifier = {
+            factor = 0.1
+            junior_union_with = CSP        
+        }		
+    }
+    
+    option = {            # Reinstate Papal power over Church of England
+        name = "flavor_eng.EVTOPTA9114"
+        ai_chance = { 
+            factor = 15
+            modifier = {
+                factor = 20
+                junior_union_with = SPA
+            }
+            modifier = {
+                factor = 20
+                junior_union_with = BSP
+            }
 			modifier = {
-				factor = 20
-				junior_union_with = SPA
-			}
-		}
-		change_religion = catholic
-		SPA = {
-			add_opinion = {
-				who = ROOT
-				modifier = accepted_supremacy_of_rome
-			}
-		}
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = accepted_supremacy_of_rome
-			}
-		}
-		add_stability = -3
-		add_country_modifier = {
-			name = the_heresy_act
-			duration = 3650
-		}
-	}
-	option = {			# Confirm religious freedom for all
-		name = "flavor_eng.EVTOPTB9114"
-		ai_chance = { factor = 85 }
-		SPA = {
-			add_opinion = {
-				who = ROOT
-				modifier = eng_tolerates_religious_freedom
-				years = 10
-			}
-		}
-		PAP = {
-			add_opinion = {
-				who = ROOT
-				modifier = eng_tolerates_religious_freedom
-			}
-		}
-		add_stability_or_adm_power = yes
-		add_country_modifier = {
-			name = religious_freedom_act
-			duration = 3650
-		}
-	}
+                factor = 20
+                junior_union_with = SPB
+            }            
+			modifier = {
+                factor = 20
+                junior_union_with = BBS
+            }
+			modifier = {
+                factor = 20
+                junior_union_with = CSP
+            }
+        }
+        change_religion = catholic
+        SPA = {
+            add_opinion = {
+                who = ROOT
+                modifier = accepted_supremacy_of_rome
+            }
+        }
+        BSP = {
+            add_opinion = {
+                who = ROOT
+                modifier = accepted_supremacy_of_rome
+            }
+        }
+        SPB = {
+            add_opinion = {
+                who = ROOT
+                modifier = accepted_supremacy_of_rome
+            }
+        }
+        BBS = {
+            add_opinion = {
+                who = ROOT
+                modifier = accepted_supremacy_of_rome
+            }
+        }
+        CSP = {
+            add_opinion = {
+                who = ROOT
+                modifier = accepted_supremacy_of_rome
+            }
+        }
+        PAP = {
+            add_opinion = {
+                who = ROOT
+                modifier = accepted_supremacy_of_rome
+            }
+        }
+        add_stability = -3
+        add_country_modifier = {
+            name = the_heresy_act
+            duration = 3650
+        }
+    }
+    option = {            # Confirm religious freedom for all
+        name = "flavor_eng.EVTOPTB9114"
+        ai_chance = { factor = 85 }
+        SPA = {
+            add_opinion = {
+                who = ROOT
+                modifier = eng_tolerates_religious_freedom
+                years = 10
+            }
+        }
+        BSP = {
+            add_opinion = {
+                who = ROOT
+                modifier = eng_tolerates_religious_freedom
+                years = 10
+            }
+        }
+        SPB = {
+            add_opinion = {
+                who = ROOT
+                modifier = eng_tolerates_religious_freedom
+                years = 10
+            }
+        }
+        BBS = {
+            add_opinion = {
+                who = ROOT
+                modifier = eng_tolerates_religious_freedom
+                years = 10
+            }
+        }
+        CSP = {
+            add_opinion = {
+                who = ROOT
+                modifier = eng_tolerates_religious_freedom
+                years = 10
+            }
+        }
+        PAP = {
+            add_opinion = {
+                who = ROOT
+                modifier = eng_tolerates_religious_freedom
+            }
+        }
+        add_stability_or_adm_power = yes
+        add_country_modifier = {
+            name = religious_freedom_act
+            duration = 3650
+        }
+    }
 }
 
 # The Muscovy Trade Company
@@ -773,8 +908,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		is_year = 1540
 		NOT = {
@@ -831,8 +968,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		NOT = { advisor_exists = 236 }
 		OR = {
@@ -893,8 +1032,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		owns = 236		# London
 	}
@@ -948,8 +1089,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		OR = {
 			owns = 246		# Northumberland
@@ -1120,8 +1263,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		owns = 236		# London
 	}
@@ -1163,8 +1308,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -1209,8 +1356,10 @@ country_event = { #BT NOTE: Needs to be adapted to BT's Ireland viceroyalty some
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		OR = {
 			religion = protestant
@@ -1282,8 +1431,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		government = monarchy
 	}
@@ -1390,8 +1541,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		government = monarchy
 		has_country_flag = refusal_of_petition_of_rights
@@ -1493,8 +1646,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -1530,8 +1685,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		OR = {
 			religion = protestant
@@ -1585,8 +1742,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -1622,8 +1781,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		NOT = { dynasty = Stuart }
 	}
@@ -1736,8 +1897,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		NOT = { advisor_exists = 284 }
 		OR = {
@@ -1801,11 +1964,33 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
-		exists = SPA
-		is_rival = SPA
+		OR = {
+            AND = {
+			    exists = SPA
+			    is_rival = SPA
+			}
+			AND = {
+			    exists = BSP
+			    is_rival = BSP
+			}
+			AND = {
+			    exists = SPB
+			    is_rival = SPB
+			}
+			AND = {
+			    exists = BBS
+			    is_rival = BBS
+			}
+			AND = {
+			    exists = CSP
+			    is_rival = CSP
+			}	
+		}
 	}
 
 	mean_time_to_happen = {
@@ -1816,19 +2001,88 @@ country_event = {
 		name = "flavor_eng.EVTOPTA9141"
 		ai_chance = { factor = 75 }
 		add_stability_or_adm_power = yes
-		add_casus_belli = {	
-			target = SPA
-			type = cb_insult
-			months = 24
-		}
-		SPA = {
-			add_opinion = {
-				who = ROOT
-				modifier = eng_captain_jenkins_incident
+		if = {
+		    limit = {
+			    exists = SPA
 			}
-		}
+		    SPA = {
+                add_opinion = {
+                    who = ROOT
+                    modifier = eng_captain_jenkins_incident
+                }
+	        }
+			add_casus_belli = {    
+                target = SPA
+                type = cb_insult
+                months = 24
+			}
+        }
+		if = {
+		    limit = {
+			    exists = BSP
+			}
+		    BSP = {
+                add_opinion = {
+                    who = ROOT
+                    modifier = eng_captain_jenkins_incident
+                }
+	        }
+			add_casus_belli = {    
+                target = BSP
+                type = cb_insult
+                months = 24
+			}
+        }
+		if = {
+		    limit = {
+			    exists = SPB
+			}
+		    SPB = {
+                add_opinion = {
+                    who = ROOT
+                    modifier = eng_captain_jenkins_incident
+                }
+	        }
+			add_casus_belli = {    
+                target = SPB
+                type = cb_insult
+                months = 24
+			}
+        }
+		if = {
+		    limit = {
+			    exists = BBS
+			}
+		    BBS = {
+                add_opinion = {
+                    who = ROOT
+                    modifier = eng_captain_jenkins_incident
+                }
+	        }
+			add_casus_belli = {    
+                target = BBS
+                type = cb_insult
+                months = 24
+			}
+        }
+		if = {
+		    limit = {
+			    exists = CSP
+			}
+		    CSP = {
+                add_opinion = {
+                    who = ROOT
+                    modifier = eng_captain_jenkins_incident
+                }
+	        }
+			add_casus_belli = {    
+                target = CSP
+                type = cb_insult
+                months = 24
+			}
+        }
 	}
-	option = {			# Try not to severe our relation too much
+	option = { # Try not to severe our relation too much
 		name = "flavor_eng.EVTOPTB9141"
 		ai_chance = { factor = 25 }
 		add_prestige = -10
@@ -1850,8 +2104,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		NOT = { dynasty = Stuart }
 	}
@@ -1965,8 +2221,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		NOT = { advisor_exists = 293 }
 		owns = 236		# London
@@ -2023,8 +2281,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		NOT = { advisor_exists = 315 }
 		OR = {
@@ -2088,8 +2348,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		is_at_war = no
 		exists = POR
@@ -2105,6 +2367,13 @@ country_event = {
 				tag = GBR
 				british_isles_region = {
 					owned_by = GBR
+					has_port = yes
+				}
+			}
+			AND = {
+				tag = UNK
+				british_isles_region = {
+					owned_by = UNK
 					has_port = yes
 				}
 			}
@@ -2162,8 +2431,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 		OR = {
 			religion = protestant
@@ -2290,8 +2561,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -2326,7 +2599,10 @@ country_event = {
 		NOT = { is_year = 1790 }
 		OR = {
 			AND = {
-				tag = GBR
+			    OR = {
+				    tag = GBR
+					tag = UNK
+				}
 				NOT = { exists = SCO }
 			}
 			tag = SCO
@@ -2368,7 +2644,10 @@ country_event = {
 		NOT = { is_year = 1776 }
 		OR = {
 			AND = {
-				tag = GBR
+			    OR = {
+				    tag = GBR
+					tag = UNK
+				}
 				NOT = { exists = SCO }
 			}
 			tag = SCO
@@ -2412,8 +2691,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 	
@@ -2454,8 +2735,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -2491,8 +2774,10 @@ country_event = {
 			AND = {
 				tag = ENG
 				NOT = { exists = GBR }
+				NOT = { exists = UNK }
 			}
 			tag = GBR
+			tag = UNK
 		}
 	}
 
@@ -3228,6 +3513,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { exists = GBR }
+		NOT = { exists = UNK }
 		OR = {
 			AND = {
 				tag = ENG
@@ -3597,15 +3883,23 @@ country_event = {
 	trigger = { #The Great Game begins on Jan 12, 1830 upon Lord William Bentinck (Governor-General) being tasked by Lord Ellenborough (President of the Board of Control for India) to establish a new trade route to the Emirate of Bukhara.
 		OR = {
 			AND = {
-				tag = GBR
+			    OR = {
+				    tag = GBR
+					tag = UNK
+				}
 				is_year = 1830
 				NOT = { is_year = 1840 }
 				NOT = { khorasan_region = { owned_by = RUS } }
-				NOT = {	khorasan_region = { owned_by = GBR } }
-				RUS = {	NOT = { war_with = GBR } }
-				RUS = {	NOT = { is_subject_of = GBR } }
+				NOT = { khorasan_region = { owned_by = TZR } }
+				NOT = {	khorasan_region = { owned_by = ROOT } }
+				RUS = {	NOT = { war_with = ROOT } }
+				RUS = {	NOT = { is_subject_of = ROOT } }
+				TZR = {	NOT = { war_with = ROOT } }
+				TZR = {	NOT = { is_subject_of = ROOT } }
 				NOT = { war_with = RUS }
+				NOT = { war_with = TZR }
 				NOT = { is_subject_of = RUS }
+				NOT = { is_subject_of = TZR }
 			}
 		}
 	}
@@ -3619,34 +3913,50 @@ country_event = {
 			if = {
 				limit = {
 					exists = RUS
-					NOT = { exists = GBR }
+					NOT = { exists = ROOT }
 					NOT = { has_global_flag = eng_had_start_of_the_great_game }
 				}
 				RUS = { country_event = { id = flavor_eng.106 days = 1 } }
 			}
-			if = {
+			else_if = {
 				limit = {
-					exists = GBR
+					exists = TZR
+					NOT = { exists = ROOT }
 					NOT = { has_global_flag = eng_had_start_of_the_great_game }
 				}
-				GBR = { country_event = { id = flavor_eng.106 days = 1 } }
+				TZR = { country_event = { id = flavor_eng.106 days = 1 } }
+			}
+			else_if = {
+				limit = {
+					exists = ROOT
+					NOT = { has_global_flag = eng_had_start_of_the_great_game }
+				}
+				ROOT = { country_event = { id = flavor_eng.106 days = 1 } }
 			}
 		}
 	}
 
 	option = { # Let the game begin!
-		name = "flavor_eng.106.a"
-		add_adm_power = 200
-		if = {
-			limit = {
-				exists = RUS
-				RUS = { is_subject = no }
-			}
-		}
-		else = {
-			great_game_provinces = { add_claim = GBR add_claim = RUS }
-		}
-	}
+        name = "flavor_eng.106.a"
+        add_adm_power = 200
+        if = {
+            limit = {
+                exists = RUS
+                RUS = { is_subject = no }
+            }
+            great_game_provinces = { add_claim = RUS }
+        }
+        else_if = {
+            limit = {
+                exists = TZR
+                TZR = { is_subject = no }
+            }
+            great_game_provinces = { add_claim = TZR }
+        }
+        else = {
+            great_game_provinces = { add_claim = ROOT }
+        }
+    }
 	
 	option = { # Bukha..what?
         name = "flavor_eng.106.b"

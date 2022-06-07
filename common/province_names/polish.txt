@@ -106,7 +106,7 @@
 279 = "Wolyn"
 280 = "Kijów"
 281 = { "Podole" "Kamieniec Podolski" }
-282 = "Oczków"
+282 = { "Oczków" "Odessa" }
 283 = "Zaporoze"
 284 = "Krym"
 285 = { "Kaffa" "Teodozja" }
@@ -305,6 +305,7 @@
 4122 = "Szenkursk"
 4128 = "Braszów"
 4129 = "Stary Perm"
+4140 = { "Oczaków" "Oczków" }
 4141 = "Burg"
 4142 = "Arhus"
 4147 = "Rostów"
@@ -408,6 +409,7 @@
 6928 = { "Arsenal" "Bastylia" }
 6975 = "Kreml"
 6976 = "Watykan"
+7010 = "Bucegia"
 7091 = "Tolomin"
 7125 = "Leukada"
 7126 = "Zakintos"

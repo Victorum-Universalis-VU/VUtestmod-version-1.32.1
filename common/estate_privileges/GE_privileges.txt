@@ -6,7 +6,6 @@ estate_peasants_land_rights = {
 	loyalty = 0.05
 	influence = 0.10
 	can_select = {
-		has_peasants_privilege_space = yes
 	}
 	on_granted = {
 	}
@@ -27,7 +26,6 @@ estate_peasants_guild_assembly = {
 	loyalty = 0.05
 	influence = 0.15
 	can_select = {
-		has_peasants_privilege_space = yes
 	}
 	modifier_by_land_ownership = {
 		global_trade_goods_size_modifier = 0.20
@@ -48,7 +46,6 @@ estate_peasants_manpower_drive = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_peasants_privilege_space = yes
 	}
 	modifier_by_land_ownership = {
 		global_manpower_modifier = 0.25
@@ -70,7 +67,6 @@ estate_peasants_voting_rights = {
 	loyalty = 0.10
 	influence = 0.10
 	can_select = {
-		has_peasants_privilege_space = yes
 		government = republic
 	}
 	penalties = {
@@ -92,7 +88,6 @@ estate_peasants_conscription = {
 	is_valid = {
 	}
 	can_select = {
-		has_peasants_privilege_space = yes
 	}
 	on_granted = {
 		add_yearly_manpower = 4
@@ -125,7 +120,6 @@ estate_peasants_fight_the_elite = {
 	loyalty = 0.05
 	max_absolutism = -5
 	can_select = {
-		has_peasants_privilege_space = yes
 		government = republic
 	}
 	on_granted = {
@@ -160,7 +154,6 @@ estate_peasants_bear_arms = {
 		has_government_attribute = enables_bear_arms
 	}
 	can_select = {
-		has_peasants_privilege_space = yes
 		has_government_attribute = enables_bear_arms
 	}
 	modifier_by_land_ownership = {
@@ -201,7 +194,6 @@ estate_ghulams_land_rights = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_ghulam_privilege_space = yes
 	}
 	on_granted = {
 	}
@@ -221,7 +213,6 @@ estate_ghulams_loyalty_privilege = {
 	loyalty = 0.1
 	influence = 0.1
 	can_select = {
-		has_ghulam_privilege_space = yes
 	}
 	penalties = {
 	}
@@ -243,7 +234,6 @@ estate_ghulams_military_corps = {
 	loyalty = 0.00
 	influence = 0.05
 	can_select = {
-		has_ghulam_privilege_space = yes
 	}
 	is_valid = {
 		has_government_attribute = enables_fire_ghulams
@@ -286,7 +276,6 @@ estate_ghulams_governor_positions = {
 		has_government_attribute = enables_ghulam_governors
 	}
 	can_select = {
-		has_ghulam_privilege_space = yes
 		has_government_attribute = enables_ghulam_governors
 	}
 	penalties = {
@@ -313,7 +302,6 @@ estate_ghulams_trade_privileges = {
 	loyalty = 0.05
 	influence = 0.05
 	can_select = {
-		has_ghulam_privilege_space = yes
 	}
 	is_valid = {
 	}
@@ -344,7 +332,6 @@ estate_ghulams_councilor = {
 	is_valid = {
 	}
 	can_select = {
-		has_ghulam_privilege_space = yes
 	}
 	penalties = {
 		stability_cost_modifier = 0.15
@@ -376,7 +363,6 @@ estate_nobles_diplomatic_privilege = {
 	}
 	can_select = {
 		has_government_attribute = enables_noble_diplomats
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_diplomatic_privileges_tooltip
@@ -426,7 +412,6 @@ estate_nobles_magnate_law_privilege = {
 	}
 	can_select = {
 		has_government_attribute = enables_magnate_law
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 	}
@@ -465,7 +450,6 @@ estate_nobles_timariot_privilege = {
 	}
 	can_select = {
 		has_government_attribute = enables_timariots
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		change_estate_land_share = {
@@ -523,7 +507,6 @@ estate_nobles_noble_officer_privilege = {
 	}
 	can_select = {
 		has_government_attribute = enables_veteran_general
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = noble_officer_privilege_tooltip
@@ -605,7 +588,6 @@ estate_nobles_grand_captain_privilege = {
 	}
 	can_select = {
 		has_government_attribute = enables_grand_captain
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = "GE_Grand_Captains_tt"
@@ -647,7 +629,6 @@ estate_nobles_call_cortez = {
 	}
 	can_select = {
 		has_government_attribute = enables_cortes
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		country_event = { id = reform_me_events.1 }
@@ -681,7 +662,6 @@ estate_nobles_white_knights = {
 	}
 	can_select = {
 		has_government_attribute = enables_white_knights
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_white_knights
@@ -735,7 +715,6 @@ estate_nobles_imperial_court = {
 			has_country_flag = GE_HRE_Imperial_Court
 			tag = ANS
 		}
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_HRE_Imperial_Court_Tooltip
@@ -782,7 +761,6 @@ estate_nobles_imperial_marshall = {
 			has_country_flag = GE_HRE_Imperial_Marshall
 			tag = ANS
 		}
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_HRE_Imperial_Marshal_Tooltip
@@ -827,7 +805,6 @@ estate_nobles_kreditwerk_appointment = {
 	}
 	can_select = {
 		has_government_attribute = enables_kreditwerk_appointments
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 	}
@@ -869,7 +846,6 @@ estate_nobles_blood_tax = {
 	}
 	can_select = {
 		has_government_attribute = enables_blood_tax
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_blood_tax
@@ -1033,7 +1009,6 @@ estate_nobles_anatolian_theme = {
 	}
 	can_select = {
 		has_country_flag = GE_restore_the_themes
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_anatolian_theme
@@ -1109,7 +1084,6 @@ estate_nobles_establish_serfdom = {
 	}
 	can_select = {
 		has_government_attribute = enables_serfdom
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 	}
@@ -1145,7 +1119,6 @@ estate_nobles_berber_guides = {
 	}
 	can_select = {
 		has_government_attribute = enables_berber_guides
-		has_noble_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_Berber_Guides
@@ -1184,7 +1157,6 @@ estate_nobles_elite_guards = {
 	loyalty = 0.00
 	influence = 0.05
 	can_select = {
-		has_noble_privilege_space = yes
 	}
 	is_valid = {
 		has_government_attribute = enables_elite_regiments
@@ -1383,7 +1355,6 @@ estate_burghers_town_rights = {
 	}
 	can_select = {
 		has_government_attribute = enables_town_rights
-		has_burgher_privilege_space = yes
 	}
 	modifier_by_land_ownership = {
 		development_cost = -0.25
@@ -1413,7 +1384,6 @@ estate_burghers_burgher_autonomy = {
 	}
 	can_select = {
 		has_government_attribute = enables_burgher_autonomy
-		has_burgher_privilege_space = yes
 	}
 	modifier_by_land_ownership = {
 		
@@ -1456,7 +1426,6 @@ estate_burghers_saharan_outposts = {
 	}
 	can_select = {
 		has_government_attribute = enables_saharan_outposts
-		has_burgher_privilege_space = yes
 	}
 	modifier_by_land_ownership = {
 		trade_steering = 0.5
@@ -1486,7 +1455,6 @@ estate_burghers_office_of_chancellor = {
 	}
 	can_select = {
 		has_government_attribute = enables_office_of_chancellor
-		has_burgher_privilege_space = yes
 	}
 	on_granted = {
 		custom_tooltip = GE_office_of_chancellor_tooltip
@@ -1527,7 +1495,6 @@ estate_church_four_articles_of_prague = {
 	}
 	can_select = {
 		has_government_attribute = enables_four_articles
-		has_church_privilege_space = yes
 	}
 	on_granted = {
 	}

@@ -1,4 +1,4 @@
-#4309 - Aydin
+#4309 - Tire	#was Aydin
 
 owner = TUR
 controller = TUR
@@ -6,11 +6,11 @@ add_core = TUR
 add_core = AYD
 culture = greek				#Greeks were majority around coastline back then
 religion = orthodox
-capital = "Güzelhisar"			#Former name of Aydin
-trade_goods = grain			#figs, but also grain and other agricultural products. Vanilla has 'salt #Major Ottoman Salt Work'. Look into this
+capital = "Tire"
+trade_goods = fruit
 hre = no
-base_tax = 5 #4
-base_production = 5 #4
+base_tax = 5
+base_production = 5
 base_manpower = 2
 is_city = yes
 
@@ -21,7 +21,6 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 
-#Copied from 319 for now
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war

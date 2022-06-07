@@ -298,11 +298,11 @@ development = {
 	allowed_num_of_buildings = 0.1
 	supply_limit_modifier = 0.02
 	local_missionary_strength = -0.001
-	land_forcelimit	= 0.025			# special case, affected by autonomy
-	naval_forcelimit = 0.025			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 15			# special case, affected by autonomy & set to 0 by code if not port
+	land_forcelimit	= 0.045			# special case, affected by autonomy
+	naval_forcelimit = 0.055			# special case, affected by autonomy & set to 0 by code if not port
+	local_sailors = 20			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
-	local_amount_of_banners = 0.033
+	local_amount_of_banners = 0.05
 	local_amount_of_cawa = 0.125
 }
 
@@ -581,15 +581,15 @@ base_values = {
 	merchants = 3 #2						#BT Bugfixes adjusted because there are now so many more trade nodes.						#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
-	army_tradition_decay = 0.05				#lose 5% yearly
+	army_tradition_decay = 0.06				#lose 6% yearly
 	navy_tradition_decay = 0.05				#lose 5% yearly
-	prestige_decay = 0.05					#lose 5% prestige each year
+	prestige_decay = 0.07					#lose 7% prestige each year (this is mostly to counter bonuses from the dozens of monuments)
 	tolerance_own = 3
-	diplomatic_upkeep = 2			#BTAddOn changed from 4 - Note adding dip upkeep bonus to government levels and institutions, so kingdoms start with the same as vanilla, empires get 1 more, while countries with feudalism are unaffected, but countries without have 1 less.
+	diplomatic_upkeep = 2					#BTAddOn changed from 4 - Note adding dip upkeep bonus to government levels and institutions, so kingdoms start with the same as vanilla, empires get 1 more, while countries with feudalism are unaffected, but countries without have 1 less.
 	tolerance_heathen = -3
 	tolerance_heretic = -2
-	global_missionary_strength = 0.01			#BTAddOn changed from 0.02 - BT generally lowers development by a fair amount, and provinces struck me as a little to easy to convert beforehand, so reducing the base conversion speed.
-	global_manpower = 5.0			#BTAddOn changed from 10.0 - It strikes me as odd that a country, even one with a single 1/1/1 province, automatically has around half the manpower of a large kingdom. I know this is a 'balance' thing, but asymmetry is fun.
+	global_missionary_strength = 0.01		#BTAddOn changed from 0.02 - BT generally lowers development by a fair amount, and provinces struck me as a little to easy to convert beforehand, so reducing the base conversion speed.
+	global_manpower = 5.0					#BTAddOn changed from 10.0 - It strikes me as odd that a country, even one with a single 1/1/1 province, automatically has around half the manpower of a large kingdom. I know this is a 'balance' thing, but asymmetry is fun.
 	advisor_pool = 3
 	colonist_placement_chance = 0.05
 	free_leader_pool = 1
@@ -599,14 +599,14 @@ base_values = {
 	horde_unity = -2
 	devotion = -0.5
 	meritocracy = -2
-	governing_capacity = 200			#BTB Probably not a wise idea to lower from 200 to 80 based on the 10 to 4 max states conversion.
-	num_accepted_cultures = 5			#BTAddOn changed from 2 - Note accepted culture bonus to government levels, so kingdoms start with the same as vanilla, and empires get 1 more.
+	governing_capacity = 200				#BTB Probably not a wise idea to lower from 200 to 80 based on the 10 to 4 max states conversion.
+	num_accepted_cultures = 5				#BTAddOn changed from 2 - Note accepted culture bonus to government levels, so kingdoms start with the same as vanilla, and empires get 1 more.
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
-	cav_to_inf_ratio = 0.3			#BTAddOn changed from 0.5 - Seriously, what normal army was a full 50 percent cavalry? Realistic might be closer to 10 as a base, but 30 hits a nice gameplay/realism balance, I think.
+	cav_to_inf_ratio = 0.3					#BTAddOn changed from 0.5 - Seriously, what normal army was a full 50 percent cavalry? Realistic might be closer to 10 as a base, but 30 hits a nice gameplay/realism balance, I think.
 	merc_maintenance_modifier = 0.5
 	monthly_heir_claim_increase = 0.417
-	cavalry_flanking = 0.50			#Cavalry buff because paradox refuses to buff cavalry.
+	cavalry_flanking = 0.50					#Cavalry buff because paradox refuses to buff cavalry.
 	tolerance_of_heretics_capacity = 3
 	tolerance_of_heathens_capacity = 3
 }
@@ -629,12 +629,12 @@ war_taxes = {
 }
 
 stability = {
-	global_trade_power = 0.01			#1% chance each step.
+	global_trade_power = 0.01				#1% chance each step.
 	global_spy_defence = 0.05				#-15 to +15% modifier
 }
 
 positive_stability = {
-	global_unrest = -1					#-1% revolt risk each step
+	global_unrest = -1						#-1% revolt risk each step
 	global_tax_modifier = 0.05
 	global_missionary_strength = 0.005
 	temples_influence = 0.02
@@ -655,7 +655,7 @@ privateering = {
 }
 
 negative_stability = {
-	global_unrest = -2					#-1% EXTRA revolt risk each step
+	global_unrest = -2						#-1% EXTRA revolt risk each step
 	legitimacy = 1
 	interest = -1
 	migration_cost = 0.1
@@ -664,7 +664,7 @@ negative_stability = {
 	yearly_harmony = 0.25
 }
 
-positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
+positive_mandate = {						# 100% strength at 100 mandate, 0% at 50 mandate
 	global_unrest = -2.5
 	stability_cost_modifier = -0.1
 	war_exhaustion = -0.03
@@ -675,7 +675,7 @@ positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 	#stability_cost_modifier = -0.1			#BTAddOn removed. While I do like interelated systems, I generally dislike snowballing modifiers. Higher mandate makes stability cheaper, higher stability increases mandate... The strong get stronger and the weak get weaker... not ideal for balance imo.
 }
 
-negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate
+negative_mandate = { 						# By default, starts at 50 mandate, 100% strength at 0 mandate
 	global_trade_goods_size_modifier = -0.5
 	fire_damage_received = 0.5
 	shock_damage_received = 0.5
@@ -687,18 +687,12 @@ negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mand
 	nobles_loyalty_modifier = -0.1
 	church_loyalty_modifier = -0.1
 	burghers_loyalty_modifier = -0.1
+	naval_morale = -0.1						#Some debuffs to navy should also apply
 
 	#Aborted these changes... I think the Autonomy caused some major lag
-	#global_autonomy = 0.2			#BTAddOn added. China seems simultaneously too weak and too strong, so I'm toying with some logic-inspired changes to see if that makes matters better. I feel like autonomy is going to be the key to a perfectly balanced China.
-	#global_unrest = 5
+	#global_autonomy = 0.2					#BTAddOn added. China seems simultaneously too weak and too strong, so I'm toying with some logic-inspired changes to see if that makes matters better. I feel like autonomy is going to be the key to a perfectly balanced China.
 	#reduced_liberty_desire = -50			#BTAddOn added. Seems a natural fit.
-	#land_morale = -0.1			#BTAddOn added. Replacing the harsh damage recieved penalties with what I feel are more logical morale effects.
-	#naval_morale = -0.1			#BTAddOn added. Replacing the harsh damage recieved penalties with what I feel are more logical morale effects.
-	#Massively rebalancing China mechanics and cutting all the below
-	#global_trade_goods_size_modifier = -0.5			#BTAddOn removed. I am sorely lacking in my knowledge of China, but why would a lower mandate interfere with production? Wouldn't it interfere more specifically with an Emperor's ability to profit from that production?
-	#fire_damage_received = 0.5			#BTAddOn removed. This is... harsh. I think it achieved the goal of making a low mandate China basically worthless, but I don't really like this approach, so I'm trying a new one.
-	#shock_damage_received = 0.5			#BTAddOn removed. This is... harsh. I think it achieved the goal of making a low mandate China basically worthless, but I don't really like this approach, so I'm trying a new one.
-	#possible_mercenaries = -1			#BTAddOn removed. I am sorely lacking in my knowledge of China, but it seems to me like a weaker mandate wouldn't neccessarily preclude hiring soldiers of fortune? More realistically, wouldn't it limit an emperor's ability to levy normal troops? Also, once one has mercenaries, this wouldn't remove them... so it doesn't do much.
+	#land_morale = -0.1						#BTAddOn added. Replacing the harsh damage recieved penalties with what I feel are more logical morale effects.
 }
 
 lost_mandate_of_heaven = {
@@ -712,21 +706,14 @@ lost_mandate_of_heaven = {
 	legitimacy = -1
 	mercenary_manpower = -0.5
 	global_manpower_modifier = -0.5
+	naval_morale = -0.2
 
 	#Aborted these changes... I think the Autonomy caused some major lag
-	#global_autonomy = 0.2			#BTAddOn added. China seems simultaneously too weak and too strong, so I'm toying with some logic-inspired changes to see if that makes matters better. I feel like autonomy is going to be the key to a perfectly balanced China. Removed from here for now, once the tags falls, lets not kick it too much, eh?
-	#global_unrest = 10
+	#global_autonomy = 0.2					#BTAddOn added. China seems simultaneously too weak and too strong, so I'm toying with some logic-inspired changes to see if that makes matters better. I feel like autonomy is going to be the key to a perfectly balanced China. Removed from here for now, once the tags falls, lets not kick it too much, eh?
 	#reduced_liberty_desire = -100			#BTAddOn changed from -50. Double the penalty virtually guarantees all tributaries and vassals will revolt, as they probably should if the tag falls.
-	#land_morale = -0.2			#BTAddOn added. Replacing the damage recieved penalties with what I feel are more logical morale effects.
-	#naval_morale = -0.2			#BTAddOn added. Replacing the damage recieved penalties with what I feel are more logical morale effects.
-	#legitimacy = -1
-	#stability_cost_modifier = 0.5
+	#land_morale = -0.2						#BTAddOn added. Replacing the damage recieved penalties with what I feel are more logical morale effects.
 	#Massively rebalancing China mechanics and cutting all the below
-	#global_trade_goods_size_modifier = -0.5			#BTAddOn removed. I am sorely lacking in my knowledge of China, but why would a lost mandate interfere with production? Wouldn't it interfere more specifically with the ability to profit from that production?
-	#fire_damage_received = 0.5			#BTAddOn removed. This is... harsh. I think it achieved the goal of making a fallen China basically worthless, but I don't really like this approach, so I'm trying a new one.
-	#shock_damage_received = 0.5			#BTAddOn removed. This is... harsh. I think it achieved the goal of making a fallen China basically worthless, but I don't really like this approach, so I'm trying a new one.
-	#discipline = -0.1			#BTAddOn removed. Going with morale instead. The few soldiers loyal enough to stay with the fallen tag probably wouldn't be all that undisciplined, but likely rather discouraged.
-	#possible_mercenaries = -1			#BTAddOn removed. I am sorely lacking in my knowledge of China, but it seems to me like a lost mandate wouldn't neccessarily preclude hiring soldiers of fortune? More realistically, wouldn't it limit an emperor's ability to levy normal troops? Also, once one has mercenaries, this wouldn't remove them... so it doesn't do much.
+	#possible_mercenaries = -1				#BTAddOn removed. I am sorely lacking in my knowledge of China, but it seems to me like a lost mandate wouldn't neccessarily preclude hiring soldiers of fortune? More realistically, wouldn't it limit an emperor's ability to levy normal troops? Also, once one has mercenaries, this wouldn't remove them... so it doesn't do much.
 }
 
 cancelled_loan = {
@@ -845,16 +832,16 @@ mercantilism = {
 	embargo_efficiency = 0.5
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
-	build_cost = -0.003					#added build cost reduction because mercantilism was never worth investing any dip points into - Lord_Bowser
-	build_time = -0.001					#added build time reduction because mercantilism was never worth investing any dip points into - Lord_Bowser
+	build_cost = -0.003						#added build cost reduction because mercantilism was never worth investing any dip points into - Lord_Bowser
+	build_time = -0.001						#added build time reduction because mercantilism was never worth investing any dip points into - Lord_Bowser
 }
 
 army_tradition = {
 	recover_army_morale_speed = 0.1
 	land_morale = 0.25
 	manpower_recovery_speed = 0.1
-	#siege_ability = 0.05			#BTAddOn removed - the only thing an inexperienced army can do well is wait around... which is essentially what most sieges were. This makes the least sense to me as a bonus from AT. Additionally, a 5 percent bonus was nothing with the new fort defensive bonuses
-	discipline = 0.05			#BTAddOn new - adding discipline to army tradition. Only makes sense to me. Note this will make battles faster and more deadly, this is intentional.
+	#siege_ability = 0.05					#BTAddOn removed - the only thing an inexperienced army can do well is wait around... which is essentially what most sieges were. This makes the least sense to me as a bonus from AT. Additionally, a 5 percent bonus was nothing with the new fort defensive bonuses
+	discipline = 0.05						#BTAddOn new - adding discipline to army tradition. Only makes sense to me. Note this will make battles faster and more deadly, this is intentional.
 	temples_influence = 0.1
 	mr_aristocrats_influence = 0.1
 	rr_girondists_influence = 0.1
@@ -899,7 +886,7 @@ negative_piety = { #As of 1.23 Mysticism
 defender_of_faith = {
 	land_morale = 0.05
 	naval_morale = 0.05
-	#technology_cost = 0.05			#BTAddOn removed - So being the defender of the faith means you automatically become a philistine, yet being the curia controller means you have new insight into technological development..... Removing penalty and bonus
+	#technology_cost = 0.05					#BTAddOn removed - So being the defender of the faith means you automatically become a philistine, yet being the curia controller means you have new insight into technological development..... Removing penalty and bonus
 	war_exhaustion = -0.025					#quicker recovery
 	papal_influence = 1
 	prestige = 1							#1% extra prestige yearly
@@ -912,20 +899,20 @@ defender_of_faith_refused_cta = {
 }
 
 emperor = {
-	spy_offence = 0.1					#minor bonus on spies.
+	spy_offence = 0.1						#minor bonus on spies.
 	advisor_pool = 1
 	diplomatic_upkeep = 1
 	free_leader_pool = 1
 	prestige = 1
 }
 
-states_in_hre = {							    #TCOP Additions - bonuses for each non-free city with capital in HRE.. as emperor
+states_in_hre = {							#TCOP Additions - bonuses for each non-free city with capital in HRE.. as emperor
 	land_forcelimit	= 0.125					#TCOP adjusted BT's from 0.2
 	global_manpower = 0.125					#TCOP adjusted BT's from 0.2
 }
 
 free_cities_in_hre = {						#TCOP Additions - bonuses for each free city in the HRE.. as emperor
-	global_tax_income = 2					  #TCOP adjusted BT's from 5
+	global_tax_income = 2					#TCOP adjusted BT's from 5
 	global_manpower = 0.25					#TCOP adjusted BT's from 0.15
 	land_forcelimit	= 0.125					#TCOP adjusted BT's from 0.25
 }
@@ -1088,15 +1075,15 @@ luck = {
 	republican_tradition = 0.5
 	legitimacy = 1
 	ae_impact = -0.25
-	governing_capacity_modifier = 0.1			#added governing cap to help historically strong nations not release everything instantly -Lord_Bowser
+	governing_capacity_modifier = 0.1		#added governing cap to help historically strong nations not release everything instantly -Lord_Bowser
 	governing_capacity = 150
 
 }
 
 over_extension = {
 	global_foreign_trade_power = -1.0
-	stability_cost_modifier = 1.0				#BTAddOn changed from 0.5 - this on the other hands makes a lot of sense. Increasing this penalty to balance losing below penalty.
-	#mercenary_cost = 0.5				#BTAddOn removed - We have more land, so mercenaries of course cost more... huh?
+	stability_cost_modifier = 1.0			#BTAddOn changed from 0.5 - this on the other hands makes a lot of sense. Increasing this penalty to balance losing below penalty.
+	#mercenary_cost = 0.5					#BTAddOn removed - We have more land, so mercenaries of course cost more... huh?
 	diplomatic_reputation = -2
 	improve_relation_modifier = -0.5
 	global_unrest = 5
@@ -1106,7 +1093,7 @@ over_extension = {
 }
 
 prestige = {
-	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
+	global_trade_power = 0.15				#+15/-15 total bonus from prestige.
 	land_morale = 0.1
 	naval_morale = 0.1
 	global_spy_defence = 0.1				#+10/-10
@@ -1114,7 +1101,7 @@ prestige = {
 	improve_relation_modifier = 0.5
 	monthly_fervor_increase = 1
 	ae_impact = -0.10
-	#embracement_cost = -0.1			#BTAddOn removed - no real reason other than I don't like it. It does make balance easier to plan too, though, when not having to factor this into AI chance to embrace.
+	#embracement_cost = -0.1				#BTAddOn removed - no real reason other than I don't like it. It does make balance easier to plan too, though, when not having to factor this into AI chance to embrace.
 
 	monthly_heir_claim_increase = 0.05
 
@@ -1135,8 +1122,8 @@ prestige = {
 
 no_debate_in_parliament = {
 	yearly_corruption = 0.1
-	global_unrest = 2				# people get mad when you ignore parliament, especially bc cities with seats get -2 unrest, so this balances it a bit
-						# also the corruption gives you back negative unrest, so don't worry :) - Lord_Bowser
+	global_unrest = 2						# people get mad when you ignore parliament, especially bc cities with seats get -2 unrest, so this balances it a bit
+											# also the corruption gives you back negative unrest, so don't worry :) - Lord_Bowser
 }
 
 
@@ -1165,14 +1152,14 @@ curia_controller = {
 	advisor_cost = -0.2
 	free_leader_pool = 1
 	ae_impact = -0.2
-	#technology_cost = -0.05			#BTAddOn removed - So being the defender of the faith means you automatically become a philistine, yet being the curia controller means you have new insight into technological development..... Removing penalty and bonus
+	#technology_cost = -0.05				#BTAddOn removed - So being the defender of the faith means you automatically become a philistine, yet being the curia controller means you have new insight into technological development..... Removing penalty and bonus
 	church_loyalty_modifier = 0.1
-	tolerance_own = 1				#Catholics have less unrest if you control the pope -Lord_Bowser
+	tolerance_own = 1						#Catholics have less unrest if you control the pope -Lord_Bowser
 }
 
 bought_indulgence = {
 	papal_influence = 1
-	tolerance_own = 0.5			#Catholics have less unrest if you show them you are a "good catholic" -Lord_Bowser
+	tolerance_own = 0.5						#Catholics have less unrest if you show them you are a "good catholic" -Lord_Bowser
 }
 
 religious_unity = {
@@ -1184,7 +1171,7 @@ religious_unity = {
 }
 
 inverse_religious_unity = {
-	stability_cost_modifier = 1.0		#more expensive to recover stability
+	stability_cost_modifier = 1.0			#more expensive to recover stability
 	global_unrest = 3
 	church_power_modifier = -1
 	devotion = -1
@@ -1251,7 +1238,7 @@ tributary_state_behind_overlord_tech_mil = {
 liberty_desire = {
 }
 
-is_great_power = {						#Only works with Rights of Man DLC enabled
+is_great_power = {							#Only works with Rights of Man DLC enabled
 	prestige_decay = -0.01
 	embracement_cost = -0.1
 	max_absolutism = 5
@@ -1270,19 +1257,19 @@ absolutism = {
 	stability_cost_modifier = -0.2			#BTAddOn added. Compensation for losing the Admin Efficiency and offsets higher global unrest. Also just logical sense... Note to self, watch out for stability cost reduction stacking, and perhaps do some number crunching soon.
 	administrative_efficiency = 0.2			#BTAddOn changed from 0.4. Too exploitable, moving the 0.1 of the lost 0.2 back into tech.
 	production_efficiency = 0.15			#BTAddOn added. Compensation for losing the Admin efficiency, and also just logical sense... the description even says absolutism is how 'efficient' the government is. (Plus, 1.25 cut 0.3 from tech)
-						#Reduced to 0.15 form 0.2 - Lord_Bowser
-	#discipline = 0.05				#BTAddOn removed. I see why this is here and appreciate the reasoning, but upon extensive consideration, I want to keep discipline out of absolutism. Absolute governments can have well trained, well drilled troops, but it can also be the sort of government that treats soldiers as fodder. Moving this bonus to professionalism, for what should be obvious reasons.
-	all_power_cost	= -0.05			#BTAddOn added. Very powerful compensation for losing Admin Efficiency, hopefully putting to rest any whining about that. Note again, the description of absolutism does read 'how efficient' the government is, so this seems fitting.
-	global_unrest = 7.5				#BTAddOn added. Further disuading exploitation and just makes logical sense... the description even says absolutism is how 'ruthless' the government is. 
-						#Reduced to 7.5 from 10 - Lord_Bowser
-	#core_decay_on_your_own = -0.5		#BTAddOn removed. This is a fun idea that I might have to use elsewhere, but I'm just not seeing the link here with absolute governments specifically.
+	#Reduced to 0.15 form 0.2 - Lord_Bowser
+	#discipline = 0.05						#BTAddOn removed. I see why this is here and appreciate the reasoning, but upon extensive consideration, I want to keep discipline out of absolutism. Absolute governments can have well trained, well drilled troops, but it can also be the sort of government that treats soldiers as fodder. Moving this bonus to professionalism, for what should be obvious reasons.
+	all_power_cost	= -0.05					#BTAddOn added. Very powerful compensation for losing Admin Efficiency, hopefully putting to rest any whining about that. Note again, the description of absolutism does read 'how efficient' the government is, so this seems fitting.
+	global_unrest = 7.5						#BTAddOn added. Further disuading exploitation and just makes logical sense... the description even says absolutism is how 'ruthless' the government is. 
+	#Reduced to 7.5 from 10 - Lord_Bowser
+	#core_decay_on_your_own = -0.5			#BTAddOn removed. This is a fun idea that I might have to use elsewhere, but I'm just not seeing the link here with absolute governments specifically.
 }
 
 low_army_professionalism = {
-	#mercenary_cost = -0.15			#BTAddOn removed. Low professionalism just seemed a bit lacklustre, so I'm spicing it up a bit, but not trying to make it OPed.
-	mercenary_manpower = 0.25			#BTAddOn changed from 0.15. Low professionalism just seemed a bit lacklustre, so I'm spicing it up a bit.
-	mercenary_discipline = 0.05			#BTAddOn added. Making low professionalism armies slightly more attractive, but still not as good as high professionalism ones. More experienced mercenaries equals more discipline.
-	#discipline = -0.1			#BTAddOn added then removed. Apparently bonus begin before penalties leave, causes simultaneous penalty and bonus, which looked absurd.
+	#mercenary_cost = -0.15					#BTAddOn removed. Low professionalism just seemed a bit lacklustre, so I'm spicing it up a bit, but not trying to make it OPed.
+	mercenary_manpower = 0.25				#BTAddOn changed from 0.15. Low professionalism just seemed a bit lacklustre, so I'm spicing it up a bit.
+	mercenary_discipline = 0.05				#BTAddOn added. Making low professionalism armies slightly more attractive, but still not as good as high professionalism ones. More experienced mercenaries equals more discipline.
+	#discipline = -0.1						#BTAddOn added then removed. Apparently bonus begin before penalties leave, causes simultaneous penalty and bonus, which looked absurd.
 }
 
 high_army_professionalism = {
@@ -1326,23 +1313,11 @@ trade_company_strong = {
 	merchants = 1
 }
 
-large_colonial_nation = {
-	merchants = 1
-	global_trade_power = 0.05
-	naval_forcelimit = 3			#BTAddOn changed from 10. Naval forcelimits were getting obscene
-	land_forcelimit = 2			#BTAddOn changed from 5. Too large a bonus compared to vassals and marches
-}
-
-crown_colony_overlord = {
-}
-
-crown_colony_subject = {
-	global_autonomy = -0.05
-	global_colonial_growth = 10
-}
-
 private_enterprise_overlord = {
-	global_tariffs = -0.05
+	global_tariffs = -0.25         #Added in VU and decreased from 0.5
+	global_trade_power = 0.25      #Added in VU and decreased from 0.5
+	naval_forcelimit = 1            #Added in VU.
+	land_forcelimit = 1             #Added in VU.
 }
 
 private_enterprise_subject = {
@@ -1352,18 +1327,38 @@ private_enterprise_subject = {
 	ship_power_propagation = 0.1
 }
 
+large_colonial_nation = {
+	merchants = 1
+	global_trade_power = 0.5
+	naval_forcelimit = 2			#VU changed from 3. #BTAddOn changed from 10. Naval forcelimits were getting obscene
+	land_forcelimit = 2			    #BTAddOn changed from 5. Too large a bonus compared to vassals and marches
+}
+
+crown_colony_overlord = {
+    merchants = 2                   #VU increase from 1
+	global_trade_power = 0.75      #VU increase from 0.5
+	naval_forcelimit = 2           #VU increase from 2
+	land_forcelimit = 2            #VU increase from 2
+}
+
+crown_colony_subject = {
+    colonists = 1                   #Added in VU - The idea here is that once a colony is large enough, people then venture out to claim and settle new land.
+	global_autonomy = -0.05
+	global_colonial_growth = 10
+}
+
 self_governing_colony_overlord = {
-	global_tariffs = -0.10
+	global_tariffs = -0.30
 }
 
 #VU - Addition by San Felipe
 self_governing_dominion_vu_overlord = {
-	global_tariffs = -0.10
+	global_tariffs = -0.35
 }
 
 #VU - Addition by San Felipe
 self_governing_super_dominion_vu_overlord = {
-	global_tariffs = -0.10
+	global_tariffs = -0.4
 }
 
 self_governing_colony_subject = {

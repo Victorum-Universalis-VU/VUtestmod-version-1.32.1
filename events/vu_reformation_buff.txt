@@ -1,0 +1,96 @@
+# New events and falvor related to boosting up reformation spread
+# Initially added by docRobert
+
+# ====================================
+namespace = vu_reformation
+
+#Protestants spread to Scandinavia
+country_event = {
+	id = vu_reformation.1
+	title = vu_reformation.1.t
+	desc = vu_reformation.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		current_age = age_of_reformation
+		is_religion_enabled = protestant
+		is_year = 1525
+		capital_scope = {
+			region = scandinavia_region
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = { # Oh well...
+		name = vu_reformation.1.a
+		ai_chance = { factor = 50 }
+		custom_tooltip = vu_reformation.1.tooltip
+		if = {
+			limit = {
+				NOT = { religion = protestant }
+			}
+			add_stability = -1
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = scandinavia_region
+					religion = catholic
+				}
+				random = {
+					chance = 50
+					change_religion = protestant
+				}
+			}
+		}
+	}
+	
+	option = { # Sure, we join the reformation
+		name = vu_reformation.1.b
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0.2
+				stability = 2
+			}
+			modifier = {
+				factor = 10
+				NOT = { stability = 1 }
+			}
+			modifier = {
+				factor = 0
+				ruler_has_personality = zealot_personality
+			}
+			modifier = {
+				factor = 0
+				religion = protestant
+			}
+		}
+		custom_tooltip = vu_reformation.1.tooltip
+		change_religion = protestant
+		capital_scope = {
+			change_religion = protestant
+		}
+		hidden_effect = {
+			add_prestige = 50 #To counter -100 prestige for changing religion
+			every_province = {
+				limit = {
+					region = scandinavia_region
+					religion = catholic
+				}
+				random = {
+					chance = 50
+					change_religion = protestant
+				}
+			}
+		}
+	}
+}
+		

@@ -879,99 +879,99 @@ colonial_hispaniola = {
 }
 
 #Bahamas
-colonial_bahamas = {
-	color = { 230 251 99 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-
-	trade_goods = {
-		fish = 10
-		naval_supplies = 10
-	}
-
-	culture = {
-		arawak = 10
-	}
-
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		482 483 5574 5575 5576 5577 
-		
-		#VU Additions by San Felipe
-		6010 6011 6012 6013 6014 6015 6016 6017
-	}
-
-	# Specific
-	names = {
-		trigger = {
-			tag = POR
-		}
-		name = "COLONIAL_BAHAMAS_PT"
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = { tag = NED }
-			NOT = { tag = HOL }
-		}
-		name = "COLONIAL_BAHAMAS_Flachmeer"
-	}
-	names = {
-		trigger = { culture_group = byzantine }
-		name = "COLONIAL_BAHAMAS_Bachames"
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_BAHAMAS_Bahamai"
-	}
-	names = {
-		trigger = {
-			OR = {
-				primary_culture = welsh
-				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
-				primary_culture = celtic_welsh_culture
-				primary_culture = celtic_cornish_culture
-			}
-		}
-		name = "COLONIAL_BAHAMAS_CY"
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_BAHAMAS_LA"
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_BAHAMAS_ES"
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_BAHAMAS_TU"
-	}
-
-	# Generic
-	names = {
-		name = "COLONIAL_BAHAMAS_Bahamas"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_bahamas = { #OBSOLETE, MERGED WITH ANTILLES (CARRIBEAN)
+#	color = { 230 251 99 }
+#
+#	# Random New World
+#	tax_income = 0
+#	native_size = 10
+#	native_ferocity = 1
+#	native_hostileness = 3
+#
+#	trade_goods = {
+#		fish = 10
+#		naval_supplies = 10
+#	}
+#
+#	culture = {
+#		arawak = 10
+#	}
+#
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		482 483 5574 5575 5576 5577 
+#		
+#		#VU Additions by San Felipe
+#		6010 6011 6012 6013 6014 6015 6016 6017
+#	}
+#
+#	# Specific
+#	names = {
+#		trigger = {
+#			tag = POR
+#		}
+#		name = "COLONIAL_BAHAMAS_PT"
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = { tag = NED }
+#			NOT = { tag = HOL }
+#		}
+#		name = "COLONIAL_BAHAMAS_Flachmeer"
+#	}
+#	names = {
+#		trigger = { culture_group = byzantine }
+#		name = "COLONIAL_BAHAMAS_Bachames"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_BAHAMAS_Bahamai"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				primary_culture = welsh
+#				primary_culture = cornish
+#				#BT Bugfixes added Celtic versions of Brythonic.
+#				primary_culture = celtic_welsh_culture
+#				primary_culture = celtic_cornish_culture
+#			}
+#		}
+#		name = "COLONIAL_BAHAMAS_CY"
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_BAHAMAS_LA"
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_BAHAMAS_ES"
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_BAHAMAS_TU"
+#	}
+#
+#	# Generic
+#	names = {
+#		name = "COLONIAL_BAHAMAS_Bahamas"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 #Polynesia
 colonial_polynesia = {
@@ -5928,103 +5928,103 @@ colonial_fiji = {
 }
 
 # Jamaica
-colonial_jamaica = {
-	color = { 237 1 64 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-
-	trade_goods = {
-	    sugar = 10
-	    fish = 10
-	}
-
-	culture = {
-		west_taino = 10
-	}
-
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		487 843 3023 3024 4589 5709 5710
-	}
-	
-	# Specific
-	names = {
-		trigger = { tag = USA }
-		name = "COLONIAL_JAMAICA_USA" #Jamaica
-	}
-	names = {
-		trigger = { culture_group = british }
-		name = "COLONIAL_JAMAICA_GBR" #Jamaica
-	}
-	names = {
-		trigger = { culture_group = french }
-		name = "COLONIAL_JAMAICA_FRA" #Jamaïque
-	}
-	names = {
-		trigger = { primary_culture = portugese }
-		name = "COLONIAL_JAMAICA_POR" #Nascentes
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_JAMAICA_SPA" #Xamaica
-	}
-	names = {
-		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_JAMAICA_SCA" #Källor
-	}
-	names = {
-		trigger = { primary_culture = dutch }
-		name = "COLONIAL_JAMAICA_NED" #Bronnen
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = {	tag = NED }
-			NOT = {	tag = HOL }
-		}
-		name = "COLONIAL_JAMAICA_GER" #Quellen
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_JAMAICA_GLC" #Tìr_Fuarain
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_JAMAICA_LAT"  #Fontium
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_JAMAICA_TUR" #Jamaika
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Jamaica"
-	}
-	names = {
-		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Xamaica"
-	}
-	names = {
-		name = "COLONIAL_JAMAICA_Jamaica"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_jamaica = { #OBSOLETE, MERGED WITH ANTILLES (CARIBBEAN)
+#	color = { 237 1 64 }
+#
+#	# Random New World
+#	tax_income = 0
+#	native_size = 10
+#	native_ferocity = 1
+#	native_hostileness = 3
+#
+#	trade_goods = {
+#	    sugar = 10
+#	    fish = 10
+#	}
+#
+#	culture = {
+#		west_taino = 10
+#	}
+#
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		487 843 3023 3024 4589 5709 5710
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = { tag = USA }
+#		name = "COLONIAL_JAMAICA_USA" #Jamaica
+#	}
+#	names = {
+#		trigger = { culture_group = british }
+#		name = "COLONIAL_JAMAICA_GBR" #Jamaica
+#	}
+#	names = {
+#		trigger = { culture_group = french }
+#		name = "COLONIAL_JAMAICA_FRA" #Jamaïque
+#	}
+#	names = {
+#		trigger = { primary_culture = portugese }
+#		name = "COLONIAL_JAMAICA_POR" #Nascentes
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_JAMAICA_SPA" #Xamaica
+#	}
+#	names = {
+#		trigger = { culture_group = scandinavian }
+#		name = "COLONIAL_JAMAICA_SCA" #Källor
+#	}
+#	names = {
+#		trigger = { primary_culture = dutch }
+#		name = "COLONIAL_JAMAICA_NED" #Bronnen
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = {	tag = NED }
+#			NOT = {	tag = HOL }
+#		}
+#		name = "COLONIAL_JAMAICA_GER" #Quellen
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_JAMAICA_GLC" #Tìr_Fuarain
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_JAMAICA_LAT"  #Fontium
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_JAMAICA_TUR" #Jamaika
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Jamaica"
+#	}
+#	names = {
+#		name = "COLONIAL_JAMAICA_Root_Culture_GetGroupName_Xamaica"
+#	}
+#	names = {
+#		name = "COLONIAL_JAMAICA_Jamaica"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Guyana
 colonial_guyana = {
@@ -6120,7 +6120,7 @@ colonial_guyana = {
 	}
 }
 
-# Ecuador
+#Ecuador
 colonial_ecuador = {
 	color = { 221 74 26 }
 
@@ -6225,7 +6225,7 @@ colonial_ecuador = {
 	}
 }
 
-# Venezuela
+#Venezuela
 colonial_venezuela = {
 	color = { 105 157 243 }
 
@@ -6327,7 +6327,7 @@ colonial_venezuela = {
 	}
 }
 
-# Bolivia
+#Bolivia
 colonial_bolivia = {
 	color = { 60 192 94 }
 
@@ -6427,7 +6427,7 @@ colonial_bolivia = {
 	}
 }
 
-# Chile
+#Chile
 colonial_chile = {
 	color = { 207 34 24 }
 
@@ -6530,322 +6530,322 @@ colonial_chile = {
 }
 
 # Patagonia
-colonial_patagonia = {
-	color = { 224 198 180 }
-
-	# Random New World
-	tax_income = 3
-	native_size = 12
-	native_ferocity = 1
-	native_hostileness = 2
-	
-	trade_goods = {
-		livestock = 10
-		fish = 5
-		whaling = 2
-		silver = 1
-	}
-
-	culture = {
-		patagonian = 10
-		het = 1
-		ranquel = 1
-		mapuche = 1
-	}
-	
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		780 781 782 785 786 2863 2867 2868 2869 2870 2871 2872 2875 2876
-	}
-	
-	# Specific
-	names = {
-		trigger = { tag = USA }
-		name = "COLONIAL_PATAGONIA_USA" #Patagonia
-	}
-	names = {
-		trigger = { culture_group = british }
-		name = "COLONIAL_PATAGONIA_GBR" #Patagonia
-	}
-	names = {
-		trigger = { culture_group = french }
-		name = "COLONIAL_PATAGONIA_FRA" #Patagonie
-	}
-	names = {
-		trigger = { primary_culture = portugese }
-		name = "COLONIAL_PATAGONIA_POR" #Patagônia
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_PATAGONIA_SPA" #Patayonja
-	}
-	names = {
-		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_PATAGONIA_SCA" #Patagonien
-	}
-	names = {
-		trigger = { primary_culture = dutch }
-		name = "COLONIAL_PATAGONIA_NED" #Patagonië
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = {	tag = NED }
-			NOT = {	tag = HOL }
-		}
-		name = "COLONIAL_PATAGONIA_GER" #Patagonien
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_PATAGONIA_GLC" #Patagonia
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_PATAGONIA_LAT"  #Patagonia
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_PATAGONIA_TUR" #Patagonya
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patagonia"
-	}
-	names = {
-		name = "COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patayonja"
-	}
-	names = {
-		name = "COLONIAL_PATAGONIA_Patagonia"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_patagonia = {
+#	color = { 224 198 180 }
+#
+#	# Random New World
+#	tax_income = 3
+#	native_size = 12
+#	native_ferocity = 1
+#	native_hostileness = 2
+#	
+#	trade_goods = {
+#		livestock = 10
+#		fish = 5
+#		whaling = 2
+#		silver = 1
+#	}
+#
+#	culture = {
+#		patagonian = 10
+#		het = 1
+#		ranquel = 1
+#		mapuche = 1
+#	}
+#	
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		780 781 782 785 786 2863 2867 2868 2869 2870 2871 2872 2875 2876
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = { tag = USA }
+#		name = "COLONIAL_PATAGONIA_USA" #Patagonia
+#	}
+#	names = {
+#		trigger = { culture_group = british }
+#		name = "COLONIAL_PATAGONIA_GBR" #Patagonia
+#	}
+#	names = {
+#		trigger = { culture_group = french }
+#		name = "COLONIAL_PATAGONIA_FRA" #Patagonie
+#	}
+#	names = {
+#		trigger = { primary_culture = portugese }
+#		name = "COLONIAL_PATAGONIA_POR" #Patagônia
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_PATAGONIA_SPA" #Patayonja
+#	}
+#	names = {
+#		trigger = { culture_group = scandinavian }
+#		name = "COLONIAL_PATAGONIA_SCA" #Patagonien
+#	}
+#	names = {
+#		trigger = { primary_culture = dutch }
+#		name = "COLONIAL_PATAGONIA_NED" #Patagonië
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = {	tag = NED }
+#			NOT = {	tag = HOL }
+#		}
+#		name = "COLONIAL_PATAGONIA_GER" #Patagonien
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_PATAGONIA_GLC" #Patagonia
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_PATAGONIA_LAT"  #Patagonia
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_PATAGONIA_TUR" #Patagonya
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patagonia"
+#	}
+#	names = {
+#		name = "COLONIAL_PATAGONIA_Root_Culture_GetGroupName_Patayonja"
+#	}
+#	names = {
+#		name = "COLONIAL_PATAGONIA_Patagonia"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Amazonia
-colonial_amazonia = {
-	color = { 70 109 29 }
-
-	# Random New World
-	tax_income = 3
-	native_size = 12
-	native_ferocity = 1
-	native_hostileness = 2
-	
-	trade_goods = {
-		tropical_wood = 10
-		copra = 10
-		fish = 5
-		gems = 5
-		fruit = 5
-		diamonds = 2
-		exotic_animals = 1
-	}
-
-	culture = {
-		tupinamba = 10
-	}
-	
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		747 748 2889 2890 2928 2929 2930 2933 2934 2935 2938 6089 6090 6091 6092 6093 6094 6095 6096 6097 6103 6104 6105 6106 6107 6109 6110 6111 6112 6113 6114 6115 6116 6117 6118 6119 6120 6121 6122 6123 6124 6125 8745 8748 8750
-	}
-	
-	# Specific
-	names = {
-		trigger = { tag = USA }
-		name = "COLONIAL_AMAZONIA_USA" #Amazonia
-	}
-	names = {
-		trigger = { culture_group = british }
-		name = "COLONIAL_AMAZONIA_GBR" #Amazonia
-	}
-	names = {
-		trigger = { culture_group = french }
-		name = "COLONIAL_AMAZONIA_FRA" #Amazonie
-	}
-	names = {
-		trigger = { primary_culture = portugese }
-		name = "COLONIAL_AMAZONIA_POR" #Amazonas
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_AMAZONIA_SPA" #Amazonas
-	}
-	names = {
-		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_AMAZONIA_SCA" #Amazone
-	}
-	names = {
-		trigger = { primary_culture = dutch }
-		name = "COLONIAL_AMAZONIA_NED" #Amazonië
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = {	tag = NED }
-			NOT = {	tag = HOL }
-		}
-		name = "COLONIAL_AMAZONIA_GER" #Amazonien
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_AMAZONIA_GLC" #Amazonia
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_AMAZONIA_LAT"  #Amazonia
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_AMAZONIA_TUR" #Amazonya
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonia"
-	}
-	names = {
-		name = "COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonas"
-	}
-	names = {
-		name = "COLONIAL_AMAZONIA_Amazonia"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_amazonia = {
+#	color = { 70 109 29 }
+#
+#	# Random New World
+#	tax_income = 3
+#	native_size = 12
+#	native_ferocity = 1
+#	native_hostileness = 2
+#	
+#	trade_goods = {
+#		tropical_wood = 10
+#		copra = 10
+#		fish = 5
+#		gems = 5
+#		fruit = 5
+#		diamonds = 2
+#		exotic_animals = 1
+#	}
+#
+#	culture = {
+#		tupinamba = 10
+#	}
+#	
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		747 748 2889 2890 2928 2929 2930 2933 2934 2935 2938 6089 6090 6091 6092 6093 6094 6095 6096 6097 6103 6104 6105 6106 6107 6109 6110 6111 6112 6113 6114 6115 6116 6117 6118 6119 6120 6121 6122 6123 6124 6125 8745 8748 8750
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = { tag = USA }
+#		name = "COLONIAL_AMAZONIA_USA" #Amazonia
+#	}
+#	names = {
+#		trigger = { culture_group = british }
+#		name = "COLONIAL_AMAZONIA_GBR" #Amazonia
+#	}
+#	names = {
+#		trigger = { culture_group = french }
+#		name = "COLONIAL_AMAZONIA_FRA" #Amazonie
+#	}
+#	names = {
+#		trigger = { primary_culture = portugese }
+#		name = "COLONIAL_AMAZONIA_POR" #Amazonas
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_AMAZONIA_SPA" #Amazonas
+#	}
+#	names = {
+#		trigger = { culture_group = scandinavian }
+#		name = "COLONIAL_AMAZONIA_SCA" #Amazone
+#	}
+#	names = {
+#		trigger = { primary_culture = dutch }
+#		name = "COLONIAL_AMAZONIA_NED" #Amazonië
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = {	tag = NED }
+#			NOT = {	tag = HOL }
+#		}
+#		name = "COLONIAL_AMAZONIA_GER" #Amazonien
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_AMAZONIA_GLC" #Amazonia
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_AMAZONIA_LAT"  #Amazonia
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_AMAZONIA_TUR" #Amazonya
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonia"
+#	}
+#	names = {
+#		name = "COLONIAL_AMAZONIA_Root_Culture_GetGroupName_Amazonas"
+#	}
+#	names = {
+#		name = "COLONIAL_AMAZONIA_Amazonia"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Rio Grande
-colonial_rio_grande = {
-	color = { 228 205 5 }
-
-	# Random New World
-	tax_income = 3
-	native_size = 12
-	native_ferocity = 1
-	native_hostileness = 2
-	
-	trade_goods = {
-	    lumber = 10
-		livestock = 10
-		tropical_wood = 10
-		copra = 10
-		sugar = 5
-		fish = 5
-		gems = 5
-		fruit = 5
-		diamonds = 2
-		gold = 2
-		silver = 2
-		exotic_animals = 1
-	}
-
-	culture = {
-	    ge = 10
-		tupinamba = 10
-	}
-	
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		760 768 769 2857 2879 2884 2887 2895 3192 3205 3208 3210 3211 3212 3215 3216 3217 3249 3255 3257 3258 3259 3260
-	}
-	
-	# Specific
-	names = {
-		trigger = { tag = USA }
-		name = "COLONIAL_RIO_GRANDE_USA" #Great_River
-	}
-	names = {
-		trigger = { culture_group = british }
-		name = "COLONIAL_RIO_GRANDE_GBR" #Great_River
-	}
-	names = {
-		trigger = { culture_group = french }
-		name = "COLONIAL_RIO_GRANDE_FRA" #Grande_Rivière
-	}
-	names = {
-		trigger = { primary_culture = portugese }
-		name = "COLONIAL_RIO_GRANDE_POR" #Grande_Rio
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_RIO_GRANDE_SPA" #Rio_Grande
-	}
-	names = {
-		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_RIO_GRANDE_SCA" #Stora_Floden
-	}
-	names = {
-		trigger = { primary_culture = dutch }
-		name = "COLONIAL_RIO_GRANDE_NED" #Grote Rivier
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = {	tag = NED }
-			NOT = {	tag = HOL }
-		}
-		name = "COLONIAL_RIO_GRANDE_GER" #Groser_Fluss
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_RIO_GRANDE_Abhainn_Mhor" #Abhainn_Mhor
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_RIO_GRANDE_LAT" #Magnum_Flumen
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_RIO_GRANDE_TUR" #Büyük_Nehir
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Rio_Grande"
-	}
-	names = {
-		name = "COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Rio_Grande"
-	}
-	names = {
-		name = "COLONIAL_RIO_GRANDE_Rio_Grande"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_rio_grande = {
+#	color = { 228 205 5 }
+#
+#	# Random New World
+#	tax_income = 3
+#	native_size = 12
+#	native_ferocity = 1
+#	native_hostileness = 2
+#	
+#	trade_goods = {
+#	    lumber = 10
+#		livestock = 10
+#		tropical_wood = 10
+#		copra = 10
+#		sugar = 5
+#		fish = 5
+#		gems = 5
+#		fruit = 5
+#		diamonds = 2
+#		gold = 2
+#		silver = 2
+#		exotic_animals = 1
+#	}
+#
+#	culture = {
+#	    ge = 10
+#		tupinamba = 10
+#	}
+#	
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		760 768 769 2857 2879 2884 2887 2895 3192 3205 3208 3210 3211 3212 3215 3216 3217 3249 3255 3257 3258 3259 3260
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = { tag = USA }
+#		name = "COLONIAL_RIO_GRANDE_USA" #Great_River
+#	}
+#	names = {
+#		trigger = { culture_group = british }
+#		name = "COLONIAL_RIO_GRANDE_GBR" #Great_River
+#	}
+#	names = {
+#		trigger = { culture_group = french }
+#		name = "COLONIAL_RIO_GRANDE_FRA" #Grande_Rivière
+#	}
+#	names = {
+#		trigger = { primary_culture = portugese }
+#		name = "COLONIAL_RIO_GRANDE_POR" #Grande_Rio
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_RIO_GRANDE_SPA" #Rio_Grande
+#	}
+#	names = {
+#		trigger = { culture_group = scandinavian }
+#		name = "COLONIAL_RIO_GRANDE_SCA" #Stora_Floden
+#	}
+#	names = {
+#		trigger = { primary_culture = dutch }
+#		name = "COLONIAL_RIO_GRANDE_NED" #Grote Rivier
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = {	tag = NED }
+#			NOT = {	tag = HOL }
+#		}
+#		name = "COLONIAL_RIO_GRANDE_GER" #Groser_Fluss
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_RIO_GRANDE_Abhainn_Mhor" #Abhainn_Mhor
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_RIO_GRANDE_LAT" #Magnum_Flumen
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_RIO_GRANDE_TUR" #Büyük_Nehir
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Rio_Grande"
+#	}
+#	names = {
+#		name = "COLONIAL_RIO_GRANDE_Root_Culture_GetGroupName_Rio_Grande"
+#	}
+#	names = {
+#		name = "COLONIAL_RIO_GRANDE_Rio_Grande"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Texas
 colonial_texas = {
@@ -6976,7 +6976,7 @@ colonial_central_america = {
 	}
 
 	provinces = {
-		835 836 837 838 839 840 841 842 2636 2637 2640 2653 2660 2661 2662 2663 2664 2819 4587 4592 4593 4594 4595 4597 5140 5141
+		836 837 839 840 841 842 843 2636 2637 2640 2653 2660 2661 2662 2663 3023 4587 4589 4592 4593 4594 4597 5140
 	}
 	
 	# Specific
@@ -7052,203 +7052,203 @@ colonial_central_america = {
 }
 
 # Maranhão
-colonial_maranhao = {
-	color = { 252 106 3 }
-
-	# Random New World
-	tax_income = 2
-	native_size = 8
-	native_ferocity = 1
-	native_hostileness = 4
-	
-	trade_goods = {
-		sugar = 13
-		fish = 1
-	}
-	
-	culture = {
-		guarani = 5
-		tupinamba = 12
-	}
-	
-	religion = {
-		animism = 10
-	}
-	
-	provinces = {
-		749 750 751 752 753 754 755 756 757 2885 2886 2912 2913 2914 2915 2916 2917 2921 2922 2923 2924 2925 2926 2927 3269 3059 3061 3062 3065
-		3067 3072 3074 3078 3080 3084 8741
-	}
-	
-	# Specific
-	names = {
-		trigger = { tag = USA }
-		name = "COLONIAL_MARANHAO_USA" #Amazon_River
-	}
-	names = {
-		trigger = { culture_group = british }
-		name = "COLONIAL_MARANHAO_GBR" #Amazon_River
-	}
-	names = {
-		trigger = { culture_group = french }
-		name = "COLONIAL_MARANHAO_FRA" #La_rivière_Amazone
-	}
-	names = {
-		trigger = { primary_culture = portugese }
-		name = "COLONIAL_MARANHAO_POR" #Maranhão
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_MARANHAO_SPA" #Rio_Amazonas
-	}
-	names = {
-		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_MARANHAO_SCA" #Amazonfloden
-	}
-	names = {
-		trigger = { primary_culture = dutch }
-		name = "COLONIAL_MARANHAO_NED" #Amazone_Rivier
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = {	tag = NED }
-			NOT = {	tag = HOL }
-		}
-		name = "COLONIAL_MARANHAO_GER" #Amazonas
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_MARANHAO_Abhainn_GLC" #Amazon
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_MARANHAO_LAT" #Amazon_Flumen
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_MARANHAO_TUR" #Amazon_Nehri
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_MARANHAO_Root_Culture_GetGroupName_Maranhao"
-	}
-	names = {
-		name = "COLONIAL_MARANHAO_Root_Culture_GetGroupName_Rio_Amazonas"
-	}
-	names = {
-		name = "COLONIAL_MARANHAO_Maranhao"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_maranhao = {
+#	color = { 252 106 3 }
+#
+#	# Random New World
+#	tax_income = 2
+#	native_size = 8
+#	native_ferocity = 1
+#	native_hostileness = 4
+#	
+#	trade_goods = {
+#		sugar = 13
+#		fish = 1
+#	}
+#	
+#	culture = {
+#		guarani = 5
+#		tupinamba = 12
+#	}
+#	
+#	religion = {
+#		animism = 10
+#	}
+#	
+#	provinces = {
+#		749 750 751 752 753 754 755 756 757 2885 2886 2912 2913 2914 2915 2916 2917 2921 2922 2923 2924 2925 2926 2927 3269 3059 3061 3062 3065
+#		3067 3072 3074 3078 3080 3084 8741
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = { tag = USA }
+#		name = "COLONIAL_MARANHAO_USA" #Amazon_River
+#	}
+#	names = {
+#		trigger = { culture_group = british }
+#		name = "COLONIAL_MARANHAO_GBR" #Amazon_River
+#	}
+#	names = {
+#		trigger = { culture_group = french }
+#		name = "COLONIAL_MARANHAO_FRA" #La_rivière_Amazone
+#	}
+#	names = {
+#		trigger = { primary_culture = portugese }
+#		name = "COLONIAL_MARANHAO_POR" #Maranhão
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_MARANHAO_SPA" #Rio_Amazonas
+#	}
+#	names = {
+#		trigger = { culture_group = scandinavian }
+#		name = "COLONIAL_MARANHAO_SCA" #Amazonfloden
+#	}
+#	names = {
+#		trigger = { primary_culture = dutch }
+#		name = "COLONIAL_MARANHAO_NED" #Amazone_Rivier
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = {	tag = NED }
+#			NOT = {	tag = HOL }
+#		}
+#		name = "COLONIAL_MARANHAO_GER" #Amazonas
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_MARANHAO_Abhainn_GLC" #Amazon
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_MARANHAO_LAT" #Amazon_Flumen
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_MARANHAO_TUR" #Amazon_Nehri
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_MARANHAO_Root_Culture_GetGroupName_Maranhao"
+#	}
+#	names = {
+#		name = "COLONIAL_MARANHAO_Root_Culture_GetGroupName_Rio_Amazonas"
+#	}
+#	names = {
+#		name = "COLONIAL_MARANHAO_Maranhao"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Mato Grosso
-colonial_mato_grosso = {
-	color = { 35 79 30 }
-
-	# Random New World
-	tax_income = 3
-	native_size = 12
-	native_ferocity = 1
-	native_hostileness = 2
-	
-	trade_goods = {
-		tropical_wood = 10
-		fish = 5
-		fruit = 5
-		exotic_animals = 1
-	}
-
-	culture = {
-		tupinamba = 10
-	}
-	
-	religion = {
-		animism = 10
-	}
-
-	provinces = {
-		758 776 2881 2888 2893 2900 2901 2902 2903 2904 2905 2907 2908 2909 2910 2911 2919 2920 6126 8742
-	}
-	
-	# Specific
-	names = {
-		trigger = { tag = USA }
-		name = "COLONIAL_MATO_GROSSO_USA" #Thick_Bush
-	}
-	names = {
-		trigger = { culture_group = british }
-		name = "COLONIAL_MATO_GROSSO_GBR" #Thick_Bush
-	}
-	names = {
-		trigger = { culture_group = french }
-		name = "COLONIAL_MATO_GROSSO_FRA" #Buisson_épais
-	}
-	names = {
-		trigger = { primary_culture = portugese }
-		name = "COLONIAL_MATO_GROSSO_POR" #Matto_Grosso
-	}
-	names = {
-		trigger = { culture_group = iberian	}
-		name = "COLONIAL_MATO_GROSSO_SPA" #Arbusto_Espeso
-	}
-	names = {
-		trigger = { culture_group = scandinavian }
-		name = "COLONIAL_MATO_GROSSO_SCA" #Tjock_Buske
-	}
-	names = {
-		trigger = { primary_culture = dutch }
-		name = "COLONIAL_MATO_GROSSO_NED" #Dikke_Struik
-	}
-	names = {
-		trigger = {
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
-			NOT = {	tag = NED }
-			NOT = {	tag = HOL }
-		}
-		name = "COLONIAL_MATO_GROSSO_GER" #Dicker_Busch
-	}
-	names = {
-		trigger = {
-			OR = {
-				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
-				primary_culture = celtic_irish_culture
-				primary_culture = celtic_highland_scottish_culture
-			}
-		}
-		name = "COLONIAL_MATO_GROSSO_GLC" #Preas_Tiugh
-	}
-	names = {
-		trigger = { culture_group = latin }
-		name = "COLONIAL_MATO_GROSSO_LAT" #Densissima_Rubi
-	}
-	names = {
-		trigger = { culture_group = turkish_g }
-		name = "COLONIAL_MATO_GROSSO_TUR" #Kalın_Cali
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Mato_Grosso"
-	}
-	names = {
-		name = "COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Arbusto_Espeso"
-	}
-	names = {
-		name = "COLONIAL_MATO_GROSSO_Mato_Grosso"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_mato_grosso = {
+#	color = { 35 79 30 }
+#
+#	# Random New World
+#	tax_income = 3
+#	native_size = 12
+#	native_ferocity = 1
+#	native_hostileness = 2
+#	
+#	trade_goods = {
+#		tropical_wood = 10
+#		fish = 5
+#		fruit = 5
+#		exotic_animals = 1
+#	}
+#
+#	culture = {
+#		tupinamba = 10
+#	}
+#	
+#	religion = {
+#		animism = 10
+#	}
+#
+#	provinces = {
+#		758 776 2881 2888 2893 2900 2901 2902 2903 2904 2905 2907 2908 2909 2910 2911 2919 2920 6126 8742
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = { tag = USA }
+#		name = "COLONIAL_MATO_GROSSO_USA" #Thick_Bush
+#	}
+#	names = {
+#		trigger = { culture_group = british }
+#		name = "COLONIAL_MATO_GROSSO_GBR" #Thick_Bush
+#	}
+#	names = {
+#		trigger = { culture_group = french }
+#		name = "COLONIAL_MATO_GROSSO_FRA" #Buisson_épais
+#	}
+#	names = {
+#		trigger = { primary_culture = portugese }
+#		name = "COLONIAL_MATO_GROSSO_POR" #Matto_Grosso
+#	}
+#	names = {
+#		trigger = { culture_group = iberian	}
+#		name = "COLONIAL_MATO_GROSSO_SPA" #Arbusto_Espeso
+#	}
+#	names = {
+#		trigger = { culture_group = scandinavian }
+#		name = "COLONIAL_MATO_GROSSO_SCA" #Tjock_Buske
+#	}
+#	names = {
+#		trigger = { primary_culture = dutch }
+#		name = "COLONIAL_MATO_GROSSO_NED" #Dikke_Struik
+#	}
+#	names = {
+#		trigger = {
+#			culture_group = germanic
+#			NOT = { primary_culture = dutch }
+#			NOT = {	tag = NED }
+#			NOT = {	tag = HOL }
+#		}
+#		name = "COLONIAL_MATO_GROSSO_GER" #Dicker_Busch
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				culture_group = gaelic
+#				#BT Bugfixes added Celtic versions of Gaelic.
+#				primary_culture = celtic_irish_culture
+#				primary_culture = celtic_highland_scottish_culture
+#			}
+#		}
+#		name = "COLONIAL_MATO_GROSSO_GLC" #Preas_Tiugh
+#	}
+#	names = {
+#		trigger = { culture_group = latin }
+#		name = "COLONIAL_MATO_GROSSO_LAT" #Densissima_Rubi
+#	}
+#	names = {
+#		trigger = { culture_group = turkish_g }
+#		name = "COLONIAL_MATO_GROSSO_TUR" #Kalın_Cali
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Mato_Grosso"
+#	}
+#	names = {
+#		name = "COLONIAL_MATO_GROSSO_Root_Culture_GetGroupName_Arbusto_Espeso"
+#	}
+#	names = {
+#		name = "COLONIAL_MATO_GROSSO_Mato_Grosso"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}

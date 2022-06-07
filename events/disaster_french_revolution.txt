@@ -2117,12 +2117,20 @@ country_event = {
 	
 	trigger = {
 		NOT = { has_country_flag = french_gamble_for_supremacy_flag }
-		tag = FRA
+		OR = {
+		    tag = FRA
+			tag = BFR
+		}
 		is_revolution_target = yes
 		SPA = { vassal_of = ROOT }
+		BSP = { vassal_of = ROOT }
+		SPB = { vassal_of = ROOT }
+		BBS = { vassal_of = ROOT }
+		CSP = { vassal_of = ROOT }
 		HAB = { vassal_of = ROOT }
 		PRU = { vassal_of = ROOT }
 		RUS = { vassal_of = ROOT }
+		TZR = { vassal_of = ROOT }
 	}
 
 	mean_time_to_happen = {

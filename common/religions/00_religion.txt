@@ -18,7 +18,7 @@ christian = {
 	
 	catholic = {
 		color = { 221 221 219 }
-		icon = 1
+		icon = 50	#Icon number 1 now represents no religion
 		allowed_conversion = {
 			reformed
 			protestant
@@ -2574,57 +2574,15 @@ eastern = {
 	flags_with_emblem_percentage = 33
 	flag_emblem_index_range = { 58 80 }
 
-	buddhism = { #Theravada
-		color = { 204 76 0 }
-		icon = 24
-		allowed_conversion = {
-			vajrayana
-			mahayana
-			sikhism
-		}
-		
-		country = {
-			prestige = 1
-			tolerance_heretic = 2
-			advisor_cost = -0.1
-			mercenary_cost = -0.20
-			years_of_nationalism = 5
-		}
-		
-		country_as_secondary = {
-			development_cost = -0.1
-			diplomats = 1
-			prestige = 1
-			tolerance_heretic = 2
-			tolerance_heathen = 1
-			advisor_cost = -0.1
-			mercenary_cost = -0.20
-			years_of_nationalism = 5
-		}
-		
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		harmonized_modifier = harmonized_buddhism
-		
-		uses_karma = yes
-	}
+	#buddhism = { } #Moved to buddhist group in 01_new_religions_VU
 	
 	state_shinto = {
 		color = { 255 40 20 }
 		icon = 10
 		
 		allowed_conversion = {
-				vajrayana
-				taoism
+			vajrayana
+			taoism
 		}
 		
 		country = {
@@ -2657,102 +2615,20 @@ eastern = {
 		
 	}
 	
-	vajrayana = {
-		color = { 204 76 76 }
-		icon = 25
-		allowed_conversion = {
-			buddhism #Theravada
-			taoism
-		}
-		country = {
-			global_missionary_strength = 0.005
-			legitimacy = 0.50
-			republican_tradition = 0.25
-			horde_unity = 0.25
-			devotion = 1
-			tolerance_heretic = 1
-			global_unrest = -1
-			land_morale = 0.05
-		}
-		
-		country_as_secondary = {
-			horde_unity = 1
-			tolerance_own = 1
-			legitimacy = 0.50
-			devotion = 1
-			global_unrest = -1
-			global_missionary_strength = -0.01
-		}
-		
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		heretic = { ZEN }
-		
-		uses_karma = yes
+	#vajrayana = { } #Moved to buddhist group in 01_new_religions_VU
 	
-		harmonized_modifier = harmonized_vajrayana
-	}
+	#mahayana = { } #Moved to buddhist group in 01_new_religions_VU
 	
-	mahayana = {
-		color = { 254 170 52 }
-		icon = 23
-		allowed_conversion = {
-			vajrayana
-			buddhism #Theravada
-			taoism
-			shinto
-		}
-		
-		country = {
-			global_missionary_strength = 0.01
-			tolerance_heretic = 2
-			prestige = 0.5 
-			idea_cost = -0.10
-			free_leader_pool = 1
-			global_autonomy = 0.02
-		}
-		
-		country_as_secondary = {
-			global_tax_modifier = 0.1
-			tolerance_heathen = 2
-			prestige = 0.5 
-			idea_cost = -0.10
-			free_leader_pool = 1
-			global_autonomy = 0.02
-			global_missionary_strength = 0.005
-		}
-		
-		on_convert = {
-			add_prestige = -100
-			add_stability = -1
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-		
-		harmonized_modifier = harmonized_mahayana
-		
-		heretic = { ZEN }
-		
-		uses_karma = yes
-	}
-
+	#tantra = { } #Moved to buddhist group in 01_new_religions_VU
+	
 	confucianism = {
 		color = { 177 196 132 }
 		icon = 9
 
 		allowed_conversion = {
-				vajrayana
-				mahayana
-				taoism
+			vajrayana
+			mahayana
+			taoism
 		}
 		
 		country = {
@@ -2775,8 +2651,18 @@ eastern = {
 			devotion = -0.1
 		}
 		
+		on_convert = {
+			change_religion = confucianism
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
 		heretic = { TAOIST }
 		uses_harmony = yes
+		harmonized_modifier = harmonized_confucianism
 	}
 
 	shinto = {
@@ -2784,10 +2670,10 @@ eastern = {
 		icon = 10
 
 		allowed_conversion = {
-				vajrayana
-				mahayana
-				taoism
-				state_shinto
+			vajrayana
+			mahayana
+			taoism
+			state_shinto
 		}
 		
 		country = {
@@ -2823,89 +2709,54 @@ eastern = {
 	}
 	
 	taoism = {
-		color = { 62 55 65 }
-		icon = 39
+		color = { 79 73 95 }
+		icon = 51
 		allowed_conversion = {
 			mahayana
 			shinto
+			confucianism
 		}
 		country = {
 			global_unrest = -2
 			global_manpower_modifier = 0.15
 			ae_impact = -0.1
 			yearly_corruption = -1
-			innovativeness_gain = 0.5
-			idea_cost = -0.15
-			adm_tech_cost_modifier = -0.1
+			innovativeness_gain = 0.1
+			idea_cost = -0.1
+			adm_tech_cost_modifier = -0.05
 			heir_chance = 0.5
 		}
 
 		country_as_secondary = {
 			global_unrest = -1
 			global_manpower_modifier = 0.1
-			ae_impact = -0.1
-			yearly_corruption = -1
-			innovativeness_gain = 0.5
-			idea_cost = -0.1
-			adm_tech_cost_modifier = -0.1
+			innovativeness_gain = 0.05
+			idea_cost = -0.05
+			adm_tech_cost_modifier = -0.05
 			heir_chance = 0.5
 		}
 
 		province = {
 			local_missionary_strength = -0.01
 		}
-
-		heretic = { CONFUCIAN }
-		
-		harmonized_modifier = harmonized_taoism
-	}
-	
-	#Bon religion
-	bon = {
-		color = { 67 203 186 }
-		icon = 48
-		allowed_conversion = {
-			mahayana
-			vajrayana
-			buddhism #Theravada
-		}
-		
-		country = {
-			shock_damage_received = -0.10
-			yearly_corruption = -0.01
-			tolerance_heretic = 1
-			harsh_treatment_cost = 0.2
-			same_culture_advisor_cost = -0.15
-		}
-
-		country_as_secondary = {
-			global_unrest = -1
-			yearly_corruption = -0.01
-			innovativeness_gain = 0.5
-			tolerance_heathen = 1
-			same_culture_advisor_cost = -0.05
-		}
-		
-		province = {
-			local_missionary_strength = -0.005
-			local_defensiveness = 0.1
-		}
 		
 		on_convert = {
-			change_religion = bon
+			change_religion = taoism
 			add_prestige = -100
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
 			}
 		}
+
+		heretic = { CONFUCIAN }
+		uses_harmony = yes
 		
-		heretic = { ZEN ANIMIST OLD_BON }
-		
-		uses_karma = yes
-	
-		harmonized_modifier = harmonized_vajrayana
+		harmonized_modifier = harmonized_taoism
 	}
+	
+	#bon = { } #Moved to asian_pagan_group in 01_new_religions_VU
+	
 	#New eastern religion
 	#wuism = {		#Not added yet
 	#	color = { 160 95 107 }
@@ -4883,4 +4734,421 @@ zoroastrian_group = {
 	
 	crusade_name = HOLY_WAR
 	
+}
+
+
+## VU Religions ##
+
+balto_slavic_group = {
+	defender_of_faith = yes
+	center_of_religion = 271
+	baltic_pagan_reformed = {
+		icon = 30
+		color = { 120 85 105 }
+		allowed_conversion = {
+			protestant	
+			reformed			
+			catholic
+			hussite	
+			orthodox	
+		}	
+		date = 1444.1.1							
+		country = {
+			enemy_core_creation = 0.2
+			hostile_attrition = 1
+		}
+		country_as_secondary = {
+			hostile_attrition = 1
+			tolerance_heathen = 2
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		on_convert = {
+			change_religion = baltic_pagan_reformed			
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}		
+		
+		personal_deity = yes
+		
+		heretic = { OLD_ROMUVA }	
+	}
+	
+	harmonized_modifier = harmonized_balto_slavic_group
+
+	crusade_name = HOLY_WAR	
+	
+}
+
+finnic_group = {
+	defender_of_faith = yes
+	center_of_religion = 4151
+	finnish_pagan_reformed = {
+		icon = 31
+		color = { 64 103 37 }
+		allowed_conversion = {
+			protestant	
+			reformed			
+			catholic
+			hussite	
+			coptic
+			orthodox	
+		}
+		date = 1444.1.1							
+		country = {
+			hostile_attrition = 1
+			defensiveness = 0.2
+		}
+		country_as_secondary = {
+			hostile_attrition = 1
+			global_tax_modifier = 0.1
+		}
+		on_convert = {
+			change_religion = finnish_pagan_reformed
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act		
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}		
+		personal_deity = yes
+		
+		heretic = { OLD_SUOMENUSKO }	
+	}
+
+	harmonized_modifier = harmonized_finnic_group
+
+	crusade_name = HOLY_WAR	
+}
+
+slavic_group = {
+	defender_of_faith = yes
+	center_of_religion = 4745
+	slavic_pagan_reformed = {
+		icon = 32
+		color = { 117 122 185 }
+		allowed_conversion = {
+			protestant	
+			reformed			
+			catholic
+			hussite	
+			orthodox	
+		}
+		date = 1444.1.1							
+		country = {
+			recover_army_morale_speed = 0.10
+			tolerance_heathen = 1.5
+			promote_culture_cost = -0.2
+		}
+		country_as_secondary = {
+			hostile_attrition = 2
+			unjustified_demands = -0.15
+		}
+		province = {
+			local_missionary_strength = -0.005
+			local_regiment_cost = -0.05
+		}
+		on_convert = {
+			change_religion = slavic_pagan_reformed
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act		
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}		
+		
+		holy_sites = { 4745 263 280 4749 310 }
+		
+		blessings = {
+			blessing_arkona
+			blessing_slenzha
+			blessing_kiev
+			blessing_radgost
+			blessing_peryn
+		}
+		
+		can_have_secondary_religion = yes
+		
+		heretic = { OLD_SLAVIC }	
+	}
+
+	harmonized_modifier = harmonized_slavic_group
+
+	crusade_name = HOLY_WAR	
+}
+
+asian_pagan_group = {
+	defender_of_faith = no
+	center_of_religion = 677 #Lhasa
+	
+	bon = {
+		color = { 67 203 186 }
+		icon = 48
+		allowed_conversion = {
+			mahayana
+			vajrayana
+			buddhism #Theravada
+			tantra
+		}
+		
+		country = {
+			shock_damage_received = -0.10
+			yearly_corruption = -0.01
+			tolerance_heretic = 1
+			harsh_treatment_cost = 0.2
+			same_culture_advisor_cost = -0.15
+		}
+
+		country_as_secondary = {
+			global_unrest = -1
+			yearly_corruption = -0.01
+			innovativeness_gain = 0.5
+			tolerance_heathen = 1
+			same_culture_advisor_cost = -0.05
+		}
+		
+		province = {
+			local_missionary_strength = -0.005
+			local_defensiveness = 0.1
+		}
+		
+		on_convert = {
+			change_religion = bon
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN ANIMIST OLD_BON }
+		
+		uses_karma = yes
+	
+		harmonized_modifier = harmonized_bon
+	}
+	
+	harmonized_modifier = harmonized_asian_pagan_group
+	
+	crusade_name = HOLY_WAR
+}
+
+buddhist_group = {
+	
+	defender_of_faith = yes
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 58 80 }
+
+	buddhism = { #Theravada
+		color = { 204 76 0 }
+		icon = 24
+		allowed_conversion = {
+			vajrayana
+			mahayana
+			sikhism
+		}
+		
+		country = {
+			prestige = 1
+			tolerance_heretic = 2
+			advisor_cost = -0.1
+			mercenary_cost = -0.20
+			years_of_nationalism = 5
+		}
+		
+		country_as_secondary = {
+			development_cost = -0.1
+			diplomats = 1
+			prestige = 1
+			tolerance_heretic = 2
+			tolerance_heathen = 1
+			advisor_cost = -0.1
+			mercenary_cost = -0.20
+			years_of_nationalism = 5
+		}
+		
+		on_convert = {
+			change_religion = buddhism
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		harmonized_modifier = harmonized_buddhism
+		
+		uses_karma = yes
+	}
+	
+	vajrayana = {
+		color = { 204 76 76 }
+		icon = 25
+		allowed_conversion = {
+			buddhism #Theravada
+			taoism
+			tantra
+		}
+		country = {
+			global_missionary_strength = 0.005
+			legitimacy = 0.50
+			republican_tradition = 0.25
+			horde_unity = 0.25
+			devotion = 1
+			tolerance_heretic = 1
+			global_unrest = -1
+			land_morale = 0.05
+		}
+		
+		country_as_secondary = {
+			horde_unity = 1
+			tolerance_own = 1
+			legitimacy = 0.50
+			devotion = 1
+			global_unrest = -1
+			global_missionary_strength = -0.01
+		}
+		
+		on_convert = {
+			change_religion = vajrayana
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		uses_karma = yes
+	
+		harmonized_modifier = harmonized_vajrayana
+	}
+	
+	mahayana = {
+		color = { 254 170 52 }
+		icon = 23
+		allowed_conversion = {
+			vajrayana
+			buddhism #Theravada
+			taoism
+			shinto
+		}
+		
+		country = {
+			global_missionary_strength = 0.01
+			tolerance_heretic = 2
+			prestige = 0.5 
+			idea_cost = -0.10
+			free_leader_pool = 1
+			global_autonomy = 0.02
+		}
+		
+		country_as_secondary = {
+			global_tax_modifier = 0.1
+			tolerance_heathen = 2
+			prestige = 0.5 
+			idea_cost = -0.10
+			free_leader_pool = 1
+			global_autonomy = 0.02
+			global_missionary_strength = 0.005
+		}
+		
+		on_convert = {
+			change_religion = mahayana
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		harmonized_modifier = harmonized_mahayana
+		
+		heretic = { ZEN }
+		
+		uses_karma = yes
+	}
+	
+	tantra = {
+		color = { 181 230 29 }
+		icon = 52
+		allowed_conversion = {
+			vajrayana
+			buddhism #Theravada
+			bon
+			taoism
+		}
+		
+		country = {
+			tolerance_heretic = 1
+			idea_cost = -0.05
+			religious_unity = 0.25
+			global_autonomy = 0.02
+			tolerance_of_heretics_capacity = 1
+			tolerance_of_heathens_capacity = 1
+			discovered_relations_impact = -0.1
+			years_of_nationalism = -3
+		}
+		
+		country_as_secondary = {
+			tolerance_heathen = 1
+			idea_cost = -0.025
+			free_leader_pool = 1
+			tolerance_of_heretics_capacity = 1
+			discovered_relations_impact = -0.1
+			years_of_nationalism = -3
+		}
+		
+		on_convert = {
+			change_religion = tantra
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { ZEN }
+		
+		uses_harmony = yes
+	}
+	
+	harmonized_modifier = harmonized_buddhist_group
+	
+	crusade_name = HOLY_WAR
 }

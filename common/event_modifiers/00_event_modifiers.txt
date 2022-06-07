@@ -87,6 +87,41 @@ harmonized_yarsan = {
 	religion = yes
 }
 
+harmonized_balto_slavic_group = {
+	hostile_attrition = 1
+	religion = yes
+}
+
+harmonized_finnic_group = {
+	enemy_core_creation = 0.1
+	religion = yes
+}
+
+harmonized_slavic_group = {
+	promote_culture_cost = -0.2
+	religion = yes
+}
+
+harmonized_bon = {
+	tolerance_of_heathens_capacity = 1
+	religion = yes
+}
+
+harmonized_asian_pagan_group = {
+	core_decay_on_your_own = -0.15
+	religion = yes
+}
+
+harmonized_buddhist_group = {
+	global_unrest = -1
+	religion = yes
+}
+
+harmonized_confucianism = {
+	global_institution_spread = 0.1
+	religion = yes
+}
+
 #####################
 # Province Modifier #
 #####################
@@ -1488,6 +1523,11 @@ plitvice = { # Plitvice lakes in Croatia
 	picture = "estuary_icon"
 }
 
+dharmapuri_mango = { #Dharmapuri 8429
+	trade_value = 0.75
+	trade_goods_size_modifier = 0.1
+}
+
 ##################################
 # Generic modifiers by docRobert #
 ##################################
@@ -1656,6 +1696,29 @@ vu_norse_pagan_stalemate = {
 	local_tax_modifier = -0.1
 	local_missionary_strength = -0.02
 	local_production_efficiency = 0.05
+}
+
+BYZ_offensive_stand = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.1
+	improve_relation_modifier = 0.2
+	naval_maintenance_modifier = -0.1
+	leader_naval_manuever = 1
+	spy_offence = 0.2
+	land_morale = 0.10
+}
+
+BYZ_defensive_stand = {
+	defensiveness = 0.05
+	fire_damage_received = -0.075
+	garrison_size = 0.2
+	enemy_core_creation = 0.2
+	advisor_cost = -0.1
+	technology_cost = -0.025
+	advisor_pool = 1
+	monthly_reform_progress_modifier = 0.1
+	global_unrest = -1
+	global_spy_defence = 0.2
 }
 	
 
@@ -1877,6 +1940,12 @@ great_horde_humiliated = {
 hired_mercenaries_I = {
 	land_forcelimit = 1
 }
+hired_mercenaries_II = {
+	land_forcelimit = 2
+}
+hired_mercenaries_III = {
+	land_forcelimit = 3
+}
 hired_mercenaries_IV = {
 	land_forcelimit = 4
 }
@@ -1945,6 +2014,21 @@ hired_mercenaries_CCL = {
 }
 
 #ARMY - ADDITIVE DEBUFF
+mercenary_upkeep_I = {
+	land_forcelimit = -1
+}
+
+mercenary_upkeep_II = {
+	land_forcelimit = -2
+}
+
+mercenary_upkeep_III = {
+	land_forcelimit = -3
+}
+
+mercenary_upkeep_IV = {
+	land_forcelimit = -4
+}
 mercenary_upkeep_V = {
 	land_forcelimit = -5
 }

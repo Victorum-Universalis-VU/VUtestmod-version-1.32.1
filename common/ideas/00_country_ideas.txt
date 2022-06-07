@@ -268,7 +268,10 @@ RUS_ideas = {
 	}
 
 	trigger = {
-		tag = RUS
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 	}
 	free = yes		#will be added at load.
 
@@ -1305,7 +1308,7 @@ PER_ideas = {
 }
 
 
-BUR_ideas = { # Brian fixed
+BUR_Ideas = { # Brian fixed
 	start = {
 		land_morale = 0.1
 		diplomatic_upkeep = 2			#An additional one added. Burgundy is a mess in BT
@@ -1344,7 +1347,7 @@ BUR_ideas = { # Brian fixed
 }
 
 
-GEN_ideas = { # Brian fixed
+GEN_Ideas = { # Brian fixed
 	start = {
 		trade_efficiency = 0.10
 		interest = -0.5
@@ -1384,48 +1387,49 @@ GEN_ideas = { # Brian fixed
 	}
 }
 
-SCO_ideas = { # Brian fixed
-	start = {
-		leader_land_shock = 1
-		land_forcelimit_modifier = 0.33
-	}
-	
-	bonus = {
-		land_maintenance_modifier = -0.05
-	}
-	
-	trigger = {
-		#tag = SCO # BT removed
-		primary_culture = scottish
-		NOT = {
-			tag = CEL
-			tag = TNA
-		}
-	}
-	free = yes
-	
-	break_the_black_douglas = {
-		global_unrest = -1
-	}
-	modernised_royal_scots_navy = {
-		global_ship_cost = -0.1
-	}
-	reign_in_the_clans = {
-		global_manpower_modifier = 0.2
-	}
-	comets = {
-		stability_cost_modifier = -0.10
-	}
-	royal_revenue = {
-		global_tax_modifier = 0.1
-	}
-	basilikon_doron = {
-		legitimacy = 1
-	}
-	act_of_revocation = {
-		ae_impact = -0.15
-	}
-}
+#VU San Felipe fix. BT had already moved this to zz_group_ideas. So, I had turned it off here as it is now redundant.
+#SCO_ideas = { # Brian fixed
+#	start = {
+#		leader_land_shock = 1
+#		land_forcelimit_modifier = 0.33
+#	}
+#	
+#	bonus = {
+#		land_maintenance_modifier = -0.05
+#	}
+#	
+#	trigger = {
+#		#tag = SCO # BT removed
+#		primary_culture = scottish
+#		NOT = {
+#			tag = CEL
+#			tag = TNA
+#		}
+#	}
+#	free = yes
+#	
+#	break_the_black_douglas = {
+#		global_unrest = -1
+#	}
+#	modernised_royal_scots_navy = {
+#		global_ship_cost = -0.1
+#	}
+#	reign_in_the_clans = {
+#		global_manpower_modifier = 0.2
+#	}
+#	comets = {
+#		stability_cost_modifier = -0.10
+#	}
+#	royal_revenue = {
+#		global_tax_modifier = 0.1
+#	}
+#	basilikon_doron = {
+#		legitimacy = 1
+#	}
+#	act_of_revocation = {
+#		ae_impact = -0.15
+#	}
+#}
 
 
 HUN_ideas = {
@@ -5423,7 +5427,7 @@ PRM_ideas = {
 	}
 	
 	trigger = {
-	    OR  {
+	    OR = {
 			tag = PRM
 			tag = VYA # BT
 		}

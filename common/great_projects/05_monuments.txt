@@ -789,6 +789,7 @@ tre_kronor = {
 				tag = SCA
 				tag = NOR
 				tag = DAN
+				tag = DNR
 			}
 		}
 	}
@@ -820,6 +821,7 @@ tre_kronor = {
 				tag = SCA
 				tag = NOR
 				tag = DAN
+				tag = DNR
 			}
 		}
 	}
@@ -842,6 +844,7 @@ tre_kronor = {
 				tag = SCA
 				tag = NOR
 				tag = DAN
+				tag = DNR
 			}
 		}	
 	}
@@ -902,7 +905,7 @@ tre_kronor = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			land_morale = 0.1
+			land_morale = 0.05
 			special_unit_forcelimit = 0.1
 			general_cost = -0.1
 		}
@@ -974,7 +977,7 @@ tre_kronor = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			max_absolutism = 5
-			land_morale = 0.2
+			land_morale = 0.15
 			special_unit_forcelimit = 0.3
 			general_cost = -0.30
 			nobles_loyalty_modifier = 0.03

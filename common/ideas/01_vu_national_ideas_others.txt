@@ -2954,7 +2954,7 @@ DNR_ideas = {
 		development_cost = -0.1
 		movement_speed = 0.1
 	}
-	dwa_colonial_nation = {
+	dnr_colonial_nation = {
 		envoy_travel_time = -0.2
 		reinforce_speed = 0.1
 		trade_company_investment_cost = -0.2

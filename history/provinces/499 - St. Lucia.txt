@@ -1,13 +1,13 @@
 #499 - St. Lucia
 
-owner = IRI
-controller = IRI
-add_core = IRI
+#owner = IRI	#Reducing tribal land at the start
+#controller = IRI
+#add_core = IRI
 culture = ineri
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Hewanorra"
-trade_goods = coffee
+trade_goods = sugar
 hre = no
 base_tax = 2
 base_production = 2
@@ -44,9 +44,17 @@ native_hostileness = 7
 	controller = FRA
 	add_core = FRA
 } # Thomas Warner's colony fails magnificently, French reestablish control
-1815.11.20 = {
+1723.1.1 = {
+	add_local_autonomy = 95
+} #Neutral territory
+1744.1.1 = {
+	add_local_autonomy = -95
+} #Control reestablished
+1762.1.1 = {
 	owner = GBR
 	controller = GBR
+} #Becomes British
+1815.11.20 = {
 	add_core = GBR
 	remove_core = FRA
 	capital = "Castries"

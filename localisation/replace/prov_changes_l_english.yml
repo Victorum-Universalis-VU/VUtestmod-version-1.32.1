@@ -376,7 +376,7 @@
  PROV1881:0 "Malliouhana"
  PROV1882:0 "Annaba"
  PROV1883:0 "Näsijärvi"
- PROV1884:0 "Saimaa"
+ PROV1884:0 "Vozia"
  PROV1885:0 "Päijänne"
  PROV1891:0 "Lake Burdur"
  PROV1893:0 "Lake Urmia"
@@ -722,6 +722,7 @@
  PROV4127:0 "Beszterce"
  PROV4128:0 "Brassó"         #Formerly 3155
  PROV4129:0 "Ust-Vym"
+ PROV4140:0 "Vozia"
  PROV4141:0 "Dithmarschen"           #Formerly 3136
  PROV4142:0 "Aarhus"
  PROV4143:0 "Østfold"                 #1.19 Scandinavia overhaul
@@ -752,6 +753,7 @@
  PROV4242:0 "Barysaw"         #Formerly 3234
  PROV4247:0 "Iskorosten"         #Formerly 3240
  PROV4251:0 "Mozhaysk"
+ PROV4250:0 "Rybnaya"
  PROV4253:0 "Volochok"
  PROV4256:0 "Usolsk"
  PROV4263:0 "Unzha"

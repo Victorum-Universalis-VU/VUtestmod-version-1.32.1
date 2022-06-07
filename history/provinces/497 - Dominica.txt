@@ -7,7 +7,7 @@ culture = ineri
 is_city = yes
 religion = animism
 capital = "Wai‘tu kubuli"
-trade_goods = naval_supplies 
+trade_goods = lumber		#was naval supplies
 hre = no
 base_tax = 2
 base_production = 3
@@ -22,6 +22,7 @@ native_hostileness = 7
 1493.11.3 = { discovered_by = CAS } # Columbus names the island "Sunday" but doesn't settle it for fierce Carib resistance
 1516.1.23 = {	discovered_by = SPA }
 #French and British agreed to leave the island as a sort of proto-reservation for the Caribs, but both independantly would later break this agreement due to the rich forests on the island, ideal for ship timber
+1660.1.1 = { trade_goods = lumber } #Island was not settled yet but used as rich source of lumber
 1690.1.1 = {
 	owner = FRA 
 	controller = FRA
@@ -31,8 +32,12 @@ native_hostileness = 7
 	capital = "Roseau"
 	culture = cosmopolitan_french
 	religion = catholic 
-	trade_goods = naval_supplies
+	trade_goods = lumber
 } #  French from Martinique and Guadeloupe
+1727.1.1 = {
+	base_tax = 4
+	base_production = 5
+} #Coffee plantations set, keeping lumber for resource variety
 1761.11.1 = {
 	controller = GBR
 } # The English took control at the end of the year

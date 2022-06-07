@@ -17,7 +17,7 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group
 
-1600.1.1 = { religion = vajrayana }
+1600.1.1 = { religion = tantra }
 1642.6.1 = {
 	controller = KSD
 	owner = KSD

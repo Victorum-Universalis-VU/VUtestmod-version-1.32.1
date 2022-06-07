@@ -1,6 +1,6 @@
 #Balkars
 
-graphical_culture = muslimgfx
+graphical_culture = greekgfx #muslimgfx
 
 color = { 171 185 209 }
 

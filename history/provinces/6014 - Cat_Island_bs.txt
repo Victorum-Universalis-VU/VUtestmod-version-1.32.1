@@ -1,13 +1,13 @@
 #6014 - Cat_Island_bs
 
-owner = KLO
-controller = KLO
-add_core = KLO
+#owner = KLO
+#controller = KLO
+#add_core = KLO
 culture = west_taino
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Como"
-trade_goods = salt 
+trade_goods = unknown
 hre = no
 base_tax = 1
 base_production = 1

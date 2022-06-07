@@ -1,10 +1,10 @@
 #501 - Barbados
 
-owner = IRI
-controller = IRI
-add_core = IRI
+#owner = IRI	#Reducing tribal land at the start
+#controller = IRI
+#add_core = IRI
 culture = ineri
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Ichirouganaim"
 trade_goods = tobacco

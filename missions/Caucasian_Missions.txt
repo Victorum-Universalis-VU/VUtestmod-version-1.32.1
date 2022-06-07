@@ -191,7 +191,7 @@ caucasus_missions_1 = {
 			add_prestige = 10
 			add_patriarch_authority = 0.2
 			add_harmony = 10
-			add_piety = 20
+			add_piety = 0.2
 			add_papal_influence = 25
 			add_authority = 10
 			add_karma = 10
@@ -1086,6 +1086,117 @@ caucasus_missions_4 = {
 #    END OF GENERIC MISSIONS    #
 #################################
 
+caucasus_missions_3_avaria = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = AVR
+	}
+	has_country_shield = yes
+
+	avaria_start_new_era = {
+		icon = give_him_back_his_legions
+		required_missions = { 
+			avaria_reform_government
+			avaria_religion_reform
+			caucasus_volga_don
+		}
+		position = 9
+		
+		trigger = {
+			stability = 2
+			owns_core_province = 286
+			owns_core_province = 288
+			NOT = { corruption = 1 }
+			NOT = { average_autonomy_above_min = 5 }
+			NOT = { num_of_loans = 1 }
+			OR = {
+				mil = 4
+				monthly_mil = 10
+			}
+			army_size_percentage = 0.8
+			OR = {
+				legitimacy_or_horde_unity = 75
+				manpower_percentage = 0.9
+			}
+			manpower_percentage = 0.75
+			OR = {
+				prestige = 90
+				power_projection = 50
+			}
+		}
+		effect = {
+			add_mil_power = 75
+			add_horde_unity = 25
+			crimea_region = {
+				add_permanent_claim = ROOT
+			}
+			country_event = {
+				id = vu_mission_events.3
+				days = 7
+			}
+		}
+	}
+}
+
+caucasus_missions_4_avaria = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = AVR
+	}
+	has_country_shield = yes
+	
+	avaria_reform_government = {
+		icon = mission_extent_yasak_to_the_east
+		required_missions = { avaria_expand_state }
+		position = 8
+		
+		trigger = {
+			government_reform_progress = 100
+			OR = {
+				mil = 4
+				monthly_mil = 10
+			}
+			has_advisor = yes
+			OR = {
+				AND = {
+					cavalry_fraction = 0.5
+					has_global_modifier_value = {
+						which = cavalry_power
+						value = 0.1
+					}
+					army_tradition = 25
+				}
+				AND = {
+					cavalry_fraction = 0.25
+					num_of_cavalry = 15
+					army_tradition = 50
+				}
+			}
+			has_leader_with = {
+				shock = 3
+				manuever = 4
+			}
+			stability = 2
+			NOT = { corruption = 1 }
+			adm_power = 200
+			dip_power = 200
+		}
+		effect = {
+			change_government_reform_progress = -100
+			add_adm_power = -100
+			add_dip_power = -100
+			add_stability = -1
+			country_event = {
+				id = vu_mission_events.1
+			}
+		}
+	}
+}
+
 caucasus_missions_5_avaria = {
 	slot = 5
 	generic = no
@@ -1259,6 +1370,44 @@ caucasus_missions_5_avaria = {
 			}
 			azov_area = {
 				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	avaria_religion_reform = {
+		icon = mission_recruit_the_cossacks
+		required_missions = { avaria_expand_state }
+		position = 8
+		
+		trigger = {
+			government_reform_progress = 100
+			OR = {
+				mil = 4
+				monthly_mil = 9
+			}
+			OR = {
+				dip = 4
+				monthly_mil = 10
+			}
+			OR = {
+				adm = 4
+				monthly_mil = 10
+			}
+			has_advisor = yes
+			stability = 2
+			NOT = { corruption = 1 }
+			adm_power = 200
+			dip_power = 200
+			NOT = { religious_unity = 0.95 }
+			any_owned_province = { religion = orthodox }
+			any_owned_province = { NOT = { religion = ROOT } }
+		}
+		effect = {
+			add_adm_power = -100
+			add_dip_power = -100
+			add_stability = -1
+			country_event = {
+				id = vu_mission_events.2
 			}
 		}
 	}

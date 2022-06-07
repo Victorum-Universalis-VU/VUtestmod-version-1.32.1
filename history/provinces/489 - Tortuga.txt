@@ -1,14 +1,14 @@
 #489 - Tortuga
 #VU Discovery Bug Fix
 
-owner = MRN
-controller = MRN
-add_core = MRN
+#owner = MRN	#Reducing tribal land at the start
+#controller = MRN
+#add_core = MRN
 culture = west_taino
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Xarama"
-trade_goods = naval_supplies 
+trade_goods = unknown
 hre = no
 base_tax = 3
 base_production = 4
@@ -29,7 +29,7 @@ native_hostileness = 1
 	religion = catholic
 	is_city = yes
 	capital = "Mariena"			#Doubt this settlement actually existed, and was named this, at this time, but... close enough for our purposes.
-	trade_goods =	naval_supplies
+	trade_goods = naval_supplies
 } #Conquistadors take Hispaniola
 1516.1.23 = {
 	discovered_by = SPA

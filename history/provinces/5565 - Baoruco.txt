@@ -1,14 +1,14 @@
 #5565 - Lesser Antilles
 #VU Discovery Bug Fix
 
-owner = JRA
-controller = JRA
-add_core = JRA
+#owner = JRA
+#controller = JRA
+#add_core = JRA
 culture = macoris
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Baoruco"
-trade_goods = sugar 
+trade_goods = unknown 
 hre = no
 base_tax = 4
 base_production = 5
@@ -29,7 +29,7 @@ native_hostileness = 3
 	religion = catholic
 	is_city = yes
 	capital = "Barahona"
-	trade_goods =	sugar		#fish or naval supplies would also be good, or anything, really
+	trade_goods = sugar		#fish or naval supplies would also be good, or anything, really
 } #Conquistadors take Hispaniola
 1516.1.23 = {
 	discovered_by = SPA

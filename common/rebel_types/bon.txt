@@ -171,7 +171,7 @@ bon_rebels = {
 	demands_enforced_effect = {		
 		if = {
 			limit = {
-				NOT = { religion_group = eastern }
+				NOT = { religion_group = asian_pagan_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -229,7 +229,7 @@ bon_rebels = {
 				NOT = { dominant_religion = bon }
 				NOT = { tag = PAP }
 				NOT = { has_country_modifier = heathen_tolerance_modifier }
-				religion_group = { NOT = eastern }
+				religion_group = { NOT = asian_pagan_group }
 			}
 			add_country_modifier = {
 				name = "heathen_tolerance_modifier"

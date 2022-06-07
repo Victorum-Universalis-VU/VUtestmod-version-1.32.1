@@ -1,11 +1,11 @@
 #5707 - Guantanamo Bay
 #VU Discovery Bug Fix
 
-owner = CIB
-controller = CIB
-add_core = CIB
+#owner = CIB	#Limiting tribal land from the start
+#controller = CIB
+#add_core = CIB
 culture = west_taino
-is_city = yes
+#is_city = yes
 religion = animism
 capital = "Guantanamo"
 trade_goods = unknown 

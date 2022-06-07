@@ -18,7 +18,7 @@
 	}
 
 	arch_monarchy_reform = {
-		icon = "king"
+		icon = "arch_monarchy"
 		allow_normal_conversion = yes
 		valid_for_nation_designer = yes
 		nation_designer_cost = 10
@@ -197,6 +197,10 @@
 			OR = {
 				tag = CAS
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = crown_of_castille
 			}
 		}
@@ -222,6 +226,10 @@
 		potential = {
 			OR = {
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = hispanic_kingdom
 			}
 		}
@@ -248,6 +256,10 @@
 		potential = {
 			OR = {
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = enlightened_despotism_reform
 				have_had_reform = enlightened_despotism_reform
 			}
@@ -1222,6 +1234,7 @@
 						religion_group = eastern
 						religion_group = dharmic
 						religion_group = muslim
+						religion_group = buddhist_group
 						religion = animism
 					}
 					technology_group = chinese
@@ -1238,6 +1251,7 @@
 				religion_group = eastern
 				religion_group = dharmic
 				religion_group = muslim
+				religion_group = buddhist_group
 			}
 			technology_group = chinese
 		}
@@ -1269,6 +1283,7 @@
 				religion_group = eastern
 				religion_group = dharmic
 				religion_group = muslim
+				religion_group = buddhist_group
 				religion = animism
 			}
 			technology_group = chinese
@@ -2046,6 +2061,10 @@
 			OR = {
 				tag = CAS
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				tag = ARA
 				has_reform = respect_union_reform
 			}
@@ -2172,6 +2191,7 @@
 			OR = {
 				tag = MOS
 				tag = RUS
+				tag = TZR
 				primary_culture = russian
 				has_reform = muscovite_manorialism_reform
 			}
@@ -2180,6 +2200,7 @@
 			OR = {
 				tag = MOS
 				tag = RUS
+				tag = TZR
 				primary_culture = russian
 				has_reform = muscovite_manorialism_reform
 			}
@@ -4208,6 +4229,10 @@
 			OR = {
 				tag = CAS
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = casa_de_contraction_reform
 			}
 		}
@@ -4215,6 +4240,10 @@
 			OR = {
 				tag = CAS
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = casa_de_contraction_reform
 			}
 		}
@@ -5847,6 +5876,7 @@
 			OR = {
 				tag = RUS
 				tag = MOS
+				tag = TZR
 				primary_culture = russian
 				accepted_culture = russian
 				has_reform = academy_of_science_reform
@@ -5856,6 +5886,7 @@
 			OR = {
 				tag = RUS
 				tag = MOS
+				tag = TZR
 				primary_culture = russian
 				accepted_culture = russian
 				has_reform = academy_of_science_reform
@@ -6002,6 +6033,7 @@
 			OR = {
 				tag = RUS
 				tag = MOS
+				tag = TZR
 				primary_culture = russian
 				has_reform = table_of_ranks_reform
 			}
@@ -6010,6 +6042,7 @@
 			OR = {
 				tag = RUS
 				tag = MOS
+				tag = TZR
 				primary_culture = russian
 				has_reform = table_of_ranks_reform
 			}
@@ -7965,12 +7998,20 @@
 		potential = {
 			OR = { 
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = nueva_planta_decrees_reform
 			}
 		}
 		trigger = {
 			OR = { 
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = nueva_planta_decrees_reform
 			}
 		}
@@ -7990,6 +8031,7 @@
 		potential = { 
 			OR = {
 				tag = RUS
+				tag = TZR
 				primary_culture = russian
 				has_reform = toleration_of_all_faiths_edict_reform
 			}
@@ -7997,6 +8039,7 @@
 		trigger = {
 			OR = {
 				tag = RUS
+				tag = TZR
 				primary_culture = russian
 				has_reform = toleration_of_all_faiths_edict_reform
 			}
@@ -8182,12 +8225,20 @@
 		potential = {
 			OR = {
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = abolish_clergy_privileges_reform
 			}
 		}
 		trigger = {
 			OR = {
 				tag = SPA
+				tag = BSP
+				tag = SPB
+				tag = BBS
+				tag = CSP
 				has_reform = abolish_clergy_privileges_reform
 			}
 		}
@@ -8208,6 +8259,7 @@
 		potential = {
 			OR = {
 				tag = RUS
+				tag = TZR
 				primary_culture = russian
 				has_reform = peters_council_reform
 			}
@@ -8215,6 +8267,7 @@
 		trigger = {
 			OR = {
 				tag = RUS
+				tag = TZR
 				primary_culture = russian
 				has_reform = peters_council_reform
 			}
@@ -8528,7 +8581,7 @@
 	}
 
 	professional_army_reform = {
-		icon = "soldiers"
+		icon = "professional_army"
 		allow_normal_conversion = yes
 		effect = {
 			change_variable = {
@@ -8940,7 +8993,7 @@
 
 
 	general_war_commissariat_reform = {
-		icon = "king"
+		icon = "general_war_commissariat"
 		allow_normal_conversion = yes
 		effect = {
 			change_variable = {

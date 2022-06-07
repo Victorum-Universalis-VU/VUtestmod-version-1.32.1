@@ -10,9 +10,9 @@ culture = czech
 religion = hussite
 trade_goods = books
 hre = yes
-base_tax = 12 
-base_production = 10
-base_manpower = 8
+base_tax = 10
+base_production = 8
+base_manpower = 4
 is_city = yes
 fort_15th = yes
 

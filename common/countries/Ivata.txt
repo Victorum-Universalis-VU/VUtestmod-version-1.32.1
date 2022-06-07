@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = asiangfx
+graphical_culture = polynesiangfx #asiangfx
 
 color = { 193 10 19 }
 

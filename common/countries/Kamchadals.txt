@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 
-graphical_culture = inuitgfx
+graphical_culture = mongolgfx #inuitgfx
 
 color = { 182 143 149 }
 revolutionary_colors = { 1 0 15 }

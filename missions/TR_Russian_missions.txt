@@ -10,6 +10,7 @@ tr_russia_religious_missions = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
@@ -31,7 +32,7 @@ tr_russia_religious_missions = {
 			}
 		}
 		effect = {
-			add_patriarch_authority = 0.1
+			add_patriarch_authority = 0.75
 			add_estate_loyalty = {
 				estate = estate_church
 				loyalty = 10
@@ -44,6 +45,8 @@ tr_russia_religious_missions = {
 				}
 				add_prestige = 10
 			}
+			add_adm_power = 250
+			add_prestige = 25
 		}
 	}
 }
@@ -56,7 +59,10 @@ tr_russia_exclusive_church = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = RUS
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -100,6 +106,8 @@ tr_russia_exclusive_church = {
 				duration = -1
 			}
 			add_treasury = -1500
+			add_adm_power = 500
+			add_prestige = 50
 		}
 	}
 }
@@ -112,7 +120,10 @@ tr_muscovy_conquest = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = RUS
+		OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -141,7 +152,8 @@ tr_muscovy_conquest = {
 				name = "baltic_ambition_new"
 				duration = 5475
 			}
-			add_treasury = 2500
+			add_treasury = 7500
+			add_dip_power = 250
 		}
 	}
 	rus_partition_poland_mission = {
@@ -165,7 +177,10 @@ tr_muscovy_conquest = {
 				name = "rus_partition_poland_modifier"
 				duration = 7300
 			}
-			add_treasury = 2500
+			add_treasury = 15000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	
@@ -182,6 +197,7 @@ tr_russia_conquest_1 = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
@@ -193,7 +209,7 @@ tr_russia_conquest_1 = {
 		required_missions = {  }
 		completed_by = 1478.1.15
 		trigger = {
-			army_size_percentage = 1
+			army_size_percentage = 0.75
 		}
 		effect = {
 			custom_tooltip = bt_novgorod_perm_claims
@@ -238,7 +254,10 @@ tr_russia_conquest_1 = {
 					add_permanent_claim = ROOT
 				}
 			}
-			add_treasury = 4500
+			add_treasury = 7500
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	tr_subjugate_novgorod = {
@@ -311,7 +330,10 @@ tr_russia_conquest_1 = {
 				add_base_production = 1
 				add_base_manpower = 1
 			}
-			add_treasury = 1500
+			add_treasury = 7500
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	tr_consolidate_russia_mission = {
@@ -390,6 +412,9 @@ tr_russia_conquest_1 = {
 				}
 			}
 			add_treasury = -7500
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	# liberate ruthenia
@@ -443,7 +468,10 @@ tr_russia_conquest_1 = {
 					add_permanent_claim = ROOT
 				}
 			}
-			add_treasury = 3500
+			add_treasury = 5000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 }
@@ -456,7 +484,10 @@ tr_russia_exclusive_1 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = RUS
+		OR = {
+			tag = RUS
+			tag = TZR
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -491,7 +522,10 @@ tr_russia_exclusive_1 = {
 					add_permanent_claim = ROOT
 				}
 			}
-			add_treasury = 4500
+			add_treasury = 7500
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	
@@ -525,6 +559,8 @@ tr_russia_exclusive_1 = {
 		effect = {
 			country_event = { id = flavor_rus.2001 }
 			add_treasury = -1500
+			add_adm_power = 250
+			add_dip_power = 250
 		}
 	}
 	rus_streltsy_mission = {
@@ -536,12 +572,13 @@ tr_russia_exclusive_1 = {
 			army_size_percentage = 1
 		}
 		effect = {
-			add_army_tradition = 15
+			add_army_tradition = 250
 			add_country_modifier = {
 				name = "loyal_streltsy"
 				duration = 7300
 			}
-			add_treasury = -5000
+			add_treasury = -2500
+			add_mil_power = 250
 		}
 	}
 	russian_abolutism_mission = {
@@ -571,7 +608,8 @@ tr_russia_exclusive_1 = {
 			# certain gov reforms if dharma
 		}
 		effect = {
-			add_adm_power = 50 # or reform mana if dharma enabled
+			add_adm_power = 250 # or reform mana if dharma enabled
+			add_dip_power = 250
 			add_country_modifier = {
 				name = "russian_autocracy"
 				duration = 7300
@@ -591,6 +629,7 @@ tr_russia_conquest_2 = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
@@ -626,7 +665,10 @@ tr_russia_conquest_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 2500
+			add_treasury = 5000
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
 		}
 	}
 	tr_conquest_of_scandinavia = {
@@ -652,6 +694,9 @@ tr_russia_conquest_2 = {
 				duration = 7300
 			}
 			add_treasury = 7500
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
 		}
 	}
 	tr_conquest_of_khorasan = {
@@ -689,7 +734,10 @@ tr_russia_conquest_2 = {
 					duration = 7300
 				}
 			}
-			add_treasury = 5000
+			add_treasury = 7500
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 }
@@ -702,7 +750,10 @@ tr_russia_exclusive_2 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = RUS
+		OR = {
+			tag = RUS
+			tag = TZR
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -761,6 +812,8 @@ tr_russia_exclusive_2 = {
 				}
 			}
 			add_treasury = -2500
+			add_adm_power = 150
+			add_dip_power = 150
 		}
 	}
 	time_of_troubles_mission = {
@@ -783,9 +836,12 @@ tr_russia_exclusive_2 = {
 			}
 		}
 		effect = {
-			add_prestige = 10
+			add_prestige = 25
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
 			# gov reform mana if dharma
-			add_treasury = -10000
+			add_treasury = 15000
 		}
 	}
 	tr_revolution_mission = {
@@ -827,7 +883,10 @@ tr_russia_exclusive_2 = {
 					duration = -1
 				}
 			}
-			add_treasury = -15000
+			add_treasury = -25000
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
 		}
 	}
 }
@@ -843,6 +902,7 @@ tr_russia_conquest_3 = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
@@ -923,7 +983,10 @@ tr_russia_conquest_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 3500
+			add_treasury = 5000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	tr_cross_the_mongol_border = {
@@ -1017,7 +1080,10 @@ tr_russia_conquest_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 2500
+			add_treasury = 7500
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	tr_subjugate_crimea = {
@@ -1057,7 +1123,10 @@ tr_russia_conquest_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 5000
+			add_treasury = 7500
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	tr_into_the_caucasus = {
@@ -1108,7 +1177,10 @@ tr_russia_conquest_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 5500
+			add_treasury = 15000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	tr_conquest_of_persia = {
@@ -1190,7 +1262,10 @@ tr_russia_conquest_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 20000
+			add_treasury = 30000
+			add_adm_power = 350
+			add_dip_power = 350
+			add_mil_power = 350
 		}
 	}
 	tr_russian_colony_in_east_siberia = {
@@ -1272,6 +1347,9 @@ tr_russia_conquest_3 = {
 				add_permanent_claim = ROOT
 			}
 			add_treasury = -2500
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
 		}
 	}
 	
@@ -1304,7 +1382,10 @@ tr_russia_conquest_3 = {
 					duration = 7300
 				}
 			}
-			add_treasury = 1500
+			add_treasury = 5000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 }
@@ -1317,7 +1398,10 @@ tr_russia_exclusive_3 = {
 		has_dlc = "Third Rome"
 	}
 	potential = {
-		tag = RUS
+	    OR = {
+		    tag = RUS
+			tag = TZR
+		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1375,6 +1459,9 @@ tr_russia_exclusive_3 = {
 				duration = 7300
 			}
 			add_treasury = -2000
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
 		}
 	}
 	
@@ -1404,7 +1491,8 @@ tr_russia_exclusive_3 = {
 				name = "proto_industrialization"
 				duration = 9125
 			}
-			add_years_of_income = 1.5
+			add_years_of_income = 2.5
+			add_treasury = 100000
 		}
 	}
 }
@@ -1420,6 +1508,7 @@ tr_siberia_missions = {
 		OR = {
 			tag = MOS
 			tag = RUS
+			tag = TZR
 		}
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
@@ -1492,7 +1581,10 @@ tr_siberia_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 5000
+			add_treasury = 10000
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
 		}
 	}
 	tr_conquer_remaining_steppes_mission = {
@@ -1578,7 +1670,10 @@ tr_siberia_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_treasury = 2500
+			add_treasury = 5000
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
 		}
 	}
 	tr_conquer_transoxania = {
@@ -1608,7 +1703,10 @@ tr_siberia_missions = {
 					duration = 5475
 				}
 			}
-			add_treasury = 2500
+			add_treasury = 5000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	
@@ -1640,8 +1738,10 @@ tr_siberia_missions = {
 			}
 		}
 		effect = {
-			add_dip_power = 50
-			add_treasury = 2500
+			add_treasury = 5000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 	tr_russian_colony_in_west_siberia_new = {
@@ -1675,6 +1775,9 @@ tr_siberia_missions = {
 				siege = 0
 			}
 			add_treasury = -2500
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
 		}
 	}
 	rus_complete_west_siberia = {
@@ -1722,7 +1825,10 @@ tr_siberia_missions = {
 					duration = 7300
 				}
 			}
-			add_treasury = 2500
+			add_treasury = 5000
+			add_adm_power = 150
+			add_dip_power = 150
+			add_mil_power = 150
 		}
 	}
 	
@@ -1756,6 +1862,9 @@ tr_siberia_missions = {
 				add_base_manpower = 1
 			}
 			add_treasury = -5000
+			add_adm_power = 250
+			add_dip_power = 250
+			add_mil_power = 250
 		}
 	}
 }

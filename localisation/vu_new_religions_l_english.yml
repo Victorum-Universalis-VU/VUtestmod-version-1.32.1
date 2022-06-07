@@ -160,6 +160,8 @@
  vu_pagan_rebels_demand_desc:0 "State's religion has been opressing native faith for too long. It is time for pagan reactionary uprising."
  
  
+ asian_pagan_group:0 "East Asian Paganism"
+ 
  OLD_BON:0 "Old Bon"
  bon_religion_desc:0 "Bön is ancient, pre-Buddhist religion of Tibet. Its nature is animistic and shamanistic in nature, and consists of many deities. Its oroginal shape - Pre-Buddhist Bön - has gone through many reforms by taking influence from the spread of neighbor religions. First into Yungdrung Bon in 10th century and finally into New Bon around 14th century. Both times incorporating various aspects of Tibetan Buddhism and Buddhist schools of thoughts. In 1444 Bön remains dominant in mountainous Tibet and some regions of Nepal but it's long past its days of the greatest power."
  bon: "Bön"
@@ -179,3 +181,25 @@
  monothelite_rebels_army: "$RELIGION$ Army"
  monothelite_rebels_demand: "Convert $COUNTRYNAME$"
  monothelite_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ 
+ buddhist_group:0 "Buddhist"
+ 
+ tantra_religion_desc:0 "Tantra is advanced Buddhist practise of achieving enlightment. While tantra elements can easily be found in all Buddhist branches and even Hinduism, this religion is centered around it especially. In game Tantra religion represents Tibetan version of Buddhism and it is where it can be found in 1444."
+ tantra: "Tantra"
+ tantra_rebels_title: "Religious"
+ tantra_rebels_name: "$RELIGION$ Zealots"
+ tantra_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ tantra_rebels_army: "$RELIGION$ Army"
+ tantra_rebels_demand: "Convert $COUNTRYNAME$"
+ tantra_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ 
+ taoism_religion_desc:0 "Taoism or Daoism can be viewed as both school of philosophical thought and religion that both share ideas and concepts of Chinese origin and emphasize living in harmony with the Tao - natural order of the universe. In Taoism, the Tao is the source of everything and the ultimate principle underlying reality. Taoism teaches about the various disciplines for achieving perfection through self-cultivation. This can be done through the use of Taoist techniques and by becoming one with the unplanned rhythms of the all, called 'the way' or 'Tao'. Taoist ethics vary depending on the particular school, but in general tend to emphasize wu wei (action without intention), naturalness, simplicity, spontaneity and the Three Treasures - compassion, frugality and humility. In 1444 Taoism is scattered in various regions of China, mostly the southern part."
+ taoism: "Taoism"
+ taoism_rebels_title: "Religious"
+ taoism_rebels_name: "$RELIGION$ Zealots"
+ taoism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ taoism_rebels_army: "$RELIGION$ Army"
+ taoism_rebels_demand: "Convert $COUNTRYNAME$"
+ taoism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."

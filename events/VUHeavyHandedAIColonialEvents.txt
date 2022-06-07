@@ -454,54 +454,54 @@ province_event = {
 	}
 }
 
-province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.10
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
-	picture = COLONIZATION_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		owner = { ai = yes }
-		any_province = {
-			colonial_region = colonial_bahamas
-			bt_historical_colony_events_for_the_ai_candidate = yes
-		}
-	}
-
-	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
-		ai_chance = { factor = 99 }
-		random_province = {
-			limit = {
-				colonial_region = colonial_bahamas
-				bt_historical_colony_events_for_the_ai_candidate = yes
-			}
-			create_colony = 60
-			change_native_hostileness = -9
-		}
-	}
-
-	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				bt_more_colonies_than_colonists_check = yes
-			}
-			modifier = {
-				factor = 100
-				OR = {
-					owner = { is_in_deficit = yes }
-					owner = { is_bankrupt = yes }
-				}
-			}
-		}
-		owner = { add_prestige = -1 }
-	}
-}
+#province_event = {
+#	id = BeyondTypusHeavyHandedAIColonialEvents.10
+#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	picture = COLONIZATION_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		owner = { ai = yes }
+#		any_province = {
+#			colonial_region = colonial_bahamas
+#			bt_historical_colony_events_for_the_ai_candidate = yes
+#		}
+#	}
+#
+#	option = { # Success
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		ai_chance = { factor = 99 }
+#		random_province = {
+#			limit = {
+#				colonial_region = colonial_bahamas
+#				bt_historical_colony_events_for_the_ai_candidate = yes
+#			}
+#			create_colony = 60
+#			change_native_hostileness = -9
+#		}
+#	}
+#
+#	option = { # Fails
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		ai_chance = {
+#			factor = 1
+#			modifier = {
+#				factor = 100
+#				bt_more_colonies_than_colonists_check = yes
+#			}
+#			modifier = {
+#				factor = 100
+#				OR = {
+#					owner = { is_in_deficit = yes }
+#					owner = { is_bankrupt = yes }
+#				}
+#			}
+#		}
+#		owner = { add_prestige = -1 }
+#	}
+#}
 
 province_event = {
 	id = BeyondTypusHeavyHandedAIColonialEvents.11
@@ -1152,103 +1152,103 @@ province_event = {
 	}
 }
 
-province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.24
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
-	picture = COLONIZATION_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		owner = { ai = yes }
-		any_province = {
-			colonial_region = colonial_mato_grosso
-			bt_historical_colony_events_for_the_ai_candidate = yes
-		}
-	}
+#province_event = {
+#	id = BeyondTypusHeavyHandedAIColonialEvents.24
+#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	picture = COLONIZATION_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		owner = { ai = yes }
+#		any_province = {
+#			colonial_region = colonial_mato_grosso
+#			bt_historical_colony_events_for_the_ai_candidate = yes
+#		}
+#	}
+#
+#	option = { # Success
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		ai_chance = { factor = 99 }
+#		random_province = {
+#			limit = {
+#				colonial_region = colonial_mato_grosso
+#				bt_historical_colony_events_for_the_ai_candidate = yes
+#			}
+#			create_colony = 60
+#			change_native_hostileness = -9
+#		}
+#	}
+#
+#	option = { # Fails
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		ai_chance = {
+#			factor = 1
+#			modifier = {
+#				factor = 100
+#				bt_more_colonies_than_colonists_check = yes
+#			}
+#			modifier = {
+#				factor = 100
+#				OR = {
+#					owner = { is_in_deficit = yes }
+#					owner = { is_bankrupt = yes }
+#				}
+#			}
+#		}
+#		owner = { add_prestige = -1 }
+#	}
+#}
 
-	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
-		ai_chance = { factor = 99 }
-		random_province = {
-			limit = {
-				colonial_region = colonial_mato_grosso
-				bt_historical_colony_events_for_the_ai_candidate = yes
-			}
-			create_colony = 60
-			change_native_hostileness = -9
-		}
-	}
-
-	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				bt_more_colonies_than_colonists_check = yes
-			}
-			modifier = {
-				factor = 100
-				OR = {
-					owner = { is_in_deficit = yes }
-					owner = { is_bankrupt = yes }
-				}
-			}
-		}
-		owner = { add_prestige = -1 }
-	}
-}
-
-province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.25
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
-	picture = COLONIZATION_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		owner = { ai = yes }
-		any_province = {
-			colonial_region = colonial_maranhao
-			bt_historical_colony_events_for_the_ai_candidate = yes
-		}
-	}
-
-	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
-		ai_chance = { factor = 99 }
-		random_province = {
-			limit = {
-				colonial_region = colonial_maranhao
-				bt_historical_colony_events_for_the_ai_candidate = yes
-			}
-			create_colony = 60
-			change_native_hostileness = -9
-		}
-	}
-
-	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				bt_more_colonies_than_colonists_check = yes
-			}
-			modifier = {
-				factor = 100
-				OR = {
-					owner = { is_in_deficit = yes }
-					owner = { is_bankrupt = yes }
-				}
-			}
-		}
-		owner = { add_prestige = -1 }
-	}
-}
+#province_event = {
+#	id = BeyondTypusHeavyHandedAIColonialEvents.25
+#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	picture = COLONIZATION_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		owner = { ai = yes }
+#		any_province = {
+#			colonial_region = colonial_maranhao
+#			bt_historical_colony_events_for_the_ai_candidate = yes
+#		}
+#	}
+#
+#	option = { # Success
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		ai_chance = { factor = 99 }
+#		random_province = {
+#			limit = {
+#				colonial_region = colonial_maranhao
+#				bt_historical_colony_events_for_the_ai_candidate = yes
+#			}
+#			create_colony = 60
+#			change_native_hostileness = -9
+#		}
+#	}
+#
+#	option = { # Fails
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		ai_chance = {
+#			factor = 1
+#			modifier = {
+#				factor = 100
+#				bt_more_colonies_than_colonists_check = yes
+#			}
+#			modifier = {
+#				factor = 100
+#				OR = {
+#					owner = { is_in_deficit = yes }
+#					owner = { is_bankrupt = yes }
+#				}
+#			}
+#		}
+#		owner = { add_prestige = -1 }
+#	}
+#}
 
 province_event = {
 	id = BeyondTypusHeavyHandedAIColonialEvents.26
@@ -1348,152 +1348,152 @@ province_event = {
 	}
 }
 
-province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.28
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
-	picture = COLONIZATION_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		owner = { ai = yes }
-		any_province = {
-			colonial_region = colonial_rio_grande
-			bt_historical_colony_events_for_the_ai_candidate = yes
-		}
-	}
+#province_event = {
+#	id = BeyondTypusHeavyHandedAIColonialEvents.28
+#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	picture = COLONIZATION_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		owner = { ai = yes }
+#		any_province = {
+#			colonial_region = colonial_rio_grande
+#			bt_historical_colony_events_for_the_ai_candidate = yes
+#		}
+#	}
+#
+#	option = { # Success
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		ai_chance = { factor = 99 }
+#		random_province = {
+#			limit = {
+#				colonial_region = colonial_rio_grande
+#				bt_historical_colony_events_for_the_ai_candidate = yes
+#			}
+#			create_colony = 60
+#			change_native_hostileness = -9
+#		}
+#	}
+#
+#	option = { # Fails
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		ai_chance = {
+#			factor = 1
+#			modifier = {
+#				factor = 100
+#				bt_more_colonies_than_colonists_check = yes
+#			}
+#			modifier = {
+#				factor = 100
+#				OR = {
+#					owner = { is_in_deficit = yes }
+#					owner = { is_bankrupt = yes }
+#				}
+#			}
+#		}
+#		owner = { add_prestige = -1 }
+#	}
+#}
 
-	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
-		ai_chance = { factor = 99 }
-		random_province = {
-			limit = {
-				colonial_region = colonial_rio_grande
-				bt_historical_colony_events_for_the_ai_candidate = yes
-			}
-			create_colony = 60
-			change_native_hostileness = -9
-		}
-	}
+#province_event = {
+#	id = BeyondTypusHeavyHandedAIColonialEvents.29
+#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	picture = COLONIZATION_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		owner = { ai = yes }
+#		any_province = {
+#			colonial_region = colonial_amazonia
+#			bt_historical_colony_events_for_the_ai_candidate = yes
+#		}
+#	}
+#
+#	option = { # Success
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		ai_chance = { factor = 99 }
+#		random_province = {
+#			limit = {
+#				colonial_region = colonial_amazonia
+#				bt_historical_colony_events_for_the_ai_candidate = yes
+#			}
+#			create_colony = 60
+#			change_native_hostileness = -9
+#		}
+#	}
+#
+#	option = { # Fails
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		ai_chance = {
+#			factor = 1
+#			modifier = {
+#				factor = 100
+#				bt_more_colonies_than_colonists_check = yes
+#			}
+#			modifier = {
+#				factor = 100
+#				OR = {
+#					owner = { is_in_deficit = yes }
+#					owner = { is_bankrupt = yes }
+#				}
+#			}
+#		}
+#		owner = { add_prestige = -1 }
+#	}
+#}
 
-	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				bt_more_colonies_than_colonists_check = yes
-			}
-			modifier = {
-				factor = 100
-				OR = {
-					owner = { is_in_deficit = yes }
-					owner = { is_bankrupt = yes }
-				}
-			}
-		}
-		owner = { add_prestige = -1 }
-	}
-}
-
-province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.29
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
-	picture = COLONIZATION_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		owner = { ai = yes }
-		any_province = {
-			colonial_region = colonial_amazonia
-			bt_historical_colony_events_for_the_ai_candidate = yes
-		}
-	}
-
-	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
-		ai_chance = { factor = 99 }
-		random_province = {
-			limit = {
-				colonial_region = colonial_amazonia
-				bt_historical_colony_events_for_the_ai_candidate = yes
-			}
-			create_colony = 60
-			change_native_hostileness = -9
-		}
-	}
-
-	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				bt_more_colonies_than_colonists_check = yes
-			}
-			modifier = {
-				factor = 100
-				OR = {
-					owner = { is_in_deficit = yes }
-					owner = { is_bankrupt = yes }
-				}
-			}
-		}
-		owner = { add_prestige = -1 }
-	}
-}
-
-province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.30
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
-	picture = COLONIZATION_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		owner = { ai = yes }
-		any_province = {
-			colonial_region = colonial_patagonia
-			bt_historical_colony_events_for_the_ai_candidate = yes
-		}
-	}
-
-	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
-		ai_chance = { factor = 99 }
-		random_province = {
-			limit = {
-				colonial_region = colonial_patagonia
-				bt_historical_colony_events_for_the_ai_candidate = yes
-			}
-			create_colony = 60
-			change_native_hostileness = -9
-		}
-	}
-
-	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				bt_more_colonies_than_colonists_check = yes
-			}
-			modifier = {
-				factor = 100
-				OR = {
-					owner = { is_in_deficit = yes }
-					owner = { is_bankrupt = yes }
-				}
-			}
-		}
-		owner = { add_prestige = -1 }
-	}
-}
+#province_event = {
+#	id = BeyondTypusHeavyHandedAIColonialEvents.30
+#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	picture = COLONIZATION_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		owner = { ai = yes }
+#		any_province = {
+#			colonial_region = colonial_patagonia
+#			bt_historical_colony_events_for_the_ai_candidate = yes
+#		}
+#	}
+#
+#	option = { # Success
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		ai_chance = { factor = 99 }
+#		random_province = {
+#			limit = {
+#				colonial_region = colonial_patagonia
+#				bt_historical_colony_events_for_the_ai_candidate = yes
+#			}
+#			create_colony = 60
+#			change_native_hostileness = -9
+#		}
+#	}
+#
+#	option = { # Fails
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		ai_chance = {
+#			factor = 1
+#			modifier = {
+#				factor = 100
+#				bt_more_colonies_than_colonists_check = yes
+#			}
+#			modifier = {
+#				factor = 100
+#				OR = {
+#					owner = { is_in_deficit = yes }
+#					owner = { is_bankrupt = yes }
+#				}
+#			}
+#		}
+#		owner = { add_prestige = -1 }
+#	}
+#}
 
 province_event = {
 	id = BeyondTypusHeavyHandedAIColonialEvents.31
@@ -1691,54 +1691,54 @@ province_event = {
 	}
 }
 
-province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.35
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
-	picture = COLONIZATION_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		owner = { ai = yes }
-		any_province = {
-			colonial_region = colonial_jamaica
-			bt_historical_colony_events_for_the_ai_candidate = yes
-		}
-	}
-
-	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
-		ai_chance = { factor = 99 }
-		random_province = {
-			limit = {
-				colonial_region = colonial_jamaica
-				bt_historical_colony_events_for_the_ai_candidate = yes
-			}
-			create_colony = 60
-			change_native_hostileness = -9
-		}
-	}
-
-	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 100
-				bt_more_colonies_than_colonists_check = yes
-			}
-			modifier = {
-				factor = 100
-				OR = {
-					owner = { is_in_deficit = yes }
-					owner = { is_bankrupt = yes }
-				}
-			}
-		}
-		owner = { add_prestige = -1 }
-	}
-}
+#province_event = {
+#	id = BeyondTypusHeavyHandedAIColonialEvents.35
+#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	picture = COLONIZATION_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		owner = { ai = yes }
+#		any_province = {
+#			colonial_region = colonial_jamaica
+#			bt_historical_colony_events_for_the_ai_candidate = yes
+#		}
+#	}
+#
+#	option = { # Success
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		ai_chance = { factor = 99 }
+#		random_province = {
+#			limit = {
+#				colonial_region = colonial_jamaica
+#				bt_historical_colony_events_for_the_ai_candidate = yes
+#			}
+#			create_colony = 60
+#			change_native_hostileness = -9
+#		}
+#	}
+#
+#	option = { # Fails
+#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		ai_chance = {
+#			factor = 1
+#			modifier = {
+#				factor = 100
+#				bt_more_colonies_than_colonists_check = yes
+#			}
+#			modifier = {
+#				factor = 100
+#				OR = {
+#					owner = { is_in_deficit = yes }
+#					owner = { is_bankrupt = yes }
+#				}
+#			}
+#		}
+#		owner = { add_prestige = -1 }
+#	}
+#}
 
 province_event = {
 	id = BeyondTypusHeavyHandedAIColonialEvents.36

@@ -1188,6 +1188,10 @@
  desc_vu_norse_pagan_satisfied:0 "Demands of local norse communities were approved."
  vu_norse_pagan_stalemate:0 "Diplomatic Compromise with Norse People"
  desc_vu_norse_pagan_stalemate:0 "Diplomatic stalemate has been reached between unhappy norse communities and the government. Situation is still uneasy there."
+ BYZ_offensive_stand:0 "Offensive outward focus"
+ desc_BYZ_offensive_stand:0 "To survive Ottoman menace we must focus our efforts externally."
+ BYZ_defensive_stand:0 "Defensive inward focus"
+ desc_BYZ_defensive_stand:0 "To survive Ottoman menace we must focus our efforts internally and raise improve our defensiveness as much as we can."
  
  ##########################
  # New province modifiers
@@ -1216,6 +1220,8 @@
  desc_aurora_borealis:0 "Beautiful aurora can often be seen in the region. For many local people the lights in the sky have special religious meaning."
  plitvice:0 "Plitvice lakes"
  desc_plitvice:0 "Region of Plitvice is home to unique terrain type, among which a boutfiul of beautiful lakes is scattered."
+ dharmapuri_mango:0 "Dharmapuri mango plantations"
+ desc_dharmapuri_mango:0 "Province of Dharmapuri is fameous for being top leading producer of mango in the entire region. Those sweet tropical fruits are then sold for profit."
 
 
 
@@ -1299,6 +1305,10 @@
  transitional_government_reform_desc:0 "A transitional government fulfills administrative duties in a society in transition, often a nation recently independent from a foreign power, or a nation in the throws of a revolution. While this government may be all that stands between the country and pure anarchy, it is rarely much better than anarchy. Warlords and oligarchs vie for positions of power in the new society, patriots and revolutionaries scheme to take the country in a new direction, while loyalists and conservatives try to return the country to its former structure. Thankfully, this chaos most often proves very temporary, as one faction or another usually wins out within a few years and the nation returns to a more stable form of government."
  improved_veche_republic:0 "Reformed Veche Republic"
  improved_veche_republic_desc:0 "This state is governed by a Veche, a council with the highest legislative and juidicial authority. This Veche council has been reformed and improved to account for more efficient administration of large realm."
+ late_byzantine_gov_reform:0 "Late Byzantine Autocracy"
+ late_byzantine_gov_reform_desc:0 "Late Byzantine Autocracy represents government in the final period of Byzantine Empire. Decadent and inefficient, a mere shadow of former imperial glory of early medieval era. Despite its weaknesses, imperial court still holds enough splendor to maintain its authority over controlled lands and introduction of late european administration has helped building diplomacy despite weakening the authority of the emperor."
+ crusader_state_vu_reform:0 "Crusader State"
+ crusader_state_vu_reform_desc:0 "Crusader State is remnant of crusade era where western european powers established various catholic states in Greece, Anatolia and Levant. This government is heavily-oriented on religious matters and figting heathens in the region. While crusader state offers bonuses to fighting enemies and diplomacy with western states, it is rather unefficient at managing the internal realm."
 
 
 
@@ -1620,7 +1630,7 @@
  religious_conversions_romuva_desc:0 "As baltic pagans following Romuva faith remain strong, it is time for us to abandon our current faith and revert to the old ways."
  religious_conversions_suomenusko_title:0 "Adopt Suomenusko paganism as dominant faith"
  religious_conversions_suomenusko_desc:0 "As northern scandinavian pagans following Suomenusko fath grow ever-stronger, it is time for us to abandon our current faith and adopt their ways of life instead."
- distribute_vodka_to_masses_title:0 "Distribute vodka to pesants"
+ distribute_vodka_to_masses_title:0 "Distribute Vodka to Peasants"
  distribute_vodka_to_masses_desc:0 "Spend some of our vodka production and distribute it to poor pesants across our nation. This will hopefully keep the population drunk and calm. Such promotion of alcoholism will have negative impact on our population but such population will be much easier to rule over. Ditributing vodka for free will also satisfy nobles."
  #Beyond Typus and BTPL Decisions
  #sweads_and_geats_one_big_happy_family_title:0 "Unify Swedish Culture"         #removed in 11.5
@@ -1680,9 +1690,13 @@
  vu_restore_byz_name_title:0 "Reclaim the Basileia Title"
  vu_restore_byz_name_desc:0 "We are not the ''Byzantine''. It's a fake term given to us by western usurpators. We are the Greek Romans and our caountry shall be properly called Basileia Rhomaion!" \n \n \nChanges country name to Basileia Rhomaion. Will not change tag. It is mostly cosmetic change."
  VU_NAME_BYZ:0 "Basileía Rhomaíon"
+ VU_NAME_BYZ_ADJ:0 "Basileían Rhomaíon"
  vu_restore_tun_name_title:0 "Revert name to Tunisia"
  vu_restore_tun_name_desc:0 "Your nation will no longer be called Ifriqiya but a more uniform name of 'Tunis' will be given to it. \n \n \nDoes not change country tag. It is mostly cosmetic change."
  VU_NAME_TUN:0 "Tunis"
+ VU_NAME_TUN_ADJ:0 "Tunisian"
+ VU_NAME_AVAR_KHAGANATE:0 "Avar Khaganate"
+ VU_NAME_AVAR_KHAGANATE_ADJ:0 "Avarian Khaganate"
 
 
 
@@ -1792,6 +1806,12 @@
  avaria_free_desc:0 "We shall be free! We shall be the rulers, not ruled-by!"
  avaria_expand_state_title:0 "Dagestan & Circassia"
  avaria_expand_state_desc:0 "To build strong state we need new lands. We shall start by gaining significant power in the North Caucasus."
+ avaria_reform_government_title:0 "Steppe Legacy"
+ avaria_reform_government_desc:0 "With our continious expansion into steppes, we must ask ourselves whether we want to remain as we are right now or do we want to embrace nomadic lifestyle of our ancestors."
+ avaria_religion_reform_title:0 "Religious Reforms"
+ avaria_religion_reform_desc:0 "Do we want to return to the old gods Avars used to worship or do we want to find something else?"
+ avaria_start_new_era_title:0 "New Power Rises"
+ avaria_start_new_era_desc:0 "We are more than ready to look back upon old days of Avarian Pannonia and begin our path to restoration of once-great state."
  
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later

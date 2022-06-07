@@ -12,7 +12,7 @@ byz_pp_balkans_north_italy = {
 	has_country_shield = yes
 	
 	recover_the_balkans = { #Recover East Balkans
-		icon = mission_unite_home_region
+		icon = mission_east_balkans
 		required_missions = { recover_greece }
 		position = 2
 		provinces_to_highlight = {
@@ -97,7 +97,7 @@ byz_pp_balkans_north_italy = {
 	}
 	
 	recover_southern_dacia = { #Recover Southern Dacia
-		icon = mission_unite_home_region
+		icon = mission_our_dacian_cousins
 		required_missions = { recover_the_balkans }
 		position = 3
 		provinces_to_highlight = {
@@ -160,7 +160,7 @@ byz_pp_balkans_north_italy = {
 	}
 	
 	recover_northern_dacia = { #Recover Northern Dacia
-		icon = mission_unite_home_region
+		icon = mission_into_draculas_lair
 		required_missions = { recover_southern_dacia }
 		position = 4
 		provinces_to_highlight = {
@@ -209,7 +209,7 @@ byz_pp_balkans_north_italy = {
 	}
 
 	recover_albania = {
-		icon = mission_pf_soldier
+		icon = mission_when_in_pella
 		required_missions = { recover_macedon }
 		position = 5
 		provinces_to_highlight = {
@@ -281,7 +281,7 @@ byz_pp_balkans_north_italy = {
 
 	recover_western_balkans = {
 	    position = 6
-		icon = mission_pf_cross
+		icon = mission_recover_western_balkans
 		required_missions = { recover_albania } #None
 		provinces_to_highlight = {
 			OR = {
@@ -367,7 +367,7 @@ byz_pp_balkans_north_italy = {
 
 	recover_northern_balkans = { #Replaces Istria
 	    position = 7
-		icon = mission_conquer_5_states
+		icon = mission_northern_border
 		required_missions = { recover_western_balkans }
 		provinces_to_highlight = {
 			OR = {
@@ -443,7 +443,7 @@ byz_pp_balkans_north_italy = {
 	
 	destroy_venice_pp = { #New
 	    position = 8
-		icon = mission_conquer_50_development
+		icon = mission_destroy_venice
 		required_missions = { recover_northern_balkans }
 		provinces_to_highlight = {
 			OR = {
@@ -508,7 +508,7 @@ byz_pp_italian = {
 
 	recover_rome_pp = {
 		position = 9
-		icon = mission_pf_cross
+		icon = mission_recover_rome
 		required_missions = {
 			recover_south_italy
 			destroy_venice_pp
@@ -544,7 +544,7 @@ byz_pp_italian = {
 	}
 	recover_north_italy = {
 	    position = 10
-		icon = mission_pf_map_table
+		icon = mission_recover_north_italy
 		required_missions = {
 			recover_rome_pp
 		}
@@ -625,7 +625,7 @@ byz_pp_italian = {
 
 	recover_lombardia = {
 	    position = 11
-		icon = mission_empire
+		icon = mission_recover_lombardia
 		required_missions = {
 			recover_north_italy
 		}
@@ -767,7 +767,7 @@ byz_pp_italian = {
 
 	alpine_minerals = {
 	    position = 12
-		icon = mission_empire
+		icon = mission_alpine_minerals
 		required_missions = {
 			recover_lombardia
 		}
@@ -1118,7 +1118,7 @@ byz_pp_italian = {
 
 	recovery_of_gaul = {
 	    position = 13
-		icon = mission_empire
+		icon = mission_recovery_gaul
 		required_missions = {
 			alpine_minerals
 		}
@@ -1362,7 +1362,7 @@ byz_pp_italian = {
 
 	recover_germania_inferior = {
 	    position = 14
-		icon = mission_empire
+		icon = mission_into_germania_inferior
 		required_missions = {
 			recovery_of_gaul
 		}
@@ -1504,7 +1504,7 @@ byz_pp_italian = {
 
 	recover_germania_superior = {
 	    position = 15
-		icon = mission_empire
+		icon = mission_crossing_the_rhine
 		required_missions = {
 			recover_germania_inferior
 		}
@@ -1656,7 +1656,7 @@ byz_pp_italian = {
 
 	rule_over_britannia = {
 	    position = 16
-		icon = mission_empire
+		icon = mission_invasion_britain
 		required_missions = {
 			recover_germania_superior
 		}
@@ -1780,7 +1780,7 @@ byz_pp_italian = {
 
 	invasion_of_scotland = {
 	    position = 17
-		icon = mission_empire
+		icon = mission_over_the_wall
 		required_missions = {
 			rule_over_britannia
 		}
@@ -1859,7 +1859,7 @@ byz_pp_italian = {
 
 	invasion_of_hibernia = {
 	    position = 18
-		icon = mission_empire
+		icon = mission_luck_of_the_irish
 		required_missions = {
 			invasion_of_scotland
 		}
@@ -1914,7 +1914,7 @@ byz_pp_maritime = {
 	has_country_shield = yes
 
 	recover_east_islands = {
-		icon = mission_pf_map_table
+		icon = mission_recover_cyprus
 
 		required_missions = {
 
@@ -2072,7 +2072,7 @@ byz_pp_maritime = {
 	}
 
 	recover_tunis = {
-		icon = mission_pf_soldier
+		icon = mission_recover_tunis
 		required_missions = {
 			recover_tripoli
 		}
@@ -2148,7 +2148,7 @@ byz_pp_maritime = {
 	}
 
 	recover_spanish_coastline = {
-		icon = mission_pf_map_table
+		icon = mission_the_hispanic_coast
 		required_missions = {
 			recover_tunis
 		}
@@ -2315,7 +2315,7 @@ byz_pp_maritime = {
 	}
 
     recover_the_rest_of_spain = {
-		icon = mission_pf_map_table
+		icon = mission_into_hispania
 		required_missions = {
 			recover_spanish_coastline
 		}
@@ -2626,7 +2626,7 @@ byz_pp_religion = {
 		}
 	}
 	recover_antioch = {
-		icon = mission_pf_cross
+		icon = mission_recover_antioch
 		position = 4
 		required_missions = {
 			convert_asia_minor_pp
@@ -2677,7 +2677,7 @@ byz_pp_religion = {
 	}
 
 	recover_jerusalem = {
-		icon = mission_pf_cross
+		icon = mission_recover_jerusalem
 		required_missions = {
 			recover_antioch
 		}
@@ -2732,7 +2732,7 @@ byz_pp_religion = {
 	}
 
 	recover_alexandria = {
-		icon = mission_pf_cross
+		icon = mission_recover_alexandria
 		provinces_to_highlight = {
 			OR = {
 				area = delta_area
@@ -2792,7 +2792,7 @@ byz_pp_religion = {
 	}
 
 	the_pentarchy_pp = {
-		icon = mission_pf_cross
+		icon = mission_the_pentarchy
 		position = 10
 		required_missions = {
 			recover_rome_pp
@@ -2826,7 +2826,7 @@ byz_pp_religion = {
 	}
 
 	convert_rome = { #New/From Events
-		icon = mission_pf_cross
+		icon = mission_convert_rome
 		position = 11
 		required_missions = {
 			the_pentarchy_pp
@@ -2883,6 +2883,7 @@ byz_pp_east = {
 				area = cukurova_area
 				area = dulkadir_area
 				area = lydia_area
+				area = aeolia_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -2916,6 +2917,10 @@ byz_pp_east = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			lydia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aeolia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -3114,7 +3119,7 @@ byz_pp_east = {
 	}
 
 	recover_the_caucasus = {
-		icon = mission_pf_soldier
+		icon = mission_recover_caucasus
 		required_missions = {
 			reestablish_the_theme_system_pp
 		}

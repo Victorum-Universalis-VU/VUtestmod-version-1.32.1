@@ -11,7 +11,13 @@ gc_spain_1 = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -115,7 +121,13 @@ gc_spain_1_b = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -134,7 +146,7 @@ gc_spain_1_b = {
 		# free mission
 
 		provinces_to_highlight = {
-			colonial_region = colonial_bahamas
+			colonial_region = colonial_the_carribean
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -147,7 +159,7 @@ gc_spain_1_b = {
 				tooltip = miss_colonize_caribbean
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 1
-					colonial_region = colonial_bahamas
+					colonial_region = colonial_the_carribean
 					is_city = yes
 				}
 			}
@@ -429,7 +441,13 @@ gc_spain_2 = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -641,7 +659,13 @@ gc_spain_2_b = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -808,7 +832,13 @@ gc_spain_3 = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -1042,7 +1072,13 @@ gc_spain_3_b = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -1644,7 +1680,13 @@ gc_spain_4 = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -1788,7 +1830,13 @@ gc_spain_4_b = {
 	}
 	potential = {
 		has_dlc = "Golden Century"
-		tag = SPA
+		OR = {
+			tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
+		}
 		NOT = { primary_culture = aragonese }
 		NOT = { primary_culture = catalan }
 		NOT = { map_setup = map_setup_random }
@@ -1930,7 +1978,13 @@ gc_spain_4_c = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -1984,7 +2038,13 @@ gc_spain_4_d = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -2103,7 +2163,13 @@ gc_spain_5_a = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}
@@ -2148,7 +2214,13 @@ gc_spain_5_b = {
 	}
 	potential = {
 		has_dlc = "Golden Century"
-		tag = SPA
+		OR = {
+		    tag = SPA
+			tag = BSP
+			tag = SPB
+			tag = BBS
+			tag = CSP
+		}
 		NOT = { primary_culture = aragonese }
 		NOT = { primary_culture = catalan }
 		NOT = { map_setup = map_setup_random }
@@ -2297,7 +2369,13 @@ gc_spain_5_c = {
 		OR = {
 			tag = CAS
 			AND = {
-				tag = SPA
+				OR = {
+				    tag = SPA
+					tag = BSP
+					tag = SPB
+					tag = BBS
+					tag = CSP
+				}
 				NOT = { primary_culture = aragonese }
 				NOT = { primary_culture = catalan }
 			}

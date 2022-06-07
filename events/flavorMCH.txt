@@ -351,9 +351,13 @@ country_event = {
 		OR = {
 			POR = { has_country_modifier = the_societas_jesu }
 			SPA = { has_country_modifier = the_societas_jesu }
+			BSP = { has_country_modifier = the_societas_jesu }
+			SPB = { has_country_modifier = the_societas_jesu }
+			BBS = { has_country_modifier = the_societas_jesu }
+			CSP = { has_country_modifier = the_societas_jesu }
 			IBE = { has_country_modifier = the_societas_jesu }
 		}
-		any_owned_province = { any_neighbor_province = { OR = { owned_by = POR owned_by = SPA owned_by = IBE } } }
+		any_owned_province = { any_neighbor_province = { OR = { owned_by = POR owned_by = SPA owned_by = BSP owned_by = SPB owned_by = BBS owned_by = CSP owned_by = IBE } } }
 	}
 	
 	mean_time_to_happen = {

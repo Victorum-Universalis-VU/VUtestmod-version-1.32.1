@@ -466,7 +466,7 @@ eng_slot_1 = {
 					tooltip = bt_mission_tooltip_bahamas_colonisation
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 5
-						colonial_region = colonial_bahamas
+						colonial_region = colonial_the_carribean
 					}
 				}
 				custom_trigger_tooltip = {
@@ -772,8 +772,28 @@ eng_slot_3 = {
 					}
 				}
 				226 = {
-					owned_by = SPA
-					is_core = SPA
+				    OR = {
+					    AND = {
+						    owned_by = SPA
+							is_core = SPA
+						}
+						AND = {
+						    owned_by = BSP
+							is_core = BSP
+						}
+						AND = {
+						    owned_by = SPB
+							is_core = SPB
+						}
+						AND = {
+						    owned_by = BBS
+							is_core = BBS
+						}
+						AND = {
+						    owned_by = CSP
+							is_core = CSP
+						}
+					}
 				}
 			}
 		}

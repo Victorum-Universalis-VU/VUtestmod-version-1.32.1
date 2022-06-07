@@ -25,7 +25,7 @@ native_hostileness = 7
 	religion = catholic
 	is_city = yes
 	capital = "Montserrat"
-	trade_goods = sugar
+	trade_goods = rum		#Also sugar, cotton and arrowroot
 } # Irish settlement under England
 1707.5.12 = {
 	discovered_by = GBR
@@ -33,4 +33,14 @@ native_hostileness = 7
 	controller = GBR
 	add_core = GBR
 	remove_core = ENG
+}
+1768.3.1 = { unrest = 10 } #Slave rebellion effort
+1769.1.1 = { unrest = 0 }
+1782.1.1 = {
+	owner = FRA
+	controller = FRA
+} #Captured by French in american revolution
+1783.9.3 = {
+	owner = GBR
+	controller = GBR
 }
