@@ -224,6 +224,14 @@ on_startup = {
             set_variable = { which = num_of_heavy_ship value = 0 }
 		}
         CAS = {
+		    infantry = capital
+			infantry = capital
+			infantry = capital
+			infantry = capital
+			infantry = capital
+			infantry = capital
+			infantry = capital
+			infantry = capital
             export_to_variable = { which = num_of_heavy_ship value = trigger_value:num_of_heavy_ship }
             while = {
                 limit = {
@@ -237,6 +245,12 @@ on_startup = {
             set_variable = { which = num_of_heavy_ship value = 0 }
 		}
         POR = {
+		    infantry = capital
+			infantry = capital
+			infantry = capital
+			infantry = capital
+			cavalry = capital
+			cavalry = capital
             export_to_variable = { which = num_of_heavy_ship value = trigger_value:num_of_heavy_ship }
             while = {
                 limit = {
