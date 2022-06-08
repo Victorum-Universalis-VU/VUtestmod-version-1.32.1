@@ -838,8 +838,10 @@
 7070 = { "Hasta" "Hasta" }
 7071 = "Pinrelikos"
 7072 = { "Eporedia" "Eporedia" }
+7074 = { "Honoria" "Cratia" }
 7075 = { "Vorcellae" "Vorcellae" }
 7076 = { "Coldia Anilikos" "Chiogios" }
+7077 = { "Dokeia" "Theodosia" } #Tosya
 7078 = "Lodi"
 7079 = "Belythia"
 7080 = { "Oskela" "Oskela" }
