@@ -12937,10 +12937,9 @@ brythonic = {
 }
 
 berber_group = {
-	graphical_culture = persiangfx
+	graphical_culture = africangfx
 
 	tuareg = {
-	graphical_culture = africangfx
 		primary = AIR
 		dynasty_names = {
 			Magsharen Stanbulewa "Ait Loaien" "Dag Rali" Iregenaten
@@ -12959,7 +12958,6 @@ berber_group = {
 		}
 	}
 	berber = {
-	graphical_culture = persiangfx
 		primary = TLC
 		dynasty_names = {
 			"al-Ilighi" "al-Tadsi" Zayyanid Maatka Wattasid Atfayyish "Beni Isguen" "al-Afdali" Mzabi
@@ -12977,7 +12975,6 @@ berber_group = {
 		}
 	}
 	shilha = {
-	graphical_culture = persiangfx
 		primary = RGR
 		dynasty_names = {
 			"al-Ilighi" "al-Tadsi" Zayyanid Maatka Wattasid Atfayyish "Beni Isguen" "al-Afdali" Mzabi
@@ -12995,7 +12992,6 @@ berber_group = {
 		}
 	}
 	riffian = {
-	graphical_culture = persiangfx
 		primary = RIF
 		dynasty_names = {
 			"al-Ilighi" "al-Tadsi" Zayyanid Maatka Wattasid Atfayyish "Beni Isguen" "al-Afdali" Mzabi
@@ -13013,7 +13009,6 @@ berber_group = {
 		}
 	}
 	guanche = {
-	graphical_culture = africangfx
 		dynasty_names = {
 			"al-Ilighi" "al-Tadsi" Zayyanid Maatka Wattasid Atfayyish "Beni Isguen" "al-Afdali" Mzabi
 			Tabghurin "al-Malshuti"
@@ -13030,7 +13025,6 @@ berber_group = {
 		}
 	}
 	kabylian = {
-	graphical_culture = persiangfx
 		primary = KBA
 		dynasty_names = {
 			"al-Ilighi" "al-Tadsi" Zayyanid Maatka Wattasid Atfayyish "Beni Isguen" "al-Afdali" Mzabi
@@ -13048,7 +13042,6 @@ berber_group = {
 		}
 	}
 	libyan_berber_culture = {
-	graphical_culture = muslimgfx
 		dynasty_names = {
 			"al-Ilighi" "al-Tadsi" Zayyanid Maatka Wattasid Atfayyish "Beni Isguen" "al-Afdali" Mzabi
 			Tabghurin "al-Malshuti"
