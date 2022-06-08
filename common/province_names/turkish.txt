@@ -220,7 +220,7 @@
 5167 = "Çorum"
 5168 = { "Adapazari" "Adapazari" }
 5171 = { "Mihaliç" "Bandirma" }
-5172 = "Saruhan"
+5172 = { "Saruhan" "Alasehir" }
 5206 = { "Giresun" "Giresun" }
 5560 = { "Allaga" "Allaga" }
 6138 = "Münbiç"
@@ -307,6 +307,7 @@
 7754 = { "Kule" "Kule" }
 7755 = { "Saghisar" "Saghisar" }
 7756 = { "Kiliras" "Kiliras" }
+7757 = { "Abaçarsu" "Abaçarsu" }
 7758 = { "Ibrail" "Ibrail" }
 7759 = { "Ishakçi" "Ishakçi" }
 7763 = { "Inegöl" "Inegöl" }

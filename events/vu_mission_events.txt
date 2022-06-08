@@ -318,3 +318,54 @@ country_event = { #4 Religion of Avaria
 		hidden_effect = { add_prestige = 50 } #Counters -100 from conversion command
 	}
 }
+
+country_event = { #5 Avarian Khaganate is reborn
+	id = vu_mission_events.3
+	title = vu_mission_events.3.t
+	desc = vu_mission_events.3.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = { #And so we conquer
+		name = vu_mission_events.3.a
+		set_government_rank = 3
+		override_country_name = VU_NAME_AVAR_KHAGANATE
+		add_manpower = 10
+		add_army_tradition = 25
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			cavalry = ROOT
+		}
+		capital_scope = {
+			artillery = ROOT
+		}
+		capital_scope = {
+			artillery = ROOT
+		}
+	}
+}
