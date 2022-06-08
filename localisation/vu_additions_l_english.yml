@@ -28,7 +28,8 @@
  piedmontese_nation_title: "Regno Piemontese"
  piedmontese_nation_desc: "The fertile fields, mighty mountains, and venerable valleys of Piedmont are the apple of the eyes of many nations across Europe. France, Austria, German states and more all seek to take our land and use its bountiful resources for themselves. No longer! We alone can claim to be rulers of all Piedmont, from Aosta to Turin to Nizza. Viva Piemonte!"
 
-
+ #Units missing loc
+ chinese_archer:0 "East Asian Archer"
 
  #New events
  BtPLegacyIberianFlavour.EVTNAME1:0 "The Kingdom of Two Sicilies?"
