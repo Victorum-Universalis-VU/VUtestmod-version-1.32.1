@@ -616,13 +616,13 @@ iceland_missions_4 = {
 		}
 		
 		trigger = {
+			mil_power = 100
 			370 = {
 				owned_by = ROOT
 				base_manpower = 7
 				development = 20
 				NOT = { unrest = 0 }
 				fort_level = 2
-				mil_power = 100
 				OR = {
 					has_building = shipyard
 					has_building = grand_shipyard
@@ -645,6 +645,7 @@ iceland_missions_4 = {
 				infantry = ROOT
 				cavalry = ROOT
 			}
+			add_mil_power = -100
 			if = {
 				limit = {
 					370 = { 
