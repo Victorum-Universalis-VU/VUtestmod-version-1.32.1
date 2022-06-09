@@ -30,6 +30,7 @@
 
  #Units missing loc
  chinese_archer:0 "East Asian Archer"
+ armored_horse:0 "Armored Horse"
 
  #New events
  BtPLegacyIberianFlavour.EVTNAME1:0 "The Kingdom of Two Sicilies?"
