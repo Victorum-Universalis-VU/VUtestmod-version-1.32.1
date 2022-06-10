@@ -1,0 +1,79 @@
+namespace = VU_Ottoman_Events
+
+country_event = { #Selim I's Conquest of the Mamluk Sultanate
+	id = VU_Ottoman_Events.1
+	title = VU_Ottoman_Events.1.t
+	desc = VU_Ottoman_Events.1.d
+	picture = OVEREXTENSION_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = TUR
+		war_with = MAM 
+		war_score_against = {
+			who = MAM
+			value = 90
+		}
+		MAM = { total_development = 150 } 
+	}
+	
+	mean_time_to_happen = { months = 1 } 
+	
+	option = { 
+		name = VU_Ottoman_Events.1.a
+		
+		trigger = { ai = no }
+		ai_chance = { factor = 0 } 
+		set_country_flag = tur_chose_annexation_flag
+		custom_tooltip = tur_conquest_of_mam
+		hidden_effect = {
+			white_peace = MAM
+			MAM = { 
+				every_owned_province = { 
+					add_territorial_core = TUR  
+				}
+				random_owned_province = { 
+					limit = { infantry_in_province = 1 } 
+					kill_units = {
+						who = owner
+					}
+				}
+				random_owned_province = { 
+					limit = { infantry_in_province = 1 } 
+					kill_units = {
+						who = owner
+					}
+				}
+				random_owned_province = { 
+					limit = { infantry_in_province = 1 } 
+					kill_units = {
+						who = owner
+					}
+				}
+				random_owned_province = { 
+					limit = { cavalry_in_province = 1 } 
+					kill_units = {
+						who = owner
+					}
+				}
+				random_owned_province = { 
+					limit = { artillery_in_province = 1 } 
+					kill_units = {
+						who = owner
+					}
+				}
+			}
+			inherit = MAM 
+		    }
+	    }
+	}	
+	
+	option = { 
+		name = VU_Ottoman_Events.1.b
+		
+		ai_chance = { factor = 10 } 
+		add_country_modifier = { 
+			name = tur_push_for_egypt_modifier
+			duration = 1825 
+		}
+	}
+}

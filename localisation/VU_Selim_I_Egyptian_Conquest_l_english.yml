@@ -1,0 +1,15 @@
+﻿l_english:
+
+ #VU EVENTS
+ 
+ #Selim I's Egyptian Conquest
+ VU_Selim_I_Egyptian_Conquest_Events.1.t: "Collapse of the Mamluks" 
+ VU_Selim_I_Egyptian_Conquest_Events.1.d: "Finally! With the help of Allah, our great Sultan has conquered Egypt and crushed the Mamluks."
+ VU_Selim_I_Egyptian_Conquest_Events.1.a: "Their lands now belong to the Sultan of Sultans."
+ VU_Selim_I_Egyptian_Conquest_Events.1.b: "Keep calm and carry on."
+ 
+ #Tooltips
+ tur_conquest_of_mam: "The @MAM Mamluks will collapse and all of their land will be ours."
+ 
+ #Modifiers
+ tur_push_for_egypt_modifier: "Push for the Mamluks"

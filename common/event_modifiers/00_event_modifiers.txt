@@ -1948,7 +1948,7 @@ great_horde_humiliated = {
 
 
 
-#ARMY - MULTIPLICATIVE DEBUFF
+#ARMY - MULTIPLICATIVE BUFF (These add to the tags overall army forcelimit)
 hired_mercenaries_I = {
 	land_forcelimit = 1
 }
@@ -2025,7 +2025,7 @@ hired_mercenaries_CCL = {
 	land_forcelimit = 250
 }
 
-#ARMY - ADDITIVE DEBUFF
+#ARMY - ADDITIVE DEBUFF (These take away from the tags overall army forcelimit)
 mercenary_upkeep_I = {
 	land_forcelimit = -1
 }
@@ -2117,7 +2117,83 @@ mercenary_upkeep_CCL = {
 	land_forcelimit = -250
 }
 
-#NAVAL - ADDITIVE DEBUFF
+#NAVAL - MULTIPLICATIVE BUFF (These add to the tags overall naval forcelimit)
+ship_keep_V = {
+	naval_forcelimit = 5
+}
+
+ship_keep_X = {
+	naval_forcelimit = 10
+}
+
+ship_keep_XV = {
+	naval_forcelimit = 15
+}
+
+ship_keep_XX = {
+	naval_forcelimit = 20
+}
+
+ship_keep_XXV = {
+	naval_forcelimit = 25
+}
+
+ship_keep_XXX = {
+	naval_forcelimit = 30
+}
+
+ship_keep_XXXV = {
+	naval_forcelimit = 35
+}
+
+ship_keep_XL = {
+	naval_forcelimit = 40
+}
+
+ship_keep_XLV = {
+	naval_forcelimit = 45
+}
+
+ship_keep_L = {
+	naval_forcelimit = 50
+}
+
+ship_keep_LX = {
+	naval_forcelimit = 60
+}
+
+ship_keep_LXX = {
+	naval_forcelimit = 70
+}
+
+ship_keep_LXXX = {
+	naval_forcelimit = 80
+}
+
+ship_keep_XC = {
+	naval_forcelimit = 90
+}
+
+ship_keep_C = {
+	naval_forcelimit = 100
+}
+
+ship_keep_CXXX = {
+	naval_forcelimit = 130
+}
+
+ship_keep_CLX = {
+	naval_forcelimit = 160
+}
+
+ship_keep_CC = {
+	naval_forcelimit = 200
+}
+
+ship_keep_CCL = {
+	naval_forcelimit = 250
+}							  
+#NAVAL - ADDITIVE DEBUFF (These take away from the tags overall naval forcelimit)
 ship_upkeep_V = {
 	naval_forcelimit = -5
 }
