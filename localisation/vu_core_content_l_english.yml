@@ -1192,6 +1192,10 @@
  desc_BYZ_offensive_stand:0 "To survive Ottoman menace we must focus our efforts externally."
  BYZ_defensive_stand:0 "Defensive inward focus"
  desc_BYZ_defensive_stand:0 "To survive Ottoman menace we must focus our efforts internally and raise improve our defensiveness as much as we can."
+ vu_hexamilion_wall:0 "Hexamilion Wall"
+ desc_vu_hexamilion_wall:0 "Hexamilion Wall is sizeable defense line streaching from one coast to another around the city of Corinth. It's main purpose is to block all enemies from entering the Peloponnese Peninsula via land."
+ vu_greek_unrest:0 "Outraged population"
+ desc_vu_greek_unrest:0 "Siezing the city of Constantinople has greatly upset the population here."
  
  ##########################
  # New province modifiers
@@ -1263,6 +1267,7 @@
  bt_loyal_subject:0 "Loyal to the Cause"
  
  turned_norse_pagan:0 "Returned to norse paganism"
+ vu_captured_east_rome:0 "Siezed Eastern Rome"
 
 
 

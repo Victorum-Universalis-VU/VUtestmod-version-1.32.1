@@ -1720,6 +1720,18 @@ BYZ_defensive_stand = {
 	global_unrest = -1
 	global_spy_defence = 0.2
 }
+
+vu_hexamilion_wall = {
+	local_defensiveness = 0.15
+	local_hostile_attrition = 1
+	blockade_force_required = 0.2
+	picture = "defensiveness"
+}
+
+vu_greek_unrest = {
+	local_state_maintenance_modifier = 0.2
+	local_unrest = 4
+}
 	
 
 ################
