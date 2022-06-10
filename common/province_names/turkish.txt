@@ -26,7 +26,7 @@
 160 = { "Krayova" "Krayova" }
 161 = { "Terkoviç" "Terkoviç" }
 162 = { "Ishemfina" "Ishemfina" }
-163 = "Girit" #Modern Turkish Name: Girit
+163 = "Girit"
 164 = { "Naksa Berre" "Naksa Berre" }
 223 = "Girnata"
 226 = "Cebelitarik"
@@ -164,7 +164,7 @@
 3182 = { "Iskodra" "Iskodra" }
 3183 = { "Manastir" "Manastir" }
 3244 = { "Kirim" "Kirim" }
-3245 = { "Kerç" "Yenikale" }     Pasarofça
+3245 = { "Kerç" "Yenikale" }
 3247 = { "Üzüm" "Üzüm" }
 3248 = { "Lazistan" "Rize" }
 4125 = "Eger"
@@ -301,7 +301,7 @@
 7748 = { "Kalafat" "Kalafat" }
 7750 = { "Rimnik" "Rimnik" }
 7751 = { "Uzunköy" "Uzunköy" }
-7752 = { "Arcish" "Arcishisar" }
+7752 = { "Arcish" "Ercishisar" }
 7753 = { "Islatine" "Islatine" }
 7754 = { "Kule" "Kule" }
 7755 = { "Saghisar" "Saghisar" }
