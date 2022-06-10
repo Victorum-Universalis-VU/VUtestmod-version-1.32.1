@@ -29,12 +29,12 @@ change_estate_land_share = {
 }
 
 add_country_modifier = {
-    name = "hired_mercenaries_III"
+    name = "hired_mercenaries_XV"
     duration = -1
 }
 
 add_country_modifier = {
-    name = "hired_mercenaries_XV"
+    name = "ship_keep_XV"
     duration = -1
 }
 
