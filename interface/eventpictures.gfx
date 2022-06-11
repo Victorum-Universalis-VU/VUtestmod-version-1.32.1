@@ -1,5 +1,11 @@
 spriteTypes = {
 
+    spriteType = {
+		name = "SELIM_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/SELIM_eventPicture.dds"
+		allwaystransparent = yes
+	}
+
 	spriteType = {
 		name = "TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture.dds"
@@ -97,12 +103,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "easterngfx_STEAM_ENGINE_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_poland/STEAM_ENGINE_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
 		name = "easterngfx_MILITARY_CAMP_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_poland/HUSSARS_eventPicture.dds"
 		alwaystransparent = yes
@@ -127,20 +127,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "altaic_STEAM_ENGINE_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_poland/STEAM_ENGINE_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
 		name = "tartar_LAND_MILITARY_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_poland/MONGOL_BANNERS_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "tartar_STEAM_ENGINE_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_poland/STEAM_ENGINE_eventPicture.dds"
 		alwaystransparent = yes
 	}
 	
@@ -442,12 +430,6 @@ spriteTypes = {
 	spriteType = {
 		name = "LAND_MILITARY_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/LAND_MILITARY_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "STEAM_ENGINE_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/STEAM_ENGINE_eventPicture.dds"
 		alwaystransparent = yes
 	}
 
@@ -782,144 +764,4 @@ spriteTypes = {
 		name = "SHWEDAGON_PAGON_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_leviathan/SHWEDAGON_PAGON_eventPicture.dds"
 	}
-	
-	#VU additions by San Felipe
-	spriteType = {
-		name = "WAR_OF_THREE_HENRYS_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/WAR_OF_THREE_HENRYS_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "NATIONAL_ASSEMBLY_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/NATIONAL_ASSEMBLY_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "DIRECTORY_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/DIRECTORY_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "CONSULATE_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/CONSULATE_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "LITTLE_CORPORAL_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/LITTLE_CORPORAL_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "EMPEROR_NAPOLEON_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/EMPEROR_NAPOLEON_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "TREATY_OF_FONTAINEBLEAU_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/TREATY_OF_FONTAINEBLEAU_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "EXILED_TO_ELBA_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/EXILED_TO_ELBA_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "BOURBON_RESTORATION_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/BOURBON_RESTORATION_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "NAPOLEON_RETURNS_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/NAPOLEON_RETURNS_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "NAPOLEON_RECROWNED_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/NAPOLEON_RECROWNED_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "NAPOLEON_DEFEATED_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/NAPOLEON_DEFEATED_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "EXILED_TO_ST_HELENA_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/EXILED_TO_ST_HELENA_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "JULY_REVOLUTION_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/JULY_REVOLUTION_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "JULY_MONARCHY_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/JULY_MONARCHY_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "SECOND_REPUBLIC_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/SECOND_REPUBLIC_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "NAPOLEON_III_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/NAPOLEON_III_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "EMS_TELEGRAM_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/EMS_TELEGRAM_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "BATTLE_OF_SEDAN_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/BATTLE_OF_SEDAN_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "FRENCH_THIRD_REPUBLIC_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/FRENCH_THIRD_REPUBLIC_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "EMS_TELEGRAM_GERMAN_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/EMS_TELEGRAM_GERMAN_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "BATTLE_OF_SEDAN_GERMAN_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/BATTLE_OF_SEDAN_GERMAN_eventPicture.dds"
-		alwaystransparent = yes
-	}
-	
-	spriteType = {
-		name = "GERMAN_PROCLAMATION_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/GERMAN_PROCLAMATION_eventPicture.dds"
-		alwaystransparent = yes
-	}
-
 }

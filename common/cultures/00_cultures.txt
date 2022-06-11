@@ -3874,7 +3874,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 	graphical_culture = muslimgfx
 
 	al_misr_arabic = { #Egyptian Arab
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = MAM
 		dynasty_names = {
 			Burji Alawiyya Bahri
@@ -3893,7 +3893,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	al_suryah_arabic = { #Syrian Arab
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = SYR
 		dynasty_names = {
 			Mirdasid Maanid "al-Shihab" Yakubid Hassanid
@@ -3913,7 +3913,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	al_iraqiya_arabic = { #Mashriqi Arab
-            graphical_culture = persiangfx
+        graphical_culture = persiangfx
 		primary = IRQ
 		dynasty_names = {
 			Saadun Jalili Hasanid Sabah Javid
@@ -3931,7 +3931,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	gulf_arabic = {
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = ORM
 		dynasty_names = {
 			Saud Rasulid Tahiride Jabrid "al-Qasimi"
@@ -3957,7 +3957,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	bedouin_arabic = { #Bedouin Arab
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = NAJ
 		dynasty_names = {
 			Saud Rasulid Tahiride Jabrid "al-Qasimi"
@@ -3983,7 +3983,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	mahri_culture = { #South Arabs
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = MHR
 		dynasty_names = {
 			"Banu Afrar" "Al-Mahra" Qahtan Jibbali "Al-Hakli" "Al-Shahri" "Al-Barami" "Al-Mashaiki" "Al-Bat'hari"
@@ -4008,7 +4008,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	hejazi_culture = {
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = HED
 		dynasty_names = {
 			Khayratid "Al Abu Risha" Hawashim Husaynid Makramid Suleymanid "al-Mughaydi" Hasanid "Banu Mughayd" Rufayda
@@ -4033,7 +4033,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	omani_culture = {
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = OMA
 		dynasty_names = {
 			Tahiride Jabrid "al-Qasimi"
@@ -4059,7 +4059,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	yemeni_culture = {
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = ADE
 		dynasty_names = {
 			Rasulid Tahiride Jabrid "al-Qasimi"
@@ -4132,6 +4132,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 	}
 	#BtPLegacy Culture
 	moroccan = {
+	    graphical_culture = persiangfx
 		primary = MOR
 		dynasty_names = {
 			Marinid Saadi "al-Shabani" Alaouite Wattassid "al-Dila'i" "al-Tadsi" "al-Ilighi" 
@@ -4155,7 +4156,8 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 		}
 	}
 	#BtPLegacy Culture
-	tunisian = {			#Calling this Maghrebi in BT
+	tunisian = {                            #Calling this Maghrebi in BT
+	    graphical_culture = persiangfx
 		primary = TUN
 		dynasty_names = {
 			Hafsid Karamanli Muradid Husainid "Banu Muhammad"
@@ -4178,7 +4180,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 	}
 	#BtPLegacy Culture
 	fezzan_arabic = {
-            graphical_culture = muslimgfx
+        graphical_culture = muslimgfx
 		primary = FZA
 		dynasty_names = {
 			Saud Rasulid Tahiride Jabrid "al-Qasimi"
@@ -4224,6 +4226,7 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 	}
 	#BtPLegacy Culture
 	andalusi_culture = {
+	    graphical_culture = persiangfx
 		primary = GRA
 		dynasty_names = {
 			Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" Zayyanid
@@ -4313,7 +4316,7 @@ maghrebi = {
 	graphical_culture = persiangfx
 	algerian = {
 		#primary = ALG
-            graphical_culture = persiangfx
+        graphical_culture = persiangfx
 		dynasty_names = {
 			"Beni Djellab" "Ouled Nail" "Ouled Sidi Cheikh" "Banu Rashid" "Banu Kinanah" Shammar "Ait Djennad"
 			"Ait Iraten" "Ait Idjer"
@@ -4342,7 +4345,7 @@ maghrebi = {
 iranian	= {
 	graphical_culture = persiangfx
 	persian = {
-            graphical_culture = persiangfx
+        graphical_culture = persiangfx
 		primary = PER
 		male_names = { 
 			Abbas Abolhassan Afshar Afshar Ahmad Ahmad Akbar Akbar Allahyar Amin Anushirvan Anushirvan 

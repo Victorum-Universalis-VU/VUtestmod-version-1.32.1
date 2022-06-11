@@ -4,7 +4,7 @@ country_event = { #Selim I's Conquest of Egypt
 	id = VU_Selim_I_Egyptian_Conquest_Events.1
 	title = VU_Selim_I_Egyptian_Conquest_Events.1.t
 	desc = VU_Selim_I_Egyptian_Conquest_Events.1.d
-	picture = SELIM_I_ENTER_CAIRO_eventPicture
+	picture = SELIM_eventPicture
 	fire_only_once = yes
 	trigger = {
 		tag = TUR
@@ -21,8 +21,7 @@ country_event = { #Selim I's Conquest of Egypt
 	option = { 
 		name = VU_Selim_I_Egyptian_Conquest_Events.1.a
 		
-		trigger = { ai = no }
-		ai_chance = { factor = 0 } 
+		ai_chance = { factor = 90 } 
 		set_country_flag = tur_chose_annexation_flag
 		custom_tooltip = tur_conquest_of_mam
 		hidden_effect = {
@@ -39,7 +38,7 @@ country_event = { #Selim I's Conquest of Egypt
 	option = { 
 		name = VU_Selim_I_Egyptian_Conquest_Events.1.b
 		
-		ai_chance = { factor = 31 } 
+		ai_chance = { factor = 10 } 
 		add_country_modifier = { 
 			name = tur_push_for_egypt_modifier
 			duration = 2190 
