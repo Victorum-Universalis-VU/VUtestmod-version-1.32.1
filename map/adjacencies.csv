@@ -123,6 +123,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7393;1316;canal;5261;-1;-1;-1;-1;second_suez_canal
 2348;318;sea;5493;-1;-1;-1;-1;Chios-Sugla
 4700;2296;sea;1319;-1;-1;-1;-1;Lesbos-Biga
+3195;4779;sea;1319;-1;-1;-1;-1;Lemnos-Gallipoli
 3245;2447;sea;1323;-1;-1;-1;-1;Kerch-Mapa
 8419;8416;sea;1340;-1;-1;-1;-1;Ramanathapuram-Jaffna
 2803;502;sea;1522;-1;-1;-1;-1;Orinoco Delta-Trinidad

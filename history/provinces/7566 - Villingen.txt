@@ -1,6 +1,4 @@
 #6364 - Waldsee
-#Region - Germany
-#Area - Upper Swabia
 
 owner = FUR
 controller = FUR
@@ -8,7 +6,7 @@ add_core = FUR
 culture = swabian
 capital = "Villingen"
 religion = catholic
-trade_goods = lumber
+trade_goods = livestock
 base_tax = 3
 base_production = 3		
 base_manpower = 2

@@ -9,7 +9,7 @@ capital = "Prato"
 base_tax = 7
 base_production = 7
 base_manpower = 3
-trade_goods = cloth # Prato is famous for Cantucci, and bread=grain, so could also be grain
+trade_goods = fruit # Prato is famous for Cantucci which contains the almond nut.
 is_city = yes
 hre = yes
 

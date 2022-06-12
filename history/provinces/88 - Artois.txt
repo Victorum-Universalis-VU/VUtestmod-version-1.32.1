@@ -16,7 +16,7 @@ religion = catholic
 hre = no
 base_tax = 6
 base_production = 6
-trade_goods = cloth
+trade_goods = beer #The Den Hoorn brewery in Leuven was opened in 1366 when it was a tavern brewing its own beer for sale to hunters under the sign of a hunting horn. In 1708, Sébastien Artois became head brewer; then, in 1717, purchased the brewery, renaming it Brouwerij Artois. By San Felipe
 base_manpower = 3
 add_core = PIC
 

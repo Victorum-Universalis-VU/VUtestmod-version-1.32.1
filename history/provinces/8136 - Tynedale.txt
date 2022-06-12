@@ -1,6 +1,4 @@
 #8136 - Tynedale
-#Area - Northumberland
-#Region - Britain
 
 #Core Details
 capital = "Hexham"
@@ -22,7 +20,7 @@ religion = catholic
 base_tax = 1
 base_production = 2
 base_manpower = 1
-trade_goods = wool
+trade_goods = vegetables
 
 #Cores and Occupation (Alphabetical after current)
 add_core = SCO

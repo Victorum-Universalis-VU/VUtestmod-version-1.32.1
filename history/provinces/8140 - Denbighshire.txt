@@ -1,6 +1,8 @@
 #8140 - Denbigh
-#Area - Gwynedd
-#Region - Britain
+
+latent_trade_goods = {
+	coal
+}
 
 #Core Details
 capital = "Denbigh"

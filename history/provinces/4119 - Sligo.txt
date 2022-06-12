@@ -1,4 +1,4 @@
-#4119 - Sligo			Adapted to 4119 with BT 3.0
+#4119 - Sligo
 #Region - Ireland
 #Area - Connacht
 
@@ -11,7 +11,7 @@ hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = lumber #Was naval_supplies
+trade_goods = woodworking
 capital = "Sligeach"
 is_city = yes
 center_of_trade = 1

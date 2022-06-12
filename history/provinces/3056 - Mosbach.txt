@@ -3,7 +3,7 @@
 capital = "Mosbach"
 culture = franconian
 religion = catholic
-trade_goods = wine
+trade_goods = vegetables
 owner = PAL
 base_tax = 3
 base_production = 2

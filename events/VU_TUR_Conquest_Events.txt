@@ -1,0 +1,107 @@
+namespace = VU_TUR_Conquest
+
+country_event = { #Turkish Conquest of Mamluks
+	id = VU_TUR_Conquest_Events.1
+	title = VU_TUR_Conquest_Events.1.t
+	desc = VU_TUR_Conquest_Events.1.d
+	picture = SELIM_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = TUR
+		war_with = MAM 
+		war_score_against = {
+			who = MAM
+			value = 80
+		}
+		MAM = { total_development = 300 } 
+	}
+	
+	mean_time_to_happen = { months = 1 } 
+	
+	option = { 
+		name = VU_TUR_Conquest_Events.1.a
+		highlight = yes
+		ai_chance = { factor = 90 } 
+		
+		set_country_flag = tur_chose_annexation_flag
+		custom_tooltip = tur_conquest_of_mam
+		hidden_effect = {
+			white_peace = MAM
+			MAM = { 
+				every_owned_province = { 
+					add_territorial_core = TUR  
+				}
+			}
+			inherit = MAM
+		}
+		add_treasury = 3500
+		add_prestige = 30
+		add_army_tradition = 10
+		add_manpower = 2
+		add_inflation = 2
+		add_corruption = 1.25
+	}
+
+	option = { 
+		name = VU_TUR_Conquest_Events.1.b
+		
+		ai_chance = { factor = 10 } 
+		add_country_modifier = { 
+			name = tur_push_for_egypt_modifier
+			duration = 2190 
+		}
+	}
+}
+
+country_event = { #Turkish Conquest of Hungary
+	id = VU_TUR_Conquest_Events.2
+	title = VU_TUR_Conquest_Events.2.t
+	desc = VU_TUR_Conquest_Events.2.d
+	picture = SULEIMAN_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = TUR
+		war_with = HUN 
+		war_score_against = {
+			who = HUN
+			value = 75
+		}
+		HUN = { total_development = 200 } 
+	}
+	
+	mean_time_to_happen = { months = 1 } 
+	
+	option = { 
+		name = VU_TUR_Conquest_Events.2.a
+		highlight = yes
+		ai_chance = { factor = 80 }
+		
+		set_country_flag = tur_chose_annexation_flag
+		custom_tooltip = tur_conquest_of_hun
+		hidden_effect = {
+			white_peace = HUN
+			HUN = { 
+				every_owned_province = { 
+					add_territorial_core = TUR  
+				}
+			}
+			inherit = HUN
+		}
+		add_treasury = 2000
+		add_manpower = 5
+		add_prestige = 20
+		add_army_tradition = 15
+		add_inflation = 1
+		add_corruption = 0.75
+	}
+
+	option = { 
+		name = VU_TUR_Conquest_Events.2.b
+		
+		ai_chance = { factor = 10 } 
+		add_country_modifier = { 
+			name = tur_push_for_europe_modifier
+			duration = 2190 
+		}
+	}
+}

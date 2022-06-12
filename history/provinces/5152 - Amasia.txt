@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5152 - Amasia
 
 owner = TUR
 controller = TUR
@@ -8,7 +8,7 @@ add_core = ERE
 culture = turkish
 religion = sunni
 capital = "Amasya"
-trade_goods = grain			#very fertile growing region, well know in antiquity
+trade_goods = lead
 hre = no
 base_tax = 5 #3
 base_production = 5 #3

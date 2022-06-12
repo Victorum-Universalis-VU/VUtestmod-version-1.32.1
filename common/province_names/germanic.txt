@@ -216,6 +216,7 @@
 2656 = { "Camagüey" "Camagüey" }
 2658 = { "Azua" "Azua" }
 2659 = { "Silberhafen" "Silberhafen" }
+3091 = { "Baumeister" "Baumeister" }
 4618 = { "Artibonite" "Gonaïves" }
 4619 = { "Norden" "Haitianisches Kap" }
 4620 = { "Samana" "Sankt Barbara" }

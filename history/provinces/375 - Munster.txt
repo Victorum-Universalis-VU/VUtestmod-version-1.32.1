@@ -1,8 +1,4 @@
- 
-#used to be 3012, 1.25 forced some moving
 #375 - Munster
-#Region - Ireland
-#Area - Munster
 
 owner = THO
 controller = THO
@@ -13,10 +9,9 @@ hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = grain #Was livestock
+trade_goods = fur
 capital = "Inis Cluana Rámhfhada" #"Luimneach"
 is_city = yes
-
 
 discovered_by = western
 discovered_by = muslim

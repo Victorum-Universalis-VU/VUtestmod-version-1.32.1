@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7080 - Ossola
 
 owner = MLO
 controller = MLO

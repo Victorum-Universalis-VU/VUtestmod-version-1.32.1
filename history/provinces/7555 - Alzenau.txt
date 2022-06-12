@@ -1,6 +1,4 @@
 #7555 - Alzenau
-#Region - Germany
-#Area - Hesse
 
 owner = WRT
 controller = WRT

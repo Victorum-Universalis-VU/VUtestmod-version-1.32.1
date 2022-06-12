@@ -5,6 +5,12 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/SELIM_eventPicture.dds"
 		allwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "SULEIMAN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/SULEIMAN_eventPicture.dds"
+		allwaystransparent = yes
+	}
 
 	spriteType = {
 		name = "TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture"

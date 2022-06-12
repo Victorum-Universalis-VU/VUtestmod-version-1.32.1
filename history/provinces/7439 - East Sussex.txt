@@ -1,6 +1,4 @@
 #East Sussex
-#Region - Britain
-#Area - Wessex
 
 owner = ENG
 controller = ENG
@@ -10,7 +8,7 @@ hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = fish
+trade_goods = fur
 capital = "Hastings"
 is_city = yes
 add_core = ENG

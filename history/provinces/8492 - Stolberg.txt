@@ -1,6 +1,4 @@
-#6227 - Stolberg
-#Region - Germany
-#Area - Lower Rhineland
+#8492 - Stolberg
 
 owner = LUX
 controller = LUX
@@ -8,7 +6,7 @@ add_core = LUX
 add_core = BUR
 culture = hessian
 religion = catholic
-trade_goods = lumber
+trade_goods = wine
 capital = "Stolberg"
 base_tax = 3
 base_production = 4

@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5156 - Biga
 
 owner = TUR
 controller = TUR
@@ -6,7 +6,7 @@ add_core = TUR
 culture = greek				#Greeks were still dominating the coastline around that time
 religion = orthodox
 capital = "Biga"
-trade_goods = marble			#changed from naval supplies to marble
+trade_goods = marble
 hre = no
 base_tax = 4 #3
 base_production = 4 #3

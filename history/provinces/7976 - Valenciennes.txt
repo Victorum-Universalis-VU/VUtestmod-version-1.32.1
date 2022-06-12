@@ -13,7 +13,7 @@ capital = "Valenciennes"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = cloth			#Historically famous for fine lace. Also very industrial reason later, with heavu industry and coal
+trade_goods = cloth			#Historically famous for fine lace. Also very industrial reason later, with heavy industry and coal
 is_city = yes
 hre = yes
 

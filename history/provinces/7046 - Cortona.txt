@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7046 - Cortona
 
 owner = CTN
 controller = CTN
@@ -9,7 +9,7 @@ capital = "Cortona"
 base_tax = 5
 base_production = 5
 base_manpower = 4
-trade_goods = wine # famous for it's wines
+trade_goods = wine #famous for its wines.
 is_city = yes
 hre = yes
 

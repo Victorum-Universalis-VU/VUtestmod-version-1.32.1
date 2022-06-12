@@ -1,6 +1,4 @@
-#6397 - Trossingen
-#Region - Germany
-#Area - Lower Swabia
+#7567 - Trossingen
 
 owner = HAB
 controller = HAB
@@ -8,7 +6,7 @@ add_core = HAB
 culture = swabian
 capital = "Trossingen"
 religion = catholic
-trade_goods = lumber
+trade_goods = fur
 base_tax = 2 
 base_production = 3 
 base_manpower = 2 

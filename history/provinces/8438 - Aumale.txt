@@ -1,4 +1,4 @@
-#Aumale
+#8438 - Aumale
 #Region - France
 #Area - Normandy
 
@@ -12,7 +12,7 @@ religion = catholic
 hre = no
 base_tax = 3
 base_production = 4
-trade_goods = horses
+trade_goods = tanned_leather
 base_manpower = 2
 
 discovered_by = english

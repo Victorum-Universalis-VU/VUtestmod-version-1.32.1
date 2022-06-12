@@ -1,6 +1,4 @@
 #6222 - Roermond
-#Region - Low Countries
-#Area - Brabant
 
 owner = HAI
 controller = HAI
@@ -15,7 +13,7 @@ hre = yes
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = beer
+trade_goods = fur
 fort_15th = yes
 
 discovered_by = english

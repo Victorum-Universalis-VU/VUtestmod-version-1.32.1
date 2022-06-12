@@ -1,4 +1,4 @@
-#Tonnerre
+#8441 - Tonnerre
 #Region - France
 #Area - Burgundy
 
@@ -12,7 +12,7 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 1
-trade_goods = champagne
+trade_goods = tanned_leather
 base_manpower = 1
 
 discovered_by = eastern

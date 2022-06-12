@@ -1,4 +1,4 @@
-#BT reoverhaul
+#7767 - Roskilde
 
 owner = DAN
 controller = DAN
@@ -9,7 +9,7 @@ capital = "Roskilde"
 base_tax = 6
 base_production = 6
 base_manpower = 4
-trade_goods = grain
+trade_goods = lumber
 is_city = yes
 hre = no
 fort_15th = yes

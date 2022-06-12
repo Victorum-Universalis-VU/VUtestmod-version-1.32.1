@@ -1,6 +1,4 @@
 #245 - Hull
-#Region - Britain
-#Area - Yorkshire
 
 owner = ENG
 controller = ENG

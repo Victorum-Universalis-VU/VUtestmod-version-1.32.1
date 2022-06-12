@@ -1,6 +1,4 @@
 #8169 - Carbery
-#Area - Munster
-#Region - Ireland
 
 #Core Details
 capital = "Kilbrittain"
@@ -16,7 +14,7 @@ religion = catholic
 base_tax = 3
 base_production = 3
 base_manpower = 1
-trade_goods = fish
+trade_goods = apiculture
 
 #Cores and Occupation (Alphabetical after current)
 add_core = MCM

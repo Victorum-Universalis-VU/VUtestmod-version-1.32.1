@@ -1,6 +1,4 @@
 #130 - Istria
-#Region - Germany
-#Area - Carniola
 
 owner = AQU
 controller = AQU

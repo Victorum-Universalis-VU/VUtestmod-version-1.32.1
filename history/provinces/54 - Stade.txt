@@ -1,6 +1,4 @@
 #54 - Stade
-#Region - Germany
-#Area - Weser
 
 owner = BRE
 controller = BRE
@@ -9,7 +7,7 @@ add_core = VER
 culture = lower_saxon
 religion = catholic
 capital = "Bremervörde"
-trade_goods = fish
+trade_goods = vegetables
 hre = yes
 base_tax = 6
 base_production = 6

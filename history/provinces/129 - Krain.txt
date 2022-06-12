@@ -1,6 +1,4 @@
 # 129 - Krain
-#Region - Germany
-#Area - Carniola
 
 owner = HAB
 controller = HAB
@@ -10,7 +8,7 @@ culture = slovene
 religion = catholic
 base_tax = 5
 base_production = 5
-trade_goods = mercury		#was marble
+trade_goods = metalworking
 base_manpower = 3
 fort_15th = yes
 capital = "Laibach"

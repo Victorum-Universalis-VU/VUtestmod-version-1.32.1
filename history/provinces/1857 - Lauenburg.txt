@@ -1,6 +1,4 @@
 #1857 - Lauenburg
-#Region - Germany
-#Area - Holstein
 
 owner = LAU
 controller = LAU
@@ -8,7 +6,7 @@ add_core = LAU
 culture = holsatian
 religion = catholic
 capital = "Lauenburg"
-trade_goods = salt
+trade_goods = apiculture
 hre = yes
 base_tax = 4
 base_production = 4

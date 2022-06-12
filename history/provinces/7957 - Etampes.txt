@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7957 - Etampes
 
 owner = FRA
 controller = FRA
@@ -9,7 +9,7 @@ capital = "Fontainebleau"
 base_tax = 2
 base_production = 3
 base_manpower = 2
-trade_goods = gunpowder
+trade_goods = livestock
 is_city = yes
 hre = no
 

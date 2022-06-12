@@ -1,6 +1,4 @@
 #Uelzen
-#Region - Germany
-#Area - Lower Saxony
 
 owner = LUN
 controller = LUN
@@ -8,7 +6,7 @@ add_core = LUN
 culture = lower_saxon
 religion = catholic
 capital = "Uelzen"
-trade_goods = livestock
+trade_goods = fur
 hre = yes
 base_tax = 3
 base_production = 3 

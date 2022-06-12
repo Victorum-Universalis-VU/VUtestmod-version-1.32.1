@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7977 - Maubeuge
 
 owner = HAI
 controller = HAI
@@ -9,7 +9,7 @@ capital = "Maubeuge"
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = iron			#No specific reason, though a metal-rich area like nearby Ardennes. Later, heavily industry, coal mining, and large-scale furnaces and foundries would dominate
+trade_goods = lumber
 is_city = yes
 hre = yes
 

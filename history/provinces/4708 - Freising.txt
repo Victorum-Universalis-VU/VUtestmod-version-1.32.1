@@ -8,7 +8,7 @@ hre = yes
 base_tax = 8
 base_production = 8
 base_manpower = 4
-trade_goods = grain #Weihenstephaner beer
+trade_goods = beer #Weihenstephaner beer
 add_core = FRG
 
 

@@ -1,6 +1,4 @@
-# 187 Barrois - Principal cities: Verdun
-#Region - France
-#Area - Lorraine
+#187 - Barrois
 
 owner = PRO
 controller = PRO
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = cloth
+trade_goods = apiculture
 base_manpower = 3
 add_core = PRO
 add_core = BAR

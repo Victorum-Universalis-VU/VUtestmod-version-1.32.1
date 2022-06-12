@@ -1,6 +1,8 @@
 #4366 - Montgomery
-#Region - Britain
-#Area - Powys
+
+latent_trade_goods = {
+	lead
+}
 
 owner = WMC
 controller = WMC

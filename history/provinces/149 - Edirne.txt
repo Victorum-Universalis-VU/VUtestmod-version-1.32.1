@@ -5,15 +5,15 @@ controller = TUR
 culture = greek
 religion = orthodox
 capital = "Edirne"
-trade_goods = olive_oil			#was grain - Major center of agriculture.
+trade_goods = grain
 hre = no
-base_tax = 8 #6
-base_production = 8 #6			#Population of circa 75,000 makes it larger than Constantinople, in its reduced state, and one of the largest and richest cities in the area.
-base_manpower = 7 #5
+base_tax = 10 #6
+base_production = 10 #6			#Increased the dev of the city to 10 for each category. Population of circa 75,000 makes it larger than Constantinople, in its reduced state, and one of the largest and richest cities in the area.
+base_manpower = 10 #5
 is_city = yes
 #fort_15th = yes #Fortress of Gallipoli
 add_core = TUR
-center_of_trade = 2
+center_of_trade = 4
 extra_cost = 16
 
 

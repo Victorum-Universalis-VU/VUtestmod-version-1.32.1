@@ -1,6 +1,4 @@
 #6419 - Oberstein
-#Region - Germany
-#Area - Lower Rhineland
 
 owner = LIE
 controller = LIE
@@ -9,7 +7,7 @@ add_core = BUR
 add_core = FRA
 culture = wallonian
 religion = catholic
-trade_goods = grain
+trade_goods = lumber
 capital = "Fumay"
 base_tax = 3
 base_production = 3

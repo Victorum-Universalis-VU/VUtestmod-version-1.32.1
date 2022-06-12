@@ -1913,7 +1913,7 @@ steam_engine = {
 }
 
 zinc = {
-	color = { 0.74 0.72 0.42 }
+	color = { 23 231 213 }
 	modifier = {
 		innovativeness_gain = 0.25
 	}

@@ -1,6 +1,4 @@
 #3006 - Ulaidh
-#Region - Ireland
-#Area - Ulster
 
 owner = CLN
 controller = CLN
@@ -11,7 +9,7 @@ hre = no
 base_tax = 4  
 base_production = 4 
 base_manpower = 2 
-trade_goods = grain
+trade_goods = naval_supplies
 capital = "Béal Feirste" #"Dún Pádraig"
 is_city = yes
 center_of_trade = 1

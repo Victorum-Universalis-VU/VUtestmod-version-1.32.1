@@ -10,7 +10,7 @@ capital = "Meran"
 base_tax = 1
 base_production = 3
 base_manpower = 2
-trade_goods = cloth
+trade_goods = livestock
 is_city = yes
 hre = yes
 

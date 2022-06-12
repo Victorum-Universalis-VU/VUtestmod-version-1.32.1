@@ -1,4 +1,4 @@
-#BT reoverhaul
+#7776 - Itzehoe
 
 owner = SHL
 controller = SHL
@@ -9,7 +9,7 @@ capital = "Itzehoe"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = cloth
+trade_goods = woodworking
 is_city = yes
 hre = yes
 

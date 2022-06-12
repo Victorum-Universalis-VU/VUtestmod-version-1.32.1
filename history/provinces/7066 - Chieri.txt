@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7066 - Chieri
 
 owner = CIE
 controller = CIE
@@ -9,7 +9,7 @@ capital = "Chieri"
 base_tax = 6			#A rival of Asti, Genoa, or Pisa in the early days, though always a bit smaller, and was reduced in importance a bit earlier.
 base_production = 6
 base_manpower = 3
-trade_goods = grain
+trade_goods = livestock
 is_city = yes
 hre = yes
 
@@ -18,30 +18,6 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-
-#Province history completed by - Draiocht
-#1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
 1340.1.1 = {
 	base_tax = 4
 	base_production = 4
@@ -65,28 +41,7 @@ discovered_by = eastern
 	base_tax = 4
 	base_production = 4
 } # The city experienced a brief resurgance in population and development. The University of Turin was moved here and a great many infrastructure projects completed.
-#1436.1.1 = { } # University of Turin moved to Savigliano in 1334, a cut province now located right around the Chieri-Mondovi border, before returning to Turin in 1436. At around the same time the boom ended, but Chieri had at least recovered to a locally relevant city again.
-#1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-#1495.1.1 = { hre = no }	#Shadow Kingdom. Vanilla calls Northern Italy out of the HRE by 1500, BT is going with 1648, when the Peace of Westphalia definitively ended HRE influence in Italy.
+
 1536.4.1 = { controller = FRA } 
 1551.1.1 = { controller = FRA owner = FRA } # no source is all that clear on when, where, how, or who, but apparently Chieri avoided going to france in the 1530s like much of the west of Savoy, but did go to France in 1551? Though same sources say it remained French after 1559, so.... yeah, might return later and figure this out.
 1554.1.1 = { religion = protestant }	#One of the few cities in Italy where Protestantism took a real hold.

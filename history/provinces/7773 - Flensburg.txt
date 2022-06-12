@@ -1,4 +1,4 @@
-#BT reoverhaul
+#7773 - Flensburg
 
 owner = SHL
 controller = SHL
@@ -10,7 +10,7 @@ capital = "Flensburg"
 base_tax = 5
 base_production = 5
 base_manpower = 4
-trade_goods = apiculture
+trade_goods = vegetables
 is_city = yes
 hre = no
 

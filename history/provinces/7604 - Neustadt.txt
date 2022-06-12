@@ -1,6 +1,4 @@
 #6410 - Neustadt
-#Region - Germany
-#Area - Palatinate
 
 owner = FKS
 controller = FKS
@@ -8,7 +6,7 @@ add_core = FKS
 capital = "Neustadt"
 culture = hessian
 religion = catholic
-trade_goods = wine
+trade_goods = fur
 base_tax = 2
 base_production = 3
 base_manpower = 2

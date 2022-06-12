@@ -1,6 +1,4 @@
 #6383 - Sankt Veit an der Glan
-#Region - Germany
-#Area - Carniola
 
 owner = HAB
 controller = HAB
@@ -12,7 +10,7 @@ religion = catholic
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = marble
+trade_goods = vegetables
 fort_15th = yes
 capital = "Sankt Veit"
 is_city = yes

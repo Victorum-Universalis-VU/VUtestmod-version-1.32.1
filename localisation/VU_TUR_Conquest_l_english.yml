@@ -1,0 +1,23 @@
+﻿l_english:
+
+ #VU EVENTS
+ 
+ #Turkish Conquest of Mamluks
+ VU_TUR_Conquest_Events.1.t: "Collapse of the Mamluks" 
+ VU_TUR_Conquest_Events.1.d: "Finally! With the help of Allah, our great Sultan has conquered Egypt and crushed the Mamluks."
+ VU_TUR_Conquest_Events.1.a: "Their lands now belong to the Sultan of Sultans."
+ VU_TUR_Conquest_Events.1.b: "We shall keep calm and push slowly."
+ 
+ #Turkish Conquest of Hungary
+ VU_TUR_Conquest_Events.2.t: "Collapse of the Kingdom of Hungary" 
+ VU_TUR_Conquest_Events.2.d: "The Kindom of Hungary has collapsed and Buda was left undefended; only the French and Venetian ambassadors waited for our Sultan to congratulate him on his great victory."
+ VU_TUR_Conquest_Events.2.a: "Their lands now belong to the our Empire."
+ VU_TUR_Conquest_Events.2.b: "We shall not take it all at once."
+ 
+ #Tooltips
+ tur_conquest_of_mam: "The @MAM Mamluks will collapse and all of their land will be ours."
+ tur_conquest_of_hun: "The @HUN Kingdom of Hungary will collapse and our raids into the Europe will begin."
+
+ #Modifiers
+ tur_push_for_egypt_modifier: "Push for Egypt"
+ tur_push_for_europe_modifier: "Push for the Europe"

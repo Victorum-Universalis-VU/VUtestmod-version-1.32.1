@@ -1,4 +1,4 @@
- 
+#374 - Leinster
 
 owner = LGN # changed from LAI
 controller = LGN # changed from LAI
@@ -11,8 +11,7 @@ hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 2
-trade_goods = beer
-#trade_goods = copper # Avoca and Glendalough copper mines, I couldnt decide on trade good, but copper or woods seemed the best bet to me
+trade_goods = copper
 
 discovered_by = western
 discovered_by = muslim

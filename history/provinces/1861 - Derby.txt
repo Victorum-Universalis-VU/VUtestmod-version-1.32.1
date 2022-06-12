@@ -3,7 +3,7 @@
 #Area - Midlands
 
 latent_trade_goods = {
-	coal
+	metalworking
 }
 
 owner = ENG

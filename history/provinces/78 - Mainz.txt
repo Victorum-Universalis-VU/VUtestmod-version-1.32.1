@@ -5,7 +5,7 @@
 capital = "Mainz"
 culture = franconian
 religion = catholic
-trade_goods = wine
+trade_goods = books #Due to the influence of the archbishops working on behalf of the catholic church.
 owner = MAI
 base_tax = 10
 base_production = 10

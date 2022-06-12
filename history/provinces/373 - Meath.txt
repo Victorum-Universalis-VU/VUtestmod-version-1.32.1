@@ -1,6 +1,8 @@
 #373 - Meath
-#Region - Ireland
-#Area - Leinster
+
+latent_trade_goods = {
+	beer #Guiness
+}
 
 owner = ENG
 controller = ENG

@@ -1,6 +1,4 @@
 #6382 - Leybnitz
-#Region - Germany
-#Area - Carniola
 
 owner = SLZ
 controller = SLZ
@@ -10,7 +8,7 @@ religion = catholic
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = marble
+trade_goods = lead
 capital = "Leybnitz"
 is_city = yes
 hre = yes

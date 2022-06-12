@@ -7,13 +7,13 @@ religion = orthodox
 capital = "Branicevo"
 trade_goods = apiculture
 hre = no
-base_tax = 3 
+base_tax = 4 
 base_production = 3
 base_manpower = 4 
 is_city = yes
 add_core = SER
 fort_15th = yes
-center_of_trade = 1
+center_of_trade = 2
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western
