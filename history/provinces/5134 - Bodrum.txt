@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5134 - Bodrum
 
 owner = KNI			#The Knights Hospitaller (Knights of St. John) were given permission to build it by the Ottoman sultan Mehmed I, after Tamerlane had destroyed their previous fortress located in Izmir's inner bay.
 controller = KNI
@@ -7,7 +7,7 @@ add_core = MEN
 culture = greek
 religion = orthodox
 capital = "Petronium"
-trade_goods = tanned_leather
+trade_goods = leather
 hre = no
 base_tax = 3
 base_production = 3

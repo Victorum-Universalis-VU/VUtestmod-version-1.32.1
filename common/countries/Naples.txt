@@ -2,7 +2,7 @@
 
 graphical_culture = latingfx #westerngfx
 
-color = { 97  26  239 }
+color = { 94  30  158 }
 revolutionary_colors = { 15  6  16 } #Parthenopean Republic
 
 historical_score = 120

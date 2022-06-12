@@ -56,6 +56,9 @@
  building_uniforms_workshop: "Uniforms Workshop"
  building_uniforms_workshop_desc: "§TProvince Requirements:§!\n-Trade Good: §YCloth§! §OOR§! §YWool§! §OOR§! §YCotton§!\n-Development: 15¤1\n\n§TCountry Requirements:§!\n-Innovativeness 7£ino_icon£\n\n§TEffects:§!\n-Trade good change to: §YUniforms§!\n"
  
+ building_steam_factory: "Steam Factory"
+ building_steam_factory_desc: "Requires Administrative Technology (24)\nRequires Innovativeness 35£ino_icon£\n-Has Embraced §YEnlightenment§!\nRequires At Least One §YSteam Engine§! Province\n"
+  
  SPECIALMANUFACTORY: "Special Manufactory"
  INNOVATION: "Innovation"
  MINING: "Mining"

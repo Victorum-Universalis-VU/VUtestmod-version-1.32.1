@@ -229,7 +229,7 @@ technology = { #Man of War
 	cigars_factory = yes
 	
 	#Cholocate Factory TGE Manufactory
-	chocolate_factory
+	chocolate_factory = yes
 }
 
 technology = { #Chartered Companies
@@ -408,6 +408,9 @@ technology = { #Limes
 	
 	#Stock Exchange Building
 	stock_exchange = yes 
+	
+	#New TGE Buildings
+	steam_factory = yes
 }
 
 technology = { #Heavy Frigates

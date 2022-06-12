@@ -307,7 +307,7 @@ gelata_tower = {
 			}
 			AND = {
 				owner = { culture_group = latin }
-				owner = { government_type = republic }
+				owner = { government = republic }
 			}
 		}
     }
@@ -335,7 +335,7 @@ gelata_tower = {
 			}
 			AND = {
 				owner = { culture_group = latin }
-				owner = { government_type = republic }
+				owner = { government = republic }
 			}
 		}	
     }

@@ -1353,6 +1353,42 @@ uniforms_workshop = {
 	}
 }
 
+steam_factory = {
+	cost = 1000
+	time = 12
+	
+	make_obsolete = counting_house
+	build_trigger = {
+		FROM = {
+			any_owned_province = {	
+				AND = {
+					trade_goods = steam_engine
+					NOT = {	has_building = off_4 }
+				}
+			}
+			adm_tech = 24
+			has_institution = enlightenment
+			
+			OR = {
+				innovativeness = 35
+				NOT = { has_dlc = "Rule Britannia" }
+			}
+		}
+		NOT = { has_global_flag = No_Steam_engine }
+
+	}
+	
+	modifier = {
+		local_production_efficiency = 1.75
+	}
+	
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 5000
+	}
+}
+
 steam_engine_manu = {
 	cost = 3000
 	time = 12

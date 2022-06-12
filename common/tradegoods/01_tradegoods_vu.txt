@@ -1756,7 +1756,7 @@ sulfur = {
 	}
 }
 
-tanned_leather = {
+leather = {
 	color = { 0.4 0.27 0.05 }
 	modifier = {
 		shock_damage_received = -0.10
@@ -2249,7 +2249,7 @@ sweet_confectioneries = {
 	}
 }
 
-chocolates = {
+chocolate = {
 	color = { 0.21 0.1 0.0 }
 	modifier = {
 		global_unrest = -3
@@ -3016,6 +3016,33 @@ diamonds = {
 				province_id = 5077			#Sivuqaq
 			}
 		}
+	}
+}
+
+marble_sculpture = {
+	color = { 100 149 237 }
+	modifier = {
+		great_project_upgrade_cost = -0.15
+	}
+	province = {	
+		local_development_cost = -0.05
+	}
+	chance = {
+		factor = 0
+	}
+}
+
+
+cigars = {
+	color = { 92 70 54 }
+	modifier = {
+	
+	}
+	province = {	
+		local_prosperity_growth = +0.1
+	}
+	chance = {
+		factor = 0
 	}
 }
 
