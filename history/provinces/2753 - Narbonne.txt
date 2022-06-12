@@ -1,6 +1,4 @@
-# Narbonne - Principal cities: Narbonne
-#Region - France
-#Area - Languedoc
+#2753 - Narbonne
 
 owner = FRA
 controller = FRA
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = wine
+trade_goods = seafood
 base_manpower = 3 
 add_core = FRA
 add_core = TOU

@@ -1,6 +1,4 @@
 #6415 - Klingenberg
-#Region - Germany
-#Area - Palatinate
 
 owner = MAI
 controller = MAI
@@ -8,7 +6,7 @@ add_core = MAI
 capital = "Klingenberg"
 culture = franconian
 religion = catholic
-trade_goods = wine
+trade_goods = livestock
 base_tax = 2
 base_production = 3
 base_manpower = 2

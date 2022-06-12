@@ -1,6 +1,4 @@
 #6600 - Altenmuhr
-#Region - Germany
-#Area - Thuringia
 
 owner = OET
 controller = OET
@@ -8,7 +6,7 @@ add_core = OET
 culture = bavarian
 religion = catholic
 capital = "Altenmuhr"
-trade_goods = salt
+trade_goods = lumber
 hre = yes
 base_tax = 2 
 base_production = 4 

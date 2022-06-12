@@ -698,6 +698,10 @@
  urban_constantinople:0 "Constantinople"
  urban_galata:0 "Galata"
  urban_theodosian_walls:0 "Theodosian Walls"
+ urban_cephalonia:0 "Cephalonia"
+ urban_vidin:0 "Vidin"
+ urban_shkodra:0 "Shkodra"
+ urban_zadar:0 "Zadar"
  urban_bursa:0 "Bursa"
  urban_iznik:0 "Iznik"
  urban_izmit:0 "Izmit"
@@ -3541,17 +3545,25 @@
  burghers_estate_events.17.1.d:0 "As we grow and add new tropical provinces to our realm, the $ESTATE_BURGHERS$ of [Root.GetName] have started their plans for these new places so they can grow big and powerful thanks to their techniques."
  burghers_estate_events.17.1.a:0 "Ok."
  #OK Buildings
+ 
  #Production
  building_treasury:0 "Treasury"
  building_factory:0 "Factory"
+ 
  #Trade
  building_corporative_headquarters:0 "Corporative Headquarters"
+ 
  #Taxation
  building_grand_cathedral:0 "Grand Cathedral"
+ 
  #Transportation
  building_road_system:0 "Roads"
+ building_road_system_desc:0 "A network of narrow and wide paths, compacted with earth and stones, sometimes topped with a layer of tarmac in urban areas. These road networks allow modes of transportation a flat and fairly even surface on which to traverse on, thus avoiding dangerous and unstable routes from point A to B. Can be built anywhere."
  building_canal_system:0 "Roads & Waterways"
+ building_canal_system_desc:0 "A network of narrow and wide paths, with the additon of medium birth, yet shallow waterways that allow for the transportation of goods at a slightly faster speed from point A to B. Can only be built on coastal land and on provinces adjacent to land that already has an existing Road & Waterways system. Can only be built on coast or adjacent to itself.\nCan't be built on Hills, Highlands, Mountains, Cold Mountains, Desert Ranges, Dry Highlands or Glaciers."                                                                                                                                                                                          
  building_railway_system:0 "Railroads"
+ building_railway_system_desc:0 "A network of narrow steel, held together by wooden or concrete bases that allow for the delivering at high-speed of goods and armies across several provinces from point A to B.\nCan't be built on mountain, cold mountains, glacier and swamp terrain."
+ 
  #Coastal
  building_naval_base:0 "Naval Base"
  building_naval_arsenal:0 "Naval Arsenal"
@@ -3573,7 +3585,6 @@
  tr_conquer_transoxania_title:0 "Conquer Transoxania"
  tr_conquer_transoxania_desc:0 "Let us finish off our conquest of Central Asia by conquering Transoxania."
 
- 
  # VU Russian Missions Rewards
  convert_the_caucasus:0 "Convert the Caucasus"
  desc_convert_the_caucasus:0 "The nomadic peoples of the Caucasus must be converted to our faith."

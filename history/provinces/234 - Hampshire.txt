@@ -1,6 +1,4 @@
 #234 - Hampshire
-#Region - Britain
-#Area - Wessex
 
 owner = ENG
 controller = ENG

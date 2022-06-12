@@ -1,6 +1,4 @@
 #253 - Western Isles
-#Region - Britain
-#Area - Southern Isles
 
 owner = LOI
 controller = LOI

@@ -1,7 +1,4 @@
 #7092 - Visk
-#Area - Carpathian Ruthenia
-#Region - Carpathia
-
 #Core Details
 capital = "Visk"
 is_city = yes
@@ -16,7 +13,7 @@ religion = orthodox
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = wool
+trade_goods = fur
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN

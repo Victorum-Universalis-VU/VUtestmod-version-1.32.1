@@ -1,6 +1,4 @@
 #4378 - Killarney
-#Region - Ireland
-#Area - Munster
 
 owner = MCM
 controller = MCM
@@ -11,7 +9,7 @@ hre = no
 base_tax = 1  
 base_production = 2 
 base_manpower = 2 
-trade_goods = beer #Was fish
+trade_goods = livestock
 capital = "Cill Airne" #"Tráigh Lí"
 is_city = yes
 

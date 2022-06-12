@@ -1,6 +1,4 @@
 #251 - Aberdeen
-#Region - Britain
-#Area - Grampians
 
 owner = SCO
 controller = SCO
@@ -9,7 +7,7 @@ religion = catholic
 hre = no
 base_tax = 3
 base_production = 3
-trade_goods = livestock #Angus cattle. Although there is the University of Aberdeen (King's College) here as well.
+trade_goods = books
 base_manpower = 1
 capital = "Aberdeen"
 is_city = yes

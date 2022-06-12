@@ -11,7 +11,7 @@ religion = catholic
 hre = yes
 base_tax = 4
 base_production = 4			#Zwolle's golden age came in the 15th century. Between 1402 and 1450, the city's Gross Regional Product multiplied by about six.
-trade_goods = livestock			#Good trade good for here confirmed
+trade_goods = lumber
 base_manpower = 2 
 add_core = UTR
 

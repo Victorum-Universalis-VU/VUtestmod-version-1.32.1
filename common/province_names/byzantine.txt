@@ -511,6 +511,7 @@
 4697 = { "Acitodunum" "Acitodunum" }
 4698 = "Cephallenia"
 4699 = "Arta"
+4700 = { "Lesbos" "Mytilene" }
 4701 = "Corinth"
 4702 = { "Serres" "Serrae" }
 4703 = { "Belebousda" "Pautalia" }

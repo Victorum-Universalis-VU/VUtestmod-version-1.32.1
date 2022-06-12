@@ -228,6 +228,9 @@ technology = {
 	military_tactics = 0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
+	
+	#Cannon Foundry TGE Manufactory
+	cannon_foundry = yes
 }
 
 technology = {
@@ -503,6 +506,9 @@ technology = {
 	enable = spanish_close_range
 	enable = steppe_musketeers
 	enable = zaporoghian_cossack
+	
+	#Munition Factory TGE Manufactory
+	munition_factory = yes
 }
 
 technology = {
@@ -528,6 +534,9 @@ technology = {
 	enable = topchis_artillery
 
 	combat_width = 1
+	
+	#Metalworking Workshop TGE Manufactory
+	metalworking_workshop = yes
 }
 
 technology = {
@@ -676,6 +685,9 @@ technology = {
 	sprite_level = 3
 	military_tactics = 0.25
 	infantry_shock = 0.5
+	
+	#Uniforms Workshop TGE Manufactory
+	uniforms_workshop = yes
 }
 
 technology = {

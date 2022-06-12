@@ -1870,6 +1870,22 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_theodosian_walls"
         texturefile = "gfx/interface/theodosian_walls.dds"
     }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_cephalonia"
+        texturefile = "gfx/interface/cephalonia.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_vidin"
+        texturefile = "gfx/interface/vidin.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_zadar"
+        texturefile = "gfx/interface/zadar.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_shkodra"
+        texturefile = "gfx/interface/shkodra.dds"
+    }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_blachernae_palace"
         texturefile = "gfx/interface/blachernae_palace.dds"

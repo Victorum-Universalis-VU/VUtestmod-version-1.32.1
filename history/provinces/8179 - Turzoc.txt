@@ -1,6 +1,4 @@
 #8179 - Túrócz
-#Area - Lower Hungary
-#Region - Carpathia
 
 #Core Details
 capital = "Turócszentmárton"
@@ -16,7 +14,7 @@ religion = hussite
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = gold
+trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN

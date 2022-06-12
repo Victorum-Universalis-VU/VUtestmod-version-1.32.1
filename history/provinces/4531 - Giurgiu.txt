@@ -1,11 +1,11 @@
-# Giurgiu
+#4531 - Giurgiu
 
 owner = TUR
 controller = TUR  
 culture = romanian
 religion = orthodox
 capital = "Giurgiu"
-trade_goods = horses
+trade_goods = grain
 hre = no
 base_tax = 1
 base_production = 1

@@ -1,7 +1,4 @@
- 
 #376 - Galway
-#Region - Ireland
-#Area - Connacht
 
 owner = GLW
 controller = GLW
@@ -12,7 +9,7 @@ hre = no
 base_tax = 3
 base_production = 1
 base_manpower = 2
-trade_goods = naval_supplies #Was fish
+trade_goods = seafood
 capital = "Gaillimh"
 is_city = yes
 

@@ -1,12 +1,10 @@
 #6349 - Rastatt
-#Region - Germany
-#Area - Upper Rhineland
 
 owner = HAB
 controller = HAB
 add_core = HAB
 capital = "Rastatt"
-trade_goods = wine
+trade_goods = woodworking
 religion = catholic
 culture = swabian
 base_tax = 3

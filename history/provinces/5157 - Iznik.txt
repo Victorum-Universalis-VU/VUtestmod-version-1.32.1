@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5157 - Iznik
 
 owner = TUR
 controller = TUR
@@ -6,7 +6,7 @@ add_core = TUR
 culture = greek		#Greeks were still dominating in coastline around this time
 religion = orthodox
 capital = "Iznik"
-trade_goods = glass		#whatever. Probably grain or cloth is best, or silk, maybe fish
+trade_goods = paper
 hre = no
 base_tax = 4
 base_production = 5 #4

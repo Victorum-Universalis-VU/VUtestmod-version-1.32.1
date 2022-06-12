@@ -1,6 +1,4 @@
-#6273 - Meine
-#Region - Germany
-#Area - Lower Saxony
+#7521 - Meine
 
 owner = BRU
 controller = BRU
@@ -8,7 +6,7 @@ add_core = BRU
 culture = eastphalian
 religion = catholic
 capital = "Meine"
-trade_goods = cloth
+trade_goods = lead
 hre = yes
 base_tax = 3
 base_production = 3

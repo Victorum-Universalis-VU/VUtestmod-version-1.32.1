@@ -115,6 +115,9 @@ technology = { #Renaissance Thought
 	
 	#Noble Republic
 	allowed_idea_groups = 2
+	
+	#Sculpture Workshop TGE Manufactory
+	sculpture_workshop = yes
 }
 
 technology = { #Courthouse
@@ -156,6 +159,9 @@ technology = { #Modern Theocracy
 	}
 	
 	theocratic_government = yes
+	
+	#Woodworking Workshop TGE Manufactory
+	wood_workshop = yes
 }
 
 technology = { #Textile Manufactory
@@ -215,6 +221,9 @@ technology = { #Scientific Experimentation
 	
 	plantations = yes
 	allowed_idea_groups	= 4
+	
+	#Leather Workshop TGE Manufactory
+	leather_workshop = yes
 }
 
 technology = { #Military Administration
@@ -378,6 +387,9 @@ technology = { #Bonds and Tontines
 	
 	#Treasury Building
 	treasury = yes
+	
+	#Steam Engine Assembly Line TGE Manufactory
+	steam_engine_manu
 }
 
 technology = { #Improved Production

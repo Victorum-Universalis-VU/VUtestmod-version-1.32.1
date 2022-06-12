@@ -1,6 +1,4 @@
 #Stadthagen
-#Region - Germany
-#Area - Lower Saxony
 
 owner = SHF
 controller = SHF
@@ -8,7 +6,7 @@ add_core = SHF
 culture = lower_saxon
 religion = catholic
 capital = "Stadthagen"
-trade_goods = cloth
+trade_goods = apiculture
 hre = yes
 base_tax = 3
 base_production = 2

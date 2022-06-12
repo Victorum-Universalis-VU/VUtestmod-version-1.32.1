@@ -1,9 +1,8 @@
 # Urbino
-#Region - Italy
-#Area - Central Italy
 
 owner = URB
 controller = URB
+add_core = URB
 culture = romagnan
 religion = catholic 
 hre = yes			#borderline, but strong Ghibelline associations, so HRE but Papal subject for now
@@ -13,7 +12,6 @@ trade_goods = glass # yet another majolica center, could also be grain or wool
 base_manpower = 4
 capital = "Urbino" 
 is_city = yes
-add_core = URB
 
 extra_cost = 8
 

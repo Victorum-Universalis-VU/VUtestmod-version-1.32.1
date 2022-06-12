@@ -1,6 +1,4 @@
 #Lolland-Falster
-#Region - Scandinavia
-#Area - Denmark
 
 add_core = DAN
 owner = DAN
@@ -10,7 +8,7 @@ religion = catholic
 hre = no
 base_tax = 3  
 base_production = 3 
-trade_goods = fish
+trade_goods = naval_supplies
 base_manpower = 2 
 capital = "Nykøbing"			#Draiocht added accent
 is_city = yes

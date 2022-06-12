@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5168 - Adaparazi
 
 owner = TUR
 controller = TUR
@@ -6,7 +6,7 @@ add_core = TUR
 culture = turkish
 religion = sunni
 capital = "Adaparazi"
-trade_goods = saffron
+trade_goods = lumber
 hre = no
 base_tax = 2
 base_production = 3 #2

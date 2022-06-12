@@ -9,7 +9,7 @@ capital = "Gallipoli"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = fish			#No real reason, long coastline.
+trade_goods = seafood			#Changed from fish.
 is_city = yes
 hre = no
 fort_15th = yes
@@ -59,6 +59,17 @@ discovered_by = western
 	base_production = 3 #2
 	base_manpower = 3
 } #Byzantines forced to give Gallipoli up to the Turks again, but Greek populous allowed to remain, though they are rejoined by Turks
+1444.11.1 = {
+	owner = TUR
+	controller = TUR
+	remove_core = BYZ
+	culture = turkish
+	religion = sunni
+	base_tax = 4            #City had recovered and improved somewhat
+	base_production = 3
+	base_manpower = 3
+} 
+
 
 #2nd Shattering unused
 #2nd Performance Start Unused

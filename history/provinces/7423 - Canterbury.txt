@@ -1,6 +1,4 @@
 #Canterbury
-#Region - Britain
-#Area - Wessex
 
 owner = ARC
 controller = ARC
@@ -11,7 +9,7 @@ hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = beer
+trade_goods = livestock
 capital = "Canterbury"
 is_city = yes
 add_claim = ENG

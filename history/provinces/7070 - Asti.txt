@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7070 - Asti
 
 owner = ATI
 controller = ATI
@@ -9,7 +9,7 @@ capital = "Asti"
 base_tax = 9			#Asti by all accounts rivaled in power major centers like Lucca, Genoa, and Turin at one point. Boasting exclusive rights to overland trade coming from Genoa and backed by a large population and good infrastructure, this was a much more important city than it later became.
 base_production = 8
 base_manpower = 4
-trade_goods = wine
+trade_goods = fur
 is_city = yes
 hre = yes
 center_of_trade = 2

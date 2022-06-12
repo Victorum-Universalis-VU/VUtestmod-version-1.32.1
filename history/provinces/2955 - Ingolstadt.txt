@@ -1,4 +1,4 @@
-# - Ingolstadt + Neuburg
+#2955 - Ingolstadt
 #Region - Germany
 #Area - Upper Bavaria
 
@@ -9,7 +9,7 @@ culture = bavarian
 religion = catholic
 base_tax = 6 
 base_production = 6			#Not nearly so rich at this period. Total BAV dev lowered from 58 to 39, which is already much to high. Most of the extremely high population densities and wealth which were in the region were not under Bavaria, like Regensburg and Nuremberg
-trade_goods = beer 			#Vanilla notes - Would shift to beer over time. I'm just making it beer a bit early
+trade_goods = books 			#Famous place of learning don't know what driocht was smoking when he assigned beer to ingolstadt.
 base_manpower = 4 
 capital	= "Ingolstadt" 
 is_city = yes

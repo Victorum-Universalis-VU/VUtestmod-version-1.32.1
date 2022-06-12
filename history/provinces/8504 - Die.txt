@@ -1,3 +1,5 @@
+#8504 - Die
+
 owner = FRA
 controller = FRA
 add_core = FRA

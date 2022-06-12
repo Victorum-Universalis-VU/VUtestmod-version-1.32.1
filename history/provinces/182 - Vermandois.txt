@@ -1,4 +1,4 @@
-# 182 Vermandois - Principal cities: Compiègne
+#182 - Valois
 #Region - France
 #Area - Picardy
 
@@ -12,7 +12,7 @@ religion = catholic
 hre = no
 base_tax = 4
 base_production = 4
-trade_goods = cloth
+trade_goods = vegetables
 base_manpower = 2
 
 discovered_by = western

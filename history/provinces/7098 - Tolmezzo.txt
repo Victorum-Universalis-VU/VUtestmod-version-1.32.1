@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7098 - Tolmezzo
 
 owner = AQU
 controller = AQU
@@ -9,7 +9,7 @@ capital = "Tolmezzo"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = lumber			#notable wood production, like Cadore. Also has lots of Livestock, and even Paper
+trade_goods = paper			#notable wood production, like Cadore. Also has lots of Livestock, and even Paper
 is_city = yes
 hre = yes
 

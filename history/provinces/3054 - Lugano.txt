@@ -1,13 +1,11 @@
 #3054 - Lugano
-#Region - Germany
-#Area - Switzerland
 
 owner = MLO
 controller = MLO 
 culture = lombard
 religion = catholic
 capital = "Lugano"
-trade_goods = wool
+trade_goods = livestock
 hre = yes
 base_tax = 3
 base_production = 3

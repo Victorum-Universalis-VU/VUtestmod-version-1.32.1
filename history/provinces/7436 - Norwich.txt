@@ -1,6 +1,4 @@
 #Norwich
-#Region - Britain
-#Area - East Anglia
 
 owner = ENG
 controller = ENG
@@ -10,7 +8,7 @@ hre = no
 base_tax = 3
 base_production = 4
 base_manpower = 1
-trade_goods = cheese 
+trade_goods = apiculture 
 capital = "Norwich"
 is_city = yes
 add_core = ENG

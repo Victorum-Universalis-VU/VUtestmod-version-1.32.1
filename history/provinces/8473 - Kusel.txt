@@ -5,7 +5,7 @@
 capital = "Kusel"
 culture = franconian
 religion = catholic
-trade_goods = wine
+trade_goods = vegetables
 owner = PAL
 base_tax = 2
 base_production = 3

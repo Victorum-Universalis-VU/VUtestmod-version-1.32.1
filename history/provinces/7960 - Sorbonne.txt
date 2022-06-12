@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7960 - Sorbonne
 
 owner = FRA
 controller = FRA
@@ -9,7 +9,7 @@ capital = "Sorbonne"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = cheese
+trade_goods = books
 is_city = yes
 hre = no
 center_of_trade = 1
