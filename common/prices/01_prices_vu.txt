@@ -73,16 +73,18 @@ champagne = { base_price = 4 }
 cheese = { base_price = 3 }
 rum = {	base_price = 4 }
 vodka = { base_price = 3 }
+marble_sculpture = { base_price = 4 }
+cigars = { base_price = 4.25 }
 
 # Refined goods
 books = { base_price = 4.0 }
 brass = { base_price = 5 }
 cannon = { base_price = 8 }
-chocolates = { base_price = 6 }
+chocolate = { base_price = 6 }
 canned_goods = { base_price = 9 }
 gunpowder = { base_price = 7 }
 jewellery = { base_price = 8 }
-tanned_leather = { base_price = 6 }
+leather = { base_price = 6 }
 metalworking = { base_price = 6 }
 munitions = { base_price = 8 }
 oil = {	base_price = 5.0}

@@ -2,7 +2,7 @@
 
 graphical_culture = mongolgfx #muslimgfx
 
-color = { 193  179  127 }
+color = { 217  191  98 }
 
 revolutionary_colors = { 6 7 8 }
 

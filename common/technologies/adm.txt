@@ -389,7 +389,7 @@ technology = { #Bonds and Tontines
 	treasury = yes
 	
 	#Steam Engine Assembly Line TGE Manufactory
-	steam_engine_manu
+	steam_engine_manu = yes
 }
 
 technology = { #Improved Production

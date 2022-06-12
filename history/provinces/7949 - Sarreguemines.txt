@@ -9,7 +9,7 @@ capital = "Sarreguemines"			#Niki wanted Bitche
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = tanned_leather
+trade_goods = leather
 is_city = yes
 hre = yes
 

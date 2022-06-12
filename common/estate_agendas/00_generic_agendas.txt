@@ -4174,6 +4174,7 @@ estate_burghers_build_production_building_in_y = {
 				}
 			}
 			NOT = { trade_goods = gold }
+			NOT = { trade_goods = silver }
 		}
 	}
 	selection_weight = {
@@ -4199,6 +4200,7 @@ estate_burghers_build_production_building_in_y = {
 						}
 					}
 					NOT = { trade_goods = gold }
+					NOT = { trade_goods = silver }
 				}
 			}
 		}
@@ -4232,6 +4234,7 @@ estate_burghers_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 		}
 		modifier = {
@@ -4264,6 +4267,7 @@ estate_burghers_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -4286,6 +4290,7 @@ estate_burghers_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -4318,6 +4323,7 @@ estate_burghers_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -5078,6 +5084,7 @@ estate_vaisyas_build_production_building_in_y = {
 				}
 			}
 			NOT = { trade_goods = gold }
+			NOT = { trade_goods = silver }
 		}
 	}
 	selection_weight = {
@@ -5103,6 +5110,7 @@ estate_vaisyas_build_production_building_in_y = {
 						}
 					}
 					NOT = { trade_goods = gold }
+					NOT = { trade_goods = silver }
 				}
 			}
 		}
@@ -5136,6 +5144,7 @@ estate_vaisyas_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 		}
 		modifier = {
@@ -5168,6 +5177,7 @@ estate_vaisyas_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -5190,6 +5200,7 @@ estate_vaisyas_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -5222,6 +5233,7 @@ estate_vaisyas_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -5981,6 +5993,7 @@ estate_jains_build_production_building_in_y = {
 				}
 			}
 			NOT = { trade_goods = gold }
+			NOT = { trade_goods = silver }
 		}
 	}
 	selection_weight = {
@@ -6006,6 +6019,7 @@ estate_jains_build_production_building_in_y = {
 						}
 					}
 					NOT = { trade_goods = gold }
+					NOT = { trade_goods = silver }
 				}
 			}
 		}
@@ -6039,6 +6053,7 @@ estate_jains_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 		}
 		modifier = {
@@ -6071,6 +6086,7 @@ estate_jains_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -6093,6 +6109,7 @@ estate_jains_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -6125,6 +6142,7 @@ estate_jains_build_production_building_in_y = {
 					}
 				}
 				NOT = { trade_goods = gold }
+				NOT = { trade_goods = silver }
 			}
 			save_event_target_as = agenda_province
 		}
@@ -6374,6 +6392,7 @@ estate_nobles_build_manufactory_in_y = {
 					has_building = soldier_households
 					has_building = impressment_offices
 					has_building = state_house
+					has_building = furnace
 				}
 			}
 		}
@@ -6564,6 +6583,7 @@ estate_rajput_build_manufactory_in_y = {
 					has_building = soldier_households
 					has_building = impressment_offices
 					has_building = state_house
+					has_building = furnace
 				}
 			}
 		}
@@ -6945,6 +6965,7 @@ estate_burghers_build_manufactory_in_y = {
 					has_building = soldier_households
 					has_building = impressment_offices
 					has_building = state_house
+					has_building = furnace
 				}
 			}
 		}

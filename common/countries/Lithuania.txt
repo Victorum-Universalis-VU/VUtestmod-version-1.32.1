@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx #easterngfx
 
-color = { 125  30  100 }
+color = { 143  27  112 }
 
 revolutionary_colors = { 9  0  5 } #Lithuania Minor
 

@@ -1,4 +1,4 @@
-namespace = VU_TUR_Conquest
+namespace = VU_TUR_Conquest_Events
 
 country_event = { #Turkish Conquest of Mamluks
 	id = VU_TUR_Conquest_Events.1

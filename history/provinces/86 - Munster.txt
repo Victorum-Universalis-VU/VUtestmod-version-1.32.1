@@ -1,12 +1,10 @@
 # 86 - Munster
-#Region - Germany
-#Area - Westphalia
 
 owner = MUN
 controller = MUN
 culture = hannoverian
 religion = catholic
-trade_goods = tanned_leather
+trade_goods = leather
 capital = "Münster"
 base_tax = 12
 base_production = 12
