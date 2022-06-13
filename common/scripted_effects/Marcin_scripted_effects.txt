@@ -93,7 +93,7 @@ update_goods_subjects = {
 				every_owned_province = { 
 					limit = { 
 						trade_goods = $GOODS$ 
-						has_province_modifier = import_from_subjects_modifier
+						#has_province_modifier = import_from_subjects_modifier
 					}	
 					owner = {
 						set_variable = {            
@@ -158,7 +158,7 @@ update_goods_subjects_monthly = {
 			every_owned_province = { 
 				limit = { 
 					trade_goods = $GOODS$ 
-					has_province_modifier = import_from_subjects_modifier
+					#has_province_modifier = import_from_subjects_modifier
 				}	
 				owner = {
 					set_variable = {            
@@ -224,7 +224,7 @@ update_goods_subjects_province = {
 	every_owned_province = {
 		limit = {
 			trade_goods = $GOODS$ 
-			has_province_modifier = import_from_subjects_modifier
+			#has_province_modifier = import_from_subjects_modifier
 		}
 		export_to_variable = {
 			variable_name = $GOODS$      
