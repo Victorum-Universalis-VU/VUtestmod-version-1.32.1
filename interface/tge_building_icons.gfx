@@ -54,17 +54,17 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
-	#spriteType = {
-	#	name = "GFX_import_from_subjects"
-	#	texturefile = "gfx//interface//TGE//buildings//import_from_subjects.tga"
-	#	loadType = "INGAME"
-	#}
-	#
-	#spriteType = {
-	#	name = "GFX_stop_import_from_subjects"
-	#	texturefile = "gfx//interface//TGE//buildings//stop_import_from_subjects.tga"
-	#	loadType = "INGAME"
-	#}	
+	spriteType = {
+		name = "GFX_import_from_subjects"
+		texturefile = "gfx//interface//TGE//buildings//import_from_subjects.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_stop_import_from_subjects"
+		texturefile = "gfx//interface//TGE//buildings//stop_import_from_subjects.tga"
+		loadType = "INGAME"
+	}	
 	
 	spriteType = {
 		name = "GFX_spectacle_factory"
@@ -201,11 +201,11 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
-	#spriteType = {
-	#	name = "GFX_import_from_subjects_modifier"
-	#	texturefile = "gfx//interface//ideas_EU4//import_from_subjects_modifier.dds"
-	#	loadType = "INGAME"
-	#}	
+	spriteType = {
+		name = "GFX_import_from_subjects_modifier"
+		texturefile = "gfx//interface//ideas_EU4//import_from_subjects_modifier.dds"
+		loadType = "INGAME"
+	}	
 	
 	spriteType = {
 		name = "GFX_Administrative_technology_TGE"

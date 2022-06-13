@@ -1379,17 +1379,17 @@ guiTypes = {
 			text = "2000¤"
 		}
 		
-		#checkboxType = {
-		#	name = "build_import_from_subjects"
-		#	position = { x = 296 y = 420 }
-		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		#}
-		#
-		#checkboxType = {
-		#	name = "build_stop_import_from_subjects"
-		#	position = { x = 348 y = 420 }
-		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		#}
+		checkboxType = {
+			name = "build_import_from_subjects"
+			position = { x = 296 y = 420 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+		
+		checkboxType = {
+			name = "build_stop_import_from_subjects"
+			position = { x = 348 y = 420 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
 
 		iconType = {
 			name = "manufactory_banner"

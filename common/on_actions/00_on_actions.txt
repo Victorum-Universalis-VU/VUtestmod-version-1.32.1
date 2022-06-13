@@ -2391,7 +2391,6 @@ on_adm_development = {
 }
 
 # province
-#TGE version
 on_dip_development = {
 	
 	if = {
@@ -5276,7 +5275,7 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = metalworking_workshop }
+				ROOT = { has_building = metalworking_workshop NOT = { has_building = off_2 } }
 				owner = { check_variable = { which = iron value = 1.0 } }	
 			}
 		}
@@ -5294,7 +5293,7 @@ on_province_owner_change = {
 	else_if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = metalworking_workshop }	
+				ROOT = { has_building = metalworking_workshop NOT = { has_building = off_2 } }	
 				owner = { NOT = { check_variable = { which = iron value = 1.0 } } }
 			}
 		}
@@ -5308,7 +5307,7 @@ on_province_owner_change = {
 		}
 	}
 	if = {
-		limit = { has_building = metalworking_workshop }
+		limit = { AND = { has_building = metalworking_workshop has_building = off_2 } }
 		owner = {
 			change_variable = {            
 				which = metalworking_workshop_amount
@@ -5326,7 +5325,7 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = munition_factory }
+				ROOT = { has_building = munition_factory NOT = { has_building = off_3 } }
 				owner = { check_variable = { which = lead value = 1.0 } }	
 			}
 		}
@@ -5344,7 +5343,7 @@ on_province_owner_change = {
 	else_if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = munition_factory }	
+				ROOT = { has_building = munition_factory NOT = { has_building = off_3 } }	
 				owner = { NOT = { check_variable = { which = lead value = 1.0 } } }
 			}
 		}
@@ -5358,7 +5357,7 @@ on_province_owner_change = {
 		}
 	}
 	if = {
-		limit = { has_building = munition_factory }
+		limit = { AND = { has_building = munition_factory has_building = off_3 } }
 		owner = {
 			change_variable = {            
 				which = munition_factory_amount
@@ -5376,7 +5375,7 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = spectacle_factory }
+				ROOT = { has_building = spectacle_factory NOT = { has_building = off_5 } }
 				owner = { check_variable = { which = glass value = 0.6 } }	
 			}
 		}
@@ -5394,7 +5393,7 @@ on_province_owner_change = {
 	else_if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = spectacle_factory }	
+				ROOT = { has_building = spectacle_factory NOT = { has_building = off_5 } }	
 				owner = { NOT = { check_variable = { which = glass value = 0.6 } } }
 			}
 		}
@@ -5408,7 +5407,7 @@ on_province_owner_change = {
 		}
 	}
 	if = {
-		limit = { has_building = spectacle_factory }
+		limit = { AND = { has_building = spectacle_factory has_building = off_5 } }
 		owner = {
 			change_variable = {            
 				which = spectacle_factory_amount
@@ -5426,7 +5425,7 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = cigars_factory }
+				ROOT = { has_building = cigars_factory NOT = { has_building = off_6 } }
 				owner = { check_variable = { which = tobacco value = 0.6 } }	
 			}
 		}
@@ -5444,7 +5443,7 @@ on_province_owner_change = {
 	else_if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = cigars_factory }	
+				ROOT = { has_building = cigars_factory NOT = { has_building = off_6 } }	
 				owner = { NOT = { check_variable = { which = tobacco value = 0.6 } } }
 			}
 		}
@@ -5458,7 +5457,7 @@ on_province_owner_change = {
 		}
 	}
 	if = {
-		limit = { has_building = cigars_factory }
+		limit = { AND = { has_building = cigars_factory has_building = off_6 } }
 		owner = {
 			change_variable = {            
 				which = cigars_factory_amount
@@ -5476,7 +5475,7 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = chocolate_factory }
+				ROOT = { has_building = chocolate_factory NOT = { has_building = off_7 } }
 				owner = { check_variable = { which = cocoa value = 0.6 } }	
 			}
 		}
@@ -5494,7 +5493,7 @@ on_province_owner_change = {
 	else_if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = chocolate_factory }	
+				ROOT = { has_building = chocolate_factory NOT = { has_building = off_7 } }	
 				owner = { NOT = { check_variable = { which = cocoa value = 0.6 } } }
 			}
 		}
@@ -5508,7 +5507,7 @@ on_province_owner_change = {
 		}
 	}
 	if = {
-		limit = { has_building = chocolate_factory }
+		limit = { AND = { has_building = chocolate_factory has_building = off_7 } }
 		owner = {
 			change_variable = {            
 				which = chocolate_factory_amount
@@ -5526,7 +5525,7 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = steam_engine_manu }
+				ROOT = { has_building = steam_engine_manu NOT = { has_building = off_4 } }
 				owner = { check_variable = { which = copper value = 0.4 } check_variable = { which = zinc value = 0.3 } }	
 			}
 		}
@@ -5548,7 +5547,7 @@ on_province_owner_change = {
 	else_if = {
 		limit = {
 			AND = {
-				ROOT = { has_building = steam_engine_manu }	
+				ROOT = { has_building = steam_engine_manu NOT = { has_building = off_4 } }	
 				owner = { NOT = { check_variable = { which = copper value = 0.4 } check_variable = { which = zinc value = 0.3 } } }
 			}
 		}
@@ -5564,7 +5563,7 @@ on_province_owner_change = {
 		}
 	}
 	if = {
-		limit = { has_building = steam_engine_manu }
+		limit = { AND = { has_building = steam_engine_manu has_building = off_4 } }
 		owner = {
 			change_variable = {            
 				which = steam_engine_manu_amount
