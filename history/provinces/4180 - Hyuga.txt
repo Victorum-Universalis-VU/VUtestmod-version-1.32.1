@@ -13,6 +13,7 @@ base_production = 10
 is_city = yes
 add_core = ITO
 add_core = SMZ
+add_core = KTK
 discovered_by = chinese
 1444.1.1 = { discovered_by = MCH } 1444.1.1 = { discovered_by = KHA } 1444.1.1 = { discovered_by = OIR } 1444.1.1 = { discovered_by = QNG } 
 
