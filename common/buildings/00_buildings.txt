@@ -4328,7 +4328,7 @@ fort_18th = {
 #Tier 1 Fortification - Trench
 trench = {
 	cost = 50
-	time = 1
+	time = 2
 	
 	#Not possible to build a trench if the province already has a fort.
 	build_trigger = {
