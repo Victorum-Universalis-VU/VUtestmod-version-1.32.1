@@ -4326,71 +4326,71 @@ fort_18th = {
 ### FORTIFICATION
 
 #Tier 1 Fortification - Trench
-#trench = {
-#	cost = 50
-#	time = 1
-#	
-#	#Not possible to build a trench if the province already has a fort.
-#	build_trigger = {
-#		NOT = {
-#			has_building = fort_15th
-#			has_building = fort_16th
-#			has_building = fort_17th
-#			has_building = fort_18th
-#		}
-#	}
-#	
-#	modifier = {
-#		#Trench is equal in defense to a Bastion (Tier 2 Fort) with the exception of not reducing unrest.
-#		fort_level = 2
-#		local_defensiveness = 0.5
-#		
-#		#Trenches weren't like buildings that took space near city centers, so costing building slots doesn't really suit them.
-#		allowed_num_of_buildings = 1
-#		
-#		#While many died in trenches due to warfare, deaths caused by their terrible conditions (disease) were just as common.
-#		attrition = 10
-#		max_attrition = 10
-#		
-#		#To avoid making a trench be just like a fort but cheaper and faster, they're devastating to the development of provinces.
-#		local_monthly_devastation = 0.5
-#		local_development_cost = 0.5
-#	}
-#
-#	onmap = yes
-#	influencing_fort = yes
-#
-#	ai_will_do = {
-#		factor = 1
-#		
-#		modifier = {
-#			factor = 0
-#			NOT = {
-#				any_neighbor_province = {
-#					NOT = {
-#						controller = { tag = ROOT }
-#					}
-#				}	
-#			}
-#		}
-#		
-#		#AI will only be build during a war
-#		modifier = {
-#			factor = 0
-#			owner = { is_at_war = no }
-#		}
-#		
-#		#AI will build in provinces that border enemy or occupied provinces
-#		modifier = {
-#			factor = 2
-#			any_neighbor_province = {
-#				controller = {
-#					war_with = ROOT
-#				}
-#			}
-#		}
-#	}
-#}
+trench = {
+	cost = 50
+	time = 1
+	
+	#Not possible to build a trench if the province already has a fort.
+	build_trigger = {
+		NOT = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+	}
+	
+	modifier = {
+		#Trench is equal in defense to a Bastion (Tier 2 Fort) with the exception of not reducing unrest.
+		fort_level = 2
+		local_defensiveness = 0.5
+		
+		#Trenches weren't like buildings that took space near city centers, so costing building slots doesn't really suit them.
+		allowed_num_of_buildings = 1
+		
+		#While many died in trenches due to warfare, deaths caused by their terrible conditions (disease) were just as common.
+		attrition = 10
+		max_attrition = 10
+		
+		#To avoid making a trench be just like a fort but cheaper and faster, they're devastating to the development of provinces.
+		local_monthly_devastation = 0.5
+		local_development_cost = 0.5
+	}
+
+	onmap = yes
+	influencing_fort = yes
+
+	ai_will_do = {
+		factor = 1
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				any_neighbor_province = {
+					NOT = {
+						controller = { tag = ROOT }
+					}
+				}	
+			}
+		}
+		
+		#AI will only be build during a war
+		modifier = {
+			factor = 0
+			owner = { is_at_war = no }
+		}
+		
+		#AI will build in provinces that border enemy or occupied provinces
+		modifier = {
+			factor = 2
+			any_neighbor_province = {
+				controller = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+}
 
 ################################################
 

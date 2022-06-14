@@ -1296,5 +1296,5 @@ technology = {
 	enable = A7V
 	
 	#Trench
-	#trench = yes
+	trench = yes
 }
