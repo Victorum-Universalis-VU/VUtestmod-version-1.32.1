@@ -6626,7 +6626,7 @@ kasteel_batavia = {
 	#can we build it?
 	build_trigger = {	
     is_year = 1619
-	culture_group = germanic
+	culture_group = low_franconian
 		OR = {
 				has_owner_culture = yes
 				has_owner_accepted_culture = yes
@@ -6646,7 +6646,7 @@ kasteel_batavia = {
 	#can our country use it?
 	can_use_modifiers_trigger = {	
     is_year = 1619
-	culture_group = germanic
+	culture_group = low_franconian
 		OR = {
 				has_owner_culture = yes
 				has_owner_accepted_culture = yes
@@ -6656,7 +6656,7 @@ kasteel_batavia = {
 	#can our country upgrade it?
 	can_upgrade_trigger = {		
 	is_year = 1619
-	culture_group = germanic
+	culture_group = low_franconian
 		OR = {
 				has_owner_culture = yes
 				has_owner_accepted_culture = yes

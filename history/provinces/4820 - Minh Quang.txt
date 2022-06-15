@@ -1,10 +1,10 @@
-#610 - Thanh Hoa
+#610 - Yên Bái
 
 owner = DAI
 controller = DAI
 culture = vietnamese
 religion = mahayana
-capital = "Minh Quang"
+capital = "Yên Bái"
 trade_goods = ebony
 hre = no
 base_tax = 4 
