@@ -1,10 +1,10 @@
-#BT's Western Europe Overhaul in 12.0
+#8076 - Ecija
 
 owner = CAS
 controller = CAS
 add_core = CAS
 add_core = SVL #BTB added: Castilian revolter tag.
-culture = andalucian
+culture = andalusi_culture
 religion = catholic
 capital = "Écija"
 base_tax = 4

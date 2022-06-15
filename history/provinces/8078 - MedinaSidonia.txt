@@ -1,10 +1,10 @@
-#BT's Western Europe Overhaul in 12.0
+#8078 - MedinaSidonia
 
 owner = CAS
 controller = CAS
 add_core = CAS
 add_core = SVL #BTB added: Castilian revolter tag.
-culture = andalucian
+culture = andalusi_culture
 religion = catholic
 capital = "Medina Sidonia"
 base_tax = 3

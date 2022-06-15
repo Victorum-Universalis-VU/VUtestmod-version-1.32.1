@@ -487,6 +487,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1780;1073;sea;8375;-1;-1;-1;-1;Komi-Berezhov
 2427;1073;sea;8375;-1;-1;-1;-1;Ostyaki-Berezhov
 1888;5486;sea;2426;-1;-1;-1;-1;Kara Sea-Kara Sea
-4477;4476;sea;2426;-1;-1;-1;-1;Calcutta-Nadia
+4477;4476;sea;7288;-1;-1;-1;-1;Calcutta-Nadia
+564;4475;sea;7287;-1;-1;-1;-1;Dhaka-Fathabad
+4831;6939;sea;7284;-1;-1;-1;-1;Bangkok-Bang Na
+4831;8556;sea;7284;-1;-1;-1;-1;Nakhon-Pathom
+8567;4832;sea;7284;-1;-1;-1;-1;Sing Buri-Lavo
+8567;4834;sea;7284;-1;-1;-1;-1;Sing Buri-Suphanburi
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

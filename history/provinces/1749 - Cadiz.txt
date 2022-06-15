@@ -1,12 +1,10 @@
 #1749 - Cadiz
-#Region - Iberia
-#Area - Lower Andalucia
 
 owner = CAS		#Enrique III of Castille
 controller = CAS
 add_core = CAS
 add_core = SVL #BTB added: Castilian revolter tag.
-culture = andalucian
+culture = andalusi_culture
 religion = catholic
 hre = no
 base_tax = 6

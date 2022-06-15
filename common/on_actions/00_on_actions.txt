@@ -4859,21 +4859,21 @@ on_province_religion_converted = {
 	on_province_religion_converted_estate_privileges_effect = yes
 	#BT
 	#BT added if Culture's Iberian and gets converted to muslim, it turns into Andalusi culture.
-	if = {
-		limit = {
-			religion_group = muslim
-			culture = andalucian
-		}
-		change_culture = andalusi_culture
-	}
-	#And vice versa.
-	if = {
-		limit = {
-			religion_group = christian
-			culture = andalusi_culture
-		}
-		change_culture = andalucian
-	}
+	#if = {
+	#	limit = {
+	#		religion_group = muslim
+	#		culture = andalucian
+	#	}
+	#	change_culture = andalusi_culture
+	#}
+	##And vice versa.
+	#if = {
+	#	limit = {
+	#		religion_group = christian
+	#		culture = andalusi_culture
+	#	}
+	#	change_culture = andalucian
+	#}
 	#Vanilla again
 	if = {
 		limit = {
