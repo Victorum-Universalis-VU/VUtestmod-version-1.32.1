@@ -5,11 +5,11 @@ controller = MTZ
 add_core = MTZ
 culture = alsatian
 religion = catholic
-capital = "Sarreguemines"			#Niki wanted Bitche
+capital = "Sarreguemines"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = leather
+trade_goods = tin
 is_city = yes
 hre = yes
 

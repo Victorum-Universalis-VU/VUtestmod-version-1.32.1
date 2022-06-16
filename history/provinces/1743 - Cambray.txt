@@ -10,7 +10,7 @@ religion = catholic
 hre = yes
 base_tax = 7
 base_production = 7
-trade_goods = leather			#Early on focused on both agriculture as well as weaving, but weaving, more specifically batiste (a great speaciality of the city), would eventually win out and dominate trade.
+trade_goods = fur
 base_manpower = 4 
 
 discovered_by = western

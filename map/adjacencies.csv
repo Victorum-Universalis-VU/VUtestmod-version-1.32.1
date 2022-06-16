@@ -465,8 +465,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6618;408;sea;7295;-1;-1;-1;-1;Al Qurnah-Basrah
 408;6611;sea;7295;-1;-1;-1;-1;Basrah-Babiyan
 6610;6611;sea;7295;-1;-1;-1;-1;Abdali-Babiyan
-6551;2320;sea;1328;-1;-1;-1;-1;Tor-Ros Gharib
-6552;2327;sea;1328;-1;-1;-1;-1;Sharm-Ros Gharib
+6552;2320;sea;1328;-1;-1;-1;-1;Sharm-Ras Gharib
+6552;2327;sea;1328;-1;-1;-1;-1;Sharm-Gayal
 320;7822;sea;5493;-1;-1;-1;-1;Rhodes-Marmaris
 2319;6499;sea;6592;-1;-1;-1;-1;Asyut-Abnub
 6576;6501;sea;6593;-1;-1;-1;-1;Farshut-Qena
@@ -493,5 +493,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4831;8556;sea;7284;-1;-1;-1;-1;Nakhon-Pathom
 8567;4832;sea;7284;-1;-1;-1;-1;Sing Buri-Lavo
 8567;4834;sea;7284;-1;-1;-1;-1;Sing Buri-Suphanburi
+8103;7023;sea;7307;-1;-1;-1;-1;Abrantes-Rossio ao Sul do Tejo
+3044;5298;sea;4333;-1;-1;-1;-1;Dahlak-Zula
+5181;7450;sea;6548;-1;-1;-1;-1;Nekhel-Eilat
+5181;6550;sea;6548;-1;-1;-1;-1;Nekhel-Firan
+5181;6547;sea;6548;-1;-1;-1;-1;Nekhel-Abu Zenima
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

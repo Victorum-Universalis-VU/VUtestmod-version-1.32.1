@@ -1,4 +1,4 @@
-# - Rioja
+#2989 - Rioja
 #Region - Iberia
 #Area - Castille
 
@@ -10,7 +10,7 @@ religion = catholic
 hre = no
 base_tax = 2 
 base_production = 3 
-trade_goods = wine 
+trade_goods = wool 
 base_manpower = 2 
 capital = "Logroño"
 is_city = yes

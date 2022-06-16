@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#8090 - Viana
 
 owner = POR
 controller = POR
@@ -9,7 +9,7 @@ capital = "Viana"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = salt
+trade_goods = lumber
 is_city = yes
 hre = no
 
