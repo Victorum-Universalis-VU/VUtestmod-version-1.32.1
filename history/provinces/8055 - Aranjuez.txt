@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#8055 - Aranjuez
 
 owner = CAS
 controller = CAS
@@ -18,8 +18,3 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
-#Province history completed by - Draiocht
-
-#1444 on

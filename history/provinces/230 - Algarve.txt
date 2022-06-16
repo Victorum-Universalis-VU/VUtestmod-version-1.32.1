@@ -1,13 +1,11 @@
 #230 - Algarve
-#Region - Iberia
-#Area - Alentejo
 
 owner = POR
 controller = POR
 culture = portugese
 religion = catholic
 capital = "Lagos"
-trade_goods = citrus
+trade_goods = lumber
 hre = no
 base_tax = 4
 base_production = 4
@@ -21,8 +19,6 @@ discovered_by = ottoman
 discovered_by = eastern
 
 extra_cost = 20
-
-
 
 1640.1.1 = { unrest = 8 } # Revolt headed by John of Bragança
 1640.12.1 = { unrest = 0 }

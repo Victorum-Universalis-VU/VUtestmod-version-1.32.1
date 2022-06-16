@@ -10,7 +10,7 @@ capital = "Lucena"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = fruit
+trade_goods = mercury
 is_city = yes
 hre = no
 
