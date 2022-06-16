@@ -17,7 +17,7 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 2
-trade_goods = tin
+trade_goods = grain	#was tin for unknown reason. Tienen (name has nothing to do with tin) is centre of sugar production in Belgium but there was no sugar introduced in 1444, going for grain.
 base_manpower = 1
 fort_15th = yes
 
@@ -92,3 +92,7 @@ base_production = 12 } # The General Estates
 	add_core = NED
 	remove_core = FRA
 } # The United Kingdom of the Netherlands
+1825.1.1 = {
+	trade_goods = sugar
+	base_production = 4
+} #Good time to introduce sugar and sugar beets

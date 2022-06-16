@@ -1,8 +1,8 @@
 #4366 - Montgomery
 
-latent_trade_goods = {
-	lead
-}
+#latent_trade_goods = {
+#	lead
+#} #This does not work like that
 
 owner = WMC
 controller = WMC

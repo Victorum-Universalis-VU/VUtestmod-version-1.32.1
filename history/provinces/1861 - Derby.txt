@@ -2,10 +2,6 @@
 #Region - Britain
 #Area - Midlands
 
-latent_trade_goods = {
-	metalworking
-}
-
 owner = ENG
 controller = ENG
 culture = english

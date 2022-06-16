@@ -10,7 +10,7 @@ capital = "Sanok"
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = lead
+trade_goods = iron		#no idea why it was lead, no lead deposits were ever found here
 is_city = yes
 hre = no
 

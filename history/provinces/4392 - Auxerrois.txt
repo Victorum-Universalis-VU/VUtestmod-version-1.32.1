@@ -9,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 4
 base_production = 4
-trade_goods = wine
+trade_goods = champagne		#going back to champagne since it's really scarse trade good, also area of Champagne
 base_manpower = 2
 add_core = NEM
 

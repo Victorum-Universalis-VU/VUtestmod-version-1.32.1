@@ -14,7 +14,7 @@ religion = catholic
 hre = yes
 base_tax = 1
 base_production = 2
-trade_goods = lead
+trade_goods = glass		#reverting to original; It appears as it was literally just a single castle on a hill. It's hard to tell about any trade good production but definetely wasn't lead.
 base_manpower = 2
 
 #Documented 12th century AD
