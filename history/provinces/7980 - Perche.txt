@@ -10,7 +10,7 @@ capital = "Mortagne"
 base_tax = 4
 base_production = 5
 base_manpower = 2
-trade_goods = grain			#Major  agriculture center
+trade_goods = fur
 is_city = yes
 hre = no
 

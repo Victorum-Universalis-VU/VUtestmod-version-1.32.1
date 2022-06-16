@@ -1,5 +1,9 @@
 #4378 - Killarney
 
+latent_trade_goods = { 
+    coal 
+}
+
 owner = MCM
 controller = MCM
 add_core = MCM
@@ -9,7 +13,7 @@ hre = no
 base_tax = 1  
 base_production = 2 
 base_manpower = 2 
-trade_goods = livestock
+trade_goods = iron
 capital = "Cill Airne" #"Tráigh Lí"
 is_city = yes
 

@@ -1,6 +1,4 @@
 # 1879 - Alençon
-#Region - France
-#Area - Normandy
 
 owner = ALE
 controller = ALE
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 6
 base_production = 6
-trade_goods = grain
+trade_goods = lumber
 base_manpower = 3
 add_core = ALE
 add_core = ENG

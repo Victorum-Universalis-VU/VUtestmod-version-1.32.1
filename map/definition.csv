@@ -5568,8 +5568,8 @@ province;red;green;blue;x;x
 5567;100;100;125;Maguana2;
 5568;100;100;200;Hosama;
 5569;100;100;75;Guanahatabey;
-5570;100;100;150;Siwanea;
-5571;100;100;225;Cubanacan;
+5570;247;253;217;La Adrada;
+5571;253;18;205;Las Guardas;
 5572;200;200;25;Bani;
 5573;200;200;100;LaRonge;
 5574;200;200;175;Guanahani;
@@ -5826,10 +5826,10 @@ province;red;green;blue;x;x
 5825;100;100;242;Lamtama;
 5826;100;100;37;Taos;
 5827;100;100;112;Towa;
-5828;100;100;187;Kewa;
-5829;100;100;62;Tiwa;
+5828;37;102;51;Valdeiglesias;
+5829;61;198;200;Caspe;
 5830;100;100;137;Piro;
-5831;100;100;212;Tompiro;
+5831;92;239;139;Amposta;
 5832;200;200;12;Manso;
 5833;200;200;87;Seuhubeogoi;
 5834;200;200;162;Yoovwetuh;
@@ -5840,7 +5840,7 @@ province;red;green;blue;x;x
 5839;200;200;62;Piipaash;
 5840;200;200;137;KeliAkimelOotham;
 5841;200;200;212;Sobaipuri;
-5842;100;100;11;Dilzhee;
+5842;221;28;44;Salvanes;
 5843;100;100;86;Chihuicahui;
 5844;100;100;161;Tahuunde;
 5845;100;100;241;Kuccuntikkaii;
@@ -7016,12 +7016,12 @@ province;red;green;blue;x;x
 7015;200;200;108;Marsica;
 7016;200;200;183;Sora;
 7017;200;200;58;Gaeta;
-7018;200;200;133;Velletri;
+7018;189;213;20;El Rocio;
 7019;200;200;208;Sabina;
 7020;100;100;7;Campagna;
 7021;100;100;82;Orvieto;
 7022;100;100;157;Terni;
-7023;100;100;237;Spoleto;
+7023;199;103;123;Rossio ao Sul do Tejo;
 7024;100;100;32;Norcia;
 7025;100;100;107;Pesaro;
 7026;100;100;182;Camerino;

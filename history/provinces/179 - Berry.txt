@@ -1,6 +1,4 @@
 # 179 Berry
-#Region - France
-#Area - Loire
 
 owner = BER
 controller = BER
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = glass
+trade_goods = lumber
 base_manpower = 3
 add_core = BER
 
