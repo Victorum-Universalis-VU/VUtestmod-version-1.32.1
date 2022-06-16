@@ -9,11 +9,14 @@ country_event = { #Turkish Conquest of Mamluks
 	trigger = {
 		tag = TUR
 		war_with = MAM 
+		is_great_power = yes	#Prevents weak Ottomans from abusing it
+		is_year = 1470		#Prevents player from rushing it and becomming ustoppable early game
 		war_score_against = {
 			who = MAM
-			value = 80
+			value = 85
 		}
-		MAM = { total_development = 300 } 
+		MAM = { total_development = 300 }
+		NOT = { MAM = { total_development = 2000 }	#Shouldn't work if Mamluks are super strong and super big
 	}
 	
 	mean_time_to_happen = { months = 1 } 
@@ -62,11 +65,14 @@ country_event = { #Turkish Conquest of Hungary
 	trigger = {
 		tag = TUR
 		war_with = HUN 
+		is_great_power = yes	#At least be a great power to insta-annex another nation
+		is_year = 1475		#Don't rush it to skyrocket yourself in early game
 		war_score_against = {
 			who = HUN
 			value = 75
 		}
-		HUN = { total_development = 200 } 
+		HUN = { total_development = 200 }
+		NOT = { HUN = { total_development = 2000 }	#Should not work if Hungary is powerhouse on its own
 	}
 	
 	mean_time_to_happen = { months = 1 } 

@@ -24,6 +24,7 @@ saffron = {	base_price = 8 }
 tar = {	base_price = 3 }
 vanilla = {	base_price = 4 }
 rubber = { base_price = 3 }
+bamboo = { base_price = 2 }
 
 #Animal
 camel = { base_price = 2.5 }
@@ -75,6 +76,8 @@ rum = {	base_price = 4 }
 vodka = { base_price = 3 }
 marble_sculpture = { base_price = 4 }
 cigars = { base_price = 4.25 }
+sake = { base_price = 3.5 }
+whiskey = { base_price = 4 }
 
 # Refined goods
 books = { base_price = 4.0 }
@@ -93,3 +96,5 @@ steam_engine = { base_price = 8 }
 sweet_confectioneries = { base_price = 6 }
 uniforms = { base_price = 8 }
 woodworking = {	base_price = 6 }
+pottery = { base_price = 2.5 }
+lace = { base_price = 3.5 }

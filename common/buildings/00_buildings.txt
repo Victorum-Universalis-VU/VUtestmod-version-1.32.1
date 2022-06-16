@@ -4659,7 +4659,7 @@ textile = {
 		indigo
 		silk
 		uniforms 
-		wool
+		lace
 	}
 	modifier = {
 		trade_goods_size = 0.4			#BTAddon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
@@ -5149,7 +5149,7 @@ farm_estate = {
 		rice
 		tomato
 		vodka
-		wine
+		whiskey
 	}
 	modifier = {
 		trade_goods_size = 0.4			#BTAddon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.
@@ -5298,6 +5298,8 @@ mills = {
 		pearls
 		steam_engine
 		tropical_wood
+		bamboo
+		pottery
 	}
 	modifier = {
 		trade_goods_size = 0.4			#BTAddon Note - Alright, alright. I'm giving in. It makes no sense, but vanilla apparently didn't bother to code in compatibility with the modifier version, so I have little choice but to give a flat bonus here.

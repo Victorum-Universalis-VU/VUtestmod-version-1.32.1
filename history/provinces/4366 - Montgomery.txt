@@ -1,9 +1,5 @@
 #4366 - Montgomery
 
-latent_trade_goods = {
-	lead
-}
-
 owner = WMC
 controller = WMC
 culture = welsh
