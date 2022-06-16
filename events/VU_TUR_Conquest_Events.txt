@@ -10,10 +10,10 @@ country_event = { #Turkish Conquest of Mamluks
 		tag = TUR
 		war_with = MAM 
 		is_great_power = yes	#Prevents weak Ottomans from abusing it
-		is_year = 1492		#Prevents player from rushing it and becomming ustoppable early game
+		is_year = 1470		#Prevents player from rushing it and becomming ustoppable early game
 		war_score_against = {
 			who = MAM
-			value = 80
+			value = 85
 		}
 		MAM = { total_development = 300 }
 		NOT = { MAM = { total_development = 2000 }	#Shouldn't work if Mamluks are super strong and super big
