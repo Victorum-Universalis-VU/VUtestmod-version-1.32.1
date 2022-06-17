@@ -90,7 +90,7 @@ categories =  {
 	}
 
 	grasslands = {
-		color = { 105 224 139 }
+		color = { 105 224 47 }
 		type = plains
 		sound_type = plains
 
