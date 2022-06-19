@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#8059 - Alcazar
 
 owner = CAS
 controller = CAS
@@ -10,7 +10,7 @@ capital = "Alcázar"
 base_tax = 3
 base_production = 2
 base_manpower = 2
-trade_goods = iron			#gunpowder... calling it iron for now, I suppose.
+trade_goods = gunpowder
 is_city = yes
 hre = no
 

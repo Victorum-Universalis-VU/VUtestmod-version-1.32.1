@@ -1,4 +1,4 @@
-# 1877 Charolais
+#1877 - Charolais
 #Region - France
 #Area - Burgundy
 
@@ -11,17 +11,14 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 3
-trade_goods = salt			#major salt area
+trade_goods = mercury
 base_manpower = 2
 add_core = BUR
-
-
 
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
 
 1477.1.5 = { owner = FRA controller = FRA add_core = FRA } # Charles the Bold dies and Louis XII of France takes the province
 1493.8.19 = { owner = HAB controller = HAB add_core = HAB remove_core = FRA } # Frederick III dies and Charles VII cedes the province to Maximilian I von Habsburg

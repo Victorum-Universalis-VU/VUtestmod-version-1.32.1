@@ -1,6 +1,4 @@
 #6296 - Travemünde
-#Region - Germany
-#Area - Holstein
 
 owner = HSA
 controller = HSA
@@ -11,7 +9,7 @@ religion = catholic
 hre = yes
 base_tax = 4
 base_production = 3
-trade_goods = naval_supplies
+trade_goods = grain
 base_manpower = 2
 fort_15th = yes
 capital = "Travemünde"

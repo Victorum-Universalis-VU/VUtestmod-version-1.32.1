@@ -1,6 +1,4 @@
-#6229 - Koerich
-#Region - Low Countries
-#Area - Liege
+#7698 - Koerich
 
 latent_trade_goods = {
 	coal
@@ -17,7 +15,7 @@ religion = catholic
 hre = yes
 base_tax = 8
 base_production = 4
-trade_goods = iron
+trade_goods = leather
 base_manpower = 2
 fort_15th = yes
 

@@ -1,6 +1,4 @@
-# 91 Hainaut - Principal cities: Mons & Tournai
-#Region - Low Countries
-#Area - Wallonia
+#91 - Hainaut
 
 latent_trade_goods = {
 	coal
@@ -16,7 +14,7 @@ religion = catholic
 hre = yes
 base_tax = 6
 base_production = 6
-trade_goods = cloth
+trade_goods = apiculture
 base_manpower = 3
 add_core = HAI
 center_of_trade = 2

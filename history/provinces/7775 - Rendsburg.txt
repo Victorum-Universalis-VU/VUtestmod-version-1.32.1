@@ -1,4 +1,4 @@
-#BT reoverhaul
+#7775 - Rendsburg
 
 owner = SHL
 controller = SHL
@@ -9,7 +9,7 @@ capital = "Rendsburg"
 base_tax = 3 
 base_production = 3 
 base_manpower = 2 
-trade_goods = livestock
+trade_goods = lumber
 is_city = yes
 hre = yes
 

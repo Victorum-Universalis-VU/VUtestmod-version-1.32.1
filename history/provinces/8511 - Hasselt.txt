@@ -1,4 +1,4 @@
-# 93 Liège - Principal cities: Liège & Namur
+#93 - Liège
 #Region - Low Countries
 #Area - Liege
 
@@ -13,7 +13,7 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 1
-trade_goods = iron
+trade_goods = copper
 base_manpower = 1
 
 

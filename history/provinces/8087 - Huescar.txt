@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#8087 - Huescar
 
 owner = GRA
 controller = GRA
@@ -25,7 +25,7 @@ discovered_by = eastern
 	owner = CAS
 	controller = CAS
 	add_core = CAS
-	culture = andalucian
+	culture = andalusi_culture
 	religion = catholic
 }	#Reconquista
 #1444 on

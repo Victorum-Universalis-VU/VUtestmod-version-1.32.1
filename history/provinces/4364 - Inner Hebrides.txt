@@ -1,6 +1,4 @@
 #4364 - Inner Hebrides
-#Region - Britain
-#Area - Southern Isles
 
 owner = LOI
 controller = LOI

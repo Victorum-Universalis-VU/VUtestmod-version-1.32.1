@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#8109 - Borja
 
 owner = ARA
 controller = ARA
@@ -9,7 +9,7 @@ capital = "Borja"
 base_tax = 2
 base_production = 3
 base_manpower = 2
-trade_goods = grain
+trade_goods = olive_oil
 is_city = yes
 hre = no
 

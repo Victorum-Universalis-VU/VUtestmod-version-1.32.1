@@ -1,6 +1,4 @@
 # 184 Orléannais - Principal cities: Orléans
-#Region - France
-#Area - Loire
 
 owner = ORL
 controller = ORL
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 11
 base_production = 11
-trade_goods = cloth
+trade_goods = glass
 base_manpower = 5
 add_core = ORL
 fort_15th = yes

@@ -1,6 +1,4 @@
-# 66 - Bamberg
-#Region - Germany
-#Area - Franconia
+#66 - Bamberg
 
 owner = BAM
 controller = BAM
@@ -9,7 +7,7 @@ culture = franconian
 religion = catholic
 base_tax = 6
 base_production = 6
-trade_goods = wine
+trade_goods = beer
 base_manpower = 4 
 capital = "Bamberg"
 is_city = yes

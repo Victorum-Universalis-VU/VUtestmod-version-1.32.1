@@ -1,6 +1,4 @@
 #3137 - Ross
-#Region - Britain
-#Area - Highlands
 
 owner = LOI
 controller = LOI
@@ -9,7 +7,7 @@ religion = catholic
 hre = no
 base_tax = 2 
 base_production = 2 
-trade_goods = grain #Was fish
+trade_goods = iron
 base_manpower = 2 
 capital = "Dingwall"
 is_city = yes

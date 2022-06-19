@@ -1,6 +1,4 @@
 #6375 - Sankt Polten
-#Region - Germany
-#Area - Austria Proper
 
 owner = HAB
 controller = HAB
@@ -11,7 +9,7 @@ religion = catholic
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = wine 
+trade_goods = grain 
 capital = "Sankt Polten" 
 is_city = yes
 hre = yes

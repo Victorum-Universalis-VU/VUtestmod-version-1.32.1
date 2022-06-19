@@ -1,6 +1,4 @@
 #4362 - Dumfries
-#Region - Britain
-#Area - Western Lowlands
 
 owner = SCO
 controller = SCO
@@ -9,7 +7,7 @@ religion = catholic
 hre = no
 base_tax = 3
 base_production = 2
-trade_goods = beer
+trade_goods = vegetables
 base_manpower = 2
 capital = "Dumfries"
 is_city = yes

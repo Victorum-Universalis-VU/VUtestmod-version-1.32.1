@@ -112,8 +112,8 @@
  gunpowderDESC: "Gunpowder is an explosive consisting of a powdered mixture of saltpeter, sulfur, and charcoal."
  jewellery: "Jewellery"
  jewelleryDESC: "jewellery consists of decorative items worn for personal adornment, such as brooches, rings, necklaces, earrings, pendants, bracelets, and cufflinks."
- tanned_leather: "Tanned Leather"
- tanned_leatherDESC: "Tanned leather is a strong and ductile material produced from tanning animal skins, often cattle hide. It is used in the production of many valuable goods, such as clothing, books, armor, wallpaper, and furniture. A wide range of techniques are used across the world to produce many different varieties."
+ leather: "Tanned Leather"
+ leatherDESC: "Tanned leather is a strong and ductile material produced from tanning animal skins, often cattle hide. It is used in the production of many valuable goods, such as clothing, books, armor, wallpaper, and furniture. A wide range of techniques are used across the world to produce many different varieties."
  metalworking: "Metalworking"
  metalworkingDESC: "Metalworking is the process of working with metals to create individual parts, assemblies, or large-scale structures.\n\nProvince Bonus: Nearby provinces gain Production Efficiency: §G+5%§!\nLeader Bonus: Provinces with production building gain Goods Produced: §G+0.1§!"
  munitions: "Munitions"
@@ -142,13 +142,23 @@
  bison_hidesDESC: "Bison skins were used for industrial machine belts, clothing such as robes, and rugs."
  canned_goods: "Canned Goods"
  canned_goodsDESC: "Canned Goods are small hand-sized metalic boxes or cylinders containing preserved, salted meats and fish. Canned goods are very useful for source of nourishment, especially on long-haul journeys and expeditions." 
- chocolates: "Chocolate"
- chocolatesDESC: "Chocolate is a preparation of roasted and ground cacao seeds that is made in the form of a liquid, paste, or in a block, which may also be used as a flavoring ingredient in other foods."
+ chocolate: "Chocolate"
+ chocolateDESC: "Chocolate is a preparation of roasted and ground cacao seeds that is made in the form of a liquid, paste, or in a block, which may also be used as a flavoring ingredient in other foods."
  sweet_confectioneries: "Sweet Confectionery"
  sweet_confectioneriesDESC: "Sweet Confectionery includes candies, candied nuts, chocolates, chewing gum, bubble gum, pastillage, and other confections that are made primarily of sugar."
  #
  #VU additions by Doc Robert
  vodka: "Vodka"
  vodkaDESC: "Vodka is a strong alcohol distilled from grains and produced mostly in Easern Europe. Originated and popularised in Rus, evetually spreaded to other slavic countries. Drink of the masses and pesants due to its very cheap production compared to other alochols. Manufactured from all sorts of grains and later mostly from potatoes once they were introduced. As they say, Pesant saturated with vodka is too drunk to revolt and think for himself."
- 
+ pottery: "Pottery"
+ potteryDESC: "Pottery represents various types of ceramic and clay products. A staple of human civilization since Ancient Sumeria. Can also be viewed as cheaper alternative to Asian ceramics trade good."
+ lace: "Lace"
+ laceDESC: "Everybody knows what a lace is. Carefully-knitted ornaments and decorations made out of fibers."
+ bamboo: "Bamboo"
+ bambooDESC: "Bamboo is tropical plant known for its very fast growing speed. Thin but sturdy, it was used as primary building material and wood replacement in tropical regions all around the world."
+ sake: "Sake"
+ sakeDESC: "Sake is traditional alcohol drink originating from Japan. Beverage is made from fermenting rice and has found use in many rituals and religious practises."
+ whiskey: "Whiskey"
+ whiskeyDESC: "Whiskey is a type of distilled alcoholic beverage made from fermented grain mash. Various grains (which may be malted) are used for different varieties, including barley, corn, rye, and wheat. Whisky is typically aged in wooden casks. It is believed that it originated from Ireland."
+
 

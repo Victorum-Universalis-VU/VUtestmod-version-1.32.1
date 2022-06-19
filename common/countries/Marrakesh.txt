@@ -2,7 +2,7 @@
 
 graphical_culture = persiangfx #muslimgfx
 
-color = { 84  242  223 } 
+color = { 40  168  153 } 
 
 revolutionary_colors = { 8  0  5 } #Alleged Tricolor of the Republic of Salé
 

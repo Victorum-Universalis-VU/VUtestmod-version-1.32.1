@@ -1,6 +1,4 @@
-# 192 Bourgogne - Principal cities: Dijon
-#Region - France
-#Area - Burgundy
+#192 - Bourgogne
 
 owner = BUR
 controller = BUR 
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 7
 base_production = 7
-trade_goods = wine
+trade_goods = lumber
 base_manpower = 4
 add_core = BUR
 fort_15th = yes

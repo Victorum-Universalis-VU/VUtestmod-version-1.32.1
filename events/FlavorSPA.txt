@@ -1483,7 +1483,7 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "José Monino"
-			culture = andalucian
+			culture = andalusi_culture
 			discount = yes
 			skill = 3
 		}
@@ -2376,7 +2376,7 @@ country_event = {
 			limit = {
 				culture = andalusi_culture
 			}
-			change_culture = andalucian
+			change_culture = andalusi_culture
 		}
 		#Repeat of effect from earlier persecutions:
 		random_country = {

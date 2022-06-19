@@ -2,7 +2,7 @@
 
 graphical_culture = latingfx #westerngfx
 
-color = { 218  215  56 }
+color = { 218  202  56 }
 
 revolutionary_colors = { 0 5 0 }
 

@@ -1,6 +1,4 @@
-#6389 - Leutkirch
-#Region - Germany
-#Area - Upper Swabia
+#7597 - Leutkirch
 
 owner = WLB
 controller = WLB
@@ -10,7 +8,7 @@ religion = catholic
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = cloth
+trade_goods = wool
 capital = "Leutkirch"
 is_city = yes
 hre = yes

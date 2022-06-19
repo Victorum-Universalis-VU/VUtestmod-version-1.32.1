@@ -1,6 +1,4 @@
 #8159 - Coleraine
-#Area - Ulster
-#Region - Ireland
 
 #Core Details
 capital = "Coleraine"
@@ -16,7 +14,7 @@ religion = catholic
 base_tax = 3
 base_production = 1
 base_manpower = 2
-trade_goods = grain
+trade_goods = lumber
 
 #Cores and Occupation (Alphabetical after current)
 add_core = TYR

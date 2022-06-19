@@ -1,8 +1,10 @@
+#4838 - Savannakhet
+
 owner = LXA
 controller = LXA
 culture = lao
 religion = buddhism
-capital = "Sip Et"
+capital = "Savannakhet"
 trade_goods = ivory
 hre = no
 base_tax = 2 

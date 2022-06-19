@@ -1,6 +1,4 @@
 #53 - Lüneburg
-#Region - Germany
-#Area - Lower Saxony
 
 owner = LUN
 controller = LUN
@@ -8,7 +6,7 @@ add_core = LUN
 culture = lower_saxon
 religion = catholic
 capital = "Lüneburg"
-trade_goods = salt
+trade_goods = leather
 hre = yes
 base_tax = 10
 base_production = 10			#Probably over 10k in 1444, rather large for the region.

@@ -172,10 +172,11 @@
 2348 = "Scio"
 2750 = "Filippopoli"
 3003 = "Negroponte"
+3091 = { "Costruttore" "Costruttore" }
 4174 = "Durazzo"
-4175 = "Scutari"
+4175 = "Alessio"
 4239 = "Belgrado"
-4700 = "Lesbo"
+4700 = { "Lésvos" "Mytilíni" }
 4701 = "Corinto"
 4702 = "Serres"
 4750 = "Croia"

@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7974 - Bethune
 
 owner = ATS
 controller = ATS
@@ -9,7 +9,7 @@ capital = "Béthune"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = cloth
+trade_goods = apiculture
 is_city = yes
 hre = no
 

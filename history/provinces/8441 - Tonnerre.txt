@@ -1,6 +1,4 @@
-#Tonnerre
-#Region - France
-#Area - Burgundy
+#8441 - Tonnerre
 
 owner = FRA
 controller = FRA
@@ -12,18 +10,11 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 1
-trade_goods = champagne
+trade_goods = fur
 base_manpower = 1
 
-discovered_by = eastern
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
+discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 

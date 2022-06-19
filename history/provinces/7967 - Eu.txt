@@ -12,7 +12,7 @@ capital = "Eu"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = fish
+trade_goods = seafood
 is_city = yes
 hre = no
 

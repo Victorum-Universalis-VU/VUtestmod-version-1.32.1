@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7087 - Ceneda
 
 owner = CEN
 controller = CEN
@@ -9,7 +9,7 @@ capital = "Ceneda"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = cheese #mentioned as primarily agricultural
+trade_goods = vegetables #mentioned as primarily agricultural
 is_city = yes
 hre = yes
 

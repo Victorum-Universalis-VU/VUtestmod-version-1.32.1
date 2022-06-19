@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7050 - Sovana
 
 owner = SVN
 controller = SVN
@@ -9,7 +9,7 @@ capital = "Pitigliano"#capital since 1293
 base_tax = 6
 base_production = 6
 base_manpower = 5
-trade_goods = wine # yet another wine producing area
+trade_goods = wine #famous wine producing area.
 is_city = yes
 hre = yes
 

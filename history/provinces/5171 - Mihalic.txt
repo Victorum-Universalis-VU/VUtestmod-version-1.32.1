@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5171 - Mihalic
 
 owner = TUR
 controller = TUR

@@ -123,6 +123,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7393;1316;canal;5261;-1;-1;-1;-1;second_suez_canal
 2348;318;sea;5493;-1;-1;-1;-1;Chios-Sugla
 4700;2296;sea;1319;-1;-1;-1;-1;Lesbos-Biga
+3195;4779;sea;1319;-1;-1;-1;-1;Lemnos-Gallipoli
 3245;2447;sea;1323;-1;-1;-1;-1;Kerch-Mapa
 8419;8416;sea;1340;-1;-1;-1;-1;Ramanathapuram-Jaffna
 2803;502;sea;1522;-1;-1;-1;-1;Orinoco Delta-Trinidad
@@ -464,8 +465,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6618;408;sea;7295;-1;-1;-1;-1;Al Qurnah-Basrah
 408;6611;sea;7295;-1;-1;-1;-1;Basrah-Babiyan
 6610;6611;sea;7295;-1;-1;-1;-1;Abdali-Babiyan
-6551;2320;sea;1328;-1;-1;-1;-1;Tor-Ros Gharib
-6552;2327;sea;1328;-1;-1;-1;-1;Sharm-Ros Gharib
+6552;2320;sea;1328;-1;-1;-1;-1;Sharm-Ras Gharib
+6552;2327;sea;1328;-1;-1;-1;-1;Sharm-Gayal
 320;7822;sea;5493;-1;-1;-1;-1;Rhodes-Marmaris
 2319;6499;sea;6592;-1;-1;-1;-1;Asyut-Abnub
 6576;6501;sea;6593;-1;-1;-1;-1;Farshut-Qena
@@ -486,5 +487,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1780;1073;sea;8375;-1;-1;-1;-1;Komi-Berezhov
 2427;1073;sea;8375;-1;-1;-1;-1;Ostyaki-Berezhov
 1888;5486;sea;2426;-1;-1;-1;-1;Kara Sea-Kara Sea
+4477;4476;sea;7288;-1;-1;-1;-1;Calcutta-Nadia
+564;4475;sea;7287;-1;-1;-1;-1;Dhaka-Fathabad
+4831;6939;sea;7284;-1;-1;-1;-1;Bangkok-Bang Na
+4831;8556;sea;7284;-1;-1;-1;-1;Nakhon-Pathom
+8567;4832;sea;7284;-1;-1;-1;-1;Sing Buri-Lavo
+8567;4834;sea;7284;-1;-1;-1;-1;Sing Buri-Suphanburi
+8103;7023;sea;7307;-1;-1;-1;-1;Abrantes-Rossio ao Sul do Tejo
+3044;5298;sea;4333;-1;-1;-1;-1;Dahlak-Zula
+5181;7450;sea;6548;-1;-1;-1;-1;Nekhel-Eilat
+5181;6550;sea;6548;-1;-1;-1;-1;Nekhel-Firan
+5181;6547;sea;6548;-1;-1;-1;-1;Nekhel-Abu Zenima
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

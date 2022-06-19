@@ -1,6 +1,4 @@
 #8189 - Baja
-#Area - West Alfold
-#Region - Carpathia
 
 #Core Details
 capital = "Baja"
@@ -16,7 +14,7 @@ religion = catholic
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = vegetables
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN

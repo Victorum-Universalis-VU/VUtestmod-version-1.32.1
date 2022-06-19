@@ -660,10 +660,10 @@ mug_ganges_branch = {
 		icon = mission_bengal_entrepot
 		required_missions = { mug_grand_trunk_road }
 		provinces_to_highlight = {
-			province_id = 561
+			province_id = 4477
 		}
 		trigger = {
-			561 = {
+			4477 = {
 				owned_by = ROOT
 				province_has_center_of_trade_of_level  = 3
 			}

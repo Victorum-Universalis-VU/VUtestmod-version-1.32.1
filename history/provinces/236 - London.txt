@@ -1,6 +1,4 @@
 #236 - London
-#Region - Britain
-#Area - Essex
 
 owner = ENG
 controller = ENG
@@ -10,7 +8,7 @@ hre = no
 base_tax = 11
 base_production = 9
 base_manpower = 8
-trade_goods = cloth
+trade_goods = gunpowder
 capital = "London"
 is_city = yes
 add_core = ENG

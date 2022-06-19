@@ -1,6 +1,4 @@
 #3009 - Ossory
-#Region - Ireland
-#Area - Leinster
 
 owner = ENG
 controller = ENG
@@ -12,7 +10,7 @@ hre = no
 base_tax = 4  
 base_production = 4 
 base_manpower = 4 
-trade_goods = grain
+trade_goods = apiculture
 capital = "Wexford" #"Weiseforthe"
 is_city = yes
 center_of_trade = 1

@@ -1,6 +1,4 @@
-#7658 - Crailsheim
-#Region - Germany
-#Area - Lower Swabia
+#7658 - Gunzenhausen
 
 owner = ROT
 controller = ROT
@@ -8,13 +6,12 @@ add_core = ROT
 culture = bavarian
 capital = "Gunzenhausen"
 religion = catholic
-trade_goods = beer
+trade_goods = fur
 base_tax = 6
 base_production = 6
 base_manpower = 4 
 is_city = yes
 hre = yes
-
 
 discovered_by = english
 discovered_by = french

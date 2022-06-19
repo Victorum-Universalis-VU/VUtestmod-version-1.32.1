@@ -10,7 +10,7 @@ hre = yes
 base_tax = 4
 base_production = 4
 base_manpower = 4
-trade_goods = grain
+trade_goods = vegetables
 
 discovered_by = eastern
 discovered_by = western

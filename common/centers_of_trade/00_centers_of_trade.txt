@@ -137,7 +137,7 @@ world_trade_center = { #Grand Emporium
 		local_development_cost = -0.05
 		local_institution_spread = 0.25
 		local_prosperity_growth = 0.1
-		supply_limit = 4
+		supply_limit = 2.5                      #Lowered it down from 4. However, we cannot remove this because doing so makes no sense since the larger the cot becomes, the better it is able to handle the importing and exporting of goods and service. So, naturally supply is going to improve from this.
 		trade_goods_size = 0.5
 	}
 	state_modifiers = {

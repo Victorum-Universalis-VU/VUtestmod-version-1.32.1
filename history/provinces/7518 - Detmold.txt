@@ -1,6 +1,4 @@
 #6270 - Detmold
-#Region - Germany
-#Area - Westphalia
 
 owner = BRG
 controller = BRG
@@ -8,7 +6,7 @@ add_core = BRG
 add_core = LPP
 culture = lower_saxon
 religion = catholic
-trade_goods = cloth #linen
+trade_goods = glass
 capital = "Detmold"
 base_tax = 2
 base_production = 2

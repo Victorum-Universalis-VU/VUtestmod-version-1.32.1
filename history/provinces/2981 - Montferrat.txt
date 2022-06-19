@@ -1,6 +1,4 @@
 #2981 - Montferrat
-#Region - Italy
-#Area - Piedmont
 
 owner = MFA
 controller = MFA
@@ -9,7 +7,7 @@ religion = catholic
 hre = yes
 base_tax = 5
 base_production = 5
-trade_goods = wine
+trade_goods = vegetables
 base_manpower = 3
 capital = "Casale"
 is_city = yes

@@ -2,7 +2,7 @@
 
 graphical_culture = greekgfx #easterngfx
 
-color = { 116  107  140 }
+color = { 99  92  122 }
 
 revolutionary_colors = { 0 10 5 }
 

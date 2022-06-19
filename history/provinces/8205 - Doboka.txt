@@ -1,6 +1,4 @@
 #8205 - Doboka
-#Area - Northern Transylvania
-#Region - Carpathia
 
 #Core Details
 capital = "Dés"
@@ -16,7 +14,7 @@ religion = orthodox
 base_tax = 2
 base_production = 1
 base_manpower = 1
-trade_goods = lumber
+trade_goods = woodworking
 center_of_trade = 1
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN

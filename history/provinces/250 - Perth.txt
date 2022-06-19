@@ -1,6 +1,4 @@
 #250 - Perth
-#Region - Britain
-#Area - Grampians
 
 #latent_trade_goods = {
 #	coal
@@ -13,7 +11,7 @@ religion = catholic
 hre = no
 base_tax = 4
 base_production = 3
-trade_goods = cloth
+trade_goods = livestock
 base_manpower = 2
 capital = "Perth"
 is_city = yes

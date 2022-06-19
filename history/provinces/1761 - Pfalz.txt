@@ -5,7 +5,7 @@
 capital = "Worms"
 culture = franconian
 religion = catholic
-trade_goods = wine
+trade_goods = apiculture #Due to the many churces and honied beer brewers in the area.
 owner = PAL
 base_tax = 12
 base_production = 12

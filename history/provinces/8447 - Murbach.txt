@@ -1,6 +1,4 @@
 #6443 - Mulhouse
-#Region - France
-#Area - Lorraine
 
 latent_trade_goods = {
 	coal
@@ -16,7 +14,7 @@ religion = catholic
 hre = yes
 base_tax = 3 
 base_production = 3
-trade_goods = cloth
+trade_goods = livestock
 base_manpower = 2
 
 discovered_by = english

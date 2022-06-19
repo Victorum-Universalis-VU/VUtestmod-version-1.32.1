@@ -1,6 +1,4 @@
 #8155 - Lochaber
-#Area - Highlands
-#Region - Britain
 
 #Core Details
 capital = "Inverlochy"
@@ -16,7 +14,7 @@ religion = catholic
 base_tax = 1
 base_production = 1
 base_manpower = 2
-trade_goods = livestock
+trade_goods = lumber
 
 #Cores and Occupation (Alphabetical after current)
 add_core = LOI

@@ -2,7 +2,7 @@
 
 graphical_culture = latingfx #westerngfx
 
-color = { 245  242  98 }
+color = { 240  219  91 }
 
 historical_idea_groups = {
 	trade_ideas

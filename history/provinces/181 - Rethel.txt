@@ -1,6 +1,4 @@
-# 181 Rethel
-#Region - France
-#Area - Seine
+#181 - Rethel
 
 owner = RET
 controller = RET
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 3
 base_production = 3
-trade_goods = livestock
+trade_goods = grain
 base_manpower = 2 
 add_core = RET
 add_core = NEV 

@@ -2,7 +2,7 @@
 
 graphical_culture = turkishgfx #muslimgfx
 
-color = { 114  70  103 }
+color = { 130  65  114 }
 
 revolutionary_colors = { 0 4 0 }
 

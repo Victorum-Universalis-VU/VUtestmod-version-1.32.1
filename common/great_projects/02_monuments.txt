@@ -307,7 +307,7 @@ gelata_tower = {
 			}
 			AND = {
 				owner = { culture_group = latin }
-				owner = { government_type = republic }
+				owner = { government = republic }
 			}
 		}
     }
@@ -335,7 +335,7 @@ gelata_tower = {
 			}
 			AND = {
 				owner = { culture_group = latin }
-				owner = { government_type = republic }
+				owner = { government = republic }
 			}
 		}	
     }
@@ -11065,7 +11065,7 @@ kalmar_castle = {
 }
 
 palazzo_pitti = {
-    start = 118
+    start = 116
     
     date = 1458.01.01
    

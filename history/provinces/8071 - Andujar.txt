@@ -1,10 +1,10 @@
-#BT's Western Europe Overhaul in 12.0
+#8071 - Andujar
 
 owner = CAS
 controller = CAS
 add_core = CAS
 add_core = JAE #BTB added: Castilian revolter tag.
-culture = andalucian
+culture = andalusi_culture
 religion = catholic
 capital = "Andújar"
 base_tax = 2

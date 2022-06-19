@@ -2,7 +2,7 @@
 
 graphical_culture = persiangfx #muslimgfx
 
-color = { 213 0 39 }
+color = { 174  0  33 }
 
 revolutionary_colors = { 1  5  1 }
 

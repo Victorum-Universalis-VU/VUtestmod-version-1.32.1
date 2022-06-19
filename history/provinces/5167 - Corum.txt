@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+#5167 - Corum
 
 owner = TUR
 controller = TUR

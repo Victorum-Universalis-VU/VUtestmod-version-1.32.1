@@ -1,6 +1,4 @@
 #4366 - Montgomery
-#Region - Britain
-#Area - Powys
 
 owner = WMC
 controller = WMC

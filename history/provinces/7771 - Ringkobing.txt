@@ -1,4 +1,4 @@
-#BT reoverhaul
+#7771 - Ringkobing
 
 owner = DAN
 controller = DAN
@@ -9,7 +9,7 @@ capital = "Ringkobing"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = fish
+trade_goods = lumber
 is_city = yes
 hre = no
 

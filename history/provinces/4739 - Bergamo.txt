@@ -1,6 +1,4 @@
 #4739 - Bergamo
-#Region - Italy
-#Area - Lombardy
 
 owner = BGM
 controller = BGM
@@ -9,7 +7,7 @@ religion = catholic
 hre = yes 
 base_tax = 5
 base_production = 5
-trade_goods = horses
+trade_goods = livestock
 base_manpower = 3
 capital = "Bergamo" 
 is_city = yes

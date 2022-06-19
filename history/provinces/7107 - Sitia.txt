@@ -10,7 +10,7 @@ capital = "Sitia"
 base_tax = 2
 base_production = 3
 base_manpower = 1
-trade_goods = fish			#no reason in particular.
+trade_goods = seafood			#no reason in particular.
 is_city = yes
 hre = no
 

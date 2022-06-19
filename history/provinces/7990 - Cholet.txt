@@ -9,7 +9,7 @@ capital = "Cholet"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = cloth
+trade_goods = grain
 is_city = yes
 hre = no
 
