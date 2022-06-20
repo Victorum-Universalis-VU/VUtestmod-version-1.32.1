@@ -14,7 +14,7 @@ hre = yes
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = naval_supplies 
+trade_goods = lumber 
 
 discovered_by = english
 discovered_by = french

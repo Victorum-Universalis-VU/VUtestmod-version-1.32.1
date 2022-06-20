@@ -10,7 +10,7 @@ religion = catholic
 hre = yes
 base_tax = 7
 base_production = 7
-trade_goods = fur
+trade_goods = cheese
 base_manpower = 4 
 
 discovered_by = western

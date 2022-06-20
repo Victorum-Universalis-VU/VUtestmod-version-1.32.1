@@ -1,6 +1,4 @@
 #6392 - Hayingen
-#Region - Germany
-#Area - Lower Swabia
 
 owner = HAB
 controller = HAB
@@ -9,19 +7,12 @@ culture = swabian
 religion = catholic
 base_tax = 2
 base_production = 3
-trade_goods = vegetables
+trade_goods = grain
 base_manpower = 2
 capital = "Hayingen"
 is_city = yes
 hre = yes
 
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

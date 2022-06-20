@@ -1,12 +1,10 @@
-#4768 - Jï¿½lich
-#Region - Germany
-#Area - Lower Rhineland
+#4768 - Jülich
 
 owner = GEL
 controller = GEL
 culture = limburgish
 religion = catholic
-trade_goods = apiculture
+trade_goods = beer
 capital = "Heinsberg"
 base_tax = 2
 base_production = 2			#Region (Rur river valley) was rather rich, but the city itself appears to have straddled 1.5k population since the Roman period, not breaking 2k until 18th century, if not later. Going for a compromise, actually, leaving it how it was.

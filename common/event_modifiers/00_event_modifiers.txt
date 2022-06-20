@@ -2381,7 +2381,22 @@ humber_estuary_modifier = {
 
 waterford_harbour_modifier = {
 	province_trade_power_value = 10
-	picture = "province_trade_power_value"
+	picture = "waterford_harbour_icon"
+}
+
+portsmouth_harbour_modifier = {
+	province_trade_power_value = 10
+	picture = "portsmouth_harbour_icon"
+}
+
+plymouth_harbour_modifier = {
+	province_trade_power_value = 10
+	picture = "plymouth_harbour_icon"
+}
+
+chatham_harbour_modifier = {
+	province_trade_power_value = 10
+	picture = "chatham_harbour_icon"
 }
 
 cinque_ports_modifier = {

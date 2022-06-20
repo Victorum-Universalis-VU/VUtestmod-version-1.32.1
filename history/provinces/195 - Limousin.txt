@@ -1,6 +1,4 @@
-# 195 Limousin - Principal cities: Limoges
-#Region - France
-#Area - Massif Central
+#195 - Limousin
 
 owner = FRA
 controller = FRA

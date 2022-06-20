@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7037 - Fermo
 
 owner = FMO
 controller = FMO
@@ -9,7 +9,7 @@ capital = "Fermo"
 base_tax = 7
 base_production = 7
 base_manpower = 4
-trade_goods = cloth # lace, hats and footwear. Could also be copper or grain
+trade_goods = lace #Changed to lace from cloth (by San Felipe).
 is_city = yes
 hre = no
 

@@ -1,6 +1,4 @@
-# 174 Gascogne - Principal cities: Bordeaux
-#Region - France
-#Area - Guyenne
+#174 Gascogne
 
 owner = ENG
 controller = ENG

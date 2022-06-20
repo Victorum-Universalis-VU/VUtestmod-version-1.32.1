@@ -1,33 +1,18 @@
 #8127 - Luton
-#Area - Essex
-#Region - Britain
 
-#Core Details
 capital = "Luton"
 is_city = yes
 owner = ENG
 controller = ENG
-
-#Demographics
 culture = english
 religion = lollardy
-
-#Development and Trade
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = beer
-
-#Cores and Occupation (Alphabetical after current)
+trade_goods = grain
 add_core = ENG
-
-#Other Political
 hre = no
 seat_in_parliament = yes
-
-#Fort/Other Buildings
-
-#Special Modifiers
 
 #Discoveries
 discovered_by = western

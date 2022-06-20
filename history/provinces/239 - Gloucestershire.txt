@@ -1,6 +1,4 @@
 #239 - Gloucestershire
-#Region - Britain
-#Area - Wessex
 
 owner = ENG
 controller = ENG
@@ -10,7 +8,7 @@ hre = no
 base_tax = 5
 base_production = 4
 base_manpower = 3
-trade_goods = grain
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
 capital = "Bristol"
 is_city = yes
 add_core = ENG

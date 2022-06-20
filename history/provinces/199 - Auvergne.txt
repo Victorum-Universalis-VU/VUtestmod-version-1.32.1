@@ -1,6 +1,4 @@
-# 199 Auvergne - Principal cities: Clermont-Ferrand
-#Region - France
-#Area - Massif Central
+#199 - Auvergne
 
 owner = FRA
 controller = FRA
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = gold
+trade_goods = silver
 base_manpower = 3
 add_core = FRA
 add_core = AUV

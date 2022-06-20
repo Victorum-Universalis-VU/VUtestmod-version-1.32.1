@@ -8,7 +8,7 @@ hre = yes
 base_tax = 6
 base_production = 6
 base_manpower = 4
-trade_goods = wine
+trade_goods = fruit
 add_core = BAD
 
 discovered_by = eastern

@@ -18,7 +18,7 @@ hre = yes
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = woodworking
+trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
 fort_15th = yes
 
 discovered_by = english

@@ -1,6 +1,4 @@
 #Bro Sant-Maloù
-#Region - France
-#Area - Brittany
 
 owner = BRI
 controller = BRI
@@ -11,17 +9,10 @@ religion = catholic
 hre = no
 base_tax = 6
 base_production = 4 
-trade_goods = fish
+trade_goods = grain
 base_manpower = 4 
 add_core = BRI
 
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

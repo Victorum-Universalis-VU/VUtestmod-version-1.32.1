@@ -1,5 +1,4 @@
 #6346 - Herrenberg
-#Area - Lower Swabia
 
 owner = HAB
 controller = HAB
@@ -7,7 +6,7 @@ add_core = HAB
 culture = swabian
 capital = "Herrenberg"
 religion = catholic
-trade_goods = vegetables
+trade_goods = wool
 base_tax = 3
 base_production = 2
 base_manpower = 3

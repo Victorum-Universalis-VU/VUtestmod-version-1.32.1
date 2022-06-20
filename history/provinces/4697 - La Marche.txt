@@ -1,6 +1,4 @@
 #4697 - La Marche
-#Region - France
-#Area - Massif Central
 
 owner = AMG
 controller = AMG
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 2 
 base_production = 2 
-trade_goods = livestock
+trade_goods = lumber
 base_manpower = 1 
 add_core = AMG
 

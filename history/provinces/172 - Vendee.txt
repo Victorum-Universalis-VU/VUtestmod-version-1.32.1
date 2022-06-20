@@ -1,6 +1,4 @@
-# 172 Vendée - Principal cities: Nantes
-#Region - France
-#Area - Brittany
+#172 - Vendée
 
 owner = BRI
 controller = BRI

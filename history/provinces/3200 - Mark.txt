@@ -1,6 +1,4 @@
 #3200 - Mark
-#Region - Germany
-#Area - North Rhine
 
 owner = MKK
 controller = MKK
@@ -8,7 +6,7 @@ add_core = MKK
 add_core = KLE
 culture = hessian
 religion = catholic
-trade_goods = grain
+trade_goods = lead
 capital = "Hamm"
 base_tax = 10
 base_production = 10

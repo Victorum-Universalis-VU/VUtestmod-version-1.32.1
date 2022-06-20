@@ -1,4 +1,4 @@
-#685 - Huai'an (can't change file name)
+#685 - Huai'an
 
 owner = MNG
 controller = MNG
@@ -6,7 +6,7 @@ add_core = MNG
 culture = jianghuai
 religion = confucianism
 capital = "Yangzhou"
-trade_goods = books
+trade_goods = sake
 hre = no
 base_tax = 10
 base_production = 10

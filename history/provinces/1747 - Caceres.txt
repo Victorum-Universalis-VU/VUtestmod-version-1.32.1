@@ -1,6 +1,4 @@
 #1747 - Caceres
-#Region - Iberia
-#Area - Leon
 
 owner = CAS		#Enrique III of Castille
 controller = CAS

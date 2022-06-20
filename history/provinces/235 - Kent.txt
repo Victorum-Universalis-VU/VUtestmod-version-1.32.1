@@ -1,6 +1,4 @@
 #235 - Kent
-#Region - Britain
-#Area - Essex
 
 owner = ENG
 controller = ENG
@@ -10,7 +8,7 @@ hre = no
 base_tax = 4
 base_manpower = 3
 base_production = 4
-trade_goods = grain 
+trade_goods = cloth 
 capital = "Dover"
 is_city = yes
 add_core = ENG

@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7990 - Cholet
 
 owner = PRO
 controller = PRO
@@ -9,7 +9,7 @@ capital = "Cholet"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = grain
+trade_goods = horses
 is_city = yes
 hre = no
 

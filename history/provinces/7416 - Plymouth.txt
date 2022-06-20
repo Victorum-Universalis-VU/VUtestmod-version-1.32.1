@@ -18,19 +18,29 @@ add_claim = CRN
 center_of_trade = 1
 
 add_permanent_province_modifier = {
+	name = plymouth_harbour_modifier
+	duration = -1
+}
+
+add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = stannery_law_modifier
+	duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = tamar_estuary_modifier
+	duration = -1
 }
 
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-add_permanent_province_modifier = {
-	name = tamar_estuary_modifier
-	duration = -1
-}
 
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1461.6.1 = { unrest = 2 } # Coronation of Edward IV

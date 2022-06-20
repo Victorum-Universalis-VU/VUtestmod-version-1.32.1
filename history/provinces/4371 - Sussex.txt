@@ -1,6 +1,4 @@
 #4371 - Sussex
-#Region - Britain
-#Area - Essex
 
 owner = ENG
 controller = ENG

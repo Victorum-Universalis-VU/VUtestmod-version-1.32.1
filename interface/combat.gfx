@@ -842,6 +842,22 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_brugge"
         texturefile = "gfx/interface/brugge.dds"
     }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_ypress"
+        texturefile = "gfx/interface/ypress.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_lille"
+        texturefile = "gfx/interface/lille.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_tournai"
+        texturefile = "gfx/interface/tournai.dds"
+    }
+	spriteType = {                                                        
+        name = "GFX_combat_terrain_urban_leuven"
+        texturefile = "gfx/interface/leuven.dds"
+    }
     spriteType = {                                                        
         name = "GFX_combat_terrain_urban_ghent"
         texturefile = "gfx/interface/ghent.dds"
@@ -4885,6 +4901,10 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_amiens"
         texturefile = "gfx/interface/amiens.dds"
+    }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_arras"
+        texturefile = "gfx/interface/arras.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_troyes"

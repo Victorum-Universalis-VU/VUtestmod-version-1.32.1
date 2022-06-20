@@ -1,33 +1,17 @@
 #8147 - Lennox
-#Area - Western Lowlands
-#Region - Britain
 
-#Core Details
 capital = "Dumbarton"
 is_city = yes
 owner = SCO
 controller = SCO
-
-#Demographics
 culture = highland_scottish
 religion = catholic
-
-#Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = fruit
-
-#Cores and Occupation (Alphabetical after current)
+trade_goods = copper
 add_core = SCO
-
-#Other Political
 hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
 
 #Discoveries
 discovered_by = western
