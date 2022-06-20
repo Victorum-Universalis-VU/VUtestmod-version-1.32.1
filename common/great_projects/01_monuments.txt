@@ -4940,7 +4940,7 @@ taj_mahal = {
 
 	#can we build it?
 	build_trigger = {
-	    is_year = 1632
+	    is_year = 1593
 		religion_group = muslim
 		has_owner_religion = yes
 	}
