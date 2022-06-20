@@ -1,4 +1,4 @@
-#6222 - Roermond
+#8506 - Roermond
 
 owner = HAI
 controller = HAI
@@ -13,16 +13,9 @@ hre = yes
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = fur
+trade_goods = fruit
 fort_15th = yes
 
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

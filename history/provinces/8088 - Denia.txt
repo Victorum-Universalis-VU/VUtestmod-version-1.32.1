@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#8088 - Denia
 
 owner = ARA
 controller = ARA
@@ -10,7 +10,7 @@ capital = "Dénia"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = sugar
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
 is_city = yes
 hre = no
 

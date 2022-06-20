@@ -1,6 +1,4 @@
-# 194 Périgord - Principal cities: Bergerac
-#Region - France
-#Area - Guyenne
+#194 - Périgord
 
 owner = FRA
 controller = FRA
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 2  
 base_production = 3 
-trade_goods = livestock
+trade_goods = fur
 base_manpower = 2
 fort_15th = yes
 add_core = FRA

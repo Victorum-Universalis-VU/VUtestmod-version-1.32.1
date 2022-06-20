@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7998 - Poher
 
 owner = BRI
 controller = BRI
@@ -9,7 +9,7 @@ capital = "Carhaix"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = livestock
+trade_goods = silver
 is_city = yes
 hre = no
 
@@ -17,8 +17,3 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
-#Province history completed by - Draiocht
-
-#1444 on

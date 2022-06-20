@@ -7,9 +7,9 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 2
-trade_goods = beer #newcastle brewery
+trade_goods = beer #Newcastle brewery (by San Felipe).
 base_manpower = 1
-capital = "Newcastle upon Tyne"
+capital = "Newcastle"
 is_city = yes
 add_core = ENG
 add_core = NOL
@@ -25,7 +25,9 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-
+1450.1.1 = {
+	capital = "Newcastle"
+}
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1459.9.23 = { unrest = 0 revolt = { type = pretender_rebels size = 3 leader = "Edward of York" } controller = REB } # The Battle of Blore Heath
 1459.10.12 = { revolt = {} unrest = 5 } # The Lancastrians are back in control after the battle of Ludford Bridge

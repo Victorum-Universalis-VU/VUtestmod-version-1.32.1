@@ -1,12 +1,10 @@
 #6319 - Hanau
-#Region - Germany
-#Area - Hesse
 
 owner = FKS
 controller = FKS
 add_core = FKS
 capital = "Hanau"
-trade_goods = wool
+trade_goods = cloth
 culture = franconian
 religion = catholic
 base_tax = 3

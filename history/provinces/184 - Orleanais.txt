@@ -1,4 +1,4 @@
-# 184 Orléannais - Principal cities: Orléans
+#184 - Orléannais
 
 owner = ORL
 controller = ORL
@@ -9,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 11
 base_production = 11
-trade_goods = glass
+trade_goods = pottery
 base_manpower = 5
 add_core = ORL
 fort_15th = yes

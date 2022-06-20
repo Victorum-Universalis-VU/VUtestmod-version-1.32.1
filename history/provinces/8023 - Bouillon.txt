@@ -9,7 +9,7 @@ capital = "Bouillon"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = copper #Change this to mint later on
+trade_goods = lead #Changed this to lead due to the rich iron deposits nearby (by San Felipe.
 is_city = yes
 hre = yes
 

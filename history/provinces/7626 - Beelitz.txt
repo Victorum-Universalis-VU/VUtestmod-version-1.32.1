@@ -1,6 +1,4 @@
-#6291 - Luckau
-#Region - Germany
-#Area - Mittelmark
+#7626 - Luckau
 
 owner = MAG
 controller = MAG
@@ -10,19 +8,11 @@ religion = catholic
 hre = yes
 base_tax = 6
 base_production = 6	
-trade_goods = iron
+trade_goods = lumber
 base_manpower = 4
 capital = "Luckau"
 is_city = yes
 
-
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

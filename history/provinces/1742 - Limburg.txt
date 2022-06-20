@@ -14,7 +14,7 @@ religion = catholic
 hre = yes
 base_tax = 6
 base_production = 6
-trade_goods = leather			#main industry was trade in wool and leather, gradually declining before being replaced by things like pottery, before being turned into a 'university town' in the 20th century. Despite this, it was an important center economically and culturally dating back to 1st millenia, and is home to many artists. Also a major paper manufacturer in the area and major orchard fruit producer. Livestock, paper, or fruit
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
 base_manpower = 3
 fort_15th = yes
 

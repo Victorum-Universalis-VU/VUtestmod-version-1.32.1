@@ -1,6 +1,4 @@
-#Orange
-#Region - France
-#Area - Provence
+#7694 - Orange
 
 owner = ONG
 controller = ONG
@@ -11,18 +9,11 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 3
-trade_goods = cloth
+trade_goods = grain
 base_manpower = 1
 add_core = ONG
 add_core = PRO
 
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

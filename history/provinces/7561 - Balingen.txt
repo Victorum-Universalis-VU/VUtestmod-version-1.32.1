@@ -1,12 +1,10 @@
-#6350 - Balingen
-#Region - Germany
-#Area - Upper Rhineland
+#7561 - Balingen
 
 owner = HHB
 controller = HHB
 add_core = HHB
 capital = "Balingen"
-trade_goods = wine
+trade_goods = lumber
 religion = catholic
 culture = swabian
 base_tax = 3
@@ -15,13 +13,6 @@ base_manpower = 2
 is_city = yes
 hre = yes
 
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

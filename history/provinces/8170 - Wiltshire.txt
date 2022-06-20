@@ -1,34 +1,18 @@
 #8170 - Swindon
-#Area - Wessex
-#Region - Britain
 
-#Core Details
 capital = "Swindon"
 is_city = yes
 owner = ENG
 controller = ENG
-
-#Demographics
 culture = english
 religion = lollardy
-
-#Development and Trade
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = livestock
-
-#Cores and Occupation (Alphabetical after current)
+trade_goods = grain #A rich farming region known as the 'Cottswolds' (by San Felipe).
 add_core = ENG
-
-#Other Political
 hre = no
 
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

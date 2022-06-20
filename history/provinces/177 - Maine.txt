@@ -1,6 +1,4 @@
-# 177 Maine - Principal cities: Le Mans, Alençon, Laval
-#Region - France
-#Area - Loire
+#177 - Maine
 
 owner = MNE
 controller = MNE
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = glass
+trade_goods = pottery #Grey and cream ware ceramics are well known to be produced in this region of Northern France (by San Felipe).
 base_manpower = 3
 add_local_autonomy = 25
 add_core = MNE

@@ -1,6 +1,4 @@
 #3023 - Leeds
-#Region - Britain
-#Area - Northumbria
 
 owner = ENG
 controller = ENG
@@ -15,7 +13,6 @@ capital = "Leeds"
 is_city = yes
 add_core = ENG
 add_core = NOL
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

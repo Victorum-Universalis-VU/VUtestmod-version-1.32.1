@@ -1,12 +1,10 @@
 #3202 - Minden
-#Region - Germany
-#Area - Westphalia
 
 owner = MND
 controller = MND
 culture = lower_saxon
 religion = catholic
-trade_goods = apiculture
+trade_goods = beer
 capital = "Minden"
 base_tax = 4 
 base_production = 4 

@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7963 - Beauvais
 
 owner = FRA
 controller = FRA
@@ -10,7 +10,7 @@ capital = "Beauvais"
 base_tax = 5
 base_production = 4
 base_manpower = 2
-trade_goods = grain
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
 is_city = yes
 hre = no
 

@@ -1,13 +1,11 @@
 #76 - Salzburg
-#Region - Germany
-#Area - Upper Bavaria
 
 owner = SLZ
 controller = SLZ 
 culture = bavarian #Bugfixes changed from Austrian. It was Bavarian in every possible sense in this time period. Though the difference between Austrian & Bavarian is literally the division of the Imperial Circles, it was even part of the Bavarian Imperial circle. Hence, it becomes Bavarian.
 religion = catholic
 capital = "Salzburg"
-trade_goods = apiculture
+trade_goods = livestock
 hre = yes
 base_tax = 12 
 base_production = 12
@@ -16,12 +14,10 @@ is_city = yes
 add_core = SLZ
 center_of_trade = 3
 
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
 
 1731.11.11 = { unrest = 5 } # Leopold von Firmian declared that all Protestants would be banished
 1732.1.1 = { unrest = 0 }

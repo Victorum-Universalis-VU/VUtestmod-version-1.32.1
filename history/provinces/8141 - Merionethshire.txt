@@ -1,32 +1,17 @@
 #8141 - Merioneth
-#Area - Gwynedd
-#Region - Britain
 
-#Core Details
 capital = "Dolgelley" #Archaic English Name
 is_city = yes
 owner = WLS
 controller = WLS
-
-#Demographics
 culture = welsh
 religion = catholic
-
-#Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 2
 trade_goods = gold
-
-#Cores and Occupation (Alphabetical after current)
 add_core = WLS
-
-#Other Political
 hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
 
 #Discoveries
 discovered_by = western

@@ -1,6 +1,4 @@
-# - Arezzo
-#Region - Italy
-#Area - Tuscan
+#2978 - Arezzo
 
 owner = ARE
 controller = ARE

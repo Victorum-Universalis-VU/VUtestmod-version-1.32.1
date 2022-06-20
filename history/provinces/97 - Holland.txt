@@ -1,6 +1,4 @@
-# 97 Holland - Principal cities: Amsterdam, Haarlem & Den Haag
-#Region - Low Countries
-#Area - Netherlands
+#97 - Holland
 
 owner = HOL
 controller = HOL

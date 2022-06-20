@@ -3020,7 +3020,7 @@ diamonds = {
 }
 
 pottery = {
-	color = { 207 131 122 }
+	color = { 148 98 89 }
 	modifier = {
 		monthly_splendor = 1
 	}

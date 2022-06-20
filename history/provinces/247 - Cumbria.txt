@@ -1,6 +1,4 @@
 #247 - Cumbria
-#Region - Britain
-#Area - Lancashire
 
 owner = ENG
 controller = ENG
@@ -15,11 +13,6 @@ capital = "Carlisle"
 is_city = yes
 add_core = ENG
 add_core = NOL
-
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
 
 fort_15th = yes #Carlisle Castle
 discovered_by = western

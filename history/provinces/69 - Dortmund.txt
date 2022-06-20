@@ -1,6 +1,4 @@
-# 69 - Oberschwaben (incl. Lindau, Biberach, Überlingen, Ravensberg, and many of the other Free cities of Schwaben)
-#Region - Germany
-#Area - Upper Swabia
+#69 - Ravensberg
 
 culture = hannoverian
 owner = BRG
@@ -8,7 +6,7 @@ controller = BRG
 add_core = BRG
 capital = "Ravensberg"
 religion = catholic
-trade_goods = grain
+trade_goods = apiculture
 base_tax = 4
 base_production = 3			
 base_manpower = 3

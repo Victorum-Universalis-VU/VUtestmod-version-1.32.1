@@ -1,20 +1,17 @@
-
-#Region - Germany
-#Area - Hesse
+#83 - Nassau
 
 owner = NSA
 controller = NSA
 add_core = NSA
 capital = "Wiesbaden"
-trade_goods = copper
+trade_goods = livestock
 hre = yes
 culture = hessian
 religion = catholic
 base_tax = 6 
-base_production = 6			#Much larger and more important than it is today, but exact dev is hard to say
+base_production = 6
 base_manpower = 4 
 is_city = yes
-
 
 discovered_by = western
 discovered_by = muslim

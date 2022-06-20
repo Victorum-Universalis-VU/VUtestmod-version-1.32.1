@@ -1,6 +1,4 @@
 #Barrow-in-Furness
-#Region - Britain
-#Area - Northumbria
 
 owner = ENG
 controller = ENG
@@ -9,15 +7,12 @@ religion = catholic
 hre = no
 base_tax = 2 
 base_production = 4 
-trade_goods = wool
+trade_goods = seafood
 base_manpower = 2 
 capital = "Barrow-in-Furness"
 is_city = yes
 add_core = ENG
 add_core = NOL
-
-
-
 
 discovered_by = western
 discovered_by = muslim
@@ -27,6 +22,11 @@ discovered_by = eastern
 add_permanent_province_modifier = {
 	name = duddon_estuary_modifier
 	duration = -1
+}
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
 }
 
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses

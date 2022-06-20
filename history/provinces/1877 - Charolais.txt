@@ -1,6 +1,4 @@
 #1877 - Charolais
-#Region - France
-#Area - Burgundy
 
 owner = BUR
 controller = BUR 
@@ -11,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 3
-trade_goods = mercury
+trade_goods = lead
 base_manpower = 2
 add_core = BUR
 

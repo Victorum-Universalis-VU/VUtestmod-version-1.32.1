@@ -11,7 +11,7 @@ religion = catholic
 hre = no
 base_tax = 20
 base_production = 20
-trade_goods = sweet_confectioneries #French Bread and Pastries
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
 base_manpower = 10
 add_core = FRA
 

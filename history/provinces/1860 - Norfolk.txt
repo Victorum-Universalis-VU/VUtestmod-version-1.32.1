@@ -1,6 +1,4 @@
 #1860 - Norfolk
-#Region - Britain
-#Area - East Anglia
 
 owner = ENG
 controller = ENG

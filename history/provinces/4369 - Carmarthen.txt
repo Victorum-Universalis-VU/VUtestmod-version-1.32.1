@@ -1,6 +1,4 @@
 #4369 - Carmarthen
-#Region - Britain
-#Area - Deheubarth
 
 owner = ENG
 controller = ENG
@@ -9,7 +7,7 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 1
-trade_goods = vegetables
+trade_goods = fish
 base_manpower = 2
 capital = "Pembroke"
 is_city = yes

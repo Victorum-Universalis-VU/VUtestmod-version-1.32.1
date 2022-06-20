@@ -9,7 +9,7 @@ capital = "Itzehoe"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = woodworking
+trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
 is_city = yes
 hre = yes
 

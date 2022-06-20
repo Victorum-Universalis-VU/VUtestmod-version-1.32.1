@@ -1,6 +1,4 @@
 #Nordjylland
-#Region - Scandinavia
-#Area - Jutland
 
 owner = DAN
 controller = DAN
