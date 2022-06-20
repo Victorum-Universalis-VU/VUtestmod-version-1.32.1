@@ -3,13 +3,13 @@ spriteTypes = {
     spriteType = {
 		name = "SELIM_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/SELIM_eventPicture.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
 		name = "SULEIMAN_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_EUROPEAN/SULEIMAN_eventPicture.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
