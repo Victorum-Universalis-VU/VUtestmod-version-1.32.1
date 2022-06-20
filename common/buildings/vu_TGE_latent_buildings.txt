@@ -25,7 +25,7 @@
 
 off = {
 	cost = 0
-	time = 0
+	time = 1
 		
 	on_destroyed = {
 		hidden_effect = {
@@ -102,7 +102,7 @@ off = {
 
 off_2 = {
 	cost = 0
-	time = 0
+	time = 1
 		
 	on_destroyed = {
 		hidden_effect = {
@@ -162,7 +162,7 @@ off_2 = {
 
 off_3 = {
 	cost = 0
-	time = 0
+	time = 1
 		
 	on_destroyed = {
 		hidden_effect = {
@@ -223,7 +223,7 @@ off_3 = {
 
 off_4 = {
 	cost = 0
-	time = 0
+	time = 1
 		
 	on_destroyed = {
 		hidden_effect = {
@@ -299,7 +299,7 @@ off_4 = {
 
 off_5 = {
 	cost = 0
-	time = 0
+	time = 1
 		
 	on_destroyed = {
 		hidden_effect = {
@@ -360,7 +360,7 @@ off_5 = {
 
 off_6 = {
 	cost = 0
-	time = 0
+	time = 1
 		
 	on_destroyed = {
 		hidden_effect = {
@@ -421,7 +421,7 @@ off_6 = {
 
 off_7 = {
 	cost = 0
-	time = 0
+	time = 1
 		
 	on_destroyed = {
 		hidden_effect = {
@@ -482,7 +482,7 @@ off_7 = {
 
 import_from_subjects = {
 	cost = 0
-	time = 0
+	time = 1
 	
 	potential = {
 		AND = {
@@ -576,7 +576,7 @@ import_from_subjects = {
 
 stop_import_from_subjects = {
 	cost = 0
-	time = 0
+	time = 1
 	
 	potential = {
 		AND = {
@@ -661,25 +661,31 @@ stop_import_from_subjects = {
 	}
 }
 
+#TGE Manufactories
+
 cannon_foundry = {
 	cost = 1000
 	time = 12	
 
 	build_trigger = {
 		AND = {
-			development = 10	
+			#development = 10	
+			
 			NOT = {	
 				trade_goods = copper
 				trade_goods = tin
 				has_province_flag = has_latent_good
 			}
 		}
+		
 		FROM = {
 			mil_tech = 7
-			OR = {
-				innovativeness = 10
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			
+			#OR = {
+			#	innovativeness = 10
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
+			
 			check_variable = {
 				which = copper
 				value = 0.4
@@ -690,8 +696,10 @@ cannon_foundry = {
 				value = 0.3
 			}
 		}
+		
 		NOT = { has_global_flag = No_Cannon }
 	}
+	
 	on_built = {
 		hidden_effect = {
 			FROM = {
@@ -733,8 +741,8 @@ cannon_foundry = {
 				change_trade_goods = cannon
 			}
 		}
-
 	}
+	
 	on_destroyed = {
 		hidden_effect = {
 			clr_province_flag = has_cannon
@@ -790,10 +798,12 @@ cannon_foundry = {
 			}
 		}
 	}
+	
 	modifier = {
 		allowed_num_of_buildings = 1
 		local_governing_cost = 0.15
 	}	
+	
 	ai_will_do = {
 		factor = 2000
 
@@ -820,10 +830,12 @@ metalworking_workshop = {
 		}
 		FROM = {
 			mil_tech = 16
-			OR = {
-				innovativeness = 15
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			
+			#OR = {
+			#	innovativeness = 15
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
+			
 			check_variable = {
 				which = iron
 				value = 1.0
@@ -944,10 +956,10 @@ munition_factory = {
 		}
 		FROM = {
 			mil_tech = 15
-			OR = {
-				innovativeness = 15
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 15
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 			check_variable = {
 				which = lead
 				value = 1.0
@@ -1061,16 +1073,16 @@ wood_workshop = {
 	build_trigger = {
 		ROOT = {
 			trade_goods = lumber
-			development = 10
+			#development = 10
 			NOT = { has_province_flag = has_latent_good }
 		}
 		
 		FROM = {
 			adm_tech = 10
-			OR = {
-				innovativeness = 5
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 5
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 		}
 		NOT = { has_global_flag = No_Woodworking }
 	}
@@ -1118,16 +1130,16 @@ leather_workshop = {
 	build_trigger = {
 		ROOT = {
 			trade_goods = livestock
-			development = 10
+			#development = 10
 			NOT = { has_province_flag = has_latent_good }
 		}
 		
 		FROM = {
 			adm_tech = 14
-			OR = {
-				innovativeness = 7
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 7
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 		}
 		NOT = { has_global_flag = No_Leather }
 	}
@@ -1176,7 +1188,7 @@ sculpture_workshop = {
 	build_trigger = {
 		ROOT = {
 			trade_goods = marble
-			development = 15
+			#development = 15
 			NOT = { has_province_flag = has_latent_good }
 		}
 		
@@ -1184,10 +1196,10 @@ sculpture_workshop = {
 		
 		FROM = {
 			adm_tech = 7
-			OR = {
-				innovativeness = 7
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 7
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 			
 		}
 		NOT = { has_global_flag = No_Marble_sculpture }
@@ -1242,16 +1254,16 @@ jewellery_workshop = {
 				trade_goods = silver
 				trade_goods = gold										
 			}
-			development = 20
+			#development = 20
 			NOT = { has_province_flag = has_latent_good }
 		}
 		
 		FROM = {
 			dip_tech = 11
-			OR = {
-				innovativeness = 20
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 20
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 		}
 		NOT = { has_global_flag = No_Jewellery }
 	}
@@ -1300,10 +1312,10 @@ uniforms_workshop = {
 	build_trigger = {
 		FROM = {
 			mil_tech = 21
-			OR = {
-				innovativeness = 7
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 7
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 		}
 		ROOT = {
 			OR = {
@@ -1311,7 +1323,7 @@ uniforms_workshop = {
 				trade_goods = cloth
 				trade_goods = cotton					
 			}
-			development = 15
+			#development = 15
 			NOT = { has_province_flag = has_latent_good }
 		}
 
@@ -1397,10 +1409,10 @@ steam_engine_manu = {
 		FROM = {
 			adm_tech = 24
 			has_institution = enlightenment
-			OR = {
-				innovativeness = 30
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 30
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 			check_variable = {
 				which = zinc
 				value = 0.3
@@ -1584,10 +1596,10 @@ spectacle_factory = {
 	build_trigger = {
 		FROM = {
 			dip_tech = 9
-			OR = {
-				innovativeness = 15
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 15
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 			check_variable = {
 				which = glass
 				value = 0.6
@@ -1707,10 +1719,10 @@ cigars_factory = {
 	build_trigger = {
 		FROM = {
 			dip_tech = 12
-			OR = {
-				innovativeness = 15
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 15
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 			check_variable = {
 				which = tobacco
 				value = 0.6
@@ -1830,10 +1842,10 @@ chocolate_factory = {
 	build_trigger = {
 		FROM = {
 			dip_tech = 10
-			OR = {
-				innovativeness = 15
-				NOT = { has_dlc = "Rule Britannia" }
-			}
+			#OR = {
+			#	innovativeness = 15
+			#	NOT = { has_dlc = "Rule Britannia" }
+			#}
 			check_variable = {
 				which = cocoa
 				value = 0.6
@@ -1963,10 +1975,10 @@ Ai_def_push_dip = {
 			AND = {
 				FROM = {
 					copper = 1	
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 				}
 				ROOT = { trade_goods = tin }
 				ROOT = { 
@@ -1977,10 +1989,10 @@ Ai_def_push_dip = {
 			AND = {
 				FROM = {
 					tin = 1	
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 				}
 				ROOT = { trade_goods = copper }
 				ROOT = { 
@@ -1991,13 +2003,13 @@ Ai_def_push_dip = {
 			AND = {
 				ROOT = { 
 					trade_goods = livestock 
-					NOT = { development = 10 }
+					#NOT = { development = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					adm_tech = 14
 				}
 			}
@@ -2005,13 +2017,13 @@ Ai_def_push_dip = {
 			AND = {
 				ROOT = { 
 					trade_goods = marble 
-					NOT = { development = 15 }
+					#NOT = { development = 15 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					adm_tech = 7
 				}
 			}
@@ -2019,13 +2031,13 @@ Ai_def_push_dip = {
 			AND = {
 				ROOT = { 
 					trade_goods = lumber 
-					NOT = { development = 10 }
+					#NOT = { development = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 5
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 5
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					adm_tech = 10
 				}
 			}
@@ -2036,10 +2048,10 @@ Ai_def_push_dip = {
 					NOT = { base_production = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 17
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 17
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					mil_tech = 15
 				}
 			}
@@ -2050,10 +2062,10 @@ Ai_def_push_dip = {
 					NOT = { base_production = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 15
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 15
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					mil_tech = 18
 				}
 			}
@@ -2064,10 +2076,10 @@ Ai_def_push_dip = {
 					NOT = { base_production = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 15
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 15
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					dip_tech = 9
 				}
 			}
@@ -2144,10 +2156,10 @@ Ai_def_push_tax = {
 			AND = {
 				FROM = {
 					copper = 1	
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 				}
 				ROOT = { trade_goods = tin }
 				ROOT = { 
@@ -2158,10 +2170,10 @@ Ai_def_push_tax = {
 			AND = {
 				FROM = {
 					tin = 1	
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 				}
 				ROOT = { trade_goods = copper }
 				ROOT = { 
@@ -2172,13 +2184,13 @@ Ai_def_push_tax = {
 			AND = {
 				ROOT = { 
 					trade_goods = livestock 
-					NOT = { development = 10 }
+					#NOT = { development = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					adm_tech = 14
 				}
 			}
@@ -2186,13 +2198,13 @@ Ai_def_push_tax = {
 			AND = {
 				ROOT = { 
 					trade_goods = marble 
-					NOT = { development = 15 }
+					#NOT = { development = 15 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 7
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 7
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					adm_tech = 7
 				}
 			}
@@ -2200,13 +2212,13 @@ Ai_def_push_tax = {
 			AND = {
 				ROOT = { 
 					trade_goods = lumber 
-					NOT = { development = 10 }
+					#NOT = { development = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 5
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 5
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					adm_tech = 10
 				}
 			}
@@ -2217,10 +2229,10 @@ Ai_def_push_tax = {
 					NOT = { base_production = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 17
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 17
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					mil_tech = 15
 				}
 			}
@@ -2231,10 +2243,10 @@ Ai_def_push_tax = {
 					NOT = { base_production = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 15
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 15
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					mil_tech = 18
 				}
 			}
@@ -2245,10 +2257,10 @@ Ai_def_push_tax = {
 					NOT = { base_production = 10 }
 				}	
 				FROM = {
-					OR = {
-						innovativeness = 15
-						NOT = { has_dlc = "Rule Britannia" }
-					}
+					#OR = {
+					#	innovativeness = 15
+					#	NOT = { has_dlc = "Rule Britannia" }
+					#}
 					dip_tech = 9
 				}
 			}
