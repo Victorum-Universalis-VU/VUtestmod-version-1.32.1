@@ -1,13 +1,11 @@
 #156 - Temes
-#Region - Carpathia
-#Area - Transylvania
 
 owner = HUN
 controller = HUN 
 culture = hungarian
 religion = catholic
 capital = "Timisoara"
-trade_goods = woodworking
+trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
 hre = no
 base_tax = 4 
 base_production = 3 

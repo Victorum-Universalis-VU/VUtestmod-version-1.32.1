@@ -1,4 +1,4 @@
-#Bradford
+#7417 - Bradford
 
 owner = ENG
 controller = ENG
@@ -7,13 +7,12 @@ religion = catholic
 hre = no
 base_tax = 3  
 base_production = 2 
-trade_goods = lead
+trade_goods = iron
 base_manpower = 1
 capital = "Bradford"
 is_city = yes
 add_core = ENG
 add_core = NOL
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

@@ -4,8 +4,17 @@
 374 = "Laighin"
 375 = "Tuadhmhumhain"
 376 = "Gaillimh"
+3005 = "Ard Mhacha"
+3006 = "Ulaidh"
 3009 = "Loch Garman"
-4118 = "Corcaigh"
+3014 = { "Iarthar Mhaigh Eo" "Cill Mheáin" }
+3222 = { "Maigh Eo Thoir" "Clár Chlainne Mhuiris" }
+3228 = { "Mala" "Mala" }
+3233 = { "Mhí" "Uaimh" }
+3234 = { "Chláir" "Tradraigh" }
+3236 = { "Liatroma" "Snámh" }
+3237 = { "Inis Eoghain" "Bun Cranncha" }
+4118 = { "Chorcaí" "Chorcaí" }
 4119 = "Sligeach"
 4120 = "Cill Dara"
 4121 = "Aontroim"
@@ -13,9 +22,7 @@
 4378 = "Deas-Mhumhain"
 4379 = "Uí Failghe"
 4380 = "Dún na nGall"
-3005 = "Ard Mhacha"
-3006 = "Ulaidh"
-3014 = "Maigh Eo"
+
 8156 = "Fear Manach"
 8157 = "Muineachán"
 8158 = "Dún"
@@ -31,6 +38,7 @@
 8168 = "Trá Lí"
 8169 = "Uí Chairbre"
 8734 = "Lughmagh"
+
 
 #Scotland
 248 = "Dún Éideann" #Lothian

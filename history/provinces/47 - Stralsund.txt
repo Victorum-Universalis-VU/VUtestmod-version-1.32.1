@@ -1,6 +1,4 @@
 #47 - Stralsund
-#Region - Germany
-#Area - Vorpommern
 
 owner = RUG
 controller = RUG			#Danish vassal until 1325
@@ -11,18 +9,15 @@ religion = catholic
 hre = no
 base_tax = 7
 base_production = 6
-trade_goods = beer
+trade_goods = pottery
 base_manpower = 2 
 capital = "Stralsund"
 is_city = yes
-
 
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
 
 1325.1.1 = {
 	owner = WOL

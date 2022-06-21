@@ -327,6 +327,7 @@ poland_region = {
 		malopolska_area
 		mazovia_area
 		silesia_area
+		opole_area
 		central_poland_area
 		sandomierz_area			#added by Paradox in 1.27, same id so no change needed.
 		kuyavia_area			#Repurposing this into BT's old Kalisz area
@@ -490,6 +491,8 @@ anatolia_region = {
 		pamphylia_area
 		lydia_area
 		aeolia_area
+		lycia_area
+		pisidia_area
 	}
 }
 

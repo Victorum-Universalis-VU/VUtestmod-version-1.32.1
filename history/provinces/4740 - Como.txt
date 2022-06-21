@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#4740 - Como
 
 owner = MLO
 controller = MLO
@@ -9,7 +9,7 @@ capital = "Como"
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = grain
+trade_goods = wool
 is_city = yes
 hre = yes
 

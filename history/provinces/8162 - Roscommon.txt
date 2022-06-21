@@ -1,32 +1,18 @@
 #8162 - Roscommon
 
-#Core Details
 capital = "Castlerea"
 is_city = yes
 owner = ECO
 controller = ECO
-
-#Demographics
 culture = irish
 religion = catholic
-
-#Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 1
-trade_goods = lumber
-
-#Cores and Occupation (Alphabetical after current)
+trade_goods = fur
 add_core = ECO
-
-#Other Political
 hre = no
 
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

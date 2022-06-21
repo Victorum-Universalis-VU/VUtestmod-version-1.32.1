@@ -1,11 +1,11 @@
-#140 - Core of Bosnian kingdom, Soli+Usora+Most of Vrhbosna
+#3002 - Sarajevo
 
 owner = BOS # Part of the Bosnian kingdom
 controller = BOS
 culture = bosnian
 religion = catholic
 capital = "Visoko"			#Or Vrhbosna, which would become Sarajevo
-trade_goods = apiculture
+trade_goods = cloth
 hre = no
 base_tax = 6
 base_production = 6

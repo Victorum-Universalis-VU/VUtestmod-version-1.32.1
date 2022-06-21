@@ -1,6 +1,4 @@
 #3198 - Saarland
-#Region - Germany
-#Area - Lower Rhineland
 
 latent_trade_goods = {
 	coal
@@ -9,7 +7,7 @@ latent_trade_goods = {
 capital = "Saarbrücken"
 culture = franconian
 religion = catholic
-trade_goods = metalworking
+trade_goods = iron
 owner = SAA
 base_tax = 6 
 base_production = 6			#Minor province, compared to its many lofty neighbours, but still a rich region of the France-Germany border

@@ -1,6 +1,4 @@
 #4121 - Ulster
-#Region - Ireland
-#Area - Ulster
 
 owner = ANR
 add_core = ANR
@@ -11,15 +9,10 @@ hre = no
 base_tax = 4 
 base_production = 4 
 base_manpower = 2 
-trade_goods = wool
+trade_goods = whiskey #Irish Whiskey (by San Felipe).
 capital = "Cois Abhann Dalla"
 #capital = "Carraig Fhearghais"
 is_city = yes
-
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
 
 discovered_by = western
 discovered_by = muslim

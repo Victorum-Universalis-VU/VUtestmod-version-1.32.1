@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7976 - Valenciennes
 
 latent_trade_goods = {
 	coal
@@ -13,7 +13,7 @@ capital = "Valenciennes"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = cloth			#Historically famous for fine lace. Also very industrial reason later, with heavy industry and coal
+trade_goods = lace #Historically famous for fine lace. Also very industrial reason later, with heavy industry and coal
 is_city = yes
 hre = yes
 

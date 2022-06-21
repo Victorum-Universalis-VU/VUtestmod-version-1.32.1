@@ -1,32 +1,17 @@
 #8266 - Lubusz
-#Area - Neumark
-#Region - North Germany
 
-#Core Details
 capital = "Lebus"
 is_city = yes
 owner = BRA
 controller = BRA
-
-#Demographics
 culture = saxon
 religion = catholic
-
-#Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = livestock
-
-#Cores and Occupation (Alphabetical after current)
+trade_goods = fur
 add_core = BRA
-
-#Other Political
 hre = yes
-
-#Fort/Other Buildings
-
-#Special Modifiers
 
 #Discoveries
 discovered_by = western

@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7067 - ReggioEmilia
 
 owner = MOD # taken by the Este in 1289
 controller = MOD
@@ -10,7 +10,7 @@ capital = "Reggio"	#Emilia. Often not included in the earlier periods, I underst
 base_tax = 6
 base_production = 6
 base_manpower = 4
-trade_goods = livestock # cheese, home to Parmegianno Reggiano, one of the most famous cheeses in the world
+trade_goods = cheese #Home to Parmegianno Reggiano, one of the most famous cheeses in the world (by San Felipe).
 is_city = yes
 hre = yes
 

@@ -25,6 +25,8 @@
 1860 = "Dwyrain Lloegr" #Norfolk
 1861 = "Llancarw" #Derby
 243 = "Lindo" #Lincoln
+3155 = { "Sweyse" "Sweyse" }
+3161 = { "Creu" "Creu" }
 #Scotland
 4365 = "Ynys Manaw" #Man
 249 = "Aeron" #Ayrshire

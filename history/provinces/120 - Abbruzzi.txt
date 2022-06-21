@@ -1,6 +1,4 @@
 #120 - Abbruzzi
-#Region - Italy
-#Area - Naples
 
 owner = NAP
 controller = NAP
@@ -9,7 +7,7 @@ religion = catholic
 hre = no 
 base_tax = 5
 base_production = 5
-trade_goods = wine
+trade_goods = lead
 base_manpower = 4
 capital = "L'Aquila" 
 is_city = yes 

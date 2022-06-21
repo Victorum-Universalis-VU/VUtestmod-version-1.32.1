@@ -1,6 +1,4 @@
-#3059 - Overijssel
-#Region - Low Countries
-#Area - Frisia
+#4381 - Overijssel
 
 owner = UTR
 controller = UTR 
@@ -9,13 +7,11 @@ is_city = yes
 culture = dutch_saxon
 religion = catholic
 hre = yes
-base_tax = 4
-base_production = 4			#Zwolle's golden age came in the 15th century. Between 1402 and 1450, the city's Gross Regional Product multiplied by about six.
+base_tax = 2
+base_production = 2
 trade_goods = lumber
-base_manpower = 2 
+base_manpower = 1 
 add_core = UTR
-
-
 
 add_permanent_province_modifier = {
 	name = ijsselmeer_bay_modifier
@@ -26,57 +22,6 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
-#Province history completed by - Draiocht
-#1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-
-#1291 - 1444
-
-#1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-
-#1444 on
-
 
 #New history by Draiocht
 1477.1.5 = { owner = HAB controller = HAB add_core = HAB }	#from vanilla. Mary of Burgundy, an heiress, passes all Burgundian holdings in the Low Countries to the Habsburgs

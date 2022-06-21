@@ -1,6 +1,4 @@
 #244 - Lancashire
-#Region - Britain
-#Area - Lancashire
 
 owner = ENG
 controller = ENG
@@ -9,15 +7,15 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 3 
-trade_goods = seafood
+trade_goods = lumber
 base_manpower = 1
 capital = "Lancaster"
 is_city = yes
 add_core = ENG
 add_core = LCA
-#seat_in_parliament = yes #Removed since it doesn't seem it was part of the parliament at the time.
 
 add_local_autonomy = 75
+
 fort_15th = yes #Lancaster Castle
 
 add_permanent_province_modifier = {

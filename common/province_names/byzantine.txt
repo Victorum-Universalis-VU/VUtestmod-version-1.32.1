@@ -417,6 +417,12 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3993 = { "Lycia Ypsilos" "Isinda" }
+3994 = { "Phoenix" "Phoenix" } #Finike
+3995 = { "Nakoleia" "Nakoleia" }
+3996 = { "Pisidia Anatolikos" "Mistheia" } #Beysehir
+3997 = { "Philomelion" "Philomelion" } #Aksehir
+3998 = { "Polydorion" "Polydorion" }
 #7172 = "Dewol" #???
 4111 = { "Mediolanum" "Mediolanum" } #Approx. La Rochelle
 4112 = { "Cadurci" "Varadetum" }

@@ -179,12 +179,32 @@
 6017 = { "Crooked Island" "Pitts Town" }
 
 #Europe
-104 = "Milan"
-134 = "Vienna"
+104 = { "Milan" "Milan" }
+134 = { "Vienna" "Vienna" }
 2746 = { "Widdin" "Widdin" }
 3091 = { "Builder" "Builder" }
-4729 = "Padua"
+4729 = { "Padua" ""Padua" }
 7944 = { "Upper Rhine" "Hagenaw" }
+
+#Ireland
+3014 = { "West Mayo" "Kilmaine" }
+3127 = { "Bournemouth" "Bournemouth" }
+3155 = { "Swansea" "Swansea" }
+3161 = { "Crewe" "Crewe" }
+3162 = { "Southend" "Southend" }
+3189 = { "Londonderry" "Magherafelt" }
+3222 = { "East Mayo" "Claremorris" }
+3228 = { "Mallow" "Mallow" }
+3232 = { "Midleton" "Midleton" }
+3233 = { "Meath" "Navan" }
+3234 = { "Clare" "Corracatlin" }
+3236 = { "Leitrim" "Drumsna" }
+3237 = { "Inishowen" "Buncrana" }
+4119 = { "Sligo" "Sligo" }
+
+#Scotland
+3240 = { "Lanarkshire" "Lanark" }
+3272 = { "Arran" "Whiting Bay" }
 
 #America
 833 = { "Somerset East" "Somerset East" }

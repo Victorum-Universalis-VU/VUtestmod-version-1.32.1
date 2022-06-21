@@ -1,6 +1,4 @@
-#Carlisle
-#Region - Britain
-#Area - Northumbria
+#7418 - Longtown
 
 owner = ENG
 controller = ENG
@@ -9,7 +7,7 @@ religion = catholic
 hre = no
 base_tax = 2 
 base_production = 4 
-trade_goods = livestock
+trade_goods = grain
 base_manpower = 2 
 capital = "Longtown"
 is_city = yes

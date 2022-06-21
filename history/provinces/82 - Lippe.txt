@@ -1,6 +1,4 @@
-#Westphalia
-#Region - Germany
-#Area - Westphalia
+#82 - Westphalia
 
 latent_trade_goods = {
 	coal
@@ -10,7 +8,7 @@ owner = KOL
 controller = KOL
 culture = hannoverian
 religion = catholic
-trade_goods = wool
+trade_goods = livestock
 capital = "Arnsberg"
 base_tax = 6
 base_production = 6
@@ -18,7 +16,6 @@ base_manpower = 2
 hre = yes
 is_city = yes
 add_core = KOL
-
 
 discovered_by = western
 discovered_by = muslim

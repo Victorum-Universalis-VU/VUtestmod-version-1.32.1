@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7973 - StOmer
 
 owner = SPO
 controller = SPO
@@ -10,7 +10,7 @@ capital = "St. Omer"
 base_tax = 6
 base_production = 6
 base_manpower = 3
-trade_goods = grain
+trade_goods = apiculture
 is_city = yes
 hre = no
 
@@ -18,7 +18,6 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
 
 #Province history completed by - Draiocht
 

@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7994 - Vitré
 
 owner = BRI
 controller = BRI
@@ -9,7 +9,7 @@ capital = "Vitré"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = grain
+trade_goods = fruit
 is_city = yes
 hre = no
 fort_15th = yes

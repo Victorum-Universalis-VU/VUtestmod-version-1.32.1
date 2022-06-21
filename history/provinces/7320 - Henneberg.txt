@@ -1,6 +1,4 @@
-#6493 - Henneberg
-#Region - Germany
-#Area - Thuringia
+#7320 - Henneberg
 
 owner = HEN
 controller = HEN
@@ -16,13 +14,6 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
-discovered_by = english
-discovered_by = french
-discovered_by = german_group
-discovered_by = italian
-discovered_by = russian
-discovered_by = scandinavian
-discovered_by = spanish
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

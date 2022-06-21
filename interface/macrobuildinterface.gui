@@ -1202,22 +1202,6 @@ guiTypes = {
 			maxHeight = 18
 			text = "2000¤"
 		}
-		
-		#checkboxType = {
-		#	name = "build_steam_factory"
-		#	position = { x = 348 y = 323 }
-		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		#}
-		#
-		#instantTextBoxType={
-		#	name = "steam_factory_cost"
-		#	position = {x = 348 y = 373 }
-		#	font = "vic_18"
-		#	borderSize = {x = 0 y = 0}	
-		#	maxWidth = 128
-		#	maxHeight = 18
-		#	text = "2000¤"	
-		#}	
 
 		iconType = {
 			name = "defense_banner"
@@ -1347,21 +1331,21 @@ guiTypes = {
 			frame = 8
 		}
 
-		checkboxType = {
-			name = "build_trench"
-			position = { x = 244 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
+		#checkboxType = {
+		#	name = "build_trench"
+		#	position = { x = 244 y = 420 }
+		#	quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		#}
 		
-		instantTextBoxType={
-			name = "trench_cost"
-			position = { x = 244 y = 470 }
-			font = "vic_18"
-			borderSize = { x = 0 y = 0 }	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
+		#instantTextBoxType={
+		#	name = "trench_cost"
+		#	position = { x = 244 y = 470 }
+		#	font = "vic_18"
+		#	borderSize = { x = 0 y = 0 }	
+		#	maxWidth = 128
+		#	maxHeight = 18
+		#	text = "2000¤"	
+		#}
 		
 		checkboxType = {
 			name = "build_manufactory"

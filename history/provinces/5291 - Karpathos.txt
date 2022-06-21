@@ -1,0 +1,21 @@
+#5291 - Karpathos
+
+owner = CDA
+controller = CDA
+add_core = CDA
+add_core = CRT
+culture = greek
+religion = orthodox
+capital = "Karpathos"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = cheese
+is_city = yes
+hre = no
+
+1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

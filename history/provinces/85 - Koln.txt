@@ -1,13 +1,11 @@
-
-#Region - Germany
-#Area - North Rhine
+#85 - Koln
 
 owner = KOL
 controller = KOL
 add_core = KOL
 culture = hessian
 religion = catholic
-trade_goods = vegetables
+trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
 capital = "Köln"
 base_tax = 16
 base_production = 16

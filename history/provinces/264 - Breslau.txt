@@ -5,7 +5,7 @@ controller = BOH
 culture = silesian_german			#With the influx of settlers the town expanded and adopted in 1242 German town law. The city council used Latin and German, and "Breslau", the Germanized name of the city, appeared for the first time in written records.
 religion = catholic
 capital = "Breslau"
-trade_goods = cloth
+trade_goods = beer
 hre = yes
 base_tax = 7				#According to Wiki (I know, lofty source!) Breslau was the 7th largest city in Central Europe around this time, about 25% larger than Vienna and nearly double the size of Hamburg, the only cities significantly larger than it in CE being Prague, Koeln, and Nuremberg
 base_production = 7
@@ -23,8 +23,6 @@ discovered_by = ottoman
 discovered_by = eastern
 center_of_trade = 2
 extra_cost = 10
-
-	#New in BT 5.0. This was a major city.
 
 # History completed by docRobert
 

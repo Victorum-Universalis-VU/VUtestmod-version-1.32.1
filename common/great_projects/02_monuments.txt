@@ -11945,9 +11945,9 @@ kazan_kremlin = {
 }
 
 st_nicholas_church = {
-    start = 5162
+    start = 3994
     
-    date = 0520.01.01
+    date = 520.01.01
    
     time = {
         months = 0

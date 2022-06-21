@@ -1,6 +1,4 @@
 #4777 - Forez
-#Region - France
-#Area - Massif Central
 
 owner = FOR
 controller = FOR

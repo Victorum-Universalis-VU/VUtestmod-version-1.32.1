@@ -16,7 +16,9 @@ country_event = { #Turkish Conquest of Mamluks
 			value = 85
 		}
 		MAM = { total_development = 300 }
-		NOT = { MAM = { total_development = 2000 }	#Shouldn't work if Mamluks are super strong and super big
+		NOT = { 
+		    MAM = { total_development = 2000 }	#Shouldn't work if Mamluks are super strong and super big
+		}
 	}
 	
 	mean_time_to_happen = { months = 1 } 
@@ -56,6 +58,7 @@ country_event = { #Turkish Conquest of Mamluks
 	}
 }
 
+
 country_event = { #Turkish Conquest of Hungary
 	id = VU_TUR_Conquest_Events.2
 	title = VU_TUR_Conquest_Events.2.t
@@ -72,7 +75,9 @@ country_event = { #Turkish Conquest of Hungary
 			value = 75
 		}
 		HUN = { total_development = 200 }
-		NOT = { HUN = { total_development = 2000 }	#Should not work if Hungary is powerhouse on its own
+		NOT = { 
+		    HUN = { total_development = 2000 }	#Should not work if Hungary is powerhouse on its own
+		}
 	}
 	
 	mean_time_to_happen = { months = 1 } 

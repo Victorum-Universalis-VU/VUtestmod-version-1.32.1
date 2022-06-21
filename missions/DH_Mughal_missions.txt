@@ -268,7 +268,6 @@ mug_timurid_resurgence = {
 		}
 	}
 }
-
 mug_towards_china = {
 	slot = 1
 	generic = no
@@ -464,7 +463,6 @@ mug_towards_china = {
 		}
 	}
 }
-
 mug_land_assesement = {
 	slot = 2
 	generic = no
@@ -525,7 +523,6 @@ mug_land_assesement = {
 		}
 	}
 }
-
 mug_indus_branch = {
 	slot = 2
 	generic = no
@@ -574,8 +571,6 @@ mug_indus_branch = {
 		}
 	}
 }
-
-
 mug_ganges_branch = {
 	slot = 2
 	generic = no
@@ -1009,7 +1004,6 @@ mug_ganges_branch = {
 		}
 	}
 }
-
 mug_hindustan_branch = {
 	slot = 3
 	generic = no
@@ -1319,7 +1313,6 @@ mug_hindustan_branch = {
 		}
 	}
 }
-
 mug_desh = {
 	slot = 3
 	generic = no
@@ -1363,7 +1356,6 @@ mug_desh = {
 		}
 	}
 }
-
 mug_sufis = {
 	slot = 4
 	generic = no
@@ -1454,7 +1446,6 @@ mug_sufis = {
 	}
 	
 }
-
 mug_rajput_branch = {
 	slot = 4
 	generic = no
@@ -1688,7 +1679,6 @@ mug_rajput_branch = {
 		}
 	}
 }
-
 mug_hyderabad_branch = {
 	slot = 4
 	generic = no
@@ -1793,7 +1783,6 @@ mug_hyderabad_branch = {
 		}
 	}
 }
-
 mug_deccan_branch = {
 	slot = 5
 	generic = no

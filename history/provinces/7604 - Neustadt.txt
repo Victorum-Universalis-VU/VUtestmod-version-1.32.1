@@ -6,13 +6,12 @@ add_core = FKS
 capital = "Neustadt"
 culture = hessian
 religion = catholic
-trade_goods = fur
+trade_goods = fruit
 base_tax = 2
 base_production = 3
 base_manpower = 2
 is_city = yes
 hre = yes
-
 
 discovered_by = eastern
 discovered_by = english

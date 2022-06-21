@@ -1,6 +1,4 @@
 #1757 - Oberpfalz
-#Region - Germany
-#Area - Lower Bavaria
 
 owner = PAL
 controller = PAL
@@ -9,7 +7,7 @@ culture = bavarian
 religion = catholic
 base_tax = 6
 base_production = 6
-trade_goods = iron
+trade_goods = lead
 base_manpower = 4 
 capital	= "Amberg" 
 is_city = yes
