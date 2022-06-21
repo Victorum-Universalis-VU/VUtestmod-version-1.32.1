@@ -145,7 +145,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5562;320;sea;5493;-1;-1;-1;-1;Kefalos-Rhodes
 4700;2296;sea;1319;-1;-1;-1;-1;Lesbos-Biga
 3195;5375;sea;1319;-1;-1;-1;-1;Lemnos-Imbros
-5375;4779;sea;1319;-1;-1;-1;-1;Imbros-Gallipoli
 5375;5377;sea;1319;-1;-1;-1;-1;Imbros-Samothraki
 5364;7127;sea;1319;-1;-1;-1;-1;Thasos-Kavala
 5379;7117;sea;1319;-1;-1;-1;-1;Skiathos-Quluz
@@ -275,8 +274,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7730;7731;sea;8353;-1;-1;-1;-1;Makarska-Brac
 136;7731;sea;8353;-1;-1;-1;-1;Spalato-Brac
 137;7731;sea;8353;-1;-1;-1;-1;Ragusa-Brac
-7734;7735;sea;1308;-1;-1;-1;-1;Senj-Krk
-130;7735;sea;1308;-1;-1;-1;-1;Istria-Krk
+7734;7735;sea;8353;-1;-1;-1;-1;Senj-Krk
+130;7735;sea;8353;-1;-1;-1;-1;Istria-Krk
 54;4141;sea;1268;-1;-1;-1;-1;Stade-Dithmarschen
 5729;5866;sea;1559;-1;-1;-1;-1;Nisga'a-Kichxaan
 5728;5866;sea;1559;-1;-1;-1;-1;Taan-Kichxaan
