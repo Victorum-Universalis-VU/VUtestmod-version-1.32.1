@@ -391,7 +391,7 @@ royal_marriage = {
 # Francesco III ~ Charlotte, dt. Philippe II, Duc d'Orléans
 royal_marriage = {
 	first = MOD
-	second = BRF
+	second = FRA #Was BRF
 	start_date = 1720.6.21
 	end_date = 1761.1.19
 } 
@@ -1017,7 +1017,7 @@ royal_marriage = {
 # Filippo I ~ Louise Elisabeth, dt. Louis XV of France
 royal_marriage = {
 	first = PAR
-	second = BRF
+	second = FRA #Was BRF
 	start_date = 1739.10.25
 	end_date = 1759.12.6
 }
@@ -1081,7 +1081,7 @@ royal_marriage = {
 # Vittorio Amedeo I of Savoy and Christine Marie of France
 royal_marriage = {
 	first = SAV
-	second = BRF
+	second = FRA #Was BRF
 	start_date = 1619.2.10
 	end_date = 1663.12.27
 }
@@ -1148,7 +1148,7 @@ royal_marriage = {
 # Cosimo III ~ Marguerite-Louise, dt. Gaston, Duc d'Orléans (son of Henri IV of France and Navarra)
 royal_marriage = {
 	first = TUS
-	second = BRF
+	second = FRA # Was BRF
 	start_date = 1661.6.20
 	end_date = 1721.9.17
 }
