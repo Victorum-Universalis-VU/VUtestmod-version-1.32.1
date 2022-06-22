@@ -529,9 +529,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 405;4297;sea;3989;-1;-1;-1;-1;Tadmor-Beqaa
 405;3990;sea;3989;-1;-1;-1;-1;Tadmor-Al Sukhnah
 405;7456;sea;3989;-1;-1;-1;-1;Tadmor-Al Bukamal
-3990;6138;sea;3989;-1;-1;-1;-1;Al Sukhnah-Manbij
+3990;3988;sea;3989;-1;-1;-1;-1;Al Sukhnah-Resafa
 7456;7457;sea;3989;-1;-1;-1;-1;Al Bukamal-Safawi
 7457;381;sea;8738;-1;-1;-1;-1;Safawi-Ajloun
 7458;381;sea;8738;-1;-1;-1;-1;Al Qurayyat-Ajloun
+7455;5548;sea;2334;-1;-1;-1;-1;Rutba-Al Jibab
 
 -1;-1;;-1;-1;-1;-1;-1;-1;
