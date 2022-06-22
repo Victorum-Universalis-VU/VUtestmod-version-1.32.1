@@ -236,12 +236,12 @@ vassal = {
 }
 
 # France-Auvergne
-vassal = {
-	first = FRA
-	second = AUV
-	start_date = 1444.1.1
-	end_date = 1532.8.3
-}
+#vassal = {
+#	first = FRA
+#	second = AUV
+#	start_date = 1444.1.1
+#	end_date = 1532.8.3
+#}
 
 # France-Foix
 vassal = {
