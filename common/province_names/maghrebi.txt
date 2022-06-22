@@ -43,6 +43,7 @@
 2982 = "Saraqusa"
 2988 = "Tarrakunah"
 2990 = "Tirwal"
+3991 = "Al-Iskandarun"
 5261 = "Borsa'id"
 
 332 = "Mar'ash"

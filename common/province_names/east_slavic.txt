@@ -117,6 +117,7 @@
 2444 = "Zlatoust"
 2446 = "Chita"
 2447 = "Taman"
+3991 = "Alexandretta"
 4687 = "Koryakovsky"
 4689 = "Omsk"
 4691 = "Ob"

@@ -8,20 +8,13 @@ religion = sunni
 capital = "Izmit"
 trade_goods = glass
 hre = no
-base_tax = 7 #4
-base_production = 7 #4
-base_manpower = 5 #3
+base_tax = 5 #7
+base_production = 5 #7
+base_manpower = 5
 is_city = yes
-fort_15th = yes
-center_of_trade = 2
 
 add_permanent_province_modifier = {
-	name = bosphorous_sound_toll
-	duration = -1
-}
-
-add_permanent_province_modifier = {
-    name = navalbase_modifier_2
+    name = navalbase_modifier
     duration = -1
 }
 

@@ -37,6 +37,9 @@
 5419 = { "Gaborone" "Gaborone" }
 6524 = "Rosetta"
 
+#Asia
+3991 = "Alexandretta"
+
 #VU - Australia by NoobMiner72
 1084 = { "Perth" "Perth" }
 1085 = { "Hobart" "Hobart" }

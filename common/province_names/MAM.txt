@@ -2,5 +2,6 @@
 2317 = "Ushmunayn"
 2319 = "Asyut"
 2327 = { "Gayal" "Gayal" }
+3991 = "Al-Iskandarun"
 6524 = "Rashid"
 5261 = "Borsa'id"

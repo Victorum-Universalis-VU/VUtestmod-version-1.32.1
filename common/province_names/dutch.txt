@@ -37,6 +37,7 @@
 572 = "Colombo"
 630 = "Batavia"
 2026 = "Negapatam"
+3991 = "Alexandretta"
 8420 = { "Sadras" "Sadras" }
 8421 = { "Madras" "Madras" }
 

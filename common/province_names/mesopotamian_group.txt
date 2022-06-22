@@ -22,6 +22,7 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3991 = "Alexandria"
 4271 = { "Elba" "Elba" }
 4288 = "Low Sumer"
 4289 = { "Susa" "Susa" }

@@ -19,7 +19,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7771;7607;sea;5499;-1;-1;-1;-1;Ringkobing-Hjorring
 6462;6449;sea;1389;-1;-1;-1;-1;Shimabara-Amakusa
 8168;375;sea;1287;-1;-1;-1;-1;Tralee-Limerick
-6932;316;sea;6359;-1;-1;-1;-1;Galata-Bithynia
+6932;3992;sea;6359;-1;-1;-1;-1;Galata-Bithynia
 911;945;sea;1662;-1;-1;-1;-1;Menominee-Michigan
 1;1930;sea;1928;-1;-1;-1;-1;Stockholm-Åland
 1930;27;sea;1928;-1;-1;-1;-1;Åland-Finland
@@ -526,5 +526,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7018;224;sea;8337;-1;-1;-1;-1;El Rocio-Sevilla
 5291;7107;sea;5493;-1;-1;-1;-1;Karpathos-Sitia
 7126;1773;sea;8358;-1;-1;-1;-1;Zakynthos-Elis
+405;4297;sea;3989;-1;-1;-1;-1;Tadmor-Beqaa
+405;3990;sea;3989;-1;-1;-1;-1;Tadmor-Al Sukhnah
+405;7456;sea;3989;-1;-1;-1;-1;Tadmor-Al Bukamal
+3990;6138;sea;3989;-1;-1;-1;-1;Al Sukhnah-Manbij
+7456;7457;sea;3989;-1;-1;-1;-1;Al Bukamal-Safawi
+7457;381;sea;8738;-1;-1;-1;-1;Safawi-Ajloun
+7458;381;sea;8738;-1;-1;-1;-1;Al Qurayyat-Ajloun
 
 -1;-1;;-1;-1;-1;-1;-1;-1;
