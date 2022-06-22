@@ -173,6 +173,7 @@
 2750 = "Filippopoli"
 3003 = "Negroponte"
 3091 = { "Costruttore" "Costruttore" }
+3991 = { "Alexandretta" "Alexandretta" }
 4174 = "Durazzo"
 4175 = "Alessio"
 4239 = "Belgrado"
