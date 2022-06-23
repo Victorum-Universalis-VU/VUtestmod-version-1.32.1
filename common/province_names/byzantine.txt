@@ -267,7 +267,7 @@
 2299 = { "Amastris" "Amastris" }
 2300 = { "Neocaesarea" "Neocaesarea" }
 2301 = { "Caesarea" "Caesarea" }
-2302 = { "Isauria" "Adrasos" }
+2302 = { "Pamphylia Anatolikos" "Adrasos" }
 2303 = { "Melitene" "Melitene" }
 2304 = { "Amisos" "Amisos" }
 2305 = { "Kamacha" "Kamacha" }
@@ -417,6 +417,9 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3983 = { "Korama" "Korama" } #Goreme
+3984 = { "Heraclea Cybistra" "Herclea Cybistra" }
+3985 = { "Isauria" "Isaura Palaea" }
 3986 = { "Claudiopolis" "Claudiopolis" }
 3988 = { "Sergiopolis" "Sergiopolis" } #Resafa
 3990 = { "Sikne" "Sikne" }
