@@ -417,6 +417,8 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3981 = "Aegae"
+3982 = { "Tarsos" "Tarsos" }
 3983 = { "Korama" "Korama" } #Goreme
 3984 = { "Heraclea Cybistra" "Herclea Cybistra" }
 3985 = { "Isauria" "Isaura Palaea" }
@@ -570,7 +572,7 @@
 5130 = { "Mysia" "Pegadia" }
 5131 = { "Kydonies" "Kydonies" }
 5134 = { "Petronium" "Helikarnaossos" }
-5135 = { "Zephyrion" "Tarsos" }
+5135 = { "Zephyrion" "Zephyrion" }
 5137 = { "Tavia" "Tavia" }
 5138 = { "Anazarbos" "Anazarbos" }
 5139 = "Nicosia"
