@@ -167,6 +167,7 @@
 3245 = { "Kerç" "Yenikale" }
 3247 = { "Üzüm" "Üzüm" }
 3248 = { "Lazistan" "Rize" }
+3972 = "Ulaº"
 4125 = "Eger"
 4126 = "Segedin"
 4173 = "Sirem"

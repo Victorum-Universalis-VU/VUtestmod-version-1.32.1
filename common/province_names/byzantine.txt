@@ -417,6 +417,12 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3969 = "Aravrakes"
+3970 = { "Charsianon" "Argyrion" }
+3971 = { "Dokeia" "Dokeia" } #Tokat
+3972 = { "Sarissa" "Sarissa" }
+3973 = { "Albasta" "Albasta" }
+3974 = "Mudarwa"
 3975 = { "Kykysos" "Kykysos" }
 3976 = { "Flavias" "Flaviopolis" }
 3978 = { "Karmalas" "Karmalasopoli" }

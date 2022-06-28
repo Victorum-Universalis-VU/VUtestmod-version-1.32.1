@@ -22,6 +22,9 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3971 = { "Evdokia" "Evdokia" }
+3972 = { "Sarissa" "Sarissa" }
+3973 = "Albista"
 3979 = { "Ain Dara" "Ain Dara" } #Afrin
 3982 = { "Tarsa" "Tarsa" }
 3983 = { "Naw-Shahr" "Naw-Shahr" }
