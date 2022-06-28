@@ -15,19 +15,19 @@ native_hostileness = 10
 
 discovered_by = muslim
 
-1444.1.1 = {		#Was Qara Qoyunlu but their rule hardly extended beyond Euphrates
-	owner = FAD	#In reality, should start uncolonized but oh well...
-	controller = FAD
-	add_core = FAD
-	trade_goods = camel
-	is_city = yes
-}
-1516.8.24 = {	
-	owner = ---
-	controller = ---
-	remove_core = FAD
-	is_city = no
-} # Part of the Ottoman Empire
+#1444.1.1 = {		#Was Qara Qoyunlu but their rule hardly extended beyond Euphrates
+#	owner = FAD	#In reality, should start uncolonized but oh well...
+#	controller = FAD
+#	add_core = FAD
+#	trade_goods = camel
+#	is_city = yes
+#}
+#1516.8.24 = {	
+#	owner = ---
+#	controller = ---
+#	remove_core = FAD
+#	is_city = no
+#} # Part of the Ottoman Empire
 1725.1.1 = {
 	owner = TUR
 	controller = TUR

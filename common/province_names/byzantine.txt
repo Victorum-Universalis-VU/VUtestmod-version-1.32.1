@@ -417,6 +417,10 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3975 = { "Kykysos" "Kykysos" }
+3976 = { "Flavias" "Flaviopolis" }
+3978 = { "Karmalas" "Karmalasopoli" }
+3979 = { "Oinoparas" "Ufrenus" } #Afrin
 3981 = "Aegae"
 3982 = { "Tarsos" "Tarsos" }
 3983 = { "Korama" "Korama" } #Goreme
