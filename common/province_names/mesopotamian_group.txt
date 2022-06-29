@@ -22,6 +22,7 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3968 = "Cabria"
 3971 = { "Evdokia" "Evdokia" }
 3972 = { "Sarissa" "Sarissa" }
 3973 = "Albista"

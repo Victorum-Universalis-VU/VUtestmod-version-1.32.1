@@ -265,7 +265,7 @@
 2297 = { "Magnesia" "Sardeis" }
 2298 = { "Attaleia" "Perge" }
 2299 = { "Amastris" "Amastris" }
-2300 = { "Neocaesarea" "Neocaesarea" }
+2300 = { "Zara" "Zara" }
 2301 = { "Caesarea" "Caesarea" }
 2302 = { "Pamphylia Anatolikos" "Adrasos" }
 2303 = { "Melitene" "Melitene" }
@@ -417,6 +417,9 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3966 = { "Sophene" "Sophene Minor" } #Dersim
+3967 = { "Kamacha" "Kamacha" }
+3968 = { "Neocaesarea" "Neocaesarea" }
 3969 = "Aravrakes"
 3970 = { "Charsianon" "Argyrion" }
 3971 = { "Dokeia" "Dokeia" } #Tokat
