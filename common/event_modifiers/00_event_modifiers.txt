@@ -1732,6 +1732,14 @@ vu_greek_unrest = {
 	local_state_maintenance_modifier = 0.2
 	local_unrest = 4
 }
+
+vu_djerid_canal = {
+	supply_limit = 2
+	local_development_cost = -0.6
+	allowed_num_of_buildings = 1
+	trade_goods_size = 1
+	local_production_efficiency = 0.05
+}
 	
 
 ################

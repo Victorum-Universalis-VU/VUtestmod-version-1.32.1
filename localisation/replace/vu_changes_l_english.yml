@@ -1160,6 +1160,18 @@
  dlc018_reason_welland_canal:0 "The §YWealth of Nations Expansion§! adds the ability to build the §YWelland Canal§!, as well as various diplomatic and trade actions and activities."
  dlc018_reason_welland_canal_reason:1 "\nWe're recommending this expansion as you've picked a country that starts near §YNiagara Peninsula§!."
  #
+ construct_djerid_canal_title:0 "Construct the Chott El Djerid Canal"
+ construct_djerid_canal_desc:0 "Cutting a canal across the narrow strip of desert to link Chott El Djerid salt lake and Mediterranean Sea is truly a great engineering project that once completed will permanently flood the salty periodic Chott and create a permanent body of water. This new body of water - Chott El Djerid Basin will bring humidity to otherwise deserted region and create a large area avaliable for forestation and development. Such project will be the first successful terraforming project humanity has seen."
+ cancel_djerid_canal_title:0 "Cancel the Chott El Djerid Canal"
+ cancel_djerid_canal_desc:0 "Our project to dig the Chott El Djerid Canal has been deemed too costly and will be canceled."
+ great_project_djerid_canal:0 "Chott El-Djerid Canal"
+ djerid_canal:0 "Chott El-Djerid Canal"
+ djerid_canal_title:0 "Chott El-Djerid Canal"
+ canal_events.24.t:0 "Chott El-Djerid Canal Finished"
+ canal_events.24.d:0 "By what has been considered an unprecedented construction effort in the region, the construction of the Chott El-Djerid Cannal connecting salty Chott El-Djerid and Mediterranean Sea has been completed in [Root.GetName]. Our fleet can now move between these key areas quicker and safer, giving us opportunity for unique military maneuvers and trade projects."
+ dlc018_reason_djerid_canal:0 "The §YWealth of Nations Expansion§! adds the ability to build the §YChott El-Djerid Canal§!, as well as various diplomatic and trade actions and activities."
+ dlc018_reason_djerid_canal_reason:1 "\nWe're recommending this expansion as you've picked a country that starts near §YChott El-Djerid§!."
+ #
  construct_suez_canal_title:0 "Construct the Suez Canal - First Phase"
  construct_suez_canal_desc:0 "Our vision for a canal linking both the Red and Mediterranean seas cannot be completed in one go. This means project will comprise of two stages, with the first phase involving cutting a canal from the Red Sed across al-Suweis and Ishmaila to the Great Bitter Lake. The second stage will then involve cutting a canal from the Great Bitter Lake across Ishmaila towards Port Said, where it will end and enter the Mediterranean sea. Despite the astronomical cost our government will have to fork out, our economics experts have already caculated and reasured state that the benefits will surpass the overall cost, not forgetting the shortening of travel time between Europe and Asia due to the linking of the Mediterranean and Red seas but also bestow on our country tremendous prestige and glory in the form of this monument that will hopefully endure the test of time long after we are gone."
  cancel_suez_canal_title:0 "Cancel the Suez Canal - First Phase"

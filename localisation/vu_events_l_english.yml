@@ -316,6 +316,10 @@
  incident_belgian_revolt:0 "The Belgian Rebellion"
  incident_belgian_revolt_member_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."
  incident_belgian_revolt_emperor_alert:0 "The Belgian Revolt has escalated far beyond regional unrest and has become an international crisis as nations lend their armies to each side. The newly declared Kingdom of Belgium lies within the boundaries of our Kingdom, and thus it has been argued that the King has a duty to extend Royal protection over this fledgling nation. Royalist involvement, however it manifests, is sure to alter the fate of the Belgium forever."
+ #
+ canal_events.30.t:0 "Chott El-Djerid terraformed"
+ canal_events.30.d:0 "Cutting a canal across the narrow strip of desert to link Chott El Djerid salt lake and Mediterranean Sea is truly a great engineering project that once completed will permanently flood the salty periodic Chott and create a permanent body of water. This new body of water - Chott El Djerid Basin will bring humidity to otherwise deserted region and create a large area avaliable for forestation and development. This dream is now reality. Such project is the first successful terraforming project humanity has seen. Salinity levels in newly created lake have stabilized after mixing with sea waters. The area is ready for excessive development now that strong evaporation from the lake brings humidity around the region."
+ canal_events.30.a:0 "Excellent accomplishment"
 
  #Override country names
  ZAZ_WILD_FIELDS: "Wild Fields"

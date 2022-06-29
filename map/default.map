@@ -139,5 +139,11 @@ canal_definition = {
 	y = 1681
 }
 
+canal_definition = {
+	name = "djerid_canal"
+	x = 2768
+	y = 1530
+}
+
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }

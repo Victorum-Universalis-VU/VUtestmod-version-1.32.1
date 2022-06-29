@@ -811,6 +811,10 @@ spriteTypes = {
 		name = "GFX_great_project_welland_canal"
 		texturefile = "gfx//interface//great_projects//great_project_welland_canal.dds"
 	}
+	spriteType = {
+		name = "GFX_great_project_djerid_canal"
+		texturefile = "gfx//interface//great_projects//great_project_second_suez_canal.dds"
+	}
 	
 ### 1.32 MONUMENTS ###
 
