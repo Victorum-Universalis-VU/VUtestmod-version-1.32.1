@@ -238,6 +238,11 @@
  vu_middle_east.5.d:0 "Heretics from militarist state of Mushasha, seeing our weakness, has sent us an ultimatum. They demand that we give up on our posessions in Lower Mesoppotamia area and cede those lands back to their holy state. How shall we respond to such outrageous demands?"
  vu_middle_east.5.a:0 "We are ravaged by rebellion, we must agree in our tough sitiation"
  vu_middle_east.5.b:0 "If those heretics want war, they will get war!"
+ vu_middle_east.6.t:0 "Black Sheep seeks expansion eastwards"
+ vu_middle_east.6.d:0 "With all our rebels defeated, we can look outwards again. News reach to our tribal confederation that great leader of Timurid Empire - Shah Rukh has passed away. With his death, the Timurid Empire is in shambles. Civil war is on the horizon which is perfect opportunity for us. We've made peace with Shah Rukh but with him gone, we have no obligations against them."
+ vu_middle_east.6.a:0 "We shall claim Persian Gulf and West Iran"
+ vu_middle_east.6.b:0 "The invasion begins NOW"
+ vu_middle_east.6.c:0 "We must keep our promise and not invade"
  #Missions events
  vu_mission_events.1.t:0 "Reform of the Avarian State"
  vu_mission_events.1.d:0 "As our nation expands and regains its long-lost glory we must face an important question - will we return to the old ways of life? Long time ago Avars were nomadic people just like the Tatars or Turks who would conquer their way all the way to Pannonian Basin. Shall we continue their legacy or shall we settle for modern lifestyle?"

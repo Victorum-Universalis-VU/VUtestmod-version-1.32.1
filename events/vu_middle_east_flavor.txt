@@ -297,6 +297,7 @@ country_event = { # Mushasha tries to sieze land
 		name = vu_middle_east.4.a
 		highlight = yes
 		ai_chance = { factor = 90 }
+		clr_country_flag = qoyunlu_iraq_free
 		add_adm_power = -25
 		add_dip_power = -25
 		custom_tooltip = vu_middle_east.4.tooltip
@@ -336,6 +337,7 @@ country_event = { # Mushasha tries to sieze land
 	option = { #Do not	
 		name = vu_middle_east.4.b
 		ai_chance = { factor = 10 }
+		clr_country_flag = qoyunlu_iraq_free
 		add_mil_power = 25
 		add_prestige = -10
 	}
@@ -403,5 +405,120 @@ country_event = { # Response to Mushasha claims
 				hidden = no
 			}
 		}
+	}
+}
+
+country_event = { # Annexing Gulf and west Iran
+	id = vu_middle_east.6
+	title = vu_middle_east.6.t
+	desc = vu_middle_east.6.d
+	picture = BORDER_TENSION_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QAR
+		is_year = 1447
+		NOT = { has_country_flag = qoyunlu_iraq_free }
+		NOT = { has_country_flag = qoyunlu_normal_rebelion }
+		NOT = { num_of_rebel_controlled_provinces = 2 }
+		TIM = { 	#Shah Rukh must be dead
+			NOT = { has_ruler = "Shah Rukh" }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = { #Go for Gulf and West Iran
+		name = vu_middle_east.6.a
+		ai_chance = { factor = 40 }
+		add_prestige = 5
+		kuwait_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		basra_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		5251 = { add_permanent_claim = ROOT }
+		391 = { add_permanent_claim = ROOT }
+		khuzestan_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		luristan_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		azerbaijan_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		iraq_e_ajam_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+	}
+	
+	option = { #Annex lands through war	
+		name = vu_middle_east.6.b
+		ai_chance = { factor = 60 }
+		add_mil_power = 20
+		add_prestige = 5
+		kuwait_area = {
+			type = all
+			add_core = ROOT
+		}
+		basra_area = {
+			type = all
+			add_core = ROOT
+		}
+		5251 = { add_core = ROOT }
+		391 = { add_core = ROOT }
+		khuzestan_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		luristan_area = {
+			type = all
+			add_core = ROOT
+		}
+		azerbaijan_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		iraq_e_ajam_area = {
+			type = all
+			add_permanent_claim = ROOT
+		}
+		408 = {
+			owner = {
+				declare_war_with_cb = {
+					who = THIS
+					casus_belli = cb_annex
+				}
+			}
+		}
+		2215 = {
+			owner = {
+				declare_war_with_cb = {
+					who = THIS
+					casus_belli = cb_annex
+				}
+			}
+		}
+		add_manpower = 8
+		add_treasury = 200
+	}
+	
+	option = { #Go for nothing
+		name = vu_middle_east.6.c
+		ai_chance = { factor = 0 }
+		add_dip_power = 20
 	}
 }
