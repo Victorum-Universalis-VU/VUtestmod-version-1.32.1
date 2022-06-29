@@ -3088,6 +3088,20 @@ whiskey = {
 	}
 }
 
+silkworm = {
+	color = { 231 240 220 }
+	modifier = {
+		infantry_cost = -0.025
+		justify_trade_conflict_cost = -0.15
+	}
+	province = {	
+		trade_value_modifier = 0.1
+	}
+	chance = {
+		factor = 0
+	}
+}
+
 marble_sculpture = {
 	color = { 100 149 237 }
 	modifier = {
