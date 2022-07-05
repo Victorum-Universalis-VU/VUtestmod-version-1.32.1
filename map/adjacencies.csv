@@ -9,7 +9,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 7610;1983;sea;5494;-1;-1;-1;-1;Sjaelland-Lolland
 123;124;sea;1307;-1;-1;-1;-1;Calabria-Messina
 55;1874;sea;8392;-1;-1;-1;-1;Oldenburg-Bremen
-7125;3175;sea;1311;-1;-1;-1;-1;Lefkada-Aetolia
+7125;3175;sea;8358;-1;-1;-1;-1;Lefkada-Aetolia
 7868;309;sea;8368;-1;-1;-1;-1;Mokrishvitsa-Olonets
 6929;236;sea;6925;-1;-1;-1;-1;Lambeth-London
 183;6927;sea;8315;-1;-1;-1;-1;Paris-Ile-de-la-Cite
@@ -250,8 +250,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2609;5866;sea;1559;-1;-1;-1;-1;Tsmsyan-Kichxaan
 2021;5030;sea;1556;-1;-1;-1;-1;Miwok-Ohlone
 5030;5814;sea;1556;-1;-1;-1;-1;Ohlone-Ohloneii
-4698;7125;sea;1312;-1;-1;-1;-1;Cephalonia-Lefkada
-4698;7126;sea;1312;-1;-1;-1;-1;Cephalonia-Zakynthos
+4698;7125;sea;8358;-1;-1;-1;-1;Cephalonia-Lefkada
+4698;7126;sea;8358;-1;-1;-1;-1;Cephalonia-Zakynthos
 3178;7112;sea;1312;-1;-1;-1;-1;Patras-Naupaktos
 142;7140;sea;1311;-1;-1;-1;-1;Corfu-Butrint
 142;7132;sea;1311;-1;-1;-1;-1;Corfu-Thesprotia

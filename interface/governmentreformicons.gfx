@@ -526,6 +526,11 @@ spriteTypes = {
 		name = "government_reform_austrian_dual_monarchy_reform"
 		texturefile = "gfx/interface/government_reform_icons/austrian_dual_monarchy_reform.dds"
 	}
+	
+	spriteType = {
+		name = "government_reform_anglois_dual_monarchy_reform"
+		texturefile = "gfx/interface/government_reform_icons/anglois_dual_monarchy_reform.dds"
+	}
 			
 	spriteType = {
 		name = "government_reform_black_army_reform"

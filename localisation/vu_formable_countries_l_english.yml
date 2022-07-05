@@ -54,6 +54,10 @@
  AUE_ADJ:0 "Austrian"
  AHE:0 "Austria_Hungary"
  AHE_ADJ:0 "Austro-Hungarian"
+ #Great Britain
+ #ML8991
+ AFU:0 "Les Rouyaumes Unis"
+ AFU_ADJ:0 "Anglois"
 
  #Addition by KyuQem#
  NRE:0 "North Sea Empire"

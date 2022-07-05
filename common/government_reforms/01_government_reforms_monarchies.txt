@@ -681,6 +681,31 @@ austrian_dual_monarchy = {
 	}
 }
 
+anglois_dual_monarchy = {
+	icon = "anglois_dual_monarchy_reform"
+	allow_normal_conversion = yes
+	legacy_equivalent = english_monarchy
+	potential = { #added via script
+		has_dlc = "Emperor"
+		OR = {
+			has_reform = anglois_dual_monarchy
+			have_had_reform = anglois_dual_monarchy
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 100
+	nation_designer_trigger = {
+		has_dlc = "Emperor"
+	}
+
+	modifiers = {
+		num_accepted_cultures = 2
+		global_unrest = -2
+		has_parliament = yes
+		production_efficiency = 0.1	
+	}
+}
+
 principality = {
 	icon = "russian_principality"
 	allow_normal_conversion = yes

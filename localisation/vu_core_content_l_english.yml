@@ -383,7 +383,6 @@
  bt_venice_perm_claims:0 "Grants permanent claims on neraby lands owned by Venice"
  bt_mission_tooltip_hispaniola_colonisation:0 "§Y[Root.GetName]§! or their subjects own at least 5 province in the Hispaniola colonial region."
  bt_mission_tooltip_cuba_colonisation:0 "§Y[Root.GetName]§! or their subjects own at least 5 province in the Cuba colonial region."
- bt_mission_tooltip_bahamas_colonisation:0 "§Y[Root.GetName]§! or their subjects own at least 5 province in the Bahamas colonial region."
  bt_mission_tooltip_northern_italy_minus_lombardy_perm_claims:0 "Grants permanent claims on most of Northern Italy."
  bt_mission_tooltip_northern_italy_conquest_minus_lombardy:0 "§Y[Root.GetName]§! owns the highlighted provinces in Northern Italy."
 
@@ -2162,4 +2161,3 @@
 
  BT_fra_carib_colony.tooltip_2:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in Colonial Hispaniola"
  BT_fra_carib_colony.tooltip_3:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in Colonial Cuba"
- BT_fra_carib_colony.tooltip_4:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Bahamas"

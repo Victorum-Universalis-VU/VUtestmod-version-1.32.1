@@ -699,7 +699,6 @@ gc_por_3_b = {
 				colonial_region = colonial_the_carribean
 				colonial_region = colonial_hispaniola
 				colonial_region = colonial_cuba
-				#colonial_region = colonial_bahamas
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
@@ -731,14 +730,6 @@ gc_por_3_b = {
 						is_city = yes
 					}
 				}
-				#custom_trigger_tooltip = {
-				#	tooltip = BT_fra_carib_colony.tooltip_4
-				#	num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				#		value = 5
-				#		colonial_region = colonial_bahamas
-				#		is_city = yes
-				#	}
-				#}
 			}
 			
 		}
@@ -754,7 +745,6 @@ gc_por_3_b = {
 								colonial_region = colonial_the_carribean
 								colonial_region = colonial_hispaniola
 								colonial_region = colonial_cuba
-								#colonial_region = colonial_bahamas
 							}
 						}
 					}

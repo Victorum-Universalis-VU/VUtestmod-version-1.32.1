@@ -131,6 +131,8 @@ monarchy = {
 				tanistry_reform
 				#1.16
 				kingdom_of_gao_reform
+				#ML8991
+				anglois_dual_monarchy
 			}
 		}
 		hereditary_vs_nobility = {
@@ -712,6 +714,7 @@ monarchy = {
 		crown_of_saint_wenceslaus
 		polish_constitutionalism_reform
 		autocracy_reform
+		late_byzantine_gov_reform
 	}
 	
 	exclusive_reforms = {
