@@ -433,6 +433,15 @@ country_event = { # Annexing Gulf and west Iran
 		months = 6
 	}
 	
+	immediate = {
+		408 = {
+			owner = { save_event_target_as = holds_408 }
+		}
+		2215 = {
+			owner = { save_event_target_as = holds_2215 }
+		}
+	}
+	
 	option = { #Go for Gulf and West Iran
 		name = vu_middle_east.6.a
 		ai_chance = { factor = 40 }
@@ -496,21 +505,13 @@ country_event = { # Annexing Gulf and west Iran
 			type = all
 			add_permanent_claim = ROOT
 		}
-		408 = {
-			owner = {
-				declare_war_with_cb = {
-					who = THIS
-					casus_belli = cb_annex
-				}
-			}
+		declare_war_with_cb = {
+			who = event_target:holds_408
+			casus_belli = cb_annex
 		}
-		2215 = {
-			owner = {
-				declare_war_with_cb = {
-					who = THIS
-					casus_belli = cb_annex
-				}
-			}
+		declare_war_with_cb = {
+			who = event_target:holds_2215
+			casus_belli = cb_annex
 		}
 		add_manpower = 8
 		add_treasury = 200

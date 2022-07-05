@@ -6,7 +6,7 @@
 
 #Baltic
  gme_dlugi_targ: "Dlugi Targ"
- gme_vilnius_cathedral: "Vilnius Cathedral Basilica"
+ #gme_vilnius_cathedral: "Vilnius Cathedral Basilica" #Disabled since identical already exists
 
 #Britain
  gme_blarney_castle: "Blarney Castle"

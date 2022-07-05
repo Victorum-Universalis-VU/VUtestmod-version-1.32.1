@@ -2,7 +2,6 @@
 
 owner = BYZ
 controller = BYZ
-add_core = ACH
 add_core = MOE
 add_core = BYZ
 culture = greek
