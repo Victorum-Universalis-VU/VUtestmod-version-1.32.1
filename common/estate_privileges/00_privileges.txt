@@ -2112,11 +2112,6 @@ estate_nobles_nobility_primacy = {
 			factor = 0.8
 			mil = 5
 		}
-		modifier = {
-			factor = 1000
-			has_mission = kon_reform_army
-			NOT = { mission_completed = kon_reform_army }
-		}
 	}
 }
 
@@ -2147,6 +2142,7 @@ estate_nobles_levies = {
 	influence = 0.1
 	is_valid = {
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
+		NOT = { has_country_flag = disables_noble_levies }
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
@@ -2231,9 +2227,6 @@ estate_nobles_levies = {
 		}
 	}
 	penalties = {
-	}
-	mechanics = {
-		exempt_from_seize_land
 	}
 	ai_will_do = {
 		factor = 5
@@ -2326,6 +2319,8 @@ estate_nobles_advisors = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+	}
 	penalties = {
 		stability_cost_modifier = 0.1
 	}
@@ -2339,8 +2334,12 @@ estate_nobles_advisors = {
 			is_absolutism_active = yes
 		}
 		modifier = {
-			factor = 3
-			uses_meritocracy = yes
+			factor = 1.25
+			NOT = { mil = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			mil = 5
 		}
 	}
 }
@@ -2350,6 +2349,8 @@ estate_nobles_right_of_counsel = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2412,30 +2413,10 @@ estate_nobles_french_strong_duchies = {
 		reduced_liberty_desire_on_same_continent = 10
 	}
 	ai_will_do = {
-		factor = 2
-		modifier = {
-			factor = 3
-			calc_true_if = {
-				amount = 1
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			calc_true_if = {
-				amount = 2
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
+		factor = 1
+		modifier = { #will lose it via invalid sooner or later
+			factor = 10
+			has_estate_privilege = estate_nobles_french_strong_duchies
 		}
 	}
 }
@@ -2498,6 +2479,8 @@ estate_church_independent_inquisition = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+	}
 	penalties = {
 		stability_cost_modifier = 0.1
 	}
@@ -2511,8 +2494,12 @@ estate_church_independent_inquisition = {
 			is_absolutism_active = yes
 		}
 		modifier = {
-			factor = 3
-			uses_meritocracy = yes
+			factor = 1.25
+			NOT = { adm = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			adm = 5
 		}
 	}
 }
@@ -2522,6 +2509,8 @@ estate_church_new_world_mission = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+	}
 	is_valid = {
 		OR = {
 			num_of_colonists = 1
@@ -2595,6 +2584,8 @@ estate_church_clerical_ministers = {
 	icon = privilege_recruit_minister
 	max_absolutism = -5
 	influence = 0.10
+	can_select = {
+	}
 	conditional_modifier = {
 		trigger = {
 			if = {
@@ -2605,12 +2596,6 @@ estate_church_clerical_ministers = {
 				NOT = { religion = buddhism }
 				NOT = { religion = vajrayana }
 				NOT = { religion = mahayana }
-			}
-			if = {
-				limit = {
-					has_dlc = "Emperor"
-				}
-				NOT = { religion = hussite }
 			}
 			if = {
 				limit = {
@@ -2636,12 +2621,6 @@ estate_church_clerical_ministers = {
 				}
 				NOT = { religion = orthodox }
 			}
-			if = {
-				limit = {
-					has_dlc = "Origins"
-				}
-				NOT = { religion = jewish }
-			}
 			NOT = { religion = anglican }
 		}
 		modifier = {
@@ -2665,24 +2644,6 @@ estate_church_clerical_ministers = {
 		trigger = {
 			has_dlc = "Common Sense"
 			religion = protestant
-		}
-		modifier = {
-			church_power_modifier = 0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Emperor"
-			religion = hussite
-		}
-		modifier = {
-			church_power_modifier = 0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Origins"
-			religion = jewish
 		}
 		modifier = {
 			church_power_modifier = 0.1
@@ -2751,11 +2712,6 @@ estate_church_clerical_ministers = {
 			religion = protestant
 			num_of_aspects = 3
 		}
-		modifier = {
-			factor = 10
-			religion = orthodox
-			has_dlc = "Third Rome"
-		}
 	}
 }
 
@@ -2764,6 +2720,8 @@ estate_church_clerical_oversight = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -2789,30 +2747,16 @@ estate_church_inwards_perfection = {
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_for_the_faith }
 	}
-	can_revoke = {
-		is_at_war = no
-	}
 	on_granted = {
 	}
 	modifier_by_land_ownership = {
 		development_cost = -0.15
-		global_tax_modifier = 0.15
-		production_efficiency = 0.15
-		manpower_in_true_faith_provinces = 0.15
-		core_creation = 1
-		province_warscore_cost = 2
 	}
 	penalties = {
 		stability_cost_to_declare_war = 1
 	}
 	benefits = {
-		tolerance_own = 2
-		war_exhaustion = -0.05
 	}
-	mechanics = {
-		exempt_from_seize_land
-	}
-	cooldown_years = 25
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -2820,6 +2764,7 @@ estate_church_inwards_perfection = {
 			tag = KOR
 			NOT = { num_of_cities = 30 }
 			religion = confucianism
+			is_absolutism_active = no
 		}
 	}
 }
@@ -2864,7 +2809,6 @@ estate_church_enforced_one_faith = {
 	can_select = {
 		NOT = { has_estate_privilege = estate_burghers_enforced_interfaith_dialogue }
 		NOT = { has_estate_privilege = estate_dhimmi_tolerance }
-		NOT = { has_estate_privilege = estate_dhimmi_guarantee_of_traditions }
 	}
 	penalties = {
 		tolerance_heathen = -2
@@ -2962,6 +2906,8 @@ estate_burghers_commercial_board_of_advice = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+	}
 	penalties = {
 		stability_cost_modifier = 0.1
 	}
@@ -2975,8 +2921,12 @@ estate_burghers_commercial_board_of_advice = {
 			is_absolutism_active = yes
 		}
 		modifier = {
-			factor = 3
-			uses_meritocracy = yes
+			factor = 1.25
+			NOT = { dip = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			dip = 5
 		}
 	}
 }
@@ -2986,6 +2936,8 @@ estate_burghers_new_world_charter = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+	}
 	is_valid = {
 		OR = {
 			num_of_colonists = 1
@@ -3025,6 +2977,8 @@ estate_burghers_indebted_to_burghers = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+	}
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1
@@ -3064,17 +3018,6 @@ estate_burghers_indebted_to_burghers = {
 	}
 	benefits = {
 	}
-	can_select = {
-		if = {
-			limit = {
-				has_estate_privilege = estate_burghers_indebted_to_burghers
-			}
-			has_estate_loan = yes
-		}
-	}
-	can_revoke = {
-		has_estate_loan = no
-	}
 	ai_will_do = {
 		factor = 0
 	}
@@ -3085,6 +3028,8 @@ estate_burghers_free_enterprise = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -3104,44 +3049,29 @@ estate_cossacks_exploration_expedition = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	is_valid = {
+	}
+	can_select = {
+	}
 	on_granted = {
 		custom_tooltip = estate_cossacks_exploration_expedition_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = { has_terrain = steppe }
-			add_province_modifier = {
-				name = estate_cossacks_exploration_expedition_mod
-				duration = -1
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_terrain = steppe }
+				add_province_modifier = {
+					name = estate_cossacks_exploration_expedition_mod
+					duration = -1
+				}
 			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_cossacks_exploration_expedition_mod
-			}
-			remove_province_modifier = estate_cossacks_exploration_expedition_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_cossacks_exploration_expedition_mod_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_cossacks_exploration_expedition_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = { has_province_modifier = estate_cossacks_exploration_expedition_mod }
+				remove_province_modifier = estate_cossacks_exploration_expedition_mod
 			}
-			remove_province_modifier = estate_cossacks_exploration_expedition_mod
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_cossacks_exploration_expedition_mod_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_cossacks_exploration_expedition_mod
-			}
-			remove_province_modifier = estate_cossacks_exploration_expedition_mod
 		}
 	}
 	penalties = {
@@ -3178,6 +3108,10 @@ estate_cossacks_cossack_self_governance = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	is_valid = {
+	}
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -3209,7 +3143,6 @@ estate_cossacks_establish_the_cossack_regiments = {
 	}
 	mechanics = {
 		enables_cossack_regiments
-		exempt_from_seize_land
 	}
 	ai_will_do = {
 		factor = 1
@@ -3284,46 +3217,42 @@ estate_dhimmi_lighter_dhimmi_taxes = {
 			NOT = { religion_group = root }
 		}
 	}
+	can_select = {
+	}
 	on_granted = {
 		custom_tooltip = estate_dhimmi_lighter_dhimmi_taxes_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				NOT = { religion_group = root }
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					NOT = { religion_group = root }
+				}
+				add_province_modifier = {
+					name = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
-			}
-			remove_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_dhimmi_lighter_dhimmi_taxes_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
+				}
+				remove_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
 			}
-			remove_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_dhimmi_lighter_dhimmi_taxes_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
+				}
+				remove_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
 			}
-			remove_province_modifier = estate_dhimmi_lighter_dhimmi_taxes_privilege_mod
 		}
 	}
 	penalties = {
@@ -3364,6 +3293,8 @@ estate_dhimmi_dhimmi_nobles = {
 	max_absolutism = -5
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 		church_loyalty_modifier = -0.05
 		nobles_loyalty_modifier = -0.05
@@ -3391,44 +3322,38 @@ estate_dhimmi_manpower = {
 	}
 	on_granted = {
 		custom_tooltip = estate_dhimmi_manpower_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				NOT = { religion_group = root }
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					NOT = { religion_group = root }
+				}
+				add_province_modifier = {
+					name = estate_dhimmi_manpower_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_dhimmi_manpower_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_dhimmi_manpower_mod
-			}
-			remove_province_modifier = estate_dhimmi_manpower_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_dhimmi_manpower_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_dhimmi_manpower_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
 			}
-			remove_province_modifier = estate_dhimmi_manpower_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_dhimmi_manpower_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_dhimmi_manpower_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
 			}
-			remove_province_modifier = estate_dhimmi_manpower_mod
 		}
 	}
 	penalties = {
@@ -3507,7 +3432,6 @@ estate_dhimmi_tolerance = {
 			NOT = { religion = root }
 		}
 		NOT = { has_estate_privilege = estate_burghers_enforced_interfaith_dialogue }
-		NOT = { has_unlocked_estate_privilege = { estate_privilege = estate_dhimmi_guarantee_of_traditions } }
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_enforced_one_faith }
@@ -3633,6 +3557,8 @@ estate_nomadic_tribes_share_of_the_spoils = {
 	icon = privilege_supply_arms
 	max_absolutism = -5
 	loyalty = 0.05
+	can_select = {
+	}
 	penalties = {
 		available_province_loot = -0.1
 	}
@@ -3648,6 +3574,8 @@ estate_nomadic_tribes_chieftains_autonomy = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -3687,6 +3615,8 @@ estate_nomadic_tribes_tribal_host = {
 	max_absolutism = -5
 	loyalty = -0.05
 	influence = 0.1
+	can_select = {
+	}
 	benefits = {
 		global_manpower_modifier = 0.2
 	}
@@ -3762,6 +3692,8 @@ estate_brahmins_legitimacy_to_rule = {
 	is_valid = {
 		religion_group = muslim
 	}
+	can_select = {
+	}
 	penalties = {
 		church_loyalty_modifier = -0.05
 	}
@@ -3810,6 +3742,8 @@ estate_brahmins_brahmin_leadership = {
 	is_valid = {
 		NOT = { religion_group = muslim }
 	}
+	can_select = {
+	}
 	loyalty = 0.05
 	penalties = {
 		stability_cost_modifier = 0.1
@@ -3824,8 +3758,12 @@ estate_brahmins_brahmin_leadership = {
 			is_absolutism_active = yes
 		}
 		modifier = {
-			factor = 3
-			uses_meritocracy = yes
+			factor = 1.25
+			NOT = { adm = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			adm = 5
 		}
 	}
 }
@@ -3864,6 +3802,8 @@ estate_brahmins_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -3887,46 +3827,42 @@ estate_brahmins_guaranteed_autonomy = {
 			religion_group = dharmic
 		}
 	}
+	can_select = {
+	}
 	on_granted = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				religion_group = dharmic
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					religion_group = dharmic
+				}
+				add_province_modifier = {
+					name = estate_brahmins_guaranteed_autonomy_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_brahmins_guaranteed_autonomy_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+				}
+				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+				}
+				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 		}
 	}
 	penalties = {
@@ -3943,14 +3879,6 @@ estate_brahmins_guaranteed_autonomy = {
 				}
 			}
 		}
-		modifier = {
-			factor = 0
-			is_subject = yes
-			overlord = {
-				religion = ROOT
-				has_idea_group = religious_ideas
-			}
-		}
 	}
 }
 
@@ -3960,7 +3888,7 @@ estate_jains_diplomacy = {
 	max_absolutism = -5
 	loyalty = -0.05
 	is_valid = {
-		NOT = { has_estate = estate_burghers }
+		NOT = { religion_group = muslim }
 	}
 	can_select = {
 	}
@@ -4034,6 +3962,8 @@ estate_jains_indebted_to_jains = {
 	icon = privilege_loan_interaction
 	max_absolutism = -5
 	influence = 0.05
+	can_select = {
+	}
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1
@@ -4073,17 +4003,6 @@ estate_jains_indebted_to_jains = {
 	}
 	benefits = {
 	}
-	can_select = {
-		if = {
-			limit = {
-				has_estate_privilege = estate_jains_indebted_to_jains
-			}
-			has_estate_loan = yes
-		}
-	}
-	can_revoke = {
-		has_estate_loan = no
-	}
 	ai_will_do = {
 		factor = 0
 	}
@@ -4093,6 +4012,8 @@ estate_jains_conscientious_objection = {
 	icon = privilege_commission_jain_scripture
 	max_absolutism = -5
 	loyalty = 0.1
+	can_select = {
+	}
 	penalties = {
 		global_manpower_modifier = -0.1
 	}
@@ -4170,6 +4091,8 @@ estate_maratha_advisor = {
 	is_valid = {
 		NOT = { religion_group = muslim }
 	}
+	can_select = {
+	}
 	loyalty = 0.05
 	penalties = {
 		stability_cost_modifier = 0.1
@@ -4184,8 +4107,12 @@ estate_maratha_advisor = {
 			is_absolutism_active = yes
 		}
 		modifier = {
-			factor = 3
-			uses_meritocracy = yes
+			factor = 1.25
+			NOT = { mil = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			mil = 5
 		}
 	}
 }
@@ -4195,6 +4122,8 @@ estate_maratha_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -4212,6 +4141,8 @@ estate_maratha_levies = {
 	icon = privilege_recruit_from_marathi
 	max_absolutism = -5
 	influence = 0.1
+	can_select = {
+	}
 	is_valid = {
 		NOT = { religion_group = muslim }
 	}
@@ -4220,9 +4151,6 @@ estate_maratha_levies = {
 		global_manpower_modifier = 0.25
 	}
 	penalties = {
-	}
-	mechanics = {
-		exempt_from_seize_land
 	}
 	ai_will_do = {
 		factor = 5
@@ -4309,46 +4237,42 @@ estate_maratha_levies_for_muslims = {
 	is_valid = {
 		religion_group = muslim
 	}
+	can_select = {
+	}
 	on_granted = {
 		custom_tooltip = estate_maratha_levies_for_muslims_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				religion = hinduism
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					religion = hinduism
+				}
+				add_province_modifier = {
+					name = estate_maratha_levies_for_muslims_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_maratha_levies_for_muslims_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_maratha_levies_for_muslims_mod
-			}
-			remove_province_modifier = estate_maratha_levies_for_muslims_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_maratha_levies_for_muslims_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_levies_for_muslims_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_levies_for_muslims_mod
+				}
+				remove_province_modifier = estate_maratha_levies_for_muslims_mod
 			}
-			remove_province_modifier = estate_maratha_levies_for_muslims_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_maratha_levies_for_muslims_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_levies_for_muslims_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_levies_for_muslims_mod
+				}
+				remove_province_modifier = estate_maratha_levies_for_muslims_mod
 			}
-			remove_province_modifier = estate_maratha_levies_for_muslims_mod
 		}
 	}
 	penalties = {
@@ -4366,6 +4290,8 @@ estate_maratha_special_privilege = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+	}
 	is_valid = {
 		has_reform = permanent_marathas_council_reform
 	}
@@ -4376,10 +4302,6 @@ estate_maratha_special_privilege = {
 	penalties = {
 	}
 	benefits = {
-	}
-	
-	mechanics = {
-		exempt_from_seize_land
 	}
 	ai_will_do = {
 		factor = 10
@@ -4416,7 +4338,6 @@ estate_rajput_rajput_regiments = {
 	}
 	mechanics = {
 		enables_rajput_regiments
-		exempt_from_seize_land
 	}
 	ai_will_do = {
 		factor = 10
@@ -4489,6 +4410,8 @@ estate_rajput_advisor = {
 	is_valid = {
 		NOT = { religion_group = muslim }
 	}
+	can_select = {
+	}
 	loyalty = 0.05
 	penalties = {
 		stability_cost_modifier = 0.1
@@ -4503,8 +4426,12 @@ estate_rajput_advisor = {
 			is_absolutism_active = yes
 		}
 		modifier = {
-			factor = 3
-			uses_meritocracy = yes
+			factor = 1.25
+			NOT = { mil = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			mil = 5
 		}
 	}
 }
@@ -4514,6 +4441,8 @@ estate_rajput_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -4628,6 +4557,8 @@ estate_vaisyas_loyalty_privilege = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -4646,6 +4577,8 @@ estate_vaisyas_advisor = {
 	max_absolutism = -5
 	influence = 0.1
 	loyalty = 0.05
+	can_select = {
+	}
 	penalties = {
 		stability_cost_modifier = 0.1
 	}
@@ -4659,8 +4592,12 @@ estate_vaisyas_advisor = {
 			is_absolutism_active = yes
 		}
 		modifier = {
-			factor = 3
-			uses_meritocracy = yes
+			factor = 1.25
+			NOT = { dip = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			dip = 5
 		}
 	}
 }
@@ -4669,6 +4606,8 @@ estate_vaisyas_wartaxes = {
 	icon = privilege_exempt_officers_from_jaziya
 	max_absolutism = -5
 	loyalty = -0.05
+	can_select = {
+	}
 	benefits = {
 		war_taxes_cost_modifier = -0.5
 		war_exhaustion = -0.02
@@ -4691,6 +4630,8 @@ estate_burghers_patronage_of_the_arts = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+	}
 	penalties = {
 		global_tax_modifier = -0.05
 	}
@@ -4728,6 +4669,8 @@ estate_vaisyas_patronage_of_the_arts = {
 	max_absolutism = -5
 	loyalty = 0.05
 	influence = 0.05
+	can_select = {
+	}
 	penalties = {
 		global_tax_modifier = -0.05
 	}
@@ -4743,6 +4686,8 @@ estate_nomadic_tribes_primacy_to_the_bannermen = {
 	icon = privilege_royal_authority
 	max_absolutism = -5
 	influence = 0.1
+	can_select = {
+	}
 	is_valid = {
 		OR = {
 			primary_culture = manchu
@@ -4776,7 +4721,8 @@ estate_nobles_supremacy_over_crown = {
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
-		NOT = { has_government_attribute = blocked_call_diet }
+	}
+	can_select = {
 	}
 	penalties = {
 	}
@@ -4810,7 +4756,7 @@ estate_nobles_supremacy_over_crown = {
 		can_give_agendas_without_interaction
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -4822,7 +4768,6 @@ estate_brahmins_supremacy_over_crown = {
 	is_valid = {
 		has_dlc = "Emperor"
 		NOT = { has_estate = estate_nobles }
-		NOT = { has_government_attribute = blocked_call_diet }
 	}
 	penalties = {
 	}
@@ -4852,7 +4797,7 @@ estate_brahmins_supremacy_over_crown = {
 		can_give_agendas_without_interaction
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 0
 	}
 }
 
@@ -4901,47 +4846,41 @@ estate_burghers_monopoly_of_textiles = {
 			custom_tooltip = MONOPOLY_INCOME_CLOTH_DESC
 		}
 		custom_tooltip = estate_burghers_monopoly_of_textiles_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				OR = {
-					trade_goods = cloth
-					trade_goods = silk
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = silk
+					}
+				}
+				add_province_modifier = {
+					name = estate_burghers_monopoly_of_textiles_mod
+					duration = -1
 				}
 			}
-			add_province_modifier = {
-				name = estate_burghers_monopoly_of_textiles_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_textiles_mod
-			}
-			remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_monopoly_of_textiles_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_textiles_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_textiles_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_monopoly_of_textiles_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_textiles_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_textiles_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
 		}
 	}
 	penalties = {
@@ -4996,44 +4935,38 @@ estate_burghers_monopoly_of_dyes = {
 			custom_tooltip = MONOPOLY_INCOME_DYE_DESC
 		}
 		custom_tooltip = estate_burghers_monopoly_of_dyes_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = dyes
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = dyes
+				}
+				add_province_modifier = {
+					name = estate_burghers_monopoly_of_dyes_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_burghers_monopoly_of_dyes_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_dyes_mod
-			}
-			remove_province_modifier = estate_burghers_monopoly_of_dyes_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_monopoly_of_dyes_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_dyes_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_dyes_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_dyes_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_dyes_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_monopoly_of_dyes_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_dyes_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_dyes_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_dyes_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_dyes_mod
 		}
 	}
 	penalties = {
@@ -5089,44 +5022,38 @@ estate_burghers_monopoly_of_glass = {
 			custom_tooltip = MONOPOLY_INCOME_GLASS_DESC
 		}
 		custom_tooltip = estate_burghers_monopoly_of_glass_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = glass
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = glass
+				}
+				add_province_modifier = {
+					name = estate_burghers_monopoly_of_glass_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_burghers_monopoly_of_glass_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_glass_mod
-			}
-			remove_province_modifier = estate_burghers_monopoly_of_glass_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_monopoly_of_glass_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_glass_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_glass_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_glass_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_glass_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_monopoly_of_glass_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_glass_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_glass_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_glass_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_glass_mod
 		}
 	}
 	penalties = {
@@ -5182,44 +5109,38 @@ estate_burghers_monopoly_of_paper = {
 			custom_tooltip = MONOPOLY_INCOME_PAPER_DESC
 		}
 		custom_tooltip = estate_burghers_monopoly_of_paper_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = paper
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = paper
+				}
+				add_province_modifier = {
+					name = estate_burghers_monopoly_of_paper_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_burghers_monopoly_of_paper_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_paper_mod
-			}
-			remove_province_modifier = estate_burghers_monopoly_of_paper_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_monopoly_of_paper_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_paper_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_paper_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_paper_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_paper_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_monopoly_of_paper_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_monopoly_of_paper_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_monopoly_of_paper_mod
+				}
+				remove_province_modifier = estate_burghers_monopoly_of_paper_mod
 			}
-			remove_province_modifier = estate_burghers_monopoly_of_paper_mod
 		}
 	}
 	penalties = {
@@ -5281,47 +5202,41 @@ estate_vaisyas_monopoly_of_textiles = {
 			custom_tooltip = MONOPOLY_INCOME_CLOTH_DESC
 		}
 		custom_tooltip = estate_vaisyas_monopoly_of_textiles_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				OR = {
-					trade_goods = cloth
-					trade_goods = silk
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = silk
+					}
+				}
+				add_province_modifier = {
+					name = estate_vaisyas_monopoly_of_textiles_mod
+					duration = -1
 				}
 			}
-			add_province_modifier = {
-				name = estate_vaisyas_monopoly_of_textiles_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
-			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_vaisyas_monopoly_of_textiles_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_vaisyas_monopoly_of_textiles_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_textiles_mod
 		}
 	}
 	penalties = {
@@ -5377,44 +5292,38 @@ estate_vaisyas_monopoly_of_dyes = {
 			custom_tooltip = MONOPOLY_INCOME_DYE_DESC
 		}
 		custom_tooltip = estate_vaisyas_monopoly_of_dyes_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = dyes
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = dyes
+				}
+				add_province_modifier = {
+					name = estate_vaisyas_monopoly_of_dyes_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_vaisyas_monopoly_of_dyes_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
-			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_vaisyas_monopoly_of_dyes_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_vaisyas_monopoly_of_dyes_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_dyes_mod
 		}
 	}
 	penalties = {
@@ -5470,44 +5379,38 @@ estate_vaisyas_monopoly_of_glass = {
 			custom_tooltip = MONOPOLY_INCOME_GLASS_DESC
 		}
 		custom_tooltip = estate_vaisyas_monopoly_of_glass_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = glass
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = glass
+				}
+				add_province_modifier = {
+					name = estate_vaisyas_monopoly_of_glass_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_vaisyas_monopoly_of_glass_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_glass_mod
-			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_glass_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_vaisyas_monopoly_of_glass_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_glass_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_glass_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_glass_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_glass_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_vaisyas_monopoly_of_glass_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_glass_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_glass_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_glass_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_glass_mod
 		}
 	}
 	penalties = {
@@ -5563,44 +5466,38 @@ estate_vaisyas_monopoly_of_paper = {
 			custom_tooltip = MONOPOLY_INCOME_PAPER_DESC
 		}
 		custom_tooltip = estate_vaisyas_monopoly_of_paper_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = paper
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = paper
+				}
+				add_province_modifier = {
+					name = estate_vaisyas_monopoly_of_paper_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_vaisyas_monopoly_of_paper_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_paper_mod
-			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_paper_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_vaisyas_monopoly_of_paper_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_paper_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_paper_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_paper_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_paper_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_vaisyas_monopoly_of_paper_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_vaisyas_monopoly_of_paper_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_vaisyas_monopoly_of_paper_mod
+				}
+				remove_province_modifier = estate_vaisyas_monopoly_of_paper_mod
 			}
-			remove_province_modifier = estate_vaisyas_monopoly_of_paper_mod
 		}
 	}
 	penalties = {
@@ -5664,47 +5561,41 @@ estate_jains_monopoly_of_textiles = {
 			custom_tooltip = MONOPOLY_INCOME_CLOTH_DESC
 		}
 		custom_tooltip = estate_jains_monopoly_of_textiles_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				OR = {
-					trade_goods = cloth
-					trade_goods = silk
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = silk
+					}
+				}
+				add_province_modifier = {
+					name = estate_jains_monopoly_of_textiles_mod
+					duration = -1
 				}
 			}
-			add_province_modifier = {
-				name = estate_jains_monopoly_of_textiles_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_textiles_mod
-			}
-			remove_province_modifier = estate_jains_monopoly_of_textiles_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_jains_monopoly_of_textiles_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_textiles_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_jains_monopoly_of_textiles_mod
+				}
+				remove_province_modifier = estate_jains_monopoly_of_textiles_mod
 			}
-			remove_province_modifier = estate_jains_monopoly_of_textiles_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_jains_monopoly_of_textiles_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_textiles_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_jains_monopoly_of_textiles_mod
+				}
+				remove_province_modifier = estate_jains_monopoly_of_textiles_mod
 			}
-			remove_province_modifier = estate_jains_monopoly_of_textiles_mod
 		}
 	}
 	penalties = {
@@ -5851,44 +5742,38 @@ estate_jains_monopoly_of_glass = {
 			custom_tooltip = MONOPOLY_INCOME_GLASS_DESC
 		}
 		custom_tooltip = estate_jains_monopoly_of_glass_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = glass
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = glass
+				}
+				add_province_modifier = {
+					name = estate_jains_monopoly_of_glass_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_jains_monopoly_of_glass_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_glass_mod
-			}
-			remove_province_modifier = estate_jains_monopoly_of_glass_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_jains_monopoly_of_glass_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_glass_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_jains_monopoly_of_glass_mod
+				}
+				remove_province_modifier = estate_jains_monopoly_of_glass_mod
 			}
-			remove_province_modifier = estate_jains_monopoly_of_glass_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_jains_monopoly_of_glass_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_glass_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_jains_monopoly_of_glass_mod
+				}
+				remove_province_modifier = estate_jains_monopoly_of_glass_mod
 			}
-			remove_province_modifier = estate_jains_monopoly_of_glass_mod
 		}
 	}
 	penalties = {
@@ -5946,44 +5831,38 @@ estate_jains_monopoly_of_paper = {
 			custom_tooltip = MONOPOLY_INCOME_PAPER_DESC
 		}
 		custom_tooltip = estate_jains_monopoly_of_paper_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = paper
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = paper
+				}
+				add_province_modifier = {
+					name = estate_jains_monopoly_of_paper_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_jains_monopoly_of_paper_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_paper_mod
-			}
-			remove_province_modifier = estate_jains_monopoly_of_paper_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_jains_monopoly_of_paper_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_paper_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_jains_monopoly_of_paper_mod
+				}
+				remove_province_modifier = estate_jains_monopoly_of_paper_mod
 			}
-			remove_province_modifier = estate_jains_monopoly_of_paper_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_jains_monopoly_of_paper_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_jains_monopoly_of_paper_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_jains_monopoly_of_paper_mod
+				}
+				remove_province_modifier = estate_jains_monopoly_of_paper_mod
 			}
-			remove_province_modifier = estate_jains_monopoly_of_paper_mod
 		}
 	}
 	penalties = {
@@ -6045,47 +5924,41 @@ estate_nobles_monopoly_of_metals = {
 			custom_tooltip = MONOPOLY_INCOME_IRON_DESC
 		}
 		custom_tooltip = estate_nobles_monopoly_of_metals_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				OR = {
-					trade_goods = iron
-					trade_goods = copper
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = iron
+						trade_goods = copper
+					}
+				}
+				add_province_modifier = {
+					name = estate_nobles_monopoly_of_metals_mod
+					duration = -1
 				}
 			}
-			add_province_modifier = {
-				name = estate_nobles_monopoly_of_metals_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_metals_mod
-			}
-			remove_province_modifier = estate_nobles_monopoly_of_metals_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_nobles_monopoly_of_metals_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_metals_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_nobles_monopoly_of_metals_mod
+				}
+				remove_province_modifier = estate_nobles_monopoly_of_metals_mod
 			}
-			remove_province_modifier = estate_nobles_monopoly_of_metals_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_nobles_monopoly_of_metals_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_metals_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_nobles_monopoly_of_metals_mod
+				}
+				remove_province_modifier = estate_nobles_monopoly_of_metals_mod
 			}
-			remove_province_modifier = estate_nobles_monopoly_of_metals_mod
 		}
 	}
 	penalties = {
@@ -6141,44 +6014,38 @@ estate_nobles_monopoly_of_livestock = {
 			custom_tooltip = MONOPOLY_INCOME_LIVESTOCK_DESC
 		}
 		custom_tooltip = estate_nobles_monopoly_of_livestock_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = livestock
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = livestock
+				}
+				add_province_modifier = {
+					name = estate_nobles_monopoly_of_livestock_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_nobles_monopoly_of_livestock_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_livestock_mod
-			}
-			remove_province_modifier = estate_nobles_monopoly_of_livestock_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_nobles_monopoly_of_livestock_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_livestock_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_nobles_monopoly_of_livestock_mod
+				}
+				remove_province_modifier = estate_nobles_monopoly_of_livestock_mod
 			}
-			remove_province_modifier = estate_nobles_monopoly_of_livestock_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_nobles_monopoly_of_livestock_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_livestock_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_nobles_monopoly_of_livestock_mod
+				}
+				remove_province_modifier = estate_nobles_monopoly_of_livestock_mod
 			}
-			remove_province_modifier = estate_nobles_monopoly_of_livestock_mod
 		}
 	}
 	penalties = {
@@ -6235,45 +6102,39 @@ estate_nobles_monopoly_of_gems = {
 			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
 		}
 		custom_tooltip = estate_nobles_monopoly_of_gems_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = gems
-				trade_goods = diamonds
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = gems
+					trade_goods = diamonds
+				}
+				add_province_modifier = {
+					name = estate_nobles_monopoly_of_gems_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_nobles_monopoly_of_gems_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_gems_mod
-			}
-			remove_province_modifier = estate_nobles_monopoly_of_gems_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_nobles_monopoly_of_gems_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_gems_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_nobles_monopoly_of_gems_mod
+				}
+				remove_province_modifier = estate_nobles_monopoly_of_gems_mod
 			}
-			remove_province_modifier = estate_nobles_monopoly_of_gems_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_nobles_monopoly_of_gems_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_nobles_monopoly_of_gems_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_nobles_monopoly_of_gems_mod
+				}
+				remove_province_modifier = estate_nobles_monopoly_of_gems_mod
 			}
-			remove_province_modifier = estate_nobles_monopoly_of_gems_mod
 		}
 	}
 	penalties = {
@@ -6336,47 +6197,41 @@ estate_rajput_monopoly_of_metals = {
 			custom_tooltip = MONOPOLY_INCOME_IRON_DESC
 		}
 		custom_tooltip = estate_rajput_monopoly_of_metals_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				OR = {
-					trade_goods = iron
-					trade_goods = copper
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = iron
+						trade_goods = copper
+					}
+				}
+				add_province_modifier = {
+					name = estate_rajput_monopoly_of_metals_mod
+					duration = -1
 				}
 			}
-			add_province_modifier = {
-				name = estate_rajput_monopoly_of_metals_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_metals_mod
-			}
-			remove_province_modifier = estate_rajput_monopoly_of_metals_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_rajput_monopoly_of_metals_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_metals_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_rajput_monopoly_of_metals_mod
+				}
+				remove_province_modifier = estate_rajput_monopoly_of_metals_mod
 			}
-			remove_province_modifier = estate_rajput_monopoly_of_metals_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_rajput_monopoly_of_metals_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_metals_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_rajput_monopoly_of_metals_mod
+				}
+				remove_province_modifier = estate_rajput_monopoly_of_metals_mod
 			}
-			remove_province_modifier = estate_rajput_monopoly_of_metals_mod
 		}
 	}
 	penalties = {
@@ -6433,44 +6288,38 @@ estate_rajput_monopoly_of_livestock = {
 			custom_tooltip = MONOPOLY_INCOME_LIVESTOCK_DESC
 		}
 		custom_tooltip = estate_rajput_monopoly_of_livestock_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = livestock
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = livestock
+				}
+				add_province_modifier = {
+					name = estate_rajput_monopoly_of_livestock_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_rajput_monopoly_of_livestock_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_livestock_mod
-			}
-			remove_province_modifier = estate_rajput_monopoly_of_livestock_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_rajput_monopoly_of_livestock_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_livestock_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_rajput_monopoly_of_livestock_mod
+				}
+				remove_province_modifier = estate_rajput_monopoly_of_livestock_mod
 			}
-			remove_province_modifier = estate_rajput_monopoly_of_livestock_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_rajput_monopoly_of_livestock_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_livestock_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_rajput_monopoly_of_livestock_mod
+				}
+				remove_province_modifier = estate_rajput_monopoly_of_livestock_mod
 			}
-			remove_province_modifier = estate_rajput_monopoly_of_livestock_mod
 		}
 	}
 	penalties = {
@@ -6529,45 +6378,39 @@ estate_rajput_monopoly_of_gems = {
 			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
 		}
 		custom_tooltip = estate_rajput_monopoly_of_gems_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = gems
-				trade_goods = diamonds
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = gems
+					trade_goods = diamonds
+				}
+				add_province_modifier = {
+					name = estate_rajput_monopoly_of_gems_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_rajput_monopoly_of_gems_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_gems_mod
-			}
-			remove_province_modifier = estate_rajput_monopoly_of_gems_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_rajput_monopoly_of_gems_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_gems_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_rajput_monopoly_of_gems_mod
+				}
+				remove_province_modifier = estate_rajput_monopoly_of_gems_mod
 			}
-			remove_province_modifier = estate_rajput_monopoly_of_gems_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_rajput_monopoly_of_gems_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_rajput_monopoly_of_gems_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_rajput_monopoly_of_gems_mod
+				}
+				remove_province_modifier = estate_rajput_monopoly_of_gems_mod
 			}
-			remove_province_modifier = estate_rajput_monopoly_of_gems_mod
 		}
 	}
 	penalties = {
@@ -6630,47 +6473,41 @@ estate_maratha_monopoly_of_metals = {
 			custom_tooltip = MONOPOLY_INCOME_IRON_DESC
 		}
 		custom_tooltip = estate_maratha_monopoly_of_metals_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				OR = {
-					trade_goods = iron
-					trade_goods = copper
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = iron
+						trade_goods = copper
+					}
+				}
+				add_province_modifier = {
+					name = estate_maratha_monopoly_of_metals_mod
+					duration = -1
 				}
 			}
-			add_province_modifier = {
-				name = estate_maratha_monopoly_of_metals_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_metals_mod
-			}
-			remove_province_modifier = estate_maratha_monopoly_of_metals_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_maratha_monopoly_of_metals_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_metals_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_monopoly_of_metals_mod
+				}
+				remove_province_modifier = estate_maratha_monopoly_of_metals_mod
 			}
-			remove_province_modifier = estate_maratha_monopoly_of_metals_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_maratha_monopoly_of_metals_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_metals_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_monopoly_of_metals_mod
+				}
+				remove_province_modifier = estate_maratha_monopoly_of_metals_mod
 			}
-			remove_province_modifier = estate_maratha_monopoly_of_metals_mod
 		}
 	}
 	penalties = {
@@ -6726,44 +6563,38 @@ estate_maratha_monopoly_of_livestock = {
 			custom_tooltip = MONOPOLY_INCOME_LIVESTOCK_DESC
 		}
 		custom_tooltip = estate_maratha_monopoly_of_livestock_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = livestock
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = livestock
+				}
+				add_province_modifier = {
+					name = estate_maratha_monopoly_of_livestock_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_maratha_monopoly_of_livestock_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_livestock_mod
-			}
-			remove_province_modifier = estate_maratha_monopoly_of_livestock_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_maratha_monopoly_of_livestock_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_livestock_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_monopoly_of_livestock_mod
+				}
+				remove_province_modifier = estate_maratha_monopoly_of_livestock_mod
 			}
-			remove_province_modifier = estate_maratha_monopoly_of_livestock_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_maratha_monopoly_of_livestock_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_livestock_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_monopoly_of_livestock_mod
+				}
+				remove_province_modifier = estate_maratha_monopoly_of_livestock_mod
 			}
-			remove_province_modifier = estate_maratha_monopoly_of_livestock_mod
 		}
 	}
 	penalties = {
@@ -6821,45 +6652,39 @@ estate_maratha_monopoly_of_gems = {
 			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
 		}
 		custom_tooltip = estate_maratha_monopoly_of_gems_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = gems
-				trade_goods = diamonds
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = gems
+					trade_goods = diamonds
+				}
+				add_province_modifier = {
+					name = estate_maratha_monopoly_of_gems_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_maratha_monopoly_of_gems_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_gems_mod
-			}
-			remove_province_modifier = estate_maratha_monopoly_of_gems_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_maratha_monopoly_of_gems_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_gems_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_monopoly_of_gems_mod
+				}
+				remove_province_modifier = estate_maratha_monopoly_of_gems_mod
 			}
-			remove_province_modifier = estate_maratha_monopoly_of_gems_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_maratha_monopoly_of_gems_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_maratha_monopoly_of_gems_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_maratha_monopoly_of_gems_mod
+				}
+				remove_province_modifier = estate_maratha_monopoly_of_gems_mod
 			}
-			remove_province_modifier = estate_maratha_monopoly_of_gems_mod
 		}
 	}
 	penalties = {
@@ -6914,44 +6739,38 @@ estate_church_monopoly_of_incense = {
 			custom_tooltip = MONOPOLY_INCOME_INCENSE_DESC
 		}
 		custom_tooltip = estate_church_monopoly_of_incense_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = incense
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = incense
+				}
+				add_province_modifier = {
+					name = estate_church_monopoly_of_incense_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_church_monopoly_of_incense_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_incense_mod
-			}
-			remove_province_modifier = estate_church_monopoly_of_incense_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_church_monopoly_of_incense_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_incense_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_incense_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_incense_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_incense_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_church_monopoly_of_incense_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_incense_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_incense_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_incense_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_incense_mod
 		}
 	}
 	penalties = {
@@ -7006,44 +6825,38 @@ estate_church_monopoly_of_wool = {
 			custom_tooltip = MONOPOLY_INCOME_WOOL_DESC
 		}
 		custom_tooltip = estate_church_monopoly_of_wool_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = wool
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = wool
+				}
+				add_province_modifier = {
+					name = estate_church_monopoly_of_wool_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_church_monopoly_of_wool_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_wool_mod
-			}
-			remove_province_modifier = estate_church_monopoly_of_wool_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_church_monopoly_of_wool_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_wool_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_wool_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_wool_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_wool_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_church_monopoly_of_wool_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_wool_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_wool_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_wool_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_wool_mod
 		}
 	}
 	penalties = {
@@ -7099,44 +6912,38 @@ estate_church_monopoly_of_wine = {
 			custom_tooltip = MONOPOLY_INCOME_WINE_DESC
 		}
 		custom_tooltip = estate_church_monopoly_of_wine_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = wine
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = wine
+				}
+				add_province_modifier = {
+					name = estate_church_monopoly_of_wine_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_church_monopoly_of_wine_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_wine_mod
-			}
-			remove_province_modifier = estate_church_monopoly_of_wine_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_church_monopoly_of_wine_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_wine_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_wine_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_wine_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_wine_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_church_monopoly_of_wine_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_wine_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_wine_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_wine_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_wine_mod
 		}
 	}
 	penalties = {
@@ -7192,44 +6999,38 @@ estate_church_monopoly_of_slaves = {
 			custom_tooltip = MONOPOLY_INCOME_SLAVES_DESC
 		}
 		custom_tooltip = estate_church_monopoly_of_slaves_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = slaves
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = slaves
+				}
+				add_province_modifier = {
+					name = estate_church_monopoly_of_slaves_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_church_monopoly_of_slaves_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_slaves_mod
-			}
-			remove_province_modifier = estate_church_monopoly_of_slaves_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_church_monopoly_of_slaves_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_slaves_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_slaves_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_slaves_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_slaves_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_church_monopoly_of_slaves_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_monopoly_of_slaves_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_monopoly_of_slaves_mod
+				}
+				remove_province_modifier = estate_church_monopoly_of_slaves_mod
 			}
-			remove_province_modifier = estate_church_monopoly_of_slaves_mod
 		}
 	}
 	penalties = {
@@ -7285,44 +7086,38 @@ estate_brahmins_monopoly_of_incense = {
 			custom_tooltip = MONOPOLY_INCOME_INCENSE_DESC
 		}
 		custom_tooltip = estate_brahmins_monopoly_of_incense_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = incense
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = incense
+				}
+				add_province_modifier = {
+					name = estate_brahmins_monopoly_of_incense_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_brahmins_monopoly_of_incense_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_brahmins_monopoly_of_incense_mod
-			}
-			remove_province_modifier = estate_brahmins_monopoly_of_incense_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_brahmins_monopoly_of_incense_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_monopoly_of_incense_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_monopoly_of_incense_mod
+				}
+				remove_province_modifier = estate_brahmins_monopoly_of_incense_mod
 			}
-			remove_province_modifier = estate_brahmins_monopoly_of_incense_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_brahmins_monopoly_of_incense_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_monopoly_of_incense_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_monopoly_of_incense_mod
+				}
+				remove_province_modifier = estate_brahmins_monopoly_of_incense_mod
 			}
-			remove_province_modifier = estate_brahmins_monopoly_of_incense_mod
 		}
 	}
 	penalties = {
@@ -7378,44 +7173,38 @@ estate_brahmins_monopoly_of_wool = {
 			custom_tooltip = MONOPOLY_INCOME_WOOL_DESC
 		}
 		custom_tooltip = estate_brahmins_monopoly_of_wool_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = wool
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = wool
+				}
+				add_province_modifier = {
+					name = estate_brahmins_monopoly_of_wool_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_brahmins_monopoly_of_wool_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_brahmins_monopoly_of_wool_mod
-			}
-			remove_province_modifier = estate_brahmins_monopoly_of_wool_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_brahmins_monopoly_of_wool_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_monopoly_of_wool_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_monopoly_of_wool_mod
+				}
+				remove_province_modifier = estate_brahmins_monopoly_of_wool_mod
 			}
-			remove_province_modifier = estate_brahmins_monopoly_of_wool_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_brahmins_monopoly_of_wool_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_monopoly_of_wool_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_monopoly_of_wool_mod
+				}
+				remove_province_modifier = estate_brahmins_monopoly_of_wool_mod
 			}
-			remove_province_modifier = estate_brahmins_monopoly_of_wool_mod
 		}
 	}
 	penalties = {
@@ -7437,6 +7226,8 @@ estate_cossacks_recruit_cossack_generals = {
 	icon = privilege_conscript_cossack_elite
 	max_absolutism = -5
 	influence = 0.1
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -7457,6 +7248,8 @@ estate_cossacks_prime_herding_rights = {
 	max_absolutism = -5
 	influence = 0.05
 	loyalty = 0.05
+	can_select = {
+	}
 	is_valid = {
 		has_dlc = "Emperor"
 		any_owned_province = {
@@ -7465,44 +7258,38 @@ estate_cossacks_prime_herding_rights = {
 	}
 	on_granted = {
 		custom_tooltip = estate_cossacks_prime_herding_rights_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				has_terrain = steppe
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_terrain = steppe
+				}
+				add_province_modifier = {
+					name = estate_cossacks_prime_herding_rights_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_cossacks_prime_herding_rights_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_cossacks_prime_herding_rights_mod
-			}
-			remove_province_modifier = estate_cossacks_prime_herding_rights_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_cossacks_prime_herding_rights_mod_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_cossacks_prime_herding_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_cossacks_prime_herding_rights_mod
+				}
+				remove_province_modifier = estate_cossacks_prime_herding_rights_mod
 			}
-			remove_province_modifier = estate_cossacks_prime_herding_rights_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_cossacks_prime_herding_rights_mod_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_cossacks_prime_herding_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_cossacks_prime_herding_rights_mod
+				}
+				remove_province_modifier = estate_cossacks_prime_herding_rights_mod
 			}
-			remove_province_modifier = estate_cossacks_prime_herding_rights_mod
 		}
 	}
 	penalties = {
@@ -7524,6 +7311,8 @@ estate_nobles_junker_primacy = {
 			has_reform = prussian_monarchy
 			has_reform = prussian_republic_reform
 		}
+	}
+	can_select = {
 	}
 	penalties = {
 		all_power_cost = 0.05
@@ -7568,149 +7357,6 @@ estate_nobles_strong_duchies = {
 				NOT = { has_estate_privilege = estate_nobles_strong_duchies }
 			}
 		}
-	}
-	can_select = {
-		if = {
-			limit = {
-				has_dlc = "Art of War"
-			}
-			custom_trigger_tooltip = {
-				tooltip = estate_nobles_strong_duchies_trigger_tooltip
-				calc_true_if = {
-					amount = 2
-					all_subject_country = {
-						OR = {
-							is_march = yes
-							is_vassal = yes
-						}
-					}
-				}
-			}
-		}
-		else = {
-			vassal = 2
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		diplomatic_upkeep = 2
-		reduced_liberty_desire = 10
-	}
-	ai_will_do = {
-		factor = 2
-		modifier = {
-			factor = 3
-			calc_true_if = {
-				amount = 1
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			calc_true_if = {
-				amount = 2
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
-		}
-	}
-}
-
-estate_maratha_subject_rights = {
-	icon = privilege_royal_authority
-	max_absolutism = -10
-	influence = 0.1
-	loyalty = 0.05
-	is_valid = {
-		OR = {
-			any_subject_country = {
-				is_march = yes
-			}
-			vassal = 1
-		}
-		NOT = { has_estate = estate_nobles }
-		NOT = { has_estate = estate_rajput }
-	}
-	can_select = {
-		if = {
-			limit = {
-				has_dlc = "Art of War"
-			}
-			custom_trigger_tooltip = {
-				tooltip = estate_nobles_strong_duchies_trigger_tooltip
-				calc_true_if = {
-					amount = 2
-					all_subject_country = {
-						OR = {
-							is_march = yes
-							is_vassal = yes
-						}
-					}
-				}
-			}
-		}
-		else = {
-			vassal = 2
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		diplomatic_upkeep = 2
-		reduced_liberty_desire = 10
-	}
-	ai_will_do = {
-		factor = 2
-		modifier = {
-			factor = 3
-			calc_true_if = {
-				amount = 1
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			calc_true_if = {
-				amount = 2
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
-		}
-	}
-}
-
-estate_rajput_subject_rights = {
-	icon = privilege_royal_authority
-	max_absolutism = -10
-	influence = 0.1
-	loyalty = 0.05
-	is_valid = {
-		OR = {
-			any_subject_country = {
-				is_march = yes
-			}
-			vassal = 1
-		}
-		NOT = { has_estate = estate_nobles }
 	}
 	can_select = {
 		if = {
@@ -7898,6 +7544,8 @@ estate_nobles_veto_heir_apparent = {
 		has_dlc = "Emperor"
 		has_reform = elective_monarchy
 	}
+	can_select = {
+	}
 	penalties = {
 	}
 	benefits = {
@@ -7925,44 +7573,38 @@ estate_burghers_the_great_privilege = {
 			}
 			ROOT = { inherit = prev }
 		}
-		add_years_of_income = 2
 		custom_tooltip = estate_burghers_the_great_privilege_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = { region = low_countries_region }
-			add_province_modifier = {
-				name = estate_burghers_the_great_privilege_mod
-				duration = -1
+		hidden_effect = {
+			every_owned_province = {
+				limit = { region = low_countries_region }
+				add_province_modifier = {
+					name = estate_burghers_the_great_privilege_mod
+					duration = -1
+				}
 			}
 		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_the_great_privilege_mod
-			}
-			remove_province_modifier = estate_burghers_the_great_privilege_mod
-		}
+		add_years_of_income = 2
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_the_great_privilege_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_the_great_privilege_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_the_great_privilege_mod
+				}
+				remove_province_modifier = estate_burghers_the_great_privilege_mod
 			}
-			remove_province_modifier = estate_burghers_the_great_privilege_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_the_great_privilege_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_the_great_privilege_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_the_great_privilege_mod
+				}
+				remove_province_modifier = estate_burghers_the_great_privilege_mod
 			}
-			remove_province_modifier = estate_burghers_the_great_privilege_mod
 		}
 	}
 	penalties = {
@@ -7989,6 +7631,8 @@ estate_burghers_exclusive_trade_rights = {
 				}
 			}
 		}
+	}
+	can_select = {
 	}
 	on_granted = {
 		random_active_trade_node = {
@@ -8019,24 +7663,24 @@ estate_burghers_exclusive_trade_rights = {
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+				}
+				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
-			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+				}
+				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
-			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 		}
 	}
 	penalties = {
@@ -8094,24 +7738,24 @@ estate_vaisyas_exclusive_trade_rights = {
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+				}
+				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
-			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+				}
+				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
-			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 		}
 	}
 	penalties = {
@@ -8170,24 +7814,24 @@ estate_jains_exclusive_trade_rights = {
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+				}
+				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
-			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_exclusive_trade_rights_mod
+				}
+				remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 			}
-			remove_province_modifier = estate_burghers_exclusive_trade_rights_mod
 		}
 	}
 	penalties = {
@@ -8206,6 +7850,8 @@ estate_burghers_control_over_monetary_policy = {
 	loyalty = 0.05
 	is_valid = {
 		has_dlc = "Emperor"
+	}
+	can_select = {
 	}
 	penalties = {
 		all_power_cost = 0.05
@@ -8307,6 +7953,8 @@ estate_burghers_private_trade_fleets = {
 			has_port = yes
 		}
 		navy_size = 1
+	}
+	can_select = {
 	}
 	penalties = {
 	}
@@ -8654,6 +8302,8 @@ estate_brahmins_statutory_rights = {
 			share = -30
 		}
 	}
+	can_select = {
+	}
 	penalties = {
 		min_autonomy = 25
 	}
@@ -8664,6 +8314,7 @@ estate_brahmins_statutory_rights = {
 	}
 	cooldown_years = 20
 }
+
 
 estate_church_brahmins_at_court = {
 	icon = privilege_seek_support_of_brahmins
@@ -8701,44 +8352,38 @@ estate_church_brahmins_at_court = {
 	}
 	on_granted = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				religion = hinduism
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					religion = hinduism
+				}
+				add_province_modifier = {
+					name = estate_brahmins_guaranteed_autonomy_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_brahmins_guaranteed_autonomy_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+				}
+				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
+				}
+				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
 		}
 	}
 	penalties = {
@@ -8770,45 +8415,30 @@ estate_burghers_khmer_irrigation = {
 	}
 	on_granted = {
 		custom_tooltip = estate_burghers_khmer_irrigation_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = grain
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = grain
+				}
+				add_province_modifier = {
+					name = estate_burghers_khmer_irrigation_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_burghers_khmer_irrigation_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_khmer_irrigation_mod
-			}
-			remove_province_modifier = estate_burghers_khmer_irrigation_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_khmer_irrigation_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_khmer_irrigation_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_khmer_irrigation_mod
+				}
+				remove_province_modifier = estate_burghers_khmer_irrigation_mod
 			}
-			remove_province_modifier = estate_burghers_khmer_irrigation_mod
 		}
 	}
 	on_invalid = {
-		custom_tooltip = estate_burghers_khmer_irrigation_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_khmer_irrigation_mod
-			}
-			remove_province_modifier = estate_burghers_khmer_irrigation_mod
-		}
 	}
 	penalties = {
 	}
@@ -8837,45 +8467,30 @@ estate_vaisyas_khmer_irrigation = {
 	}
 	on_granted = {
 		custom_tooltip = estate_burghers_khmer_irrigation_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = grain
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = grain
+				}
+				add_province_modifier = {
+					name = estate_burghers_khmer_irrigation_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_burghers_khmer_irrigation_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_khmer_irrigation_mod
-			}
-			remove_province_modifier = estate_burghers_khmer_irrigation_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_khmer_irrigation_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_khmer_irrigation_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_khmer_irrigation_mod
+				}
+				remove_province_modifier = estate_burghers_khmer_irrigation_mod
 			}
-			remove_province_modifier = estate_burghers_khmer_irrigation_mod
 		}
 	}
 	on_invalid = {
-		custom_tooltip = estate_burghers_khmer_irrigation_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_khmer_irrigation_mod
-			}
-			remove_province_modifier = estate_burghers_khmer_irrigation_mod
-		}
 	}
 	penalties = {
 	}
@@ -8954,44 +8569,27 @@ estate_burghers_tropical_nation = {
 	}
 	on_granted = {
 		custom_tooltip = estate_burghers_tropical_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				has_climate = tropical
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_climate = tropical
+				}
+				add_province_modifier = {
+					name = estate_burghers_tropical_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_burghers_tropical_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_tropical_mod
-			}
-			remove_province_modifier = estate_burghers_tropical_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_tropical_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_tropical_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_burghers_tropical_mod
+				}
+				remove_province_modifier = estate_burghers_tropical_mod
 			}
-			remove_province_modifier = estate_burghers_tropical_mod
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_burghers_tropical_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_tropical_mod
-			}
-			remove_province_modifier = estate_burghers_tropical_mod
 		}
 	}
 	ai_will_do = {
@@ -9024,44 +8622,38 @@ estate_church_lao_animism = {
 	}
 	on_granted = {
 		custom_tooltip = estate_church_lao_animism_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				religion = animism
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					religion = animism
+				}
+				add_province_modifier = {
+					name = estate_church_lao_animism_mod
+					duration = -1
+				}
 			}
-			add_province_modifier = {
-				name = estate_church_lao_animism_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_church_lao_animism_mod
-			}
-			remove_province_modifier = estate_church_lao_animism_mod
 		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_church_lao_animism_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_lao_animism_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_lao_animism_mod
+				}
+				remove_province_modifier = estate_church_lao_animism_mod
 			}
-			remove_province_modifier = estate_church_lao_animism_mod
 		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_church_lao_animism_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_church_lao_animism_mod
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = estate_church_lao_animism_mod
+				}
+				remove_province_modifier = estate_church_lao_animism_mod
 			}
-			remove_province_modifier = estate_church_lao_animism_mod
 		}
 	}
 	penalties = {
@@ -9161,85 +8753,6 @@ estate_nobles_better_integration = {
 	}
 }
 
-estate_maratha_better_integration = {
-	icon = privilege_better_integration
-	max_absolutism = -10
-	influence = 0.15
-	loyalty = 0.05
-	is_valid = {
-		any_subject_country = {
-			OR = {
-				is_subject_of_type = vassal
-				is_subject_of_type = client_vassal
-				is_subject_of_type = daimyo_vassal
-				is_subject_of_type = personal_union
-			}
-		}
-		NOT = { has_estate = estate_nobles }
-		NOT = { has_estate = estate_rajput }
-	}
-	can_select = {
-	}
-	on_granted = {
-		disable_annexation_penalty = yes
-	}
-	on_revoked = {
-		enable_annexation_penalty = yes
-	}
-	on_invalid = {
-		enable_annexation_penalty = yes
-	}
-	penalties = {
-		reduced_liberty_desire = -15
-	}
-	benefits = {
-		diplomatic_annexation_cost = -0.05
-	}
-	cooldown_years = 10
-	ai_will_do = {
-		factor = 10
-	}
-}
-
-estate_rajput_better_integration = {
-	icon = privilege_better_integration
-	max_absolutism = -10
-	influence = 0.15
-	loyalty = 0.05
-	is_valid = {
-		any_subject_country = {
-			OR = {
-				is_subject_of_type = vassal
-				is_subject_of_type = client_vassal
-				is_subject_of_type = daimyo_vassal
-				is_subject_of_type = personal_union
-			}
-		}
-		NOT = { has_estate = estate_nobles }
-	}
-	can_select = {
-	}
-	on_granted = {
-		disable_annexation_penalty = yes
-	}
-	on_revoked = {
-		enable_annexation_penalty = yes
-	}
-	on_invalid = {
-		enable_annexation_penalty = yes
-	}
-	penalties = {
-		reduced_liberty_desire = -15
-	}
-	benefits = {
-		diplomatic_annexation_cost = -0.05
-	}
-	cooldown_years = 10
-	ai_will_do = {
-		factor = 10
-	}
-}
-
 estate_church_religious_diplomats = {
 	icon = privilege_religious_diplomats
 	max_absolutism = -10
@@ -9312,21 +8825,7 @@ estate_church_one_faith_one_culture = {
 	on_granted_province = {
 		if = {
 			limit = {
-				OR = {
-					religion = ROOT
-					AND = {
-						religion = THIS
-						owner = {
-							has_harmonized_with = PREV
-						}
-					}
-					AND = {
-						religion = THIS
-						owner = {
-							secondary_religion = PREV
-						}
-					}
-				}
+				religion = ROOT
 				OR = {
 					has_owner_accepted_culture = yes
 					culture_group = ROOT
@@ -9690,7 +9189,6 @@ estate_church_embrace_singluar_cult = {
 	penalties = {
 	}
 	benefits = {
-		no_stability_loss_on_monarch_death = yes
 	}
 	ai_will_do = {
 		factor = 1000
@@ -10048,7 +9546,6 @@ estate_burghers_control_over_the_mint = {
 	max_absolutism = -30
 	influence = 0.3
 	loyalty = 0.05
-	land_share = 5
 	is_valid = {
 		has_unlocked_estate_privilege = { estate_privilege = estate_burghers_control_over_the_mint }
 		gold = 1
@@ -10236,38 +9733,6 @@ estate_dhimmi_guarantee_of_traditions = {
 				}
 			}
 		}
-	}
-}
-
-estate_dhimmi_grant_liberties = {
-	icon = privilege_tolerance_heathen
-	max_absolutism = -10
-	influence = 0.1
-	loyalty = 0.1
-	is_valid = {
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-estate_jains_grant_liberties = {
-	icon = privilege_tolerance_heathen
-	max_absolutism = -10
-	influence = 0.1
-	loyalty = 0.1
-	is_valid = {
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	ai_will_do = {
-		factor = 1
 	}
 }
 
@@ -10497,7 +9962,6 @@ estate_nobles_tribe_centralization = {
 		hidden_effect = {
 			clr_country_flag = centralized_tribes_level_1
 			clr_country_flag = centralized_tribes_level_2
-			set_country_flag = centralized_tribes_level_3
 			country_event = {
 				id = flavor_jol.101
 			}
