@@ -3,6 +3,7 @@
 owner = VEN
 controller = VEN
 add_core = VEN
+add_core = ACH
 culture = greek
 religion = orthodox
 capital = "Koroni"
