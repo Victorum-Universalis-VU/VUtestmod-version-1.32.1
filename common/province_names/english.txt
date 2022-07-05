@@ -186,7 +186,7 @@
 134 = { "Vienna" "Vienna" }
 2746 = { "Widdin" "Widdin" }
 3091 = { "Builder" "Builder" }
-4729 = { "Padua" ""Padua" }
+4729 = { "Padua" "Padua" }
 7944 = { "Upper Rhine" "Hagenaw" }
 
 #Ireland

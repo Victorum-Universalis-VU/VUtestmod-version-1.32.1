@@ -463,13 +463,6 @@ eng_slot_1 = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_mission_tooltip_bahamas_colonisation
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 5
-						colonial_region = colonial_the_carribean
-					}
-				}
-				custom_trigger_tooltip = {
 					tooltip = bt_mission_tooltip_guyana_colonisation
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 5

@@ -91,6 +91,7 @@ YYK = "countries/YnystKedyrn.txt"
 
 #VU - Britannia
 ARC	= "countries/ArchbishopricofCanterbury.txt"
+AFU = "countries/Anglo-French Union.txt"
 
 #BT - Eastern Mediterranean
 ROC = "countries/RepublicofCyprus.txt"

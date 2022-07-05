@@ -1,4 +1,4 @@
-#3158 - Bristol
+#3158 - Gloucester
 
 owner = ENG
 controller = ENG
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 trade_goods = pottery #Known for producing pottery and ceramics (by San Felipe).
-capital = "Bristol"
+capital = "Gloucester"
 is_city = yes
 add_core = ENG
 extra_cost = 8

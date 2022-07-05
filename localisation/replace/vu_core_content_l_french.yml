@@ -326,7 +326,6 @@
  bt_venice_perm_claims:0 "Octroie des revendications permanentes sur les territoires à proximité possédés par Venise"
  bt_mission_tooltip_hispaniola_colonisation:0 "§Y[Root.GetName]§! ou ses sujets possèdent au moins 5 provinces dans la région coloniale d'Hispaniola."
  bt_mission_tooltip_cuba_colonisation:0 "§Y[Root.GetName]§! ou ses sujets possèdent au moins 5 provinces dans la région coloniale de Cuba."
- bt_mission_tooltip_bahamas_colonisation:0 "§Y[Root.GetName]§! ou ses sujets possèdent au moins 5 provinces dans la région coloniale des Bahamas."
  bt_mission_tooltip_northern_italy_minus_lombardy_perm_claims:0 "Octroie des revendications permanentes sur la majeure partie du nord de l'Italie."
  bt_mission_tooltip_northern_italy_conquest_minus_lombardy:0 "§Y[Root.GetName]§! possède les provinces en surbrillance dans le nord de l'Italie."
 
@@ -1134,4 +1133,3 @@
 
  BT_fra_carib_colony.tooltip_2:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in Colonial Hispaniola"
  BT_fra_carib_colony.tooltip_3:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in Colonial Cuba"
- BT_fra_carib_colony.tooltip_4:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Bahamas"

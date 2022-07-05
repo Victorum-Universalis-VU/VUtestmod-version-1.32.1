@@ -17265,7 +17265,7 @@ tiwanaku = {
 }
 
 tortuga_island = {
-	start = 489 #Tortuga
+	start = 5706 #Tortuga
 	date = 1640.1.1
 	time = { months = 0	}
 	build_cost = 0

@@ -6,8 +6,8 @@ graphical_culture = turkishgfx #muslimgfx
 #color = { 133  187  101 }
 #Old Red Colour
 #color = { 128  0  0 }
-#Vermalhas Green Colour
-color = { 44  122  13 }
+#Nickleby Green Colour
+color = { 86  140  55 }
 
 revolutionary_colors = { 5  9  5 } #Ottoman Civil Ensign
 

@@ -1160,7 +1160,6 @@ gc_morocco_5 = {
 							colonial_region = colonial_the_carribean #Lesser Antilles
 							colonial_region = colonial_cuba
 							colonial_region = colonial_hispaniola
-							#colonial_region = colonial_bahamas
 						}
 						is_city = yes
 					}

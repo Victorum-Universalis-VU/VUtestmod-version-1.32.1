@@ -3153,7 +3153,7 @@
  #
  trade_company_east_india:0 "East India Company"
  TRADE_COMPANY_EAST_INDIA_Root_Culture_GetName:0 "[Root.Culture.GetName] East Indian Company"
- TRADE_COMPANY_EAST_INDIA_India_Trade_Company:0 "East Indian Company"
+ TRADE_COMPANY_EAST_INDIA_India_Trade_Company:0 "East India Company"
  #
  trade_company_west_india:0 "West India Company"
  TRADE_COMPANY_WEST_INDIA_Root_Culture_GetName:0 "[Root.Culture.GetName] West Indian Company"
@@ -3161,7 +3161,7 @@
  #
  trade_company_coromandel:0 "South India Company"
  TRADE_COMPANY_COROMANDEL_Root_Culture_GetName:0 "[Root.Culture.GetName] South Indian Company"
- TRADE_COMPANY_COROMANDEL_India_Trade_Company:0 "South Indian Company"
+ TRADE_COMPANY_COROMANDEL_India_Trade_Company:0 "South India Company"
  #
  trade_company_deccan:0 "Central India Company"
  TRADE_COMPANY_DECCAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Central Indian Company"
@@ -3295,45 +3295,25 @@
  #TRADE_COMPANY_TIMBUKTU_Root_Culture_GetName:0 "[Root.Culture.GetName] West Africa Company"
  #TRADE_COMPANY_TIMBUKTU_African_Trade_Company:0 "West Africa Trade Company"
  #
- #trade_company_alexandria:0 "Egyptian Charter"
- #TRADE_COMPANY_ALEXANDRIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Egypt Company"
- #TRADE_COMPANY_ALEXANDRIA_African_Trade_Company:0 "Egypt Trade Company"
- #
  #trade_company_katsina:0 "Niger Charter"
  #TRADE_COMPANY_KATSINA_Root_Culture_GetName:0 "[Root.Culture.GetName] Niger Company"
  #TRADE_COMPANY_KATSINA_African_Trade_Company:0 "Niger Trade Company"
  #
- #trade_company_ethiopia:0 "Abyssinian Charter"
- #TRADE_COMPANY_ETHIOPIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Abyssinia Company"
- #TRADE_COMPANY_ETHIOPIA_African_Trade_Company:0 "Abyssinian Trade Company"
+ trade_company_ethiopia:0 "Ethiopia Charter"
+ TRADE_COMPANY_ETHIOPIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Ethiopian Company"
+ TRADE_COMPANY_ETHIOPIA_African_Trade_Company:0 "Ethiopia Trade Company"
  #
  #trade_company_great_lakes:0 "Great Lakes Charter"
  #TRADE_COMPANY_GREAT_LAKES_Root_Culture_GetName:0 "[Root.Culture.GetName] Great Lakes Company"
  #TRADE_COMPANY_GREAT_LAKES_African_Trade_Company:0 "Great Lakes Trade Company"
  #
- #trade_company_zambezi:0 "Zambezi Charter"
- #TRADE_COMPANY_ZAMBEZI_Root_Culture_GetName:0 "[Root.Culture.GetName] Zambezi Company"
- #TRADE_COMPANY_ZAMBEZI_African_Trade_Company:0 "Zambezi Trade Company"
+ trade_company_zambezi:0 "Zambezi Charter"
+ TRADE_COMPANY_ZAMBEZI_Root_Culture_GetName:0 "[Root.Culture.GetName] Zambezian Company"
+ TRADE_COMPANY_ZAMBEZI_African_Trade_Company:0 "Zambezi Trade Company"
  #
  #trade_company_gulf_of_aden:0 "Madagascan Charter"
  #TRADE_COMPANY_GULF_OF_ADEN_Root_Culture_GetName:0 "[Root.Culture.GetName] Madagascan Company"
  #TRADE_COMPANY_GULF_OF_ADEN_African_Trade_Company:0 "Madagascan Trade Company"
- #
- #trade_company_aleppo:0 "Levantine Charter"
- #TRADE_COMPANY_ALEPPO_Root_Culture_GetName:0 "[Root.Culture.GetName] Levant Company"
- #TRADE_COMPANY_ALEPPO_Near_East_Trade_Company:0 "Levant Trade Company"
- #
- #trade_company_basra:0 "Mashriq Charter"
- #TRADE_COMPANY_BASRA_Root_Culture_GetName:0 "[Root.Culture.GetName] Mashriq Company"
- #TRADE_COMPANY_BASRA_Near_East_Trade_Company:0 "Mashriq Trade Company"
- #
- #trade_company_persia:0 "Persian Charter"
- #TRADE_COMPANY_PERSIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Persia Company"
- #TRADE_COMPANY_PERSIA_Near_East_Trade_Company:0 "Persia Trade Company"
- #
- #trade_company_hormuz:0 "Hormuz Charter"
- #TRADE_COMPANY_HORMUZ_Root_Culture_GetName:0 "[Root.Culture.GetName] Hormuz Company"
- #TRADE_COMPANY_HORMUZ_Near_East_Trade_Company:0 "Hormuz Trade Company"
  #
  ############################################
  # VU Trade Company additions by San Felipe #

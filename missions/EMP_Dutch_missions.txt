@@ -466,18 +466,18 @@ emp_ned_slot2_indies_branch = {
 		completed_by = 1602.3.20 # historical date of its establishment
 		
 		trigger = {
-			colonial_indonesia = {
-				has_discovered = ROOT
-			}
+			#colonial_indonesia = {
+			#	has_discovered = ROOT
+			#}
 			trade_company_polynesia = {
 				has_discovered = ROOT
 			}
-			#trade_company_indonesia = {
-			#	has_discovered = ROOT
-			#}
-			#trade_company_moluccas = {
-			#	has_discovered = ROOT
-			#}
+			trade_company_indonesia = {
+				has_discovered = ROOT
+			}
+			trade_company_moluccas = {
+				has_discovered = ROOT
+			}
 		}
 		effect = {
 			lanka_area = {
