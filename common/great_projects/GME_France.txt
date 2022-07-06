@@ -373,101 +373,101 @@ gme_chenonceau = {
 #		}
 #	}
 #}
-gme_palais_des_papes = {
-	start = 202
-	date = 1.01.01
-	time = { months = 120 }
-	build_cost = 1000
-	starting_tier = 1
-	type = monument
-	can_be_moved = no
-	build_trigger = { }
-	on_built = { }
-	on_destroyed = { }
-	can_use_modifiers_trigger = {
-		religion_group = christian
-		has_owner_religion = yes
-	}
-	can_upgrade_trigger = {
-		religion_group = christian
-		has_owner_religion = yes
-	}
-	keep_trigger = { }
-	tier_0 = {
-		upgrade_time = { months = 0 }
-		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = { }
-	}
-	tier_1 = {
-		upgrade_time = { months = 120 }
-		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = {
-			local_defensiveness = 0.1
-			local_development_cost = -0.05
-			local_unrest = -1  
-		}
-		area_modifier = { }
-		country_modifiers = {
-			papal_influence = 0.25
-			stability_cost_modifier = -0.05
-		}
-		on_upgraded = { }
-	}
-	tier_2 = {
-		upgrade_time = { months = 240 }
-		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = {
-			local_defensiveness = 0.1
-			local_development_cost = -0.05
-			local_unrest = -2
-		}
-		area_modifier = { }
-		country_modifiers = {
-			papal_influence = 0.25
-			stability_cost_modifier = -0.1
-		}
-		on_upgraded = {
-			owner = {
-				if = {
-					limit = { has_estate = estate_church }
-					add_estate_loyalty = {
-						estate = estate_church
-						loyalty = 10
-					}
-				}
-			}
-		}
-	}
-	tier_3 = {
-		upgrade_time = { months = 480 }
-		cost_to_upgrade = { factor = 5000 }
-		province_modifiers = {
-			local_defensiveness = 0.2
-			local_development_cost = -0.1
-			local_unrest = -2
-		}
-		area_modifier = { }
-		country_modifiers = {
-			papal_influence = 0.5
-			stability_cost_modifier = -0.1
-			curia_powers_cost = -0.05
-		}
-		on_upgraded = {
-			owner = {
-				if = {
-					limit = { has_estate = estate_church }
-					add_estate_loyalty = {
-						estate = estate_church
-						loyalty = 15
-					}
-				}
-			}
-		}
-	}
-}
+#gme_palais_des_papes = {	#Disabled, monument already added by docRobert
+#	start = 202
+#	date = 1.01.01
+#	time = { months = 120 }
+#	build_cost = 1000
+#	starting_tier = 1
+#	type = monument
+#	can_be_moved = no
+#	build_trigger = { }
+#	on_built = { }
+#	on_destroyed = { }
+#	can_use_modifiers_trigger = {
+#		religion_group = christian
+#		has_owner_religion = yes
+#	}
+#	can_upgrade_trigger = {
+#		religion_group = christian
+#		has_owner_religion = yes
+#	}
+#	keep_trigger = { }
+#	tier_0 = {
+#		upgrade_time = { months = 0 }
+#		cost_to_upgrade = { factor = 0 }
+#		province_modifiers = { }
+#		area_modifier = { }
+#		country_modifiers = { }
+#		on_upgraded = { }
+#	}
+#	tier_1 = {
+#		upgrade_time = { months = 120 }
+#		cost_to_upgrade = { factor = 1000 }
+#		province_modifiers = {
+#			local_defensiveness = 0.1
+#			local_development_cost = -0.05
+#			local_unrest = -1  
+#		}
+#		area_modifier = { }
+#		country_modifiers = {
+#			papal_influence = 0.25
+#			stability_cost_modifier = -0.05
+#		}
+#		on_upgraded = { }
+#	}
+#	tier_2 = {
+#		upgrade_time = { months = 240 }
+#		cost_to_upgrade = { factor = 2500 }
+#		province_modifiers = {
+#			local_defensiveness = 0.1
+#			local_development_cost = -0.05
+#			local_unrest = -2
+#		}
+#		area_modifier = { }
+#		country_modifiers = {
+#			papal_influence = 0.25
+#			stability_cost_modifier = -0.1
+#		}
+#		on_upgraded = {
+#			owner = {
+#				if = {
+#					limit = { has_estate = estate_church }
+#					add_estate_loyalty = {
+#						estate = estate_church
+#						loyalty = 10
+#					}
+#				}
+#			}
+#		}
+#	}
+#	tier_3 = {
+#		upgrade_time = { months = 480 }
+#		cost_to_upgrade = { factor = 5000 }
+#		province_modifiers = {
+#			local_defensiveness = 0.2
+#			local_development_cost = -0.1
+#			local_unrest = -2
+#		}
+#		area_modifier = { }
+#		country_modifiers = {
+#			papal_influence = 0.5
+#			stability_cost_modifier = -0.1
+#			curia_powers_cost = -0.05
+#		}
+#		on_upgraded = {
+#			owner = {
+#				if = {
+#					limit = { has_estate = estate_church }
+#					add_estate_loyalty = {
+#						estate = estate_church
+#						loyalty = 15
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
 gme_port_de_moon = {
 	start = 174
 	date = 1.01.01
