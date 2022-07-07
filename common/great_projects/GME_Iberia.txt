@@ -79,81 +79,81 @@ gme_alcazar_segovia = {
 		on_upgraded = { }
 	}
 }
-gme_al_qasr_al_muriq = {
-	start = 224
-	date = 1.01.01
-	time = { months = 0 }
-	build_cost = 1000
-	starting_tier = 1
-	type = monument
-	can_be_moved = no
-	build_trigger = { }
-	on_built = { }
-	on_destroyed = { }
-	can_use_modifiers_trigger = {
-		has_owner_religion = yes
-		OR = {
-			religion_group = muslim
-			AND = {
-				culture_group = iberian
-				religion = catholic
-			}
-		}
-	}
-	can_upgrade_trigger = {
-		has_owner_religion = yes
-		OR = {
-			religion_group = muslim
-			AND = {
-				culture_group = iberian
-				religion = catholic
-			}
-		}
-	}
-	keep_trigger = { }
-	tier_0 = {
-		upgrade_time = { months = 0 }
-		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = { }
-	}
-	tier_1 = {
-		upgrade_time = { months = 120 }
-		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = {
-			local_defensiveness = 0.1
-		}
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = { }
-	}
-	tier_2 = {
-		upgrade_time = { months = 240 }
-		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = {
-			local_defensiveness = 0.1
-			local_unrest = -1
-		}
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = { }
-	}
-	tier_3 = {
-		upgrade_time = { months = 480 }
-		cost_to_upgrade = { factor = 5000 }
-		province_modifiers = {
-			local_defensiveness = 0.15
-			local_unrest = -2
-		}
-		area_modifier = {
-			local_tax_modifier = 0.10
-		}
-		country_modifiers = { }
-		on_upgraded = { }
-	}
-}
+#gme_al_qasr_al_muriq = {
+#	start = 224
+#	date = 1.01.01
+#	time = { months = 0 }
+#	build_cost = 1000
+#	starting_tier = 1
+#	type = monument
+#	can_be_moved = no
+#	build_trigger = { }
+#	on_built = { }
+#	on_destroyed = { }
+#	can_use_modifiers_trigger = {
+#		has_owner_religion = yes
+#		OR = {
+#			religion_group = muslim
+#			AND = {
+#				culture_group = iberian
+#				religion = catholic
+#			}
+#		}
+#	}
+#	can_upgrade_trigger = {
+#		has_owner_religion = yes
+#		OR = {
+#			religion_group = muslim
+#			AND = {
+#				culture_group = iberian
+#				religion = catholic
+#			}
+#		}
+#	}
+#	keep_trigger = { }
+#	tier_0 = {
+#		upgrade_time = { months = 0 }
+#		cost_to_upgrade = { factor = 0 }
+#		province_modifiers = { }
+#		area_modifier = { }
+#		country_modifiers = { }
+#		on_upgraded = { }
+#	}
+#	tier_1 = {
+#		upgrade_time = { months = 120 }
+#		cost_to_upgrade = { factor = 1000 }
+#		province_modifiers = {
+#			local_defensiveness = 0.1
+#		}
+#		area_modifier = { }
+#		country_modifiers = { }
+#		on_upgraded = { }
+#	}
+#	tier_2 = {
+#		upgrade_time = { months = 240 }
+#		cost_to_upgrade = { factor = 2500 }
+#		province_modifiers = {
+#			local_defensiveness = 0.1
+#			local_unrest = -1
+#		}
+#		area_modifier = { }
+#		country_modifiers = { }
+#		on_upgraded = { }
+#	}
+#	tier_3 = {
+#		upgrade_time = { months = 480 }
+#		cost_to_upgrade = { factor = 5000 }
+#		province_modifiers = {
+#			local_defensiveness = 0.15
+#			local_unrest = -2
+#		}
+#		area_modifier = {
+#			local_tax_modifier = 0.10
+#		}
+#		country_modifiers = { }
+#		on_upgraded = { }
+#	}
+#}
 #gme_casa_de_contratacion = {
 #	start = 224
 #	date = 1.01.01

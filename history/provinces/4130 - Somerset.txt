@@ -12,7 +12,7 @@ religion = lollardy
 hre = no
 base_tax = 3  
 base_production = 3 
-trade_goods = fruit #Large number of fruits grown including Strawberries at Cheddar and Apples across the county for Cider. Generally an agricultural shire
+trade_goods = cider #Large number of fruits grown including Strawberries at Cheddar and Apples across the county for Cider. Generally an agricultural shire
 
 base_manpower = 2 
 capital = "Taunton"

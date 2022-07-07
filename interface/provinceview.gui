@@ -4664,12 +4664,23 @@ guiTypes = {
 		fullScreen = no
 		
 		iconType = {
-   
 			name ="great_project_pic"
 			spriteType = "GFX_great_project_place_holder"
 			position = { x = 0 y = 0 }
 		}
 		
+		iconType = {
+			name ="great_project_pic_frame"
+			spriteType = "GFX_great_projects_image_frame"
+			position = { x = 0 y = 0 }
+		}
+		
+		iconType = {
+			name ="great_project_pic_title_overlay"
+			spriteType = "GFX_great_projects_name_bg_overlay"
+			position = { x = 10 y = 9 }
+			alwaystransparent = yes
+		}
 
 		instantTextBoxType = {
 			name = "name_label"
@@ -4684,7 +4695,6 @@ guiTypes = {
 		}
 
 		windowType = {
-   
 			name = "progress_bar_window"
 			backGround=""
 			position = { x = 155 y = 104 }
@@ -4697,21 +4707,18 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 			guiButtonType =	{
-	
 				name ="great_project_cancel"
 				quadTextureSprite = "GFX_alerticon_dismiss_always"
 				position = { x = 110 y = 5 }
 			}
 
 			iconType = {
-	
 				name ="great_project_progress"
 				spriteType = "GFX_provinceView_progressbar"
 				position = { x = 8 y = 13 }
 			}
 
 			iconType = {
-	
 				name ="great_project_progress_frame"
 				spriteType = "GFX_provinceView_morale_frame_long"
 				position = { x = 0 y = 9 }
@@ -4719,7 +4726,6 @@ guiTypes = {
 		}
 
 		guiButtonType = {
-   
 			name ="build_upgrade_button"
 			position = { x = 193 y = 7 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_build"
@@ -4732,7 +4738,7 @@ guiTypes = {
 		}
 
 		guiButtonType = {
-   
+
 			name ="use_money_to_boost_button"
 			position = { x = 193 y = 42 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_money"
@@ -4745,7 +4751,6 @@ guiTypes = {
 		}
 
 		guiButtonType = {
-   
 			name ="use_manpower_to_boost_button"
 			position = { x = 193 y = 77 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_manpower"
@@ -4758,7 +4763,6 @@ guiTypes = {
 		}
 
 		guiButtonType =	{
-   
 			name ="move_button"
 			position = { x = 9 y = 28 }
 			quadTextureSprite ="GFX_great_project_level_icon_move"

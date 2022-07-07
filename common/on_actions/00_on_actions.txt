@@ -5016,6 +5016,16 @@ on_province_owner_change = {
 			}
 			if = {
 				limit = {
+					trade_goods = cider
+				}
+				add_province_modifier = {
+					name = cider_modifier_bonus
+					duration = -1
+					hidden = yes
+				}
+			}
+			if = {
+				limit = {
 					trade_goods = apiculture
 				}
 				add_province_modifier = { 
@@ -6003,6 +6013,7 @@ on_trade_good_changed = {
 				has_province_modifier = wine_bonus_prod
 				has_province_modifier = grain_bonus_prod
 				has_province_modifier = beer_modifier_bonus
+				has_province_modifier = fruit_bonus_prod
 				has_province_modifier = honey_modifier_bonus
 			}
 			FROM = { has_reform = monastic_breweries_reform }
@@ -6011,6 +6022,7 @@ on_trade_good_changed = {
 		remove_province_modifier = wine_bonus_prod
 		remove_province_modifier = grain_bonus_prod
 		remove_province_modifier = beer_modifier_bonus
+		remove_province_modifier = fruit_bonus_prod
 		remove_province_modifier = honey_modifier_bonus
 	}
 
@@ -6020,11 +6032,13 @@ on_trade_good_changed = {
 			OR = {
 				has_province_modifier = grain_bonus_prod
 				has_province_modifier = beer_modifier_bonus
+				has_province_modifier = fruit_bonus_prod
 				has_province_modifier = honey_modifier_bonus
 			}
 		}
 		remove_province_modifier = grain_bonus_prod
 		remove_province_modifier = beer_modifier_bonus
+		remove_province_modifier = fruit_bonus_prod
 		remove_province_modifier = honey_modifier_bonus
 		
 		add_province_modifier = { 
@@ -6039,11 +6053,13 @@ on_trade_good_changed = {
 			OR = {
 				has_province_modifier = wine_bonus_prod
 				has_province_modifier = beer_modifier_bonus
+				has_province_modifier = fruit_bonus_prod
 				has_province_modifier = honey_modifier_bonus
 			}
 		}
 		remove_province_modifier = wine_bonus_prod
 		remove_province_modifier = beer_modifier_bonus
+		remove_province_modifier = fruit_bonus_prod
 		remove_province_modifier = honey_modifier_bonus
 		
 		add_province_modifier = { 
@@ -6067,6 +6083,25 @@ on_trade_good_changed = {
 		
 		add_province_modifier = { 
 			name = beer_modifier_bonus
+			duration = -1
+			hidden = yes
+		}
+	}
+	if = {
+		limit = {
+			trade_goods = cider
+			OR = {
+				has_province_modifier = wine_bonus_prod
+				has_province_modifier = fruit_bonus_prod
+				has_province_modifier = grain_bonus_prod
+			}
+		}
+		remove_province_modifier = wine_bonus_prod
+		remove_province_modifier = grain_bonus_prod
+		remove_province_modifier = fruit_bonus_prod
+		
+		add_province_modifier = { 
+			name = cider_modifier_bonus
 			duration = -1
 			hidden = yes
 		}

@@ -749,6 +749,19 @@ country_event = {
 		country_event = { id = marcin_events.59 }
 	}
 	
+	option = {
+		name = marcin_events.1.a.60
+		trigger = { NOT = { has_global_flag = No_Cider } }
+		country_event = { id = marcin_events.60 }
+	}
+	
+	
+	option = {
+		name = marcin_events.1.b.60
+		trigger = { has_global_flag = No_Cider } 
+		country_event = { id = marcin_events.60 }
+	}
+	
 	
 	option = {
 		name = marcin_events.close
@@ -2502,6 +2515,36 @@ country_event = {
 	option = {
 		name = marcin_events.2.b
 		set_global_flag = No_Chocolate
+		country_event = { id = marcin_events.1 }
+	}
+}
+
+country_event = {
+	id = marcin_events.60
+	title = marcin_events.60.t
+	desc = marcin_events.2.d
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+	option = {
+		name = marcin_events.2.a
+		clr_global_flag = No_Cider
+		country_event = { id = marcin_events.1 }
+	}
+	
+	option = {
+		name = marcin_events.2.b
+		set_global_flag = No_Cider
 		country_event = { id = marcin_events.1 }
 	}
 }

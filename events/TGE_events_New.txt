@@ -84,6 +84,16 @@ country_event = {
 				}
 				if = {
 					limit = {
+						trade_goods = cider
+					}
+					add_province_modifier = { 
+						name = cider_modifier_bonus
+						duration = -1
+						hidden = yes
+					}
+				}
+				if = {
+					limit = {
 						trade_goods = apiculture
 					}
 					add_province_modifier = { 
@@ -111,10 +121,12 @@ country_event = {
 					OR = {
 						has_province_modifier = beer_modifier_bonus
 						has_province_modifier = honey_modifier_bonus
+						has_province_modifier = cider_modifier_bonus
 					}
 				}
 				remove_province_modifier = beer_modifier_bonus
 				remove_province_modifier = honey_modifier_bonus
+				remove_province_modifier = cider_modifier_bonus
 			}
 			
 			clr_country_flag = monastic_breweries_reform_TGE

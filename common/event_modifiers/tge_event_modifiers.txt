@@ -42,6 +42,14 @@ honey_modifier_bonus = {
 	local_production_efficiency = 0.5
 }
 
+fruit_modifier_bonus = {
+	local_production_efficiency = 0.5
+}
+
+cider_modifier_bonus = {
+	local_production_efficiency = 0.5
+}
+
 metalworking_modifier_new = {
 	local_production_efficiency = 0.05
 }
