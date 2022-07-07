@@ -7399,18 +7399,28 @@ het_binnenhof = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
-		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
-		}	
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
+		}
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
-		OR = {
-			has_owner_culture = yes
-			has_owner_accepted_culture = yes
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+				primary_culture = burgundian
+			}
 		}	
     }
 
@@ -7447,12 +7457,11 @@ het_binnenhof = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -7461,7 +7470,10 @@ het_binnenhof = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			legitimacy = 0.25
+			republican_tradition = 0.1
+			devotion = 0.25
+			diplomatic_reputation = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -7477,7 +7489,7 @@ het_binnenhof = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7486,13 +7498,15 @@ het_binnenhof = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			legitimacy = 0.5
+			republican_tradition = 0.2
+			devotion = 0.5
+			diplomatic_reputation = 1
+			min_autonomy_in_territories = -0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -7508,7 +7522,7 @@ het_binnenhof = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 14000
+			factor = 5000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
@@ -7517,13 +7531,16 @@ het_binnenhof = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			legitimacy = 1
+			republican_tradition = 0.3
+			devotion = 1
+			diplomatic_reputation = 1
+			min_autonomy_in_territories = -0.15
+			monarch_diplomatic_power = 1
 		}
 
 		#what effects happen when this tier is achieved
