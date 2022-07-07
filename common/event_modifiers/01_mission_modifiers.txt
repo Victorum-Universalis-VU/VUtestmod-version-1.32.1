@@ -3565,6 +3565,11 @@ hab_pure_bavarian_beer = {
 	production_efficiency = 0.05
 }
 
+#eng_pure_english_cider = {
+#	global_unrest = -1
+#	production_efficiency = 0.05
+#}
+
 hab_conquered_serbia = {
 	prestige = 1
 	heir_chance = 0.33

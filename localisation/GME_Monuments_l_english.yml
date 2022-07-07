@@ -5,10 +5,10 @@
  gme_walls_ragusa: "Walls of Ragusa"
 
 #Baltic
- gme_dlugi_targ: "Dlugi Targ"
+ #gme_dlugi_targ: "Dlugi Targ"
  #gme_vilnius_cathedral: "Vilnius Cathedral Basilica" #Disabled since identical already exists
 
-#Britain
+#Ireland
  gme_blarney_castle: "Blarney Castle"
  gme_kilkenny_castle: "Kilkenny Castle"
  gme_newgrange_tomb: "Newgrange Tomb"
@@ -37,12 +37,12 @@
  gme_chambord: "Chateau de Chambord"
  gme_chenonceau: "Chateau de Chenonceau"
  #gme_mont_michel: "Mont Saint-Michel"
- gme_palais_des_papes: "Palais des Papes"
+ #gme_palais_des_papes: "Palais des Papes"
  gme_port_de_moon: "Port de la Lune"
 
 #Iberia
- gme_alcazar_segovia: "Alcazar of Segovia"
- gme_al_qasr_al_muriq: "Al-Qasr al-Muriq"
+ gme_alcazar_segovia: "Alcázar of Segovia"
+ #gme_al_qasr_al_muriq: "Al-Qasr al-Muriq"
  #gme_casa_de_contratacion: "Casa de Contratación"
  gme_cathedral_seville: "Cathredal of Sevilla"
  gme_lonja_seda: "Lonja de la Seda"
@@ -92,10 +92,10 @@
  gme_tripitaka_koreana: "Tripitaka Koreana"
 
 #Low Countries
- gme_binnenhof: "Binnenhof"
+ #gme_binnenhof: "Binnenhof"
  gme_bishop_palace: "Bishop's Palace"
  gme_bruges_city_centre: "Bruges City Centre"
- gme_domkerk: "Domkerk"
+ #gme_domkerk: "Domkerk"
  gme_grote_raad_mechelen: "Grote Raad van Mechelen"
  gme_het_gravensteen: "Het Gravensteen"
  gme_kasteel_de_haar: "Kasteel de Haar"
@@ -203,9 +203,9 @@
 
 #South Germany
  gme_bundeshaus: "Bundeshaus"
- gme_chillon_castle: "Chillon Castle"
+ #gme_chillon_castle: "Chillon Castle"
  gme_college_geneve: "College de Genève"
- gme_neuschwanstein_castle: "Neuschwanstein Castle"
+ #gme_neuschwanstein_castle: "Neuschwanstein Castle"
  gme_stone_bridge_regensburg: "Stone Bridge of Regensburg"
 
 #Tibet

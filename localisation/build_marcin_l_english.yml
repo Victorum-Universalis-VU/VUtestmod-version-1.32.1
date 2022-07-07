@@ -117,6 +117,11 @@
  prices_marcin.18.d: "As the Celestial Empire fragments itself into various feudatory states, the once reliable supply of silk fabrics and fine porcelain have been strangled by chaos and civil war. Merchants from Beijing to Constantinople have abandoned the Silk Road as trade in the Orient becomes dangerous and unstable."
  prices_marcin.18.a: "Not the silk!"
  COLLAPSE_OF_THE_SILK_ROAD: "Collapse of the Silk Road Effects"
+ 
+ prices_marcin.19.t: "Cider Festival"
+ prices_marcin.19.d: "Britons since ancient times have enjoyed cider and partaken in local events and festivals commeorating this tasty beverage. Let us now enjoy the festivities by pouring eachother a mug of cider."
+ prices_marcin.19.a: "Cheers!"
+ APFELWEIN: "Hick! Hick! Fancy another?"
 
  prices_marcin.7.t: "The Silk industry in Como"
  prices_marcin.7.d: "Pietro Boldoni of Bellano was the first to establish the silk industry in Como, Italy and following his initial efforts, the industry in the region boomed, quickly surpassing most of Europe’s leading manufacturing centers."

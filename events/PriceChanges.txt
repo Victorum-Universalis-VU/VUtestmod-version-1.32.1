@@ -727,6 +727,12 @@ country_event = {
 			duration = 730
 		}
 		change_price = {
+			trade_goods = cider
+			key = HUAYNAPUTINA
+			value = -0.25
+			duration = 730
+		}
+		change_price = {
 			trade_goods = cheese
 			key = HUAYNAPUTINA
 			value = -0.25

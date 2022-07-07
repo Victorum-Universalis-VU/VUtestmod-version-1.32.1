@@ -301,6 +301,11 @@ province_event = {
 		name = marcin_events.55.t
 		change_trade_goods = sea_turtle
 	}
+	
+	option = {
+		name = marcin_events.60.t
+		change_trade_goods = cider
+	}
 
 	option = {
 		name = marcin_events.close

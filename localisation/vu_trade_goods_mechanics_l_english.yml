@@ -116,6 +116,11 @@
  GOODS_Marcin_Cigars_NO: "§YCigars§! will be introduced into the game = §RNO§!"
  GOODS_Marcin_Chocolate: "§YChocolate§! will be introduced into the game = §GYES§!"
  GOODS_Marcin_Chocolate_NO: "§YChocolate§! will be introduced into the game = §RNO§!"
+ 
+ cider: "Cider"
+ ciderDESC: "Cider is one of the oldest and most widely consumed alcoholic drinks in the world, and the second most popular drink overall after water and tea. Cider is brewed from crushed apples and various other fruits."
+ GOODS_Marcin_Cider: "§YCider§! will be introduced into the game = §GYES§!"
+ GOODS_Marcin_Cider_NO: "§YCider§! will be introduced into the game = §RNO§!"
 
  mod_options_title: "Mod Options"
  mod_options_desc: "Use this to change spawn of goods\n§RUse before the Activate New Goods!!§!"
@@ -188,6 +193,7 @@
  marcin_events.57.t: "Marble Sculptures"
  marcin_events.58.t: "Cigars"
  marcin_events.59.t: "Chocolate"
+ marcin_events.60.t: "Cider"
  
  
  marcin_events.1.a: "Beer = §GYES§!"
@@ -306,6 +312,8 @@
  marcin_events.1.b.58: "Cigars = §RNO§!"
  marcin_events.1.a.59: "Chocolate = §GYES§!"
  marcin_events.1.b.59: "Chocolate = §RNO§!"
+ marcin_events.1.a.60: "Cider = §GYES§!"
+ marcin_events.1.b.60: "Cider = §RNO§!"
  
  Black_marble: "Black Marble"
  potato_tooltip: "Potato Trade Good will spread into Europe."

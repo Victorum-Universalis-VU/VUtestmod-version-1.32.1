@@ -401,6 +401,10 @@ goods_save = {
 		set_variable = { which = goods_num value = 31}
 	}
 	else_if = {
+		limit = { trade_goods = cider}
+		set_variable = { which = goods_num value = 31}
+	}
+	else_if = {
 		limit = { trade_goods = apiculture}
 		set_variable = { which = goods_num value = 32}
 	}
@@ -698,6 +702,10 @@ goods_back = {
 	else_if = {
 		limit = { is_variable_equal = { which = goods_num value = 31} }
 		change_trade_goods = beer	
+	}
+	else_if = {
+		limit = { is_variable_equal = { which = goods_num value = 31} }
+		change_trade_goods = cider	
 	}
 	else_if = {
 		limit = { is_variable_equal = { which = goods_num value = 32} }
