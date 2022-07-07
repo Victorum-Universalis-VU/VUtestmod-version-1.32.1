@@ -314,92 +314,92 @@ gme_mogao_grottoes = {
 		on_upgraded = { }
 	}
 }
-gme_old_summer_palace = {
-	start = 1816
-	date = 1.01.01
-	time = { months = 0 }
-	build_cost = 1000
-	starting_tier = 0
-	type = monument
-	can_be_moved = no
-	build_trigger = { }
-	on_built = { }
-	on_destroyed = { }
-	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
-	}
-	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
-	}
-	keep_trigger = { }
-	tier_0 = { 
-		upgrade_time = { months = 0 }
-		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = { }
-	}
-	tier_1 = {
-		upgrade_time = { months = 120 }
-		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = {
-			tax_income = 12
-		}
-		area_modifier = {
-			trade_goods_size = 0.25
-		}
-		country_modifiers = {
-			monthly_splendor = 1
-		}
-		on_upgraded = { }
-	} 
-	tier_2 = {
-		upgrade_time = { months = 240 }
-		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = {
-			tax_income = 18
-		}
-		area_modifier = {
-			trade_goods_size = 0.25
-			local_build_cost = -0.15
-		}
-		country_modifiers = {
-			monthly_splendor = 1
-		}
-		on_upgraded = { }
-	}
-	tier_3 = {
-		upgrade_time = { months = 480 }
-		cost_to_upgrade = { factor = 5000 }
-		province_modifiers = {
-			tax_income = 24
-		}
-		area_modifier = {
-			trade_goods_size = 0.25
-			local_build_cost = -0.15
-			local_build_time = -0.15
-		}
-		country_modifiers = {
-			monthly_splendor = 1.5
-		}
-		on_upgraded = { }
-	}
-}
+#gme_old_summer_palace = {
+#	start = 1816
+#	date = 1.01.01
+#	time = { months = 0 }
+#	build_cost = 1000
+#	starting_tier = 0
+#	type = monument
+#	can_be_moved = no
+#	build_trigger = { }
+#	on_built = { }
+#	on_destroyed = { }
+#	can_use_modifiers_trigger = {
+#		culture_group = east_asian
+#		OR = {
+#			has_owner_culture = yes
+#			owner = {
+#				culture_group = east_asian
+#				has_cultural_union = yes
+#			}
+#		}
+#	}
+#	can_upgrade_trigger = {
+#		culture_group = east_asian
+#		OR = {
+#			has_owner_culture = yes
+#			owner = {
+#				culture_group = east_asian
+#				has_cultural_union = yes
+#			}
+#		}
+#	}
+#	keep_trigger = { }
+#	tier_0 = { 
+#		upgrade_time = { months = 0 }
+#		cost_to_upgrade = { factor = 0 }
+#		province_modifiers = { }
+#		area_modifier = { }
+#		country_modifiers = { }
+#		on_upgraded = { }
+#	}
+#	tier_1 = {
+#		upgrade_time = { months = 120 }
+#		cost_to_upgrade = { factor = 1000 }
+#		province_modifiers = {
+#			tax_income = 12
+#		}
+#		area_modifier = {
+#			trade_goods_size = 0.25
+#		}
+#		country_modifiers = {
+#			monthly_splendor = 1
+#		}
+#		on_upgraded = { }
+#	} 
+#	tier_2 = {
+#		upgrade_time = { months = 240 }
+#		cost_to_upgrade = { factor = 2500 }
+#		province_modifiers = {
+#			tax_income = 18
+#		}
+#		area_modifier = {
+#			trade_goods_size = 0.25
+#			local_build_cost = -0.15
+#		}
+#		country_modifiers = {
+#			monthly_splendor = 1
+#		}
+#		on_upgraded = { }
+#	}
+#	tier_3 = {
+#		upgrade_time = { months = 480 }
+#		cost_to_upgrade = { factor = 5000 }
+#		province_modifiers = {
+#			tax_income = 24
+#		}
+#		area_modifier = {
+#			trade_goods_size = 0.25
+#			local_build_cost = -0.15
+#			local_build_time = -0.15
+#		}
+#		country_modifiers = {
+#			monthly_splendor = 1.5
+#		}
+#		on_upgraded = { }
+#	}
+#}
 gme_prince_kungs_mansion = {
 	start = 1816
 	date = 1.01.01

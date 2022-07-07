@@ -501,10 +501,10 @@ spriteTypes = {
 		name = "GFX_great_project_gme_mogao_grottoes"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_mogao_grottoes.dds"
 	}
-	spriteType = {
-		name = "GFX_great_project_gme_old_summer_palace"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_old_summer_palace.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_old_summer_palace"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_old_summer_palace.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_prince_kungs_mansion"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_prince_kungs_mansion.dds"
