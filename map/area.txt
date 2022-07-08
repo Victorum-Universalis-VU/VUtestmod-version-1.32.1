@@ -863,8 +863,12 @@ yedisan_area = { #6
 	282 2406 4140 7195 7197 7279
 }
 
-zaporizhia_area = { #3
-	2411 3302 7202 7204 7257 3243 7196 7198 7199 7251
+zaporizhia_area = { #7
+	2411 7257 3243 7196 7198 7199 7251
+}
+
+maeotida_area = { #3
+	3302 7202 7204
 }
 
 azov_area = { #7
@@ -1305,12 +1309,13 @@ dagestan_area = { #8
 # Anatolia, The Levant & Mesopotamia   #
 ########################################
 
-rum_area = { #7
-	2304 1846 2300 3967 3968 3971 5152
+rum_area = { #3		#West Pontus actually
+	color = { 223 228 218 }
+	2304 1846 3968
 }
 
-erzurum_area = { #9
-	331 2303 2305 2306 3966 3969 4310 5151 8414
+erzurum_area = { #8
+	331 2303 2305 2306 3966 4310 5151 8414
 }
 
 hudavendigar_area = { #11
@@ -1327,9 +1332,9 @@ aydin_area = { #7
 	318 319 2297 4309 5134 7822 7912
 }
 
-ankara_area = { #6
+ankara_area = { #5
 	color = { 57 154 172 }
-	326 329 5137 5150 5165 5167
+	326 5137 5150 5165 5167
 }
 
 aegean_archipelago_area = { #4
@@ -1365,9 +1370,19 @@ palestine_area = { #4
 	379 1854 1855 5180 5203 7443 7444 7445 7446 7447 7448 7449 7450 7451 8735
 }
 
-dulkadir_area = { #9	#Cappadocia
+dulkadir_area = { #6	#Cappadocia
 	color = { 184 54 72 }
-	332 2301 3970 3972 3973 3975 3978 3983 5146 5158
+	2301 3970 3972 3978 3983 5146
+}
+
+cataonia_area = { #4
+	color = { 186 222 177 }
+	332 3969 3973 3975 
+}
+
+new_rum_area = { #6	#Actual Rum now
+	color = { 200 191 231 }
+	329 2300 3967 3971 5152 5158
 }
 
 iraq_arabi_area = { #7

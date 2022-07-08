@@ -316,9 +316,9 @@ christian = {
 		icon = 28
 		allow_female_defenders_of_the_faith = yes
 		allowed_conversion = {
-				lollardy
-				protestant
-				reformed
+			lollardy
+			protestant
+			reformed
 		}
 
 		allowed_center_conversion = {
@@ -355,9 +355,11 @@ christian = {
 		icon = 22
 		
 		allowed_conversion = {
+			protestant
+			reformed
 			lollardy
 			bogomilist_new
-			nestorian
+			#nestorian
 		}
 
 		allowed_center_conversion = {
@@ -689,10 +691,10 @@ christian = {
 		color = { 102 4 60 }
 		icon = 4
 		allowed_conversion = {
-				coptic
-				bogomilist_new
-				nestorian
-				miaphysite
+			coptic
+			bogomilist_new
+			nestorian
+			miaphysite
 		}
 		country = {
 			stability_cost_modifier = -0.1
@@ -841,10 +843,10 @@ christian = {
 		icon = 14
 		
 		allowed_conversion = {
-				nestorian
-				jewish
-				zoroastrian
-				miaphysite
+			nestorian
+			jewish
+			zoroastrian
+			miaphysite
 		}
 		
 		country = {
@@ -1274,13 +1276,13 @@ christian = {
 		color = { 155 83 124 }
 		icon = 37
 		allowed_conversion = {
-				bogomilist_new
-				buddhism
-				vajrayana
-				mahayana
-				taoism
-				miaphysite
-				coptic
+			bogomilist_new
+			buddhism
+			vajrayana
+			mahayana
+			#taoism
+			miaphysite
+			coptic
 		}
 
 		country = {
@@ -1342,7 +1344,7 @@ christian = {
 			orthodox
 			coptic
 			miaphysite
-			jewish
+			#jewish
 		}
 		allowed_center_conversion = {
 			protestant 
@@ -1391,8 +1393,8 @@ christian = {
 		color = { 244 174 220 }
 		icon = 34
 		allowed_conversion = {
-				coptic
-				nestorian
+			coptic
+			nestorian
 		}
 		country = {
 			administrative_efficiency = 0.1
@@ -1468,6 +1470,7 @@ christian = {
 			catholic
 			hussite
 			anglican
+			reformed
 		}
 		allowed_center_conversion = {
 			catholic
@@ -2234,12 +2237,12 @@ muslim = {
 		icon = 5
 		
 		allowed_conversion = {
-				#iconoclast
-				ibadi
-				druze_new
-				buddhism
-				sikhism
-				taoism
+			#iconoclast
+			ibadi
+			druze_new
+			#buddhism
+			sikhism
+			#taoism
 		}
 		
 		country = {
@@ -2254,6 +2257,16 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.015
 		}
+		on_convert = {
+			change_religion = sunni
+			add_stability = -2
+			add_corruption = 4
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
 		
 		heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
 		
@@ -2266,12 +2279,14 @@ muslim = {
 		icon = 6
 		
 		allowed_conversion = {
-				#iconoclast
-				zoroastrian
-				druze_new
-				buddhism
-				sikhism
-				taoism 
+			#iconoclast
+			ibadi
+			zoroastrian
+			druze_new
+			#buddhism
+			sikhism
+			yazidi
+			#taoism 
 		}
 		
 		country = {
@@ -2285,6 +2300,16 @@ muslim = {
 		province = {
 			local_missionary_strength = -0.02
 		}
+		on_convert = {
+			change_religion = shiite
+			add_stability = -2
+			add_corruption = 4
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
 		
 		heretic = { DRUZE HURUFI ZAIDI }
 		
@@ -2295,6 +2320,14 @@ muslim = {
 	ibadi = {
 		color = { 0 102 0 }
 		icon = 16
+		
+		allowed_conversion = {
+			zoroastrian
+			druze_new
+			yazidi
+			shiite
+		}
+		
 		country = {
 			heir_chance = 1.0
 			global_trade_goods_size_modifier = 0.1
@@ -2312,6 +2345,17 @@ muslim = {
 		
 		province = {
 			local_missionary_strength = -0.02
+		}
+		
+		on_convert = {
+			change_religion = ibadi
+			add_stability = -2
+			add_corruption = 4
+			add_prestige = -100
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
 		}
 		
 		heretic = { HARURI SUFRI NAJADAT AZRAQI }
@@ -2554,6 +2598,7 @@ muslim = {
 		on_convert = {
 			change_religion = druze_new
 			add_prestige = -100
+			add_stability = -1
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
@@ -2755,7 +2800,7 @@ eastern = {
 		harmonized_modifier = harmonized_taoism
 	}
 	
-	#bon = { } #Moved to asian_pagan_group in 01_new_religions_VU
+	#bon = { } #Moved to asian_pagan_group
 	
 	#New eastern religion
 	#wuism = {		#Not added yet
@@ -4746,6 +4791,7 @@ balto_slavic_group = {
 		icon = 30
 		color = { 120 85 105 }
 		allowed_conversion = {
+			slavic_pagan_reformed
 			protestant	
 			reformed			
 			catholic
@@ -4800,6 +4846,7 @@ finnic_group = {
 		icon = 31
 		color = { 64 103 37 }
 		allowed_conversion = {
+			baltic_pagan_reformed
 			protestant	
 			reformed			
 			catholic
@@ -4848,6 +4895,7 @@ slavic_group = {
 		icon = 32
 		color = { 117 122 185 }
 		allowed_conversion = {
+			baltic_pagan_reformed
 			protestant	
 			reformed			
 			catholic
