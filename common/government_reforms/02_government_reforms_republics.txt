@@ -1734,6 +1734,7 @@ consolidate_power_in_cities_reform = {
 			has_reform = merchants_reform
 			has_reform = veche_republic
 			has_reform = improved_veche_republic
+			has_reform = genoan_republic_reform
 		}
 	}
 	trigger = {
@@ -1742,6 +1743,7 @@ consolidate_power_in_cities_reform = {
 			has_reform = merchants_reform
 			has_reform = veche_republic
 			has_reform = improved_veche_republic
+			has_reform = genoan_republic_reform
 		}
 	}
 	modifiers = {

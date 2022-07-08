@@ -701,8 +701,8 @@ anglois_dual_monarchy = {
 	modifiers = {
 		num_accepted_cultures = 2
 		global_unrest = -2
-		has_parliament = yes
-		production_efficiency = 0.1	
+		monarch_diplomatic_power = 2
+		promote_culture_cost = -0.33
 	}
 }
 
