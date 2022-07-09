@@ -367,6 +367,7 @@ crimea_region = {
 		middle_don_area
 		lower_dnieper_area
 		pryazovia_area
+		maeotida_area
 	}
 }
 
@@ -493,6 +494,8 @@ anatolia_region = {
 		aeolia_area
 		lycia_area
 		pisidia_area
+		cataonia_area
+		new_rum_area
 	}
 }
 
