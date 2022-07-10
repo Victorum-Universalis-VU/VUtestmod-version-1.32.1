@@ -150,7 +150,7 @@ ship_names = {
 	"Charles Galley" "Charles V" Chatham Chester Chichester Christ Christopher "Christopher of Bream" "Christopher Spayne" Clarence "Clove Tree"
 	Colchester Collingwood Colossus Conqueror Conquestador "Constant Reformation" "Constant Warwick" Content Convertine Cornelius Cornwall
 	Coronation Courageux Coventry Covertine Crane Cressy Crocodile Crown "Crowned Lion" Culloden Cumberland 
-	Dauphin Royal" "Deux Frères" "Don de Dieu" "Dragon d'Or" "Duc d'Angoulême" "Duc d'Aquitaine" "Duc de Berry" "Duc de Bourgogne"
+	"Dauphin Royal" "Deux Frères" "Don de Dieu" "Dragon d'Or" "Duc d'Angoulême" "Duc d'Aquitaine" "Duc de Berry" "Duc de Bourgogne"
 	Dainty Daisy Dartmouth "Deal Castle"
 	Dee Defence Defiance Deptford Devastation Devonshire Devonshire Diadem Diamond Dido Diomede Director Dolphin Dorsetshire Dover Dragon Drake
 	Dreadnaught Druid Dublin Duchess "Due Repulse" Duke Dunbar Duncan Duncannon Dunkirk Eagle Edgar Edinburgh "Edward Bonaventure" "Edward Howard"
