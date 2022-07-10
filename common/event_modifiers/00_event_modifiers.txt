@@ -4891,6 +4891,10 @@ grain_bonus_prod = {
 	local_production_efficiency = 0.75
 }
 
+cider_bonus_prod = {
+	local_production_efficiency = 0.75
+}
+
 wine_bonus_prod = {
 	local_production_efficiency = 0.5
 }

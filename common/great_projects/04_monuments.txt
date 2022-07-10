@@ -11600,7 +11600,7 @@ san_juan_de_ulua = {
 }
 
 schloss_neuschwanstein = {
-    start = 7602
+    start = 8542
     
     date = 1444.01.01 #1869.01.01   #First stone
     
@@ -11634,7 +11634,12 @@ schloss_neuschwanstein = {
     }
 
     can_use_modifiers_trigger = {
-        culture_group = germanic
+		culture_group = germanic
+		FROM = { government = monarchy }
+		OR = {
+			culture = bavarian
+			culture = austrian
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11642,7 +11647,12 @@ schloss_neuschwanstein = {
     }
 
     can_upgrade_trigger = {
-        is_year = 1869    
+		FROM = { government = monarchy }
+		OR = {
+			culture = bavarian
+			culture = austrian
+		}
+		is_year = 1869    
 		culture_group = germanic
 		OR = {
 			has_owner_culture = yes
@@ -11675,30 +11685,29 @@ schloss_neuschwanstein = {
         }
     }
 
-    tier_1 = {
+tier_1 = {
         upgrade_time = {
             months = 120
         }
 
         cost_to_upgrade = {
-            factor = 6000
+            factor = 5000
         }
 
         province_modifiers = {
-		   fort_level = 1
+		local_development_cost = -0.10
         }
 
         area_modifier = {
-		    local_monthly_devastation = -0.1
+		local_monthly_devastation = -0.05
         }
 
         country_modifiers = {
-		    legitimacy = 0.5
-		    advisor_pool = 1
-			monthly_splendor = 10
-		}
+		governing_capacity_modifier = 0.05
+	}
 
         on_upgraded = {
+		add_devastation = -10
         }
     }
 	
@@ -11712,20 +11721,20 @@ schloss_neuschwanstein = {
         }
 
         province_modifiers = {
-		    fort_level = 1
-			statewide_governing_cost = -0.25
+		local_prosperity_growth = 0.5
+		fort_level = 1
+		statewide_governing_cost = -0.2
         }
 
         area_modifier = {
-		    local_monthly_devastation = -0.15
+		local_development_cost = -0.05
+		local_monthly_devastation = -0.15
         }
 
         country_modifiers = {
-		    legitimacy = 1
-		    advisor_pool = 2
-			monthly_splendor = 15
-			advisor_cost = -0.25
-		}
+		legitimacy = 0.5
+		governing_capacity_modifier = 0.10
+	}
 
         on_upgraded = {
         }
@@ -11741,22 +11750,22 @@ schloss_neuschwanstein = {
         }
 
         province_modifiers = {
-		    fort_level = 1
-			statewide_governing_cost = -0.35
+		fort_level = 1
+		statewide_governing_cost = -0.3
+		local_prosperity_growth = 1
         }
 
         area_modifier = {
-		    local_monthly_devastation = -0.2
-			local_friendly_movement_speed = 0.1
+		local_monthly_devastation = -0.2
+		local_friendly_movement_speed = 0.1
+		local_development_cost = -0.10
         }
 
         country_modifiers = {
-		    legitimacy = 1.5
-		    advisor_pool = 2
-			monthly_splendor = 20
-			advisor_cost = -0.35
-			prestige_decay = -0.03
-		}
+		legitimacy = 1
+		governing_capacity_modifier = 0.15
+		monarch_admin_power = 1
+	}
 
         on_upgraded = {
         }

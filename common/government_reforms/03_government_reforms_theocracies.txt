@@ -294,6 +294,7 @@ monastic_breweries_reform = {
 			OR = {
 				trade_goods = wine
 				trade_goods = grain
+				trade_goods = fruit
 			}
 		}
 	}
@@ -322,6 +323,16 @@ monastic_breweries_reform = {
 					}
 					add_province_modifier = {
 						name = grain_bonus_prod #Nerfed to 50% since beer is more valuable.
+						duration = -1
+						hidden = yes
+					}
+				}
+				if = {
+					limit = {
+						trade_goods = cider
+					}
+					add_province_modifier = {
+						name = cider_bonus_prod #Nerfed to 50% since cider is more valuable.
 						duration = -1
 						hidden = yes
 					}

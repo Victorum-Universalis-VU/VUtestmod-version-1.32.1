@@ -23,10 +23,10 @@ spriteTypes = {
 	}
 
 #Baltic
-	spriteType = {
-		name = "GFX_great_project_gme_dlugi_targ"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_dlugi_targ.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_dlugi_targ"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_dlugi_targ.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_petersburg_admiralty"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_petersburg_admiralty.dds"
@@ -113,10 +113,10 @@ spriteTypes = {
 	#	name = "GFX_great_project_gme_mont_michel"
 	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_mont_michel.dds"
 	#}
-	spriteType = {
-		name = "GFX_great_project_gme_palais_des_papes"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_palais_des_papes.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_palais_des_papes"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_palais_des_papes.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_bretagne_castles"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_bretagne_castles.dds"
@@ -139,10 +139,10 @@ spriteTypes = {
 		name = "GFX_great_project_gme_alcazar_segovia"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_alcazar_segovia.dds"
 	}
-	spriteType = {
-		name = "GFX_great_project_gme_al_qasr_al_muriq"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_al_qasr_al_muriq.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_al_qasr_al_muriq"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_al_qasr_al_muriq.dds"
+	#}
 	#spriteType = {
 	#	name = "GFX_great_project_gme_casa_de_contratacion"
 	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_casa_de_contratacion.dds"
@@ -335,10 +335,10 @@ spriteTypes = {
 	}
 
 #Low Countries
-	spriteType = {
-		name = "GFX_great_project_gme_binnenhof"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_binnenhof.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_binnenhof"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_binnenhof.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_bishop_palace"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_bishop_palace.dds"
@@ -347,10 +347,10 @@ spriteTypes = {
 		name = "GFX_great_project_gme_bruges_city_centre"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_bruges_city_centre.dds"
 	}
-	spriteType = {
-		name = "GFX_great_project_gme_domkerk"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_domkerk.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_domkerk"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_domkerk.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_grote_raad_mechelen"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_grote_raad_mechelen.dds"
@@ -501,10 +501,10 @@ spriteTypes = {
 		name = "GFX_great_project_gme_mogao_grottoes"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_mogao_grottoes.dds"
 	}
-	spriteType = {
-		name = "GFX_great_project_gme_old_summer_palace"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_old_summer_palace.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_old_summer_palace"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_old_summer_palace.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_prince_kungs_mansion"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_prince_kungs_mansion.dds"
@@ -718,10 +718,10 @@ spriteTypes = {
 	}
 
 #South Germany
-	spriteType = {
-		name = "GFX_great_project_gme_neuschwanstein_castle"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_neuschwanstein_castle.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_neuschwanstein_castle"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_neuschwanstein_castle.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_stone_bridge_regensburg"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_stone_bridge_regensburg.dds"
@@ -730,10 +730,10 @@ spriteTypes = {
 		name = "GFX_great_project_gme_bundeshaus"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_bundeshaus.dds"
 	}
-	spriteType = {
-		name = "GFX_great_project_gme_chillon_castle"
-		texturefile = "gfx//interface//great_projects//GME//great_project_gme_chillon_castle.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_great_project_gme_chillon_castle"
+	#	texturefile = "gfx//interface//great_projects//GME//great_project_gme_chillon_castle.dds"
+	#}
 	spriteType = {
 		name = "GFX_great_project_gme_college_geneve"
 		texturefile = "gfx//interface//great_projects//GME//great_project_gme_college_geneve.dds"

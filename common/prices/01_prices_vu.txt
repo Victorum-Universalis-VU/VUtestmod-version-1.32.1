@@ -69,6 +69,7 @@ silver = { base_price = 0	goldtype = yes}
 agave = { base_price = 2.5 }
 alpaca_wool = {	base_price = 3.5 }
 beer = { base_price = 3 }
+cider = { base_price = 3.25 }
 bison_hides = {	base_price = 4 }
 carpet = { base_price = 3 }
 champagne = { base_price = 4 }
