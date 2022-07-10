@@ -11,6 +11,7 @@ eng_rb_slot_2 = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 		}
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
@@ -393,7 +394,6 @@ eng_rb_slot_2 = {
 			    name = "eng_rb_take_emirates"
 			    duration = 5475
 		    }
-	    }
     }
 	
 	eng_rb_establish_trade_in_american_cot_virginia_company = {
@@ -723,6 +723,7 @@ eng_rb_slot_4 = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 		}
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
@@ -789,6 +790,7 @@ eng_rb_take_baleares = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 		}
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
@@ -1438,6 +1440,7 @@ eng_rb_slot_5 = {
 		OR = {
 			tag = ENG
 			tag = GBR
+			tag = UNK
 		}
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
