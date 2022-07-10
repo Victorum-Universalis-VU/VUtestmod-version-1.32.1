@@ -1739,15 +1739,15 @@
  TRADE_COMPANY_SENEGAL_Trade_Company:0 "Senegal Trade Company"
  #
  trade_company_sierra_leone:0 "Sierra Leone Charter"
- TRADE_COMPANY_SIERRA_LEONE_Root_Culture_GetName:0 "[Root.Culture.GetName] ‎Sierra Leonean Company"
+ TRADE_COMPANY_SIERRA_LEONE_Root_Culture_GetName:0 "[Root.Culture.GetName] Sierra Leone Company"
  TRADE_COMPANY_SIERRA_LEONE_Trade_Company:0 "Sierra Leone Trade Company"
  #
  trade_company_somalia:0 "Somalia Charter"
- TRADE_COMPANY_SOMALIA_Root_Culture_GetName:0 "[Root.Culture.GetName] ‎Somalian Company"
+ TRADE_COMPANY_SOMALIA_Root_Culture_GetName:0 "[Root.Culture.GetName] Somalian Company"
  TRADE_COMPANY_SOMALIA_Trade_Company:0 "Somalia Trade Company"
  #
  trade_company_sudan:0 "Sudan Charter"
- TRADE_COMPANY_SUDAN_Root_Culture_GetName:0 "[Root.Culture.GetName] ‎Sudanese Company"
+ TRADE_COMPANY_SUDAN_Root_Culture_GetName:0 "[Root.Culture.GetName] Sudanese Company"
  TRADE_COMPANY_SUDAN_Trade_Company:0 "Sudan Trade Company"
  #
  #trade_company_south_africa:0 "South Africa Charter"
@@ -1755,11 +1755,11 @@
  #TRADE_COMPANY_SOUTH_AFRICA_Africa_Trade_Company:0 "South Africa Trade Company"
  #
  trade_company_tanganyika:0 "Tanganyika Charter"
- TRADE_COMPANY_TANGANYIKA_Root_Culture_GetName:0 "[Root.Culture.GetName] ‎Tanganyikan Company"
+ TRADE_COMPANY_TANGANYIKA_Root_Culture_GetName:0 "[Root.Culture.GetName] Tanganyikan Company"
  TRADE_COMPANY_TANGANYIKA_Trade_Company:0 "Tanganyika Trade Company"
  #
  trade_company_togo:0 "Togo Charter"
- TRADE_COMPANY_TOGO_Root_Culture_GetName:0 "[Root.Culture.GetName] ‎Togoan Company"
+ TRADE_COMPANY_TOGO_Root_Culture_GetName:0 "[Root.Culture.GetName] Togolese Company"
  TRADE_COMPANY_TOGO_Trade_Company:0 "Togo Trade Company"
  #
  #VU Asian additions by San Felipe

@@ -1,9 +1,9 @@
-#7762
+#7762 - UpperCarniola
 
 owner = CLI
 controller = CLI
 add_core = CLI
-culture = slovene
+culture = bavarian #was slovene
 religion = catholic
 capital = "Gottschee"			#Not founded until sometime between 1340 & 1360, but whatever
 base_tax = 2
