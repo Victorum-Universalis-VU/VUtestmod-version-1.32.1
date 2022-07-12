@@ -26,7 +26,8 @@ discovered_by = eastern
 	base_production = 8
 	base_manpower = 4
 	capital = "Ourida"
-	culture = andalusi_culture
+	#culture = andalusi_culture
+	culture = andalucian
 }	#First wave of explusions from Iberia. Moors and Jews expelled and flock to North Africa in huge numbers. Mitidja plain in particular sees many immigrants.
 1510.1.1 = {
 	owner = ARA

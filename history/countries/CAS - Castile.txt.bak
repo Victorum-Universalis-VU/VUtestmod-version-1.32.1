@@ -1,7 +1,8 @@
 government = monarchy
 add_government_reform = kingdom_of_castille_and_leon
 primary_culture = castillian
-add_accepted_culture = andalusi_culture
+#add_accepted_culture = andalusi_culture
+add_accepted_culture = andalucian
 add_accepted_culture = leonese
 religion = catholic
 technology_group = western

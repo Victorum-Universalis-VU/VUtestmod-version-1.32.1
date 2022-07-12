@@ -1,8 +1,10 @@
 country_decisions = {
 	lotf_navigation_acts_decision = {
 		potential = {
-			mission_completed = lotf_gb_invest_northern_colonies
-			mission_completed = lotf_gb_invest_southern_colonies
+			OR = {
+			    mission_completed = lotf_gb_invest_northern_colonies
+			    mission_completed = lotf_gb_invest_southern_colonies
+			}
 			NOT = { has_country_flag = navigations_act_passed }
 		}	
 		provinces_to_highlight = { }
