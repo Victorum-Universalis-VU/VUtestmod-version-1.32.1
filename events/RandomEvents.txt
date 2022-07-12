@@ -10816,7 +10816,8 @@ country_event = {
 					culture = aragonese
 					culture = catalan
 					culture = galician
-					culture = andalusi_culture
+					#culture = andalusi_culture
+					culture = andalucian
 					culture = basque
 				}
 			}
@@ -10871,7 +10872,8 @@ country_event = {
 						culture = aragonese
 						culture = catalan
 						culture = galician
-						culture = andalusi_culture
+						#culture = andalusi_culture
+						culture = andalucian
 						culture = basque
 					}
 				}
@@ -10939,7 +10941,8 @@ country_event = {
 							culture = aragonese
 							culture = catalan
 							culture = galician
-							culture = andalusi_culture
+							#culture = andalusi_culture
+							culture = andalucian
 							culture = basque
 						}
 					}
@@ -10953,7 +10956,8 @@ country_event = {
 							culture = aragonese
 							culture = catalan
 							culture = galician
-							culture = andalusi_culture
+							#culture = andalusi_culture
+							culture = andalucian
 							culture = basque
 						}
 					}
@@ -11066,7 +11070,8 @@ country_event = {
 						culture = aragonese
 						culture = catalan
 						culture = galician
-						culture = andalusi_culture
+						#culture = andalusi_culture
+						culture = andalucian
 						culture = basque
 					}
 				}

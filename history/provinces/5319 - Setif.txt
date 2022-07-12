@@ -22,7 +22,8 @@ discovered_by = eastern
 1491.1.1 = {
 	base_production = 6
 	base_tax = 4
-	culture = andalusi_culture
+	#culture = andalusi_culture
+	culture = andalucian
 }	#First wave of explusions from Iberia. Moors and Jews expelled and flock to North Africa in huge numbers.
 1549.1.1 = {
 	owner = MOR

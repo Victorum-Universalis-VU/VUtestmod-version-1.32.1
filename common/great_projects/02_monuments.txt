@@ -8913,7 +8913,8 @@ alcazar_de_seville = {
     build_trigger = {
         OR = {
 			culture_group = iberian
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 		}
 		OR = {
 			has_owner_culture = yes
@@ -8930,7 +8931,8 @@ alcazar_de_seville = {
     can_use_modifiers_trigger = {
 	    OR = {
 			culture_group = iberian
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 		}
 		OR = {
 			has_owner_culture = yes
@@ -8942,7 +8944,8 @@ alcazar_de_seville = {
 	    is_year = 1509
 		OR = {
 			culture_group = iberian
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 		}
 		OR = {
 			has_owner_culture = yes
@@ -9091,7 +9094,8 @@ casa_de_contratacion = {
 	    is_year = 1503
         OR = {
 			culture_group = iberian
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 		}
 		OR = {
 			has_owner_culture = yes
@@ -9108,7 +9112,8 @@ casa_de_contratacion = {
     can_use_modifiers_trigger = {
 	    OR = {
 			culture_group = iberian
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 		}
 		OR = {
 			has_owner_culture = yes
@@ -9119,7 +9124,8 @@ casa_de_contratacion = {
     can_upgrade_trigger = {
 		OR = {
 			culture_group = iberian
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 		}
 		OR = {
 			has_owner_culture = yes

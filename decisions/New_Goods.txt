@@ -93,11 +93,11 @@ country_decisions = {
 						every_province = {
 							limit = {
 								OR = {
-									4130
-									7420
-									8124
-									8129
-									3145
+									province_id = 4130
+									province_id = 7420
+									province_id = 8124
+									province_id = 8129
+									province_id = 3145
 								}
 							}
 							

@@ -154,7 +154,8 @@ country_decisions = {
 			NOT = { has_country_flag = formed_andalusia_flag }
 			NOT = { tag = ADU }
 			OR = {
-				primary_culture = andalusi_culture
+				#primary_culture = andalusi_culture
+				primary_culture = andalucian
 				AND = {
 					culture_group = maghrebi
 					any_owned_province = { region = iberia_region }
@@ -321,9 +322,11 @@ country_decisions = {
 			if = {
 				limit = {
 					culture_group = turko_semitic
-					NOT = { primary_culture = andalusi_culture }
+					#NOT = { primary_culture = andalusi_culture }
+					NOT = { primary_culture = andalucian }
 				}
-				change_primary_culture = andalusi_culture
+				#change_primary_culture = andalusi_culture
+				change_primary_culture = andalucian
 			}
 			if = {
 				limit = { government = tribal }

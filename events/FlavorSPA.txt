@@ -932,12 +932,14 @@ country_event = {
 			tag = CSP
 		}
 		religion = catholic
-		NOT = { primary_culture = andalusi_culture }
+		#NOT = { primary_culture = andalusi_culture }
+		NOT = { primary_culture = andalucian }
 		NOT = { exists = GRA }
 		is_year = 1600
 		
 		any_owned_province = {
-			culture = andalusi_culture	
+			#culture = andalusi_culture	
+			culture = andalucian
 		}
 		NOT = { has_dlc = "Golden Century" }
 	}
@@ -959,7 +961,8 @@ country_event = {
 
 		every_owned_province = {
 			limit = {
-				culture = andalusi_culture	
+				#culture = andalusi_culture
+				culture = andalucian
 			}
 			add_unrest = 5
 		}
@@ -1483,7 +1486,8 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "José Monino"
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 			discount = yes
 			skill = 3
 		}
@@ -2218,7 +2222,8 @@ country_event = {
 		any_owned_province = {
 			NOT = { has_province_modifier = forced_conversion }
 			region = iberia_region
-			culture = andalusi_culture
+			#culture = andalusi_culture
+			culture = andalucian
 			is_core = GRA
 		}
 		OR = {
@@ -2243,7 +2248,8 @@ country_event = {
 				limit = {
 					region = iberia_region
 					is_core = GRA
-					culture = andalusi_culture
+					#culture = andalusi_culture
+					culture = andalucian
 					OR = {
 						fort_level = 1
 						province_id = 223
@@ -2255,7 +2261,8 @@ country_event = {
 				limit = {
 					region = iberia_region
 					is_core = GRA
-					culture = andalusi_culture
+					#culture = andalusi_culture
+					culture = andalucian
 					NOT = { has_province_flag = alpujarras_centre_of_revolt }
 				}
 				set_province_flag = alpujarras_revolt
@@ -2374,9 +2381,11 @@ country_event = {
 		}
 		every_owned_province = {
 			limit = {
-				culture = andalusi_culture
+				#culture = andalusi_culture
+				culture = andalucian
 			}
-			change_culture = andalusi_culture
+			#change_culture = andalusi_culture
+			change_culture = andalucian
 		}
 		#Repeat of effect from earlier persecutions:
 		random_country = {

@@ -2739,8 +2739,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					#culture_group = iberian	
 					#culture = andalusi_culture #Old value
+					culture = andalucian
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -2749,8 +2750,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					#culture_group = iberian	
 					#culture = andalusi_culture	#Old value
+					culture = andalucian
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -4813,8 +4815,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
-					# culture = andalusi_culture #Old
+					#culture_group = iberian	
+					#culture = andalusi_culture #Old
+					culture = andalucian
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -4823,8 +4826,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
-					# culture = andalusi_culture #Old
+					#culture_group = iberian	
+					#culture = andalusi_culture #Old
+					culture = andalucian
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -6262,8 +6266,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
-					# culture = andalusi_culture
+					#culture_group = iberian	
+					#culture = andalusi_culture
+					culture = andalucian
 				}
 				has_reform = cultural_investment_reform 
 			}
@@ -6272,8 +6277,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
-					# culture = andalusi_culture
+					#culture_group = iberian	
+					#culture = andalusi_culture
+					culture = andalucian
 				}
 				has_reform = cultural_investment_reform 
 			}
@@ -9456,8 +9462,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian
+					#culture_group = iberian
 					#culture = andalusi_culture #Old value
+					culture = andalucian
 				}
 				has_reform = berber_cavalry_reform 
 			}
@@ -9466,8 +9473,9 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian
+					#culture_group = iberian
 					#culture = andalusi_culture #Old value
+					culture = andalucian
 				}
 				has_reform = berber_cavalry_reform 
 			}

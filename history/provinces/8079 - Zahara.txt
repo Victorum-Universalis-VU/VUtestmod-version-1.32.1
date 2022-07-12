@@ -3,7 +3,8 @@
 owner = GRA
 controller = GRA
 add_core = GRA
-culture = andalusi_culture
+#culture = andalusi_culture
+culture = andalucian
 religion = sunni
 capital = "Zahara"
 base_tax = 1
@@ -26,7 +27,8 @@ discovered_by = eastern
 	controller = CAS
 	add_core = CAS
 	add_core = SVL #BTB added: Castilian revolter tag.
-	culture = andalusi_culture
+	#culture = andalusi_culture
+	culture = andalucian
 	religion = catholic
 }	#Reconquista
 #1444 on

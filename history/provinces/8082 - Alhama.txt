@@ -1,9 +1,10 @@
-#BT's Western Europe Overhaul in 12.0
+#8082 - Alhama
 
 owner = GRA
 controller = GRA
 add_core = GRA
-culture = andalusi_culture
+#culture = andalusi_culture
+culture = andalucian
 religion = sunni
 capital = "Alhama"
 base_tax = 3

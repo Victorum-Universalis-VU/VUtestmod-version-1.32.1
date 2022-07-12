@@ -447,29 +447,23 @@ country_event = { # Annexing Gulf and west Iran
 		ai_chance = { factor = 40 }
 		add_prestige = 5
 		kuwait_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		basra_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		5251 = { add_permanent_claim = ROOT }
 		391 = { add_permanent_claim = ROOT }
 		khuzestan_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		luristan_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		azerbaijan_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		iraq_e_ajam_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 	}
@@ -480,29 +474,23 @@ country_event = { # Annexing Gulf and west Iran
 		add_mil_power = 20
 		add_prestige = 5
 		kuwait_area = {
-			type = all
 			add_core = ROOT
 		}
 		basra_area = {
-			type = all
 			add_core = ROOT
 		}
 		5251 = { add_core = ROOT }
 		391 = { add_core = ROOT }
 		khuzestan_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		luristan_area = {
-			type = all
 			add_core = ROOT
 		}
 		azerbaijan_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		iraq_e_ajam_area = {
-			type = all
 			add_permanent_claim = ROOT
 		}
 		declare_war_with_cb = {

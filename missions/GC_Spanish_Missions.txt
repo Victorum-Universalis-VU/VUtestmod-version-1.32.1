@@ -508,13 +508,15 @@ gc_spain_2 = {
 
 		provinces_to_highlight = {
 			region = iberia_region
-			NOT = { culture = andalusi_culture }
+			#NOT = { culture = andalusi_culture }
+			NOT = { culture = andalucian }
 		}
 
 		trigger = {
 			iberia_region = {
 				type = all
-				NOT = { culture = andalusi_culture }
+				#NOT = { culture = andalusi_culture }
+				NOT = { culture = andalucian }
 			}
 		}
 		effect = {

@@ -611,12 +611,12 @@ add_country_modifier = {
 	}
 }
 
-1541.4.18 = {
+1547.7.20 = {
 	heir = {
 		name = "Henry"
 		monarch_name = "Henrí VII"
 		dynasty = "Lancaster"
-		birth_date = 1547.7.20
+		birth_date = 1541.4.18
 		death_date = 1595.8.5
 		adm = 5
 		dip = 4

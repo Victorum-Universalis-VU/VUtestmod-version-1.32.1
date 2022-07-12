@@ -1,9 +1,10 @@
-#BT's Western Europe Overhaul in 12.0
+#8085 - Baza
 
 owner = GRA
 controller = GRA
 add_core = GRA
-culture = andalusi_culture
+#culture = andalusi_culture
+culture = andalucian
 religion = sunni
 capital = "Baza"
 base_tax = 1
