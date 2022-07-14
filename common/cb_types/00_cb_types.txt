@@ -1314,6 +1314,7 @@ cb_force_tributary = {
 		is_emperor_of_china = yes
 		FROM = { is_subject = no }
 		is_neighbor_of = FROM
+		OR = {
 			ai = no
 			AND = {
 				OR = {
@@ -1331,6 +1332,7 @@ cb_force_tributary = {
 					}
 				}
 			}
+		}
 	}
 	
 	war_goal = take_capital_force_tributary

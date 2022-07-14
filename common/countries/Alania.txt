@@ -63,18 +63,18 @@ monarch_names = {
 }
 
 leader_names = { 
-	Siraci Ezdon Badilata Gaguata Tsargasata Kusagonta Aguzata 
-	Tsakhilta Kusagonta Sidamonta Naifonata Tembolata Ualasykh 
-	Dadygkata Kalogkata Baziata Alauni Halani Shoana Senty 
-	Zmbalani Sathisi Totrazi Ovseti Tsaerasanti Aelbeg Ardasen 
-	Bekkuyzar Geber Dzarehoh Dzeby Djerdji Guyrdzybe Zaendji 
-	Kaerkuys Djykkaj Tuallaeg 
+	"Siraci" "Ezdon" "Badilata" "Gaguata" "Tsargasata" "Kusagonta" "Aguzata" 
+	"Tsakhilta" "Kusagonta" "Sidamonta" "Naifonata" "Tembolata" "Ualasykh" 
+	"Dadygkata" "Kalogkata" "Baziata" "Alauni" "Halani" "Shoana" "Senty" 
+	"Zmbalani" "Sathisi" "Totrazi" "Ovseti" "Tsaerasanti" "Aelbeg" "Ardasen" 
+	"Bekkuyzar" "Geber" "Dzarehoh" "Dzeby" "Djerdji" "Guyrdzybe" "Zaendji" 
+	"Kaerkuys" "Djykkaj" "Tuallaeg" 
 }
 
 ship_names = {
-	Alauni Halani Shoana Senty Zmbalani Sathisi 
-	Totrazi Ovseti Tsaerasanti Aelbeg Ardasen Bekkuyzar 
-	Geber Dzarehoh Dzeby Djerdji Guyrdzybe Zaendji 
-	Kaerkuys Djykkaj Tuallaeg Ovseti Digora Alagir
-	Ardon Tsimiti Beslan
+	"Alauni" "Halani" "Shoana" "Senty" "Zmbalani" "Sathisi" 
+	"Totrazi" "Ovseti" "Tsaerasanti" "Aelbeg" "Ardasen" "Bekkuyzar" 
+	"Geber" "Dzarehoh" "Dzeby" "Djerdji" "Guyrdzybe" "Zaendji" 
+	"Kaerkuys" "Djykkaj" "Tuallaeg" "Ovseti" "Digora" "Alagir"
+	"Ardon" "Tsimiti" "Beslan"
 }
