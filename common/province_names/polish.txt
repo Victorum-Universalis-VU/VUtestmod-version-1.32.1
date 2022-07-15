@@ -315,6 +315,7 @@
 3293 = "Semigalia"
 3301 = "Dobrohobuz"
 3302 = "Bachmut"
+3965 = "Starostwo Spiskie"
 3991 = "Aleksandreta"
 4115 = "Mozyrz"
 4117 = "Biezeck"

@@ -3,8 +3,7 @@
 owner = GRA
 controller = GRA
 add_core = GRA
-#culture = andalusi_culture
-culture = andalucian
+culture = andalusi_arabic
 religion = sunni
 capital = "Loja"
 base_tax = 1
@@ -20,6 +19,12 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
-
-#1444 on
+1490.6.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+} #Conquered soon before fall of Granada
+1502.1.1 = {
+	culture = andalucian
+	religion = catholic
+} #Arab presence deminishes under new rule

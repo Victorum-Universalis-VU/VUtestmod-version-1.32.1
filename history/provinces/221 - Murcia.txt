@@ -4,7 +4,6 @@ owner = CAS		# Juan II of Castille
 controller = CAS
 add_core = CAS
 add_core = MUR #BTB added: Castilian revolter tag.
-#culture = andalusi_culture
 culture = andalucian
 religion = catholic 
 hre = no
@@ -23,7 +22,8 @@ center_of_trade = 1
 extra_cost = 20
 
 
-1516.1.23 = {	controller = SPA
+1516.1.23 = {
+	controller = SPA
 	owner = SPA
 	add_core = SPA
 } # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille

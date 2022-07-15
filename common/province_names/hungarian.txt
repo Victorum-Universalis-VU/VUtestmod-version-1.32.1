@@ -138,6 +138,7 @@
 3001 = "Szkopje"
 3003 = "Euboia"
 3156 = { "Suceava" "Suceava" }
+3965 = "Sepes Megyei"
 4126 = "Bács"
 4127 = "Torda"
 4173 = "Szerém"

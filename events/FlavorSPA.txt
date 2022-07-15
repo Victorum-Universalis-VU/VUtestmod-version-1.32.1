@@ -2381,10 +2381,8 @@ country_event = {
 		}
 		every_owned_province = {
 			limit = {
-				#culture = andalusi_culture
-				culture = andalucian
+				culture = andalusi_arabic
 			}
-			#change_culture = andalusi_culture
 			change_culture = andalucian
 		}
 		#Repeat of effect from earlier persecutions:
