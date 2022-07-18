@@ -3,8 +3,8 @@
 owner = QAR
 controller = QAR
 add_core = QAR
-culture = al_iraqiya_arabic
-religion = sunni
+culture = mandaic
+religion = nestorian			#Temporary, shall be its own religion
 capital = "Qalat Sukar"
 trade_goods = olive_oil
 hre = no
@@ -66,3 +66,7 @@ discovered_by = nomad_group
 	controller = TUR
 	add_core = TUR
 }
+1800.1.1 = {
+	religion = sunni
+	culture = al_iraqiya_arabic
+} #Mandaic people become too insignificant minority
