@@ -352,7 +352,7 @@ severe_winter = {
 	
 	#VU Iceland additions by Robert.k
 	6127 6128 6135
-	4514 4515 4516 4518 4519 4520 5556 
+	4514 4515 4516 4518 4519 4520 4657 5556 
 	
 	#VU Russia additions by San Felipe
 	5705
