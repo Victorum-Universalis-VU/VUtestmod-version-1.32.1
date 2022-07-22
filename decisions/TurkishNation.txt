@@ -64,7 +64,7 @@ country_decisions = {
 			owns_core_province = 4312		# Eskeshehir
 		}
 		effect = {
-			change_tag = RUM
+			#change_tag = RUM
 			if = {
 				limit = {
 					NOT = { government = monarchy }
