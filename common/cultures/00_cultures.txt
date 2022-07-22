@@ -1438,12 +1438,12 @@ scandinavian = { #Nordic
 	}
 	#BtPLegacy Culture
 	gotlander = {
-            graphical_culture = westerngfx
+		graphical_culture = westerngfx
 		primary = GTA
 	}
 	#BtPLegacy Culture
 	faroese = {
-            graphical_culture = westerngfx
+		graphical_culture = westerngfx
 		male_names = {
 			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjörn Arngrimr Arni Arne Arnfast Asbjörn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Björn Beorn Bo Borkvard Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr Gudmund Gudröd Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming Holmger Hrafn Hrolfr Rolf Hrane Hæsteinn Hjalmar Hysing Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund Kjartan Klas Knut Kol Kolbjörn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr Ragnvald Skuli Skule Snorri Sigbjörn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten Sturla Styrbjörn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sæmundr Sämund Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjörn Torbjörn Þorfinn Torfinn Þorbrandr Torbrand Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf Vagn Valdemar Vladimir Åke Yngvar Ingvar Örvar Orvar Öysteinn Eysteinn Håkon Olav Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben Kasper Kennet Knut Ludvig Mikael Njåld Njord Oddmund Peder Rikard Simon Søren Tollak
 		}
@@ -1455,6 +1455,7 @@ scandinavian = { #Nordic
 		}
 	}
 	vinlandic = {	#Colonial Culture for Canada, Acadia and America
+		graphical_culture = westerngfx
 	}
 	male_names = {
 		Christian Christoph Oskar Adolf August Göran Sigismund Alfred Axel Edvard Gottfrid Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante Tomas Ulrik Albrikt Albert Alf Algot Anders Arne Arnfast Astrad Bengt Benedict Bertil Birger Björn Bo Borkvard Brage Bror Dag Dan Dyre Egil Einar Erik Eskild Faste Fredrik Frederick Filip Folke Georg Greger Gregory Gunnar Gustav Halsten Hans Harald Harold Helge Henrik Hjalmar Holmger Håkan Inge Ingemar Ingvar Edward Johan John Karl Klas Knut Lars Magnus Markus Marcus Mats Matthew Nils Nicholas Niklas Odd Olaf Peter Ragnar Rolf Ragnvald Sörkver Sigurd Starkad Sten Styrbjörn Sune Sven Sverker Sölve Thomas Tjudmund Toke Torbjörn Tord Torbrand Torkel Torolf Thorolf Torsten Toste Totil Tyke Ulf Valdemar Åke Östen 
@@ -2431,7 +2432,7 @@ iberian	= {
 		}
 	}
 	platinean = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		primary = LAP
 		dynasty_names = {
 			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
@@ -2462,7 +2463,7 @@ iberian	= {
 		}
 	}
 	leonese = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		primary = LON
 		dynasty_names = {
 			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
@@ -2492,7 +2493,7 @@ iberian	= {
 		}
 	}
 	aragonese = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		primary = ARA
 		dynasty_names = {
 			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
@@ -2518,7 +2519,7 @@ iberian	= {
 		}
 	}
 	brazilian = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		primary = BRZ
 		dynasty_names = {
 			"de Bragança" "de Camargo" "de Alburquerque" "de Vassouras" "de Noronha" "de Melo" 
@@ -2552,7 +2553,7 @@ iberian	= {
 		}
 	}
 	catalan = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		primary = CAT
 		dynasty_names = {
 			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
@@ -2574,8 +2575,38 @@ iberian	= {
 			Montserrat Núria Octàvia Prudència Roberta Rodolfa
 		}
 	}
+	andalucian = {		#Hispanic version of andalusian culture - iberian culture that emerged from reconquista with arabic influence
+		graphical_culture = latingfx
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			"Téllez-Girón" "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" "Ruspoli" "Lasso de la Vega" "de Hoyos" "Zayas" "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" "Osorio"
+			"Zúñiga" "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+		male_names = {
+			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar
+			Bernardo Bertrán Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo
+			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco
+			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil
+			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan
+			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono
+			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho
+			Suero Tello Vela Vela Suero Oveco John Enrique
+		}
+		female_names = {
+			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza
+			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine
+			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
+			Isabel
+		}
+	}
 	galician = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		primary = GAL
 		dynasty_names = {
 			Osorio Andrade
@@ -2597,7 +2628,7 @@ iberian	= {
 		}
 	}
 	katsila = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		dynasty_names = {
 			Osorio Andrade
 			#CK2
@@ -2619,7 +2650,7 @@ iberian	= {
 		}
 	}
 	portugese = {
-            graphical_culture = latingfx
+		graphical_culture = latingfx
 		primary = POR
 		dynasty_names = {
 			"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
@@ -3181,7 +3212,7 @@ west_slavic = {
 	graphical_culture = westerngfx
 
 	czech = {
-            graphical_culture = westerngfx
+		graphical_culture = westerngfx
 		primary = BOH
 		dynasty_names = {
 			"Jankovský z Vla?imi" Chotek Lichnowsky Lobkowicz Nostitz Kutscha 
@@ -3329,7 +3360,6 @@ west_slavic = {
 	#BtPLegacy Culture
 	kashubian_culture = {
 		graphical_culture = westerngfx
-		#primary = XXX
 	}
 	dynasty_names = {
 		Gryf Piast Jagiellon Wisniowiecki Sobieski Leszczynski 
@@ -3816,15 +3846,15 @@ byzantine = {
 	graphical_culture = greekgfx
 
 	greek = {
-            graphical_culture = greekgfx
+		graphical_culture = greekgfx
 		primary = GRE
 	}
 	pontic_greek = {
-            graphical_culture = greekgfx
+		graphical_culture = greekgfx
 		primary = TRE
 	}
 	goths = {
-            graphical_culture = easterngfx
+		graphical_culture = easterngfx
 		primary = FEO
 		dynasty_names = {
 			"of Gothia"
@@ -4573,9 +4603,9 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
 		}
 	}
-	andalucian = {
+	andalusi_arabic = {	#Arabic version of andalusian culture - basically arabs that lived in Iberia prior to reconquista
 		#primary culture of a Andalusian duchy tag (BTU Note: Potentially new Seville tag, SVL)
-        graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = GRA
 		dynasty_names = {
 			Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" Zayyanid
@@ -4597,31 +4627,6 @@ turko_semitic = { #Levantine -Draiocht changed to Arabic
 			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
 		}
 	}
-	#BtPLegacy Culture
-	#andalusi_culture = {
-	#    graphical_culture = persiangfx
-	#	primary = GRA
-	#	dynasty_names = {
-	#		Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" Zayyanid
-	#	}
-	#	male_names = {
-	#		Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
-	#		Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-	#		Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-	#		Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-	#		Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-	#		Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-	#		Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-	#		Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-	#		Ya'far Yahaff Yahya John Yusuf Joseph
-	#	}
-	#	female_names = {
-	#		Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-	#		Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-	#		Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
-	#	}
-	#}
-	#BtPLegacy Culture
 	syriac_culture = {
 		graphical_culture = muslimgfx
 		primary = LEB			#Imperfect, but calling the Lebanon tag a Syriac tag, for now. May come back later with a proper Christian -Marionite or ER Orthodox- tag and make lebanon a druze tag, or something
@@ -4751,8 +4756,8 @@ iranian	= {
 		}
 	}
 	#ME additions by San Felipe
-	khwarezmians = {
-	    graphical_culture = persiangfx
+	khwarezmian = {
+		graphical_culture = persiangfx
 		primary = KHI
 		dynasty_names = {
 			"Arabshahid" "Qungrat" "Bayan Arslan" "Mongke Cheren" "Mongke Bayar" "Suren Chinua" "Oyugun Nasan"
@@ -4772,8 +4777,8 @@ iranian	= {
 			Hooda Malaika Munira Rabiya Rafiqa Ksyusha Sabina Zarina Hatyra Gulnaza Selbi Aziza Jeren Zeynab Myahri
 		}
 	}
-	tajiks = {
-	    graphical_culture = persiangfx
+	tajik = {
+		graphical_culture = persiangfx
 		primary = SHY
 		male_names = {
 			Abdul-Aziz Abdul-Karim Abdul-Mumin Abdul-Rahim Abdulla Abu Said Abu'l-Feiz Abu'l-Ghazi Abu'l-Khayr 
@@ -4790,7 +4795,7 @@ iranian	= {
 		}
 	}
 	al_iraqiya_arabic_PER = { #Mashriqi Arab
-	    graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = IRQ
 		dynasty_names = {
 			"Saadun" "Jalili" "Hasanid" "Sabah" Javid
@@ -4808,7 +4813,7 @@ iranian	= {
 		}
 	}
 	dagestani_PER = {
-	    graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = GAZ
 		dynasty_names = {
 			Shamkhal Kumukh
@@ -4824,7 +4829,7 @@ iranian	= {
 	}
 	#END of ME additions by San Felipe
 	luri = {
-        graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = LRI
 		dynasty_names = { 
 			Khorshidi Bakhtiari Jangardi "Banu Hussayn" Charlang Haftlang
@@ -4878,7 +4883,7 @@ iranian	= {
 		}
 	}
 	khorasani = {
-            graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = KHO
 		male_names = {
 			Abû Sa'îd Bâbur Badî al-Zamân Husayn Bâyqarâ Abu al-Qasim Mahmûd Shâh Rukh Ulugh Beg 'Abbas 'Abd 
@@ -4893,7 +4898,7 @@ iranian	= {
 		}
 	}
 	baluchi = {
-            graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = BAL
 		dynasty_names = {
 			Rind Lashari Kambarani Mirwari Jamot Bugti Zikri Ghilzai Barakzay
@@ -4956,8 +4961,8 @@ iranian	= {
 			?êlaz ?îlan ?înî ?îwen
 		}
 	}
-	afghani= {
-            graphical_culture = persiangfx
+	afghani = {
+		graphical_culture = persiangfx
 		primary = AFG
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
@@ -5014,7 +5019,7 @@ iranian	= {
 		}
 	}
 	kurdish = {
-            graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = ARD
 		dynasty_names = { 
 			Hazaraspid Soran Justanid Bozorg Ardalan Bukhti Ferozkohi Feyli Gewirk Rekani
@@ -5068,7 +5073,7 @@ iranian	= {
 		}
 	}
 	mazandarani = {
-            graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		primary = TAB
 		male_names = {
 			Bisutun "Adud ud-Dawlah" Kayumarth "Bakir Almaluf" "Kai-Ka'us" Jahangir Aziz "Sa'ad ud-Dawlah" Bahman
@@ -5082,7 +5087,7 @@ iranian	= {
 		}
 	}
 	alan = {
-            graphical_culture = persiangfx
+		graphical_culture = persiangfx
 		male_names = {
 			Aelbeg Aembalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot Aslan Aspar Athom Balambar Balsag Barlah Baeqaetar Basil Bazuk Beler Ber Biraeg Boz-Uruz Buürgur Buriberdi
 			Burikhan Candak Chelakhsartag Davit Djadaron Durgulel Dzaeraes Gaetaeg Georgy Girgon Gokhar Gubaz Guram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
@@ -12949,7 +12954,7 @@ mesopotamian_group = {
 	assyrian = {
 		dynasty_names = {
 			Shalmaneser "Ashur-dan" "Ashur-nirari" "Adad-nirari" Ashurnasirpal Tukurti Ninurtal "Ashur-uballit" "Enlil-nirar" "Puzur-ashur" "Shalim-ahum" "Ilu-shuma"
-			Ikunum Sargon Erishum
+			"Ikunum" "Sargon" "Erishum" "Puzur-Ashur"  "Shamshi-Adad"  "Amorite" "Adaside" "Sargonid"
 		}
 		male_names = {
 			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
@@ -12970,6 +12975,20 @@ mesopotamian_group = {
 		male_names = {
 			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
 			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
+	mandaic = {
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid
+			Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram
 			Paltibaal Philosir
 		}
 		female_names = {
@@ -13398,27 +13417,27 @@ brythonic = {
 			Trifine Tristana Uriell Seva Perenn Meonre Ilcum Guigoëdon Drichglur Berthildis Argantmoet
 		}
 	}
-	#cornish = {
-	#	graphical_culture = westerngfx
-	#	primary = CRN
-	#	dynasty_names = {
-	#		Kernew "of Cornwall" Penrose Trevelyan Bolitho Kernow Nance Nancarrow Chegwin Nancekivell Chenoweth
-	#		Menhenick Teague Trelawny Trewin Tremayne
-	#	}
-	#	male_names = {
-	#		Arthek Arthyen Austol Benesek Branok Brioc Cadan Cador Carantok Casek Casworon Clemo Clesek Corentyn
-	#		Costentyn De Day Edern Enyon Gerens Gerren Goron Gryffyn Gwalather Hedrek Hedrok Jago Jory Jowan Kenal
-	#		Keneder Kenver Kitto Locryn Lowen Madern Massen Meryasek Peran Perran Piran Pasco Pascow Rewan Ruan Ruman
-	#		Santo Treeve Treave
-	#	}
-	#	female_names = {
-	#		Beaten Bennath Berlewen Bersaba Beryan Bryluen Caja Chesten Conwenna Delen Demelza Derowen Derwa
-	#		Doryty Ebrel Elestren Elowen Emblyn Endelyn Eseld Ewella Glanna Gwennol Hedra Ia Jenifry Jenifer
-	#		Jowanet Kelynen Kensa Kerensa Keresen Kerezen Kerra Lamorna Lowdy Lowena Mabyn Melder Melwyn Melyonen
-	#		Melyonen Meliora Merouda Morwenna Nessa Pasca Peswera Rosen Rosenwyn Senara Sowenna Splanna Steren Talwyn
-	#		Tamsyn Tegen Tregereth Tressa Trueth Wenna Ysella
-	#	}
-	#}
+	cornish_br = {
+		graphical_culture = westerngfx
+		#primary = CRN
+		dynasty_names = {
+			Kernew "of Cornwall" Penrose Trevelyan Bolitho Kernow Nance Nancarrow Chegwin Nancekivell Chenoweth
+			Menhenick Teague Trelawny Trewin Tremayne
+		}
+		male_names = {
+			Arthek Arthyen Austol Benesek Branok Brioc Cadan Cador Carantok Casek Casworon Clemo Clesek Corentyn
+			Costentyn De Day Edern Enyon Gerens Gerren Goron Gryffyn Gwalather Hedrek Hedrok Jago Jory Jowan Kenal
+			Keneder Kenver Kitto Locryn Lowen Madern Massen Meryasek Peran Perran Piran Pasco Pascow Rewan Ruan Ruman
+			Santo Treeve Treave
+		}
+		female_names = {
+			Beaten Bennath Berlewen Bersaba Beryan Bryluen Caja Chesten Conwenna Delen Demelza Derowen Derwa
+			Doryty Ebrel Elestren Elowen Emblyn Endelyn Eseld Ewella Glanna Gwennol Hedra Ia Jenifry Jenifer
+			Jowanet Kelynen Kensa Kerensa Keresen Kerezen Kerra Lamorna Lowdy Lowena Mabyn Melder Melwyn Melyonen
+			Melyonen Meliora Merouda Morwenna Nessa Pasca Peswera Rosen Rosenwyn Senara Sowenna Splanna Steren Talwyn
+			Tamsyn Tegen Tregereth Tressa Trueth Wenna Ysella
+		}
+	}
 }
 
 berber_group = {

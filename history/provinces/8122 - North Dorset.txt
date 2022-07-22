@@ -20,6 +20,7 @@ trade_goods = copper
 
 #Cores and Occupation (Alphabetical after current)
 add_core = ENG
+add_core = CRN
 
 #Other Political
 hre = no

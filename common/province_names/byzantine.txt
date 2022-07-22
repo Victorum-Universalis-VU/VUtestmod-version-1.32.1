@@ -417,6 +417,8 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3963 = { "Kasra" "Kasra" }
+3964 = { "Basie" "Qasr Basie" } #Azraq
 3966 = { "Sophene" "Sophene Minor" } #Dersim
 3967 = { "Kamacha" "Kamacha" }
 3968 = { "Neocaesarea" "Neocaesarea" }

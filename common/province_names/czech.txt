@@ -316,6 +316,7 @@
 2982 = "Syrakusy"
 2995 = "Slupsk"
 3156 = { "Suceava" "Suceava" }
+3965 = "Spiské Starostovo"
 4020 = "Komory"
 4124 = "Karélie"
 4238 = "Lehnice"

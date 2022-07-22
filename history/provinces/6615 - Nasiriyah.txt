@@ -3,8 +3,8 @@
 owner = MSY
 controller = MSY
 add_core = MSY
-culture = al_iraqiya_arabic
-religion = sunni
+culture = mandaic
+religion = nestorian		#Temporary, should be its own religion
 capital = "Nasiriyah"
 trade_goods = gunpowder
 hre = no
@@ -53,3 +53,7 @@ discovered_by = nomad_group
 	controller = TUR
 	add_core = TUR
 }
+1700.1.1 = {
+	religion = sunni
+	culture = al_iraqiya_arabic
+} #Mandaic people fade away

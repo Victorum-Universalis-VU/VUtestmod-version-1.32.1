@@ -28,16 +28,13 @@ discovered_by = east_african
 discovered_by = eastern
 
 1411.1.1 = {
-	owner = QAR
-	controller = QAR
-	add_core = QAR
-	remove_core = MAM
-	add_claim = MAM
-} # The Qara Koyunlu
-1469.2.4 = {
 	owner = AKK
 	controller = AKK
 	add_core = AKK
+	remove_core = MAM
+	add_claim = MAM
+} # The Aq-Qoyunlu extends its borders to roughly this area
+1469.2.4 = {
 	remove_core = QAR
 }
 1501.1.1 = {

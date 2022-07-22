@@ -533,7 +533,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3990;3988;sea;3989;-1;-1;-1;-1;Al Sukhnah-Resafa
 7456;7457;sea;3989;-1;-1;-1;-1;Al Bukamal-Safawi
 7457;381;sea;8738;-1;-1;-1;-1;Safawi-Ajloun
-7458;381;sea;3980;-1;-1;-1;-1;Al Qurayyat-Ajloun
+3964;381;sea;3980;-1;-1;-1;-1;Azraq-Ajloun
 7455;5548;sea;2334;-1;-1;-1;-1;Rutba-Al Jibab
+7455;3963;sea;2334;-1;-1;-1;-1;Rutba-Kasrah
+3963;409;sea;2334;-1;-1;-1;-1;Kasrah-Karbala
 
 -1;-1;;-1;-1;-1;-1;-1;-1;

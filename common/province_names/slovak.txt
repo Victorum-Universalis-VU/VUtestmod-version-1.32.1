@@ -11,5 +11,6 @@
 1772 = "Nitra"
 1953 = "Debrecín"
 2327 = { "Magna" "Magna" }
+3965 = "Spiské Starostovo"
 4125 = "Solník"
 4173 = "Sriem"

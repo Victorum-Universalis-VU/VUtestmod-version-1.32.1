@@ -3,7 +3,8 @@
 owner = ENG
 controller = ENG
 add_core = ENG
-culture = cornish
+add_core = CRN
+culture = cornish_br
 religion = catholic
 hre = no
 base_tax = 2 

@@ -1,6 +1,6 @@
 #7458 - Al-Qurayyat
 
-culture = al_suryah_arabic
+culture = bedouin_arabic
 religion = sunni
 capital = "Al-Qurayyat"			
 trade_goods = unknown

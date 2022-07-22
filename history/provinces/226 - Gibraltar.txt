@@ -5,8 +5,7 @@
 owner = GRA		# Mustapha Sa'd King of Granada
 controller = GRA
 add_core = GRA
-#culture = andalusi_culture
-culture = andalucian
+culture = andalusi_arabic
 religion = sunni
 hre = no
 base_tax = 1 
@@ -39,7 +38,11 @@ add_permanent_province_modifier = {
 
 1462.1.1 = { owner = CAS controller = CAS add_core = CAS } # Conquest of Gibraltar by King Enrique of Castilla
 1499.12.1 = { unrest = 2 } # The Inquisition forces Spanish muslims to convert back to Christianity. Occasional revolts occur.
-1502.2.1 = { unrest = 0 religion = catholic } # New capitulations where all the subjects of Granada are baptised and fully incorporated into the legal system of Castilla
+1502.2.1 = { 
+	unrest = 0 
+	religion = catholic 
+	culture = andalucian
+} # New capitulations where all the subjects of Granada are baptised and fully incorporated into the legal system of Castilla
 1516.1.23 = {
 	controller = SPA
 	owner = SPA
@@ -54,4 +57,3 @@ add_permanent_province_modifier = {
 	remove_core = CAS
 } # Treaty of Utrecht
 1720.1.1 = { fort_18th = yes }
-

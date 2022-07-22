@@ -2,7 +2,8 @@
 
 owner = AVR
 controller = AVR
-culture = dagestani
+#culture = dagestani
+culture = avar
 religion = shiite
 capital = "Khunzakh"
 trade_goods = iron
