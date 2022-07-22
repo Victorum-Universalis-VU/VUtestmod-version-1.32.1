@@ -2018,7 +2018,7 @@ alpaca_wool = {
 }
 
 indigo = {
-	color = { 0.65 0.18 0.60 }
+	color = { 49 92 242 }
 	modifier = {
 	prestige = 1
 	}

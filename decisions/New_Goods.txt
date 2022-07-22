@@ -2057,7 +2057,7 @@ country_decisions = {
 									province_id = 516
 									province_id = 521
 									province_id = 2047
-								    province_id = 526
+									province_id = 526
 								}
 							}
 							
