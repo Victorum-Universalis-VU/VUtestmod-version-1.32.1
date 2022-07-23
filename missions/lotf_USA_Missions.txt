@@ -784,7 +784,7 @@ USA_missions_4 = {
 			central_rockies_area = { owned_by = ROOT is_city = yes type = all }
 			oregon_area = { owned_by = ROOT is_city = yes type = all }
 			utah_area = { owned_by = ROOT is_city = yes type = all }
-			salish_sea_area { owned_by = ROOT is_city = yes type = all }
+			salish_sea_area = { owned_by = ROOT is_city = yes type = all }
 		}
 		effect = {
 			custom_tooltip = cross_rockies_tt
@@ -942,8 +942,8 @@ USA_missions_5 = {
 		}
 		trigger = { 
 			appalachia_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
-			carolinas_area { owned_by = ROOT is_city = yes is_state = yes type = all }
-			choctaw_area { owned_by = ROOT is_city = yes is_state = yes type = all }
+			carolinas_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
+			choctaw_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 			kentucky_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 		}
 		effect = {
@@ -992,8 +992,8 @@ USA_missions_5 = {
 		trigger = { 
 			american_georgia_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 			upper_american_georgia_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
-			alabama_area { owned_by = ROOT is_city = yes is_state = yes type = all }
-			florida_area { owned_by = ROOT is_city = yes is_state = yes type = all }
+			alabama_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
+			florida_area = { owned_by = ROOT is_city = yes is_state = yes type = all }
 		}
 		effect = {
 			custom_tooltip = blank_space
