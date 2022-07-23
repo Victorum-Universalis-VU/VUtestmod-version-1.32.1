@@ -1262,7 +1262,7 @@ venetian_arsenal = {
         }
 
         area_modifier = {
-			local_sailors_modifier = 0.2
+			local_sailors_modifier = 0.15
 			hostile_fleet_attrition = 2
         }
 
@@ -1294,6 +1294,7 @@ venetian_arsenal = {
         area_modifier = {
 			local_unrest = 3
 			hostile_fleet_attrition = 3
+			local_sailors_modifier = 0.2
         }
 
         country_modifiers = {
@@ -3615,7 +3616,10 @@ universidad_de_salamanca = {
     type = monument
 
     build_trigger = {
-        culture_group = iberian
+		OR = {
+      			culture_group = iberian
+			culture = andalusi_arabic
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -3629,7 +3633,10 @@ universidad_de_salamanca = {
     }
 
     can_use_modifiers_trigger = {
-        culture_group = iberian
+        	OR = {
+      			culture_group = iberian
+			culture = andalusi_arabic
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -3637,7 +3644,10 @@ universidad_de_salamanca = {
     }
 
     can_upgrade_trigger = {
-		culture_group = iberian
+		OR = {
+      			culture_group = iberian
+			culture = andalusi_arabic
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -8910,17 +8920,17 @@ alcazar_de_seville = {
     
     type = monument
 
-    build_trigger = {
-        OR = {
+	build_trigger = {
+		OR = {
 			culture_group = iberian
-			#culture = andalusi_culture
+			culture = andalusi_arabic
 			culture = andalucian
 		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
 		}		
-    }
+	}
 
     on_built = {
     }
@@ -8931,7 +8941,7 @@ alcazar_de_seville = {
     can_use_modifiers_trigger = {
 	    OR = {
 			culture_group = iberian
-			#culture = andalusi_culture
+			culture = andalusi_arabic
 			culture = andalucian
 		}
 		OR = {
@@ -8944,7 +8954,7 @@ alcazar_de_seville = {
 	    is_year = 1509
 		OR = {
 			culture_group = iberian
-			#culture = andalusi_culture
+			culture = andalusi_arabic
 			culture = andalucian
 		}
 		OR = {

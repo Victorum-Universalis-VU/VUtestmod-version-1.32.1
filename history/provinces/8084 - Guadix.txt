@@ -3,8 +3,7 @@
 owner = GRA
 controller = GRA
 add_core = GRA
-#culture = andalusi_culture
-culture = andalucian
+culture = andalusi_arabic
 religion = sunni
 capital = "Guadix"
 base_tax = 2
@@ -20,6 +19,10 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
-
-#1444 on
+1489.6.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+} #Conquered
+1495.1.1 = { religion = catholic }
+1500.1.1 = { culture = andalucian } #Arab presence deminishes

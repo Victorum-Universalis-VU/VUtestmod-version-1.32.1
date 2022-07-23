@@ -12,7 +12,8 @@ base_manpower = 2
 capital = "Kremenets"
 is_city = yes
 add_core = VOL
-add_core = LIT			# Disputed territory with Lithuania since first union in 1385
+#add_core = LIT			# Disputed territory with Lithuania since first union in 1385
+add_claim = LIT			# Going for just claim, to reduce big opinion penalties
 add_core = POL
 add_local_autonomy = 15
 

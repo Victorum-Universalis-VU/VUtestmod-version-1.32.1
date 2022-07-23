@@ -102,9 +102,7 @@ gme_bishop_palace = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -116,9 +114,7 @@ gme_bishop_palace = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -220,9 +216,7 @@ gme_bruges_city_centre = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -232,9 +226,7 @@ gme_bruges_city_centre = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -435,9 +427,7 @@ gme_grote_raad_mechelen = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -448,9 +438,7 @@ gme_grote_raad_mechelen = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -597,9 +585,7 @@ gme_het_gravensteen = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -609,9 +595,7 @@ gme_het_gravensteen = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -693,9 +677,7 @@ gme_kasteel_de_haar = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -705,9 +687,7 @@ gme_kasteel_de_haar = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -794,9 +774,7 @@ gme_leiden_university = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -808,9 +786,7 @@ gme_leiden_university = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -924,7 +900,7 @@ gme_leiden_university = {
 	}
 }
 gme_old_leuven_university = {
-	start = 92
+	start = 4347		#Leuven province itself
 	date = 1.01.01
 	time = { months = 0 }
 	build_cost = 1000
@@ -940,9 +916,7 @@ gme_old_leuven_university = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -954,9 +928,7 @@ gme_old_leuven_university = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -1045,9 +1017,7 @@ gme_paleis_koudenberg = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -1058,9 +1028,7 @@ gme_paleis_koudenberg = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -1208,9 +1176,7 @@ gme_sint_pietersabdij = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -1222,9 +1188,7 @@ gme_sint_pietersabdij = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}

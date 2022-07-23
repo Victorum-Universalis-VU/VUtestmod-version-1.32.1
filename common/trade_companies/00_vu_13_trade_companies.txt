@@ -265,7 +265,7 @@ trade_company_jordan = { #Mandate of Trans-Jordan
 	color = { 125 88 22 }
 	
 	provinces = {
-		380 381 2328 3974 4270 7452 7457
+		380 381 2328 3964 3974 4270 7452 7457
 	}
 	
 	# Specific

@@ -3,8 +3,7 @@
 owner = GRA
 controller = GRA
 add_core = GRA
-#culture = andalusi_culture
-culture = andalucian
+culture = andalusi_arabic
 religion = sunni
 capital = "Huéscar"
 base_tax = 1
@@ -26,8 +25,6 @@ discovered_by = eastern
 	owner = CAS
 	controller = CAS
 	add_core = CAS
-	#culture = andalusi_culture
-	culture = andalucian
 	religion = catholic
 }	#Reconquista
-#1444 on
+1492.6.1 = { culture = andalucian } #Granada fails, arab presence deminishes

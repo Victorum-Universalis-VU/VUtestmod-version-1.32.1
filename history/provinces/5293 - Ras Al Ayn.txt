@@ -1,8 +1,8 @@
 #New Province
 
-owner = QAR
-controller = QAR
-add_core = QAR
+owner = AKK
+controller = AKK
+add_core = AKK				#Aq-Qoyunlu border reached roughly this down the Euphrates
 capital = "Res Ayna"			#Syriac version
 culture = syriac_culture
 religion = sunni

@@ -13,7 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = HUN
 add_core = UHU
-add_core = POL
+#add_core = POL #moved to separate province
 add_core = SLO
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
