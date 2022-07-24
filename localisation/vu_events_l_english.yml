@@ -259,6 +259,13 @@
  vu_mission_events.3.t:0 "Khaganate of Avaria rises again"
  vu_mission_events.3.d:0 "Khaganate of Avaria has once again been restored by quickly-expanding groups of Caucasian Avars. This horde-like state, which originally settled Pannonian Basin, has been crushed over 650 years ago. Now new hordes of Avar warriors that united their Caucasian lands are seeking a return the the old days of glory. One thing is known, it is a real threat and soon european powers will have to deal with nomads' ambitions."
  vu_mission_events.3.a:0 "Great Khaganate shall once again conquer its way"
+ vu_mission_events.4.t:0 "Future of the Cossack Host"
+ vu_mission_events.4.d:0 "Our horde in its rapid expansion has secured the lands on both banks of Lower Dnieper. Those lands are home territory to Cossacks - fearsome slavic warriors living off the steppe. Cossacks have been known for their strength and countless raids on foreign territory. While they may be excellent allies, they definetely will not accept being put under yoke and will likely demand great autonomy. Now that their lands are under our control, what shall be the future of the Cossack Host?"
+ vu_mission_events.4.a:0 "Raze it to the ground"
+ vu_mission_events.4.tooltip:0 "We will dismantle Cossack Host and raise the steppe to the ground. Every province with Cossack culture will be leveled to the ground and the loot will be transfered to us. Some of our men will settle depopulated area. We will gain power from razing but remaining locals will be extremely rebellious."
+ vu_mission_events.4.b:0 "Liquidate Cossack Host by forcing them to join the army"
+ vu_mission_events.4.c:0 "Reestablish autonomous Cossack Host"
+ vu_mission_events.4.tooltip2:0 "We will continue the Cossack Host and allow them to stay at their territory. We will gain Cossack support in our army at the cost of pre-agreed 20 years of self-governance, during which cossack land will have little use for us."
  #Events buffing reformation
  vu_reformation.1.t:0 "Reformation mass spreads to Scandinavia"
  vu_reformation.1.d:0 "Ideas of reformation and religious changes that has started in Germany are breaching out. Scandinavia is one of regions where newly found ideas are quickly accepted. As the news spread, more and more Nordic people begin adopting reformed doctrine. Since it fits well with Nordic culture, there is little that one can do to stop it... at least for now. While more people move there to seek shelter or preach about new ideas, we can only watch as the whole region sweeps out of control from corrupt Papacy and bishops. Truly turbulent times are ahead for this Peninsula."

@@ -369,3 +369,121 @@ country_event = { #5 Avarian Khaganate is reborn
 		}
 	}
 }
+
+country_event = { #6 Liquidation of Cossack Host
+	id = vu_mission_events.4
+	title = vu_mission_events.4.t
+	desc = vu_mission_events.4.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = { #Raze the land to the ground
+		name = vu_mission_events.4.a
+		custom_tooltip = vu_mission_events.4.tooltip
+		add_horde_unity = 10
+		hidden_effect = {
+			every_owned_province = {
+				limit = { culture = cossack }
+				set_base_tax = 1
+				set_base_production = 1
+				set_base_manpower = 1
+				add_devastation = 80
+			}
+		}
+		add_manpower = 2
+		add_years_of_income = 1
+		add_adm_power = 75
+		add_dip_power = 75
+		add_mil_power = 75
+		2406 = { change_culture = ROOT }
+		3243 = { change_culture = ROOT }
+		2411 = { change_culture = ROOT }
+		hidden_effect = {
+			every_owned_province = {
+				limit = { culture = cossack }
+				add_province_modifier = { 
+					name = vu_ravaged_cossacks
+					duration = 5000
+					hidden = no
+				}
+			}
+		}
+	}
+	
+	option = { #Force cossacks to join the army and liquidate host
+		name = vu_mission_events.4.b
+		add_horde_unity = 10
+		hidden_effect = {
+			every_owned_province = {
+				limit = { culture = cossack }
+				set_base_tax = 1
+				set_base_production = 1
+				set_base_manpower = 1
+			}
+		}
+		add_manpower = 10
+		add_army_tradition = 15
+		add_army_professionalism = 0.05
+		add_adm_power = 25
+		add_dip_power = 25
+		add_mil_power = 25
+		2406 = { change_culture = ROOT }
+		3243 = { change_culture = ROOT }
+		hidden_effect = {
+			every_owned_province = {
+				limit = { culture = cossack }
+				add_province_modifier = { 
+					name = vu_ravaged_cossacks
+					duration = 3650
+					hidden = no
+				}
+			}
+		}
+		add_country_modifier = { 
+			name = vu_cossack_help
+			duration = 7300
+			hidden = no
+		}
+		2411 = {
+			cavalry = ROOT
+		}
+		2411 = {
+			cavalry = ROOT
+		}
+		2411 = {
+			cavalry = ROOT
+		}
+	}
+	
+	option = { #Keep the Cossack host
+		name = vu_mission_events.4.c
+		custom_tooltip = vu_mission_events.4.tooltip2
+		add_manpower = 2
+		add_army_tradition = 5
+		hidden_effect = {
+			every_owned_province = {
+				limit = { culture = cossack }
+				add_province_modifier = { 
+					name = vu_cossack_host
+					duration = 7300
+					hidden = no
+				}
+				add_local_autonomy = 75
+			}
+		}
+		2411 = {
+			cavalry = ROOT
+		}
+		2411 = {
+			cavalry = ROOT
+		}
+		2411 = {
+			cavalry = ROOT
+		}
+	}
+}
