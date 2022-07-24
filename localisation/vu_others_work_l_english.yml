@@ -2266,6 +2266,28 @@
  
  PHI:0 "Philippines"
  PHI_ADJ:0 "Filipino"
+ 
+ #Japanese infantry units missing locs
+ japanese_spearmen:0 "Japanese Spearmen"
+ japanese_longspear:0 "Japanese Longspear"
+ japanese_foot_samurai:0 "Japanese Foot Samurai"
+ japanese_arquebusier:0 "Japanese Banner"
+ japanese_banner:0 "Japanese Arquebusier"
+ japanese_mass_infantry:0 "Japanese Musketeer"
+ japanese_musketeer:0 "Japanese Rifle Infantry"
+ reformed_japanese_musketeer:0 "Japanese Line Infantry"
+ emperors_guard:0 "Emperors Guard"
+ 
+ #Japanese cavalry units missing locs
+ japanese_skrimish_cavalry:0 "Japanese Skirmish Cavalry"
+ japanese_horse_archer:0 "Japanese Horse Archer"
+ japanese_warrior_monk:0 "Japanese Warrior Monk"
+ japanese_warrior_monk_archer:0 "Japanese Warrior Monk Archer"
+ japanese_charge_cavalry:0 "Japanese Charge Cavalry"
+ japanese_banner_cavalry:0 "Japanese Banner Cavalry"
+ japanese_dragoon:0 "Japanese Dragoon"
+ reformed_japanese_cavalry:0 "Reformed Japanese Cavalry"
+ reformed_japanese_rifle:0 "Japanese Rifle Cavalry"
 
  #################################################################################
  #################################################################################
