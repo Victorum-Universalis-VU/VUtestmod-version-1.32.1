@@ -266,6 +266,13 @@
  vu_mission_events.4.b:0 "Liquidate Cossack Host by forcing them to join the army"
  vu_mission_events.4.c:0 "Reestablish autonomous Cossack Host"
  vu_mission_events.4.tooltip2:0 "We will continue the Cossack Host and allow them to stay at their territory. We will gain Cossack support in our army at the cost of pre-agreed 20 years of self-governance, during which cossack land will have little use for us."
+ vu_mission_events.5.t:0 "Avar intentions towards Europe"
+ vu_mission_events.5.d:0 "With Carpathian basin standing right on our doorsteps, our men can no longer wait but to ask if at this point it's better to just declare invasion for the whole region like the mighty Avar Khaganate nomads once did ages ago. Do we fear the Europeans or is our pride larger? Shall the old days come back?"
+ vu_mission_events.5.a:0 "This is full-scale horde invasion into Europe"
+ vu_mission_events.5.tooltip:0 "We will declare full-scale invasion on Carpathia Region and possibly beyond. While this will give our people savageous fervor, it will massively worry all the European powers who will learn about our intentions. Every European countries that are not our ally and border us, will get -100 relation modifier. All other European nations will get -50 opinion with us."
+ vu_mission_events.5.b:0 "Calm down, we are only here for Carpathian Basin"
+ vu_mission_events.5.tooltip2:0 "We will declare limited invasion with intent to conquer only Carpathian Basin. While less severe, this will greatly upset nations that lie there and give overall -50 opinion modifer to all European nations that are not our Allies."
+ vu_mission_events.5.c:0 "We are civilized. We will get there slowly."
  #Events buffing reformation
  vu_reformation.1.t:0 "Reformation mass spreads to Scandinavia"
  vu_reformation.1.d:0 "Ideas of reformation and religious changes that has started in Germany are breaching out. Scandinavia is one of regions where newly found ideas are quickly accepted. As the news spread, more and more Nordic people begin adopting reformed doctrine. Since it fits well with Nordic culture, there is little that one can do to stop it... at least for now. While more people move there to seek shelter or preach about new ideas, we can only watch as the whole region sweeps out of control from corrupt Papacy and bishops. Truly turbulent times are ahead for this Peninsula."

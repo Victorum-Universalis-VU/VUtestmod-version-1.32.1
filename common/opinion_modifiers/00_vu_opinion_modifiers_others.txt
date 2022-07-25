@@ -130,6 +130,16 @@ vu_captured_east_rome = {
 	yearly_decay = 3
 }
 
+avar_direct_invasion = {
+	opinion = -100
+	yearly_decay = 4
+}
+
+avar_invasion_worry = {
+	opinion = -50
+	yearly_decay = 2
+}
+
 ############################
 # GE - Jay Double U's work #
 ############################
