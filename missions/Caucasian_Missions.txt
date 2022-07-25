@@ -1283,6 +1283,56 @@ caucasus_missions_3_avaria = {
 			}
 		}
 	}
+	
+	avaria_reach_moldavia = {
+		icon = mission_cossack_cavalry
+		required_missions = { 
+			avaria_cross_dnieper
+		}
+		position = 11
+		
+		provinces_to_highlight = {
+			OR = {
+				area = moldavia_area
+				area = western_moldovia
+			}
+		}
+		
+		trigger = {
+			moldavia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			western_moldovia = {
+				type = all
+				owned_by = ROOT
+			}
+			NOT = { exists = MOL }
+			NOT = { exists = RMN }
+		}
+		effect = {
+			3156 = { add_permanent_claim = ROOT }
+			7274 = { add_permanent_claim = ROOT }
+			8737 = { add_permanent_claim = ROOT }
+			7275 = { add_permanent_claim = ROOT }
+			wallachia_area = {
+				add_permanent_claim = ROOT
+			}
+			upper_muntenia_area = {
+				add_permanent_claim = ROOT
+			}
+			oltenia_area = {
+				add_permanent_claim = ROOT
+			}
+			southern_transylvania_area = {
+				add_permanent_claim = ROOT
+			}
+			country_event = {
+				id = vu_mission_events.5
+				days = 1
+			}
+		}
+	}
 }
 
 caucasus_missions_4_avaria = {

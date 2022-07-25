@@ -1214,6 +1214,12 @@
  desc_vu_cossack_host:0 ""
  vu_cossack_help:0 "Cossacks in the Army"
  desc_vu_cossack_help:0 "Presence of Cossack reinforcements and military leaders improves the performance of out cavalry units."
+ vu_avar_invasion_1:0 "Full-scale Avar Invasion"
+ desc_vu_avar_invasion_1:0 ""
+ vu_avar_invasion_2:0 "Modest Avar Invasion"
+ desc_vu_avar_invasion_2:0 ""
+ vu_avar_invasion_3:0 "Slow Approach for our Goals"
+ desc_vu_avar_invasion_3:0 ""
  vu_norse_pagan_unhappy:0 "Norse Resistane"
  dsc_vu_norse_pagan_unhappy:0 "Demands and needs of local norse communities were not met and now the area is openly rebelious against the overlord."
  vu_norse_pagan_satisfied:0 "Satisfied Norse Demands"
@@ -1302,6 +1308,8 @@
  
  turned_norse_pagan:0 "Returned to norse paganism"
  vu_captured_east_rome:0 "Siezed Eastern Rome"
+ avar_direct_invasion:0 "In direct worry for Avar invasion"
+ avar_invasion_worry:0 "Worried of Avar invasion"
 
 
 
@@ -1858,6 +1866,8 @@
  avaria_pacify_rus_title:0 "Pacify Rus"
  avaria_pacify_rus_desc:0 "Launch punitive invasion on Russian lands in order to aquire loot and ensure no threat from the North during our future missions in Europe. Our main war target is plundering Moscow to show russian people who is true warrior and that they should not question our might."
  avaria_pacify_rus.tooltip:0 "We will burn City of Moscow to the ground including Kremlin. This will be major morality and sanity kick for our enemy. Besides bringing us their riches, it will be show of strenght to all our war enemies."
+ avaria_reach_moldavia_title:0 "Break Into Moldavia"
+ avaria_reach_moldavia_desc:0 "Our incursion into developed Europe has begun. First target is Moldavia. We must sieze the entry to Carpathian Basin."
  
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later
