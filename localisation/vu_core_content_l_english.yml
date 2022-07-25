@@ -1206,6 +1206,14 @@
  desc_vu_modernized_nation_1:0 "Our nation is undergoing a process of modernization, and increased technological and cultural advancements."
  avaria_independence_effort:0 "Avarian Independence Effort"
  desc_avaria_independence_effort:0 ""
+ vu_rising_border_unrest:0 "Projected Border Unrest"
+ desc_vu_rising_border_unrest:0 "Strong border and stationing hosts of neighboring country exorts tension on our population."
+ vu_ravaged_cossacks:0 "Ravaged Cossack Land"
+ desc_vu_ravaged_cossacks:0 ""
+ vu_cossack_host:0 "Strong Cossack Host"
+ desc_vu_cossack_host:0 ""
+ vu_cossack_help:0 "Cossacks in the Army"
+ desc_vu_cossack_help:0 "Presence of Cossack reinforcements and military leaders improves the performance of out cavalry units."
  vu_norse_pagan_unhappy:0 "Norse Resistane"
  dsc_vu_norse_pagan_unhappy:0 "Demands and needs of local norse communities were not met and now the area is openly rebelious against the overlord."
  vu_norse_pagan_satisfied:0 "Satisfied Norse Demands"
@@ -1843,6 +1851,13 @@
  avaria_religion_reform_desc:0 "Do we want to return to the old gods Avars used to worship or do we want to find something else?"
  avaria_start_new_era_title:0 "New Power Rises"
  avaria_start_new_era_desc:0 "We are more than ready to look back upon old days of Avarian Pannonia and begin our path to restoration of once-great state."
+ avaria_secure_east_flank_title:0 "Secure Eastern Flank"
+ avaria_secure_east_flank_desc:0 "We must secure the eastern border of our Khaganate to ensure safety from vicious hordes. Constructing strong line of outposts and fortifications will not only deter their raids but exort tension on nearby lands."
+ avaria_cross_dnieper_title:0 "Cross Dnieper"
+ avaria_cross_dnieper_desc:0 "Our march West has begun! Our first goal is lands of the Cossacks across the Dnieper River."
+ avaria_pacify_rus_title:0 "Pacify Rus"
+ avaria_pacify_rus_desc:0 "Launch punitive invasion on Russian lands in order to aquire loot and ensure no threat from the North during our future missions in Europe. Our main war target is plundering Moscow to show russian people who is true warrior and that they should not question our might."
+ avaria_pacify_rus.tooltip:0 "We will burn City of Moscow to the ground including Kremlin. This will be major morality and sanity kick for our enemy. Besides bringing us their riches, it will be show of strenght to all our war enemies."
  
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later

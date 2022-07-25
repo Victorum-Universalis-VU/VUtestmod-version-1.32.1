@@ -23,13 +23,15 @@ discovered_by = eastern
 	owner = CAS
 	controller = CAS
 	add_core = CAS
-	religion = catholic
 }	#Reconquista
 1485.1.1 = {
 	base_manpower = 2
 	trade_goods = iron
 } #City serves as major military production area for the time of war
-1495.1.1 = { culture = andalucian } #Arabic influence deminishes after fall of Granada
+1495.1.1 = { 
+	culture = andalucian 
+	religion = catholic
+} #Arabic influence deminishes after fall of Granada
 1516.1.23 = {
 	owner = SPA
 	controller = SPA

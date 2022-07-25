@@ -1086,6 +1086,102 @@ caucasus_missions_4 = {
 #    END OF GENERIC MISSIONS    #
 #################################
 
+caucasus_missions_2_avaria = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = AVR
+	}
+	has_country_shield = yes
+
+	avaria_secure_east_flank = {
+		icon = mission_manchu_warrior
+		required_missions = { 
+			avaria_start_new_era
+		}
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 464
+				province_id = 466
+				province_id = 2418
+				province_id = 303
+				province_id = 302
+				province_id = 3291
+			}
+		}
+		
+		trigger = {
+			stability = 1
+			owns_core_province = 464
+			owns_core_province = 466
+			owns_core_province = 2418
+			owns_core_province = 303
+			owns_core_province = 302
+			owns_core_province = 3291
+			OR = {
+				464 = { fort_level = 1 }
+				466 = { fort_level = 1 }
+			}
+			OR = {
+				2418 = { fort_level = 1 }
+				303 = { fort_level = 1 }
+			}
+			302 = { fort_level = 1 }
+			3291 = { fort_level = 1 }
+			466 = { has_building = ramparts }
+			2418 = { has_building = ramparts }
+			464 = { has_building = ramparts }
+			303 = { has_building = ramparts }
+			manpower_percentage = 0.50
+			army_size = NOG
+			army_size = KAZ
+		}
+		effect = {
+			add_mil_power = 50
+			add_horde_unity = 15
+			lower_yik_area = {
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = { exists = KAZ }
+				KAZ = {
+					add_horde_unity = -10
+					add_country_modifier = { 
+						name = vu_rising_border_unrest
+						duration = 3650  
+						hidden = no
+					}
+				}
+			}
+			if = {
+				limit = { exists = NOG }
+				NOG = {
+					add_horde_unity = -10
+					add_country_modifier = { 
+						name = vu_rising_border_unrest
+						duration = 3650  
+						hidden = no
+					}
+				}
+			}
+			if = {
+				limit = { exists = SHY }
+				SHY = {
+					add_horde_unity = -10
+					add_country_modifier = { 
+						name = vu_rising_border_unrest
+						duration = 3650  
+						hidden = no
+					}
+				}
+			}
+		}
+	}
+}
+
 caucasus_missions_3_avaria = {
 	slot = 3
 	generic = no
@@ -1135,6 +1231,55 @@ caucasus_missions_3_avaria = {
 			country_event = {
 				id = vu_mission_events.3
 				days = 7
+			}
+		}
+	}
+	
+	avaria_cross_dnieper = {
+		icon = mission_advance_to_the_dnieper
+		required_missions = { 
+			avaria_start_new_era
+		}
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				area = yedisan_area
+				area = zaporizhia_area
+			}
+		}
+		
+		trigger = {
+			yedisan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			zaporizhia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			OR = {
+				mil = 4
+				monthly_mil = 10
+			}
+			OR = {
+				legitimacy_or_horde_unity = 75
+				manpower_percentage = 0.75
+			}
+		}
+		effect = {
+			1943 = { add_claim = ROOT }
+			280 = { add_permanent_claim = ROOT }
+			289 = { add_permanent_claim = ROOT }
+			moldavia_area = {
+				add_permanent_claim = ROOT
+			}
+			western_moldovia = {
+				add_permanent_claim = ROOT
+			}
+			country_event = {
+				id = vu_mission_events.4
+				days = 1
 			}
 		}
 	}
@@ -1192,6 +1337,80 @@ caucasus_missions_4_avaria = {
 			add_stability = -1
 			country_event = {
 				id = vu_mission_events.1
+			}
+		}
+	}
+	
+	avaria_pacify_rus = {
+		icon = mission_defeat_muscovy
+		required_missions = { 
+			avaria_start_new_era
+		}
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 295
+				province_id = 6975
+			}
+		}
+		
+		trigger = {
+			295 = { controlled_by = ROOT }
+			6975 = { controlled_by = ROOT }
+			any_country = {
+				culture_group = east_slavic
+				OR = {
+					capital_scope = { region = russia_region }
+					capital_scope = { region = ruthenia_region }
+				}
+				war_with = ROOT
+				NOT = { war_score = -50 }
+			}
+		}
+		effect = {
+			custom_tooltip = avaria_pacify_rus.tooltip
+			295 = {
+				add_base_tax = -5
+				add_base_production = -5
+				add_base_manpower = -5
+				add_devastation = 75
+				add_center_of_trade_level = -2
+			}
+			6975 = {
+				add_base_tax = -2
+				add_base_production = -2
+				add_base_manpower = -2
+				add_devastation = 90
+				add_center_of_trade_level = -1
+			}
+			add_treasury = 1500
+			add_years_of_income = 1
+			add_adm_power = 25
+			add_dip_power = 25
+			add_mil_power = 25
+			add_splendor = 150
+			add_prestige = 20
+			add_horde_unity = 15
+			add_legitimacy = 15
+			change_mil = 1
+			295 = {
+				owner = {
+					add_stability = -1
+					add_mil_power = -50
+					add_prestige = -30
+					add_splendor = -100
+					every_owned_province = {
+						add_devastation = 15
+					}
+				}
+			}
+			every_known_country = {
+				limit = { 
+					war_with = ROOT 
+					culture_group = east_slavic
+				}
+				add_war_exhaustion = 10
 			}
 		}
 	}
