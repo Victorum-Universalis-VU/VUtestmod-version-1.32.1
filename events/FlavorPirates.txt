@@ -791,27 +791,35 @@ country_event = {
 		has_dlc = "Golden Century"
 		NOT = { exists = TOR }
 		NOT = { has_reform = pirate_republic_reform }
-		489 = {
+		5706 = {
 			OR = {
 				religion = protestant
 				religion = anglican
 				religion = reformed
 				religion = hussite
+				religion = lollardy
+				religion = catholic
 			}
 		}
 		has_global_flag = golden_age_of_piracy
 		OR = {
 			AND = {
-				owns_core_province = 489
+				owns_core_province = 5706
 				is_subject = no
 				num_of_cities = 2
 			}
 			any_subject_country = {
-				owns_core_province = 489
+				owns_core_province = 5706
 				num_of_cities = 2
 			}
 		}
 		OR = {
+			5706 = {
+				recent_treasure_ship_passage = yes
+			}
+			5706 = {
+				privateer_power = { share = 1 }
+			}
 			489 = {
 				recent_treasure_ship_passage = yes
 			}
@@ -829,7 +837,7 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			489 = {
+			5706 = {
 				discover_country = TOR
 				add_core = TOR
 			}
@@ -846,7 +854,7 @@ country_event = {
 		trigger = {
 			ai = no
 		}
-		489 = {
+		5706 = {
 			owner = {
 				release = TOR
 			}
@@ -886,7 +894,7 @@ country_event = {
 	}
 	option = { # pirates get released
 		name = "pirates.7.b"
-		489 = {
+		5706 = {
 			owner = {
 				release = TOR
 			}
