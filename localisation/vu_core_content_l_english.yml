@@ -1234,6 +1234,12 @@
  desc_vu_hexamilion_wall:0 "Hexamilion Wall is sizeable defense line streaching from one coast to another around the city of Corinth. It's main purpose is to block all enemies from entering the Peloponnese Peninsula via land."
  vu_greek_unrest:0 "Outraged population"
  desc_vu_greek_unrest:0 "Siezing the city of Constantinople has greatly upset the population here."
+ vu_road_investments:0 "Road Investments"
+ desc_vu_road_investments:0 "Our nation invests heavily in the infrastructure and improvements of transportation routes."
+ vu_large_investments:0 "Large Industrial Investments"
+ desc_vu_large_investments:0 "ae Easter Egg"
+ vu_navy_expansion:0 "Naval Expansion"
+ desc_vu_navy_expansion:0 "We have reformed our navy and are aready to conquer the seas!"
  
  ##########################
  # New province modifiers
@@ -1868,6 +1874,14 @@
  avaria_pacify_rus.tooltip:0 "We will burn City of Moscow to the ground including Kremlin. This will be major morality and sanity kick for our enemy. Besides bringing us their riches, it will be show of strenght to all our war enemies."
  avaria_reach_moldavia_title:0 "Break Into Moldavia"
  avaria_reach_moldavia_desc:0 "Our incursion into developed Europe has begun. First target is Moldavia. We must sieze the entry to Carpathian Basin."
+ 
+ #GENERIC MISSIONS FOR EVERY NATIONS IN 6TH AND 7TH COLUMN
+ build_roads_mission_title:0 "Build Road Network"
+ build_roads_mission_desc:0 "Investing in the infrastructure of our nation is core way to improve every other aspect of its economy and welldoing."
+ build_special_buildings_mission_title:0 "Specialized Production Effort"
+ build_special_buildings_mission_desc:0 "Invest in advanced industry to produce refined and valued trade goods. New sector of industry will bring wealth to our nation and large investments will kickstart the economy."
+ naval_expansion_mission_title:0 "Form Formidable Navy"
+ naval_expansion_mission_desc:0 "Once we can access the sea, having a sizeable navy is a way to ensure our interest on our adjacent waters. Naval reforms and construction of naval forces are necessary for our political position in the world."
  
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later

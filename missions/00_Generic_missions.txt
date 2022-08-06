@@ -363,3 +363,120 @@ administrative_missions = {
 		}
 	}
 }
+
+###########################
+# VU MISSION UI EXPANSION #
+###########################
+
+vu_extra_slot_missions = {
+	slot = 6
+
+	generic = yes
+
+	potential = {
+	   always = yes
+	}
+	build_roads_mission = {
+		icon = mission_colonial
+		required_missions = {  }
+		position = 1
+		trigger = { 
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					has_building = road_system
+					has_building = canal_system
+					has_building = railway_system
+				}
+				num_of_times_improved = 4
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "vu_road_investments"
+				duration = 7300 #20 years
+			}
+		}
+	}
+	
+	build_special_buildings_mission = {
+		icon = mission_market_place_with_asian_traders
+		required_missions = { build_roads_mission }
+		position = 2
+		trigger = { 
+			num_of_owned_provinces_with = {
+				value = 10
+				OR = {
+					has_building = cannon_foundry
+					has_building = metalworking_workshop
+					has_building = munition_factory
+					has_building = wood_workshop
+					has_building = leather_workshop
+					has_building = sculpture_workshop
+					has_building = jewellery_workshop
+					has_building = uniforms_workshop
+					has_building = steam_engine_manu
+					has_building = spectacle_factory
+					has_building = cigars_factory
+					has_building = chocolate_factory
+				}
+				num_of_times_improved_by_owner = 5
+				development = 15
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "vu_large_investments"
+				duration = 9125 #25 years
+			}
+		}
+	}
+}
+
+vu_extra_slot_missions_2 = {
+	slot = 7
+
+	generic = yes
+
+	potential = {
+	   always = yes
+	}
+	naval_expansion_mission = {
+		icon = mission_establish_high_seas_navy
+		required_missions = {  }
+		position = 1
+		trigger = { 
+			any_owned_province = { has_port = yes }
+			navy_size_percentage = 0.95
+			naval_maintenance = 0.99
+			OR = {
+				naval_forcelimit = 25
+				navy_size = 25
+			}
+			navy_tradition = 40
+			has_flagship = yes
+			OR = {
+				num_of_heavy_ship = 3
+				num_of_galley = 20
+				num_of_light_ship = 15
+			}
+			num_of_admirals = 1
+		}
+		effect = {
+			create_admiral = { tradition = 75 }
+			add_navy_tradition = 10
+			add_country_modifier = {
+				name = "vu_navy_expansion"
+				duration = 7300 #20 years
+			}
+			random_owned_province = {
+				limit = { has_port = yes }
+				add_building_construction = {
+					building = shipyard
+					speed = 0.5
+					cost = 0
+				}
+			}
+		}
+	}
+}

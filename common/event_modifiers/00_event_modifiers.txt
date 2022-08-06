@@ -1811,6 +1811,30 @@ vu_djerid_canal = {
 	trade_goods_size = 1
 	local_production_efficiency = 0.05
 }
+
+vu_road_investments = {
+	movement_speed = 0.10
+	reinforce_speed = 0.10
+	build_cost = -0.1
+}
+
+vu_large_investments = {
+	build_cost = -0.1
+	center_of_trade_upgrade_cost = -0.1
+	trade_company_investment_cost = -0.1
+	production_efficiency = 0.05
+	great_project_upgrade_cost = -0.2
+	global_own_trade_power = 0.1
+}
+
+vu_navy_expansion = {
+	ship_power_propagation = 0.1
+	navy_tradition_decay = -0.01
+	naval_tradition_from_battle = 0.25
+	global_ship_cost = -0.1
+	naval_maintenance_modifier = -0.2
+	ship_durability = 0.05
+}
 	
 
 ################
