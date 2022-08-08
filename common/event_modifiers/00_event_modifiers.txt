@@ -1835,6 +1835,31 @@ vu_navy_expansion = {
 	naval_maintenance_modifier = -0.2
 	ship_durability = 0.05
 }
+
+vu_balanced_estates = {
+	embracement_cost = -0.1
+	yearly_corruption = -0.03
+	advisor_cost = -0.1
+	advisor_pool = 1
+	max_absolutism = 10
+	republican_tradition = 0.5
+	legitimacy = 0.5
+	devotion = 0.25
+	horde_unity = 0.5
+	monthly_reform_progress = 0.4
+	all_estate_loyalty_equilibrium = 0.05
+	stability_cost_modifier = -0.1
+}
+
+vu_military_success = {
+	free_leader_pool = 1
+	global_unrest = -1
+	global_rebel_suppression_efficiency = 0.15
+	power_projection_from_insults = 0.15
+	mil_advisor_cost = -0.1
+	army_tradition_from_battle = 0.1
+	prestige_from_land = 0.10
+}
 	
 
 ################

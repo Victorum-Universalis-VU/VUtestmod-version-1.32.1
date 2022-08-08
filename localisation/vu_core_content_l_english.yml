@@ -1240,6 +1240,10 @@
  desc_vu_large_investments:0 "ae Easter Egg"
  vu_navy_expansion:0 "Naval Expansion"
  desc_vu_navy_expansion:0 "We have reformed our navy and are aready to conquer the seas!"
+ vu_balanced_estates:0 "Balanced Estates"
+ desc_vu_balanced_estates:0 "We have managed to successfully manage our estate and cut their ambitions of power. By managing their interests accordingly, we secured the strength of central government and hold control over their representatives."
+ vu_military_success:0 "Successfull Military"
+ desc_vu_military_success:0 "We have proven our army's worth by winning battles and conflicts. We have shown that our country is formidable opponent capable of surpassing its rivals."
  
  ##########################
  # New province modifiers
@@ -1882,6 +1886,10 @@
  build_special_buildings_mission_desc:0 "Invest in advanced industry to produce refined and valued trade goods. New sector of industry will bring wealth to our nation and large investments will kickstart the economy."
  naval_expansion_mission_title:0 "Form Formidable Navy"
  naval_expansion_mission_desc:0 "Once we can access the sea, having a sizeable navy is a way to ensure our interest on our adjacent waters. Naval reforms and construction of naval forces are necessary for our political position in the world."
+ balance_factions_mission_title:0 "Balance the Estates"
+ balance_factions_mission_desc:0 "We cannot let different factions and estates in our country take control and mess with our central governments. Keep their power in check and maintain good relations to ensure their usefulness for our cause."
+ military_success_mission_title:0 "Successfull Military"
+ military_success_mission_desc:0 "Prove that our military and by extent - nation - is capable of waging wars and surpassing its rivals. Show your people the capable military and give them glorious victory over the enemies."
  
 
  #Colonial Missions - 1.25 brokes these, but leaving them to restore later

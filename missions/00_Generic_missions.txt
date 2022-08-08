@@ -431,6 +431,188 @@ vu_extra_slot_missions = {
 			}
 		}
 	}
+	
+	balance_factions_mission = {
+		icon = mission_noble_council
+		required_missions = {  }
+		position = 3
+		trigger = { 
+			crown_land_share = 50
+			monthly_adm = 7
+			monthly_dip = 7
+			monthly_mil = 7
+			OR = {
+				AND = {
+					crown_land_share = 99
+					government = republic
+				}
+				has_estate = estate_church
+				has_estate = estate_nobles
+				has_estate = estate_burghers
+				has_estate = estate_cossacks
+				has_estate = estate_nomadic_tribes
+				has_estate = estate_brahmins
+				has_estate = estate_dhimmi
+				has_estate = estate_jains
+				has_estate = estate_peasants
+				has_estate = estate_jews
+				has_estate = estate_magnates
+			}
+			if = {
+				limit = { has_estate = estate_church }
+				NOT = {
+					estate_influence = {
+						estate = estate_church
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_nobles }
+				NOT = {
+					estate_influence = {
+						estate = estate_nobles
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_burghers }
+				NOT = {
+					estate_influence = {
+						estate = estate_burghers
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_cossacks }
+				NOT = {
+					estate_influence = {
+						estate = estate_cossacks
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_cossacks
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_nomadic_tribes }
+				NOT = {
+					estate_influence = {
+						estate = estate_nomadic_tribes
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_nomadic_tribes
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_brahmins }
+				NOT = {
+					estate_influence = {
+						estate = estate_brahmins
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_brahmins
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_dhimmi }
+				NOT = {
+					estate_influence = {
+						estate = estate_dhimmi
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_dhimmi
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_jains }
+				NOT = {
+					estate_influence = {
+						estate = estate_jains
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_jains
+					loyalty = 50
+				}
+			}
+			if = {
+				limit = { has_estate = estate_peasants }
+				NOT = {
+					estate_influence = {
+						estate = estate_peasants
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_peasants
+					loyalty = 45
+				}
+			}
+			if = {
+				limit = { has_estate = estate_jews }
+				NOT = {
+					estate_influence = {
+						estate = estate_jews
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_jews
+					loyalty = 45
+				}
+			}
+			if = {
+				limit = { has_estate = estate_magnates }
+				NOT = {
+					estate_influence = {
+						estate = estate_magnates
+						influence = 45
+					}
+				}
+				estate_loyalty = {
+					estate = estate_magnates
+					loyalty = 45
+				}
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_legitimacy = 20
+			add_republican_tradition = 20
+			change_government_reform_progress = 50
+			add_country_modifier = {
+				name = "vu_balanced_estates"
+				duration = 9125 #25 years
+			}
+		}
+	}
 }
 
 vu_extra_slot_missions_2 = {
@@ -476,6 +658,43 @@ vu_extra_slot_missions_2 = {
 					speed = 0.5
 					cost = 0
 				}
+			}
+		}
+	}
+	
+	military_success_mission = {
+		icon = mission_persian_soldiers
+		required_missions = {  }
+		position = 3
+		trigger = { 
+			any_country = {
+				is_enemy = ROOT
+				ROOT = {	#Nation won war against its rival
+					has_won_war_against = {
+						who = PREV
+						max_years_since = 10
+					}
+				}
+			}
+			num_of_war_reparations = 2
+			NOT = { war_exhaustion = 2 }
+			power_projection = 50
+			OR = {
+				army_professionalism = 0.075
+				army_tradition = 40
+			}
+			OR = {
+				num_of_generals_with_traits = 1
+				num_of_generals = 3
+			}
+		}
+		effect = {
+			create_general = { tradition = 75 }
+			add_mil_power = 100
+			change_mil = 1
+			add_country_modifier = {
+				name = "vu_military_success"
+				duration = 3650 #10 years
 			}
 		}
 	}
