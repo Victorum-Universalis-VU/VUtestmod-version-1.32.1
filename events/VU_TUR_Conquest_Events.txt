@@ -366,6 +366,10 @@ country_event = { #Aftermatch of the conquest - Collapse of Hungary
 		highlight = yes
 		ai_chance = { factor = 30 } 
 		custom_tooltip = tur_collapse_hun_1
+		if = {
+			limit = { 135 = { owned_by = ROOT } }
+			set_capital = 135
+		}
 		release = SLO
 		release = CRO
 		release = UHU
@@ -389,6 +393,10 @@ country_event = { #Aftermatch of the conquest - Collapse of Hungary
 		highlight = yes
 		ai_chance = { factor = 60 }
 		custom_tooltip = tur_collapse_hun_2 
+		if = {
+			limit = { 135 = { owned_by = ROOT } }
+			set_capital = 135
+		}
 		create_vassal = UHU
 		create_vassal = LHU
 		if = {
@@ -446,6 +454,14 @@ country_event = { #Aftermatch of the conquest - Collapse of Hungary
 		highlight = yes
 		ai_chance = { factor = 10 } 
 		custom_tooltip = tur_collapse_hun_3
+		if = {
+			limit = { 135 = { owned_by = ROOT } }
+			set_capital = 135
+			135 = {
+				add_base_tax = 2 
+				add_base_manpower = 2
+			}
+		}
 		release = SLA
 		release = CRO
 		release = UHU
@@ -498,14 +514,6 @@ country_event = { #Aftermatch of the conquest - Collapse of Hungary
 		if = {
 			limit = { 1318 = { owned_by = UHU } }
 			1318 = { cede_province = SLO }
-		}
-		if = {
-			limit = { 135 = { owned_by = ROOT } }
-			set_capital = 135
-			135 = {
-				add_base_tax = 2 
-				add_base_manpower = 2
-			}
 		}
 		HUN = { set_in_empire = yes }
 		if = {
