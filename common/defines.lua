@@ -1,4 +1,4 @@
-NDefines = {
+0NDefines = {
 
 NGame = {
 	START_DATE = "1444.11.11",
@@ -228,14 +228,14 @@ NDiplomacy = {
 	AE_DEFENDER_DEVELOPMENT = 0.004,	-- -50% cap (at 1000 development)
 	AE_DISTANCE_BASE = 0.75, --0.75 per 100 distance
 	AE_SAME_OVERLORD = 0.5,
-	AE_PROVINCE_CAP = 50,				-- Province development above this will not count for AE (also used for warscore cost cap)
+	AE_PROVINCE_CAP = 40,				-- Decreased this to 40 from 50 Province development above this will not count for AE (also used for warscore cost cap) 
 	AE_THREATEN_WAR = 1.0,
 	AE_PRIMITIVES = -0.75, -- less AE from primitives
 
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
-	PO_DEMAND_PROVINCES_AE = 0.4, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
-	PO_RETURN_CORES_AE = 0.25, 					-- (Per core, only applied if returning cores to vassals of winner)
-	PO_FORM_PU_AE = 0.05, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
+	PO_DEMAND_PROVINCES_AE = 0.3, 				-- Decreased this to 0.3 from 0.4 _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
+	PO_RETURN_CORES_AE = 0.2, 					-- Decreased this to 0.2 from 0.25 (Per core, only applied if returning cores to vassals of winner)
+	PO_FORM_PU_AE = 0.03, 							-- Decreased this to 0..3 from 0.05 _DDEF_PO_FORM_PU_AE = 10, (Per development)
 	PO_CONCEDE_COLONIAL_AE = 0.1,
 	PO_BECOME_VASSAL_AE = 0.25, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
 	PO_FORCE_JOIN_EMPIRE_AE = 0.25, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
@@ -275,7 +275,7 @@ NDiplomacy = {
 	PO_END_RIVALRY_PRESTIGE = 5,
 
 	PEACE_COST_PRIMITIVE_NERF = 0.75,				-- war score cost multiplier vs primitives
-	PEACE_COST_DEMAND_PROVINCE = 0.5,					-- Demand a province (scales by province wealth, also used for annex)
+	PEACE_COST_DEMAND_PROVINCE = 0.4,					-- Decreased this to 0.4 from 0.5 Demand a province (scales by province wealth, also used for annex)
 	PEACE_COST_CONCEDE_PROVINCE = 0.4,				-- Demand colonial area province concession.
 	PEACE_COST_BECOME_VASSAL = 0.4,					-- Vassalize a country (scales by province wealth)
 	PEACE_COST_PILLAGE_CAPITAL = 10,					-- Pillage a capital state's dev (scales by province wealth) -- VU increase cost to 10 from 1 to discourage pillaging
@@ -298,7 +298,7 @@ NDiplomacy = {
 	PEACE_COST_INDEPENDANCE = 30, 					-- Peace cost for breaking free of union
 	PEACE_COST_ENFORCED_FLEET_BASING_RIGHTS = 25,   -- Peace cost for enforced fleet basing righs
 	PEACE_COST_ENFORCED_MILITARY_ACCESS = 15,       -- Peace cost for enforced military access
-	PEACE_COST_WAR_REPARATIONS = 20,				-- Peace cost for war reparations
+	PEACE_COST_WAR_REPARATIONS = 10,				-- Decreased this to 10 from 20 Peace cost for war reparations
 	PEACE_COST_GIVE_UP_CLAIM = 20,					-- Peace cost for giving up all claims in a country
 	PEACE_COST_DISMANTLE_REVOLUTION = 100,
 	PEACE_COST_CHANGE_HRE_RELIGION = 100,
@@ -311,13 +311,13 @@ NDiplomacy = {
 	PEACE_COST_SPREAD_REVOLUTION = 60,
 	MAX_PEACE_COST_TRIBUTARY_STATE = 80,
 	MAX_PEACE_COST_CANCEL_SUBJECT = 100,
-	MAX_WARSCORE = 100,
+	MAX_WARSCORE = 120,								-- Increased this to 120 from 100
 
 	MAX_PEACE_TREATY_PRESTIGE = 100,
 	MAX_PEACE_TREATY_AE = 50,
 
-	PEACE_COST_DEMAND_NON_OCCUPIED_PROVINCE_MULT = 1.5,
-	PEACE_COST_DEMAND_CAPITAL_MULT = 2.0,
+	PEACE_COST_DEMAND_NON_OCCUPIED_PROVINCE_MULT = 1.2, -- Decreased this to 1.2 from 1.5
+	PEACE_COST_DEMAND_CAPITAL_MULT = 1.5,           -- Decreased this to 1.5 from 2.0
 
 	PO_TRADE_POWER_AMOUNT = 0.5,						-- Transfer 50% of trade power on peace option
 	PO_HUMILIATE_PRESTIGE_HIT = 20,
@@ -547,7 +547,7 @@ NCountry = {
 	MALE_FERTILITY_OK_DIVISOR = 4,
 	MALE_FERTILITY_BAD_DIVISOR = 10,
 
-	INSTITUTION_BONUS_FROM_IMP_DEVELOPMENT = 2.5,
+	INSTITUTION_BONUS_FROM_IMP_DEVELOPMENT = 5, -- Increased this to 5 from 2.5
 	INSTITUTION_CAP_IMP_DEVELOPMENT = 20,
 	INSTITUTION_BASE_IMP_DEVELOPMENT = 60,
 
@@ -630,7 +630,7 @@ NCountry = {
 	MAX_IDEA_GROUPS_FROM_SAME_CATEGORY = 0.5,
 
 	RANDOM_LUCKY_BASE_WEIGHT = 100,					-- Base weight given to each nation when rolling for random lucky
-	RANDOM_LUCKY_DEVELOPMENT_WEIGHT = 0.2,					-- Extra weight given for each base development when rolling for random luck
+	RANDOM_LUCKY_DEVELOPMENT_WEIGHT = 0.4, 			-- Increased this to 0.4 from 0.2 Extra weight given for each base development when rolling for random luck
 	RANDOM_LUCKY_INSTITUTION_FACTOR = 1.5,			-- Weight multiplied by this for each institution
 
 	PLAYER_CAN_MOVE_FIXED_CAPITAL = 1,				-- Controls whether player can move capital even if capital is fixed
@@ -739,7 +739,7 @@ NCountry = {
 	PS_DEMAND_NON_WARGOAL_PROVINCE = 20,
 	PS_DEMAND_NON_WARGOAL_PEACE = 3,
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 2,
-	PS_MAKE_PROVINCE_CORE = 5,
+	PS_MAKE_PROVINCE_CORE = 3.5, 						-- Decreased this to 3.5 from 5
 	PS_REDUCE_INFLATION = 75,
 	PS_PROMOTE_MERCANTILISM = 100,
 	PS_MOVE_CAPITAL = 100,
@@ -790,7 +790,7 @@ NCountry = {
 	CORE_SAME_REGION = 0.25,						-- Multiplied with development, for colonial nations
 	CORE_SAME_CONTINENT = 0.75,						-- Multiplied with development, for colonial nations
 	CORE_HAD_CLAIM = 0.1,							-- Impacts MODIFIER_CORE_CREATION
-	CORE_HAD_PERMANENT_CLAIM = 0.1,						-- Impacts MODIFIER_CORE_CREATION
+	CORE_HAD_PERMANENT_CLAIM = 0.25, 				-- Increased this to 0.25 from 0.1 Impacts MODIFIER_CORE_CREATION
 
 	FACTION_BOOST_SIZE = 10,
 	WAREXHAUSTION_REDUCTION = 2,
@@ -855,14 +855,14 @@ NCountry = {
 	COLONIAL_CLAIM_VIOLATION = -20,
 	COLONY_VIOLAION_PAPAL_INFLUENCE_COST  = -10,
 	COLONIAL_NATION_GROWTH_IMPACT = 0.5,			-- colonies of colonial nations grow slower if desired.
-	OVEREXTENSION_FACTOR = 0.5,
+	OVEREXTENSION_FACTOR = 0.4, 					-- Decreased this to 0.4 from 0.5
 	OVEREXTENSION_OVERSEAS_FACTOR = 0.5,			-- Modifier to overextension from overseas provinces
 	MISSIONARY_PROGRESS_ON_CHANCE = 1,				-- How many % the progress will boost on daily lucky-roll.
 	MISSION_CANCEL_CHOOSE_NEXT_DELAY = 1,			-- How many years until you can choose a new mission after a cancel
 	MONTHS_TO_CORE_MAXIMUM = 240,					-- Maximum amount of months it will take to core a province after all modifiers.
 	MONTHS_TO_CORE_MINIMUM = 6,						-- Minimum amount of months it will take to core a province after all modifiers.
-	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
-	MONTHS_TO_CHANGE_CULTURE = 5,					-- How many months it will take to change culture in a province, per development.
+	MONTHS_TO_CORE = 24,							-- Decreased this to 24 from 36 How many months it will take to core a province.
+	MONTHS_TO_CHANGE_CULTURE = 6,					-- Increased this to 6 from 5 How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
 	STARTING_ARMY_SIZE = 0.5,						-- Percentage of force limit
 	STARTING_ARMY_SIZE_AT_WAR = 1.5,				-- Percentage of force limit
@@ -1244,7 +1244,7 @@ NMilitary = {
 	CONTROL_DEVASTATION_IMPACT = -1,				-- devastation recovery given by control
 	PASSIVE_DEVASTATION_IMPACT = -10,				-- devastation recovery given passively if the provice is not owned by anyone
 
-	DEVASTATION_DEVELOPMENT_SCALE = 2.5,
+	DEVASTATION_DEVELOPMENT_SCALE = 5, 				-- Increased this to 5 from 2.5
 
 
 	PARTICIPATION_SCORE_BLOCKADE = 0.0005,			-- Per development & ship, once each month
@@ -1338,7 +1338,7 @@ NMilitary = {
 	NOMAD_LOOT_TRADITION = 0.01,	 				-- _MDEF_NOMAD_LOOT_TRADITION_;Military tradition a horde gets from looting territory
 	NOMAD_PLAINS_SHOCK_BONUS = 0.25, 				--
 	NOMAD_NON_PLAINS_SHOCK_PENALTY = -0.25, 		--
-	SUPPLYLIMIT_BASE_MULTIPLIER = 4, 				-- Keeping low so it's actually important to warfare, gives smaller nations chance against blobs and reduces doomstacks early game
+	SUPPLYLIMIT_BASE_MULTIPLIER = 5, 				-- Increased this to 5 from 4 Keeping low so it's actually important to warfare, gives smaller nations chance against blobs and reduces doomstacks early game
 	WAR_LENGTH_DAMAGE_MODIFIER = 0.01,				-- How much (by percentage) the damage dealt will be increased each day of the combat
 	BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.4,	-- Multiplier for morale damage taken by backrow
 	BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0,	-- Multiplier for strength damage taken by backrow
@@ -1387,9 +1387,12 @@ NMilitary = {
 	ART_LOOT = 0.05,							-- How many ducats/month will a single full strength artillery regiment loot?
 	-- Suppression values are multiplied by the static modifier friendly_regiments
 	MAX_REBEL_SUPPRESSION = 5.0;				-- Maximum amount of rebel suppression by troops in a province
-	INF_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly infantry regiment in a province
-	CAV_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly cavalry regiment in a province
-	ART_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly artillery regiment in a province
+	INF_SUPPRESSION = 0.5,						-- Increased this to 0.5 from 0.25 The amount of reduction to unrest for each friendly infantry regiment in a province
+	CAV_SUPPRESSION = 0.5,						-- Increased this to 0.5 from 0.25 The amount of reduction to unrest for each friendly cavalry regiment in a province
+	ART_SUPPRESSION = 0.5,						-- Increased this to 0.5 from 0.25 The amount of reduction to unrest for each friendly artillery regiment in a province
+
+
+
 
 	FORT_FLIPPING_TIME = 60,					-- Number of days it takes an influencing fort to revert the control of a province if left unhindered.
 	STACKWIPE_MANPOWER_RETURN_FRACTION = 0.1,	-- Fraction of manpower that returns to pool when a stack is wiped.
