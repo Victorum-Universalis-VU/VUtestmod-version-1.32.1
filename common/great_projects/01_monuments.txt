@@ -4729,7 +4729,7 @@ ambras_castle = {
 
 mesa_verde = {
 	#province it starts in
-	start = 875
+	start = 5064
 
 	#date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1190.01.01 #Cliff Palace

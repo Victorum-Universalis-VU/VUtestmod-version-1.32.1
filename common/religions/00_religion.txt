@@ -495,7 +495,7 @@ christian = {
 								religion = protestant
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 5
 						}
 					}
 				}
@@ -521,7 +521,7 @@ christian = {
 								religion = protestant
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 5
 						}
 					}
 				}
@@ -617,7 +617,7 @@ christian = {
 								religion = reformed
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 5
 						}
 					}
 				}
@@ -643,7 +643,7 @@ christian = {
 								religion = reformed
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 5
 						}
 					}
 				}
