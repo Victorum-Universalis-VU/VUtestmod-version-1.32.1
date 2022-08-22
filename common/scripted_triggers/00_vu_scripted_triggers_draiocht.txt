@@ -318,8 +318,8 @@ bt_downstream_of_india = {
 		area = umbria_area
 		area = central_italy_area
 		#Latium
-		province_id = 4732
-		province_id = 7020
+	#	province_id = 4732 #Part of Lazio area
+	#	province_id = 7020 #Same
 	}
  }
  
@@ -337,8 +337,8 @@ bt_downstream_of_india = {
 		area = carnia_area
 		area = south_tuscany_area
 		#Latium
-		province_id = 4732
-		province_id = 7020
+	#	province_id = 4732 #part of Lazio area
+	#	province_id = 7020 #Same
 	}
  }
  
@@ -350,8 +350,8 @@ bt_downstream_of_india = {
 		area = apulia_area
 		area = abruzzo_area
 		#Latium
-		province_id = 7016
-		province_id = 7017
+	#	province_id = 7016 #Part of Naples
+	#	province_id = 7017 #Same
 	}
  }
  
@@ -374,22 +374,11 @@ bt_downstream_of_india = {
 		area = eastern_mediterrenean_islands_area
 		area = northern_epirus_area
 		#Western Macedonia
-		province_id = 148
-		province_id = 7122
-		province_id = 7123
-		province_id = 1853
-		province_id = 7124
+		area = macedonia_area
 		#Eastern Macedonia
-		province_id = 4702
-		province_id = 7120
-		province_id = 7127
-		province_id = 7128
-		province_id = 7129
+		area = eastern_macedonia_area
 		#Epirus
-		province_id = 144
-		province_id = 4699
-		province_id = 7132
-		province_id = 7133
+		area = northern_greece_area
 		#Western Thrace
 		province_id = 4705
 		province_id = 7130
