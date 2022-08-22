@@ -1,4 +1,4 @@
-#BT Balkans reoverhaul
+#7126 - Zakynthos
 
 owner = EPI
 controller = EPI
@@ -9,7 +9,7 @@ capital = "Zakynthos"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = gold			#Grimm easter egg, as I'm tired and not finding any helpful info.
+trade_goods = pottery		#The gold in this province was easter egg from BT... duh
 is_city = yes
 hre = no
 
@@ -20,51 +20,50 @@ discovered_by = eastern
 discovered_by = western
 
 
-#Province history completed by - Draiocht
-#1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-
-#1291 - 1444
-
-#1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-
-#1444 on
+#Province history completed by docRobert
+1478.1.1 = { 
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1482.1.1 = { 
+	owner = VEN 
+	controller = VEN 
+	add_core = VEN 
+} #Recaptured by Venice
+1610.1.1 = { unrest = 7 } # Exploatation by the nobles, several minor revolts
+1650.1.1 = { unrest = 0 }
+1750.1.1 = { add_core = GRE }
+1797.10.17 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = VEN
+} # The Treaty of Campo Formio, Corfu is ceded to France
+1799.1.1 = { controller = RUS } #Russian expeditionary forces capture islands from French
+1799.3.1 = {
+	owner = CEP
+	controller = CEP
+	add_core = CEP
+	remove_core = FRA
+} # The Septinsular Republic
+1807.7.7 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+} # Back under French control after the Treaty of Tilsit
+1809.6.1 = { controller = GBR } #Captured by the British
+1815.11.5 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = FRA
+} # The Second Treaty of Paris
+1848.1.1 = { unrest = 10 } #Nationalistic revolt
+1850.1.1 = { unrest = 0 }
+1864.3.29 = {
+	owner = GRE
+	controller = GRE
+	add_core = GRE
+	remove_core = GBR
+} #Traty of London, USII united with Greece

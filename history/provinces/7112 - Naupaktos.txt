@@ -30,3 +30,27 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
+1499.6.1 = { controller = TUR } #Captured by Ottomans
+1503.1.1 = {
+	owner = TUR
+	add_core = TUR
+	remove_core = VEN
+} #End of 2nd Venetian-Ottoman war
+1555.1.1 = { unrest = 5  } # General discontent with the Janissaries' dominance
+1556.1.1 = { unrest = 0 }
+1620.1.1 = { unrest = 5 } # General discontent and occasional rebellions
+1640.1.1 = { unrest = 2 }
+1660.1.1 = { unrest = 0 }
+1687.6.1 = { controller = VEN }
+1699.1.1 = { controller = TUR } #Retaken by Ottomans
+1750.1.1 = {
+	add_core = GRE 
+}
+1821.2.21 = { unrest = 10 } #Greek uprising
+1829.3.1 = {
+	owner = GRE
+	controller = GRE
+	unrest = 0
+} #Captured by Greeks
+1829.9.12 = { remove_core = TUR } #Greece idependent
+1850.1.1 = { base_manpower = 3 }

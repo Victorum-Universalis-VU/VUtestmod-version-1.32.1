@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = HUN
 add_core = TRA
+add_core = UHU
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western

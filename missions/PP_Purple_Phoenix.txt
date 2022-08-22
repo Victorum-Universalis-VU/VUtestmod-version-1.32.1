@@ -2144,6 +2144,22 @@ byz_pp_maritime = {
 				}
 				add_permanent_claim = ROOT
 			}
+			341 = {
+				change_culture = karchidoniac
+				change_religion = ROOT
+			}
+			5224 = {
+				change_culture = karchidoniac
+				change_religion = ROOT
+			}
+			2455 = {
+				change_culture = karchidoniac
+				change_religion = ROOT
+			}
+			5317 = {
+				change_culture = karchidoniac
+				change_religion = ROOT
+			}
 		}
 	}
 
@@ -2673,6 +2689,18 @@ byz_pp_religion = {
 			add_claim = 2309
 			add_claim = 2314
 			add_claim = 4292
+			3991 = {
+				change_culture = anatolian_greek
+				change_religion = ROOT
+			}
+			2313 = {
+				change_culture = anatolian_greek
+				change_religion = ROOT
+			}
+			3981 = {
+				change_culture = cypriot
+				change_religion = ROOT
+			}
 		}
 	}
 
@@ -2684,8 +2712,11 @@ byz_pp_religion = {
 		provinces_to_highlight = {
 			OR = {
 				area = palestine_area
-				area = trans_jordan_area
 				area = syrian_desert_area
+				province_id = 4270
+				province_id = 380
+				province_id = 381
+				province_id = 7452
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -2694,10 +2725,10 @@ byz_pp_religion = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			trans_jordan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			4270 = { country_or_non_sovereign_subject_holds = ROOT }
+			380 = { country_or_non_sovereign_subject_holds = ROOT }
+			381 = { country_or_non_sovereign_subject_holds = ROOT }
+			7452 = { country_or_non_sovereign_subject_holds = ROOT }
 			syrian_desert_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -2726,8 +2757,29 @@ byz_pp_religion = {
 				}
 				add_permanent_claim = ROOT
 			}
-			add_claim = 365
+			add_claim = 364
+			add_claim = 5158
 			add_claim = 2315
+			add_claim = 6547
+			add_claim = 6549
+			add_claim = 6526
+			add_claim = 6550
+			1854 = {
+				change_culture = cypriot
+				change_religion = ROOT
+			}
+			5180 = {
+				change_culture = cypriot
+				change_religion = ROOT
+			}
+			7446 = {
+				change_culture = cypriot
+				change_religion = ROOT
+			}
+			1855 = {
+				change_culture = anatolian_greek
+				change_religion = ROOT
+			}
 		}
 	}
 
@@ -2788,6 +2840,14 @@ byz_pp_religion = {
 				}
 				add_claim = ROOT
 			}
+			362 = {
+				change_culture = egyptian_greek
+				change_religion = ROOT
+			}
+			6525 = {
+				change_culture = egyptian_greek
+				change_religion = ROOT
+			}
 		}
 	}
 
@@ -2822,6 +2882,18 @@ byz_pp_religion = {
 				duration = -1
 			}
 			country_event = { id = catholic_flavor.3 }
+			358 = {
+				change_culture = egyptian_greek
+				change_religion = ROOT
+			}
+			363 = {
+				change_culture = egyptian_greek
+				change_religion = ROOT
+			}
+			6568 = {
+				change_culture = egyptian_greek
+				change_religion = ROOT
+			}
 		}
 	}
 
