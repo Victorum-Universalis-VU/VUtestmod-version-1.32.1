@@ -1562,10 +1562,13 @@ mine = {
 					has_terrain = mountain
 					has_terrain = hills
 					has_terrain = highlands
+					has_terrain = cold_mountains
+					has_terrain = tropical_highlands_terrain
+					has_terrain = desert_ranges
+					has_terrain = dry_highlands
 				}
 				NOT = { has_province_modifier = mine_fail }
 				NOT = { has_province_flag = has_latent_good }
-				
 			}
 			FROM = {
 				dip_power = 100

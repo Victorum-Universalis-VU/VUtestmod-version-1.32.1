@@ -1321,6 +1321,11 @@ metalworking = {
 
 silver = {
 	color = { 0.33 0.38 0.44 }
+	
+	province = {	#Extremely important; balancing silver compared to gold. Since silver is not as priced as gold, it only produces 50% of what gold would've made from precious minerals.
+		local_production_efficiency = -0.5
+	}
+	
 	chance = {
 		factor = 20
 		modifier = {

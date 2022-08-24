@@ -3199,10 +3199,10 @@ road_system = {
 		local_friendly_movement_speed = 0.15
 		#Changed from 0.2 so it combines nicely with roads and railways for 50% and 100% bonuses.
 		
-		local_institution_spread = 0.15
+		local_institution_spread = 0.1
 		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
 		
-		local_development_cost = -0.25
+		local_development_cost = -0.1
 		#Roads moderately improved the development of any cities it connected to by facilitating the transport of people and goods substantially.
 		
 		allowed_num_of_buildings = 1
@@ -3289,13 +3289,13 @@ canal_system = {
 	
 	make_obsolete = road_system
 	modifier = {
-		local_friendly_movement_speed = 0.30
+		local_friendly_movement_speed = 0.25
 		#Changed from 0.2 so it combines nicely with canals and railways for 50% and 100% bonuses.
 		
-		local_institution_spread = 0.30
+		local_institution_spread = 0.2
 		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
 		
-		local_development_cost = -0.35
+		local_development_cost = -0.15
 		#Canals significantly improved the development of any cities it connected to by facilitating the transport of people and goods substantially.
 		
 		allowed_num_of_buildings = 2
@@ -3406,23 +3406,23 @@ railway_system = {
 	build_trigger = {
 		#Can't build if province has a terrain not suitable for railways
 		#I decided to make that only mountains and glaciers because adding the other canal terrains would make railways worthless in many parts of the world.
-		NOT = {
-			has_terrain = mountain
-			has_terrain = cold_mountains
-			has_terrain = glacier
-			has_terrain = swamp
-		}
+		NOT = { has_terrain = mountain }
+		NOT = {	has_terrain = cold_mountains }
+		NOT = {	has_terrain = glacier }
+		NOT = {	has_terrain = swamp }
+		NOT = {	has_terrain = tropical_highlands_terrain }
+		NOT = {	has_terrain = desert_ranges }
 	}
 	
 	modifier = {
-		local_friendly_movement_speed = 0.6
+		local_friendly_movement_speed = 0.5
 		#Changed from 0.4 so it combines nicely with roads and canals for 50% and 100% bonuses.
 		#Should go without saying that railways were the best infrastructure possible at the time, so they have the largest bonus to movement speed.
 		
-		local_institution_spread = 0.6
+		local_institution_spread = 0.4
 		#Any infrastructure that allows for an easier flow of people and goods subsequently allows for an easier flow of information. This should represent that.
 		
-		local_development_cost = -0.45
+		local_development_cost = -0.25
 		#Railways drastically improved the development of any cities it connected to by facilitating the transport of people and goods substantially.
 		
 		allowed_num_of_buildings = 3

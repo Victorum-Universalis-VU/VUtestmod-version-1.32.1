@@ -1515,7 +1515,6 @@ christian = {
 			
 			if = {
 				limit = {
-					has_country_flag = reformation_money
 					NOT = {
 						calc_true_if = {
 							all_province = {
