@@ -454,7 +454,7 @@ colony = {
 	transfer_trade_power = yes
 	can_concentrate_development = no
 	extend_trading_range = yes
-	liberty_desire_development_ratio = 0.1
+	liberty_desire_development_ratio = 0.075	#reduced from 0.1 because colonial nation would gain absurd lib desire from increased dev from new provinces
 
 	max_government_rank = 1
 	cities_required_for_bonuses = 10

@@ -9,7 +9,7 @@ capital = "Montargis"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = fruit
+trade_goods = champagne		#Champagne region
 is_city = yes
 hre = no
 
