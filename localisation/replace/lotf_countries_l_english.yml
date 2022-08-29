@@ -71,7 +71,7 @@
  DAU:0 "Dauphine"
  DLH:0 "Delhi"
  DUL:0 "Dulkadir"
- DUR:0 "Durrani"
+ #DUR:0 "Durrani" #DUR is reserved for Durham
  ENG:0 "England"
  ETH:0 "Ethiopia"
  FER:0 "Ferrara"
@@ -346,7 +346,7 @@
  DAU_ADJ:0 "Dauphinese"
  DLH_ADJ:0 "Delhian"
  DUL_ADJ:0 "Dulkadiri"
- DUR_ADJ:0 "Durrani"
+ #DUR_ADJ:0 "Durrani" #DUR reserved for Durham
  ENG_ADJ:0 "English"
  ETH_ADJ:0 "Ethiopian"
  FER_ADJ:1 "Ferrarese"
