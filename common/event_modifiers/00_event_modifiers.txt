@@ -1526,6 +1526,14 @@ dharmapuri_mango = { #Dharmapuri 8429
 	trade_goods_size_modifier = 0.1
 }
 
+##############################################
+# Malaria stopping colonisation by docRobert #
+##############################################
+
+vu_malaria_present = {		#ADD THIS MODIFIER TO PROVINCE, TO PREVENT EARLY COLONIZATION (LIKE INLAND AFRICA)
+	icon = "vu_malaria_icon"
+}
+
 ##################################
 # Generic modifiers by docRobert #
 ##################################
