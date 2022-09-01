@@ -1531,7 +1531,7 @@ dharmapuri_mango = { #Dharmapuri 8429
 ##############################################
 
 vu_malaria_present = {		#ADD THIS MODIFIER TO PROVINCE, TO PREVENT EARLY COLONIZATION (LIKE INLAND AFRICA)
-	icon = "vu_malaria_icon"
+	picture = "vu_malaria_icon"
 }
 
 ##################################

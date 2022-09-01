@@ -9,8 +9,10 @@ can_colonize_province = {
 		}
 		allow = {					#Allow - what conditons must be met for the button to be enabled again?
 			OR = {
-				FROM = { dip_tech = 35 }
-				#more to be added here
+				FROM = { dip_tech = 35 }	#Default for all, year 1856
+				FROM = { technology_group = east_african }
+				FROM = { technology_group = central_african } #Native African nations are naturally resiliant
+				FROM = { technology_group = sub_saharan }
 			}
 		}
 	}

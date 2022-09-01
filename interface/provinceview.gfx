@@ -1433,10 +1433,5 @@ spriteTypes = {
 		name = "GFX_autonomy_increased"
 		texturefile = "gfx/interface/ideas_EU4/autonomy_increased.dds"
 	}
-	
-	spriteType = {
-		name = "vu_malaria_icon"
-		texturefile = "gfx/interface/ideas_EU4/vu_malaria_icon.dds"
-	}
 
 }
