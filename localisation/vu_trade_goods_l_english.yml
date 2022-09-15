@@ -87,7 +87,7 @@
  sulfur: "Sulfur"
  sulfurDESC: "Sulfur, known to the ancient world as Brimstone, has long been associated with volcanic activity. Sulfur was important in the production of gunpowder, fertilizer and pesticide."
  silver: "Silver"
- silverDESC: "Silver has been mined since ancient times, long valued as a precious metal, used to make ornaments, jewellery, high-value tableware and utensils."
+ silverDESC: "Silver has been mined since ancient times, long valued as a precious metal, used to make ornaments, jewellery, high-value tableware and utensils. \n\n§YSince silver is not as valuable as gold in terms of monetary value, silver provinces only give 50% of income that a gold province would add.§"
 
  # Manufactured products and Beverages
  beer: "Beer"

@@ -239,7 +239,7 @@ on_startup = {
                         check_variable = { which = num_of_heavy_ship value = 8 }
                     }
                 }
-                heavy_ship = 4551
+                heavy_ship = 224
                 change_variable = { which = num_of_heavy_ship value = 1 }
             }
             set_variable = { which = num_of_heavy_ship value = 0 }

@@ -556,9 +556,33 @@ byz_pp_italian = {
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = bt_mission_tooltip_northern_italy_conquest_minus_lombardy
-				italy_region = {
+				#italy_region = {
+				#	type = all
+				#	#bt_trigger_northeastern_italy_areas = yes #Caused bug with mission being impossible to complete
+				#	country_or_non_sovereign_subject_holds = ROOT
+				#}
+				emilia_area = {
 					type = all
-					bt_trigger_northeastern_italy_areas = yes
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				south_tuscany_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				tuscany_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				emilia_romagna_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				central_italy_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				umbria_area = {
+					type = all
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}

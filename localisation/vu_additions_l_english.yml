@@ -3567,7 +3567,7 @@
  building_canal_system:0 "Roads & Waterways"
  building_canal_system_desc:0 "A network of narrow and wide paths, with the additon of medium birth, yet shallow waterways that allow for the transportation of goods at a slightly faster speed from point A to B. Can only be built on coastal land and on provinces adjacent to land that already has an existing Road & Waterways system. Can only be built on coast or adjacent to itself.\nCan't be built on Hills, Highlands, Mountains, Cold Mountains, Desert Ranges, Dry Highlands or Glaciers."                                                                                                                                                                                          
  building_railway_system:0 "Railroads"
- building_railway_system_desc:0 "A network of narrow steel, held together by wooden or concrete bases that allow for the delivering at high-speed of goods and armies across several provinces from point A to B.\nCan't be built on mountain, cold mountains, glacier and swamp terrain."
+ building_railway_system_desc:0 "A network of narrow steel, held together by wooden or concrete bases that allow for the delivering at high-speed of goods and armies across several provinces from point A to B.\nCan't be built on mountain, cold mountains, glacier, swamp, tropical highlands and desert ranges terrain."
  
  #Coastal
  building_naval_base:0 "Naval Base"

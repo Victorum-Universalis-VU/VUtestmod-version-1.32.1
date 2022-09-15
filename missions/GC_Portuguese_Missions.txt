@@ -461,7 +461,7 @@ gc_por_2_b = {
 			1531 = {
 				is_strongest_trade_power = ROOT
 			}
-			224 = { #Changed to 25% of trade.
+			227 = { #Changed to 25% of trade.
 				trade_share = {
 					country = ROOT
 					share = 25
@@ -1274,7 +1274,7 @@ gc_por_4 = {
 			OR = {
 				province_id = 1376
 				AND = {
-					province_id = 4182
+					province_id = 6462
 					NOT = { owned_by = ROOT }
 					owner = { NOT = { vassal_of = ROOT } }
 				}
@@ -1288,7 +1288,7 @@ gc_por_4 = {
 					share = 15
 				}
 			}
-			4182 = {
+			6462 = {
 				OR = {
 					country_or_non_sovereign_subject_holds = ROOT
 					AND = { #Bugfixed this shit because the mission can complete without you getting squat.
@@ -1316,14 +1316,14 @@ gc_por_4 = {
 			hidden_effect = {
 				if = {
 					limit = {
-						4182 = {
+						6462 = {
 							NOT = { country_or_non_sovereign_subject_holds = ROOT }
 							owner = {
 								is_subject = no
 							}
 						}
 					}
-					4182 = {
+					6462 = {
 						owner = {
 							country_event = { id = more_flavor_por.3 }
 						}

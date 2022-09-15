@@ -5,11 +5,11 @@
 # Country Modifiers #
 #####################
 anarchic_riever_modifier = {
-    may_perform_slave_raid = yes
-    may_perform_slave_raid_on_same_religion = yes
+	may_perform_slave_raid = yes
+	may_perform_slave_raid_on_same_religion = yes
 	local_tax_modifier = -0.1
 	global_tax_modifier = -0.15
-    picture = "border_reiver_icon"
+	picture = "border_reiver_icon"
 }
 
 first_locomotives_industry = {
@@ -1524,6 +1524,14 @@ plitvice = { # Plitvice lakes in Croatia
 dharmapuri_mango = { #Dharmapuri 8429
 	trade_value = 0.75
 	trade_goods_size_modifier = 0.1
+}
+
+##############################################
+# Malaria stopping colonisation by docRobert #
+##############################################
+
+vu_malaria_present = {		#ADD THIS MODIFIER TO PROVINCE, TO PREVENT EARLY COLONIZATION (LIKE INLAND AFRICA)
+	picture = "vu_malaria_icon"
 }
 
 ##################################
