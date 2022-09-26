@@ -34,7 +34,7 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
-1449.1.1 = { fort15th = no } #Ottoman raid destroys Hexamilion wall
+1449.1.1 = { fort_15th = no } #Ottoman raid destroys Hexamilion wall
 1453.5.29 = {
 	owner = MOE
 	controller = MOE

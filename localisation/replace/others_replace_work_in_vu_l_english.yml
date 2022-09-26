@@ -916,7 +916,7 @@
  po_valley_area:2 "East Lombardy"
  lombardy_area:2 "West Lombardy"
  central_italy_area:2 "Marche"
- northern_saxony_area:2 "Altmark"
+ #northern_saxony_area:2 "Altmark"
  lower_saxony_area:2 "Hannover"
  north_brabant_area:2 "Guelders"
  #upper_swabia_area:2 "Upper Swabia"

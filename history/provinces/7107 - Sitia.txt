@@ -20,7 +20,7 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
-1492.1.1 = { firth_15th = yes } #Additional forts built (Kazarma fortress)
+1492.1.1 = { fort_15th = yes } #Additional forts built (Kazarma fortress)
 1648.6.1 = { controller = TUR } #Ottoman invasion on Crete
 1669.9.26 = {
 	owner = TUR

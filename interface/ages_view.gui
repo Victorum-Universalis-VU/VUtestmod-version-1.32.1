@@ -153,7 +153,12 @@ guiTypes = {
 				spriteType = "GFX_icon_age_l"
 				position = { x= -30 y = 81 }
 				frame = 3
-			}
+                }
+			iconType = {
+				name ="icon_age_of_reformation"
+				spriteType = "GFX_icon_age_of_reformation_g"
+				position = { x= -15 y = 63 }
+				}
 			iconType = {
 				name ="icon_age_of_revolutions"
 				spriteType = "GFX_icon_age_s"

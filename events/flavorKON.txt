@@ -18,23 +18,17 @@ country_event = {
 
 	trigger = {
 		tag = KON
-		
-		  
 		POR = {
 			religion = catholic
 		}
-		coastal_kongo = {
-			has_discovered = POR
-		}
+		knows_country = POR
+		POR = { knows_country = KON }
 		NOT = { religion = catholic }
 		NOT = { has_dlc = "Origins" }
 	}
-
 	mean_time_to_happen = {
 		months = 120
 	}
-	
-	
 	option = { 
 		name = flavor_kon.1.a			# Let Them Preach
 		ai_chance = { factor = 90 }
@@ -50,7 +44,6 @@ country_event = {
  		}
 		set_country_flag = kongo_allows_missionaries
 		
-						   
 		reverse_add_opinion = {
 			who = POR
 			modifier = missionaries_accepted
@@ -86,7 +79,7 @@ country_event = {
 	id = flavor_kon.2
 	title = flavor_kon.2.t
 	desc = flavor_kon.2.d
-	picture = POPE_PREACHING_eventPicture
+	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 		
@@ -111,7 +104,7 @@ country_event = {
 	id = flavor_kon.3
 	title = flavor_kon.3.t
 	desc = flavor_kon.3.d
-	picture = POPE_PREACHING_eventPicture
+	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 		
@@ -124,7 +117,6 @@ country_event = {
 		}
 	}
 }
-
 
 # The King of Kongo Converts!
 country_event = {
@@ -150,7 +142,6 @@ country_event = {
 			has_country_flag = kongo_allows_missionaries
 			NOT = { religion = catholic }
 			is_female = no
-  
 			any_owned_province = {
 				religion = catholic
 			}
@@ -168,32 +159,33 @@ country_event = {
 		
 	option = { # Christianity will triumph in Kongo
 		name = flavor_kon.4.a
-							 
 		change_religion = catholic
 		if = {
 			limit = { is_tribal = yes }
 			change_government_to_monarchy = yes
 			#set_legacy_government = despotic_monarchy
 		}
-					
-
 		if = {
 			limit = {
-				has_country_flag = kon_picked_side_with_europeans
+				has_dlc = "Origins"
 			}
-			add_stability = 1
-		}
-		else = {
-			custom_tooltip = flavor_kon.4.a.tt
-			hidden_effect = {
-				add_stability = -3
-				set_country_flag = kon_picked_oppose_europeans
-				set_country_flag = kon_betrayed_own_people	#Traitor
-				clr_country_flag = kon_picked_side_with_europeans
-				swap_non_generic_missions = yes
+			if = {
+				limit = {
+					has_country_flag = kon_picked_side_with_europeans
+				}
+				add_stability = 1
+			}
+			else = {
+				custom_tooltip = flavor_kon.4.a.tt
+				hidden_effect = {
+					add_stability = -3
+					set_country_flag = kon_picked_oppose_europeans
+					set_country_flag = kon_betrayed_own_people	#Traitor
+					clr_country_flag = kon_picked_side_with_europeans
+					swap_non_generic_missions = yes
+				}
 			}
 		}
-
 		hidden_effect = {
 			POR = {
 				country_event = { id = flavor_kon.5 days = 1 }
@@ -209,24 +201,27 @@ country_event = {
 	}
 	option = { # Kill the Ruler!
 		name =  flavor_kon.4.b
-							 
 		kill_ruler = yes
 		if = {
 			limit = {
-				has_country_flag = kon_picked_oppose_europeans
+				has_dlc = "Origins"
 			}
-			add_stability = 2
-		}
-		else = {
-			custom_tooltip = flavor_kon.4.b.tt
-			hidden_effect = {
-				add_stability = -3
-				clr_country_flag = kon_picked_side_with_europeans
-				set_country_flag = kon_picked_oppose_europeans
-				swap_non_generic_missions = yes
+			if = {
+				limit = {
+					has_country_flag = kon_picked_oppose_europeans
+				}
+				add_stability = 2
+			}
+			else = {
+				custom_tooltip = flavor_kon.4.b.tt
+				hidden_effect = {
+					add_stability = -3
+					clr_country_flag = kon_picked_side_with_europeans
+					set_country_flag = kon_picked_oppose_europeans
+					swap_non_generic_missions = yes
+				}
 			}
 		}
-
 		ai_chance = { 
 			factor = 10
 			modifier = {
@@ -271,17 +266,14 @@ country_event = {
 		capital_scope = {
 			continent = europe
 		}
-		coastal_kongo = {
-			has_discovered = ROOT
-		}
 		NOT = { has_global_flag = kon_kongo_got_discovered_by_europeans }
+		knows_country = KON
 		exists = KON
 		KON = {	#Can't really ship a missionary to Kongo if they don't have a coast line
 			num_of_ports = 1
 		}
 		has_dlc = "Origins"
 	}
-
 	mean_time_to_happen = {
 		months = 100
 		modifier = {
@@ -298,7 +290,6 @@ country_event = {
 			}
 		}
 	}
-	
 	option = {
 		set_global_flag = kon_kongo_got_discovered_by_europeans
 		KON = {
@@ -1041,8 +1032,12 @@ province_event = {
 	hidden = yes
 
 	trigger = {
+		papacy_active = yes
 		has_active_triggered_province_modifier = kongo_cardinal_modifier
 		has_cardinal = no
+		owner = {
+			NOT = { num_of_cardinals = 7 }
+		}
 	}
 
 	mean_time_to_happen = {

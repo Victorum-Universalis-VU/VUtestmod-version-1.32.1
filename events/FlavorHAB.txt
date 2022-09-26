@@ -265,6 +265,16 @@ country_event = {
 		is_year = 1600
 		NOT = { is_year = 1650 }
 		NOT = { stability = 3 }
+		num_of_owned_provinces_with = {
+			value = 1
+			AND = {
+				region = south_german_region
+				OR = {
+					culture = austrian
+					culture = bavarian
+				}
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -275,6 +285,13 @@ country_event = {
 		name = "flavor_hab.EVTOPTA3195"
 		add_stability = -1
 		random_owned_province = {
+			limit = {
+				region = south_german_region
+				OR = {
+					culture = austrian
+					culture = bavarian
+				}
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 2
@@ -297,7 +314,10 @@ country_event = {
 		any_owned_province = {
 			OR = {
 				area = transdanubia_area
+				area = transylvania_area
+				area = southern_transylvania_area
 				area = alfold_area
+				area = slovakia_area
 			}
 		}
 		NOT = { stability = 1 }
@@ -314,7 +334,10 @@ country_event = {
 				limit = {
 					OR = {
 						area = transdanubia_area
+						area = transylvania_area
+						area = southern_transylvania_area
 						area = alfold_area
+						area = slovakia_area
 					}
 					development = 10
 				}
@@ -343,7 +366,10 @@ country_event = {
 			limit = {
 				OR = {
 					area = transdanubia_area
+					area = transylvania_area
 					area = alfold_area
+					area = slovakia_area
+					area = southern_transylvania_area
 				}
 			}	
 			add_unrest = 5
@@ -355,7 +381,10 @@ country_event = {
 			limit = {
 				OR = {
 					area = transdanubia_area
+					area = transylvania_area
+					area = southern_transylvania_area
 					area = alfold_area
+					area = slovakia_area
 				}
 				is_capital = no
 			}	

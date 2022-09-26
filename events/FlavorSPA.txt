@@ -26,6 +26,7 @@ country_event = {
 			AND = {
 				tag = CAS
 				NOT = { war_with = ARA }
+				is_subject = no
 				ARA = {
 					exists = yes
 					ai = yes
@@ -34,12 +35,14 @@ country_event = {
 					is_neighbor_of = ROOT
 					NOT = { is_in_war = { attacker_leader = ARA } }
 					NOT = { is_in_war = { defender_leader = ARA } }
+					NOT = { is_in_war = { casus_belli = cb_independence_war } }
 				}
 				num_of_cities = 25
 			}
 			AND = {
 				tag = ARA
 				NOT = { war_with = CAS }
+				is_subject = no
 				ai = no
 				CAS = {
 					exists = yes
@@ -49,6 +52,7 @@ country_event = {
 					is_neighbor_of = ROOT
 					NOT = { is_in_war = { attacker_leader = CAS } }
 					NOT = { is_in_war = { defender_leader = CAS } }
+					NOT = { is_in_war = { casus_belli = cb_independence_war } }
 				}
 				num_of_cities = 16
 			}
@@ -184,6 +188,7 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_regency = no
 				has_consort = no
 				has_government_attribute = queen
 			}
@@ -370,7 +375,7 @@ country_event = {
 		add_years_of_income = -0.25
 		set_global_flag = columbus_happened
 		define_explorer = {
-			name = "Cristóbal Colón"
+			name = "NAME_CRISTOBAL_COLON"
 			fire = 2
 			shock = 2
 			manuever = 6
@@ -411,6 +416,17 @@ country_event = {
 			tag = SPB
 			tag = BBS
 			tag = CSP
+		}
+		OR = {
+			north_america = {
+				has_discovered = ROOT
+			}
+			south_america = {
+				has_discovered = ROOT
+			}
+			new_world = {
+				has_discovered = ROOT
+			}
 		}
 	}
 
@@ -1953,6 +1969,15 @@ country_event = {
 			}
 		}
 		add_prestige = 10
+		if = {
+			limit = {
+				has_dlc = "Leviathan"
+			}
+			add_country_modifier = {
+				name = "alhambra_working_force"
+				duration = 3650
+			}
+		}
 	}
 }
 
@@ -2291,28 +2316,20 @@ country_event = {
 			}
 			clr_province_flag = alpujarras_centre_of_revolt
 		}
-		custom_tooltip = flavor_spa.7.tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_flag = alpujarras_revolt
-				}
-				if = {
-					limit = { NOT = { religion = sunni } }
-					change_religion = sunni #Crypto-Muslims
-				}
-				random_list = { #Roughly 50/50 because we have double the vanilla provinces with Granadan cores.
-					40 = {
-						spawn_rebels = {
-							type = nationalist_rebels
-							friend = GRA
-							size = 1
-						}
-						clr_province_flag = alpujarras_revolt
-					}
-					60 = {} #No effect
-				}
+		every_owned_province = {
+			limit = {
+				has_province_flag = alpujarras_revolt
 			}
+			if = {
+				limit = { NOT = { religion = sunni } }
+				change_religion = sunni #Crypto-Muslims
+			}
+			spawn_rebels = {
+				type = nationalist_rebels
+				friend = GRA
+				size = 1
+			}
+			clr_province_flag = alpujarras_revolt
 		}
 	}
 }
@@ -3073,12 +3090,12 @@ country_event = {
 			estate = estate_church
 			loyalty = -10
 		}
-		take_estate_land_share_small = { estate = estate_church  }
+		take_estate_land_share_small = { estate = estate_nobles }
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -10
 		}
-		take_estate_land_share_small = { estate = estate_nobles }
+		take_estate_land_share_small = { estate = estate_church }
 		every_owned_province = {
 			limit = {
 				has_province_modifier = merino_wool

@@ -23,7 +23,6 @@ country_decisions = {
 				area = northern_greece_area
 				area = morea_area
 				area = western_aegean_area
-				area = macedonia_area
 				area = aetolia_area
 				area = northern_epirus_area
 				area = thessaly_area
@@ -35,7 +34,6 @@ country_decisions = {
 			northern_greece_area = { type = all owned_by = BYZ }
 			morea_area = { type = all owned_by = BYZ }
 			western_aegean_area = { type = all owned_by = BYZ }
-			macedonia_area = { type = all owned_by = BYZ }
 			aetolia_area = { type = all owned_by = BYZ }
 			northern_epirus_area = { type = all owned_by = BYZ }
 			thessaly_area = { type = all owned_by = BYZ }
@@ -65,32 +63,60 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 159
-				province_id = 1764
-				province_id = 149
-				province_id = 150
-				province_id = 1765
-				province_id = 148
-				province_id = 1853
-				province_id = 143
-				province_id = 138
-				province_id = 137
-				province_id = 4753
+			    area = danubian_plain_area
+				area = northern_thrace_area
+				area = thrace_area
+				area = bulgaria_area
+				area = macedonia_area
+				area = albania_area
+				area = montenegro_area
+				area = east_adriatic_coast_area
+				area = rascia_area
+				area = silistria_area
 			}
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
-			owns = 159
-			owns = 1764
-			owns = 149
-			owns = 150
-			owns = 1765
-			owns = 148
-			owns = 1853
-			owns = 143
-			owns = 138
-			owns = 137
-			owns = 4753
+		    danubian_plain_area = {
+				type = all
+				owned_by = ROOT
+			}
+			northern_thrace_area = {
+				type = all
+				owned_by = ROOT
+			}
+			thrace_area = {
+				type = all
+				owned_by = ROOT
+			}
+			bulgaria_area = {
+				type = all
+				owned_by = ROOT
+			}
+			macedonia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			albania_area = {
+				type = all
+				owned_by = ROOT
+			}
+			montenegro_area = {
+				type = all
+				owned_by = ROOT
+			}
+			east_adriatic_coast_area = {
+				type = all
+				owned_by = ROOT
+			}
+			rascia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			silistria_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 		effect = {
 			add_prestige = 20

@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+            OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = TUR }
 			NOT = { exists = RUM }
 			NOT = { tag = HLR }
@@ -75,6 +79,7 @@ country_decisions = {
 			if = {
 				limit = { is_revolutionary = no }
 				add_government_reform = ottoman_government
+	 
 			}
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

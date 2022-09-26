@@ -18,10 +18,7 @@ bavarian_missions_main = {
 		required_missions = { }
 		completed_by = 1507.1.1
 		ai_weight = {
-			factor = 10
-		}
-		ai_priority = {
-			factor = 10
+			factor = 500
 		}
 
 		provinces_to_highlight = {
@@ -201,6 +198,9 @@ bavarian_missions_main = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical conquest
+		}
 	}
 
 	conquer_franken = {
@@ -232,6 +232,9 @@ bavarian_missions_main = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500 #Historical conquest
 		}
 	}
 
@@ -265,6 +268,9 @@ bavarian_missions_main = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 100	#Plausible conquest
 		}
 	}
 }
@@ -320,6 +326,9 @@ bavarian_missions_palatinate = {
 					duration = 7300
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical conquest
 		}
 	}
 }

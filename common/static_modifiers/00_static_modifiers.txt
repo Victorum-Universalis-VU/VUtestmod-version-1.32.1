@@ -13,6 +13,8 @@ difficulty_very_easy_player = {
 	manpower_recovery_speed = 0.50
 	land_forcelimit_modifier = 0.5
 	naval_forcelimit_modifier = 0.5
+	production_efficiency = 0.5
+	global_tax_income = 60
 	global_regiment_cost = -0.33
 	global_ship_cost = -0.33
 	inflation_reduction = 0.05
@@ -304,6 +306,8 @@ development = {
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.05
 	local_amount_of_cawa = 0.125
+	local_amount_of_carolean = 0.1
+	local_amount_of_hussars = 0.01
 }
 
 development_scaled = {
@@ -398,6 +402,23 @@ march_bonus = {
 	naval_maintenance_modifier = -0.20
 }
 
+pu_subject_bonus = {
+	global_manpower_modifier = 0.25
+	land_forcelimit_modifier = 0.30
+	naval_forcelimit_modifier = 0.30
+	defensiveness = 0.2
+	fort_maintenance_modifier = -0.20
+	manpower_recovery_speed = 0.20
+	land_maintenance_modifier = -0.20
+	naval_maintenance_modifier = -0.20
+}
+
+pu_overlord_bonus = {
+	global_manpower = 4
+	global_sailors = 2000
+	global_manpower_modifier = 0.05
+	global_sailors_modifier = 0.05
+}
 same_culture_group = {
 	local_tax_modifier = -0.1				#10% penalty if same culture group but nothing else. Not applied if the controller is the Union Tag of the culture group, or has culture_group_union set.			#BTAddOn changed from 0.15, comprehensively reducing culture penalties and increasing religious ones
 	local_manpower_modifier = -0.1			#BTAddOn changed from 0.15, comprehensively reducing culture penalties and increasing religious ones
@@ -570,6 +591,7 @@ left_trade_company = {
 
 scorched_earth = {
 	local_hostile_movement_speed = -0.30			#BTAddOn changed from -0.5 - that is far too much, and I don't like the way it stacks with my terrain changes
+	local_monthly_devastation = 0.25
 }
 
 ##########################################################################
@@ -602,7 +624,7 @@ base_values = {
 	governing_capacity = 200				#BTB Probably not a wise idea to lower from 200 to 80 based on the 10 to 4 max states conversion.
 	num_accepted_cultures = 5				#BTAddOn changed from 2 - Note accepted culture bonus to government levels, so kingdoms start with the same as vanilla, and empires get 1 more.
 	monthly_splendor = 1
-	artillery_bonus_vs_fort = 5
+	artillery_levels_available_vs_fort = 5
 	cav_to_inf_ratio = 0.3					#BTAddOn changed from 0.5 - Seriously, what normal army was a full 50 percent cavalry? Realistic might be closer to 10 as a base, but 30 hits a nice gameplay/realism balance, I think.
 	merc_maintenance_modifier = 0.5
 	monthly_heir_claim_increase = 0.417
@@ -905,6 +927,8 @@ defender_of_faith = {
 	#technology_cost = 0.05					#BTAddOn removed - So being the defender of the faith means you automatically become a philistine, yet being the curia controller means you have new insight into technological development..... Removing penalty and bonus
 	war_exhaustion = -0.025					#quicker recovery
 	papal_influence = 1
+	church_power_modifier = 0.1
+	monthly_fervor_increase = 1
 	prestige = 1							#1% extra prestige yearly
 	missionaries = 1
 	devotion = 0.5
@@ -959,7 +983,31 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
+	
+}
 
+# Multiplied by the amount of papal influence
+papal_influence = {
+}
+
+# Multiplied by the amount of Church Power
+church_power = {
+}
+
+# Multiplied by the amount of Fervor
+fervor = {
+}
+
+# Multiplied by the amount of Karma
+karma = {
+}
+
+# Multiplied by the amount of positive karma
+positive_karma = {
+}
+
+# Multiplied by the amount of negative karma
+negative_karma = {
 }
 
 # Multiplied by Development
@@ -997,17 +1045,26 @@ horde_unity = {
 # Multiplied by current Devotion - 50
 devotion = {
 	papal_influence = 2
+	monthly_fervor_increase = 2
 	church_power_modifier = 0.25
+	harmonization_speed = 0.5
+	monthly_piety_accelerator = 0.01
+	yearly_authority = 0.5
+	yearly_patriarch_authority = 0.01
+	yearly_doom_reduction = 0.5
+	yearly_karma_decay = 0.1
 	prestige = 2
 	global_tax_modifier = 0.50
 	church_loyalty_modifier = 0.05
 	brahmins_hindu_loyalty_modifier = 0.05
+	reform_progress_growth = 0.5
 }
 
 # Multiplied by current meritocracy - 50
 meritocracy = {
 	global_spy_defence = 1.0
 	advisor_cost = -0.5
+	reform_progress_growth = 0.5
 }
 
 # Multiplied by 50 - meritocracy
@@ -1200,6 +1257,8 @@ total_occupation = {
 
 total_blockaded = {
 	war_exhaustion = 0.10					#increases exhaustion.
+	global_trade_power = -0.75
+	trade_steering = -0.75
 }
 
 uncontested_cores = {
@@ -1329,25 +1388,16 @@ trade_company_strong = {
 	merchants = 1
 }
 
-private_enterprise_overlord = {
-	global_tariffs = -0.025         #Added in VU and decreased from 0.05
-	global_trade_power = 0.025      #Added in VU and decreased from 0.05
-	naval_forcelimit = 1            #Added in VU.
-	land_forcelimit = 1             #Added in VU.
-}
-
-private_enterprise_subject = {
-	global_ship_trade_power = 0.2
-	global_trade_goods_size_modifier = 0.2
-	naval_tradition_from_trade = 0.1
-	ship_power_propagation = 0.1
-}
 
 large_colonial_nation = {
 	merchants = 1
 	global_trade_power = 0.05
 	naval_forcelimit = 2		#VU changed from 3. #BTAddOn changed from 10. Naval forcelimits were getting obscene
 	land_forcelimit = 2		#BTAddOn changed from 5. Too large a bonus compared to vassals and marches
+}
+
+new_world_exploitation_modifier = {
+	global_trade_goods_size_modifier = 0.1
 }
 
 crown_colony_overlord = {
@@ -1357,14 +1407,37 @@ crown_colony_overlord = {
 	land_forcelimit = 2		#VU increase from 2
 }
 
+private_enterprise_overlord = {
+	global_tariffs = -0.025         #Added in VU and decreased from 0.05
+	global_trade_power = 0.025      #Added in VU and decreased from 0.05
+	naval_forcelimit = 1            #Added in VU.
+	land_forcelimit = 1             #Added in VU.
+}
+
+self_governing_colony_overlord = {
+	global_tariffs = -0.05		# -5% per every existing colony like that
+	merchants = 1
+	global_trade_power = 0.05
+	global_tariffs = -0.10
+}
+
 crown_colony_subject = {
 	colonists = 1                   #Added in VU - The idea here is that once a colony is large enough, people then venture out to claim and settle new land.
 	global_autonomy = -0.05
 	global_colonial_growth = 10
 }
 
-self_governing_colony_overlord = {
-	global_tariffs = -0.05		# -5% per every existing colony like that
+private_enterprise_subject = {
+	global_ship_trade_power = 0.2
+	global_trade_goods_size_modifier = 0.2
+	naval_tradition_from_trade = 0.1
+	ship_power_propagation = 0.1
+}
+
+self_governing_colony_subject = {
+	colonists = 1
+	development_cost = -0.15
+	liberty_desire = 25
 }
 
 #VU - Addition by San Felipe
@@ -1375,12 +1448,6 @@ self_governing_dominion_vu_overlord = {
 #VU - Addition by San Felipe
 self_governing_super_dominion_vu_overlord = {
 	global_tariffs = -0.1		# -10% per every colony of this type
-}
-
-self_governing_colony_subject = {
-	colonists = 1
-	development_cost = -0.15
-	liberty_desire = 25
 }
 
 #VU - Addition by San Felipe
@@ -1432,6 +1499,18 @@ primitive_nation = {
 	development_cost = 0.5
 }
 
+pirate_subject = {
+	global_manpower = 4
+	global_sailors = 2000
+	global_sailors_modifier = 0.1
+	global_manpower_modifier = 0.05
+	navy_tradition = 0.25
+	naval_forcelimit = 2
+}
+
+subject_tax_modifier = {
+	global_tax_modifier = 0.25
+}												   
 #scales to amount of up-to-date forts compared to total development
 maintained_forts = {
 	army_tradition = 1
@@ -1483,10 +1562,13 @@ autonomy_decreased = {
 revolution_target = {
 	global_manpower_modifier = 0.10
 	land_morale = 0.10
+	naval_morale = 0.1
 	war_exhaustion = -0.15
 	unjustified_demands = -0.5
 	land_maintenance_modifier = -0.15
 	naval_maintenance_modifier = -0.15
+	manpower_recovery_speed = 0.25
+	sailors_recovery_speed = 0.25
 	land_forcelimit_modifier = 0.4
 	naval_forcelimit_modifier = 0.4
 	papal_influence = -100
@@ -1653,8 +1735,6 @@ high_harmony = {
 low_harmony = {
     yearly_corruption = 1
 	stability_cost_modifier = 0.2
-	tolerance_own = -3
-	development_cost = 0.25
 	legitimacy = -1
 	devotion = -2
 	meritocracy = -2
@@ -1846,10 +1926,41 @@ cawa_regiment = {
 	reinforce_speed = -0.25
 }
 
+hussars_regiment = {
+	cavalry_shock = 1
+	morale_damage = 0.5
+	reinforce_speed = -0.5
+}
+
+marine_regiment = {
+    shock_damage_received = 0.1
+    regiment_disembark_speed = 2 #requires a new country modifier
+}
+
+banner_regiment = {
+	discipline = 0.05
+	land_maintenance_modifier = -0.5
+	reinforce_speed = -0.5
+	regiment_manpower_usage = -0.75
+}
+
+streltsy_regiment = {
+    fire_damage = 0.1
+}
+
+cossacks_regiment = {
+    shock_damage = 0.1
+}
+
+carolean_regiment = {
+	morale_damage = 0.1
+	drill_decay_modifier = -0.25
+}
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
 	drill_gain_modifier = 1.0
+	drill_decay_modifier = -0.5
 }
 
 innovativeness = {
@@ -1891,10 +2002,9 @@ over_governing_capacity_modifier = {
 	stability_cost_modifier = 1.0
 	ae_impact = 0.5
 	improve_relation_modifier = -0.5
-	core_creation = 0.2
 	advisor_cost = 1.0
 	monthly_militarized_society = -1.0
-
+	administrative_efficiency = -0.5
 }
 
 #A new, modified 100% over capacity modifier that BT wants to test.
@@ -1942,7 +2052,7 @@ expanded_infrastructure = {
 }
 
 centralize_state = {
-	state_governing_cost_increase = -20
+	statewide_governing_cost = -0.20
 	local_prosperity_growth = 0.1
 	local_state_maintenance_modifier = -0.1
 	picture = "centralize_state"
@@ -1953,6 +2063,47 @@ guru_teaching = {
 	global_missionary_strength = -0.01
 }
 
+diplomatic_reputation = {
+}
+
+tolerance_own = {
+}
+
+tolerance_heretic = {
+}
+
+tolerance_heathen = {
+}
+
+num_accepted_cultures = {
+}
+
+ruler_adm = {
+}
+
+ruler_dip = {
+}
+
+ruler_mil = {
+}
+
+heir_adm = {
+}
+
+heir_dip = {
+}
+
+heir_mil = {
+}
+
+consort_adm = {
+}
+
+consort_dip = {
+}
+
+consort_mil = { 
+}
 ################################
 # GE Additions by Jay Double U #
 ################################

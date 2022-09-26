@@ -41,6 +41,11 @@ tur_conquerors_of_the_near_east = {
 			}
 			give_permaclaims_for_mission = { mission=conquer_southern_greece }
 		}
+		
+		ai_weight = {
+			factor = 250
+		}
+		
 	}
 	conquer_southern_greece = {
 		icon = mission_conquer_southern_greece
@@ -82,18 +87,17 @@ tur_conquerors_of_the_near_east = {
 				add_claim = ROOT
 			}
 		}
+		
+		ai_weight = {
+			factor = 250
+		}
+		
 	}
 	conquer_serbia = {
 		icon = mission_conquer_serbia
 		required_missions = { conquer_southern_greece }
 		position = 5
-		
-		ai_weight = {
-			factor = 3
-		}
-		ai_priority = {
-			factor = 3
-		}
+
 		completed_by = 1460.1.1
 		provinces_to_highlight = {
 			conquer_serbia_provinces = yes
@@ -140,16 +144,16 @@ tur_conquerors_of_the_near_east = {
 				give_permaclaims_for_mission = { mission=vassalize_wallachia }
 			}
 		}
+		
+		ai_weight = {
+			factor = 250
+		}
+		
 	}
 	conquer_bosnia = {
 		icon = mission_conquer_bosnia
 		required_missions = { conquer_serbia }
-		ai_weight = {
-			factor = 2
-		}
-		ai_priority = {
-			factor = 2
-		}
+
 		completed_by = 1463.1.1
 		provinces_to_highlight = {
 			conquer_bosnia_provinces = yes
@@ -174,16 +178,16 @@ tur_conquerors_of_the_near_east = {
 				add_claim = ROOT
 			}
 		}
+		
+		ai_weight = {
+			factor = 100
+		}
+		
 	}
 	conquer_hungary = {
 		icon = mission_control_the_danube
 		required_missions = { conquer_bosnia }
-		ai_weight = {
-			factor = 2
-		}
-		ai_priority = {
-			factor = 1
-		}
+
 		completed_by = 1542.1.1
 		provinces_to_highlight = {
 			conquer_hungary_provinces = yes
@@ -231,6 +235,11 @@ tur_conquerors_of_the_near_east = {
 				add_claim = ROOT
 			}
 		}
+		
+		ai_weight = {
+			factor = 50
+		}
+		
 	}
 }
 
@@ -247,13 +256,7 @@ tur_eastern_balkans = {
 	vassalize_wallachia = {
 		icon = mission_vassalize_wallachia
 		position = 6
-		
-		ai_weight = {
-			factor = 2
-		}
-		ai_priority = {
-			factor = 3
-		}
+
 		completed_by = 1462.11.1
 		required_missions = { conquer_serbia }
 		provinces_to_highlight = {
@@ -288,16 +291,16 @@ tur_eastern_balkans = {
 			}
 		
 		}
+		
+		ai_weight = {
+			factor = 50
+		}
+		
 	}
 	vassalize_transylvania = {
 		icon = mission_vassalize_transylvania
 		required_missions = { vassalize_wallachia }
-		ai_weight = {
-			factor = 3
-		}
-		ai_priority = {
-			factor = 2
-		}
+
 		completed_by = 1599.3.17
 		provinces_to_highlight = {
 			vassalize_transylvania_provinces = yes
@@ -332,6 +335,10 @@ tur_eastern_balkans = {
 				add_claim = ROOT
 			}
 		}
+		
+		ai_weight = {
+			factor = 50
+		}
 	}
 }
 
@@ -349,9 +356,6 @@ tur_conquest_of_middle_east = {
 		icon = mission_non-western_soldiers
 		required_missions = {  }
 		completed_by = 1514.8.23 #What. Are they for real?
-		ai_weight = {
-			factor = 5
-		}
 		trigger = {
 			army_size_percentage = 0.6
 		}
@@ -359,18 +363,16 @@ tur_conquest_of_middle_east = {
 			#Claims
 			give_permaclaims_for_mission = { mission=consolidate_asia_minor }
 		}
+		ai_weight = {
+			factor = 100 # AI will go (up to) this many percent above army budget in order to reach the army size needed
+		}
 	}
 	consolidate_asia_minor = {
 		icon = mission_consolidate_asia_minor
 		required_missions = { army_reforms_of_mehemed_II }
 		position = 3
 		completed_by = 1469.1.1
-		ai_weight = {
-			factor = 3
-		}
-		ai_priority = {
-			factor = 5
-		}
+
 		provinces_to_highlight = {
 			consolidate_asia_minor_provinces = yes
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -398,18 +400,17 @@ tur_conquest_of_middle_east = {
 				
 			}
 		}
+		
+		ai_weight = {
+			factor = 200
+		}
+		
 	}
 	safeguard_eastern_anatolia = {
 		icon = mission_safeguard_eastern_anatolia
 		required_missions = { consolidate_asia_minor }
 		position = 5
-		
-		ai_weight = {
-			factor = 6
-		}
-		ai_priority = {
-			factor = 3
-		}
+
 		completed_by = 1514.8.23
 		provinces_to_highlight = {
 			safeguard_eastern_anatolia_provinces = yes
@@ -427,6 +428,10 @@ tur_conquest_of_middle_east = {
 			give_permaclaims_for_mission = { mission=conquer_levant }
 			give_permaclaims_for_mission = { mission=conquer_trebizond }
 			give_permaclaims_for_mission = { mission=conquer_mesopotamia }
+		}
+		
+		ai_weight = {
+			factor = 300
 		}
 	}
 	conquer_mesopotamia = {
@@ -447,6 +452,10 @@ tur_conquest_of_middle_east = {
 		effect = {
 			#Claims
 			give_permaclaims_for_mission = { mission=conquer_haasa }
+		}
+		
+		ai_weight = {
+			factor = 300
 		}
 	}
 	conquer_haasa = {
@@ -486,6 +495,10 @@ tur_conquest_of_middle_east = {
 				}
 			}
 		}
+		
+		ai_weight = {
+			factor = 300
+		}
 	}
 }
 
@@ -517,6 +530,10 @@ tur_black_sea = {
 			#Claims
 			give_permaclaims_for_mission = { mission=take_kaffa }
 		}
+		
+		ai_weight = {
+			factor = 300
+		}
 	}
 	take_kaffa = {
 		icon = mission_siege_of_kaffa
@@ -543,6 +560,10 @@ tur_black_sea = {
 				}
 			}
 		}
+		
+		ai_weight = {
+			factor = 300
+		}
 	}
 }
 
@@ -561,12 +582,7 @@ tur_eastern_mediterrenean_missions = {
 		required_missions = { safeguard_eastern_anatolia }
 		completed_by = 1516.8.24
 		position = 6
-		ai_weight = {
-			factor = 6
-		}
-		ai_priority = {
-			factor = 4
-		}
+
 		provinces_to_highlight = {
 			conquer_levant_provinces = yes
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -586,18 +602,17 @@ tur_eastern_mediterrenean_missions = {
 			#Claims
 			give_permaclaims_for_mission = { mission=conquer_egypt }
 		}
+		
+		ai_weight = {
+			factor = 300
+		}
 	}
 	conquer_egypt = {
 		icon = mission_conquer_egypt
 		required_missions = { conquer_levant }
 		position = 6
 		completed_by = 1517.1.1
-		ai_weight = {
-			factor = 6
-		}
-		ai_priority = {
-			factor = 5
-		}
+
 		provinces_to_highlight = {
 			conquer_egypt_provinces = yes						
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -638,6 +653,10 @@ tur_eastern_mediterrenean_missions = {
 				give_permaclaims_for_mission = { mission=conquer_tripolitania }
 			}
 		}
+		
+		ai_weight = {
+			factor = 300
+		}
 	}
 	defeat_the_knights = { #Conquer Rhodes
 		icon = mission_conquer_rhodes
@@ -661,6 +680,10 @@ tur_eastern_mediterrenean_missions = {
 				name = "ottoman_naval_dominance"
 				duration = 7300
 			}
+		}
+		
+		ai_weight = {
+			factor = 300
 		}
 	}
 	take_crete_from_venice = { #Conquer Crete
@@ -689,8 +712,11 @@ tur_eastern_mediterrenean_missions = {
 				duration = 7300 #20 Years
 			}
 		}
+		
+		ai_weight = {
+			factor = 300
+		}
 	}
-	
 }
 
 tur_conquer_western_mediterrenean = {
@@ -835,6 +861,10 @@ tur_indian_ocean = {
 		}
 		effect = {
 			give_permaclaims_for_mission = { mission=conquer_mocha }
+		}
+		
+		ai_weight = {
+			factor = 300
 		}
 	}
 	conquer_mocha = { #Conquer Mocha

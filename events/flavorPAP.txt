@@ -29,6 +29,16 @@ country_event = {
 	option = {
 		name = "flavor_pap.EVTOPTA1"
 		add_ruler_modifier = { name = pap_saint_peters_basilica }
+		if = {
+			limit = {
+				has_dlc = "Leviathan"
+			}
+			118 = {
+				set_great_project_tier_1 = {
+					type = stpeters_cathedral
+				}
+			}
+		}
 	}
 	option = {
 		name = "flavor_pap.EVTOPTB1"
@@ -378,20 +388,28 @@ country_event = {
 			}
 			add_corruption = -1
 		}
-		custom_tooltip = flavor_pap.7.tt
-		hidden_effect = {
-			every_known_country = {
-				limit = {
-					religion = catholic
-					any_owned_province = {
-						has_cardinal = yes
+		if = {
+			limit = {
+				has_dlc = "Emperor"
+			}
+			custom_tooltip = flavor_pap.7.tt
+			hidden_effect = {
+				every_known_country = {
+					limit = {
+						religion = catholic
+						any_owned_province = {
+							has_cardinal = yes
+						}
+					}
+					country_event = {
+						id = flavor_pap.8
 					}
 				}
-				country_event = {
-					id = flavor_pap.8
-				}
+					 
+					  
+	 
 			}
-		}		
+		}
 		set_global_flag = counter_reformation
 		if = {
 			limit = {
@@ -424,12 +442,17 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	trigger = {
+		has_dlc = "Emperor"
+	}
+	
 	option = {
 		name = "flavor_pap.EVTOPTA8"
 		custom_tooltip = can_join_council_of_trent_tt
 		PAP = {
 			add_opinion = {
 				who = ROOT
+				modifier = opinion_trent
 			}
 		}
 	}
@@ -463,6 +486,7 @@ country_event = {
 			num_of_cities = 15
 		}
 		exists = PAP
+		NOT = { has_country_flag = had_sublimis_deus_event }
 	}
 	mean_time_to_happen = {
 		months = 12
@@ -470,12 +494,14 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
+			set_country_flag = had_sublimis_deus_event
 			every_country = {
 				limit = {
 					religion = catholic
 					any_subject_country = {
 						is_colonial_nation = yes
 					}
+					NOT = { has_country_flag = had_sublimis_deus_event }
 				}
 				country_event = { id = flavor_pap.10 days = 3 }
 			}

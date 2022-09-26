@@ -31,9 +31,6 @@ eng_rb_slot_2 = {
 				NOT = { is_year = 1680 }
 			}
 		}
-		ai_priority = {
-			factor = 1
-		}
 
 		trigger = {
 		    #num_of_total_ports = 40
@@ -1252,10 +1249,6 @@ eng_rb_take_baleares = {
 			has_discovered = ROOT
 		}
 
-		ai_priority = {
-			factor = 2
-		}
-
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_hudson_bay
@@ -1318,10 +1311,6 @@ eng_rb_take_baleares = {
 			has_discovered = ROOT
 		}
 
-		ai_priority = {
-			factor = 2
-		}
-
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_british_columbia
@@ -1359,10 +1348,6 @@ eng_rb_take_baleares = {
 			has_discovered = ROOT
 		}
 
-		ai_priority = {
-			factor = 2
-		}
-
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_northwest_territories
@@ -1398,10 +1383,6 @@ eng_rb_take_baleares = {
 			colonial_region = colonial_louisiana
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
-		}
-
-		ai_priority = {
-			factor = 2
 		}
 
 		trigger = {

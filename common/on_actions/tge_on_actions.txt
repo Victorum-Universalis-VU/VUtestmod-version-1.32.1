@@ -420,7 +420,6 @@ on_province_owner_change = {
 	}
 	on_province_owner_change_estate_privileges_effect = yes
 	judaism_on_province_change_religion_or_change_owner_effect = yes
-	kongo_on_province_change_culture_or_change_owner_effect = yes
 	
 	if = {
 		limit = {

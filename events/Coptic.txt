@@ -26,10 +26,10 @@ country_event = {
 
 	trigger = {
 		owns = 1227
-		OR = {
-			religion = coptic
-			uses_blessings = yes
-		}
+		
+		religion = coptic
+					   
+   
 		has_dlc = "Rights of Man"
 	}
 
@@ -78,15 +78,15 @@ country_event = {
 	trigger = {
 		owns = 358
 		OR = {
-			NOT = {
-				has_mission = coptic_conquest_of_alexandria
-			}
+		  
+			NOT = { has_mission = coptic_conquest_of_alexandria }
+	
 			has_country_flag = alexandria_mission_flag
 		}
-		OR = {
-			religion = coptic
-			uses_blessings = yes
-		}
+		
+		religion = coptic
+					   
+   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_alexandria_liberated } #Cancels Mission 
 	}
@@ -181,16 +181,16 @@ country_event = {
 
 	trigger = {
 		OR = {
-			NOT = {
-				has_mission = coptic_conquest_of_yerevan
-			}
+		  
+			NOT = { has_mission = coptic_conquest_of_yerevan }
+	
 			has_country_flag = yerevan_mission_flag
 		}
 		owns = 419
-		OR = {
-			religion = coptic
-			uses_blessings = yes
-		}
+		
+		religion = coptic
+					   
+   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_yerevan_liberated }
 	}
@@ -245,16 +245,16 @@ country_event = {
 
 	trigger = {
 		OR = {
-			NOT = {
-				has_mission = coptic_conquest_of_antioch
-			}
+		  
+			NOT = { has_mission = coptic_conquest_of_antioch }
+	
 			has_country_flag = antioch_mission_flag
 		}
 		owns = 2313
-		OR = {
-			religion = coptic
-			uses_blessings = yes
-		}
+		
+		religion = coptic
+					   
+   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_conquest_of_antioch }
 	}
@@ -304,19 +304,19 @@ country_event = {
 
 	trigger = {
 		OR = {
-			NOT = {
-				has_mission = coptic_conquest_of_qasr_ibrim
-			}
+		  
+			NOT = { has_mission = coptic_conquest_of_qasr_ibrim }
+	
 			has_country_flag = qasr_ibrim_flag
 		}
 		owns = 1234
 		1234 = {
 			religion = coptic
 		}
-		OR = {
-			religion = coptic
-			uses_blessings = yes
-		}
+		
+		religion = coptic
+					   
+   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_qasr_ibrim_liberated }
 	}
@@ -329,6 +329,13 @@ country_event = {
 		hidden_effect = {
 			set_global_flag = coptic_qasr_ibrim_liberated
 			lower_nubia_area = {
+				limit = { 
+					NOT = { religion = coptic } 
+					owned_by = ROOT
+				}
+				set_province_flag = copts_liberated
+			}
+			dongola_area = {
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = ROOT
@@ -399,6 +406,13 @@ country_event = {
 					name = the_faithful_liberated
 					duration = 3650
 				}
+			}
+			dongola_area = {
+				limit = { 
+					NOT = { religion = coptic } 
+					owned_by = ROOT
+				}
+				set_province_flag = copts_liberated
 			}
 			upper_nubia_area = {
 				limit = { 
@@ -620,13 +634,6 @@ country_event = {
 				}
 				set_province_flag = copts_liberated
 			}
-			said_area = {
-				limit = { 
-					NOT = { religion = coptic } 
-					owned_by = ROOT
-				}
-				set_province_flag = copts_liberated
-			}
 		}
 	}
 
@@ -669,16 +676,6 @@ country_event = {
 
 		tooltip = {
 			bahari_area = {
-				limit = { 
-					NOT = { religion = coptic } 
-					owned_by = FROM
-				}
-				add_province_modifier = {
-					name = the_faithful_liberated
-					duration = 3650
-				}
-			}
-			said_area = {
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = FROM

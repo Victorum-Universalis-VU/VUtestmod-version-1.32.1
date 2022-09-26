@@ -23,6 +23,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
 				ai = no
 				AND = {
 					NOT = { exists = AKS }
@@ -67,17 +71,22 @@ country_decisions = {
 			is_nomad = no
 			owns_core_province = 387	# Mukha
 			owns_core_province = 4279	# Zabid
+			central_ethiopia_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			southern_ethiopia_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
 			damot_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all
 			}
 			tigray_area = {
-				is_core = ROOT
-				owned_by = ROOT
-				type = all
-			}
-			aussa_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all

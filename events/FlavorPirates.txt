@@ -76,6 +76,7 @@ country_event = {
 			add_republican_tradition = 50
 			change_religion = ROOT
 			change_primary_culture = ROOT
+			discover_provinces = ROOT
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -99,6 +100,7 @@ country_event = {
 				swap_free_idea_group = yes
 			}
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 			swap_non_generic_missions = yes
 		}
 		switch_tag = NSS
@@ -140,17 +142,8 @@ country_event = {
 				swap_free_idea_group = yes
 			}
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 			swap_non_generic_missions = yes
-		}
-	}
-
-	after = { # Trigger an event, which will swap the national ideas of pirate tag with correct ideas
-		hidden_effect = {
-			NSS = {
-				country_event = {
-					id = pirates.25
-				}
-			}
 		}
 	}
 }
@@ -233,6 +226,7 @@ country_event = {
 			add_republican_tradition = 50
 			change_religion = ROOT
 			change_primary_culture = ROOT
+			discover_provinces = ROOT
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -263,6 +257,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 		switch_tag = LIB
 	}
@@ -306,18 +301,9 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 		create_march = LIB
-	}
-
-	after = { # Trigger an event, which will swap the national ideas of pirate tag with correct ideas
-		hidden_effect = {
-			LIB = {
-				country_event = {
-					id = pirates.25
-				}
-			}
-		}
 	}
 }
 
@@ -393,6 +379,7 @@ country_event = {
 			add_republican_tradition = 50
 			change_religion = ROOT
 			change_primary_culture = ROOT
+			discover_provinces = ROOT
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -417,6 +404,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 		switch_tag = SLE
 	}
@@ -459,6 +447,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 	}
 }
@@ -528,6 +517,7 @@ country_event = {
 			change_religion = ROOT
 			#change_primary_culture = andalusi_culture
 			change_primary_culture = andalucian
+			discover_provinces = ROOT
 			capital_scope = {
 				build_to_forcelimit = {
 					infantry = 0.8
@@ -540,7 +530,7 @@ country_event = {
 			define_ruler = {
 				name = "Sayyida"
 				dynasty = "al Hurra"
-				#culture = andalusi_culture
+							   
 				culture = andalucian
 				adm = 4
 				dip = 4
@@ -555,6 +545,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 		switch_tag = TET
 	}
@@ -601,6 +592,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 	}
 }
@@ -700,6 +692,7 @@ country_event = {
 			adopt_reform_progress = ROOT
 			change_religion = ROOT
 			change_primary_culture = ROOT
+			discover_provinces = ROOT
 			add_republican_tradition = 50
 			capital_scope = {
 				build_to_forcelimit = {
@@ -724,6 +717,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 		switch_tag = PRY
 	}
@@ -764,19 +758,11 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
-		}
-	}
-
-	after = { # Trigger an event, which will swap the national ideas of pirate tag with correct ideas
-		hidden_effect = {
-			PRY = {
-				country_event = {
-					id = pirates.25
-				}
-			}
+			add_ruler_personality = legendary_pirate_personality
 		}
 	}
 }
+
 
 # Tortuga - Brethren of the Coast
 country_event = {
@@ -864,6 +850,7 @@ country_event = {
 			add_government_reform = pirate_republic_reform
 			change_religion = ROOT
 			change_primary_culture = ROOT
+			discover_provinces = ROOT
 			adopt_reform_progress = ROOT
 			add_republican_tradition = 50
 			capital_scope = {
@@ -889,6 +876,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		}
 		switch_tag = TOR
 	}
@@ -929,16 +917,7 @@ country_event = {
 			}
 			swap_non_generic_missions = yes
 			set_ruler_flag = historical_pirate
-		}
-	}
-
-	after = { # Trigger an event, which will swap the national ideas of pirate tag with correct ideas
-		hidden_effect = {
-			TOR = {
-				country_event = {
-					id = pirates.25
-				}
-			}
+			add_ruler_personality = legendary_pirate_personality
 		}
 	}
 }
@@ -1042,6 +1021,7 @@ country_event = {
 		}
 		add_republican_tradition = 50
 		set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		swap_non_generic_missions = yes
 	}
 	
@@ -1144,6 +1124,7 @@ country_event = {
 		}
 		add_republican_tradition = 50
 		set_ruler_flag = historical_pirate
+			add_ruler_personality = legendary_pirate_personality
 		swap_non_generic_missions = yes
 	}
 	
@@ -1166,7 +1147,10 @@ country_event = {
 	
 	trigger = {
 		tag = RUG
-		has_dlc = "Golden Century"
+		OR = {
+			has_dlc = "Golden Century"
+			has_dlc = "Lions of the North"	#Rügen is a special case as it is in the Baltic Sea too
+		}
 		owns_core_province = 4745
 		NOT = { num_of_cities = 2 } #must be an OPM
 		OR = {
@@ -1247,6 +1231,7 @@ country_event = {
 		233 = { rename_capital = "Penzance" }
 		add_republican_tradition = 50
 		set_ruler_flag = historical_pirate
+		add_ruler_personality = legendary_pirate_personality
 		swap_non_generic_missions = yes
 	}
 	
@@ -1315,22 +1300,20 @@ country_event = {
 	}
 }
 
-
-# Give the Pirate nations their rightful ideas
+# [Root.Monarch.GetName] is now a legendary pirate!
 country_event = {
 	id = pirates.25
-	title = "pirates.25.t"
-	desc = "pirates.25.d"
+	title = pirates.25.t
+	desc = pirates.25.desc
 	picture = SMUGGLERS_eventPicture
-	
+ 
 	is_triggered_only = yes
-	hidden = yes
-	
+
 	option = {
-		name = "pirates.25.a"
+		name = pirates.25.a
+		make_ruler_to_legendary_pirate = yes
 		ai_chance = {
 			factor = 1
 		}
-		swap_free_idea_group = yes
 	}
 }
