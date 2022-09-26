@@ -135,6 +135,7 @@ feudalism = {
 					technology_group = north_american
 					technology_group = south_american
 					technology_group = sub_saharan
+					technology_group = aboriginal_tech
 				}
 			}
 			AND = {
@@ -6686,6 +6687,7 @@ industrialization = { #Unmodified, pending Draiocht rebalance.
 
 	can_start = {
 		is_year = 1750
+		is_institution_enabled = enlightenment
 		is_in_capital_area = yes
 		is_island = no
 		is_state = yes

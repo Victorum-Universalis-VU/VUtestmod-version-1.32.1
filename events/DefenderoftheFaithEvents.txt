@@ -307,15 +307,17 @@ country_event = {
 		ai_chance = {
 			factor = 60
 		}
-		remove_rival = event_target:catholic_rival
+		force_remove_rival = event_target:catholic_rival
 		event_target:catholic_rival = {
 			country_event = { id = dotf.5 days = 3 }
 		}
 		every_country = {
 			limit = {
-				has_discovered = ROOT
+				capital_scope = {
+					has_discovered = ROOT
+				}
 				religion = catholic
-				total_development = 400 #BT Dev Doubling
+				total_development = 400
 				NOT = {
 					tag = event_target:catholic_rival
 				}
@@ -360,7 +362,7 @@ country_event = {
 		ai_chance = {
 			factor = 25
 		}
-		remove_rival = FROM
+		force_remove_rival = FROM
 		add_opinion = {
 			who = FROM
 			modifier = opinion_benevolent_dotf

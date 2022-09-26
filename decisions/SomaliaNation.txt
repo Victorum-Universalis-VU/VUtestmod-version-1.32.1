@@ -9,6 +9,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = SOM }
 			OR = {
 				ai = no
@@ -82,8 +86,8 @@ country_decisions = {
 			}
 			owns_core_province = 2774	# Kismayo
 			owns_core_province = 2777	# Bardera
-			monthly_adm = 10
-			monthly_mil = 10
+				   
+				   
 		}
 		effect = {
 			change_tag = SOM
@@ -113,9 +117,20 @@ country_decisions = {
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			set_country_flag = formed_somalia_flag
+			create_colony_mission_reward = {
+				province = 4051
+			}
+			create_colony_mission_reward = {
+				province = 4052
+			}
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { owns_core_province = 2774 }
+				NOT = { owns_core_province = 2777 }
+			}
 		}
 		ai_importance = 400 #
 	}

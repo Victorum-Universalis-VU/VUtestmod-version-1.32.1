@@ -29,6 +29,16 @@ spriteTypes = {
 		name = "GFX_age_indicator_2"
 		texturefile = "gfx/interface/ages/age_indicator_2.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_age_indicator_3"
+		texturefile = "gfx/interface/ages/age_indicator_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_age_indicator_4"
+		texturefile = "gfx/interface/ages/age_indicator_4.dds"
+	}
 
     #Ages
 	spriteType = {
@@ -183,7 +193,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/topbar_portrait_value_bg_golden.dds"
 	}
 
-	#Age of Discovery
+	# Age of Discovery Objectives
 	#Objectives
 	spriteType = {
 		name = "GFX_obj_discover_america"
@@ -232,7 +242,7 @@ spriteTypes = {
 
 
 
-	#Age of Reformation
+	# Age of Reformation Objectives
 	#Objectives
 	spriteType = {
 		name = "GFX_obj_christian_convert"
@@ -270,7 +280,7 @@ spriteTypes = {
 	}
 
 
-	#Age of Absolutism
+	# Age of Absolutism Objectives
 	#Objectives
 	spriteType = {
 		name = "GFX_obj_3_trade_companies"
@@ -308,7 +318,7 @@ spriteTypes = {
 	}
 
 
-	#Age of Revolutions
+	# Age of Revolutions Objectives
 	#Objectives
 	spriteType = {
 		name = "GFX_obj_parliament"
@@ -348,7 +358,7 @@ spriteTypes = {
 
 
 
-	# NEW Abilities
+	# NEW Abilities	
 	spriteType = {
 		name = "GFX_ab_cavalry_armies"
 		texturefile = "gfx/interface/ages/ab_cavalry_armies.dds"
@@ -377,7 +387,7 @@ spriteTypes = {
 
 
 
-	#Age of Discovery
+	# Age of Discovery Abilities
     #Abilities
 	spriteType = {
 		name = "GFX_ab_allow_feudal_de_jure_law"
@@ -410,9 +420,9 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ab_better_trained_soldiers"
-		texturefile = "gfx/interface/ages/ab_better_trained_soldiers.dds"
-	}
+		name = "GFX_ab_attack_bonus_in_capital_terrain"
+		texturefile = "gfx/interface/ages/ab_attack_bonus_in_capital_terrain.dds"
+	}	
 
 	spriteType = {
 		name = "GFX_ab_ottoman_siege_ability"
@@ -441,7 +451,7 @@ spriteTypes = {
 
 
 
-	#Age of Reformation
+	# Age of Reformation Abilities
 	#Abilities
 	spriteType = {
 		name = "GFX_ab_allow_religion_enforced"
@@ -500,7 +510,7 @@ spriteTypes = {
 
 
 
-	#Age of Absolutism
+	# Age of Absolutism Abilities
 	#Abilities
 	spriteType = {
 		name = "GFX_ab_allow_edict_of_absolutism"
@@ -559,7 +569,7 @@ spriteTypes = {
 
 
 
-	#Age of Revolutions
+	# Age of Revolutions Abilities
 	#Abilities
 	spriteType = {
 		name = "GFX_ab_allow_anti_revolutionary_zeal"

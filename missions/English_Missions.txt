@@ -113,10 +113,6 @@ eng_slot_1 = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 
-		ai_priority = {
-			factor = 2
-		}
-
 		trigger = {
 			has_fulfiled_province_requirement_for_mission_trigger = {
 				tooltip=country_holds_or_non_sovereign_subject_holds_highlighted
@@ -159,10 +155,6 @@ eng_slot_1 = {
 			}
 			NOT = { owned_by = ROOT }
 			has_discovered = ROOT
-		}
-
-		ai_priority = {
-			factor = 2
 		}
 
 		trigger = {
@@ -751,9 +743,6 @@ eng_slot_3 = {
 					is_year = 1700
 				}
 			}
-		}
-		ai_priority = {
-			factor = 1
 		}
 
 		trigger = {
@@ -1381,10 +1370,6 @@ eng_slot_3 = {
 			has_discovered = ROOT
 		}
 
-		ai_priority = {
-			factor = 2
-		}
-
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_canada
@@ -1743,9 +1728,6 @@ eng_slot_5 = {
 					}
 				}
 			}
-		}
-		ai_priority = {
-			factor = 3
 		}
 
 		trigger = {

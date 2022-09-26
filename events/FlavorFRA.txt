@@ -5,223 +5,6 @@
 namespace = flavor_fra
 normal_or_historical_nations = yes
 
-# The Surrender of Maine
-country_event = {
-	id = flavor_fra.6
-	title = "flavor_fra.6.t"
-	desc = "flavor_fra.6.d"
-	picture = SIEGE_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = ENG
-		is_subject = no
-		exists = FRA
-		NOT = { alliance_with = FRA }
-		NOT = { war_with = FRA }
-		NOT = { is_year = 1450 }
-		NOT = { truce_with = FRA }
-		177 = {
-			OR = {
-				owned_by = ENG
-				owner = {
-					is_subject_of = ENG
-				}
-			}
-		}
-		FRA = {
-			is_subject = no
-		}
-		is_year = 1445
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	option = {
-		name = "flavor_fra.6.a"
-		ai_chance = {
-			factor = 25
-		}
-		tooltip = {
-			177 = {
-				cede_province = FRA
-			}
-			add_truce_with = FRA
-		}
-		FRA = { country_event = { id = flavor_fra.8 } }
-		add_prestige = -10
-		add_stability = -1
-		set_country_flag = rb_gave_up_maine
-	}
-	option = {
-		name = "flavor_fra.6.b"
-		ai_chance = {
-			factor = 75
-			modifier = {
-				factor = 0
-				is_at_war = yes
-			}
-			modifier = {
-				factor = 0
-				has_any_disaster = yes
-			}
-		}
-		custom_tooltip = flavor_fra.6.a.tt
-		FRA = { country_event = { id = flavor_fra.7 } }
-	}
-}
-
-# The Surrender of Maine
-country_event = {
-	id = flavor_fra.7
-	title = "flavor_fra.7.t"
-	desc = "flavor_fra.7.d"
-	picture = SIEGE_eventPicture
-	
-	is_triggered_only = yes
-
-	major = yes
-	
-	option = {
-		name = "flavor_fra.7.a" #'teach them how to war' /Reversed Henry V
-		ai_chance = {
-			factor = 100 #Shouldn't take this from them really.
-			modifier = {
-				factor = 0
-				is_at_war = yes
-			}
-			modifier = {
-				factor = 0
-				has_any_disaster = yes
-			}
-		}
-		ENG = {
-			declare_war_with_cb = {
-				who = FRA
-				#casus_belli = cb_claim_throne # VU - change from cb_restore_personal_union to allow France to reclaim all of Normandy as defender (cheaper cost).
-			    casus_belli = cb_hundred_years_war
-			}
-		}
-		177 = {
-			change_controller = FRA
-		}
-	}
-	option = {
-		name = "flavor_fra.7.b" #Unpopular but preserves the peace?
-		ai_chance = {
-			factor = 1
-		}
-		add_prestige = -10
-		FROM = {
-			add_truce_with = ROOT
-		}
-		add_truce_with = FROM
-		if = {
-			limit = { exists = PRO }
-			PRO = {
-				add_opinion = {
-					who = ROOT
-					modifier = fra_gave_up_on_maine
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
-	}
-}
-
-# The Surrender of Maine
-country_event = {
-	id = flavor_fra.8
-	title = "flavor_fra.8.t"
-	desc = "flavor_fra.8.d"
-	picture = SIEGE_eventPicture
-	
-	is_triggered_only = yes
-	
-	major = yes
-
-	option = {
-		name = "flavor_fra.8.a" #
-		add_prestige = 10
-		hidden_effect = {
-			FROM = {
-				add_truce_with = ROOT
-			}
-		}
-		add_truce_with = FROM
-		177 = {
-			cede_province = FRA
-			hidden_effect = { add_local_autonomy = -50 }
-		}
-	}
-}
-
-# François Villon
-country_event = {
-	id = flavor_fra.9000
-	title = "flavor_fra.EVTNAME9000"
-	desc = "flavor_fra.EVTDESC9000"
-	picture = REFORM_eventPicture
-	
-	is_triggered_only = yes
-	fire_only_once = yes	
-	trigger = {
-		tag = FRA
-		has_regency = no
-		is_year = 1450
-		NOT = { is_year = 1465 }
-	}
-
-	option = {		# Throw him back in jail
-		name = "flavor_fra.EVTOPTA9000"
-		if = {
-			limit = {
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
-	}
-
-	option = {		# Bring him to court
-		name = "flavor_fra.EVTOPTB9000"
-		define_advisor = {
-			type = artist
-			name = "François Villon"
-			culture = cosmopolitan_french
-			discount = yes
-			skill = 3
-		}
-		if = {
-			limit = {
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
-	}
-
-	option = {		# Bring him to court
-		name = "flavor_fra.EVTOPTC9000"
-		add_prestige = -5
-	}
-}
-
 # The Birth of a Permanent Taxation System
 country_event = {
 	id = flavor_fra.9100
@@ -282,7 +65,55 @@ country_event = {
 
 	fire_only_once = yes
 	
-	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_global_flag = hyw_mission_resolution
+			AND = {
+				tag = FRA
+				NOT = { is_year = 1500 }
+				NOT = { has_country_flag = had_end_of_HYW_france }
+				NOT = {
+					france_region = { owned_by = ENG }
+				}
+				NOT = {
+					france_region = { owned_by = GBR }
+				}
+				ENG = {
+					NOT = { war_with = FRA }
+				}
+				NOT = { is_subject_of = ENG }
+				GBR = {
+					NOT = { war_with = FRA }
+				}
+				NOT = { is_subject_of = GBR }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = had_end_of_HYW_france
+			if = {
+				limit = {
+					exists = ENG
+					NOT = { exists = GBR }
+					NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
+				}
+				ENG = { country_event = { id = flavor_eng.9104 days = 1 } }
+			}
+			if = {
+				limit = {
+					exists = GBR
+					NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
+				}
+				GBR = { country_event = { id = flavor_eng.9104 days = 1 } }
+			}
+		}
+	}
 
 	option = { # Time to build a stronger nation
 		name = "flavor_fra.EVTOPTA3104"
@@ -984,9 +815,9 @@ country_event = {
 				has_dlc = "Leviathan"
 			}
 			183 = {
-				add_great_project_tier = {
+				set_great_project_tier_2 = {
 					type = versailles
-					tier = 1
+
 				}
 			}
 		}
@@ -1450,7 +1281,7 @@ country_event = {
 		add_adm_power = 50
 		define_advisor = {
 			type = statesman
-			name = "André Hercule de Fleury"
+			name = "NAME_ANDRE_HERCULE_DE_FLEURY"
 			culture = occitain
 			religion = catholic
 			discount = yes
@@ -1921,6 +1752,222 @@ country_event = {
 				duration = -1
 			}
 		}
+	}
+}
+
+# The Surrender of Maine
+country_event = {
+	id = flavor_fra.6
+	title = "flavor_fra.6.t"
+	desc = "flavor_fra.6.d"
+	picture = SIEGE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		is_subject = no
+		exists = FRA
+		NOT = { alliance_with = FRA }
+		NOT = { war_with = FRA }
+		NOT = { is_year = 1450 }
+		NOT = { truce_with = FRA }
+		177 = {
+			OR = {
+				owned_by = ENG
+				owner = {
+					is_subject_of = ENG
+				}
+			}
+		}
+		FRA = {
+			is_subject = no
+		}
+		is_year = 1445
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "flavor_fra.6.a"
+		ai_chance = {
+			factor = 25
+		}
+		tooltip = {
+			177 = {
+				cede_province = FRA
+			}
+			add_truce_with = FRA
+		}
+		FRA = { country_event = { id = flavor_fra.8 } }
+		add_prestige = -10
+		add_stability = -1
+		set_country_flag = rb_gave_up_maine
+	}
+	option = {
+		name = "flavor_fra.6.b"
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 0
+				has_any_disaster = yes
+			}
+		}
+		custom_tooltip = flavor_fra.6.a.tt
+		FRA = { country_event = { id = flavor_fra.7 } }
+	}
+}
+
+# The Surrender of Maine
+country_event = {
+	id = flavor_fra.7
+	title = "flavor_fra.7.t"
+	desc = "flavor_fra.7.d"
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+
+	major = yes
+	
+	option = {
+		name = "flavor_fra.7.a" #'teach them how to war' /Reversed Henry V
+		ai_chance = {
+			factor = 100 #Shouldn't take this from them really.
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 0
+				has_any_disaster = yes
+			}
+		}
+		ENG = {
+			declare_war_with_cb = {
+				who = FRA
+				casus_belli = cb_hundred_years_war
+			}
+		}
+		177 = {
+			change_controller = FRA
+		}
+	}
+	option = {
+		name = "flavor_fra.7.b" #Unpopular but preserves the peace?
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -10
+		FROM = {
+			add_truce_with = ROOT
+		}
+		add_truce_with = FROM
+		if = {
+			limit = { exists = PRO }
+			PRO = {
+				add_opinion = {
+					who = ROOT
+					modifier = fra_gave_up_on_maine
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -10
+			}
+		}
+	}
+}
+
+# The Surrender of Maine
+country_event = {
+	id = flavor_fra.8
+	title = "flavor_fra.8.t"
+	desc = "flavor_fra.8.d"
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = "flavor_fra.8.a" #
+		add_prestige = 10
+		hidden_effect = {
+			FROM = {
+				add_truce_with = ROOT
+			}
+		}
+		add_truce_with = FROM
+		177 = {
+			cede_province = FRA
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+	}
+}
+
+# François Villon
+country_event = {
+	id = flavor_fra.9000
+	title = "flavor_fra.EVTNAME9000"
+	desc = "flavor_fra.EVTDESC9000"
+	picture = REFORM_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+	trigger = {
+		tag = FRA
+		has_regency = no
+		is_year = 1450
+		NOT = { is_year = 1465 }
+	}
+
+	option = {		# Throw him back in jail
+		name = "flavor_fra.EVTOPTA9000"
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
+		}
+	}
+
+	option = {		# Bring him to court
+		name = "flavor_fra.EVTOPTB9000"
+		define_advisor = {
+			type = artist
+			name = "François Villon"
+			culture = cosmopolitan_french
+			discount = yes
+			skill = 3
+		}
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -10
+			}
+		}
+	}
+
+	option = {		# Bring him to court
+		name = "flavor_fra.EVTOPTC9000"
+		add_prestige = -5
 	}
 }
 

@@ -47,7 +47,7 @@ discovered_by = western
 1555.1.1 = { unrest = 5  } # General discontent with the Janissaries' dominance
 1556.1.1 = { unrest = 0 }
 1600.1.1 = { 
-	forth_15th = yes 
+	fort_15th = yes 
 	workshop = yes
 } #Basic fortifications, Turks began storing gunpowder in the city
 1620.1.1 = { unrest = 5 } # General discontent and occasional rebellions
@@ -66,8 +66,8 @@ discovered_by = western
 1770.1.1 = {
 	base_production = 6
 	base_manpower = 5
-	forth_15th = no
-	forth_16th = yes
+	fort_15th = no
+	fort_16th = yes
 	marketplace = yes
 } #City is prosperous
 1790.1.1 = { unrest = 5 } #Opressive governor

@@ -15,7 +15,6 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 		}
-		provinces_to_highlight = { province_id = 151 }
 		allow = {
 			is_at_war = no
 			primary_culture = turkish
@@ -24,12 +23,15 @@ country_decisions = {
 			owns = 149		# Edirne
 			owns = 316		# Bithnyia
 			owns = 317		# Bursa
-			owns = 1764		# Burgas			
+			owns = 1764		# Burgas
+			151 = {
+				is_state = yes
+			}
 		}
 		effect = {
 			set_country_flag = relocated_capital_constantinople
 			set_global_flag = greek_need_restore_constantinople
-			#add_stability = 1			#Driaocht removing stability, why would the Ottomans become more stable with a new capital? They didn't have the history with it the greeks did. Plus TUR now gets a bigger dev bonus with the restored decision
+			add_stability = 1 #Turning this back on not because the Ottomans will have more stability after capturing Constantinople but because of the fact that simply holding the city gave them more prestige, made their neighbours tremble in fear (hence why they dared not attack the Turks after they captured the city because they focused instead on securing and building up the fortifications of their cities) at the prospect of Ottoman expansion and Mehmed was finally able to fulfill one of his family's and that of Muhamed and Islam's goal of capturing and securing the city. This automatically made him Caesar and Caliph at the same time, which ultimate gave him the loyalty and support of both Greeks and Muslims. Greek people didn't revolt in the city soon after it was captured because of fear and also because of the tolerance the Turks brought on them soon afterwards. This is why Jews who fled Spain during the inquisition were welcomed by the Turkish Sultans, hence why I have turned the stability on.
 			add_core = 151
 			151 = {
 				move_capital_effect = yes
@@ -39,7 +41,7 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					has_global_flag = constantinople_restored
+					NOT = { has_global_flag = constantinople_restored }
 				}
 				151 = {
 					add_base_tax = 4

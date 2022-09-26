@@ -138,7 +138,7 @@ country_event = {
 	}
 	
 	option = {
-		name = flavor_lxa.2.a
+		name = flavor_lxa.1.a
 		add_stability = -1
 		add_prestige = -25
 		if = {
@@ -223,7 +223,7 @@ country_event = {
 	}
 	
 	option = {
-		name = flavor_lxa.3.a
+		name = flavor_lxa.1.a
 		add_stability = -1
 		add_prestige = -25
 		if = {

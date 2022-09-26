@@ -56,8 +56,8 @@
  desc_orthodox_catholic_relations:0 "This province is home to a substantial Orthodox population, ruled by Catholics. The events of the 4th Crusade created a deep wound between East and West Christianity that so far does not seem to be healing, especially in regions around Greece. As such, the local populace is currently resisting any attempts at conversion, which the provincial governors have come to accept for the time being."
  bt_birkarls:0 "Birkarls"
  desc_bt_birkarls:0 "The Sami People held a notable autonomous position in the medieval and early renaissance period. They were taxed by whatever nation that currently claimed ownership of their lands, but were otherwise left alone. In Sweden, a particular organisation known as the Birkarls arose and was responsible for the taxation of the Sami people, to the point of complete monopoly. It is notable that this was not a de jure position that they held, but rather a de facto one, signifying the autonomous rule of the monarch at the time, who in fact resided in Denmark. Nevertheless, they provided the monarch with valuable Sami furs that benefitted the nation. The status quo was kept until the Centralization reforms of Gustav Vasa, who figured that removing the middle hand that were the Birkarls would greatly increase the size of the Swedish treasury."
- bt_minorities_expelled:0 "Minorities Expelled"
- desc_bt_minorities_expelled:0 "The recent expulsion of the minorities in the area have resulted in a local cultural shift, meaning we have to devote less resources towards assimilating the few that are left."
+ #bt_minorities_expelled:0 "Minorities Expelled"
+ #desc_bt_minorities_expelled:0 "The recent expulsion of the minorities in the area have resulted in a local cultural shift, meaning we have to devote less resources towards assimilating the few that are left."
 
  anarchic_riever_modifier:0 "Anarchic Reivers"
  desc_anarchic_riever_modifier:0 "Widely known as Border raiders or 'Anarchic Reivers', these rugged and tough people individuals enforce their own brutal code of conduct and set of laws on the local populace, whilst commonly performing raids on both sides of the English and Scottish borders."
@@ -3552,13 +3552,17 @@
  #OK Buildings
  
  #Production
+ treasury:0 "Treasury"
  building_treasury:0 "Treasury"
+ factory:0 "Factory"
  building_factory:0 "Factory"
  
  #Trade
+ corporative_headquarters:0 "Corporative Headquarters"
  building_corporative_headquarters:0 "Corporative Headquarters"
  
  #Taxation
+ grand_cathedral:0 "Grand Cathedral"
  building_grand_cathedral:0 "Grand Cathedral"
  
  #Transportation
@@ -3570,12 +3574,17 @@
  building_railway_system_desc:0 "A network of narrow steel, held together by wooden or concrete bases that allow for the delivering at high-speed of goods and armies across several provinces from point A to B.\nCan't be built on mountain, cold mountains, glacier, swamp, tropical highlands and desert ranges terrain."
  
  #Coastal
+ naval_base:0 "Naval Base"
  building_naval_base:0 "Naval Base"
+ naval_arsenal:0 "Naval Arsenal"
  building_naval_arsenal:0 "Naval Arsenal"
+ coastal_artillery:0 "Coastal Artillery"
  building_coastal_artillery:0 "Coastal Artillery"
  #Fortification
+ trench:0 "Trench"
  building_trench:0 "Trench"
  #Manufactories
+ oil_well:0 "Oil Well"
  building_oil_well:0 "Oil Well"
  
  # VU Russian Missions

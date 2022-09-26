@@ -46,6 +46,9 @@ songhai_military_slot = {
 			}
 			change_government_reform_progress = -25
 		}
+		ai_weight = {
+			factor = 500	#Songhai should be the administrative power house in West Africa
+		}
 	}
 
 	#Modernize state
@@ -70,6 +73,9 @@ songhai_military_slot = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Military is important too
+		}
 	}
 
 	#Modernize state
@@ -91,7 +97,7 @@ songhai_military_slot = {
 				}
 				#any_country = {
 				#	current_war_losses = {
-				#		type = men
+				#		type = soldiers
 				#		cause = battle
 				#		amount = 1000
 				#	}
@@ -119,6 +125,9 @@ songhai_military_slot = {
 				add_army_tradition = 10
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 
 	#Modernize Army
@@ -133,8 +142,10 @@ songhai_military_slot = {
 				tooltip = son_modernize_army_tt
 				NOT = {
 					any_country = {
-						unit_type = western
-						mil_tech = ROOT
+						technology_group = western
+						ROOT = {
+							NOT = { mil_tech = PREV }	#Checks if no country with western tech has more mil tech than Songhai. Double negations are fun!
+						}
 					}
 				}
 			}
@@ -146,6 +157,9 @@ songhai_military_slot = {
 				name = son_reformed_army_technology
 				duration = -1
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 
@@ -160,13 +174,11 @@ songhai_military_slot = {
 			OR = {
 				AND = {
 					government = republic
-					has_reached_government_reform_tier = {
-						tier_5 = yes
-					}
+					reform_level = 5
 				}
 				AND = {
 					absolutism = 75
-					has_final_tier_reforms_trigger = yes
+					reform_level = 7
 				}
 			}
 		}
@@ -179,6 +191,9 @@ songhai_military_slot = {
 				name = son_modern_government
 				duration = -1
 			}
+		}
+	    ai_weight = {
+			factor = 0	#Tech difference should remain
 		}
 	}
 }
@@ -235,6 +250,9 @@ songhai_historical_conquest_slot = {
 				add_permanent_claim = ROOT
 			}
 		}
+	    ai_weight = {
+			factor = 500	#Historical conquest
+		}
 	}
 
 	#Take Baghena (Koumbi Saleh) out
@@ -265,6 +283,9 @@ songhai_historical_conquest_slot = {
 				}
 			}
 		}
+	    ai_weight = {
+			factor = 500	#Historical conquest
+		}
 	}
 
 	#Prepare raid on Mali
@@ -292,7 +313,6 @@ songhai_historical_conquest_slot = {
 					army_size = MAL
 					prestige = MAL
 					stability = MAL
-					power_projection = MAL
 					MAL = {
 						NOT = { tech_difference = 1 }
 					}
@@ -333,6 +353,9 @@ songhai_historical_conquest_slot = {
 					}
 				}
 			}
+		}
+	    ai_weight = {
+			factor = 500	#Historical conquest
 		}
 	}
 
@@ -382,6 +405,9 @@ songhai_historical_conquest_slot = {
 				add_permanent_claim = ROOT
 			}
 		}
+	    ai_weight = {
+			factor = 500	#Historical conquest
+		}
 	}
 
 	#Be strong power
@@ -419,6 +445,9 @@ songhai_historical_conquest_slot = {
 				name = son_songhaian_empire
 				duration = -1
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }
@@ -481,6 +510,12 @@ songhai_maghreb_slot = {
 			add_permanent_claim = 2263
 			add_permanent_claim = 2267
 			add_permanent_claim = 1143
+			add_permanent_claim = 2264
+			add_permanent_claim = 2260
+			add_permanent_claim = 2246
+		}
+		ai_weight = {
+			factor = 500	#Historical conquest
 		}
 	}
 
@@ -514,7 +549,10 @@ songhai_maghreb_slot = {
 				set_country_flag = can_colonize_djado_and_tajarhi
 			}
 			add_stability = 1
-			add_accepted_culture = tuareg
+			add_accepted_culture_or_dip_power = { culture = tuareg }
+		}
+		ai_weight = {
+			factor = 200	#Alt-history
 		}
 	}
 
@@ -539,6 +577,9 @@ songhai_maghreb_slot = {
 				add_base_production = 2
 				add_base_manpower = 1
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical Conquest
 		}
 	}
 
@@ -593,6 +634,9 @@ songhai_maghreb_slot = {
 			country_event = {
 				id = flavor_son.11
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 
@@ -670,6 +714,9 @@ songhai_maghreb_slot = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 
 	#Invade Maghreb
@@ -712,6 +759,9 @@ songhai_maghreb_slot = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 0	#Songhai didn't (or rather couldn't) really be bothered with Maghreb
+		}
 	}
 
 	#Consolidate Maghreb
@@ -735,6 +785,9 @@ songhai_maghreb_slot = {
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
+		}
+		ai_weight = {
+			factor = 0	#Songhai didn't (or rather couldn't) really be bothered with Maghreb
 		}
 	}
 }
@@ -782,6 +835,9 @@ songhai_mossi_slot = {
 				id = flavor_son.5
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical Conquest
+		}
 	}
 }
 
@@ -826,10 +882,26 @@ songhai_question_mark_slot = {
 						}
 					}
 				}
-				AND = {
+	            AND = {
 					custom_trigger_tooltip = {
 						tooltip = son_tolerance_triggers_tt
 						always = no
+					}
+					if = {
+						limit = {
+							has_estate = estate_dhimmi
+						}
+						has_estate_privilege = estate_dhimmi_guaranteed_autonomy
+						has_estate_privilege = estate_dhimmi_tolerance
+					}
+					else = {
+						custom_trigger_tooltip = {
+							tooltip = son_guarantee_the_fetishist_ct
+							has_global_modifier_value = {
+								which = tolerance_heathen
+								value = 1
+							}
+						}
 					}
 				}
 			}
@@ -1248,6 +1320,9 @@ songhai_jihad_slot = {
 				}
 			}
 		}
+	    ai_weight = {
+			factor = 75	#Default
+		}
 	}
 
 	#Power to the Ulema
@@ -1287,6 +1362,9 @@ songhai_jihad_slot = {
 				name = son_religious_scholars
 				duration = 9125
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 
@@ -1445,6 +1523,9 @@ songhai_jihad_slot = {
 				}
 			}
 		}
+	    ai_weight = {
+			factor = 75	#Default
+		}
 	}
 
 	#Beacon of Sunni faith
@@ -1485,6 +1566,9 @@ songhai_jihad_slot = {
 				name = son_beacon_of_islam
 				duration = -1
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }
@@ -1550,6 +1634,9 @@ songhai_protection_slot = {
 				}
 			}
 		}
+	    ai_weight = {
+			factor = 75	#Default
+		}
 	}
 
 	#Form fetishist alliances
@@ -1605,6 +1692,9 @@ songhai_protection_slot = {
 				religion = shamanism
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 
 	#Eliminate other muslims
@@ -1656,6 +1746,9 @@ songhai_protection_slot = {
 				duration = 9125
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 
 	#Return to tradition
@@ -1667,10 +1760,7 @@ songhai_protection_slot = {
 		position = 8
 		trigger = {
 			num_of_owned_provinces_with = {
-				custom_trigger_tooltip = {
-					tooltip = son_back_to_the_roots_bt
-					religion = shamanism
-				}
+				religion = shamanism
 				value = 35
 			}
 			dominant_religion = shamanism
@@ -1695,6 +1785,9 @@ songhai_protection_slot = {
 			country_event = {
 				id = flavor_son.12
 			}
+		}
+        ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }
@@ -1739,6 +1832,9 @@ songhai_money_maker_slot = {
 				custom_tooltip = INCOME_FROM_WORKSHOPS_DESC
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 
 	#Clothes and salt
@@ -1768,13 +1864,10 @@ songhai_money_maker_slot = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				custom_trigger_tooltip = {
-					tooltip = son_own_develop_clothes_and_salt_ct
-					OR = {
-						region = sahel_region
-						region = niger_region
-						region = guinea_region
-					}
+				OR = {
+					region = sahel_region
+					region = niger_region
+					region = guinea_region
 				}
 				development = 10
 				trade_goods = salt
@@ -1799,6 +1892,9 @@ songhai_money_maker_slot = {
 					duration = 9125
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 
@@ -1839,6 +1935,9 @@ songhai_money_maker_slot = {
 			unlock_estate_privilege = {
 				estate_privilege = estate_burghers_control_over_the_mint
 			}
+		}
+		ai_weight = {
+			factor = 500	#Well, gold conquest is always good
 		}
 	}
 
@@ -1936,6 +2035,9 @@ songhai_money_maker_slot = {
 				duration = 9125
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 
 	#Have trade power in Europe
@@ -1966,6 +2068,9 @@ songhai_money_maker_slot = {
 		}
 		effect = {
 			add_mercantilism = 15
+		}
+		ai_weight = {
+			factor = 0	#Won't happen
 		}
 	}
 }

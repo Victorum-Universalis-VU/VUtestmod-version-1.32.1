@@ -1,18 +1,40 @@
 country_decisions = {
 
-	malayan_nation = { #Pending BTfication.
+	malayan_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+		    bt_generic_can_form_potential_check = yes
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_malaya_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = MSA }
 			culture_group = malay
 			NOT = { has_reform = steppe_horde }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				ai = no
+				num_of_cities = 12
+			}
 		}
 		provinces_to_highlight = {
 			OR = {
-				region = indonesia_region
 				region = malaya_region
+				region = indonesia_region
 				region = borneo_region
 				region = sumatran_region
 			}
@@ -99,11 +121,18 @@ country_decisions = {
 				}
 				add_permanent_claim = MSA
 			}
+			country_event = {
+				id = flavor_mlc.9
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 3650
 			}
 			set_country_flag = formed_malaya_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			add_prestige = 25
 		}
 		ai_will_do = {
@@ -111,5 +140,4 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-
 }

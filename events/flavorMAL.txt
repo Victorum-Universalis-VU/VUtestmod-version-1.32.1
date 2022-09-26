@@ -78,7 +78,6 @@ province_event = {
 		months = 36
 	}
 	
- 
 	immediate = {
 		hidden_effect = {
 			every_province = {
@@ -93,9 +92,7 @@ province_event = {
 						province_id = 2246 #Bagena
 					}
 				}
-	
 				add_core = FUL
-					
 				if = {
 					limit = {
 						owner = {
@@ -220,10 +217,6 @@ province_event = {
 					dynasty = "Denianke"
 					change_mil = 4
 					claim = 100
-	
-		 
-			 
-							   
 				}
 				if = {
 					limit = {
@@ -244,7 +237,6 @@ province_event = {
 				add_manpower = 10
 				add_treasury = 300
 			}
-							   
 		}
 		owner = {
 			switch_tag = FUL
@@ -661,6 +653,7 @@ country_event = {
 			define_ruler = {
 				name = "Sama Koli"
 				dynasty = "Jeenung"
+				claim = 100
 			}
 		}
 	}
@@ -739,7 +732,9 @@ country_event = {
 
 	option = {
 		name = flavor_mal.10.a
-		add_stability = 1
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
 
 		ai_chance = {
 			factor = 1
@@ -1815,7 +1810,7 @@ country_event = {
 	title = flavor_mal.29.t
 	desc = flavor_mal.29.desc
 	picture = MOSQUE_eventPicture
-
+	goto = 1134
 	is_triggered_only = yes
 
 	option = {
@@ -2158,13 +2153,6 @@ country_event = {
 
 	option = { #I need more time to think about it
 		name = flavor_mal.32.f
-		trigger = {
-			NOT = { owns_or_non_sovereign_subject_of = 226 }
-			NOT = { owns_or_non_sovereign_subject_of = 1247 }
-			NOT = { owns_or_non_sovereign_subject_of = 126 }
-			NOT = { owns_or_non_sovereign_subject_of = 4559 }
-			NOT = { owns_or_non_sovereign_subject_of = 102 }
-		}
 		custom_tooltip = flavor_mal.32.f.tt
 		hidden_effect = {
 			set_country_flag = mal_allowed_to_purchase_trade_colony
@@ -2340,7 +2328,7 @@ country_event = {
 	title = flavor_mal.34.t
 	desc = flavor_mal.34.desc
 	picture = AFRICAN_EUROPEAN_PURCHASE_eventPicture
-	
+	goto = mal_colony_to_buy
 	is_triggered_only = yes
 	
 	option = {	#Lovely
@@ -2371,7 +2359,7 @@ country_event = {
 	title = flavor_mal.35.t
 	desc = flavor_mal.35.desc
 	picture = AFRICAN_EUROPEAN_PURCHASE_eventPicture
-	
+	goto = mal_colony_to_buy
 	is_triggered_only = yes
 	
 	option = {	#Aww... then I must take it by force then
@@ -2818,7 +2806,7 @@ country_event = {
 				}
 				export_to_variable = {
 					which = trade_income_variable_tt
-					value = trade_income_percentage
+					value = trigger_value:trade_income_percentage
 					who = event_target:selected_biggest_country_of_region
 				}
 				multiply_variable = {
@@ -3025,7 +3013,8 @@ country_event = {
 			has_country_modifier = mal_mansas_journey
 			has_country_modifier = mal_advisors_journey
 		}
-		OR = {
+		OR = {	#The times are estimated under the condition that your capital is in West Africa
+			#A Mali which has its capital God knows where breaks its own immersion - fair trade off for moving your capital away imo
 			had_country_flag = { flag = mal_journey_to_iberia			days = 120 }
 			had_country_flag = { flag = mal_journey_to_france			days = 140 }
 			had_country_flag = { flag = mal_journey_to_italy			days = 110 }
@@ -3093,37 +3082,17 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			export_to_variable = {
-				which = mal_money_to_give
+				which = mal_money_to_give_tt
 				value = years_of_income
 				who = FROM
 			}
-			#multiply_variable = {
-			#	which = mal_money_to_give
-			#	value = 2
-			#}
-			set_variable = {
+			multiply_variable = {
 				which = mal_money_to_give_tt
-				value = 0
-			}
-			while = {
-				limit = {
-					check_variable = {
-						which = mal_money_to_give
-						value = 1
-					}
-				}
-				subtract_variable = {
-					which = mal_money_to_give
-					value = 1
-				}
-				change_variable = {
-					which = mal_money_to_give_tt
-					value = 1
-				}
+				value = 2
 			}
 			export_to_variable = {
 				which = trade_income_variable_tt
-				value = trade_income_percentage
+				value = trigger_value:trade_income_percentage
 			}
 			multiply_variable = {
 				which = trade_income_variable_tt
@@ -3312,7 +3281,7 @@ country_event = {
 		}
 		event_target:mal_next_gold_target = {
 			country_event = {
-				id = flavor_mal.44
+				id = flavor_mal.43
 			}
 			hidden_effect = {
 				add_country_modifier = {
@@ -3349,6 +3318,12 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = mal_is_already_getting_visit
+		}
 	}
 
 	option = {	#Oof

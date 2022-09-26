@@ -141,15 +141,11 @@ country_event = {
 			}
 		}
 		542 = {
-			if = {
-				limit = { NOT = { has_province_flag = hyderabad_restored } }
-				change_province_name = "Hyderabad"
-				rename_capital = "Hyderabad"
-				add_base_tax = 4
-				add_base_manpower = 4
-				add_base_production = 4
-				set_province_flag = hyderabad_restored
-			}
+			change_province_name = "Hyderabad"
+			rename_capital = "Hyderabad"
+			add_base_tax = 4
+			add_base_manpower = 4
+			add_base_production = 4
 		}
 	}
 	option = {
@@ -225,15 +221,11 @@ country_event = {
 			}
 		}
 		542 = {
-			if = {
-				limit = { NOT = { has_province_flag = hyderabad_restored } }
-				change_province_name = "Hyderabad"
-				rename_capital = "Hyderabad"
-				add_base_tax = 4
-				add_base_manpower = 4
-				add_base_production = 4
-				set_province_flag = hyderabad_restored
-			}
+			change_province_name = "Hyderabad"
+			rename_capital = "Hyderabad"
+			add_base_tax = 4
+			add_base_manpower = 4
+			add_base_production = 4
 		}
 	}
 }

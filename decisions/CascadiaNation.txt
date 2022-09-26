@@ -24,12 +24,12 @@ country_decisions = {
 						}
 					}
 					capital_scope = {
-						colonial_region = colonial_cascadia
+						colonial_region = colonial_cascadia #VU - Is colonial_alaska in EU4 vanilla by San Felipe
 						is_core = ROOT
 					}
 				}
 			}
-			colonial_cascadia = {
+			colonial_cascadia = { #VU - Is colonial_alaska in EU4 vanilla by San Felipe
 				owned_by = ROOT
 			}
 			OR = {
@@ -41,7 +41,7 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			colonial_region = colonial_cascadia
+			colonial_region = colonial_cascadia #VU - Is colonial_alaska in EU4 vanilla by San Felipe
 			OR = {
 				NOT = { owned_by = ROOT }
 				is_city = no
@@ -52,12 +52,12 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			capital_scope = {
-				colonial_region = colonial_cascadia
+				colonial_region = colonial_cascadia #VU - Is colonial_alaska in EU4 vanilla by San Felipe
 				is_core = ROOT
 			}
 			num_of_owned_provinces_with = {
 				value = 10
-				colonial_region = colonial_cascadia
+				colonial_region = colonial_cascadia #VU - Is colonial_alaska in EU4 vanilla by San Felipe
 				is_city = yes
 			}
 			NOT = { exists = CSC }
@@ -69,6 +69,7 @@ country_decisions = {
 						NOT = { is_former_colonial_nation = yes }
 					}
 					ROOT = { save_event_target_as = old_tag_target }
+					set_country_flag = was_not_former_colonial_nation
 				}
 			}
 			change_tag = CSC
@@ -99,12 +100,31 @@ country_decisions = {
 				}
 				change_primary_culture = mexican
 			}
+			if = {
+				limit = {
+					culture_group = french
+					NOT = { primary_culture = quebecois }
+				}
+				change_primary_culture = quebecois
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
 			add_prestige = 25
-			swap_ideas = yes
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			#can't have more than one elective monarchy in the game
+			if = {
+				limit = {
+					has_reform = elective_monarchy
+				}
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+			}
+			#swap_ideas = yes #VU - Turned off for now by San Felipe
 			set_country_flag = changed_from_colonial_nation
 		}
 		ai_will_do = {

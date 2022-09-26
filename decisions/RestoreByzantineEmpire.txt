@@ -10,7 +10,12 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { exists = BYZ }
+			NOT = { exists = GRE }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = TUR }
@@ -97,15 +102,25 @@ country_decisions = {
 			is_nomad = no
 		}
 		effect = {
-			151 = { move_capital_effect = yes } # Constantinople
+			151 = {
+				move_capital_effect = yes
+			}
 			change_tag = BYZ
+			restore_country_name = yes
+			if = {
+				limit = {
+					NOT = { culture_group = byzantine }
+					NOT = { accepted_culture = greek }
+				}
+				add_accepted_culture = greek
+			}
 			swap_non_generic_missions = yes
 			every_province = {
 				limit = {
 					OR = {
 						region = balkan_region
 						region = anatolia_region
-					}	#Removed the long and tedious list of various specific provinces in favour of a region and area based approach. For permanent claims, going for just the two regions for now
+					}	#VU - I agree with BT removing the long and tedious list of various specific provinces in favour of a region and area based approach. For permanent claims, going for just the two regions for now
 					NOT = { is_core = BYZ }
 				}
 				add_permanent_claim = BYZ

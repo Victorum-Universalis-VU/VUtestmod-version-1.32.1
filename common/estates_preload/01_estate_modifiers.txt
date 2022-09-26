@@ -1,4 +1,5 @@
 #Define estate loyalty and influence modifiers here
+
 #VU
 estate_magnates = {
 	modifier_definition = {
@@ -8,7 +9,6 @@ estate_magnates = {
 			has_estate = estate_magnates
 		}
 	}
-
 	modifier_definition = {
 		type = influence
 		key = magnates_influence_modifier

@@ -5,19 +5,12 @@ pay_armyprofessionalism = {
 	}
 	
 	effect = {
-		add_army_professionalism = -0.02
 		if = {
-			limit = {
-				current_size_of_parliament = 20
-			}
-			every_owned_province = {
-				limit = { 
-					has_seat_in_parliament = yes
-					current_bribe = pay_armyprofessionalism
-					NOT = { province_id = FROM }
-				}
-				back_current_issue = yes
-			}
+			limit = { halved_parliament_bribes = yes }
+			add_army_professionalism = -0.01
+		}
+		else = {
+			add_army_professionalism = -0.02
 		}
 	}
 	

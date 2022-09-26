@@ -4,5 +4,5 @@ tags={
 }
 name="Victorum-Universalis"
 replace_path="common/bookmarks"
-supported_version="1.33.*"
+supported_version="1.34.*"
 remote_file_id="2516217954"

@@ -189,7 +189,7 @@ canada_vassal = {
 }
 mexico_vassal = {
 	diplomatic_upkeep = 1
-	artillery_bonus_vs_fort = 1
+	artillery_levels_available_vs_fort = 1
 	artillery_power = 0.1
 }
 colombia_vassal = {
