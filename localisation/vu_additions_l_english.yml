@@ -3610,7 +3610,14 @@
  desc_conquest_of_scandinavia:0 "Conquering Scandinavia was difficult but we have learned lessons about attrition from the conflict."
  convert_transoxania:0 "Convert Transoxania"
  desc_convert_transoxania:0 "The nomadic and heathen peoples of Transoxania must be converted to our faith."
-
+ 
+ #Naval Doctrines
+ kriegsmarine:0 "Kriegsmarine"
+ kriegsmarine_desc:0 "For many years our neighbours have held dominance of the seas, even the coastal waters that we perceive as our own. The idea of having a war fleet or 'Kriegsmarine' is not only a means for us to defend ourselves but also as a way for our nation to assert our own national interest in waters beyond our shores."
+ imperial_navy:0 "Opening Japan"
+ imperial_navy_desc:0 "The newly arrived 'Nanban' and foreigners on our shores have given us and our nation two choices. Either we open up its doors to trade with the West or keep it shut and incurr the wrath of the Great Powers. Instead of seeing these demands as threats, let us open up Japan and invite nanban innovators and scientist so that we too can build up our defences in order to avert any more possible humiliation and potential defeat."
+ 
+ 
  #Missing Mission Locs
  roman_unification_of_italy:0 "Italia"
  desc_roman_unification_of_italy:0 "For generations we have seen the slow yet steady demise of our once lush heartlands, overrun by barbarians and neglected by the so-called 'Christian' church; enough is enough. Let us no go forth with are resurrected legions to conquer and unify these lands so that we may once again rise as a nation and cilivilisation that is feared and respected by all."

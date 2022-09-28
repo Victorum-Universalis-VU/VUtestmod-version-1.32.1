@@ -252,7 +252,12 @@ hanseatic_trade_fleet = {
 	can_select = {
 		is_primitive = no
 		NOT = { has_country_flag = unlock_norwegian_naval_doctrine } 
-		primary_culture = lower_saxon
+		OR = {
+		    primary_culture = holsatian
+			primary_culture = lower_saxon
+			primary_culture = east_frisian
+			primary_culture = pommeranian
+		}
 	}
 
 	country_modifier = {
@@ -264,9 +269,27 @@ hanseatic_trade_fleet = {
 }
 
 #VU additions
+kriegsmarine = {
+	can_select = {
+		is_primitive = no
+		NOT = { has_country_flag = unlock_norwegian_naval_doctrine } 
+		OR = {
+		    primary_culture = prussian
+			tag = GER
+		}
+	}
+	country_modifier = {
+		light_ship_power = 0.15
+		heavy_ship_power = 0.15
+		global_naval_barrage_cost = -0.4
+	}
+	button_gfx = 18
+}
+
 imperial_navy = {
 	can_select = {
 		is_primitive = no
+		NOT = { has_country_flag = unlock_norwegian_naval_doctrine } 
 		tag = JAP
 		has_reform = restoration_reform
 	}
@@ -274,6 +297,5 @@ imperial_navy = {
 		heavy_ship_power = 0.15
 		global_naval_engagement_modifier = 0.10
 	}
-	button_gfx = 6
+	button_gfx = 19
 }
-
