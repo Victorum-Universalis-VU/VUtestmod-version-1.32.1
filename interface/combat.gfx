@@ -5438,6 +5438,10 @@ spriteTypes = {
         name = "GFX_combat_terrain_urban_carpegna"
         texturefile = "gfx/interface/carpegna.dds"
     }
+	spriteType = {                                                       
+        name = "GFX_combat_terrain_urban_san_marino"
+        texturefile = "gfx/interface/san_marino.dds"
+    }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_takamatsu"
         texturefile = "gfx/interface/takamatsu.dds"

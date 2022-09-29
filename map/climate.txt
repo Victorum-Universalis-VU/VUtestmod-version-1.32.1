@@ -246,6 +246,9 @@ mild_winter = {
 	5865
 	
 	5551 5553 5555
+	
+	#VU - San Marino by San Felipe
+	3300
 }
 
 #Generally places where snow is nearly guaranteed any given year, and average winter temperatures hover around 0C
@@ -385,8 +388,6 @@ impassable = {
 
 	#BtP and BT provinces removed in 1.25 due to being replaced with new Paradox provinces. Added to wastelands as a redundancy.
 	scrapped
-	#BtP and BT provinces removed in 1.28 due to being replaced with new Paradox provinces. Added to wastelands as a redundancy.
-	3300 
 	#Beyond Typus New Wastelands
 	5120 5111 5112 5123 5116 5117 5127 5507 5508 5509 5510 5511 5512 5513 5514 5515 5516 5517 5518 5519 5520 5521 5522 5523 5524 5525 5526 5527 5528 5129 5529 5530 5531 5532 5533 5534 5535 5536 5537 5538 8570 8608 8609 8550 5539 5540 5541 5542 5543 5544 5545
 	#Beyond Typus Reserved For Planned Wastelands
