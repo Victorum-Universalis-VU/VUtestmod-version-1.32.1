@@ -3590,7 +3590,7 @@
  oil_well:0 "Oil Well"
  building_oil_well:0 "Oil Well"
  
- # VU Russian Missions
+ #VU - Russian Missions
  tr_into_the_caucasus_title:0 "Into the Caucasus"
  tr_into_the_caucasus_desc:0 "With Crimea under our control, let us now lay claim to the rich mineral lands to the south known as the Caucasus."
  tr_conquest_of_persia_title:0 "Conquest of Persia"
@@ -3602,7 +3602,7 @@
  tr_conquer_transoxania_title:0 "Conquer Transoxania"
  tr_conquer_transoxania_desc:0 "Let us finish off our conquest of Central Asia by conquering Transoxania."
 
- # VU Russian Missions Rewards
+ #VU - Russian Missions Rewards
  convert_the_caucasus:0 "Convert the Caucasus"
  desc_convert_the_caucasus:0 "The nomadic peoples of the Caucasus must be converted to our faith."
  convert_persia:0 "Convert Persia"
@@ -3614,14 +3614,14 @@
  convert_transoxania:0 "Convert Transoxania"
  desc_convert_transoxania:0 "The nomadic and heathen peoples of Transoxania must be converted to our faith."
  
- #Naval Doctrines
+ #VU - New Naval Doctrines by San Felipe
  kriegsmarine:0 "Kriegsmarine"
  kriegsmarine_desc:0 "For many years our neighbours have held dominance over the seas, commanding our coastal waters along with important and lucrative trade routes that could otherwise benefit and contribute to our nations survival; This is why it is high time that we come up with a solution. Hence, the time has come for our military to have its own war fleet, a 'Kriegsmarine' that will not only be tasked with defending our sovereign waters but also as a new means for our country to assert its own national interests in waters far beyond our shores through diplomacy or force if necessary."
  imperial_navy:0 "Opening Japan"
  imperial_navy_desc:0 "The newly arrived 'Nanban' and foreigners on our shores have given us and our nation two choices. Either we open up its doors to trade with the West or keep it shut and incurr the wrath of the Great Powers. Instead of seeing these demands as threats, let us open up Japan and invite nanban innovators and scientist so that we too can build up our defences in order to avert any more possible humiliation and potential defeat."
  
  
- #Missing Mission Locs
+ #VU - Missing Mission Locs by San Felipe
  roman_unification_of_italy:0 "Italia"
  desc_roman_unification_of_italy:0 "For generations we have seen the slow yet steady demise of our once lush heartlands, overrun by barbarians and neglected by the so-called 'Christian' church; enough is enough. Let us no go forth with are resurrected legions to conquer and unify these lands so that we may once again rise as a nation and cilivilisation that is feared and respected by all."
  roman_conquest_of_raetia_and_noricum:0 "Raetia et Noricum"
@@ -3642,4 +3642,28 @@
  desc_roman_conquest_of_britannia:0 "Viewed from afar, it is indeed a mysterious and god forsaken island. We had once thought that strange customs of eating eal pie and shouting profanities at one another like barbarians would have disappeared through our civilising of efforts of their island. No, we must go back there and restore Roman rule, Roman laws and Roman values, even if it takes us a hundred years and all the way to the wall, we must do this for the good of all Romans."
  roman_conquest_of_hibernia:0 "Hibernia"
  desc_roman_conquest_of_hibernia:0 "It is a land "So we've been told" full of fairies, pixies, druids and old drunk men stumbling, falling and talking gibberish as they slump on their sides after a few drinks. It is a ghastly land but one we must take for the sake of the Empire and Roman civlisation in Britannia and Europa to prevail. ONWARDS MEN!"
+ 
+ #VU - New Reforms from Shattered Europa by San Felipe
+ roman_diarchy_reform:0 "Roman Diarchy"
+ roman_diarchy_reform_ruler:0 "Consul"
+ roman_diarchy_reform_desc:0 "A form of government in which two individuals are joint heads of state. Most diarchs hold their position for life, passing the position to their children or other family members."
+
+ #VU - New Ideas by San Felipe
+ SNM_ideas:0 "Sanmarinesi Ideas"
+ SNM_ideas_start:0 "Sanmarinesi Traditions"
+ SNM_ideas_bonus:0 "Sanmarinesi Ambitions"
+ the_arego:0 "The Arego"
+ the_arego_desc:0 "Based on the Roman Senate, the Arego is a governmental assembly composed of the heads of each influential family in San Marino."
+ walls_of_san_marino:0 "The Walls of San Marino"
+ walls_of_san_marino_desc:0 "Our city's fortifications have long defended the republic from outside threat, and this is unlikely to change."
+ florentine_renaissance:0 "Florentine Renaissance"
+ florentine_renaissance_desc:0 "The innovations of our neighobrs have reached our cities, and have started an era of science and creativity in our republic. Let the Sanmarinesi Renaissance begin!"
+ the_papal_alliance:0 "Papal Alliance"
+ the_papal_alliance_desc:0 "The Papal States have long maintained an alliance with San Marino. Although sometimes threatened by hostile neighbors, the Pope is always willing to ensure our freedom."
+ divine_independence:0 "Divine Independence"
+ divine_independence_desc:0 "For many years, San Marino's independence was never verified. But now, through a treaty with the Pope himself, our freedom has been secured by divine right."
+ napoleonic_sympathy:0 "Domestic Treaties"
+ napoleonic_sympathy_desc:0 "A small republic amongst a peninsula of larger, more militaristic nations, San Marino regularly sought diplomatic treaties to ensure their survival."
+ refuge_of_the_unification:0 "Free Thinker's Refuge"
+ refuge_of_the_unification_desc:0 "As the peninsula became embroiled in rebellion, with many Italians desiring a true Italian state, San Marino became a place of refuge for those who spoke the loudest."
  

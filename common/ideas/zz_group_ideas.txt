@@ -1011,6 +1011,7 @@ latin_ideas = {
 	trigger = {
 		culture_group = latin
 		capital_scope = { region = italy_region }
+		NOT = { tag = SNM }
 	}
 	free = yes
 

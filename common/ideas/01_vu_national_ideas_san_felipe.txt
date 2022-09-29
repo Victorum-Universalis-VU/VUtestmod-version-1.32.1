@@ -1,8 +1,4 @@
-
-#Beyond Typus work by Draiocht
-# Do not change tags in here without changing every other reference to them.
-# Do not change tags in here without changing every other reference to them.
-# If adding new groups or ideas, make sure they are unique.
+#VU Additions by San Felipe
 
 ##################################################################################################
 ##################################################################################################
@@ -63,6 +59,55 @@ TNA_ideas = {
 		global_institution_spread = 0.1
 		idea_cost = -0.05
 	}
+}
+
+SNM_ideas = { #San Marino
+    start = {
+        global_unrest = -1
+        production_efficiency = 0.1
+    }
+
+    bonus = {
+        development_cost = -0.2
+    }
+
+    trigger = {
+        tag = SNM
+    }
+    
+    free = yes        #will be added at load.
+        
+    the_arego = {
+        republican_tradition = 0.01
+    }
+    
+    walls_of_san_marino = {
+        defensiveness = 0.25
+        fort_maintenance_modifier = -0.1
+    }
+    
+    florentine_renaissance = {
+        idea_cost = -0.05
+        technology_cost = -0.05
+    }
+    
+    the_papal_alliance = {
+        improve_relation_modifier = 0.25
+        diplomatic_upkeep = 1
+    }
+    
+    divine_independence = {
+        stability_cost_modifier = -0.15
+    }        
+    
+    napoleonic_sympathy = {
+        infantry_power = 0.1
+        diplomatic_reputation = 1
+    }
+    
+    refuge_of_the_unification = {
+        prestige = 1
+    }
 }
 
 ### Removing for now. May return later when I have more time for doing ideas and desc.

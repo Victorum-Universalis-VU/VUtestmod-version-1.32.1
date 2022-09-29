@@ -12009,7 +12009,7 @@ bran_castle = {
     }
 
     can_use_modifiers_trigger = {
-        culture_group = carpathian
+        culture_group = dacian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -12017,7 +12017,7 @@ bran_castle = {
     }
 
     can_upgrade_trigger = {
-		culture_group = carpathian
+		culture_group = dacian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
