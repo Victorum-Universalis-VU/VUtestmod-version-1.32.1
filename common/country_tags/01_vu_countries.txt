@@ -361,6 +361,7 @@ VLT = "countries/Velletri.txt"
 
 #VU - NEW Italy by PanzerMike addition
 SGM = "countries/San_Gimignano.txt"
+SNM = "countries/San_Marino.txt"
 
 #BT - Low Countries
 BEL = "countries/Belgium.txt"

@@ -512,6 +512,8 @@
  urban_pisa:0 "Pisa"
  urban_siena:0 "Siena"
  urban_lucca:0 "Lucca"
+ urban_carpegna:0 "Carpegna"
+ urban_san_marino:0 "San Marino"
  urban_mantua:0 "Mantua"
  urban_ferrara:0 "Ferrara"
  urban_padua:0 "Padua"
