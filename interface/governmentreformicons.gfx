@@ -586,6 +586,11 @@ spriteTypes = {
 		name = "government_reform_signoria_reform"
 		texturefile = "gfx/interface/government_reform_icons/signoria_reform.dds"
 	}
+	
+	spriteType = {
+		name = "government_reform_roman_diarchy_reform"
+		texturefile = "gfx/interface/government_reform_icons/roman_diarchy_reform.dds"
+	}
 			
 	spriteType = {
 		name = "government_reform_protectorate_parliament_reform"

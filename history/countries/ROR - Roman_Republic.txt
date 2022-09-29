@@ -4,11 +4,9 @@ government_rank = 1
 technology_group = western
 primary_culture = romagnan
 religion = catholic
-capital = 7031
-fixed_capital = 7031 #San Marino
-set_estate_privilege = estate_church_papal_emissary
+capital = 118 #Rome
 
-historical_friend = PAP
+#historical_friend = XXX
 #historical_rival = XXX
 
 
@@ -16,7 +14,7 @@ historical_friend = PAP
 
 1444.10.1 = {
     monarch = {
-        name = "Grand and General Council" #Diarchy is Duumvirate in Latin for 'Corule'.
+        name = "Duumvirate" #Diarchy is Duumvirate in Latin for 'Corule'.
         dip = 3
         adm = 3
         mil = 3
