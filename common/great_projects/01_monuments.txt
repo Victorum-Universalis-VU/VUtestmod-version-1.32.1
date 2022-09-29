@@ -11976,7 +11976,7 @@ bara_katra = {
 }
 
 bran_castle = {
-    start = 161
+    start = 7010
     
     date = 1212.01.01
     
@@ -12070,8 +12070,8 @@ bran_castle = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_tax_modifier = 0.1
-			improve_relation_modifier = 0.1
+			global_missionary_strength = 0.15
+			defensiveness = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -12100,8 +12100,8 @@ bran_castle = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_tax_modifier = 0.1
-			improve_relation_modifier = 0.1
+			global_missionary_strength = 0.175
+			defensiveness = 0.20
 		}
 
 		#what effects happen when this tier is achieved
@@ -12130,8 +12130,9 @@ bran_castle = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_tax_modifier = 0.1
-			improve_relation_modifier = 0.1
+			global_missionary_strength = 0.2
+			defensiveness = 0.30
+			army_tradition = 1
 		}
 
 		#what effects happen when this tier is achieved
