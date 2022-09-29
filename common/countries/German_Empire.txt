@@ -130,5 +130,5 @@ army_names = {
 }
 
 fleet_names = {
-	"Kaiserliche Flotte"
+	"Kriegsmarine" "Kaiserliche Flotte" "Reichsmarine" "Baltische Flotte" "Nordseeflotte" "Atlantikflotte" "Kanalflotte" "Ostafrikanische Flotte" "Westafrikanische Flotte" "Karibische Flotte" "Indische Flotte" "Pazifikflotte" "Mittelmeerflotte" "Ost See Squadron"
 }

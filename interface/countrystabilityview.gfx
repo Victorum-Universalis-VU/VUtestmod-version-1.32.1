@@ -585,7 +585,7 @@ spriteTypes = {
 
 	}
 	spriteType = {
-		name = "GFX_icon_development_efficiency"
+		name = "GFX_icon_development_cost_modifier"
 		texturefile = "gfx//interface//development_icon.dds"
 		loadType = "INGAME"
 	}
@@ -632,5 +632,28 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//governing_capacity.dds"
 		loadType = "INGAME"
 	}
-
+	spriteType = {
+		name = "GFX_disaster_decline_of_mali"
+		texturefile = "gfx//interface//disasters//decline_of_mali.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	#spriteType = {
+	#	name = "GFX_disaster_collapse_of_clans"
+	#	texturefile = "gfx//interface//disasters//collapse_of_clans.dds"
+	#	noOfFrames = 3
+	#	loadType = "INGAME"
+	#}
+	#spriteType = {
+	#	name = "GFX_disaster_era_of_princes"
+	#	texturefile = "gfx//interface//disasters//era_of_princes.dds"
+	#	noOfFrames = 3
+	#	loadType = "INGAME"
+	#}
+	spriteType = {
+		name = "GFX_disaster_prussian_confederation_disaster"
+		texturefile = "gfx//interface//disasters//prussian_confederation_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
 }

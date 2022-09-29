@@ -123,3 +123,7 @@ ship_names = {
 army_names = {
 	"Banner"
 }
+
+fleet_names = {
+	"Kriegsmarine" "Baltische Flotte" "Nordseeflotte" "Atlantikflotte" "Kanalflotte" "Ostafrikanische Flotte" "Westafrikanische Flotte" "Karibische Flotte" "Indische Flotte" "Pazifikflotte" "Mittelmeerflotte" "Ost See Squadron"
+}

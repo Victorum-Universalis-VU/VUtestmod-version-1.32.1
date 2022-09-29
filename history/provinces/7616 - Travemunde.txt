@@ -1,9 +1,9 @@
 #6296 - Travemünde
 
-owner = HSA
-controller = HSA
-add_core = HSA
+owner = BLK
+controller = BLK
 add_core = BLK
+add_core = HSA
 culture = holsatian
 religion = catholic
 hre = yes
