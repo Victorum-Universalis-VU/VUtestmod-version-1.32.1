@@ -566,7 +566,7 @@ categories =  {
 			4759 
 			
 			#VU additions - San Felipe
-			643 1031 1214 1871 2147 3049 3188 3965 3968 3972 3973 3975 3986 3993 3996 4145 4391 4421 4558 4710 5557 6127 6135 6146 6452 6880 6894 7010 7074 7077 7647 7820 7978 8046 8207 8412 8414 8426
+			643 1031 1214 1871 2147 3049 3188 3965 3968 3972 3973 3975 3986 3993 3996 4145 4391 4421 4558 4710 5557 6127 6135 6146 6452 6880 6894 7074 7077 7647 7820 7978 8046 8207 8412 8414 8426
 			
 			#Brazil Overhaul
 			758 2919 2892 2891 759 3093 3100 3106 3109 3212 3215 3249 3255 3258
@@ -6035,6 +6035,24 @@ categories =  {
 		}
     }
     # Romania
+	urban_bran = {
+		color = { 177 156 217 }
+        type = plains
+        sound_type = plains
+        supply_limit = 10
+        movement_cost = 1.0
+        local_development_cost = -0.20
+        allowed_num_of_buildings = 4
+        local_defensiveness = 0.30
+        defence = 2
+        nation_designer_cost_multiplier = 1.50
+        local_build_time = -0.30
+        local_build_cost = -0.25
+		terrain_override = {
+			7010
+		}
+    }
+	# Romania
 	urban_tirgoviste = {
 		color = { 177 156 217 }
         type = plains

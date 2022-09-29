@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = indep_daimyo
 technology_group = japanese
 religion = animism
 primary_culture = kyushuan
