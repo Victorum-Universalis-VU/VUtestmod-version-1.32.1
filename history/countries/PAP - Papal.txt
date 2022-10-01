@@ -10,6 +10,8 @@ capital = 118	# Roma
 fixed_capital = 118  # Cannot move capital away from this province & no power cost to move to it
 add_army_professionalism = 0.05
 
+historical_friend = SNM
+
 change_estate_land_share = {
 	estate = estate_church
 	share = -30

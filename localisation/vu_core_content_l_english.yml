@@ -1887,9 +1887,9 @@
  #GENERIC MISSIONS FOR EVERY NATIONS IN 6TH AND 7TH COLUMN
  build_roads_mission_title:0 "Build Road Network"
  build_roads_mission_desc:0 "Investing in the infrastructure of our nation is core way to improve every other aspect of its economy and welldoing."
- build_special_buildings_mission_title:0 "Specialized Production Effort"
+ build_special_buildings_mission_title:0 "Specialized Production"
  build_special_buildings_mission_desc:0 "Invest in advanced industry to produce refined and valued trade goods. New sector of industry will bring wealth to our nation and large investments will kickstart the economy."
- naval_expansion_mission_title:0 "Form Formidable Navy"
+ naval_expansion_mission_title:0 "A Formidable Navy"
  naval_expansion_mission_desc:0 "Once we can access the sea, having a sizeable navy is a way to ensure our interest on our adjacent waters. Naval reforms and construction of naval forces are necessary for our political position in the world."
  balance_factions_mission_title:0 "Balance the Estates"
  balance_factions_mission_desc:0 "We cannot let different factions and estates in our country take control and mess with our central governments. Keep their power in check and maintain good relations to ensure their usefulness for our cause."

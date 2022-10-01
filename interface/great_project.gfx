@@ -119,6 +119,11 @@ spriteTypes = {
 		name = "GFX_great_project_oxford_university"
 		texturefile = "gfx//interface//great_projects//great_project_oxford_university.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_great_project_uffington_white_horse"
+		texturefile = "gfx//interface//great_projects//great_project_uffington_white_horse.dds"
+	}
 
 	spriteType = {
 		name = "GFX_great_project_sorbonne_university"

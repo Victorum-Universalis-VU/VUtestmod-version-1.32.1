@@ -3643,11 +3643,21 @@
  roman_conquest_of_hibernia:0 "Hibernia"
  desc_roman_conquest_of_hibernia:0 "It is a land "So we've been told" full of fairies, pixies, druids and old drunk men stumbling, falling and talking gibberish as they slump on their sides after a few drinks. It is a ghastly land but one we must take for the sake of the Empire and Roman civlisation in Britannia and Europa to prevail. ONWARDS MEN!"
  
- #VU - New Reforms from Shattered Europa by San Felipe
+ #VU - New San Marino Reforms from Shattered Europa by San Felipe
  roman_diarchy_reform:0 "Roman Diarchy"
  roman_diarchy_reform_ruler:0 "Consul"
  roman_diarchy_reform_desc:0 "A form of government in which two individuals are joint heads of state. Most diarchs hold their position for life, passing the position to their children or other family members."
-
+ 
+ #VU - New Icelandic Reforms by San Felipe
+ althing_elite_reform:0 "Alþingi"
+ althing_elite_reform_desc:0 "Founded in 930AD at Þingvellir "Thing fields" or "Assembly fields", the Alþingi or Althing is the supreme national parliament of the Icelandic peoples and it is one of the oldest surviving parliaments in the world."
+ #VU - New Icelandic Gov Names by San Felipe
+ ICE_COMMONWEALTH:0 "Samveldi"
+ ICE_GRAND_COMMONWEALTH:0 "Stóra samveldið"
+ ICE_GREAT_COMMONWEALTH:0 "Stóra samveldið"
+ GODI:0 "Goði"
+ GREAT_GODI:0 "Great Goði"
+ 
  #VU - New Ideas by San Felipe
  SNM_ideas:0 "Sanmarinesi Ideas"
  SNM_ideas_start:0 "Sanmarinesi Traditions"

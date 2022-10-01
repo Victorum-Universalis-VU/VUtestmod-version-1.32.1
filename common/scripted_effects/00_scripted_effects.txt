@@ -1144,6 +1144,19 @@ restore_old_nation_on_formation_effect = {
 			}
 			else_if = {
 				limit = {
+					has_reform = althing_elite_reform
+				}
+				event_target:old_tag_target = {
+					change_government = republic
+					add_government_reform = althing_elite_reform
+					#set_legacy_government = althing_republic
+					define_ruler = {
+						claim = 95
+					}
+				}
+			}
+			else_if = {
+				limit = {
 					has_reform = peasants_republic
 				}
 				event_target:old_tag_target = {

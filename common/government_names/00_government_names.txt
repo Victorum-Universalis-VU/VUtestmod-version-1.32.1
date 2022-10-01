@@ -3883,6 +3883,31 @@ buddhist_noble_republic = {
 		}
 	}
 }
+
+althing_noble_republic = {
+	rank = {
+		1 = ICE_COMMONWEALTH
+		2 = ICE_GRAND_COMMONWEALTH
+		3 = ICE_GREAT_COMMONWEALTH
+	}
+
+	ruler_male = {
+		1 = GODI
+		2 = GODI
+		3 = GREAT_GODI
+	}
+
+	ruler_female = {
+		1 = GODI
+		2 = GODI
+		3 = GREAT_GODI
+	}
+
+	trigger = {
+		has_reform = althing_elite_reform
+	}
+}
+
 muslim_republic = {
 	rank = {
 		1 = REPUBLIC

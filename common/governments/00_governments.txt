@@ -882,6 +882,9 @@ republic = {
 		republican_dictatorship
 		administrative_republic
 		noble_republic
+		#start of VU additions by San Felipe
+		althing_republic
+		#End of VU additions by San Felipe
 		oligarchic_republic
 		pirate_republic
 		merchant_republic
@@ -928,6 +931,9 @@ republic = {
 				venice_merchants_reform
 				pirate_republic_reform
 				noble_elite_reform
+				#start of VU additions by San Felipe
+				althing_elite_reform
+				#End of VU additions by San Felipe
 				free_city
 				trading_city
 				ambrosian_republic
@@ -1856,6 +1862,12 @@ pre_dharma_mapping = {
 		government = republic
 		legacy_government = noble_republic
 	}
+	#start of VU additions by San Felipe
+	althing_republic = {
+		government = republic
+		legacy_government = althing_republic
+	}
+	#End of VU additions by San Felipe
 	administrative_republic = {
 		government = republic
 		legacy_government = administrative_republic

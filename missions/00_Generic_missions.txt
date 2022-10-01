@@ -642,7 +642,7 @@ vu_extra_slot_missions_2 = {
 		trigger = { 
 			any_owned_province = { has_port = yes }
 			navy_size_percentage = 0.95
-			naval_maintenance = 99	#>99%
+			naval_maintenance = 0.99	#>99%
 			OR = {
 				naval_forcelimit = 25
 				navy_size = 25
