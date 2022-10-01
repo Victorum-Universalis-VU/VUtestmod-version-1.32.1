@@ -119,14 +119,14 @@ alliance = {
 ###########
 
 vassal = {
-	first = DAN
+	first = NOR
 	second = ICE
 	start_date = 1444.1.1
 	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
 }
 
 vassal = {
-	first = DAN
+	first = NOR
 	second = ICE
 	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
 	end_date = 1536.1.1

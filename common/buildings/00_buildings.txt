@@ -3323,11 +3323,12 @@ canal_system = {
 			NOT = {
 				has_terrain = hills
 				has_terrain = highlands
-				has_terrain = mountain
+				has_terrain = mountains
 				has_terrain = cold_mountains
 				has_terrain = desert_ranges
 				has_terrain = dry_highlands
 				has_terrain = glacier
+				#has_terrain = woods
 			}
 		}
 	}
@@ -3413,7 +3414,7 @@ railway_system = {
 	build_trigger = {
 		#Can't build if province has a terrain not suitable for railways
 		#I decided to make that only mountains and glaciers because adding the other canal terrains would make railways worthless in many parts of the world.
-		NOT = { has_terrain = mountain }
+		NOT = { has_terrain = mountains }
 		NOT = {	has_terrain = cold_mountains }
 		NOT = {	has_terrain = glacier }
 		NOT = {	has_terrain = swamp }

@@ -2494,6 +2494,12 @@
  construct_oxford_university_title: "Renovate the Oxford University"
  construct_oxford_university_desc: "There is evidence of teaching at Oxford University as early as 1096, making it the oldest educational in the English-speaking world and the world's second-oldest university in continuous operation. It grew rapidly from 1167 when Henry II banned English students from attending the University of Paris; Costs 3500."
  #
+ great_project_uffington_white_horse: "Uffington White Horse"
+ uffington_white_horse: "Uffington White Horse"
+ uffington_white_horse_title: "Renovate the Uffington White Horse"
+ construct_uffington_white_horse_title: "Renovate the Uffington White Horse"
+ construct_uffington_white_horse_desc: "The Uffington White Horse is a prehistoric hill figure measuring 360 ft that was created by filling in deep trenches with crushed white chalk. The Equine figure itself is situated atop a White Horse Hill in the English civil parish of Uffington; Costs 3500."
+ #
  great_project_sorbonne_university: "Sorbonne"
  sorbonne_university: "Sorbonne"
  sorbonne_university_title: "Renovate the Sorbonne"

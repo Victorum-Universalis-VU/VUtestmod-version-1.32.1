@@ -78,7 +78,7 @@ SNM_ideas = { #San Marino
     free = yes        #will be added at load.
         
     the_arego = {
-        republican_tradition = 0.01
+        republican_tradition = 0.1
     }
     
     walls_of_san_marino = {

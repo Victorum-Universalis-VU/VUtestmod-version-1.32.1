@@ -575,16 +575,17 @@ roman_diarchy = {
     republican_name = yes
     royal_marriage = yes
 	potential = {
-		OR = {
-		   tag = SNM #San Marino
-		   tag = ROM #Roman Empire
+	    OR = {
+		   tag = SNM
+		   tag = ROM
+		   was_tag = ROM
+		   has_reform = roman_diarchy_reform
 		}
-		NOT = {
-		   has_reform = revolutionary_council_reform
-		   has_reform = absolute_president_reform
-		   has_reform = frequent_elections_reform
-		   has_reform = consolidation_of_power_reform
-		   has_reform = consolidate_power_into_different_candidates_reform
+		NOT = { has_reform = revolutionary_council_reform }
+		NOT = { has_reform = absolute_president_reform }
+		NOT = { has_reform = frequent_elections_reform }
+		NOT = { has_reform = consolidation_of_power_reform }
+		NOT = { has_reform = consolidate_power_into_different_candidates_reform }
 		}
 	}
 	
@@ -870,6 +871,30 @@ noble_republic = {
 	}
 }
 
+althing_republic = {
+	# government mechanics flags go here
+	icon = "althing_elite_reform"
+	allow_normal_conversion = yes
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = no
+	duration = 4
+
+	republican_name = yes
+	royal_marriage = yes
+	
+	monarchy = yes
+	modifiers = {
+   		governing_capacity = 100
+		tolerance_heretic = 1
+		land_morale = 0.1
+		max_absolutism = -40
+	}
+
+	ai = {
+		factor = 0
+	}
+}
 
 administrative_republic = {
 	# government mechanics flags go here

@@ -4069,6 +4069,154 @@ oxford_university = {
     }
 }
 
+uffington_white_horse = {
+    start = 237
+    
+    date = 1380.01.01 #BCE
+    
+    time = {
+        months = 0
+    }
+    
+    build_cost = 0
+    
+    can_be_moved = no
+    
+    move_days_per_unit_distance = 10
+    
+    starting_tier = 1
+    
+    type = monument
+
+    build_trigger = {
+        culture_group = british
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}	
+    }
+
+    on_built = {
+    }
+    
+    on_destroyed = {
+    }
+
+    can_use_modifiers_trigger = {
+        culture_group = british
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}		
+    }
+
+    can_upgrade_trigger = {
+	    is_year = 1755
+		culture_group = british
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}	
+    }
+
+    keep_trigger = {
+    }
+
+    tier_0 = {			#needs to be completely changed!!!!
+        upgrade_time = {
+            months = 0
+        }
+
+        cost_to_upgrade = {
+            factor = 0
+        }
+
+        province_modifiers = {
+        }
+
+        area_modifier = {
+        }
+
+        country_modifiers = {
+        }
+
+        on_upgraded = {
+        }
+    }
+
+    tier_1 = {
+        upgrade_time = {
+            months = 120
+        }
+
+        cost_to_upgrade = {
+            factor = 4000
+        }
+
+        province_modifiers = {
+        }
+
+        area_modifier = {
+        }
+
+        country_modifiers = {
+		    build_time = -0.01 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
+			relation_with_heathens = -10 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
+        }
+
+        on_upgraded = {
+        }
+    }
+	
+	tier_2 = {
+        upgrade_time = {
+            months = 240
+        }
+
+        cost_to_upgrade = {
+            factor = 6000
+        }
+
+        province_modifiers = {
+        }
+
+        area_modifier = {
+        }
+
+        country_modifiers = {
+			build_time = -0.02 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
+			relation_with_heathens = -20 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
+		}
+
+        on_upgraded = {
+        }
+    }
+	
+	tier_3 = {
+        upgrade_time = {
+            months = 480
+        }
+
+        cost_to_upgrade = {
+            factor = 8000
+        }
+
+        province_modifiers = {
+        }
+
+        area_modifier = {
+        }
+
+        country_modifiers = {
+			build_time = -0.03 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
+			relation_with_heathens = -30 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
+        }
+
+        on_upgraded = {
+        }
+    }
+}
+
 sorbonne_university = {
     start = 7960
     
