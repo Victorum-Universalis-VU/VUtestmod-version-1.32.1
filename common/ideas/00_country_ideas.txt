@@ -17,6 +17,7 @@ norse_ideas = {
 	trigger = {
 		primary_culture = norse
 		religion = norse_pagan_reformed
+		NOT = { has_country_flag = refused_norse_ideas }
 	}
 	free = yes
 	
@@ -155,7 +156,7 @@ ENG_ideas = {
 	}
 	eng_red_coats = {
 		fire_damage = 0.1
-		allowed_marine_fraction = 0.05
+		allowed_marine_fraction = 0.25
 	}
 	sick_and_hurt_board = {
 		sailors_recovery_speed = 0.10
@@ -206,7 +207,7 @@ GBR_ideas = {
 	britanna_rules_the_waves = {
 		leader_naval_manuever = 1
 		blockade_efficiency = 0.33
-		allowed_marine_fraction = 0.10
+		allowed_marine_fraction = 0.50
 	}
 }
 
@@ -685,7 +686,7 @@ SPA_ideas = {
 CAS_ideas = {
 	start = {
 		land_morale = 0.15
-		allowed_marine_fraction = 0.05
+		allowed_marine_fraction = 0.25
 	}
 	bonus = {
 		global_colonial_growth = 25
@@ -750,7 +751,7 @@ NED_ideas = {
 	}
 	instructie_voor_de_admiraliteiten = {
 		leader_naval_fire = 2
-		allowed_marine_fraction = 0.05
+		allowed_marine_fraction = 0.25
 	}
 	embrace_humanism = {
 		tolerance_heretic = 3
@@ -1273,7 +1274,7 @@ VEN_ideas = {
 		diplomats = 1
 	}
 	stato_da_mar = {
-		trade_efficiency = 0.10
+		trade_efficiency = 0.2
 	}
 	state_inquisition = {
 		global_spy_defence = 0.3
@@ -1481,7 +1482,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.3
 		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
@@ -1703,7 +1704,7 @@ HAB_ideas = {
 	}
 	hofkriegsrat = {
 		reinforce_speed = 0.3
-		discipline = 0.03
+		discipline = 0.05
 	}
 }
 
@@ -1748,8 +1749,8 @@ CHI_ideas = {
 
 PER_ideas = {
 	start = {
-		land_morale = 0.1
-		cavalry_shock = 1
+		land_morale = 0.15
+		cavalry_power = 0.15 
 	}
 	
 	bonus = {
@@ -2109,7 +2110,6 @@ ARA_ideas = {
 	start = {
 		galley_power = 0.2
 		diplomatic_reputation = 2			#Replacing -  trade efficiency 0.1, becuase CoA PUs were rebelling too much and it seemed like a fun idea
-		trade_efficiency = 0.1
 	}
 	
 	bonus = {
@@ -2475,7 +2475,7 @@ KOR_ideas = {
 	free = yes
 	
 	hanguel_alphabet = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	grand_code = {
 		stability_cost_modifier = -0.10
@@ -2973,7 +2973,7 @@ SPI_ideas = {
 #		prestige = 0.5
 	}
 	spi_royal_sardinian_army = {
-		discipline = 0.05 #BTB Tweak due to vanilla powercreep. 3% discipline isn't worth jack.
+		discipline = 0.05
 		global_manpower_modifier = 0.1
 	}
 	spi_centralized_state = {
@@ -3511,7 +3511,7 @@ TUS_ideas = {
 USA_ideas = {
 	start = {
 		merchants = 1
-		allowed_marine_fraction = 0.1
+		allowed_marine_fraction = 0.5
 	}
 	
 	bonus = {
@@ -8750,7 +8750,7 @@ ROM_ideas = {
 		administrative_efficiency = 0.05
 	}
 	imperium_sine_fine = {
-		core_creation = -0.20
+		core_creation = -0.25
 		years_of_nationalism = -5
 	}
 }
@@ -13173,7 +13173,7 @@ irish_ideas = {
 		republican_tradition = 0.5 # BT
 	}
 	more_than_irish = {
-		global_unrest = -2 # VU; culture_conversion_cost = -0.2
+		global_unrest = -2
 	}
 	loyal_catholics = {
 		papal_influence = 1
@@ -14545,7 +14545,7 @@ AUS_ideas = {
 	}
 	AUS_sandpaper_and_cheating = {
 		infantry_power = 0.1
-		allowed_marine_fraction = 0.1
+		allowed_marine_fraction = 0.5
 	}
 	AUS_royal_navy = {
 		global_ship_cost = -0.1
@@ -15899,7 +15899,7 @@ SUN_ideas = {
 		manpower_recovery_speed = 0.2
 	}
 	bonus = {
-		land_morale = 0.2
+		land_morale = 0.20
 	}
 	trigger = {
 		tag = SUN
@@ -15925,7 +15925,7 @@ SUN_ideas = {
 		global_tax_modifier = 0.1
 	}
 	bi_yearly_harvest = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.10
 	}
 }
 
@@ -16247,15 +16247,15 @@ SUL_ideas = {
 		diplomatic_reputation = 1
 		envoy_travel_time = -0.25
 	}
-	sul_port_of_jolo = {
-	    trade_steering = 0.10
+	sul_port_of_jolo = { 
+		trade_efficiency = 0.10
 	}
 	sul_dagat_sulu = { 
 		sunk_ship_morale_hit_recieved = -0.2
 	}
 	sul_coconut_plantations = {
 		production_efficiency = 0.1
-		build_cost = -0.1
+		build_cost = -0.10
 	}
 	sul_pearl_farming = {
 		global_trade_goods_size_modifier = 0.1
